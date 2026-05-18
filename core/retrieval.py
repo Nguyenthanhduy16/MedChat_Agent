@@ -1,8 +1,19 @@
 from qdrant_client import AsyncQdrantClient
+from qdrant_client.http.models import FieldCondition, Filter, MatchAny
 
 from core.models import EvidenceItem, RetrievalPlan
 from core.text import accent_fold
 
+
+FIELD_ALIASES = {
+    "interaction": ["interaction", "tuong_tac_thuoc"],
+    "contraindication": ["contraindication", "chong_chi_dinh"],
+    "warning": ["warning", "canh_bao", "than_trong"],
+    "dosage": ["dosage", "lieu_luong_va_cach_dung", "cach_dung"],
+    "pregnancy_lactation": ["pregnancy_lactation", "phu_nu_co_thai_va_cho_con_bu"],
+    "indication": ["indication", "cong_dung", "chi_dinh"],
+    "overdose": ["overdose", "qua_lieu_va_xu_tri"],
+}
 
 TRUST_WEIGHT = {
     "regulatory": 0.30,
@@ -17,10 +28,12 @@ def rerank_evidence(
     preferred_fields: list[str],
     required_entities: list[str],
 ) -> list[EvidenceItem]:
+    expanded_preferred_fields = set(_expand_field_values(preferred_fields))
+
     def combined(item: EvidenceItem) -> float:
         text_folded = accent_fold(item.text)
         sparse = float(item.metadata.get("sparse_score", 0.0))
-        field_bonus = 0.15 if item.metadata.get("field") in preferred_fields else 0.0
+        field_bonus = 0.15 if item.metadata.get("field") in expanded_preferred_fields else 0.0
         entity_bonus = 0.0
         if required_entities:
             matches = sum(1 for entity in required_entities if accent_fold(entity) in text_folded)
@@ -37,12 +50,11 @@ class QdrantRetriever:
         self.collection = collection
 
     async def retrieve(self, plan: RetrievalPlan, query_vector: list[float], timeout_seconds: float) -> list[EvidenceItem]:
-        response = await self.client.query_points(
-            collection_name=self.collection,
-            query=query_vector,
-            limit=20,
-            with_payload=True,
-            timeout=int(timeout_seconds) if timeout_seconds else None,
+        query_filter = _build_query_filter(plan.metadata_filters)
+        response = await self._query_points(
+            query_vector=query_vector,
+            query_filter=query_filter,
+            timeout_seconds=timeout_seconds,
         )
         results = response.points
         items: list[EvidenceItem] = []
@@ -70,6 +82,29 @@ class QdrantRetriever:
             required_entities=plan.entities.get("drugs", []),
         )
 
+    async def _query_points(self, query_vector: list[float], query_filter: Filter | None, timeout_seconds: float):
+        try:
+            return await self.client.query_points(
+                collection_name=self.collection,
+                query=query_vector,
+                query_filter=query_filter,
+                limit=20,
+                with_payload=True,
+                timeout=int(timeout_seconds) if timeout_seconds else None,
+            )
+        except Exception as exc:
+            if query_filter is None or "Index required" not in str(exc):
+                raise
+
+        return await self.client.query_points(
+            collection_name=self.collection,
+            query=query_vector,
+            query_filter=None,
+            limit=20,
+            with_payload=True,
+            timeout=int(timeout_seconds) if timeout_seconds else None,
+        )
+
 
 def _sparse_score(text: str, terms: list[str]) -> float:
     folded = accent_fold(text)
@@ -77,3 +112,22 @@ def _sparse_score(text: str, terms: list[str]) -> float:
         return 0.0
     matches = sum(1 for term in terms if accent_fold(term) in folded)
     return matches / len(terms)
+
+
+def _build_query_filter(metadata_filters: dict[str, list[str]]) -> Filter | None:
+    conditions: list[FieldCondition] = []
+    for key, values in metadata_filters.items():
+        expanded_values = _expand_field_values(values) if key == "field" else values
+        unique_values = list(dict.fromkeys(value for value in expanded_values if value))
+        if unique_values:
+            conditions.append(FieldCondition(key=key, match=MatchAny(any=unique_values)))
+    if not conditions:
+        return None
+    return Filter(must=conditions)
+
+
+def _expand_field_values(fields: list[str]) -> list[str]:
+    expanded: list[str] = []
+    for field in fields:
+        expanded.extend(FIELD_ALIASES.get(field, [field]))
+    return list(dict.fromkeys(expanded))

@@ -1,8 +1,14 @@
 import asyncio
+import os
 from typing import Protocol
 
 import httpx
 from openai import AsyncOpenAI
+
+# Buộc sentence-transformers/huggingface dùng model đã cache cục bộ,
+# không kết nối lên huggingface.co để verify/tải lại model.
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
 
 
 class ChatModel(Protocol):

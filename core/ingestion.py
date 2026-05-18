@@ -5,7 +5,7 @@ from typing import Any
 from uuid import NAMESPACE_URL, uuid5
 from datetime import UTC, datetime
 
-from qdrant_client.http.models import Distance, PointStruct, VectorParams
+from qdrant_client.http.models import Distance, PayloadSchemaType, PointStruct, VectorParams
 
 from core.config import Settings, get_settings
 from core.llm import EmbeddingModel
@@ -26,6 +26,7 @@ CONDITION_TERMS = {
 }
 CONDITION_CONTEXT_TERMS = ("disease", "benh", "condition", "symptom", "trieu chung")
 INGREDIENT_CONTEXT_TERMS = ("duoc chat", "ingredient", "active substance")
+PAYLOAD_INDEX_FIELDS = ("field", "trust_tier", "source_family", "name")
 
 
 def _require_metadata(raw: dict[str, Any], path: Path | None = None) -> dict[str, Any]:
@@ -236,12 +237,25 @@ async def ingest_directory_async(
 
 async def _ensure_collection(qdrant_client: Any, settings: Settings) -> None:
     exists = await qdrant_client.collection_exists(collection_name=settings.qdrant_collection)
-    if exists:
-        return
-    await qdrant_client.create_collection(
-        collection_name=settings.qdrant_collection,
-        vectors_config=VectorParams(size=settings.qdrant_vector_size, distance=Distance.COSINE),
-    )
+    if not exists:
+        await qdrant_client.create_collection(
+            collection_name=settings.qdrant_collection,
+            vectors_config=VectorParams(size=settings.qdrant_vector_size, distance=Distance.COSINE),
+        )
+    await _ensure_payload_indexes(qdrant_client, settings)
+
+
+async def _ensure_payload_indexes(qdrant_client: Any, settings: Settings) -> None:
+    for field_name in PAYLOAD_INDEX_FIELDS:
+        try:
+            await qdrant_client.create_payload_index(
+                collection_name=settings.qdrant_collection,
+                field_name=field_name,
+                field_schema=PayloadSchemaType.KEYWORD,
+            )
+        except Exception as exc:
+            if "already exists" not in str(exc).lower():
+                raise
 
 
 def _point_payload(chunk: CanonicalChunk) -> dict[str, Any]:

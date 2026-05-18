@@ -22,6 +22,7 @@ class RecordingEmbeddingModel:
 class RecordingQdrantClient:
     def __init__(self) -> None:
         self.created_collections: list[dict[str, Any]] = []
+        self.created_payload_indexes: list[dict[str, Any]] = []
         self.upserts: list[dict[str, Any]] = []
 
     async def collection_exists(self, collection_name: str) -> bool:
@@ -29,6 +30,9 @@ class RecordingQdrantClient:
 
     async def create_collection(self, **kwargs: Any) -> None:
         self.created_collections.append(kwargs)
+
+    async def create_payload_index(self, **kwargs: Any) -> None:
+        self.created_payload_indexes.append(kwargs)
 
     async def upsert(self, **kwargs: Any) -> None:
         self.upserts.append(kwargs)
@@ -273,6 +277,13 @@ async def test_ingest_directory_async_embeds_and_upserts_to_qdrant() -> None:
     assert embedding.input_types == ["passage"]
     assert qdrant.created_collections
     assert qdrant.created_collections[0]["collection_name"] == "test_chunks"
+    assert {index["field_name"] for index in qdrant.created_payload_indexes} == {
+        "field",
+        "trust_tier",
+        "source_family",
+        "name",
+    }
+    assert all(index["collection_name"] == "test_chunks" for index in qdrant.created_payload_indexes)
     assert qdrant.upserts[0]["collection_name"] == "test_chunks"
     assert qdrant.upserts[0]["wait"] is True
     assert qdrant.upserts[0]["timeout"] == 7

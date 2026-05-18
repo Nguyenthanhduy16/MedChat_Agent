@@ -163,3 +163,69 @@ def test_get_chat_service_uses_openai_chat_local_e5_and_qdrant(monkeypatch) -> N
     assert isinstance(service.embedding_model, FakeLocalEmbeddingModel)
     assert service.embedding_model.model == "embed-test"
     assert isinstance(service.retriever, QdrantRetriever)
+
+
+def test_source_status_reports_qdrant_collection_and_source_families(monkeypatch) -> None:
+    class FakePoint:
+        def __init__(self, source_family: str) -> None:
+            self.payload = {"source_family": source_family}
+
+    class FakeQdrantClient:
+        def __init__(self, url: str, api_key: str | None, check_compatibility: bool) -> None:
+            self.url = url
+            self.api_key = api_key
+            self.check_compatibility = check_compatibility
+
+        async def collection_exists(self, collection_name: str) -> bool:
+            assert collection_name == "test_collection"
+            return True
+
+        async def scroll(self, collection_name: str, limit: int, with_payload: list[str], with_vectors: bool):
+            assert collection_name == "test_collection"
+            assert limit == 100
+            assert with_payload == ["source_family"]
+            assert with_vectors is False
+            return [FakePoint("longchau_ingredients_chunked"), FakePoint("pharmacity_chunked")], None
+
+    monkeypatch.setattr(routes, "AsyncQdrantClient", FakeQdrantClient)
+    monkeypatch.setattr(
+        routes,
+        "get_settings",
+        lambda: routes.Settings(
+            qdrant_url="https://qdrant.test:6333",
+            qdrant_api_key="qdrant-key",
+            qdrant_collection="test_collection",
+        ),
+    )
+    client = TestClient(create_app())
+
+    response = client.get("/sources/status")
+
+    assert response.status_code == 200
+    assert response.json() == {
+        "collection": "test_collection",
+        "source_families": ["longchau_ingredients_chunked", "pharmacity_chunked"],
+        "qdrant_ready": True,
+    }
+
+
+def test_source_status_fails_soft_when_qdrant_is_unavailable(monkeypatch) -> None:
+    class FakeQdrantClient:
+        def __init__(self, url: str, api_key: str | None, check_compatibility: bool) -> None:
+            pass
+
+        async def collection_exists(self, collection_name: str) -> bool:
+            raise RuntimeError("connection refused")
+
+    monkeypatch.setattr(routes, "AsyncQdrantClient", FakeQdrantClient)
+    monkeypatch.setattr(routes, "get_settings", lambda: routes.Settings(qdrant_collection="test_collection"))
+    client = TestClient(create_app())
+
+    response = client.get("/sources/status")
+
+    assert response.status_code == 200
+    assert response.json() == {
+        "collection": "test_collection",
+        "source_families": [],
+        "qdrant_ready": False,
+    }

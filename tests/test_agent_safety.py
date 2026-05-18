@@ -36,3 +36,20 @@ def test_retrieval_plan_includes_filters_and_entities() -> None:
 
     assert "interaction" in plan.metadata_filters["field"]
     assert plan.entities["drugs"] == ["warfarin", "ibuprofen"]
+
+
+def test_retrieval_plan_does_not_field_filter_drug_identity_questions() -> None:
+    decision = route_question(ChatRequest(message="Paracetamol la thuoc gi?"))
+    plan = build_retrieval_plan(decision)
+
+    assert decision.intents == ["drug_identity"]
+    assert "field" not in plan.metadata_filters
+    assert plan.entities["drugs"] == ["paracetamol"]
+
+
+def test_retrieval_plan_does_not_field_filter_general_health_questions() -> None:
+    decision = route_question(ChatRequest(message="Toi bi dau dau nen lam gi?"))
+    plan = build_retrieval_plan(decision)
+
+    assert decision.intents == ["general_health"]
+    assert "field" not in plan.metadata_filters

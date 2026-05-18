@@ -68,16 +68,19 @@ def build_retrieval_plan(decision: RouterDecision) -> RetrievalPlan:
             fields.extend(["contraindication", "warning"])
         elif intent == "pregnancy_lactation":
             fields.extend(["pregnancy_lactation", "warning"])
-        else:
+        elif intent in {"dosage", "indication"}:
             fields.append(intent)
     query = " ".join(decision.entities.get("drugs", []) + decision.intents)
+    metadata_filters = {
+        "trust_tier": ["regulatory", "clinical_reference", "local_curated"],
+    }
+    if fields:
+        metadata_filters["field"] = list(dict.fromkeys(fields))
+
     return RetrievalPlan(
         intents=decision.intents,
         risk_level=decision.risk_level,
         queries=[query.strip()],
         entities=decision.entities,
-        metadata_filters={
-            "field": list(dict.fromkeys(fields)),
-            "trust_tier": ["regulatory", "clinical_reference", "local_curated"],
-        },
+        metadata_filters=metadata_filters,
     )

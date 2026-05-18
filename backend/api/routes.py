@@ -1,4 +1,7 @@
+from functools import lru_cache
 from pathlib import Path
+import logging
+import traceback
 
 from fastapi import APIRouter, HTTPException
 from qdrant_client import AsyncQdrantClient
@@ -10,11 +13,14 @@ from core.ingestion import ingest_directory_async
 from core.llm import OpenAIChatModel, SentenceTransformerEmbeddingModel
 from core.retrieval import QdrantRetriever
 
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
 
+@lru_cache
 def get_chat_service() -> ChatService:
+    """Singleton: chỉ khởi tạo ChatService (bao gồm load model embedding) một lần duy nhất."""
     settings = get_settings()
     if not settings.openai_api_key:
         raise RuntimeError("OPENAI_API_KEY is required to use /chat with real providers.")
@@ -41,6 +47,7 @@ async def chat(request: ChatRequest) -> ChatResponse:
     try:
         return await get_chat_service().chat(request)
     except Exception as exc:
+        logger.error("Chat endpoint error:\n%s", traceback.format_exc())
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
 
@@ -66,6 +73,40 @@ async def ingest() -> IngestResponse:
 
 
 @router.get("/sources/status", response_model=SourceStatusResponse)
-def source_status() -> SourceStatusResponse:
+async def source_status() -> SourceStatusResponse:
     settings = get_settings()
-    return SourceStatusResponse(collection=settings.qdrant_collection, source_families=[], qdrant_ready=False)
+    qdrant_client = AsyncQdrantClient(
+        url=settings.qdrant_url,
+        api_key=settings.qdrant_api_key,
+        check_compatibility=False,
+    )
+    try:
+        collection_exists = await qdrant_client.collection_exists(collection_name=settings.qdrant_collection)
+        if not collection_exists:
+            return SourceStatusResponse(
+                collection=settings.qdrant_collection,
+                source_families=[],
+                qdrant_ready=False,
+            )
+
+        points, _ = await qdrant_client.scroll(
+            collection_name=settings.qdrant_collection,
+            limit=100,
+            with_payload=["source_family"],
+            with_vectors=False,
+        )
+    except Exception:
+        return SourceStatusResponse(collection=settings.qdrant_collection, source_families=[], qdrant_ready=False)
+
+    source_families = sorted(
+        {
+            str(point.payload["source_family"])
+            for point in points
+            if point.payload and point.payload.get("source_family")
+        }
+    )
+    return SourceStatusResponse(
+        collection=settings.qdrant_collection,
+        source_families=source_families,
+        qdrant_ready=True,
+    )
