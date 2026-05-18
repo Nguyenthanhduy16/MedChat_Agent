@@ -43,3 +43,5 @@ data/
 .idea/
 *.swp
 *.swo
+
+.gitignore
