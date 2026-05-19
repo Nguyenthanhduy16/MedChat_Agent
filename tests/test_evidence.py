@@ -67,6 +67,52 @@ def test_evidence_gate_marks_high_risk_single_source_as_partial() -> None:
     assert package.warnings
 
 
+def test_evidence_gate_marks_missing_named_drug_as_insufficient() -> None:
+    item = EvidenceItem(
+        id="S1",
+        text="Kho tho hut hoi la mot trieu chung ho hap.",
+        source="Pharmacity",
+        trust_tier="local_curated",
+        title="Kho tho",
+        url="https://www.pharmacity.vn/benh/kho-tho-hut-hoi.html",
+        score=0.92,
+        metadata={"field": "prevention"},
+    )
+
+    package = assess_evidence(
+        items=[item],
+        required_intents=["drug_identity"],
+        risk_level=RiskLevel.LOW,
+        required_entities=["Zoacnel 5mg Davi"],
+    )
+
+    assert package.status == EvidenceStatus.INSUFFICIENT
+    assert "missing_entities" in package.reasons
+
+
+def test_evidence_gate_accepts_named_condition_evidence_for_disease_context() -> None:
+    item = EvidenceItem(
+        id="S1",
+        text="Benh: Ung thu vu | Phan: Tong quan | Noi dung: Ung thu vu la tinh trang benh ly.",
+        source="Pharmacity",
+        trust_tier="local_curated",
+        title="Ung thu vu",
+        url="https://www.pharmacity.vn/benh/ung-thu-vu.html",
+        score=0.92,
+        metadata={"field": "overview"},
+    )
+
+    package = assess_evidence(
+        items=[item],
+        required_intents=["disease_context"],
+        risk_level=RiskLevel.LOW,
+        required_entities=["Ung thư vú"],
+    )
+
+    assert package.status == EvidenceStatus.SUFFICIENT
+    assert package.warnings == []
+
+
 def test_confidence_never_high_for_urgent_personal_scenario() -> None:
     confidence = calculate_confidence(
         status=EvidenceStatus.SUFFICIENT,

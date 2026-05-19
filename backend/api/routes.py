@@ -12,6 +12,7 @@ from core.config import Settings, get_settings
 from core.ingestion import ingest_directory_async
 from core.llm import OpenAIChatModel, SentenceTransformerEmbeddingModel
 from core.retrieval import QdrantRetriever
+from core.web_sources import HTTPJSONSearchProvider, TavilySearchProvider, WebSourceClient
 
 logger = logging.getLogger(__name__)
 
@@ -30,11 +31,24 @@ def get_chat_service() -> ChatService:
         api_key=settings.qdrant_api_key,
         check_compatibility=False,
     )
+    search_provider = _build_search_provider(settings)
     return ChatService(
         chat_model=OpenAIChatModel(api_key=settings.openai_api_key, model=settings.chat_model),
         embedding_model=SentenceTransformerEmbeddingModel(model=settings.embedding_model),
         retriever=QdrantRetriever(qdrant_client, settings.qdrant_collection),
+        web_client=WebSourceClient(settings.whitelist_domains, search_provider=search_provider),
     )
+
+
+def _build_search_provider(settings: Settings):
+    if not settings.web_search_endpoint:
+        return None
+    provider = settings.web_search_provider.lower().strip()
+    if provider == "tavily":
+        if not settings.web_search_api_key:
+            raise RuntimeError("WEB_SEARCH_API_KEY is required when WEB_SEARCH_PROVIDER=tavily.")
+        return TavilySearchProvider(settings.web_search_endpoint, settings.web_search_api_key)
+    return HTTPJSONSearchProvider(settings.web_search_endpoint, settings.web_search_api_key)
 
 
 @router.get("/health")

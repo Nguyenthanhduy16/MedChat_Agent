@@ -4,8 +4,9 @@ from core.citations import format_citations, has_required_citations
 from core.config import get_settings
 from core.evidence import assess_evidence, calculate_confidence
 from core.llm import ChatModel, EmbeddingModel
-from core.models import EvidenceItem, EvidenceStatus, RiskLevel
+from core.models import EvidenceItem, EvidencePackage, EvidenceStatus, RetrievalPlan, RiskLevel
 from core.safety import safety_precheck, urgent_response
+from core.web_sources import WebFetchedSource
 
 
 class ChatService:
@@ -14,10 +15,12 @@ class ChatService:
         chat_model: ChatModel,
         embedding_model: EmbeddingModel,
         retriever,
+        web_client=None,
     ) -> None:
         self.chat_model = chat_model
         self.embedding_model = embedding_model
         self.retriever = retriever
+        self.web_client = web_client
         self.settings = get_settings()
 
     async def chat(self, request: ChatRequest) -> ChatResponse:
@@ -37,6 +40,22 @@ class ChatService:
             )
 
         decision = route_question(request)
+        if "unsupported" in decision.intents:
+            return ChatResponse(
+                answer=(
+                    "Cau hoi nay nam ngoai pham vi duoc/y te cua he thong, "
+                    "nen toi khong co nguon phu hop de tra loi."
+                ),
+                safety_notice="He thong chi cung cap thong tin tham khao trong pham vi duoc va y te.",
+                citations=[],
+                intents=decision.intents,
+                risk_level=decision.risk_level.value,
+                evidence_status=EvidenceStatus.INSUFFICIENT.value,
+                warnings=["Question is outside the configured pharmacy and health scope."],
+                confidence="low",
+                requires_professional_advice=False,
+            )
+
         plan = build_retrieval_plan(decision)
         query_text = " ".join(plan.queries).strip() or request.message
         query_vectors = await self.embedding_model.embed(
@@ -49,13 +68,49 @@ class ChatService:
             timeout_seconds=self.settings.qdrant_query_timeout_seconds,
         )
 
-        required_drugs = decision.entities.get("drugs", [])
+        required_entities = decision.entities.get("drugs", []) + decision.entities.get("conditions", [])
         evidence = assess_evidence(
             items,
             decision.intents,
             decision.risk_level,
-            required_drugs,
+            required_entities,
         )
+        web_warnings: list[str] = []
+        if (
+            request.retrieval_options.allow_web
+            and self.web_client is not None
+            and evidence.status in {EvidenceStatus.PARTIAL, EvidenceStatus.INSUFFICIENT}
+        ):
+            try:
+                web_sources = await self.web_client.retrieve(
+                    plan,
+                    query_text=query_text,
+                    timeout_seconds=self.settings.web_fetch_timeout_seconds,
+                    max_sources=min(
+                        request.retrieval_options.max_sources,
+                        self.settings.max_web_urls_per_request,
+                    ),
+                )
+            except Exception as exc:
+                web_sources = []
+                web_warnings.append(f"Web evidence retrieval failed: {exc}")
+
+            if web_sources:
+                items = items + _web_sources_to_evidence_items(web_sources, plan)
+                evidence = assess_evidence(
+                    items,
+                    decision.intents,
+                    decision.risk_level,
+                    required_entities,
+                )
+
+        if web_warnings:
+            evidence = EvidencePackage(
+                items=evidence.items,
+                status=evidence.status,
+                warnings=evidence.warnings + web_warnings,
+                reasons=evidence.reasons,
+            )
         citations = format_citations(
             evidence.items,
             limit=self.settings.final_citations_max,
@@ -86,7 +141,7 @@ class ChatService:
             answer = f"{answer.rstrip()} [{citations[0]['id']}]"
 
         item_text = " ".join(item.text for item in evidence.items).lower()
-        has_exact_entities = all(entity.lower() in item_text for entity in required_drugs)
+        has_exact_entities = all(entity.lower() in item_text for entity in required_entities)
         has_conflict = _has_conflict(evidence.items) or evidence.status == EvidenceStatus.CONFLICTING
         confidence = calculate_confidence(
             evidence.status,
@@ -139,3 +194,34 @@ def _has_conflict(items: list[EvidenceItem]) -> bool:
     conflict_terms = ("conflict", "conflicting", "mau thuan", "trai nguoc")
     evidence_text = " ".join(item.text for item in items).lower()
     return any(term in evidence_text for term in conflict_terms)
+
+
+def _web_sources_to_evidence_items(
+    sources: list[WebFetchedSource],
+    plan: RetrievalPlan,
+) -> list[EvidenceItem]:
+    field = _web_evidence_field(plan)
+    items: list[EvidenceItem] = []
+    for index, source in enumerate(sources, start=1):
+        items.append(
+            EvidenceItem(
+                id=f"web:{source.url or index}",
+                text=source.text,
+                source=source.source,
+                trust_tier=source.trust_tier,
+                title=source.title,
+                url=source.url,
+                score=0.75,
+                metadata={"field": field, "source_family": "web_whitelisted"},
+            )
+        )
+    return items
+
+
+def _web_evidence_field(plan: RetrievalPlan) -> str:
+    fields = plan.metadata_filters.get("field", [])
+    if fields:
+        return fields[0]
+    if plan.intents:
+        return plan.intents[0]
+    return "web"

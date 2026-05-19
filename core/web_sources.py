@@ -1,12 +1,103 @@
 from dataclasses import dataclass
 from html.parser import HTMLParser
+from typing import Any, Protocol
 from urllib.parse import urlparse
 
 import httpx
 
+from core.models import RetrievalPlan
+
 
 class DomainNotAllowedError(ValueError):
     pass
+
+
+@dataclass(frozen=True)
+class SearchResult:
+    title: str
+    url: str
+    snippet: str
+
+
+class WebSearchProvider(Protocol):
+    async def search(self, query: str, timeout_seconds: float) -> list[SearchResult]:
+        raise NotImplementedError
+
+
+class HTTPJSONSearchProvider:
+    def __init__(self, endpoint: str, api_key: str | None = None) -> None:
+        self.endpoint = endpoint
+        self.api_key = api_key
+
+    async def search(self, query: str, timeout_seconds: float) -> list[SearchResult]:
+        headers = {}
+        if self.api_key:
+            headers["Authorization"] = f"Bearer {self.api_key}"
+
+        async with httpx.AsyncClient(timeout=timeout_seconds) as client:
+            response = await client.get(
+                self.endpoint,
+                params={"q": query},
+                headers=headers,
+            )
+            response.raise_for_status()
+
+        payload = response.json()
+        raw_results = _extract_search_results(payload)
+        results: list[SearchResult] = []
+        for raw in raw_results:
+            if not isinstance(raw, dict):
+                continue
+            url = _first_string(raw, ("url", "link", "href"))
+            if not url:
+                continue
+            results.append(
+                SearchResult(
+                    title=_first_string(raw, ("title", "name")) or url,
+                    url=url,
+                    snippet=_first_string(raw, ("snippet", "description", "text")) or "",
+                )
+            )
+        return results
+
+
+class TavilySearchProvider:
+    def __init__(self, endpoint: str, api_key: str) -> None:
+        self.endpoint = endpoint
+        self.api_key = api_key
+
+    async def search(self, query: str, timeout_seconds: float) -> list[SearchResult]:
+        async with httpx.AsyncClient(timeout=timeout_seconds) as client:
+            response = await client.post(
+                self.endpoint,
+                headers={"Authorization": f"Bearer {self.api_key}"},
+                json={
+                    "query": query,
+                    "search_depth": "basic",
+                    "include_answer": False,
+                    "include_raw_content": False,
+                    "max_results": 5,
+                },
+            )
+            response.raise_for_status()
+
+        payload = response.json()
+        raw_results = _extract_search_results(payload)
+        results: list[SearchResult] = []
+        for raw in raw_results:
+            if not isinstance(raw, dict):
+                continue
+            url = _first_string(raw, ("url", "link", "href"))
+            if not url:
+                continue
+            results.append(
+                SearchResult(
+                    title=_first_string(raw, ("title", "name")) or url,
+                    url=url,
+                    snippet=_first_string(raw, ("content", "snippet", "description", "text")) or "",
+                )
+            )
+        return results
 
 
 @dataclass(frozen=True)
@@ -68,6 +159,30 @@ def build_domain_query(domain: str, query: str) -> str:
     return f"site:{domain.strip()} {query.strip()}"
 
 
+def _extract_search_results(payload: Any) -> list[Any]:
+    if isinstance(payload, list):
+        return payload
+    if not isinstance(payload, dict):
+        return []
+    for key in ("results", "items", "organic_results", "web", "data"):
+        value = payload.get(key)
+        if isinstance(value, list):
+            return value
+        if isinstance(value, dict):
+            nested = _extract_search_results(value)
+            if nested:
+                return nested
+    return []
+
+
+def _first_string(payload: dict[str, Any], keys: tuple[str, ...]) -> str | None:
+    for key in keys:
+        value = payload.get(key)
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+    return None
+
+
 def enforce_allowed_url(url: str, whitelist_domains: list[str]) -> str:
     parsed = urlparse(url)
     host = parsed.hostname
@@ -112,8 +227,13 @@ def _trust_tier(host: str) -> str:
 
 
 class WebSourceClient:
-    def __init__(self, whitelist_domains: list[str]) -> None:
+    def __init__(
+        self,
+        whitelist_domains: list[str],
+        search_provider: WebSearchProvider | None = None,
+    ) -> None:
         self.whitelist_domains = whitelist_domains
+        self.search_provider = search_provider
 
     async def fetch_url(
         self, url: str, timeout_seconds: float
@@ -141,3 +261,57 @@ class WebSourceClient:
             text=text,
             trust_tier=_trust_tier(final_host),
         )
+
+    async def retrieve(
+        self,
+        plan: RetrievalPlan,
+        query_text: str,
+        timeout_seconds: float,
+        max_sources: int,
+    ) -> list[WebFetchedSource]:
+        if self.search_provider is None or max_sources <= 0:
+            return []
+
+        sources: list[WebFetchedSource] = []
+        seen_urls: set[str] = set()
+        base_query = query_text.strip() or " ".join(plan.queries).strip()
+
+        for domain in _domains_for_plan(self.whitelist_domains, plan):
+            if len(sources) >= max_sources:
+                break
+            try:
+                results = await self.search_provider.search(
+                    build_domain_query(domain, base_query),
+                    timeout_seconds=timeout_seconds,
+                )
+            except Exception:
+                continue
+
+            for result in results:
+                if len(sources) >= max_sources:
+                    break
+                try:
+                    enforce_allowed_url(result.url, self.whitelist_domains)
+                except DomainNotAllowedError:
+                    continue
+                if result.url in seen_urls:
+                    continue
+
+                try:
+                    source = await self.fetch_url(result.url, timeout_seconds=timeout_seconds)
+                except Exception:
+                    continue
+
+                seen_urls.add(source.url)
+                sources.append(source)
+
+        return sources
+
+
+def _domains_for_plan(whitelist_domains: list[str], plan: RetrievalPlan) -> list[str]:
+    domains = [
+        domain.lower().strip().rstrip(".")
+        for domain in whitelist_domains
+        if domain.strip()
+    ]
+    return list(dict.fromkeys(domains))

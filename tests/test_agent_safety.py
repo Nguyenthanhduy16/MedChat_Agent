@@ -53,3 +53,30 @@ def test_retrieval_plan_does_not_field_filter_general_health_questions() -> None
 
     assert decision.intents == ["general_health"]
     assert "field" not in plan.metadata_filters
+
+
+def test_router_marks_non_medical_question_as_unsupported() -> None:
+    decision = route_question(ChatRequest(message="Cach dat A+ Giai tich"))
+
+    assert decision.intents == ["unsupported"]
+    assert decision.risk_level == RiskLevel.LOW
+
+
+def test_router_extracts_named_product_from_drug_name_question() -> None:
+    decision = route_question(ChatRequest(message="Thuoc Zoacnel 5mg Davi"))
+    plan = build_retrieval_plan(decision)
+
+    assert decision.intents == ["drug_identity"]
+    assert decision.entities["drugs"] == ["Zoacnel 5mg Davi"]
+    assert "Zoacnel 5mg Davi" in plan.queries[0]
+    assert "general_health" not in plan.queries[0]
+
+
+def test_router_extracts_named_condition_from_cancer_question() -> None:
+    decision = route_question(ChatRequest(message="Ung thư vú"))
+    plan = build_retrieval_plan(decision)
+
+    assert decision.intents == ["disease_context"]
+    assert decision.entities["conditions"] == ["Ung thư vú"]
+    assert "Ung thư vú" in plan.queries[0]
+    assert "unsupported" not in plan.queries[0]

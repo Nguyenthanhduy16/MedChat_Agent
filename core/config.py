@@ -20,6 +20,9 @@ class Settings(BaseSettings):
     embedding_timeout_seconds: float = 60.0
     qdrant_query_timeout_seconds: float = 5.0
     qdrant_upsert_timeout_seconds: float = 120.0
+    web_search_provider: str = "generic"
+    web_search_endpoint: str | None = None
+    web_search_api_key: str | None = None
     web_search_timeout_seconds: float = 8.0
     web_fetch_timeout_seconds: float = 5.0
     max_web_urls_per_request: int = 5
