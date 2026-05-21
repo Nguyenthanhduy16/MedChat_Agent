@@ -17,13 +17,23 @@ def test_chat_request_accepts_optional_context() -> None:
             "allergies": [],
             "location": "VN",
         },
-        retrieval_options={"allow_web": True, "max_sources": 8},
+        retrieval_options={
+            "allow_web": True,
+            "force_web": True,
+            "qdrant_search": False,
+            "web_mode": "open",
+            "max_sources": 8,
+        },
     )
 
     assert request.preferences.language == "vi"
     assert request.preferences.audience == "general"
     assert request.user_context.age == 67
     assert request.retrieval_options.max_sources == 8
+    assert request.retrieval_options.allow_web is True
+    assert request.retrieval_options.force_web is True
+    assert request.retrieval_options.qdrant_search is False
+    assert request.retrieval_options.web_mode == "open"
 
 
 def test_chat_request_rejects_empty_message() -> None:

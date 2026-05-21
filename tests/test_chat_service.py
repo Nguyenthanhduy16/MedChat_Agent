@@ -1,3 +1,4 @@
+import json
 import sys
 import types
 
@@ -7,9 +8,16 @@ from fastapi.testclient import TestClient
 import backend.api.routes as routes
 from backend.api.schemas import ChatRequest
 from backend.main import create_app
-from core.chat_service import ChatService
+from core.chat_service import ChatService, _build_prompt
 from core.config import Settings
-from core.llm import FakeChatModel, FakeEmbeddingModel, OpenAIChatModel, OpenAIEmbeddingModel
+from core.llm import (
+    FakeChatModel,
+    FakeEmbeddingModel,
+    FallbackChatModel,
+    GeminiChatModel,
+    OpenAIChatModel,
+    OpenAIEmbeddingModel,
+)
 from core.models import EvidenceItem
 from core.retrieval import QdrantRetriever
 from core.web_sources import DomainNotAllowedError, WebFetchedSource
@@ -25,6 +33,13 @@ async def test_fake_llm_and_embedding_models() -> None:
 
     assert answer == "Answer with [S1]."
     assert vectors == [[3.0, 0.0, 0.0, 0.0], [3.0, 0.0, 0.0, 0.0]]
+
+
+def test_prompt_instructs_symptom_triage_without_diagnosis() -> None:
+    messages = _build_prompt("Toi bi dau va sung ban chan thi bi benh gi?", [], [])
+
+    assert "possible causes" in messages[0]["content"]
+    assert "do not diagnose" in messages[0]["content"]
 
 
 @pytest.mark.asyncio
@@ -81,8 +96,56 @@ class FakeRetriever:
         ]
 
 
+class StrongGeneralHealthRetriever:
+    def __init__(self) -> None:
+        self.calls = 0
+
+    async def retrieve(self, plan, query_vector, timeout_seconds):
+        self.calls += 1
+        return [
+            EvidenceItem(
+                id="headache-local-1",
+                text="general_health Dau dau co the do cang thang hoac mat ngu.",
+                source="Local A",
+                trust_tier="local_curated",
+                title="Headache local A",
+                url="https://local.test/headache-a",
+                score=0.90,
+                metadata={"field": "general_health"},
+            ),
+            EvidenceItem(
+                id="headache-local-2",
+                text="general_health Dau dau can kham neu nang, dot ngot hoac kem sot.",
+                source="Local B",
+                trust_tier="local_curated",
+                title="Headache local B",
+                url="https://local.test/headache-b",
+                score=0.88,
+                metadata={"field": "general_health"},
+            ),
+        ]
+
+
 class EmptyRetriever:
     async def retrieve(self, plan, query_vector, timeout_seconds):
+        return []
+
+
+class TrackingEmbeddingModel:
+    def __init__(self) -> None:
+        self.texts: list[list[str]] = []
+
+    async def embed(self, texts: list[str], timeout_seconds: float, input_type: str = "query") -> list[list[float]]:
+        self.texts.append(texts)
+        return [[float(len(texts[0])), 0.0, 0.0, 0.0]]
+
+
+class CapturingRetriever:
+    def __init__(self) -> None:
+        self.plans = []
+
+    async def retrieve(self, plan, query_vector, timeout_seconds):
+        self.plans.append(plan)
         return []
 
 
@@ -106,14 +169,38 @@ class TrackingRetriever:
         ]
 
 
+class SingleGeneralHealthRetriever:
+    async def retrieve(self, plan, query_vector, timeout_seconds):
+        return [
+            EvidenceItem(
+                id="headache-local",
+                text="general_health Dau dau co the do cang thang, mat ngu hoac mat nuoc.",
+                source="Local",
+                trust_tier="local_curated",
+                title="Headache local",
+                url="https://local.test/headache",
+                score=0.80,
+                metadata={"field": "general_health"},
+            )
+        ]
+
+
 class FakeWebClient:
     def __init__(self) -> None:
         self.calls = 0
 
-    async def retrieve(self, plan, query_text: str, timeout_seconds: float, max_sources: int):
+    async def retrieve(
+        self,
+        plan,
+        query_text: str,
+        timeout_seconds: float,
+        max_sources: int,
+        web_mode: str = "trusted",
+    ):
         self.calls += 1
         assert query_text
-        assert max_sources == 5
+        assert max_sources == 8
+        assert web_mode == "trusted"
         return [
             WebFetchedSource(
                 title="Abacavir label",
@@ -123,6 +210,124 @@ class FakeWebClient:
                 trust_tier="regulatory",
             )
         ]
+
+
+class GeneralHealthWebClient:
+    def __init__(self) -> None:
+        self.calls = 0
+
+    async def retrieve(
+        self,
+        plan,
+        query_text: str,
+        timeout_seconds: float,
+        max_sources: int,
+        web_mode: str = "trusted",
+    ):
+        self.calls += 1
+        assert "dau dau" in query_text
+        assert web_mode == "trusted"
+        return [
+            WebFetchedSource(
+                title="Headache overview",
+                url="https://www.mayoclinic.org/headache",
+                source="mayoclinic.org",
+                text="Dau dau co the lien quan den cang thang, mat nuoc, nhiem trung hoac can danh gia y te khi nang.",
+                trust_tier="clinical_reference",
+            )
+        ]
+
+
+class CapturingWebClient:
+    def __init__(self) -> None:
+        self.calls: list[dict] = []
+
+    async def retrieve(
+        self,
+        plan,
+        query_text: str,
+        timeout_seconds: float,
+        max_sources: int,
+        web_mode: str = "trusted",
+    ):
+        self.calls.append({"query_text": query_text, "max_sources": max_sources, "web_mode": web_mode})
+        return [
+            WebFetchedSource(
+                title="Open result",
+                url="https://open.test/result",
+                source="open.test",
+                text="Open web result text.",
+                trust_tier="web_open",
+            )
+        ]
+
+
+class FailingChatModel:
+    def __init__(self) -> None:
+        self.calls = 0
+
+    async def generate(self, messages: list[dict[str, str]], timeout_seconds: float) -> str:
+        self.calls += 1
+        raise RuntimeError("primary failed")
+
+
+@pytest.mark.asyncio
+async def test_fallback_chat_model_uses_secondary_when_primary_raises_any_error() -> None:
+    primary = FailingChatModel()
+    secondary = FakeChatModel("Fallback answer [S1].")
+    model = FallbackChatModel(primary=primary, secondary=secondary)
+
+    answer = await model.generate([{"role": "user", "content": "hello"}], timeout_seconds=1)
+
+    assert answer == "Fallback answer [S1]."
+    assert primary.calls == 1
+
+
+@pytest.mark.asyncio
+async def test_gemini_chat_model_calls_generate_content() -> None:
+    import httpx
+
+    async def handler(request: httpx.Request) -> httpx.Response:
+        assert request.url.path == "/v1beta/models/gemini-test:generateContent"
+        assert request.url.params["key"] == "gemini-key"
+        payload = json.loads(request.content)
+        assert payload["contents"] == [
+            {"role": "user", "parts": [{"text": "Question"}]},
+            {"role": "model", "parts": [{"text": "Previous answer"}]},
+        ]
+        assert payload["systemInstruction"] == {"parts": [{"text": "Be careful"}]}
+        return httpx.Response(
+            200,
+            json={
+                "candidates": [
+                    {
+                        "content": {
+                            "parts": [
+                                {"text": "Gemini answer "},
+                                {"text": "[S1]."},
+                            ]
+                        }
+                    }
+                ]
+            },
+        )
+
+    client = httpx.AsyncClient(
+        base_url="https://generativelanguage.googleapis.com",
+        transport=httpx.MockTransport(handler),
+    )
+    model = GeminiChatModel(api_key="gemini-key", model="gemini-test", http_client=client)
+
+    answer = await model.generate(
+        [
+            {"role": "system", "content": "Be careful"},
+            {"role": "user", "content": "Question"},
+            {"role": "assistant", "content": "Previous answer"},
+        ],
+        timeout_seconds=1,
+    )
+
+    assert answer == "Gemini answer [S1]."
 
 
 @pytest.mark.asyncio
@@ -166,6 +371,107 @@ async def test_chat_service_uses_whitelisted_web_when_local_evidence_is_insuffic
 
 
 @pytest.mark.asyncio
+async def test_chat_service_uses_web_when_local_evidence_has_too_few_sources() -> None:
+    web_client = GeneralHealthWebClient()
+    service = ChatService(
+        chat_model=FakeChatModel("Dau dau co the co nhieu nguyen nhan [S1][S2]."),
+        embedding_model=FakeEmbeddingModel(size=4),
+        retriever=SingleGeneralHealthRetriever(),
+        web_client=web_client,
+    )
+
+    response = await service.chat(
+        ChatRequest(
+            message="Toi bi dau dau nen lam gi?",
+            retrieval_options={"allow_web": True, "max_sources": 8},
+        )
+    )
+
+    assert web_client.calls == 1
+    assert len(response.citations) == 2
+    assert response.evidence_status == "sufficient"
+
+
+@pytest.mark.asyncio
+async def test_chat_service_force_web_runs_even_when_local_evidence_is_sufficient() -> None:
+    web_client = GeneralHealthWebClient()
+    retriever = StrongGeneralHealthRetriever()
+    service = ChatService(
+        chat_model=FakeChatModel("Dau dau co the co nhieu nguyen nhan [S1][S2][S3]."),
+        embedding_model=FakeEmbeddingModel(size=4),
+        retriever=retriever,
+        web_client=web_client,
+    )
+
+    response = await service.chat(
+        ChatRequest(
+            message="Toi bi dau dau nen lam gi?",
+            retrieval_options={"allow_web": True, "force_web": True, "max_sources": 8},
+        )
+    )
+
+    assert retriever.calls == 1
+    assert web_client.calls == 1
+    assert len(response.citations) == 3
+
+
+@pytest.mark.asyncio
+async def test_chat_service_can_skip_qdrant_and_use_web_only() -> None:
+    web_client = GeneralHealthWebClient()
+    retriever = StrongGeneralHealthRetriever()
+    service = ChatService(
+        chat_model=FakeChatModel("Dau dau co the co nhieu nguyen nhan [S1]."),
+        embedding_model=FakeEmbeddingModel(size=4),
+        retriever=retriever,
+        web_client=web_client,
+    )
+
+    response = await service.chat(
+        ChatRequest(
+            message="Toi bi dau dau nen lam gi?",
+            retrieval_options={"allow_web": True, "force_web": True, "qdrant_search": False, "max_sources": 8},
+        )
+    )
+
+    assert retriever.calls == 0
+    assert web_client.calls == 1
+    assert response.citations[0].source == "mayoclinic.org"
+
+
+@pytest.mark.asyncio
+async def test_chat_service_passes_open_web_mode_to_web_client() -> None:
+    web_client = CapturingWebClient()
+    service = ChatService(
+        chat_model=FakeChatModel("Open answer [S1]."),
+        embedding_model=FakeEmbeddingModel(size=4),
+        retriever=EmptyRetriever(),
+        web_client=web_client,
+    )
+
+    response = await service.chat(
+        ChatRequest(
+            message="Hoat chat Efferalgan",
+            retrieval_options={
+                "allow_web": True,
+                "force_web": True,
+                "qdrant_search": False,
+                "web_mode": "open",
+                "max_sources": 10,
+            },
+        )
+    )
+
+    assert web_client.calls == [
+        {
+            "query_text": "Hoat chat Efferalgan Efferalgan drug_identity",
+            "max_sources": 10,
+            "web_mode": "open",
+        }
+    ]
+    assert response.citations[0].trust_tier == "web_open"
+
+
+@pytest.mark.asyncio
 async def test_chat_service_does_not_use_web_when_request_disallows_web() -> None:
     web_client = FakeWebClient()
     service = ChatService(
@@ -185,6 +491,29 @@ async def test_chat_service_does_not_use_web_when_request_disallows_web() -> Non
     assert web_client.calls == 0
     assert response.evidence_status == "insufficient"
     assert response.citations == []
+
+
+@pytest.mark.asyncio
+async def test_chat_service_retrieves_with_original_message_and_broad_plan() -> None:
+    embedding = TrackingEmbeddingModel()
+    retriever = CapturingRetriever()
+    service = ChatService(
+        chat_model=FakeChatModel("unused"),
+        embedding_model=embedding,
+        retriever=retriever,
+    )
+
+    await service.chat(
+        ChatRequest(
+            message="Abacavir dung de lam gi?",
+            retrieval_options={"allow_web": False},
+        )
+    )
+
+    assert "Abacavir dung de lam gi?" in embedding.texts[0][0]
+    assert "indication" in embedding.texts[0][0]
+    assert "field" not in retriever.plans[0].metadata_filters
+    assert retriever.plans[0].intents == ["indication"]
 
 
 @pytest.mark.asyncio
@@ -287,13 +616,13 @@ def test_health_route() -> None:
 
 def test_chat_route_reports_missing_openai_key(monkeypatch) -> None:
     monkeypatch.setattr(routes.get_settings, "cache_clear", lambda: None, raising=False)
-    monkeypatch.setattr(routes, "get_settings", lambda: routes.Settings(openai_api_key=None))
+    monkeypatch.setattr(routes, "get_settings", lambda: routes.Settings(_env_file=None, openai_api_key=None))
     client = TestClient(create_app())
 
     response = client.post("/chat", json={"message": "Warfarin va ibuprofen co tuong tac khong?"})
 
     assert response.status_code == 503
-    assert "OPENAI_API_KEY" in response.json()["detail"]
+    assert "OPENAI_API_KEY or GEMINI_API_KEY" in response.json()["detail"]
 
 
 def test_embedding_defaults_use_multilingual_e5_base() -> None:
@@ -304,6 +633,7 @@ def test_embedding_defaults_use_multilingual_e5_base() -> None:
     assert settings.web_search_endpoint is None
     assert settings.web_search_api_key is None
     assert settings.web_search_provider == "generic"
+    assert settings.gemini_model == "gemini-2.5-flash"
 
 
 def test_get_chat_service_uses_openai_chat_local_e5_and_qdrant(monkeypatch) -> None:
@@ -336,6 +666,60 @@ def test_get_chat_service_uses_openai_chat_local_e5_and_qdrant(monkeypatch) -> N
     assert isinstance(service.retriever, QdrantRetriever)
     assert isinstance(service.web_client, routes.WebSourceClient)
     assert service.web_client.search_provider is None
+
+
+def test_get_chat_service_wraps_openai_with_gemini_fallback_when_both_keys_exist(monkeypatch) -> None:
+    routes.get_chat_service.cache_clear()
+
+    class FakeLocalEmbeddingModel:
+        def __init__(self, model: str) -> None:
+            self.model = model
+
+    monkeypatch.setattr(routes, "SentenceTransformerEmbeddingModel", FakeLocalEmbeddingModel)
+    monkeypatch.setattr(
+        routes,
+        "get_settings",
+        lambda: routes.Settings(
+            _env_file=None,
+            openai_api_key="openai-key",
+            gemini_api_key="gemini-key",
+            chat_model="openai-test",
+            gemini_model="gemini-test",
+        ),
+    )
+
+    service = routes.get_chat_service()
+
+    assert isinstance(service.chat_model, FallbackChatModel)
+    assert isinstance(service.chat_model.primary, OpenAIChatModel)
+    assert isinstance(service.chat_model.secondary, GeminiChatModel)
+    assert service.chat_model.primary.model == "openai-test"
+    assert service.chat_model.secondary.model == "gemini-test"
+
+
+def test_get_chat_service_uses_gemini_when_openai_key_is_missing(monkeypatch) -> None:
+    routes.get_chat_service.cache_clear()
+
+    class FakeLocalEmbeddingModel:
+        def __init__(self, model: str) -> None:
+            self.model = model
+
+    monkeypatch.setattr(routes, "SentenceTransformerEmbeddingModel", FakeLocalEmbeddingModel)
+    monkeypatch.setattr(
+        routes,
+        "get_settings",
+        lambda: routes.Settings(
+            _env_file=None,
+            openai_api_key=None,
+            gemini_api_key="gemini-key",
+            gemini_model="gemini-test",
+        ),
+    )
+
+    service = routes.get_chat_service()
+
+    assert isinstance(service.chat_model, GeminiChatModel)
+    assert service.chat_model.model == "gemini-test"
 
 
 def test_get_chat_service_configures_http_search_provider_when_endpoint_exists(monkeypatch) -> None:

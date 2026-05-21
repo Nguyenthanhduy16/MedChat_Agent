@@ -1,8 +1,13 @@
+import logging
+
 from qdrant_client import AsyncQdrantClient
 from qdrant_client.http.models import FieldCondition, Filter, MatchAny
 
 from core.models import EvidenceItem, RetrievalPlan
 from core.text import accent_fold
+
+
+logger = logging.getLogger(__name__)
 
 
 FIELD_ALIASES = {
@@ -51,12 +56,20 @@ class QdrantRetriever:
 
     async def retrieve(self, plan: RetrievalPlan, query_vector: list[float], timeout_seconds: float) -> list[EvidenceItem]:
         query_filter = _build_query_filter(plan.metadata_filters)
+        logger.info(
+            "retrieval.qdrant start collection=%s intents=%s filters=%s vector_size=%s",
+            self.collection,
+            plan.intents,
+            plan.metadata_filters,
+            len(query_vector),
+        )
         response = await self._query_points(
             query_vector=query_vector,
             query_filter=query_filter,
             timeout_seconds=timeout_seconds,
         )
         results = response.points
+        logger.info("retrieval.qdrant raw_count=%s", len(results))
         items: list[EvidenceItem] = []
         for point in results:
             payload = point.payload or {}
@@ -76,11 +89,25 @@ class QdrantRetriever:
                     metadata=metadata,
                 )
             )
-        return rerank_evidence(
+        ranked = rerank_evidence(
             items,
             preferred_fields=plan.metadata_filters.get("field", []),
             required_entities=plan.entities.get("drugs", []),
         )
+        logger.info(
+            "retrieval.qdrant ranked_count=%s top=%s",
+            len(ranked),
+            [
+                {
+                    "title": item.title,
+                    "score": item.score,
+                    "field": item.metadata.get("field"),
+                    "sparse_score": item.metadata.get("sparse_score"),
+                }
+                for item in ranked[:3]
+            ],
+        )
+        return ranked
 
     async def _query_points(self, query_vector: list[float], query_filter: Filter | None, timeout_seconds: float):
         try:
@@ -95,6 +122,7 @@ class QdrantRetriever:
         except Exception as exc:
             if query_filter is None or "Index required" not in str(exc):
                 raise
+            logger.warning("retrieval.qdrant filter_index_missing fallback_without_filter error=%s", exc)
 
         return await self.client.query_points(
             collection_name=self.collection,

@@ -10,7 +10,7 @@ from backend.api.schemas import ChatRequest, ChatResponse, IngestResponse, Sourc
 from core.chat_service import ChatService
 from core.config import Settings, get_settings
 from core.ingestion import ingest_directory_async
-from core.llm import OpenAIChatModel, SentenceTransformerEmbeddingModel
+from core.llm import FallbackChatModel, GeminiChatModel, OpenAIChatModel, SentenceTransformerEmbeddingModel
 from core.retrieval import QdrantRetriever
 from core.web_sources import HTTPJSONSearchProvider, TavilySearchProvider, WebSourceClient
 
@@ -23,8 +23,7 @@ router = APIRouter()
 def get_chat_service() -> ChatService:
     """Singleton: chỉ khởi tạo ChatService (bao gồm load model embedding) một lần duy nhất."""
     settings = get_settings()
-    if not settings.openai_api_key:
-        raise RuntimeError("OPENAI_API_KEY is required to use /chat with real providers.")
+    chat_model = _build_chat_model(settings)
 
     qdrant_client = AsyncQdrantClient(
         url=settings.qdrant_url,
@@ -33,11 +32,31 @@ def get_chat_service() -> ChatService:
     )
     search_provider = _build_search_provider(settings)
     return ChatService(
-        chat_model=OpenAIChatModel(api_key=settings.openai_api_key, model=settings.chat_model),
+        chat_model=chat_model,
         embedding_model=SentenceTransformerEmbeddingModel(model=settings.embedding_model),
         retriever=QdrantRetriever(qdrant_client, settings.qdrant_collection),
         web_client=WebSourceClient(settings.whitelist_domains, search_provider=search_provider),
     )
+
+
+def _build_chat_model(settings: Settings):
+    openai_model = (
+        OpenAIChatModel(api_key=settings.openai_api_key, model=settings.chat_model)
+        if settings.openai_api_key
+        else None
+    )
+    gemini_model = (
+        GeminiChatModel(api_key=settings.gemini_api_key, model=settings.gemini_model)
+        if settings.gemini_api_key
+        else None
+    )
+    if openai_model and gemini_model:
+        return FallbackChatModel(primary=openai_model, secondary=gemini_model)
+    if openai_model:
+        return openai_model
+    if gemini_model:
+        return gemini_model
+    raise RuntimeError("OPENAI_API_KEY or GEMINI_API_KEY is required to use /chat with real providers.")
 
 
 def _build_search_provider(settings: Settings):

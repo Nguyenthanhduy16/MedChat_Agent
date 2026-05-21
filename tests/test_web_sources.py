@@ -25,6 +25,51 @@ def test_enforce_allowed_url_rejects_unlisted_domain() -> None:
 
 
 @pytest.mark.asyncio
+async def test_web_source_client_open_mode_fetches_top_unlisted_results(respx_mock) -> None:
+    class FakeSearchProvider:
+        def __init__(self) -> None:
+            self.queries: list[str] = []
+
+        async def search(self, query: str, timeout_seconds: float) -> list[SearchResult]:
+            self.queries.append(query)
+            return [
+                SearchResult(title="First", url="https://viethealth.test/one", snippet="one"),
+                SearchResult(title="Second", url="https://example.vn/two", snippet="two"),
+            ]
+
+    first = respx_mock.get("https://viethealth.test/one").respond(
+        200,
+        html="<html><head><title>First result</title></head><body>First Vietnamese medical text</body></html>",
+    )
+    second = respx_mock.get("https://example.vn/two").respond(
+        200,
+        html="<html><head><title>Second result</title></head><body>Second Vietnamese medical text</body></html>",
+    )
+    plan = RetrievalPlan(
+        intents=["drug_identity"],
+        risk_level=RiskLevel.LOW,
+        queries=["efferalgan drug_identity"],
+        entities={"drugs": ["Efferalgan"]},
+        metadata_filters={},
+    )
+    client = WebSourceClient(["dailymed.nlm.nih.gov"], search_provider=FakeSearchProvider())
+
+    items = await client.retrieve(
+        plan,
+        "Hoat chat Efferalgan",
+        timeout_seconds=1,
+        max_sources=10,
+        web_mode="open",
+    )
+
+    assert client.search_provider.queries == ["Hoat chat Efferalgan"]
+    assert first.called
+    assert second.called
+    assert [item.source for item in items] == ["viethealth.test", "example.vn"]
+    assert {item.trust_tier for item in items} == {"web_open"}
+
+
+@pytest.mark.asyncio
 async def test_http_json_search_provider_parses_common_result_shapes(respx_mock) -> None:
     route = respx_mock.get("https://search.test/api").respond(
         200,

@@ -52,6 +52,18 @@ class FakeEmbeddingModel:
         return vectors
 
 
+class FallbackChatModel:
+    def __init__(self, primary: ChatModel, secondary: ChatModel) -> None:
+        self.primary = primary
+        self.secondary = secondary
+
+    async def generate(self, messages: list[dict[str, str]], timeout_seconds: float) -> str:
+        try:
+            return await self.primary.generate(messages, timeout_seconds)
+        except Exception:
+            return await self.secondary.generate(messages, timeout_seconds)
+
+
 class OpenAIChatModel:
     def __init__(self, api_key: str, model: str) -> None:
         self.client = AsyncOpenAI(api_key=api_key, http_client=httpx.AsyncClient())
@@ -65,6 +77,30 @@ class OpenAIChatModel:
         )
         content = response.choices[0].message.content
         return content or ""
+
+
+class GeminiChatModel:
+    def __init__(
+        self,
+        api_key: str,
+        model: str,
+        http_client: httpx.AsyncClient | None = None,
+    ) -> None:
+        self.api_key = api_key
+        self.model = model
+        self.http_client = http_client or httpx.AsyncClient(base_url="https://generativelanguage.googleapis.com")
+
+    async def generate(self, messages: list[dict[str, str]], timeout_seconds: float) -> str:
+        response = await self.http_client.post(
+            f"/v1beta/models/{self.model}:generateContent",
+            params={"key": self.api_key},
+            json=_gemini_payload(messages),
+            timeout=timeout_seconds,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        parts = payload["candidates"][0]["content"].get("parts", [])
+        return "".join(str(part.get("text", "")) for part in parts)
 
 
 class OpenAIEmbeddingModel:
@@ -111,3 +147,25 @@ def _e5_prefix(input_type: str) -> str:
     if input_type == "passage":
         return "passage"
     return "query"
+
+
+def _gemini_payload(messages: list[dict[str, str]]) -> dict:
+    contents: list[dict] = []
+    system_parts: list[dict[str, str]] = []
+    for message in messages:
+        role = message.get("role", "user")
+        text = message.get("content", "")
+        if role == "system":
+            system_parts.append({"text": text})
+            continue
+        contents.append(
+            {
+                "role": "model" if role == "assistant" else "user",
+                "parts": [{"text": text}],
+            }
+        )
+
+    payload: dict = {"contents": contents}
+    if system_parts:
+        payload["systemInstruction"] = {"parts": system_parts}
+    return payload

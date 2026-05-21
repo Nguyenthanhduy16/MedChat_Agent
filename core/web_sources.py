@@ -62,9 +62,10 @@ class HTTPJSONSearchProvider:
 
 
 class TavilySearchProvider:
-    def __init__(self, endpoint: str, api_key: str) -> None:
+    def __init__(self, endpoint: str, api_key: str, max_results: int = 10) -> None:
         self.endpoint = endpoint
         self.api_key = api_key
+        self.max_results = max_results
 
     async def search(self, query: str, timeout_seconds: float) -> list[SearchResult]:
         async with httpx.AsyncClient(timeout=timeout_seconds) as client:
@@ -76,7 +77,7 @@ class TavilySearchProvider:
                     "search_depth": "basic",
                     "include_answer": False,
                     "include_raw_content": False,
-                    "max_results": 5,
+                    "max_results": self.max_results,
                 },
             )
             response.raise_for_status()
@@ -203,7 +204,9 @@ def enforce_allowed_url(url: str, whitelist_domains: list[str]) -> str:
     raise DomainNotAllowedError(f"URL host is not allowed: {url}")
 
 
-def _trust_tier(host: str) -> str:
+def _trust_tier(host: str, web_mode: str = "trusted") -> str:
+    if web_mode == "open":
+        return "web_open"
     normalized_host = host.lower().rstrip(".")
     regulatory_domains = {
         "fda.gov",
@@ -236,9 +239,10 @@ class WebSourceClient:
         self.search_provider = search_provider
 
     async def fetch_url(
-        self, url: str, timeout_seconds: float
+        self, url: str, timeout_seconds: float, web_mode: str = "trusted"
     ) -> WebFetchedSource:
-        enforce_allowed_url(url, self.whitelist_domains)
+        if web_mode != "open":
+            enforce_allowed_url(url, self.whitelist_domains)
 
         async with httpx.AsyncClient(
             timeout=timeout_seconds, follow_redirects=True
@@ -247,7 +251,11 @@ class WebSourceClient:
             response.raise_for_status()
 
         final_url = str(response.url)
-        final_host = enforce_allowed_url(final_url, self.whitelist_domains)
+        final_host = (
+            _url_host(final_url)
+            if web_mode == "open"
+            else enforce_allowed_url(final_url, self.whitelist_domains)
+        )
         parser = _HTMLTextParser()
         parser.feed(response.text)
 
@@ -259,7 +267,7 @@ class WebSourceClient:
             url=final_url,
             source=final_host,
             text=text,
-            trust_tier=_trust_tier(final_host),
+            trust_tier=_trust_tier(final_host, web_mode=web_mode),
         )
 
     async def retrieve(
@@ -268,6 +276,7 @@ class WebSourceClient:
         query_text: str,
         timeout_seconds: float,
         max_sources: int,
+        web_mode: str = "trusted",
     ) -> list[WebFetchedSource]:
         if self.search_provider is None or max_sources <= 0:
             return []
@@ -275,6 +284,8 @@ class WebSourceClient:
         sources: list[WebFetchedSource] = []
         seen_urls: set[str] = set()
         base_query = query_text.strip() or " ".join(plan.queries).strip()
+        if web_mode == "open":
+            return await self._retrieve_open(base_query, timeout_seconds, max_sources)
 
         for domain in _domains_for_plan(self.whitelist_domains, plan):
             if len(sources) >= max_sources:
@@ -306,6 +317,56 @@ class WebSourceClient:
                 sources.append(source)
 
         return sources
+
+    async def _retrieve_open(
+        self,
+        query_text: str,
+        timeout_seconds: float,
+        max_sources: int,
+    ) -> list[WebFetchedSource]:
+        sources: list[WebFetchedSource] = []
+        seen_urls: set[str] = set()
+        try:
+            results = await self.search_provider.search(query_text, timeout_seconds=timeout_seconds)
+        except Exception:
+            return []
+
+        for result in results:
+            if len(sources) >= max_sources:
+                break
+            if result.url in seen_urls or _is_blocked_open_url(result.url):
+                continue
+            try:
+                source = await self.fetch_url(result.url, timeout_seconds=timeout_seconds, web_mode="open")
+            except Exception:
+                continue
+            seen_urls.add(source.url)
+            sources.append(source)
+        return sources
+
+
+def _url_host(url: str) -> str:
+    parsed = urlparse(url)
+    host = parsed.hostname
+    if not host:
+        raise DomainNotAllowedError(f"URL host is not allowed: {url}")
+    return host.lower().rstrip(".")
+
+
+def _is_blocked_open_url(url: str) -> bool:
+    try:
+        host = _url_host(url)
+    except DomainNotAllowedError:
+        return True
+    blocked_domains = (
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "twitter.com",
+        "x.com",
+        "youtube.com",
+    )
+    return any(host == domain or host.endswith(f".{domain}") for domain in blocked_domains)
 
 
 def _domains_for_plan(whitelist_domains: list[str], plan: RetrievalPlan) -> list[str]:

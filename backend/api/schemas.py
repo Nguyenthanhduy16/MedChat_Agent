@@ -7,6 +7,7 @@ EvidenceStatus = Literal["sufficient", "partial", "insufficient", "conflicting"]
 Confidence = Literal["high", "medium", "low"]
 Audience = Literal["general", "professional"]
 PregnancyStatus = Literal["unknown", "not_pregnant", "pregnant", "planning_pregnancy"]
+WebMode = Literal["trusted", "open"]
 
 
 class UserContext(BaseModel):
@@ -28,6 +29,9 @@ class ChatPreferences(BaseModel):
 
 class RetrievalOptions(BaseModel):
     allow_web: bool = True
+    force_web: bool = False
+    qdrant_search: bool = True
+    web_mode: WebMode = "trusted"
     max_sources: int = Field(default=8, ge=1, le=12)
 
 

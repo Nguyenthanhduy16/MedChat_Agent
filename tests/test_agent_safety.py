@@ -47,12 +47,28 @@ def test_retrieval_plan_does_not_field_filter_drug_identity_questions() -> None:
     assert plan.entities["drugs"] == ["paracetamol"]
 
 
+def test_router_extracts_active_ingredient_from_information_question() -> None:
+    decision = route_question(ChatRequest(message="Thông tin về hoạt chất Abacavir"))
+    plan = build_retrieval_plan(decision)
+
+    assert decision.intents == ["drug_identity"]
+    assert decision.entities["drugs"] == ["Abacavir"]
+    assert "Abacavir" in plan.queries[0]
+    assert "field" not in plan.metadata_filters
+
+
 def test_retrieval_plan_does_not_field_filter_general_health_questions() -> None:
     decision = route_question(ChatRequest(message="Toi bi dau dau nen lam gi?"))
     plan = build_retrieval_plan(decision)
 
     assert decision.intents == ["general_health"]
     assert "field" not in plan.metadata_filters
+
+
+def test_router_does_not_match_health_scope_terms_inside_other_words() -> None:
+    decision = route_question(ChatRequest(message="Thong tin ve hoc phan giai tich"))
+
+    assert decision.intents == ["unsupported"]
 
 
 def test_router_marks_non_medical_question_as_unsupported() -> None:
@@ -80,3 +96,36 @@ def test_router_extracts_named_condition_from_cancer_question() -> None:
     assert decision.entities["conditions"] == ["Ung thư vú"]
     assert "Ung thư vú" in plan.queries[0]
     assert "unsupported" not in plan.queries[0]
+
+
+def test_router_extracts_condition_from_definition_question() -> None:
+    decision = route_question(ChatRequest(message="Ban chan khoeo la gi"))
+    plan = build_retrieval_plan(decision)
+
+    assert decision.intents == ["disease_context"]
+    assert decision.entities["conditions"] == ["Ban chan khoeo"]
+    assert "Ban chan khoeo" in plan.queries[0]
+
+
+def test_router_extracts_condition_from_disease_information_question() -> None:
+    decision = route_question(ChatRequest(message="Thong tin ve benh tieu duong"))
+    plan = build_retrieval_plan(decision)
+
+    assert decision.intents == ["disease_context"]
+    assert decision.entities["conditions"] == ["tieu duong"]
+    assert "tieu duong" in plan.queries[0]
+
+
+def test_router_extracts_symptom_triage_terms_for_foot_pain_question() -> None:
+    decision = route_question(
+        ChatRequest(message="Toi bi dau xuat hien o phan tren cua ban chan co sung va nhay cam thi bi benh gi?")
+    )
+    plan = build_retrieval_plan(decision)
+
+    assert decision.intents == ["symptom_triage", "disease_context"]
+    assert decision.entities["symptoms"] == ["dau", "sung", "nhay cam"]
+    assert decision.entities["body_parts"] == ["phan tren cua ban chan", "ban chan"]
+    assert "dau" in plan.queries[0]
+    assert "sung" in plan.queries[0]
+    assert "nhay cam" in plan.queries[0]
+    assert "phan tren cua ban chan" in plan.queries[0]

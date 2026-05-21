@@ -39,20 +39,105 @@ HEALTH_SCOPE_TERMS = (
     "nguoi gia",
     "suy than",
     "ung thu",
+    "hoi chung",
+    "roi loan",
+    "di tat",
+    "bam sinh",
+    "chan",
+    "tay",
+    "da",
+    "xuong",
+    "khop",
+    "tim",
+    "gan",
+    "than",
+    "phoi",
+    "nao",
+)
+
+SYMPTOM_TERMS = (
+    "dau",
+    "sung",
+    "nhay cam",
+    "do",
+    "nong",
+    "te",
+    "yeu",
+    "ngua",
+    "phat ban",
+    "chay mau",
+    "kho tho",
+    "sot",
+)
+
+BODY_PART_TERMS = (
+    "phan tren cua ban chan",
+    "mu ban chan",
+    "ban chan",
+    "chan",
+    "co chan",
+    "ngon chan",
+    "got chan",
+    "tay",
+    "co tay",
+    "ngon tay",
+    "mat",
+    "da",
+    "nguc",
+    "bung",
+    "lung",
+    "xuong",
+    "khop",
 )
 
 CONDITION_PATTERNS = (
     r"\bung\s+thu(?:\s+\w+){0,3}",
+    r"\bbenh\s+([\w\s]{2,80})",
+    r"\b([\w\s]{2,80})\s+la\s+gi\b",
+    r"\bthong\s+tin\s+ve\s+benh\s+([\w\s]{2,80})",
 )
+
+QUESTION_STOP_WORDS = {
+    "co",
+    "co nguy hiem khong",
+    "nguy hiem khong",
+    "khong",
+    "la gi",
+}
 
 
 def _extract_drugs(message: str) -> list[str]:
     folded = accent_fold(message)
     drugs = [drug for drug in KNOWN_DRUGS if drug in folded]
+    active_ingredient = _extract_active_ingredient(message)
+    if active_ingredient:
+        drugs.append(active_ingredient)
     named_product = _extract_named_drug_product(message)
     if named_product:
         drugs.append(named_product)
     return list(dict.fromkeys(drugs))
+
+
+def _extract_active_ingredient(message: str) -> str | None:
+    normalized = normalize_text(message)
+    match = re.search(
+        r"(?:hoat\s+chat|hoạt\s+chất|duoc\s+chat|dược\s+chất|active\s+(?:ingredient|substance))"
+        r"\s+([A-Za-z][A-Za-z0-9+-]*(?:\s+[A-Za-z][A-Za-z0-9+-]*){0,3})",
+        normalized,
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return None
+
+    ingredient = re.split(
+        r"\s+(la|là|co|có|dung|dùng|de|để|tri|trị|chua|chữa|khong|không)\b",
+        match.group(1),
+        maxsplit=1,
+        flags=re.IGNORECASE,
+    )[0].strip(" ?.,")
+    if len(ingredient) < 2:
+        return None
+    return ingredient
 
 
 def _extract_named_drug_product(message: str) -> str | None:
@@ -79,6 +164,8 @@ def route_question(request: ChatRequest) -> RouterDecision:
     risk = RiskLevel.LOW
     drugs = _extract_drugs(request.message)
     conditions = _extract_conditions(request.message)
+    symptoms = _extract_terms(folded, SYMPTOM_TERMS)
+    body_parts = _extract_terms(folded, BODY_PART_TERMS)
 
     if any(term in folded for term in ("tuong tac", "uong chung", "dung chung")) or len(drugs) >= 2:
         intents.extend(["interaction", "contraindication"])
@@ -89,6 +176,8 @@ def route_question(request: ChatRequest) -> RouterDecision:
     if any(term in folded for term in ("mang thai", "cho con bu", "thai")):
         intents.append("pregnancy_lactation")
         risk = RiskLevel.HIGH
+    if symptoms and (body_parts or "bi benh gi" in folded or "benh gi" in folded):
+        intents.extend(["symptom_triage", "disease_context"])
     if conditions:
         intents.append("disease_context")
     if any(term in folded for term in ("tre em", "nguoi gia", "suy than")):
@@ -110,12 +199,21 @@ def route_question(request: ChatRequest) -> RouterDecision:
         risk_level=risk,
         audience=request.preferences.audience,
         needs_context=risk == RiskLevel.HIGH,
-        entities={"drugs": drugs, "ingredients": [], "conditions": conditions},
+        entities={
+            "drugs": drugs,
+            "ingredients": [],
+            "conditions": conditions,
+            "symptoms": symptoms,
+            "body_parts": body_parts,
+        },
     )
 
 
 def _is_health_scope(folded_message: str) -> bool:
-    return any(term in folded_message for term in HEALTH_SCOPE_TERMS)
+    return any(
+        re.search(rf"(?<!\w){re.escape(term)}(?!\w)", folded_message)
+        for term in HEALTH_SCOPE_TERMS
+    )
 
 
 def _extract_conditions(message: str) -> list[str]:
@@ -125,9 +223,39 @@ def _extract_conditions(message: str) -> list[str]:
     for pattern in CONDITION_PATTERNS:
         match = re.search(pattern, folded)
         if match:
-            start, end = match.span()
-            conditions.append(normalized[start:end].strip(" ?.,"))
+            if match.lastindex:
+                start, end = match.span(match.lastindex)
+            else:
+                start, end = match.span()
+            condition = normalized[start:end]
+            cleaned = _clean_condition_phrase(condition)
+            if cleaned and _looks_like_condition(cleaned):
+                conditions.append(cleaned)
     return list(dict.fromkeys(condition for condition in conditions if condition))
+
+
+def _clean_condition_phrase(condition: str) -> str:
+    cleaned = condition.strip(" ?.,")
+    for stop_word in QUESTION_STOP_WORDS:
+        cleaned = re.sub(rf"\s+{re.escape(stop_word)}$", "", cleaned, flags=re.IGNORECASE).strip(" ?.,")
+    if len(cleaned) < 2:
+        return ""
+    return cleaned
+
+
+def _looks_like_condition(condition: str) -> bool:
+    folded = accent_fold(condition)
+    return _is_health_scope(folded) or len(folded.split()) >= 2
+
+
+def _extract_terms(folded_message: str, terms: tuple[str, ...]) -> list[str]:
+    matches: list[str] = []
+    for term in sorted(terms, key=len, reverse=True):
+        if re.search(rf"(?<!\w){re.escape(term)}(?!\w)", folded_message):
+            if " " not in term and any(term in match for match in matches):
+                continue
+            matches.append(term)
+    return sorted(matches, key=terms.index)
 
 
 def max_risk(left: RiskLevel, right: RiskLevel) -> RiskLevel:
@@ -146,7 +274,12 @@ def build_retrieval_plan(decision: RouterDecision) -> RetrievalPlan:
             fields.extend(["pregnancy_lactation", "warning"])
         elif intent in {"dosage", "indication"}:
             fields.append(intent)
-    query_entities = decision.entities.get("drugs", []) + decision.entities.get("conditions", [])
+    query_entities = (
+        decision.entities.get("drugs", [])
+        + decision.entities.get("conditions", [])
+        + decision.entities.get("symptoms", [])
+        + decision.entities.get("body_parts", [])
+    )
     query = " ".join(query_entities + decision.intents)
     metadata_filters = {
         "trust_tier": ["regulatory", "clinical_reference", "local_curated"],
