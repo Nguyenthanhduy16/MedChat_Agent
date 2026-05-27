@@ -5,11 +5,12 @@ from typing import Any
 from uuid import NAMESPACE_URL, uuid5
 from datetime import UTC, datetime
 
-from qdrant_client.http.models import Distance, PayloadSchemaType, PointStruct, VectorParams
+from qdrant_client.http.models import Distance, PayloadSchemaType, PointStruct, SparseVectorParams, VectorParams
 
 from core.config import Settings, get_settings
 from core.llm import EmbeddingModel
 from core.models import CanonicalChunk
+from core.sparse_vectors import build_sparse_vector
 from core.text import accent_fold, normalize_text, repair_mojibake, slugify, stable_hash
 
 
@@ -195,7 +196,14 @@ async def ingest_directory_async(
                 input_type="passage",
             )
             points = [
-                PointStruct(id=chunk.id, vector=vector, payload=_point_payload(chunk))
+                PointStruct(
+                    id=chunk.id,
+                    vector={
+                        "dense": vector,
+                        "sparse": build_sparse_vector(chunk.sparse_text),
+                    },
+                    payload=_point_payload(chunk),
+                )
                 for chunk, vector in zip(new_batch, vectors, strict=True)
             ]
             await qdrant_client.upsert(
@@ -240,7 +248,12 @@ async def _ensure_collection(qdrant_client: Any, settings: Settings) -> None:
     if not exists:
         await qdrant_client.create_collection(
             collection_name=settings.qdrant_collection,
-            vectors_config=VectorParams(size=settings.qdrant_vector_size, distance=Distance.COSINE),
+            vectors_config={
+                "dense": VectorParams(size=settings.qdrant_vector_size, distance=Distance.COSINE),
+            },
+            sparse_vectors_config={
+                "sparse": SparseVectorParams(),
+            },
         )
     await _ensure_payload_indexes(qdrant_client, settings)
 

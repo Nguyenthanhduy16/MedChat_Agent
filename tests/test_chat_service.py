@@ -14,6 +14,7 @@ from core.llm import (
     FakeChatModel,
     FakeEmbeddingModel,
     FallbackChatModel,
+    FlagEmbeddingRerankerModel,
     GeminiChatModel,
     OpenAIChatModel,
     OpenAIEmbeddingModel,
@@ -643,7 +644,13 @@ def test_get_chat_service_uses_openai_chat_local_e5_and_qdrant(monkeypatch) -> N
         def __init__(self, model: str) -> None:
             self.model = model
 
+    class FakeRerankerModel:
+        def __init__(self, model: str, use_fp16: bool = True) -> None:
+            self.model = model
+            self.use_fp16 = use_fp16
+
     monkeypatch.setattr(routes, "SentenceTransformerEmbeddingModel", FakeLocalEmbeddingModel)
+    monkeypatch.setattr(routes, "FlagEmbeddingRerankerModel", FakeRerankerModel)
     monkeypatch.setattr(
         routes,
         "get_settings",
@@ -652,6 +659,7 @@ def test_get_chat_service_uses_openai_chat_local_e5_and_qdrant(monkeypatch) -> N
             openai_api_key="test-key",
             chat_model="chat-test",
             embedding_model="embed-test",
+            reranker_model="rerank-test",
             qdrant_url="https://qdrant.test:6333",
             qdrant_api_key="qdrant-key",
             qdrant_collection="test_collection",
@@ -664,6 +672,8 @@ def test_get_chat_service_uses_openai_chat_local_e5_and_qdrant(monkeypatch) -> N
     assert isinstance(service.embedding_model, FakeLocalEmbeddingModel)
     assert service.embedding_model.model == "embed-test"
     assert isinstance(service.retriever, QdrantRetriever)
+    assert isinstance(service.retriever.reranker, FakeRerankerModel)
+    assert service.retriever.reranker.model == "rerank-test"
     assert isinstance(service.web_client, routes.WebSourceClient)
     assert service.web_client.search_provider is None
 

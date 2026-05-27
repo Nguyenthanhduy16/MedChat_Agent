@@ -26,6 +26,16 @@ class EmbeddingModel(Protocol):
         raise NotImplementedError
 
 
+class RerankerModel(Protocol):
+    async def score(
+        self,
+        query: str,
+        passages: list[str],
+        timeout_seconds: float,
+    ) -> list[float]:
+        raise NotImplementedError
+
+
 class FakeChatModel:
     def __init__(self, answer: str) -> None:
         self.answer = answer
@@ -50,6 +60,27 @@ class FakeEmbeddingModel:
             vector[0] = float(len(text))
             vectors.append(vector)
         return vectors
+
+
+class FlagEmbeddingRerankerModel:
+    def __init__(self, model: str, use_fp16: bool = True) -> None:
+        from FlagEmbedding import FlagReranker
+
+        self.model = model
+        self.reranker = FlagReranker(model, use_fp16=use_fp16)
+
+    async def score(
+        self,
+        query: str,
+        passages: list[str],
+        timeout_seconds: float,
+    ) -> list[float]:
+        pairs = [[query, passage] for passage in passages]
+        scores = await asyncio.wait_for(
+            asyncio.to_thread(self.reranker.compute_score, pairs, normalize=True),
+            timeout=timeout_seconds,
+        )
+        return [float(score) for score in scores]
 
 
 class FallbackChatModel:

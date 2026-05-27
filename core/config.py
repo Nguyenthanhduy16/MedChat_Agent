@@ -12,6 +12,10 @@ class Settings(BaseSettings):
     gemini_api_key: str | None = None
     gemini_model: str = "gemini-2.5-flash"
     embedding_model: str = "intfloat/multilingual-e5-base"
+    reranker_model: str | None = None
+    reranker_top_k: int = 10
+    reranker_timeout_seconds: float = 10.0
+    reranker_use_fp16: bool = True
     qdrant_url: str = "http://localhost:6333"
     qdrant_api_key: str | None = None
     qdrant_collection: str = "pharmacy_chunks"

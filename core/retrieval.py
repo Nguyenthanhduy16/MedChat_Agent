@@ -1,9 +1,10 @@
 import logging
 
 from qdrant_client import AsyncQdrantClient
-from qdrant_client.http.models import FieldCondition, Filter, MatchAny
+from qdrant_client.http.models import FieldCondition, Filter, Fusion, FusionQuery, MatchAny, Prefetch
 
 from core.models import EvidenceItem, RetrievalPlan
+from core.sparse_vectors import build_sparse_vector
 from core.text import accent_fold
 
 
@@ -38,21 +39,32 @@ def rerank_evidence(
     def combined(item: EvidenceItem) -> float:
         text_folded = accent_fold(item.text)
         sparse = float(item.metadata.get("sparse_score", 0.0))
+        reranker = float(item.metadata.get("reranker_score", 0.0))
         field_bonus = 0.15 if item.metadata.get("field") in expanded_preferred_fields else 0.0
         entity_bonus = 0.0
         if required_entities:
             matches = sum(1 for entity in required_entities if accent_fold(entity) in text_folded)
             entity_bonus = 0.25 * (matches / len(required_entities))
         trust_bonus = TRUST_WEIGHT.get(item.trust_tier, 0.0)
-        return item.score + sparse + field_bonus + entity_bonus + trust_bonus
+        return item.score + sparse + reranker + field_bonus + entity_bonus + trust_bonus
 
     return sorted(items, key=combined, reverse=True)
 
 
 class QdrantRetriever:
-    def __init__(self, client: AsyncQdrantClient, collection: str) -> None:
+    def __init__(
+        self,
+        client: AsyncQdrantClient,
+        collection: str,
+        reranker=None,
+        reranker_top_k: int = 10,
+        reranker_timeout_seconds: float = 10.0,
+    ) -> None:
         self.client = client
         self.collection = collection
+        self.reranker = reranker
+        self.reranker_top_k = reranker_top_k
+        self.reranker_timeout_seconds = reranker_timeout_seconds
 
     async def retrieve(self, plan: RetrievalPlan, query_vector: list[float], timeout_seconds: float) -> list[EvidenceItem]:
         query_filter = _build_query_filter(plan.metadata_filters)
@@ -64,6 +76,7 @@ class QdrantRetriever:
             len(query_vector),
         )
         response = await self._query_points(
+            plan=plan,
             query_vector=query_vector,
             query_filter=query_filter,
             timeout_seconds=timeout_seconds,
@@ -94,26 +107,36 @@ class QdrantRetriever:
             preferred_fields=plan.metadata_filters.get("field", []),
             required_entities=plan.entities.get("drugs", []),
         )
+        reranked = await self._apply_reranker(plan, ranked)
         logger.info(
             "retrieval.qdrant ranked_count=%s top=%s",
-            len(ranked),
+            len(reranked),
             [
                 {
                     "title": item.title,
                     "score": item.score,
                     "field": item.metadata.get("field"),
                     "sparse_score": item.metadata.get("sparse_score"),
+                    "reranker_score": item.metadata.get("reranker_score"),
                 }
-                for item in ranked[:3]
+                for item in reranked[:3]
             ],
         )
-        return ranked
+        return reranked
 
-    async def _query_points(self, query_vector: list[float], query_filter: Filter | None, timeout_seconds: float):
+    async def _query_points(
+        self,
+        plan: RetrievalPlan,
+        query_vector: list[float],
+        query_filter: Filter | None,
+        timeout_seconds: float,
+    ):
+        sparse_query = build_sparse_vector(" ".join(_query_terms(plan)))
         try:
             return await self.client.query_points(
                 collection_name=self.collection,
-                query=query_vector,
+                prefetch=_hybrid_prefetch(query_vector, sparse_query),
+                query=FusionQuery(fusion=Fusion.RRF),
                 query_filter=query_filter,
                 limit=20,
                 with_payload=True,
@@ -126,11 +149,32 @@ class QdrantRetriever:
 
         return await self.client.query_points(
             collection_name=self.collection,
-            query=query_vector,
+            prefetch=_hybrid_prefetch(query_vector, sparse_query),
+            query=FusionQuery(fusion=Fusion.RRF),
             query_filter=None,
             limit=20,
             with_payload=True,
             timeout=int(timeout_seconds) if timeout_seconds else None,
+        )
+
+    async def _apply_reranker(self, plan: RetrievalPlan, items: list[EvidenceItem]) -> list[EvidenceItem]:
+        if self.reranker is None or not items:
+            return items
+
+        candidates = items[: self.reranker_top_k]
+        query_text = " ".join(_query_terms(plan))
+        passages = [item.text for item in candidates]
+        scores = await self.reranker.score(
+            query_text,
+            passages,
+            timeout_seconds=self.reranker_timeout_seconds,
+        )
+        for item, score in zip(candidates, scores, strict=True):
+            item.metadata["reranker_score"] = float(score)
+        return rerank_evidence(
+            items,
+            preferred_fields=plan.metadata_filters.get("field", []),
+            required_entities=plan.entities.get("drugs", []),
         )
 
 
@@ -159,3 +203,17 @@ def _expand_field_values(fields: list[str]) -> list[str]:
     for field in fields:
         expanded.extend(FIELD_ALIASES.get(field, [field]))
     return list(dict.fromkeys(expanded))
+
+
+def _hybrid_prefetch(query_vector: list[float], sparse_query) -> list[Prefetch]:
+    return [
+        Prefetch(query=query_vector, using="dense", limit=20),
+        Prefetch(query=sparse_query, using="sparse", limit=20),
+    ]
+
+
+def _query_terms(plan: RetrievalPlan) -> list[str]:
+    terms = list(plan.queries)
+    for entity_values in plan.entities.values():
+        terms.extend(entity_values)
+    return [term for term in terms if term]

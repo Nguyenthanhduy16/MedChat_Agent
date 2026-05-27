@@ -10,7 +10,13 @@ from backend.api.schemas import ChatRequest, ChatResponse, IngestResponse, Sourc
 from core.chat_service import ChatService
 from core.config import Settings, get_settings
 from core.ingestion import ingest_directory_async
-from core.llm import FallbackChatModel, GeminiChatModel, OpenAIChatModel, SentenceTransformerEmbeddingModel
+from core.llm import (
+    FallbackChatModel,
+    FlagEmbeddingRerankerModel,
+    GeminiChatModel,
+    OpenAIChatModel,
+    SentenceTransformerEmbeddingModel,
+)
 from core.retrieval import QdrantRetriever
 from core.web_sources import HTTPJSONSearchProvider, TavilySearchProvider, WebSourceClient
 
@@ -30,11 +36,25 @@ def get_chat_service() -> ChatService:
         api_key=settings.qdrant_api_key,
         check_compatibility=False,
     )
+    reranker = (
+        FlagEmbeddingRerankerModel(
+            model=settings.reranker_model,
+            use_fp16=settings.reranker_use_fp16,
+        )
+        if settings.reranker_model
+        else None
+    )
     search_provider = _build_search_provider(settings)
     return ChatService(
         chat_model=chat_model,
         embedding_model=SentenceTransformerEmbeddingModel(model=settings.embedding_model),
-        retriever=QdrantRetriever(qdrant_client, settings.qdrant_collection),
+        retriever=QdrantRetriever(
+            qdrant_client,
+            settings.qdrant_collection,
+            reranker=reranker,
+            reranker_top_k=settings.reranker_top_k,
+            reranker_timeout_seconds=settings.reranker_timeout_seconds,
+        ),
         web_client=WebSourceClient(settings.whitelist_domains, search_provider=search_provider),
     )
 

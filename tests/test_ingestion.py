@@ -2,6 +2,7 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from qdrant_client.http.models import SparseVectorParams, VectorParams
 
 from core.ingestion import ChunkValidationError, canonicalize_chunk, load_chunk_file
 from core.config import Settings
@@ -277,6 +278,10 @@ async def test_ingest_directory_async_embeds_and_upserts_to_qdrant() -> None:
     assert embedding.input_types == ["passage"]
     assert qdrant.created_collections
     assert qdrant.created_collections[0]["collection_name"] == "test_chunks"
+    assert set(qdrant.created_collections[0]["vectors_config"]) == {"dense"}
+    assert isinstance(qdrant.created_collections[0]["vectors_config"]["dense"], VectorParams)
+    assert set(qdrant.created_collections[0]["sparse_vectors_config"]) == {"sparse"}
+    assert isinstance(qdrant.created_collections[0]["sparse_vectors_config"]["sparse"], SparseVectorParams)
     assert {index["field_name"] for index in qdrant.created_payload_indexes} == {
         "field",
         "trust_tier",
@@ -289,7 +294,11 @@ async def test_ingest_directory_async_embeds_and_upserts_to_qdrant() -> None:
     assert qdrant.upserts[0]["timeout"] == 7
     point = qdrant.upserts[0]["points"][0]
     assert point.id
-    assert point.vector == [0.0, 1.0, 2.0]
+    assert set(point.vector) == {"dense", "sparse"}
+    assert point.vector["dense"] == [0.0, 1.0, 2.0]
+    assert point.vector["sparse"].indices
+    assert point.vector["sparse"].values
+    assert len(point.vector["sparse"].indices) == len(point.vector["sparse"].values)
     assert point.payload["text"].startswith("Hoạt chất: Abacavir")
     assert point.payload["sparse_text"].startswith("hoat chat abacavir")
     assert point.payload["entities"]["drugs"] == ["Abacavir"]
