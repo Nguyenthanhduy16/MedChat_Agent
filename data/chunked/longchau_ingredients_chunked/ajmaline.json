@@ -1,0 +1,282 @@
+[
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Ajmaline Loại thuốc Thuốc chống loạn nhịp tim.\nDạng thuốc và hàm lượng Dung dịch tiêm: 50 mg/10 ml.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Chỉ định | Nội dung:\nThuốc Ajmaline được chỉ định trong:\nRối loạn nhịp tim nhanh trên thất có triệu chứng cần điều trị như: Nhịp tim nhanh do vòng vào lại nút AV; Nhịp tim nhanh trên thất trong hội chứng WPW;\nRung nhĩ kịch phát.\nNhịp nhanh thất có triệu chứng nghiêm trọng khi bác sĩ đánh giá chúng đe dọa đến tính mạng.\nChẩn đoán phân biệt hội chứng WPW (Wolff-Parkinson-White) (Xét nghiệm Ajmaline).",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Dược lực học | Nội dung:\nAjmaline ức chế dòng natri kích thích nhanh trong cơ tim và do đó làm giảm tốc độ khử cực trong pha 0 của điện thế hoạt động. Tương ứng, tốc độ kích thích trong tâm nhĩ và tâm thất bị giảm. Thời gian của điện thế hoạt động và thời gian trơ được tăng lên ở cơ tâm nhĩ và cơ tâm thất. Ajmaline kéo dài sự khử cực tâm trương trong các tế bào Purkinje (pha 4 của điện thế hoạt động) và do đó ngăn ngừa sự xuất hiện của các cơn kích thích tự phát.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Dược lực học | Nội dung:\nAjmaline thuộc nhóm I thuốc chống loạn nhịp tim (theo Vaughan-Williams). Ngay cả khi sử dụng liều điều trị, sự gia tăng thời gian PQ, thời gian QRS và thời gian QT có thể xuất hiện trên điện tâm đồ như một biểu hiện của sự ức chế dẫn truyền kích thích. Sự ức chế này đặc biệt rõ rệt trong hệ thống His-Purkinje (thời gian HV). Ajmaline có tác dụng co bóp tiêu cực trên cơ tim.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Dược động học | Nội dung:\nHấp thu Ajmaline là một dẫn xuất indoline bậc ba với giá trị pka là 8,3. Các dữ liệu về dược động học của ajmaline cho thấy sinh khả dụng đường uống thấp ở người. Có dấu hiệu cho thấy nồng độ của thuốc trong huyết thanh trong suy gan giảm sau khi điều trị bằng phenobarbital và không ảnh hưởng đáng kể đến suy thận.\nPhân bố Sau khi tiêm tĩnh mạch, nồng độ trong huyết tương giảm nhanh chóng (trong vòng 5 phút). Sau đó, nồng độ tiếp tục giảm chậm hơn nữa.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Dược động học | Nội dung:\nPhân bố Sau khi tiêm tĩnh mạch, nồng độ trong huyết tương giảm nhanh chóng (trong vòng 5 phút). Sau đó, nồng độ tiếp tục giảm chậm hơn nữa.\nSau khi truyền tĩnh mạch 50 mg trong 5 phút, thời gian bán hủy là 6 phút (giai đoạn phân phối) và 95 phút (giai đoạn thải trừ) được xác định. Thể tích phân bố khoảng 3 l/kg trọng lượng cơ thể, 75% ajmaline liên kết với protein huyết tương (chủ yếu với α1-acid glycoprotein). Chất này được tích lũy ở gan, tim và phổi, trong khi nồng độ trong não là ban đầu thấp hơn trong máu.\nViệc truyền liên tục ajmaline cho thấy mối quan hệ tuyến tính giữa liều lượng và mức huyết tương. Mối quan hệ này tồn tại đến liều 40 mg/h. Sau khi truyền liên tục 10 - 50 mg ajmaline/giờ, nồng độ điều trị trong huyết tương là 0,4 - 20 μg/ml.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Dược động học | Nội dung:\nChuyển hóa Trong số các chất chuyển hóa được mô tả, ajmaline-N-oxid dường như vẫn có tác dụng chống loạn nhịp, trong các thí nghiệm trên động vật, khoảng 10% tác dụng chống loạn nhịp của ajmaline.\nThải trừ Ajmaline được thải trừ nhiều nhất qua gan, chỉ 5% được bài tiết dưới dạng không đổi qua nước tiểu. Sự phân hủy chủ yếu thông qua monohydroxyl hóa vòng benzen.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Liều lượng | Nội dung:\nNgười lớn Liều 50 mg/10 ml là liều đơn, sử dụng 1 lần và mỗi ngày. Liều lượng và dạng sử dụng phụ thuộc vào chẩn đoán của bác sĩ. Liều lượng chính xác phải được xác định riêng cho từng bệnh nhân.\nViệc sử dụng thuốc chống loạn nhịp cho rối loạn nhịp tim ở tâm thất là cần thiết. Theo dõi tim mạch cẩn thận và chỉ có thể được thực hiện nếu có thiết bị trợ tim khẩn cấp và kiểm tra theo dõi thường xuyên.\nTrong quá trình điều trị, nên kiểm tra sức khỏe định kỳ (Ví dụ: Cách nhau một tháng với điện tâm đồ tiêu chuẩn hoặc ba tháng với điện tâm đồ dài hạn và stress ECG nếu cần).",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Liều lượng | Nội dung:\nNếu các thông số điều trị chuyển biến xấu, ví dụ: Kéo dài thời gian QRS hoặc thời gian QT hơn 25% hoặc thời gian PQ hơn 50% hoặc QT kéo dài hơn 500 ms hoặc tăng số lượng hoặc mức độ nghiêm trọng của rối loạn nhịp tim, nên xem xét lại liệu pháp điều trị.\nTiêm IV Liều 50 mg/10 ml nên được tiêm tĩnh mạch chậm dưới sự kiểm soát điện tâm đồ.\nĐiều này đặc biệt cần đối với những bệnh nhân bị bệnh cơ tim giãn nở. Tốc độ tiêm không được vượt quá 10 mg/phút. Nếu tim đã bị tổn thương, thời gian tiêm 50 mg ajmaline nên kéo dài đến 15 - 20 phút. Việc tiêm tĩnh mạch nên được thực hiện với sự sẵn sàng khử rung tim, đặt nội khí quản và hồi sức. Thông thường, nên chấm dứt loạn nhịp ổn định về mặt huyết động trong điều kiện lâm sàng.\nLiều duy nhất cao nhất: 50 mg ajmaline (1 ống).",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Liều lượng | Nội dung:\nLiều duy nhất cao nhất: 50 mg ajmaline (1 ống).\nKhông cần thiết phải tiếp tục tiêm quá hiệu quả mong muốn. Nếu cần thiết, tiêm có thể được lặp lại sau 30 phút.\nĐối với truyền dịch có kiểm soát, liều 50 mg/10 ml thích hợp để áp dụng bằng cách sử dụng bơm tiêm truyền dịch tự động.\nTheo dõi điện tâm đồ liên tục là điều cần thiết. Sự suy giảm của các thông số điện tâm đồ cá nhân có thể là một dấu hiệu của việc dùng quá liều lượng. Sau đó phải gián đoạn hoặc chấm dứt việc tiêm.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Liều lượng | Nội dung:\nTruyền nhỏ giọt liên tục Trong các trường hợp điều trị dai dẳng và nhịp tim nhanh liên quan đến cơn đau tim hoặc để ổn định tác dụng của sốc điện cho cùng một chỉ định, nên dùng liều 50 mg/10 ml dưới dạng truyền nhỏ giọt liên tục. Trong trường hợp truyền liên tục, có thể sử dụng tổng liều cao hàng ngày (lên đến 2000 mg trong vòng 24 giờ) vì truyền và bài tiết có thể được phối hợp rất tốt. Do đó, nồng độ thuốc đạt hiệu quả trong huyết tương ở mỗi tình trạng bệnh lý khác nhau có thể được duy trì liên tục trong thời gian dài.\nLiều khuyến cáo: 0,5 - 1 mg/kg/giờ.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Liều lượng | Nội dung:\nLiều khuyến cáo: 0,5 - 1 mg/kg/giờ.\nViệc truyền dịch nên được thiết lập dưới sự kiểm soát điện tâm đồ. Điều này đặc biệt đúng đối với những bệnh nhân bị bệnh cơ tim giãn nở, cần có kết nối màn hình điện tâm đồ để truyền dịch lâu hơn. Sự suy giảm của các thông số điện tâm đồ cá nhân có thể là một dấu hiệu của việc dùng quá liều lượng. Việc truyền dịch sau đó phải được điều chỉnh cho phù hợp.\nGhi chú: Nồng độ natri huyết thanh không được vượt quá giá trị 145 - 150 mg.\nTrẻ em Trừ khi có quy định khác, không được vượt quá liều khuyến cáo 1 mg cho mỗi kg trọng lượng cơ thể ở trẻ em.\nĐối tượng khác Ở những bệnh nhân bị suy giảm chức năng gan hoặc suy tim sung huyết, nên dùng liều thấp hơn (10 - 30 mg/h) do làm giảm độ thanh thải.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Liều lượng | Nội dung:\nĐối tượng khác Ở những bệnh nhân bị suy giảm chức năng gan hoặc suy tim sung huyết, nên dùng liều thấp hơn (10 - 30 mg/h) do làm giảm độ thanh thải.\nUống liều đã quên ngay khi nhớ. Nếu gần đến giờ uống liều kế tiếp, bỏ qua liều quên và uống thuốc theo liều khuyến cáo kế tiếp. Không uống liều gấp đôi để bù cho liều đã quên.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Các triệu chứng chỉ xuất hiện sau khoảng thời gian tiềm ẩn không có triệu chứng từ 50 đến 90 phút.\nLiều độc Nhiễm độc nhẹ từ 2 mg/kg.\nNhiễm độc nặng từ 3 - 4 mg/kg.\nNguy hiểm đến tính mạng từ 5 mg/kg.\nCác triệu chứng nhiễm độc Giảm tốc độ khử cực và tác dụng ức chế tim có thể dẫn đến nhiều rối loạn tim mạch:\nTụt huyết áp, sốc tim, phù phổi, thiểu niệu đến vô niệu.\nNhịp tim chậm, rối loạn dẫn truyền: Mở rộng ORS, block trong não thất, block AV toàn phần, không tâm thu.\nLàm trầm trọng thêm rối loạn nhịp tim nhanh (ví dụ như xoắn đỉnh) cho đến rung thất.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Quá liều và xử trí | Nội dung:\nLàm trầm trọng thêm rối loạn nhịp tim nhanh (ví dụ như xoắn đỉnh) cho đến rung thất.\nCách xử lý khi quá liều Theo dõi chuyên sâu ngay lập tức. Trong trường hợp loạn nhịp nhanh, truyền natri dưới dạng dung dịch 1 mol trong 2 - 3 phút (ví dụ: Dung dịch NaCl, dung dịch natri bicarbonat, dung dịch natri lactat) với liều lượng sau:\nNgười lớn là 100 - 160 mg, trẻ em có thể 0,5 - 2 mg/kg trọng lượng cơ thể khi kiểm tra mức natri.\nĐối với rối loạn nhịp tim và hỗ trợ tuần hoàn, truyền dopamine (2 - 10 mg/kg/phút) hoặc orciprenaline để điều trị rung thất, chuyển đổi điện, để mất nhịp tim, kích thích điện, máy tạo nhịp tim tạm thời hoặc xoa bóp tim ngoài, nếu cần thông khí sớm.\nTruyền máu XAD4 là một phương pháp hạ nồng độ huyết tương tương đối hiệu quả.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Quá liều và xử trí | Nội dung:\nTruyền máu XAD4 là một phương pháp hạ nồng độ huyết tương tương đối hiệu quả.\nGhi chú: Các hoạt động của enzym có thể đã tăng lên trong giai đoạn ngộ độc cấp tính sẽ trở lại bình thường trong vòng 2 - 3 ngày.\nQuên liều và xử trí Uống liều đã quên ngay khi nhớ. Nếu gần đến giờ uống liều kế tiếp, bỏ qua liều quên và uống thuốc theo liều khuyến cáo kế tiếp. Không uống liều gấp đôi để bù cho liều đã quên.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Khi kết hợp ajmaline với các thuốc chống loạn nhịp tim, thuốc chẹn thụ thể β hoặc thuốc đối kháng calci, sẽ xảy ra một tác dụng ức chế trên dẫn truyền AV, dẫn truyền nhĩ thất, dẫn truyền trong não thất và lực co bóp.\nNên tránh kết hợp ajmaline với thuốc chống loạn nhịp có tác dụng tương tự (Loại Ia và Ic Vaughan Williams).\nAjmaline tăng cường rối loạn dẫn truyền liên quan đến glycoside (phụ thuộc vào liều lượng).\nSử dụng đồng thời ajmaline và quinidine làm tăng nồng độ ajmaline trong huyết tương và tăng tác dụng lên hệ thống His-Purkinje.\nSử dụng đồng thời các chất cảm ứng enzym (như rifampicin , phenobarbital, phenytoin , carbamazepine) làm tăng tốc độ chuyển hoá ajmaline trong gan và do đó làm giảm đáng kể nồng độ ajmaline trong huyết tương.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Tương tác thuốc | Nội dung:\nTần suất ứ mật kéo dài tăng lên khi điều trị đồng thời với hormone, sulfonamid (bao gồm thuốc chống đái tháo đường uống tương ứng), salicylat và diazepam .\nSử dụng đồng thời ajmaline với các thuốc kéo dài khoảng QT làm tăng nguy cơ loạn nhịp tim do thuốc do tác dụng dược lực học (kéo dài khoảng QT) tăng lên.\nTương kỵ Không được trộn lẫn với furosemide. Do giá trị pH của dung dịch furosemide thấp hơn dung dịch ajmaline có tính acid có thể tạo ra các kết tủa và khi kết tủa này bong tróc có thể làm tắc nghẽn mạch. Với các dung dịch kiềm (ví dụ như dung dịch natri hydro cacbonat), kết tủa có thể xảy ra, đặc biệt nếu tăng tỷ lệ trộn. Với tỷ lệ trộn 1: 1 với dung dịch natri hydro cacbonat 4,2%, hiện tượng keo tụ được quan sát thấy sau 24 giờ.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Lưu ý | Nội dung:\nLưu ý chung Mặc dù ajmaline đã được sử dụng cho trẻ em, việc sử dụng không có rủi ro vẫn chưa được đảm bảo đầy đủ.\nLưu ý với phụ nữ có thai Ajmaline không nên được sử dụng trong ba tháng đầu của thai kỳ vì không có dữ liệu về độc tính sinh sản từ các thí nghiệm trên động vật và không có tài liệu tham khảo về việc sử dụng trong thời kỳ mang thai.\nChỉ nên cân nhắc sử dụng ajmaline trong những trường hợp nặng, khi lợi ích cho người mẹ lớn hơn nguy cơ có thể xảy ra cho thai nhi. Về nguyên tắc, có thể ảnh hưởng đến tim và thần kinh trung ương đối với thai nhi, vì vậy ajmaline chỉ nên được sử dụng trong thai kỳ nếu ajmaline có chỉ định chặt chẽ, bệnh nhân được theo dõi lâm sàng, giảm liều.\nLưu ý với phụ nữ cho con bú Chưa có dữ liệu nào về sự bài tiết ajmaline trong sữa mẹ.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ajmaline | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Chưa có dữ liệu nào về sự bài tiết ajmaline trong sữa mẹ.\nLưu ý khi lái xe và vận hành máy móc Ajmaline có thể làm giảm khả năng lái xe và sử dụng máy móc, đặc biệt là khi bắt đầu điều trị và khi thay đổi đơn thuốc và liên quan đến việc uống rượu.",
+        "metadata": {
+            "name": "Ajmaline",
+            "id": "ajmaline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ajmaline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

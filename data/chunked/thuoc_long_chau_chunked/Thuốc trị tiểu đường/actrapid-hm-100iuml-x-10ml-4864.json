@@ -1,0 +1,338 @@
+[
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Mô tả tổng quan | Nội dung:\nThuốc Actrapid là sản phẩm được sản xuất bởi Novo Nordisk A/S (Đan mạch), thành phần chính là Insulin human, rDNA (được sản xuất bằng kỹ thuật DNA tái tổ hợp trong tế bào saccharomyces cerevisiae). Đây là thuốc được dùng để điều trị bệnh đái tháo đường.\nThuốc Actrapid được bào chế dưới dạng dung dịch tiêm chứa trong lọ, dung dịch nước trong suốt, không màu, 1ml chứa 100IU insulin người, 1IU (đơn vị quốc tế) tương đương với 0,035mg insulin người khan, được đóng gói theo quy cách 1 lọ chứa 10ml tương đương 1.000 IU.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Thành phần | Nội dung:\nThành phần: Insulin người (1000iu)",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "ingredients",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Chỉ định điều trị | Nội dung:\nThuốc Actrapid Hm 100IU được chỉ định dùng trong các trường hợp sau:\nĐiều trị bệnh tiểu đường.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "chi_dinh",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Dược lực học | Nội dung:\nNhóm dược lý trị liệu: Thuốc dùng trong bệnh đái tháo đường . insulin và các chất tương tự insulin dạng tiêm, tác dụng nhanh, insulin (người).\nHiệu quả làm giảm glucose dễ dàng hơn sau khi insulin gắn kết vào thụ thể trên tế bào cơ và tế bào mỡ, đồng thời ức chế sản xuất glucose từ gan.\nMột thử nghiệm lâm sang tại một đơn vị chăm sóc tích cực điều trị tăng đường huyết (glucose huyết trên 10mmol/l) ở 204 bệnh nhân đái tháo đường trải qua đại phẫu cho thấy đường huyết trở lại mức bình thường (glucose huyết 4,4 – 6,1 mmol/l) do tiêm tĩnh mạch actropic đã làm giảm tỷ lệ tử vong 42% (8% so với 4,6%).\nActrapid là loại insulin tác dụng nhanh. Tác dụng bắt đầu trong vòng 1/2 giờ, đạt hiệu quả tối đa trong vòng 1,5 – 3,5 giờ và toàn bộ thời gian tác dụng khoảng 7 – 8 giờ.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_luc_hoc",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Dược động học | Nội dung:\nTrong máu, insulin có thời gian bán hủy vài phút. Do đó dữ liệu về tác dụng theo thời gian của chế phẩm insulin được xác định duy nhất bởi đặc tính hấp thu của nó. Quá trình này bị ảnh hưởng bởi một vài yếu tố (như liều insulin, đường tiêm, vị trí tiêm, độ dày của lớp mỡ dưới da, loại đái tháo đường). Do đó, dược động học của insulin bị ảnh hưởng bởi sự thay đổi đáng kể trong từng bệnh nhân và giữa các bệnh nhân.\nHấp thu Sau khi tiêm dưới da, nồng độ cao nhất trong huyết tương đạt được trong vòng 1,5 – 2,5 giờ.\nPhân bố Không gắn mạnh với protein huyết tương, ngoại trừ kháng thể kháng insulin trong tuần hoàn (nếu có) đã được quan sát.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Dược động học | Nội dung:\nPhân bố Không gắn mạnh với protein huyết tương, ngoại trừ kháng thể kháng insulin trong tuần hoàn (nếu có) đã được quan sát.\nChuyển hóa Insulin người được báo cáo bị thoái biến bởi insulin protease hoặc enzyme thoái biến insulin và có thể do protein disulfide isomerase. Một số vị trí phân cắt (thủy phân) trên phân tử insulin đã được đề xuất; sau khi phân cắt không có chuyển hóa nào được hình thành còn hoạt động.\nThải trừ Thời gian bán hủy cuối được xác định bởi tốc độ hấp thu từ mô dưới da. Vì vậy, thời gian bán hủy cuối (t1/2) là thước đo sự hấp thu hơn là sự thải trừ trên mỗi giây của insulin từ huyết tương (insulin trong máu có t1/2 vài phút). Các thử nghiệm cho thấy t 1/2khoảng 2 – 5 giờ.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Cách dùng | Nội dung:\nActrapid Hm được dùng tiêm dưới da. Luôn thay đổi vị trí tiêm trong vùng một vùng tiêm để giảm nguy cơ sưng hoặc vết lõm da. Những vị trí tốt nhất để bạn tiêm là: Phần trước thắt lưng (bụng), mông, mặt trước của đùi hoặc phần trên cánh tay.\nInsulin sẽ có tác dụng nhanh hơn nếu bạn tiêm ở vùng xung quanh thắt lưng. Cũng có thể dùng Actrapid Hm tiêm tĩnh mạch trong những trường hợp đặc biệt và do nhân viên y tế thực hiện.\nCách tiêm Actrapid Hm riêng hoặc pha trộn với insulin tác dụng kéo dài.\nPhải chắc chắn bạn đang dùng đúng loại ống tiêm với thang chia đơn vị tương ứng cho các mũi tiêm insulin.\nRút vào ống tiêm một lượng không khí bằng liều insulin bạn cần.\nTuân theo hướng dẫn của bác sĩ và y tá.\nTiêm insulin dưới da. Sử dụng kỹ thuật tiêm như bác sĩ hoặc y tá đã hướng dẫn.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "cach_dung",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Liều dùng | Nội dung:\nActrapid Hm là loại insulin tác dụng nhanh và có thể được dung kết hợp với các sản phẩm insulin kéo dài.\nLiều lượng tùy thuộc vào từng cá nhân và được xác định theo nhu cầu của bệnh nhân. Nhu cầu insulin của từng cá nhân thường từ 0,3 – 1,0IU/Kg/ngày. Nhu cầu insulin hằng ngày có thể cao hơn ở bệnh nhân kháng insulin (ví dụ trong tuổi dậy thì hoặc do béo phì) và thấp hơn ở bệnh nhân sản xuất được lượng insulin nội sinh thặng dư.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "lieu_dung",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Liều dùng | Nội dung:\nĐiều chỉnh liều Bệnh đi kèm, đặc biệt là tình trạng nhiễm trùng và sốt, thường làm tăng nhu cầu insulin của bệnh nhân. Các bệnh đi kèm ở thận, gan hoặc bệnh ảnh hưởng đến tuyến thượng thận, tuyến yên hoặc tuyến giáp có thể đòi hỏi thay đổi liều insulin. Cũng có thể cần phải điều chỉnh liều nếu bệnh nhân thay đổi hoạt động thể lực hay chế độ ăn thông thường. Điều chỉnh liều cũng có thể cần thiết khi chuyển bệnh nhân từ một chế phẩm insulin sang một loại khác.\nNên có bữa ăn chính hoặc bữa ăn nhẹ chứa carbonhydrate trong vòng 30 phút sau mỗi lần tiêm.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "lieu_dung",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Xử trí quá liều | Nội dung:\nKhông thể xác định rõ về sự quá liều khi sử dụng insulin, tuy nhiên hạ đường huyết có thể phát triển qua các gia đoạn liên tiếp nếu dùng liều quá cao so với nhu cầu của bệnh nhân:\nGiai đoạn hạ đường huyết nhẹ, có thể điều trị bằng cách dùng glucose uống hay các sản phẩm có đường. Vì vậy, bệnh nhân đái tháo đường thường được khuyên luôn mang theo người những sản phẩm có đường.\nGiai đoạn hạ đường huyết nặng, khi bệnh nhân bị bất tỉnh, có thể điều trị bằng tiêm bắp hay tiêm dưới da glucagon (0,5 đến 1mg) do một người đã được hướng dẫn cách tiêm, hoặc dùng glucose tiêm truyền tĩnh mạch do một nhân viên y tế thực hiện. Phải dùng glucose đường tĩnh mạch, nếu bệnh nhân không đáp ứng với glucagon trong vòng 10 - 15 phút.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "xu_tri_qua_lieu",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Xử trí quá liều | Nội dung:\nKhi bệnh nhân tỉnh lại cần cho dùng thức ăn có chứa carbohydrat để phòng ngừa tái phát.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "xu_tri_qua_lieu",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Xử trí quên liều | Nội dung:\nNếu bạn quên một liều thuốc, hãy dùng càng sớm càng tốt ngay khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch. Lưu ý rằng không nên dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "xu_tri_quen_lieu",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Chống chỉ định | Nội dung:\nThuốc Actrapid Hm chống chỉ định trong các trường hợp sau:\nQuá mẫn với hoạt chất hay bất kì tá dược nào của thuốc.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "chong_chi_dinh",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Thận trọng | Nội dung:\nĐọc kĩ hướng dẫn sử dụng trước khi dùng. Nếu cần thêm thông tin, xin hỏi ý kiến bác sĩ.\nThuốc này chỉ dùng theo đơn của bác sĩ.\nViệc điều trị không đủ liều hoặc không liên tục, đặc biệt trong đái tháo đường type 1, có thể dẫn đến tăng đường huyết.\nThông thường, các triệu chứng đầu tiên của tăng đường huyết xuất hiện từ từ, kéo dài trong vài giờ hoặc vài ngày. Những triệu chứng này bao gồm khát, tiểu nhiều lần, buồn nôn, nôn, buồn ngủ, da khô đỏ, khô miệng, mất sự ngon miệng cũng như hơi thở có mùi aceton. Trong đái tháo đường type 1, các trường hợp tăng đường huyết không được điều trị cuối cùng sẽ dẫn đến nhiễm toan aceton do đái tháo đường, có khả năng gây tử vong.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Thận trọng | Nội dung:\nHạ đường huyết Hạ đường huyết có thể xảy ra nếu liều insulin quá cao so với nhu cầu insulin. Bỏ một bữa ăn hay luyện tập thể lực gắng sức, không có kế hoạch có thể dẫn đến hạ đường huyết. Những bệnh nhân có sự kiểm soát glucose huyết được cải thiện rõ, ví dụ do liệu pháp insulin tích cực, có thể có thay đổi về những triệu chứng cảnh báo thường gặp của hạ đường huyết và nên được bác sĩ thông báo trước. Những triệu chứng cảnh báo thường gặp có thể mất đi ở những bệnh nhân đái tháo đường đã lâu.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Thận trọng | Nội dung:\nKhi chuyển bệnh nhân sang sử dụng một loại insulin khác hay nhãn hiệu insulin khác cần được thực hiện dưới sự giám sát y tế chặt chẽ. Những thay đổi về nồng độ, nhãn hiệu (nhà sản xuất), loại, nguồn gốc (insulin người, chất tương tự insulin) hoặc phương pháp sản xuất có thể dẫn đến sự cần thiết thay đổi liều dùng. Những bệnh nhân được chuyển sang Actrapid Hm từ một loại insulin khác có thể cần phải tăng một số mũi tiêm hàng ngày hoặc thay đổi liều của loại insulin mà họ đã sử dụng trước đó. Nếu việc điều chỉnh là cần thiết khi chuyển bệnh nhân sang sử dụng Actrapid Hm thì có thể thực hiện ở liều đầu tiên hoặc trong vài tuần hoặc vài tháng đầu.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Thận trọng | Nội dung:\nCũng như bất kì liệu pháp insulin nào khác, có thể xảy ra các phản ứng tại chỗ tiêm, bao gồm đau đỏ, nổi mề đay, viêm, thâm tím, sung và ngứa. Thay đổi liên tục vị trí tiêm trong một vùng tiêm nhất định có thể giúp làm giảm hoặc phòng ngừa các phản ứng này. Những phản ứng trên thường qua đi trong vài ngày hoặc vài tuần. Trong một số trường hợp hiếm gặp, phản ứng tại chỗ tiêm có thể đòi hỏi phải ngừng sử dụngActrapid Hm.\nTrước khi đi du lịch đến nơi khác có sự khác biệt về múi giờ, bệnh nhân nên tham khảo ý kiến bác sĩ vì điều này có nghĩa là bệnh nhân phải tiêm insulin và dùng các bữa ăn vào những thời điểm khác.\nDo nguy cơ kết tủa trong một số ống thông bơm insulin, không được dùng Actrapid Hm trong bơm insulin để truyền insulin dưới da liên tục.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Thận trọng | Nội dung:\nDo nguy cơ kết tủa trong một số ống thông bơm insulin, không được dùng Actrapid Hm trong bơm insulin để truyền insulin dưới da liên tục.\nKết hợp thiazolidinedione và các thuốc insulin Đã có báo cáo về các trường hợp suy tim sung huyết khi dùng thiazolidinedione kết hợp với insulin, đặc biệt ở những bệnh nhân có nguy cơ về phát triển suy tim sung huyết. Cần phải nhớ điều này nếu xem xét điều trị kết hợp thiazolidinedione với các thuốc insulin. Nếu sử dụng kết hợp, phải theo dõi bệnh nhân về các dấu hiệu và triệu chứng của suy tim sung huyết, tăng cân và phù. Phải nhưng sử dụng thiazodilinedione nếu xảy ra bất kì triệu chứng nào về tim xấu đi.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Thận trọng | Nội dung:\nThận trọng đặc biệt khi hủy bỏ và các thao tác khác Để sử dụng đường tĩnh mạch: Hệ thống truyền với Actrapid® ở nồng độ từ 0,05IU/ml đến 1,0IU/ml insulin người trong dịch truyền: Natri chloride 0,9%, dextrose 5% và dextrose 10% bao gồm 40mmol/l kali chloride, sử dụng túi truyền polypropylene ổn định ở nhiệt độ phòng trong 24 giờ. Mặc dù ổn định theo thời gian nhưng một lượng insulin nhất định ban đầu sẽ được hấp thu vào vật liệu của túi truyền. Cần phải theo dõi glucose huyết trong suốt quá trình truyền.\nKhông được sử dụng chế phẩm insulin đã bị đông lạnh.\nKhông được sử dụng dung dịch insulin nếu dung dịch không trong suốt và không màu.\nKhông được sử dụng Actrapid Hm trong bơm insulin để truyền insulin dưới da liên tục.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Tương tác thuốc | Nội dung:\nMột số thuốc được biết là có tương tác với chuyển hóa glucose.\nNhững chất sau đây có thể làm giảm nhu cầu insulin của bệnh nhân:\nThuốc điều trị đái tháo đường dạng uống, chất ức chế monoamine oxidase (MAOI), thuốc chẹn beta không chọn lọc, chất ức chế enzyme chuyển angiotensin (ACE), salicylate, các steroid đồng hóa và sulfonamide .\nNhững chất sau đây có thể làm tăng nhu cầu insulin của bệnh nhân:\nThuốc tránh thai dạng uống, thiazide, glucocorticoid, hormone tuyến giáp, các chất có tác dụng giống thần kinh giao cảm, hormone tăng trưởng và danazol.\nThuốc chẹn beta có thể che lấp các triệu chứng hạ đường huyết và làm chậm trễ sự hồi phục.\nOctreotide/lanreotide có thể làm tăng hoặc giảm nhu cầu insulin. Rượu có thể làm tăng hoặc giảm tác dụng hạ đường huyết của insulin.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "tuong_tac_thuoc",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Tác dụng phụ | Nội dung:\nKhi sử dụng thuốc Actrapid Hm, bạn có thể gặp các tác dụng không mong muốn (ADR).\nCác phản ứng phụ được liệt kê dưới đây dựa trên các dữ liệu lâm sàng và được phân loại theo tần suất và nhóm cơ quan hệ thống của MedDRA. Các nhóm tần suất được xác định theo quy ước sau: Rất thường gặp (>=1/10), thường gặp (>= 1/100 đến < 1/10), ít gặp (>= 1/1000 đến < 1/100), hiếm gặp (>= 1/10000 đến < 1/1000), rất hiếm gặp (< 1/10000), chưa rõ tần suất (không thể ước tính từ các dữ liệu hiện có).",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "adverse_effect",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Tác dụng phụ | Nội dung:\nRối loạn hệ miễn dịch Ít gặp – Nổi mề đay , nổi ban Rất hiếm gặp – Phản ứng phản vệ* Rối loạn chuyển hóa và dinh dưỡng Rất thường gặp – Hạ đường huyết* Rối loạn hệ thần kinh Ít gặp – Bệnh thần kinh ngoại biên (bệnh đau thần kinh) Rối loạn mắt Ít gặp – Rối loạn khúc xạ Rất hiếm gặp – Bệnh võng mạc do đái tháo đường Rối loạn da và mô dưới da Ít gặp – Loạn dưỡng mô* Rối loạn toàn thân và tình trạng tại chỗ viêm Ít gặp – Phản ứng tại chỗ tiêm Ít gặp – Phù Mô tả các phản ứng phụ chọn lọc Phản ứng phản vệ Sự xuất hiện các phản ứng quá mẫn toàn thân (bao gồm nổi ban toàn thân, ngứa, đổ mồ hôi, rối loạn tiêu hóa, phù mạch thần kinh, khó thở, đánh trống ngực, giảm huyết áp và ngất/mất ý thức) rất hiếm gặp nhưng có thể đe dọa tính mạng.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "adverse_effect",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Tác dụng phụ | Nội dung:\nHạ đường huyết Phản ứng phụ đã được báo cáo thường gặp nhất là hạ đường huyết, có thể xảy ra nếu liều insulin quá cao với nhu cầu insulin. Hạ đường huyết nặng có thể dẫn đến bất tỉnh hoặc co giật và có thể gây ra suy chức năng não tạm thời hay vĩnh viễn hoặc thậm chí tử vong.\nCác triệu chứng của hạ đường huyết thường xuất hiện đột ngột, có thể bao gồm đổ mồ hôi lạnh, da xanh tái và lạnh, mệt mỏi, bồn chồn hoặc run, cảm giác lo âu , mệt hoặc yếu bất thường, lú lẫn, khó tập trung, buồn ngủ, đói dữ dội, thay đổi thị lực, nhức đầu , buồn nôn và đánh trống ngực.\nLoạn dưỡng mỡ Loạn dưỡng mỡ được báo cáo ít gặp, có thể xảy ra tại chỗ tiêm.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "adverse_effect",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml) | Phần: Bảo quản | Nội dung:\nKhi đang sử dụng, không nên để lọ Actrapid Hm trong tủ lạnh. Lọ Actrapid Hm có thể giữ ở nhiệt độ phòng (không quá 30°C) đến 6 tuần sau khi mở lần đầu.\nKhi chưa sử dụng, nên bảo quản lọ Actrapid Hm trong tủ lạnh ở 2°C đến 8°C (không để quá gần ngăn đá). Không làm đông lạnh.\nGiữ lọ thuốc trong hộp carton để tránh sánh sáng.\nActrapid Hm phải tránh nguồn nhiệt hay ánh sáng quá mức.\nĐể xa tầm tay và tầm nhìn của trẻ em.\nKhông dùng Actrapid Hm quá hạn sử dụng đã ghi trên nhãn/hộp carton.",
+        "metadata": {
+            "name": "Thuốc tiêm Actrapid 100 IU/ml Novo điều trị bệnh tiểu đường (10ml)",
+            "id": "4864",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/actrapid-hm-100iuml-x-10ml-4864.html",
+            "category": "Thuốc trị tiểu đường",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "preservation",
+            "chunk_index": 0
+        }
+    }
+]

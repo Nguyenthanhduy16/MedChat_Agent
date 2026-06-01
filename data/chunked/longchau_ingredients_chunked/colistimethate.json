@@ -1,0 +1,254 @@
+[
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Colistimethate (colistimetat) Loại thuốc Kháng sinh (thuộc nhóm polymycin).\nDạng thuốc và hàm lượng Thuốc tiêm chứa natri colistimethate tương đương với 150 mg colistin base = 4500000 IU.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Chỉ định | Nội dung:\nChỉ sử dụng Colistimethate khi không dùng được những thuốc khác trong các điều trị sau:\nĐiều trị nhiễm khuẩn đường tiêu hóa, và phối hợp với các thuốc khác để khử nhiễm chọn lọc ở đường tiêu hóa cho người bệnh có nguy cơ cao bị nhiễm khuẩn nội sinh (dùng theo đường uống).\nNhiễm khuẩn nặng do vi khuẩn Gram âm: Nhiễm khuẩn huyết, viêm màng não , nhiễm khuẩn thận, nhiễm khuẩn đường niệu - sinh dục do các vi khuẩn nhạy cảm (dùng theo đường tiêm).\nĐiều trị nhiễm khuẩn đường hô hấp (hít natri colistimethate), đặc biệt ở người bệnh bị xơ nang.\nĐiều trị nhiễm khuẩn tai ngoài (dùng natri colistimethate để nhỏ vào tai).",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Dược lực học | Nội dung:\nColistin là thuốc kháng sinh nhóm polymyxin, thường dùng để điều trị những trường hợp nhiễm khuẩn nặng do vi khuẩn Gram âm, đặc biệt là các trường hợp nhiễm Pseudomonas aeruginosa . Các polymyxin có tác dụng diệt khuẩn ngay cả với tế bào ở trạng thái nghỉ, vì thuốc làm thay đổi tính thẩm thấu chọn lọc của màng tế bào. Nồng độ thuốc tối thiểu ức chế (MIC) phần lớn các loại vi khuẩn nhạy cảm là từ 0,01 đến 4 microgam/ml. Nồng độ có tác dụng đối với các chủng Pseudomonas aeruginosa nhạy cảm với thuốc thường thấp hơn 8 microgam/ml.\nColistin tác dụng tại phổi chỉ giới hạn ở các vi khuẩn Gram âm:",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Dược lực học | Nội dung:\nColistin tác dụng tại phổi chỉ giới hạn ở các vi khuẩn Gram âm:\nPseudomonas aeruginosa, E. Coli, Klebsiella, Enterobacter, Salmonella, Shigella, Haemophillus, Bordetella pertussis, Pasteurella, Citrobacter, Acinetobacter (MIC = 0,25 - 1 microgam/ml). Chưa thấy nói đến vi khuẩn trở nên kháng thuốc theo cơ chế di truyền hay qua trung gian plasmid.\nVi khuẩn kháng tự nhiên với Colistimethate: vi khuẩn Gram dương, cầu khuẩn Gram âm, Proteus, Providencia, Mycobacteria và vi khuẩn kỵ khí.\nCó kháng chéo với polymyxin B.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Dược động học | Nội dung:\nHấp thu Natri colistimethate được hấp thu rất kém ở đường tiêu hóa (chỉ khoảng 0,5%) và không được hấp thu qua niêm mạc hoặc da lành. Sau khi uống, thuốc đào thải qua phân dưới dạng không đổi. Sau khi tiêm bắp natri colistimethate với liều tương đương 150 mg colistin từ 2 đến 3 giờ, thuốc đạt nồng độ đỉnh trong huyết tương. Khi dùng đường tiêm tĩnh mạch, thuốc đạt Nồng độ đỉnh cao hơn nhưng giảm nhanh hơn so với đường tiêm bắp.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Dược động học | Nội dung:\nPhân bố In vivo , một tỷ lệ nhỏ natri colistimethate có thể bị thủy phân thành colistin. Colistin gắn lỏng lẻo vào các mô, song dạng natri colistimethate thì không kết gắn. Colistin không qua hàng rào máu - não, và xuất hiện rất ít trong dịch nhãn cầu, dịch ổ khớp, dịch màng phổi. Colistin gắn 50% với protein huyết tương. Colistin có thể qua được nhau thai và bài xuất vào sữa mẹ.\nChuyển hóa và thải trừ Nửa đời huyết tương là từ 2 - 3 giờ. Natri colistimethate đào thải chủ yếu nhờ quá trình lọc ở cầu thận dưới dạng không đổi hoặc dạng chuyển hóa. Trong vòng 24 giờ, có thể tới 80% liều thuốc đã tiêm xuất hiện trong nước tiểu.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Dược động học | Nội dung:\nỞ trẻ em, thuốc đào thải nhanh hơn so với người lớn và thuốc đào thải chậm ở người bị suy giảm chức năng thận. Ở bệnh nhân có độ thanh thải creatinin dưới 20 ml/phút, nửa đời của natri colistimethate từ 10 - 20 giờ. Ở bệnh nhân bí tiểu, nửa đời của thuốc tăng lên tới 2 - 3 ngày.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Liều lượng | Nội dung:\nLiều dùng Colistimethate Người lớn và trẻ em Liều tiêm bắp và tĩnh mạch đối với trẻ em và người lớn có chức năng thận bình thường là 2,5 - 5 mg/kg/ngày (tính theo colistin), chia làm 2 - 4 lần tùy theo mức độ nghiêm trọng của tình trạng nhiễm khuẩn. Gợi ý sử dụng như sau:\nTiêu chảy cấp Liều trẻ em: 250000 đơn vị quốc tế (đvqt)/kg/ngày, chia làm 3 - 4 lần uống.\nNgười lớn: 100000 - 150000 đvqt/kg/ngày, chia làm 3 - 4 lần.\nKhông được dùng thuốc quá 7 ngày. Phải chú ý bù nước tùy theo mức độ nặng nhẹ của ỉa chảy và các yếu tố khác như tuổi và cơ địa của người bệnh.\nViêm màng não Có thể tiêm colistin vào ống tủy.\nTrẻ em: 10000 - 20000 đvqt/ngày.\nNgười lớn: 60000 đvqt/ngày (bắt đầu bằng 20000 đvqt ngày thứ nhất và 40000 đvqt ngày thứ hai).",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Liều lượng | Nội dung:\nTrẻ em: 10000 - 20000 đvqt/ngày.\nNgười lớn: 60000 đvqt/ngày (bắt đầu bằng 20000 đvqt ngày thứ nhất và 40000 đvqt ngày thứ hai).\nNatri colistimethate còn dùng tiêm dưới kết mạc và dùng để rửa bàng quang.\nNatri colistimethate và colistin sulfat cũng được dùng tại chỗ, thường là phối hợp với các kháng sinh khác để điều trị nhiễm khuẩn tai ngoài. Cần kiểm tra kỹ màng nhĩ trước khi cho nhỏ tai vì nếu màng nhĩ bị thủng thì colistin có thể gây ra tổn thương không phục hồi (điếc, rối loạn thăng bằng do tổn thương ốc tai...). Không được sử dụng tại chỗ quá 8 - 10 ngày để tránh bội nhiễm do các chủng kháng colistin.\nĐối tượng khác Điều chỉnh liều ở người bệnh suy thận cần căn cứ vào nồng độ creatinin huyết tương hoặc hệ số thanh thải creatinin của người bệnh:",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Liều lượng | Nội dung:\nĐối tượng khác Điều chỉnh liều ở người bệnh suy thận cần căn cứ vào nồng độ creatinin huyết tương hoặc hệ số thanh thải creatinin của người bệnh:\nNồng độ creatinin huyết tương (mg/lít) Hệ số thanh thải creatinin (ml/phút) Liều khuyên dùng (đvqt/kg/ngày) Liều tối đa (đvqt/kg/ngày) < 15 > 80 50000 150000 15 - < 35 80 - 30 30000 60000 35 - 100 < 30 - 5 15000 > 100 < 5 Cứ 2 hoặc 3 ngày 1000000 đvqt 30000 đvqt/kg, sau đó 1000000 đvqt 2 lần/tuần Vô niệu 1000000 đvqt sau mỗi lần lọc máu 30000 đvqt/kg, sau đó 1000000 đvqt sau mỗi lần lọc máu Điều chỉnh liều (tính theo cân nặng) tùy thuộc vào nồng độ creatinin huyết tương:\nNồng độ creatinin từ 1,3 - 1,5 mg/dl: 75 - 115 mg/lần, ngày 2 lần (tương đương liều 2,5 - 3,8 mg/kg/ngày).",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Liều lượng | Nội dung:\nNồng độ creatinin từ 1,3 - 1,5 mg/dl: 75 - 115 mg/lần, ngày 2 lần (tương đương liều 2,5 - 3,8 mg/kg/ngày).\nNồng độ creatinin từ 1,6 - 2,5 mg/dl: 66 - 150 mg/lần, ngày 1 - 2 lần (tương đương liều 2,5 mg/kg/ngày).\nNồng độ creatinin từ 2,6 - 4 mg/dl: 100 - 150 mg/lần, 36 giờ dùng 1 lần (tương đương liều 1,5 mg/kg/lần).\nCách dùng Pha tiêm Bột pha tiêm natri colistimethate tương đương 150 mg colistin được tạo thành dung dịch với 2 ml nước cất pha tiêm, lắc nhẹ để tránh tạo bọt. Dung dịch tiêm tạo thành nên được dùng ngay hoặc bảo quản trong vòng 24 giờ.\nĐối với tiêm tĩnh mạch Tiêm 1/2 liều hàng ngày trực tiếp vào tĩnh mạch trong vòng 3 - 5 phút, 12 giờ tiêm một lần.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Liều lượng | Nội dung:\nĐối với tiêm tĩnh mạch Tiêm 1/2 liều hàng ngày trực tiếp vào tĩnh mạch trong vòng 3 - 5 phút, 12 giờ tiêm một lần.\nĐối với truyền tĩnh mạch liên tục Tiêm trực tiếp 1/2 liều Colistimethate hàng ngày vào tĩnh mạch trong vòng 3 - 5 phút, phần còn lại pha trong dung dịch tương hợp, truyền tĩnh mạch chậm sau đó 1 - 2 giờ. Tốc độ truyền đối với người có chức năng thận bình thường là 5 - 6 mg/giờ. Với bệnh nhân có suy thận, cần điều chỉnh tốc độ truyền theo mức độ suy thận. Dung dịch pha tiêm và thể tích dung dịch phụ thuộc vào nhu cầu dịch và điện giải của bệnh nhân.\nDung dịch tương hợp pha tiêm bao gồm: Natri clorid 0,9%, dung dịch dextrose 5%, hỗn hợp dextrose 5% và natri clorid 0,225%, 0,45% hoặc 0,9%, dung dịch ringer lactat, dung dịch đường biến 10% (saccarose).",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Liều lượng | Nội dung:\nThuốc được sử dụng bởi nhân viên y tế nên không có khả năng xảy ra quên liều.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Dùng quá liều có thể dẫn đến phong tỏa thần kinh cơ dẫn đến yếu cơ, ngưng thở và có thể ngừng hô hấp. Dùng quá liều cũng có thể gây suy thận cấp , với đặc điểm là giảm lượng nước tiểu và tăng nồng độ BUN và creatinin trong huyết thanh.\nCách xử lý khi quá liều Điều trị triệu chứng và hỗ trợ tùy theo triệu chứng và mức độ nặng nhẹ.\nNên thay máu nếu có điều kiện vì lọc máu và thẩm tách màng bụng không có tác dụng đào thải colistin.\nQuên liều Colistimethate và xử trí Thuốc được sử dụng bởi nhân viên y tế nên không có khả năng xảy ra quên liều.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Natri colistimethate có thể làm tăng nồng độ/tác dụng của các chất ức chế thần kinh cơ như alcuronium, amikacin , atracurium, cisatracurium, doxacurium , fazadinium, galamin, hexafluorenium, metocurin, mivacurium , pancuronium, pipecuronium, rapacuronium , rocuronium, tubocurarin, vecuronium.\nNồng độ natri colistimethate có thể tăng lên khi dùng đồng thời với aminoglycosid, amphotericin B , capreomycin, polymyxin B, vancomycin .\nNatri colistimethate có thể làm giảm nồng độ/tác dụng của vắc xin thương hàn.\nTương kỵ thuốc Natri colistimethate có thể tương kỵ vật lý và/hoặc hóa học với một số thuốc; nhưng sự tương kỵ tùy thuộc vào nhiều yếu tố: Nồng độ thuốc, dung dịch pha, pH, nhiệt độ.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Lưu ý | Nội dung:\nLưu ý chung Thuốc Colistimethate có thể gây rối loạn thần kinh thoáng qua. Do vậy, cần thông báo với bệnh nhân tránh các hoạt động cần sự tập trung hoặc phối hợp vận động như phẫu thuật, lái xe… Cần theo dõi chức năng thận, nếu có dấu hiệu giảm bài tiết nước tiểu hoặc tăng nồng độ urê, creatinin huyết thanh, cần ngưng thuốc ngay lập tức. Thận trọng khi dùng cho bệnh nhân có nguy cơ suy thận (ví dụ: Bệnh nhân cao tuổi). Đặc biệt thận trọng khi dùng cho bệnh nhân suy thận, cần điều chỉnh liều theo mức độ suy thận.\nThuốc có thể gây ức chế thần kinh - cơ (liệt) ở người bệnh mắc bệnh phổi mạn tính, có thể dẫn đến tử vong do ngừng thở.\nDùng thuốc dài ngày có thể dẫn đến phát triển quá mức các vi khuẩn không nhạy cảm, đặc biệt Proteus.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Lưu ý | Nội dung:\nDùng thuốc dài ngày có thể dẫn đến phát triển quá mức các vi khuẩn không nhạy cảm, đặc biệt Proteus.\nTuyệt đối không mang kính áp tròng trong suốt thời gian điều trị bằng colistin ở mắt.\nLưu ý với phụ nữ có thai Colistimethate có thể đi qua nhau thai, thuốc chỉ sử dụng trong thời kỳ mang thai khi lợi ích vượt trội so với nguy hại có thể có đối với thai nhi.\nLưu ý với phụ nữ cho con bú Chưa rõ colistimethate có bài tiết vào sữa mẹ không. Colistin được bài tiết trong sữa. Mặc dù nồng độ thấp, nhưng có thể có 3 vấn đề đối với trẻ bú mẹ: Biến đổi hệ vi khuẩn ở ruột, tác dụng trực tiếp trên trẻ và ảnh hưởng đến kết quả nuôi cấy nếu cần thiết phải làm khi có sốt phải khám toàn bộ. Không nên dùng trong thời kỳ cho con bú.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Colistimethate | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Thuốc có thể gây các tác dụng như chóng mặt, lú lẫn, rối loạn tầm nhìn. Do đó, nên hạn chế lái xe hoặc vận hành máy móc khi dùng thuốc.",
+        "metadata": {
+            "name": "Colistimethate",
+            "id": "colistimethate",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/colistimethate",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

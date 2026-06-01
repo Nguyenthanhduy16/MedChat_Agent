@@ -1,0 +1,198 @@
+[
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Naloxone (naloxon).\nLoại thuốc Thuốc đối kháng opiat; thuốc giải độc opiat.\nDạng thuốc và hàm lượng Ống tiêm (dạng muối hydroclorid): 0,04 mg/2 ml; 0,4 mg/1 ml; 4 mg/10 ml.\nỐng tiêm không có chất bảo quản (dạng muối hydroclorid): 0,4 mg/1 ml; 2 mg/2 ml.\nBơm tiêm đóng sẵn (dạng muối hydroclorid): 2 mg/2 ml.\nBơm tiêm dùng một lần (dạng muối hydroclorid): 0,4 mg/1 ml; 0,8 mg/2 ml; 2 mg/5 ml.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Chỉ định | Nội dung:\nThuốc Naloxone chỉ định điều trị trong các trường hợp sau:\nBiết hoặc nghi ngờ quá liều thuốc giảm đau opiat (opiat tự nhiên và tổng hợp), trừ trường hợp do levopropoxyphen.\nỨc chế hô hấp do quá liều thuốc giảm đau và ức chế hô hấp ở trẻ sơ sinh do mẹ dùng thuốc giảm đau opiat trong khi chuyển dạ.\nỨc chế hệ thần kinh trung ương do dùng thuốc giảm đau opiat trong khi phẫu thuật.\nChẩn đoán nghiện opiat hoặc chẩn đoán quá liều cấp do thuốc opiat.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Dược lực học | Nội dung:\nNaloxone hydroclorid là một chất bán tổng hợp, dẫn xuất từ thebain, là chất đối kháng opiat đặc hiệu có tác dụng cạnh tranh tại các thụ thể opiat trong hệ thần kinh trung ương, được coi là có ái lực cao nhất đối với thụ thể µ.\nỞ người bệnh đã dùng liều lớn morphin hoặc thuốc giảm đau khác có tác dụng giống morphin, Naloxone đối kháng phần lớn những tác dụng của opiat.\nTăng tần số thở và tăng thể tích thở ra trong một phút, phân áp CO2 động mạch giảm xuống mức bình thường, và huyết áp (nếu giảm) trở về bình thường. Naloxone đối kháng với tác dụng an thần hoặc gây ngủ của opiat.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Dược động học | Nội dung:\nHấp thu Naloxone bị khử hoạt tính nhanh sau khi uống. Mặc dù thuốc có tác dụng khi uống, nhưng phải uống liều lớn hơn nhiều so với liều tiêm cần thiết để có đối kháng hoàn toàn.\nPhân bố Sau khi tiêm, Naloxone phân bố nhanh vào các mô và dịch của cơ thể. Ở chuột cống, thấy có nồng độ cao trong não, thận, lách, phổi, tim, cơ và xương.\nChuyển hóa Naloxone chuyển hóa nhanh trong gan, chủ yếu bằng cách liên hợp với acid glucuronic. Chất chuyển hóa chủ yếu là naloxone 3-glucuronid. Naloxone cũng bị khử N-alkyl và khử nhóm 6-ceto, sau đó liên hợp với acid glucuronic.\nThải trừ Thời gian bán thải của Naloxone là 30 - 81 phút ở người lớn và khoảng 3 giờ ở trẻ sơ sinh.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Liều lượng | Nội dung:\nLiều dùng Naloxone Người lớn Dùng thuốc Naloxone điều trị quá liều do thuốc giảm đau opiat (biết hay nghi ngờ):\nDùng liều khởi đầu Naloxone hydroclorid 0,4 - 2 mg tiêm tĩnh mạch và lặp lại nếu cần, cách nhau 2 - 3 phút.\nNếu không đáp ứng sau tổng liều 10 mg, phải xem lại quá liều do thuốc khác, không phải do thuốc opiat.\nNếu nghi ngờ người bệnh nghiện opiat, phải thận trọng để tránh thúc đẩy triệu chứng cai thuốc: Dùng liều khởi đầu gợi ý 50 microgam.\nNếu không tiêm được tĩnh mạch, có thể tiêm bắp hoặc tiêm dưới da.\nDùng thuốc Naloxone trong trường hợp ức chế hệ thần kinh trung ương do thuốc opiat trong phẫu thuật:\nLiều khởi đầu tiêm tĩnh mạch: Cho liều 0,1 - 0,2 mg.\nDùng thuốc Naloxone chẩn đoán nghiện thuốc opiat ở người lớn:",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Liều lượng | Nội dung:\nLiều khởi đầu tiêm tĩnh mạch: Cho liều 0,1 - 0,2 mg.\nDùng thuốc Naloxone chẩn đoán nghiện thuốc opiat ở người lớn:\nLiều khởi đầu tiêm bắp 0,16 mg. Sau 20 - 30 phút, nếu triệu chứng cai thuốc không rõ rệt, cho liều thứ hai 0,24 mg tiêm tĩnh mạch.\nTest âm tính nếu triệu chứng cai thuốc không rõ ràng trong vòng 30 phút sau liều thứ hai.\nTriệu chứng cai thuốc do Naloxone gây ra bắt đầu giảm sau khi tiêm Naloxone 20 - 40 phút và hết hẳn trong vòng 1,5 giờ. Hiện nay không dùng test này.\nTrẻ em Tiêm tĩnh mạch:\nTrẻ sơ sinh: 10 microgam/kg; nếu không đáp ứng, cho thêm liều 100 microgam/kg (sau đó duyệt lại chẩn đoán). Có thể phải cho thêm liều nữa nếu chức năng hô hấp xấu đi.\nTrẻ 1 tháng - 12 tuổi: Liều như trẻ sơ sinh.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Liều lượng | Nội dung:\nTrẻ 1 tháng - 12 tuổi: Liều như trẻ sơ sinh.\nTrẻ 12 - 18 tuổi: Liều 0,4 - 2 mg; nếu không đáp ứng, lặp lại liều, cách nhau 2 - 3 phút cho tới liều tối đa 10 mg (sau đó duyệt lại chẩn đoán); có thể thêm liều nếu chức năng hô hấp xấu đi.\nTiêm dưới da hoặc tiêm bắp:\nLiều như tiêm tĩnh mạch, nhưng chỉ khi không tiêm được tĩnh mạch (thuốc tác dụng chậm hơn).\nTruyền tĩnh mạch liên tục bằng bơm truyền:\nSơ sinh: Tốc độ truyền điều chỉnh theo đáp ứng (khởi đầu, có thể để tốc độ ở 60% liều khởi đầu tiêm tĩnh mạch/giờ).\nTrẻ 1 tháng tuổi - 18 tuổi: Tốc độ truyền điều chỉnh theo đáp ứng (khởi đầu, có thể để tốc độ ở 60% liều khởi đầu tiêm tĩnh mạch/giờ).\nỨc chế hệ thần kinh trung ương do thuốc opiat trong phẫu thuật:",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Liều lượng | Nội dung:\nỨc chế hệ thần kinh trung ương do thuốc opiat trong phẫu thuật:\nTrẻ em, cho liều 0,005 - 0,01 mg, cho cách nhau 2 - 3 phút cho tới khi đáp ứng (nghĩa là thông khí tốt, tỉnh táo và không đau nhiều).\nCó thể phải cho thêm liều, cách nhau 1 - 2 giờ, phụ thuộc vào đáp ứng của người bệnh và thời gian tác dụng của thuốc opiat đã dùng.\nỨc chế hô hấp và hệ thần kinh trung ương ở trẻ sơ sinh do mẹ dùng thuốc giảm đau opiat trong khi chuyển dạ:\nSơ sinh: Tiêm bắp liều duy nhất 200 microgam (60 microgam/kg) lúc mới sinh. Tiêm tĩnh mạch hoặc dưới da liều 10 microgam/kg, lặp lại cách nhau 2 - 3 phút nếu cần.\nĐối tượng khác Người cao tuổi:\nChưa đủ số lượng người bệnh tuổi từ 65 trở lên được nghiên cứu, nên không xác định được sự đáp ứng khác nhau giữa người cao tuổi và người trẻ tuổi.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Liều lượng | Nội dung:\nChưa đủ số lượng người bệnh tuổi từ 65 trở lên được nghiên cứu, nên không xác định được sự đáp ứng khác nhau giữa người cao tuổi và người trẻ tuổi.\nNhưng thông thường đối với người bệnh cao tuổi nên thăm dò cẩn thận liều lượng thuốc, thường bắt đầu điều trị với liều ở giới hạn thấp nhất.\nCũng cần lưu ý đến việc người cao tuổi hay bị suy giảm chức năng gan, thận và/hoặc tim và có bệnh kèm theo, và khi dùng thuốc cần phải cân nhắc.\nCách dùng Naloxone hydroclorid thường được tiêm tĩnh mạch hoặc truyền tĩnh mạch qua máy bơm, nhưng cũng có thể tiêm bắp, tiêm dưới da, đôi khi qua ống nội khí quản. Nên dùng đường tĩnh mạch trong trường hợp cấp cứu.\nThuốc được sử dụng tại bệnh viện dưới giám sát của nhân viên y tế nên thường không xảy ra tình trạng quên liều.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Naloxone và xử trí Quá liều và độc tính Không có kinh nghiệm lâm sàng về quá liều Naloxone ở người.\nLiều duy nhất 10 mg Naloxone Hydrochloride IV đã được dung nạp mà không có bất kỳ tác dụng phụ hoặc thay đổi kết quả xét nghiệm. Sử dụng sau phẫu thuật cao hơn liều lượng được khuyến nghị có thể dẫn đến sự trở lại của cơn đau và căng thẳng.\nCách xử lý khi quá liều Không có thông tin.\nQuên liều và xử trí Thuốc được sử dụng tại bệnh viện dưới giám sát của nhân viên y tế nên thường không xảy ra tình trạng quên liều.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Dùng đồng thời Naloxone với những thuốc giảm đau opiat dẫn đến giảm tác dụng của các thuốc.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Lưu ý | Nội dung:\nLưu ý chung Khi dùng Naloxone điều trị quá liều opiat gây độc cấp, phải dùng những liều Naloxone nhắc lại. Phải có sẵn biện pháp hồi sức khác (ví dụ, duy trì thông khí đầy đủ, hô hấp nhân tạo, bóp tim ngoài lồng ngực, thuốc tăng huyết áp) để sử dụng khi cần thiết.\nSau khi dùng các opiat trong khi phẫu thuật, phải tránh dùng liều Naloxone quá cao, Phải dùng thận trọng Naloxone cho người bệnh đã biết rõ hoặc nghi ngờ lệ thuộc opiat về mặt thể chất (kể cả những trẻ mới sinh từ bà mẹ nghiện opiat), đặc biệt ở những người có bệnh tim mạch. Phải dùng thận trọng Naloxone cho người bệnh có bệnh tim mạch từ trước hoặc những người đang dùng thuốc có khả năng độc với timnaloxone.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Lưu ý | Nội dung:\nVì thời gian tác dụng của một số opiat có thể dài hơn Naloxone, nên cần theo dõi cẩn thận người bệnh đang dùng Naloxone; đối với trẻ em dùng Naloxone phải theo dõi cẩn thận trong thời gian tối thiểu 24 giờ. Đối với những người bệnh này khi cần thiết cần phải dùng liều Naloxone nhắc lại.\nCần thận trọng khi dùng Naloxone cho những người suy thận hoặc suy gan .\nThận trọng ở trẻ em: An toàn và hiệu lực của Naloxone trong điều trị huyết áp thấp do sốc nhiễm khuẩn ở trẻ em chưa được xác định Naloxone.\nLưu ý với phụ nữ có thai Ở người, thuốc qua nhau thai dễ dàng. Cho tới nay, chưa có nghiên cứu và kiểm tra đầy đủ về dùng Naloxone ở người mang thai. Chỉ nên dùng Naloxone cho người mang thai khi thật cần thiết.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Naloxone | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Vì không biết Naloxone có bài tiết vào sữa mẹ không, cần thận trọng khi dùng Naloxone cho người cho con bú. Cách xử lý an toàn nhất là không nên cho con bú trong thời gian dùng thuốc.\nLưu ý khi lái xe và vận hành máy móc Tránh tham gia giao thông đường bộ, vận hành máy móc hoặc tham gia vào các hoạt động khác đòi hỏi gắng sức về thể chất hoặc tinh thần trong ít nhất 24 giờ sau khi dùng thuốc.",
+        "metadata": {
+            "name": "Naloxone",
+            "id": "naloxone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/naloxone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Pergolide Loại thuốc Chống ung thư não do dopaminergic.\nDạng thuốc và hàm lượng Viên nén 0,05 mg, 0,25 mg, 1 mg.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Chỉ định | Nội dung:\nThuốc Pergolide được dùng để điều trị bổ trợ cho levodopa/carbidopa trong việc kiểm soát các dấu hiệu và triệu chứng của bệnh Parkinson .",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Dược lực học | Nội dung:\nPergolide mesylate là một chất chủ vận mạnh của thụ thể dopamine. Pergolide mạnh hơn bromocriptine từ 10 đến 1000 lần trên cơ sở miligam trên miligam trong các hệ thống thử nghiệm in vitro và in vivo khác nhau. Pergolide mesylate ức chế sự tiết prolactin ở người; nó gây ra sự gia tăng thoáng qua nồng độ hormone tăng trưởng trong huyết thanh và giảm nồng độ hormone tạo hoàng thể trong huyết thanh.\nTrong bệnh Parkinson, Pergolide mesylate được cho là có tác dụng điều trị bằng cách kích thích trực tiếp các thụ thể dopamine sau synap trong hệ thống nigrostriatal.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Dược động học | Nội dung:\nHấp thu Không có thông tin về sinh khả dụng đường uống của Pergolide mesylate do thiếu xét nghiệm đủ nhạy để phát hiện thuốc sau khi dùng một liều duy nhất. Tuy nhiên, sau khi uống Pergolide mesylate có gắn nhãn phóng xạ 14 C, khoảng 55% hoạt độ phóng xạ được sử dụng có thể được phục hồi từ nước tiểu và 5% từ CO2 hết hạn, cho thấy rằng một phần đáng kể được hấp thụ. Không thể kết luận gì về mức độ thanh thải trước hệ thống, nếu có.\nPhân bố Dữ liệu về sự phân bố sau hấp thu của Pergolide không có sẵn. Pergolide liên kết khoảng 90% với protein huyết tương. Mức độ liên kết với protein này có thể cần được xem xét khi Pergolide mesylate được dùng chung với các loại thuốc khác được biết là có ảnh hưởng đến sự gắn kết với protein.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Dược động học | Nội dung:\nChuyển hóa và thải trừ Ít nhất 10 chất chuyển hóa đã được phát hiện, bao gồm N-Desropyl Pergolide, Pergolide sulfoxide và Pergolide sulfone. Pergolide sulfoxide và Pergolide sulfone là chất chủ vận dopamine ở động vật. Các chất chuyển hóa được phát hiện khác chưa được xác định và không biết liệu có bất kỳ chất chuyển hóa nào khác có hoạt tính dược lý hay không.\nĐường bài tiết chủ yếu là thận.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Liều lượng | Nội dung:\nNên bắt đầu liều hàng ngày 0,05 mg Pergolide trong 2 ngày đầu. Sau đó tăng dần liều lượng lên 0,1 hoặc 0,15 mg/ngày trong 12 ngày điều trị tiếp theo. Sau đó có thể tăng liều 0,25 mg/ngày cho đến khi đạt được liều điều trị tối ưu.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Pergolide và xử trí Quá liều và độc tính Các triệu chứng: Các nghiên cứu trên động vật chỉ ra rằng các biểu hiện của quá liều ở người có thể bao gồm buồn nôn, nôn, co giật , giảm huyết áp và kích thích thần kinh trung ương. Liều gây chết trung bình bằng đường uống ở chuột nhắt và chuột cống lần lượt là 54 và 15 mg/kg.\nCách xử lý khi quá liều Pergolide Quản lý quá liều có thể yêu cầu các biện pháp hỗ trợ để duy trì huyết áp động mạch. Chức năng tim cần được theo dõi; thuốc chống loạn nhịp tim có thể cần thiết. Nếu có dấu hiệu kích thích thần kinh trung ương, có thể chỉ định dùng phenothiazin hoặc thuốc an thần kinh butyrophenone khác. Hiệu quả của những loại thuốc này trong việc đảo ngược tác động của quá liều vẫn chưa được đánh giá.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Quá liều và xử trí | Nội dung:\nBảo vệ đường thở của bệnh nhân và hỗ trợ thông khí và truyền dịch. Theo dõi và duy trì tỉ mỉ, trong giới hạn có thể chấp nhận được, các dấu hiệu sinh tồn của bệnh nhân, khí máu, điện giải huyết thanh,... Sự hấp thu thuốc qua đường tiêu hóa có thể giảm bằng cách cho uống than hoạt, trong nhiều trường hợp, có hiệu quả hơn gây nôn hoặc rửa; xem xét than hoạt thay cho hoặc bổ sung cho việc làm rỗng dạ dày.\nCác liều than hoạt lặp đi lặp lại theo thời gian có thể đẩy nhanh quá trình thải trừ một số loại thuốc đã được hấp thụ. Bảo vệ đường thở của bệnh nhân khi sử dụng cách làm rỗng dạ dày hoặc dùng than.\nKhông có kinh nghiệm về lọc máu hoặc truyền máu, và các thủ thuật này không có lợi ích.\nQuên liều Pergolide và xử trí",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Tương tác thuốc | Nội dung:\nTương tác Pergolide với các thuốc khác Thuốc đối kháng dopamine, chẳng hạn như thuốc an thần kinh ( phenothiazines , butyrophenones, thioxanthines) hoặc metoclopramide , thông thường không nên dùng đồng thời với Pergolide mesylate (một chất chủ vận dopamine); những tác nhân này có thể làm giảm hiệu quả của Pergolide mesylate.\nVì Pergolide mesylate liên kết khoảng 90% với protein huyết tương, nên thận trọng nếu Pergolide mesylate được dùng chung với các thuốc khác được biết là có ảnh hưởng đến liên kết với protein.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Lưu ý | Nội dung:\nLưu ý chung Buồn ngủ là hiện tượng thường xảy ra ở những bệnh nhân dùng Pergolide mesylate. Nhiều chuyên gia lâm sàng tin rằng ngủ gật trong khi tham gia vào các hoạt động sinh hoạt hàng ngày luôn xảy ra trong tình trạng buồn ngủ có từ trước, mặc dù bệnh nhân có thể không có tiền sử như vậy. Vì lý do này, người kê đơn nên liên tục đánh giá lại bệnh nhân về tình trạng buồn ngủ, đặc biệt là vì một số trường hợp xảy ra sau khi bắt đầu điều trị.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Lưu ý | Nội dung:\nTrong các thử nghiệm lâm sàng, khoảng 10% bệnh nhân dùng Pergolide mesylate với L-dopa so với 7% dùng giả dược với L-dopa bị hạ huyết áp thế đứng có triệu chứng và/hoặc kéo dài, đặc biệt là trong quá trình điều trị ban đầu. Với việc chuẩn độ liều lượng từ từ, thường phát triển khả năng dung nạp khi hạ huyết áp. Do đó, điều quan trọng là phải cảnh báo bệnh nhân về nguy cơ, bắt đầu điều trị với liều thấp và tăng liều theo từng bước được điều chỉnh cẩn thận trong khoảng thời gian từ 3 đến 4 tuần.\nTrong các thử nghiệm có đối chứng, Pergolide mesylate với L-dopa gây ra ảo giác ở khoảng 14% bệnh nhân so với 3% dùng giả dược với L-dopa. Đây là mức độ nghiêm trọng đủ để khiến khoảng 3% số người đăng ký phải ngừng điều trị.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Lưu ý | Nội dung:\nSáu mươi tám phần trăm (68%) bệnh nhân chết là 65 tuổi trở lên. Không có trường hợp tử vong (trừ trường hợp tự tử) xảy ra trong tháng đầu tiên điều trị; hầu hết các bệnh nhân tử vong đã sử dụng Pergolide trong nhiều năm. Một tần suất tương đối của các nguyên nhân tử vong theo hệ cơ quan là: Suy phổi/Viêm phổi 35%; Tim mạch 30%; Ung thư 11%; Không xác định 8,4%; Nhiễm trùng 3,5%; Hội chứng ngoại tháp 3,5%; Đột quỵ 2,1%; Chứng khó nuốt 2,1%; Thương tật 1,4%; Tự tử 1,4%; Mất nước, 0,7%; Viêm cầu thận 0,7%.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Lưu ý | Nội dung:\nĐã có những báo cáo hiếm gặp về viêm màng phổi, tràn dịch màng phổi, xơ hóa màng phổi, viêm màng ngoài tim, tràn dịch màng ngoài tim, bệnh van tim liên quan đến một hoặc nhiều van, hoặc xơ hóa sau phúc mạc ở bệnh nhân dùng Pergolide. Trong một số trường hợp, các triệu chứng hoặc biểu hiện của bệnh van tim được cải thiện sau khi ngừng Pergolide.\nPergolide nên được sử dụng thận trọng ở những bệnh nhân có tiền sử mắc các tình trạng này, đặc biệt là những bệnh nhân đã trải qua các biến cố khi dùng các dẫn xuất ergot. Bệnh nhân có tiền sử các biến cố như vậy nên được theo dõi cẩn thận về mặt lâm sàng và bằng các nghiên cứu chụp X quang và xét nghiệm thích hợp trong khi dùng Pergolide.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Các nghiên cứu về khả năng sinh sản được thực hiện trên chuột với liều 5, 16 và 45 mg/kg/ngày và ở thỏ với liều 2, 6 và 16 mg/kg/ngày. Trong các nghiên cứu này, không có bằng chứng về tác hại cho thai nhi do Pergolide mesylate.\nTuy nhiên, không có nghiên cứu đầy đủ và có kiểm soát ở phụ nữ mang thai. Do dữ liệu về con người còn hạn chế và do các nghiên cứu về sinh sản trên động vật không phải lúc nào cũng dự đoán được phản ứng của con người, nên thuốc này chỉ nên được sử dụng trong thời kỳ mang thai khi thực sự cần thiết.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Pergolide | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Người ta không biết liệu thuốc này có bài tiết qua sữa mẹ hay không. Tác dụng dược lý của Pergolide mesylate cho thấy rằng nó có thể cản trở việc tiết sữa. Do nhiều loại thuốc được bài tiết qua sữa mẹ và do có khả năng xảy ra phản ứng có hại nghiêm trọng với Pergolide mesylate ở trẻ bú mẹ, nên quyết định ngừng cho con bú hay ngừng thuốc, có tính đến tầm quan trọng của thuốc đối với người mẹ.\nLưu ý khi lái xe và vận hành máy móc Buồn ngủ là hiện tượng thường xảy ra ở những bệnh nhân dùng Pergolide mesylate. Ngủ gật trong khi tham gia vào các hoạt động sinh hoạt hàng ngày luôn xảy ra. Nên thận trọng khi dùng thuốc cho bệnh nhân lái xe và vận hành máy móc.",
+        "metadata": {
+            "name": "Pergolide",
+            "id": "pergolide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pergolide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    }
+]

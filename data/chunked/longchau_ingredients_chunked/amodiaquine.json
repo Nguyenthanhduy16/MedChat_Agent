@@ -1,0 +1,198 @@
+[
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Amodiaquine.\nLoại thuốc Thuốc điều trị sốt rét.\nDạng thuốc và hàm lượng Viên nén amodiaquine/artesunate: 153mg/50mg; 300mg/100mg; 600mg/200mg.\nThuốc cốm pha hỗn dịch uống amodiaquine/artesunate: 75mg/25mg.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Chỉ định | Nội dung:\nAmodiaquine được chỉ định để điều trị sốt rét ác tính, sốt rét thể não do Plasmodium falciparum, kể cả trường hợp đã kháng với các thuốc sốt rét khác.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Dược lực học | Nội dung:\nAmodiaquine là dẫn chất của 4 - aminoquinoline, có tác dụng diệt thể phân liệt trong hồng cầu của cả 4 chủng Plasmodium falciparum. Amodiaquine có tác dụng chống lại các chủng Plasmodium falciparum nhạy cảm với chloroquine và một số chủng khác kháng chloroquine.\nCơ chế tác dụng điều trị sốt rét của amodiaquine còn chưa rõ nhưng có thể do amodiaquine tập trung trong lysosome trong của ký sinh trùng sốt rét và làm mất chức năng của lysosome. Thuốc tác động đến quá trình tiêu hóa haemoglobin và làm giảm năng lượng cung cấp cho ký sinh trùng. Ngoài ra, các dẫn chất 4 - aminoquinoline còn gắn vào nucleoprotein và ức chế DNA, RNA polymerase. Nồng độ thuốc tập trung nhiều trong không bào tiêu hóa của ký sinh trùng sốt rét.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Dược lực học | Nội dung:\nĐể ngăn chặn sự xuất hiện và lây truyền của ký sinh trùng kháng thuốc, WHO khuyến cáo nên dùng amodiaquine với một dẫn xuất artemisinin (artesunate) để điều trị sốt rét do P. falciparum.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Dược động học | Nội dung:\nHấp thu Amodiaquine hấp thu nhanh ở đường tiêu hóa.\nPhân bố Thể tích phân bố của amodiaquine được ước tính vào khoảng 20 - 40 lít / kg.\nDesethylamodiaquine, chất chuyển hóa chính của amodiaquine, dạng hoạt động chính sau khi uống. Chủ yếu được tìm thấy trong máu, ở nồng độ cao hơn nhiều so với amodiaquine. Nồng độ của desethylamodiaquine trong máu toàn phần cao gấp 4 - 6 lần trong huyết tương.\nChuyển hóa Amodiaquine được chuyển hóa ở gan thành chất có hoạt tính là desethylamodiaquine, có lẽ thông qua isoenzyme CYP2C8. Quá trình trao đổi chất bao gồm quá trình oxy hóa và liên hợp glucuronic.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Dược động học | Nội dung:\nThải trừ Chỉ một lượng nhỏ amodiaquine thải trừ qua nước tiểu dưới dạng không chuyển hóa. Thời gian bán thải của desethylamodiaquine từ 1 – 10 ngày. Khoảng 5 % lượng thuốc xuất hiện trong nước tiểu, phần còn lại được chuyển hóa trong cơ thể. Amodiaquine và desethylamodiaquine được phát hiện trong nước tiểu sau nhiều tháng dùng thuốc.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Liều lượng | Nội dung:\nArtesunate: 4 mg/kg (khoảng 2 - 10 mg/kg).\nAmodiaquine base: 10 mg/kg (khoảng 7,5 - 15 mg/kg) một lần mỗi ngày trong 3 ngày.\nCân nặng (khoảng độ tuổi) Liều điều trị ≥ 4,5 kg đến < 9 kg (2 đến 11 tháng) * 25 mg artesunate 67,5 mg amodiaquine ≥ 9 kg đến < 18 kg (1 đến 5 tuổi) * 50 mg artesunate 135 mg amodiaquine ≥ 18 kg đến < 36 kg (6 đến 13 tuổi) * 100 mg artesunate 270 mg amodiaquine ≥ 36 kg (14 tuổi trở lên)* 200 mg artesunate 540 mg amodiaquine *Nếu có sự không tương xứng giữa tuổi và cân nặng thì liều sẽ được được chọn dựa trên cân nặng.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Liều lượng | Nội dung:\nĐối với các bệnh nhân không có khả năng uống nguyên viên nén ( như trẻ nhỏ), viên có thể được hòa tan trong nước trước khi dùng hoặc nghiền nát trước khi uống. Nếu trong khoảng thời gian 30 phút sau khi dùng thuốc bệnh nhân bị nôn, hãy dùng thêm một liều nữa. Nếu nôn mửa nhiều hơn, nên xem xét lại điều trị.\nNếu quên một liều thuốc, uống càng sớm càng tốt khi nhớ ra. Nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không uống gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều Amodiaquine và độc tính Amodiaquine đóng vai trò chủ yếu gây nên độc tính khi quá liều thuốc dạng phối hợp artesunate – amodiaquine.\nAmodiaquine ít gây độc tính hơn so với chloroquine, tuy nhiên khi dùng một lượng lớn amodiaquine, có thể gây bất tỉnh, co cứng, co giật, mất điều phối vận động, đau đầu, chóng mặt, buồn nôn, ngủ gà. Các dấu hiệu nặng hơn bao gồm các rối loạn về tim mạch, co giật, hôn mê, giảm huyết áp, khó thở , ngừng nhịp tim, giảm kali huyết. Điển hình là rối loạn thị giác, giảm thị lực có thể dẫn đến mù.\nCách xử lý khi quá liều Phải báo ngay cho nhân viên y tế càng sớm càng tốt khi sử dụng quá liều, thậm chí ngay cả khi triệu chứng quá liều vẫn chưa xuất hiện.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Quá liều và xử trí | Nội dung:\nQuên liều và xử trí Nếu quên một liều thuốc, uống càng sớm càng tốt khi nhớ ra. Nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không uống gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Tương tác thuốc | Nội dung:\nNguy cơ mất bạch cầu hạt sẽ cao hơn khi amodiaquine kết hợp với một số thuốc sốt rét khác.\nMất bạch cầu hạt và viêm gan đã được báo cáo sau khi sử dụng amodiaquine trong thời gian dài điều trị. Do đó, cần thận trọng khi kê đơn các sản phẩm có chứa amodiaquine đồng thời với các thuốc khác có khả năng gây độc cho gan và huyết học.\nDùng đồng thời amodiaquine và chloroquine cũng có thể xảy ra các rối loạn vận động.\nMagie trisilicate và kaolin có thể làm giảm hấp thu amodiaquine ở đường tiêu hóa khi dùng đồng thời.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Lưu ý | Nội dung:\nLưu ý chung Thuốc có thể gây các tác dụng phụ trên thị giác và có thể không hồi phục, khi dùng amodiaquine thường xuyên, kéo dài, vì vậy nên kiểm tra thị giác thường xuyên nếu dùng thuốc kéo dài.\nAmodiaquine phân bố nhiều ở gan, nên thận trọng khi sử dụng cho bệnh nhân có bệnh gan, nghiện rượu, đang sử dụng đồng thời với các thuốc khác độc trên gan.\nThận trọng khi sử dụng thuốc cho bệnh nhân thiếu hụt men glucose – 6 – phosphate dehydrogenase.\nPhối hợp artesunate/ amodiaquine không nên được dùng ở những vùng đề kháng cao amodiaquine do nguy cơ phát triển sự đề kháng của P. falciparum với artesunate tăng lên đáng kể.\nAmodiaquine có hiệu quả đối một số chủng P. falciparum kháng chloroquine , mặc dù có sự đề kháng chéo.\nCác triệu chứng sau đây cần được theo dõi cẩn thận:",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Lưu ý | Nội dung:\nCác triệu chứng sau đây cần được theo dõi cẩn thận:\nViêm gan, giai đoạn tiền vàng da và đặc biệt khi vàng da xuất hiện.\nMất bạch cầu hạt (triệu chứng: sốt, viêm amidan ,\nloét miệng ).\nKhi các triệu chứng này tiến triển hoặc trầm trọng hơn trong quá trình điều trị, cần xét nghiệm đánh giá chức năng gan, số lượng tế bào máu. Xem xét ngừng điều trị ngay lập tức.\nThuốc có tác dụng phụ trên tim mạch, do đó cần thận khi đã dùng các thuốc sốt rét khác cũng có tác dụng phụ trên tim mạch gần đây (quinine, quinidine, halofantrine , lumefantrine, mefloquine ) hoặc những người có tiền sử bệnh tim mạch hoặc đang dùng các loại thuốc khác có khả năng kéo dài khoảng QT.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amodiaquine | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Cần cân nhắc trước khi dùng phối hợp artesunate – amodiaquine cho phụ nữ có thai vì các thông tin về an toàn của thuốc dùng trong thai kỳ vẫn chưa rõ ràng.\nKhông dùng cho phụ nữ có thai trong 3 tháng đầu. Trong 3 tháng giữa và 3 tháng cuối chỉ dùng khi không thể sử dụng các thuốc sốt rét khác.\nLưu ý với phụ nữ cho con bú Chưa có thông tin đầy đủ về việc sử dụng amodiaquine ở phụ nữ cho con bú, không nên cho trẻ bú khi đang điều trị với thuốc này.\nLưu ý khi lái xe và vận hành máy móc Bệnh nhân đang dùng thuốc nên được cảnh báo rằng thuốc có thể gây ra tình trạng buồn ngủ, chóng mặt hoặc suy nhược, trong trường hợp đó không nên lái xe và vận hành máy móc.",
+        "metadata": {
+            "name": "Amodiaquine",
+            "id": "amodiaquine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amodiaquine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

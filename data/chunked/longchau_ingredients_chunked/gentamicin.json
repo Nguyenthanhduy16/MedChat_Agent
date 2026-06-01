@@ -1,0 +1,296 @@
+[
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Gentamicin Loại thuốc Kháng sinh nhóm aminoglycoside Dạng thuốc và hàm lượng Gentamicin được sử dụng dưới dạng sulfate, liều lượng tính theo gentamicin base Dung dịch tiêm: 40 mg/ml (1 - 2 ml), 10 mg/ml (2 ml).\nThuốc tiêm truyền: 1 mg/ml (80 mg/ 80 ml); 3 mg/ml (240 mg/80 ml), (360 mg/120 ml); 0,8 mg/ml (80 mg/100 ml).\nThuốc dùng tại chỗ (nhỏ tai hoặc mắt): 0,3% (10 ml).",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Chỉ định | Nội dung:\nGentamicin thường được dùng phối hợp với các kháng sinh khác (beta-lactam) để điều trị các bệnh nhiễm khuẩn nặng toàn thân gây ra bởi các vi khuẩn gram âm và các vi khuẩn khác còn nhạy cảm:\nNhiễm khuẩn đường mật ( viêm túi mật và viêm đường mật cấp). Nhiễm Brucella, các nhiễm khuẩn trong bệnh nhày nhớt.\nViêm nội tâm mạc (trong điều trị và dự phòng viêm nội tâm mạc do Streptococci, Enterococci, Staphylococci).\nViêm màng trong dạ con, nhiễm khuẩn huyết, nhiễm Listeria, viêm màng não ,\nviêm phổi viêm tai ngoài viêm tai giữa , viêm các bộ phận trong tiểu khung, nhiễm khuẩn ngoài da như bỏng, loét, nhiễm khuẩn xương, khớp, nhiễm khuẩn trong ổ bụng (bao gồm viêm phúc mạc).\nCác nhiễm khuẩn về đường tiết niệu (viêm thận bể thận cấp).",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Chỉ định | Nội dung:\nCác nhiễm khuẩn về đường tiết niệu (viêm thận bể thận cấp).\nDự phòng nhiễm khuẩn vết mổ và trong điều trị người bệnh suy giảm miễn dịch và người bệnh đang được chăm sóc tích cực.\nPhối hợp với penicillin trong các nhiễm khuẩn do cầu khuẩn đường ruột và liên cầu, trực khuẩn mủ xanh gây ra, hoặc với metronidazole hay clindamycin trong các bệnh do hỗn hợp các khuẩn ưa khí - kỵ khí.\nNhiễm trùng sơ sinh nặng.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Dược lực học | Nội dung:\nGentamicin là một kháng sinh thuộc nhóm aminoglycoside có tác dụng diệt khuẩn bằng cách ức chế quá trình sinh tổng hợp protein của vi khuẩn. Trong tế bào, thuốc gắn với tiểu đơn vị 30S và một số với tiểu đơn vị 50S của ribosome vi khuẩn nhạy cảm, kết quả làm cho màng tế bào vi khuẩn bị khuyết tật và từ đó ức chế tế bào phát triển.\nGentamicin là một aminoglycoside được sử dụng rộng rãi trong điều trị các nhiễm khuẩn nặng. Là kháng sinh phổ rộng nhưng không có hoạt tính kháng các vi khuẩn kỵ khí và thuốc cũng tác dụng kém chống lại các Streptococci và Pneumococci tan huyết.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Dược động học | Nội dung:\nHấp thu Gentamicin hấp thu kém qua đường tiêu hóa. Thuốc hấp thu nhanh và hoàn toàn sau khi tiêm bắp. Nồng độ đỉnh trong huyết thanh đạt được trong vòng 30 - 60 phút khi tiêm bắp và 30 phút khi tiêm tĩnh mạch hoặc sau 30 phút truyền.\nPhân bố Gentamicin khuếch tán chủ yếu vào các dịch ngoại bào và khuếch tán dễ dàng vào ngoại dịch tai trong. Thuốc khuếch tán ít vào dịch não tủy và không đạt được nồng độ có hiệu quả tác dụng ngay cả khi màng não bị viêm.\nThuốc khuếch tán ít vào trong mắt. Thuốc qua được nhau thai nhưng chỉ một lượng nhỏ qua sữa. Thuốc có thể hấp thu toàn thân giống như các aminoglycoside khác sau khi sử dụng tại chỗ trên vùng da bị trợt mất lớp da, bị bỏng, vết thương và các hốc của cơ thể trừ bàng quang và khớp.\nChuyển hóa Gentamicin không bị chuyển hóa.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Dược động học | Nội dung:\nChuyển hóa Gentamicin không bị chuyển hóa.\nThải trừ Thuốc được thải trừ qua thận dưới dạng không đổi. Có ít nhất 70% liều dùng được bài xuất ra nước tiểu trong 24 giờ. Thời gian bán thải trong huyết tương của gentamicin từ 2 đến 3 giờ, nhưng có thể kéo dài ở trẻ sơ sinh và người bệnh suy thận.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Liều lượng | Nội dung:\nCách dùng Đường tiêm:\nChủ yếu tiêm bắp, có thể tiêm tĩnh mạch, truyền tĩnh mạch theo phác đồ nhiều lần trong ngày (2 - 3 lần/ngày) hoặc theo phác đồ 1 lần/ngày. Không tiêm dưới da vì nguy cơ hoại tử da. Ở Anh, truyền tĩnh mạch một lượng hạn chế (100 ml) trong thời gian không quá 20 - 30 phút. Tiêm tĩnh mạch chậm cả liều trong ít nhất 2 - 3 phút.\nThời gian điều trị thường giới hạn trong 7 - 10 ngày.\nĐường dùng khác:\nĐôi khi uống để điều trị nhiễm khuẩn đường ruột.\nHít qua phun sương: Xơ nang tuyến tụy.\nTiêm vào khoang dưới màng nhện tủy sống (trong ống tủy sống) hoặc tiêm trong não thất.\nDùng tại chỗ:\nBôi trên da, dùng dung dịch nồng độ 0,1% nhưng dễ gây kháng thuốc, không nên dùng. Nhỏ tai, nhỏ mắt: Dùng dung dịch nồng độ 0,3%.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Liều lượng | Nội dung:\nDùng tại chỗ:\nBôi trên da, dùng dung dịch nồng độ 0,1% nhưng dễ gây kháng thuốc, không nên dùng. Nhỏ tai, nhỏ mắt: Dùng dung dịch nồng độ 0,3%.\nLiều dùng gentamicin Người lớn Nhiễm khuẩn huyết, nhiễm khuẩn huyết sơ sinh, viêm màng não và các nhiễm khuẩn khác của hệ TKTW, viêm nội tâm mạc, nhiễm khuẩn đường mật, viêm thận bể thận, viêm phổi mắc tại bệnh viện, điều trị bổ trợ cho viêm màng não do Listeria:\nPhác đồ nhiều liều trong ngày: Tiêm bắp hoặc tiêm tĩnh mạch chậm ít nhất 3 phút hoặc tiêm truyền tĩnh mạch, 3 - 5 mg/kg/ngày, chia làm 3 lần cách nhau 8 giờ.\nViêm nội tâm mạc: Gentamicin được dùng phối hợp với một số kháng sinh khác. Liều 1 mg/kg, 2 lần/ngày.\nPhác đồ 1 liều/ngày: Tiêm truyền tĩnh mạch: Khởi đầu 5 - 7 mg/kg, sau đó điều chỉnh liều theo nồng độ gentamicin trong huyết thanh.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Liều lượng | Nội dung:\nPhác đồ 1 liều/ngày: Tiêm truyền tĩnh mạch: Khởi đầu 5 - 7 mg/kg, sau đó điều chỉnh liều theo nồng độ gentamicin trong huyết thanh.\nDự phòng trong phẫu thuật:\nNgười lớn trên 18 tuổi: Tiêm tĩnh mạch chậm ít nhất 3 phút, 1,5 mg/kg cho tới 30 phút trước khi làm phẫu thuật (đối với các thủ thuật có nguy cơ cao, có thể cho thêm tới 3 liều 1,5 mg/kg cách nhau 8 giờ) hoặc (đối với phẫu thuật thay khớp), truyền tĩnh mạch, 5 mg/kg một liều duy nhất cho tới 30 phút trước khi làm thủ thuật.\nTiêm vào khoang dưới màng nhện tủy sống (ống sống): 1 mg/ngày (tăng nếu cần tới 5 mg/ngày), chỉ dùng dung dịch tiêm không có chất bảo quản.\nTrẻ em Nhiễm khuẩn huyết sơ sinh:\nPhác đồ tiêm liều cách xa nhau: Tiêm tĩnh mạch chậm hoặc truyền tĩnh mạch.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Liều lượng | Nội dung:\nTrẻ em Nhiễm khuẩn huyết sơ sinh:\nPhác đồ tiêm liều cách xa nhau: Tiêm tĩnh mạch chậm hoặc truyền tĩnh mạch.\nTrẻ sơ sinh (< 32 tuần thai tính từ sau khi tắt kinh): 4 - 5 mg/kg, cách 36 giờ một lần.\nTrẻ sơ sinh (≥ 32 tuần thai tính từ sau khi tắt kinh): 4 - 5 mg/kg, cách 24 giờ một lần.\nPhác đồ nhiều liều/ ngày: Tiêm tĩnh mạch chậm.\nTrẻ sơ sinh (< 29 tuần thai tính từ sau khi tắt kinh): 2,5 mg/kg, cách 24 giờ một lần.\nTrẻ sơ sinh (29 - 35 tuần thai tính từ sau khi tắt kinh): 2,5 mg/kg, cách 18 giờ một lần.\nTrẻ sơ sinh (> 35 tuần thai tính từ sau khi tắt kinh): 2,5 mg/kg, cách 12 giờ một lần.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Liều lượng | Nội dung:\nTrẻ sơ sinh (> 35 tuần thai tính từ sau khi tắt kinh): 2,5 mg/kg, cách 12 giờ một lần.\nNhiễm khuẩn huyết, viêm màng não và các nhiễm khuẩn khác của hệ TKTW, nhiễm khuẩn đường mật, viêm thận bể thận, viêm phổi mắc tại bệnh viện, điều trị bổ trợ cho viêm màng não do Listeria, viêm nội tâm mạc:\nPhác đồ 1 liều/ngày: Tiêm truyền tĩnh mạch; Trẻ 1 tháng tuổi – 18 tuổi, khởi đầu 7 mg/kg, sau đó điều chỉnh liều theo nồng độ gentamicin trong huyết thanh.\nPhác đồ nhiều liều trong ngày: Tiêm bắp hoặc tiêm tĩnh mạch chậm ít nhất 3 phút.\nTrẻ 1 tháng tuổi – 12 tuổi, liều 2,5 mg/kg, cách 8 giờ/lần.\nTừ trên 12 tuổi – 18 tuổi, liều 2 mg/kg, cách 8 giờ/lần Nhiễm khuẩn phổi do Pseudomonas trong bệnh xơ nang tuyến tụy:\nTrẻ 1 tháng tuổi – 18 tuổi, liều 3 mg/kg, cách 8 giờ/lần.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Liều lượng | Nội dung:\nTrẻ 1 tháng tuổi – 18 tuổi, liều 3 mg/kg, cách 8 giờ/lần.\nNhiễm khuẩn não thất và hệ thần kinh trung ương (bổ sung cho liệu pháp toàn thân):\nTiêm vào khoang dưới màng nhện, tủy sống (ống sống) hoặc não thất (cần đến ý kiến chuyên gia): Sơ sinh do chuyên gia thực hiện.\nTrẻ từ 1 tháng tuổi - 18 tuổi, liều 1 mg/ngày (tăng tới 5 mg/ngày nếu cần), phải dùng dung dịch tiêm không chứa chất bảo quản.\nThuốc nhỏ mắt: Dùng chế phẩm lỏng có nồng độ gentamicin 0,3%.\nThuốc nhỏ tai: Dùng chế phẩm lỏng có nồng độ gentamicin 0,3% điều trị viêm tai ngoài.\nĐối tượng khác Người bệnh suy thận:\nDùng liều thông thường: Được điều chỉnh theo ClCr như sau:\nClCr ≥ 60 ml/phút: Cách 8 giờ/lần.\nClCr 40 - 60 ml/phút: Cách 12 giờ/lần.\nClCr 20 - 40 ml/phút: Cách 24 giờ/lần.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Liều lượng | Nội dung:\nClCr ≥ 60 ml/phút: Cách 8 giờ/lần.\nClCr 40 - 60 ml/phút: Cách 12 giờ/lần.\nClCr 20 - 40 ml/phút: Cách 24 giờ/lần.\nClCr < 20 ml/phút: Liều nạp (tấn công), sau đó theo dõi nồng độ thuốc trong huyết thanh.\nDùng liệu pháp liều cao: Khoảng thời gian cho thuốc phải nới rộng (cách 48 giờ/lần) đối với người bệnh có ClCr 30 - 59 ml/phút và/hoặc điều chỉnh liều dựa theo nồng độ thuốc trong huyết thanh.\nThẩm phân máu định kỳ (cho sau khi thẩm phân máu vào ngày thẩm phân):\nTiêm tĩnh mạch chậm liều 1 - 1,7 mg/kg vào cuối mỗi kỳ thẩm phân, phụ thuộc vào mức độ nặng của nhiễm khuẩn.\nBổ sung 2/3 liều thông thường được khuyến cáo sau thẩm phân máu.\nNgười cao tuổi:\nTheo dõi chặt chẽ bằng cách thường xuyên xác định nồng độ gentamicin trong huyết thanh, đánh giá chức năng thận và các dấu hiệu nhiễm độc tai.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Liều lượng | Nội dung:\nTheo dõi chặt chẽ bằng cách thường xuyên xác định nồng độ gentamicin trong huyết thanh, đánh giá chức năng thận và các dấu hiệu nhiễm độc tai.\nThuốc được thực hiện bởi nhân viên y tế nên ít có khả năng quên liều.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Quá liều và xử trí | Nội dung:\nQuên liều và xử trí Thuốc được thực hiện bởi nhân viên y tế nên ít có khả năng quên liều.\nQuá liều gentamicin và xử trí Quá liều và độc tính Độc tính bao gồm các triệu chứng quá mức của tác dụng không mong muốn.\nCách xử lý khi quá liều Dùng các thuốc kháng cholinesterase, các muối calci, hoặc hô hấp nhân tạo để điều trị chẹn thần kinh cơ dẫn đến yếu cơ kéo dài và suy hô hấp hoặc liệt (ngừng thở) có thể xảy ra khi dùng hai hoặc nhiều aminoglycosid đồng thời.\nKhông có thuốc giải độc đặc hiệu. Điều trị triệu chứng và hỗ trợ. Thẩm tách máu hoặc thẩm tách phúc mạc để loại aminoglycosid ra khỏi máu của người bệnh suy thận.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Việc sử dụng đồng thời gentamicin với các thuốc gây độc cho thận hoặc với các thuốc tương đối độc đối với cơ quan thính giác sẽ làm tăng nguy cơ gây độc. Nguy cơ này cũng tăng lên khi dùng gentamicin đồng thời với các thuốc có tác dụng ức chế dẫn truyền thần kinh cơ.\nIndomethacin có thể làm tăng nồng độ huyết tương của các aminoglycoside nếu được dùng chung.\nViệc sử dụng chung với các thuốc chống nôn như dimenhydrinate có thể che lấp những triệu chứng đầu tiên của nhiễm độc tiền đình.\nSự đào thải qua thận của zalcitabin có thể giảm bởi các aminoglycoside.\nGiảm calci huyết trầm trọng có thể xảy ra ở người bệnh điều trị với aminoglycoside và bisphosphonate.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Tương tác thuốc | Nội dung:\nGiảm calci huyết trầm trọng có thể xảy ra ở người bệnh điều trị với aminoglycoside và bisphosphonate.\nGentamicin ức chế hoạt tính của alpha-galactosidase, không nên sử dụng đồng thời với agalsidase alpha và agalsidase beta; vaccine BCG, gali nitrate, vaccine thương hàn.\nGentamicin dùng toàn thân có thể tăng tác dụng của các thuốc sau: abobotulinumtoxin A, các dẫn xuất của bisphosphonate, carboplatin , colistimethat, cyclosporin, galium nitrate, onabotulinumtoxin A, rimabotulinumtoxin B.\nTác dụng của gentamicin có thể tăng lên bởi amphotericin B, capreomycin, cephalosporin, cisplatin, thuốc lợi tiểu quai, thuốc NSAID, vancomycin.\nTác dụng của gentamicin có thể giảm bởi các penicillin.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Tương tác thuốc | Nội dung:\nTác dụng của gentamicin có thể giảm bởi các penicillin.\nTương kỵ thuốc Aminoglycoside bị mất hoạt tính bởi nhiều loại penicilin và cephalosporin, mức độ mất hoạt tính phụ thuộc vào nhiệt độ, nồng độ và thời gian tiếp xúc.\nGentamicin tương kỵ với furosemide, heparin, natri bicarbonate và một vài dung dịch dinh dưỡng dùng ngoài đường tiêu hóa. Gentamicin có phản ứng với các chế phẩm có pH kiềm hoặc với các thuốc không ổn định ở pH acid.\nKhông được trộn lẫn gentamicin với các thuốc khác trong cùng một bơm tiêm hoặc trong cùng một dịch truyền và không được tiêm chung cùng một đường tĩnh mạch.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Lưu ý | Nội dung:\nLưu ý chung Tất cả các aminoglycoside đều độc hại đối với cơ quan thính giác và thận. Tác dụng không mong muốn quan trọng thường xảy ra với người bệnh cao tuổi và/hoặc với người bệnh đã bị suy thận.\nCần phải điều chỉnh liều, theo dõi rất cẩn thận chức năng thận, thính giác, tiền đình cùng với nồng độ gentamicin trong máu ở người sử dụng liều cao và kéo dài, ở trẻ em, trẻ sơ sinh, người cao tuổi và suy thận. Tránh sử dụng thuốc dài ngày.\nNgười bệnh có rối loạn chức năng thận, rối loạn thính giác... có nguy cơ bị độc hại với cơ quan thính giác nhiều hơn.\nPhải sử dụng rất thận trọng nếu có chỉ định bắt buộc ở những người bị nhược cơ nặng, bị Parkinson hoặc có triệu chứng yếu cơ.\nNguy cơ nhiễm độc thận thấy ở người bị hạ huyết áp hoặc có bệnh về gan hoặc phụ nữ.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Lưu ý | Nội dung:\nNguy cơ nhiễm độc thận thấy ở người bị hạ huyết áp hoặc có bệnh về gan hoặc phụ nữ.\nỞ người bệnh cho dùng nhiều liều gentamicin trong phác đồ điều trị hàng ngày, nên điều chỉnh liều để tránh nồng độ đỉnh trong máu trên 10 microgam/ml và nồng độ đáy (trước khi tiêm liều tiếp theo) vượt quá 2 microgam/ml.\nLưu ý với phụ nữ có thai Tất cả các aminoglycoside đều qua nhau thai và có thể gây độc thận cho thai.\nGentamicin chưa có nghiên cứu đầy đủ trên người, nhưng vì nguy cơ tổn thương dây thần kinh thính giác và dây thần kinh tiền đình khi dùng các aminoglycosid trong giai đoạn thứ hai và thứ ba của thai kỳ, nên tránh dùng getamicin cho người mang thai, trừ khi thật cần thiết.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Gentamicin | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Các aminoglycosid được bài tiết vào sữa với lượng nhỏ. Cần sử dụng thận trọng cho người đang cho con bú.\nLưu ý khi lái xe và vận hành máy móc Không có thông tin.",
+        "metadata": {
+            "name": "Gentamicin",
+            "id": "gentamicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gentamicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

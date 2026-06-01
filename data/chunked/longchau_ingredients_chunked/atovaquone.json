@@ -1,0 +1,268 @@
+[
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Atovaquone Loại thuốc.\nKháng nấm.\nDạng thuốc và hàm lượng Mỗi 5 ml hỗn dịch uống chứa 750 mg atovaquone.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Chỉ định | Nội dung:\nAtovaquone được chỉ định dùng để điều trị cấp tính của bệnh viêm phổi do Pneumocystis từ nhẹ đến trung bình (PCP, do Pneumocystis jiroveci , trước đây được phân loại là P. carinii ) (chênh lệch độ bão hòa oxy trong phế nang [(A-a) DO2] ≤ 45 mmHg (6 kPa) và độ bão hòa oxy trong máu động mạch (PaO2) ≥ 60 mmHg (8 kPa) trong phòng thở) ở những bệnh nhân không dung nạp liệu pháp co-trimoxazole.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Dược lực học | Nội dung:\nAtovaquone là một chất ức chế có chọn lọc và mạnh đối với chuỗi vận chuyển electron của ty thể nhân thực ở một số động vật nguyên sinh ký sinh và nấm ký sinh P. jiroveci . Vị trí hoạt động dường như là phức hợp cytochrome bc1 (phức hợp III). Hiệu quả chuyển hóa cuối cùng của sự phong tỏa như vậy có thể là ức chế tổng hợp axit nucleic và ATP.\nAtovaquone có hoạt tính mạnh chống lại Pneumocystic sp, cả trong ống nghiệm và trên mô hình động vật, (IC 50 0,5-8 μg/mL).",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Dược động học | Nội dung:\nHấp thu và phân bố Atovaquone là một hợp chất ưa béo cao với độ hòa tan trong nước thấp. Nó liên kết 99,9% với protein huyết tương. Sinh khả dụng của thuốc giảm tương đối khi dùng liều duy nhất trên 750 mg và cho thấy sự thay đổi đáng kể giữa các cá thể. Khả dụng sinh học tuyệt đối trung bình của hỗn dịch atovaquone 750 mg liều duy nhất được dùng cùng với thức ăn cho nam giới trưởng thành có HIV dương tính là 47% (so với 23% đối với viên nén atovaquone). Sau khi tiêm tĩnh mạch, thể tích phân bố và độ thanh thải được tính toán lần lượt là 0,62 ± 0,19 l/kg và 0,15 ± 0,09 ml/phút/kg.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Dược động học | Nội dung:\nSinh khả dụng của atovaquone khi dùng cùng với thức ăn cao hơn so với lúc đói. Ở những người tình nguyện khỏe mạnh, bữa sáng tiêu chuẩn hóa (23 g chất béo; 610 kCal) làm tăng khả dụng sinh học lên gấp hai đến ba lần sau một liều 750 mg duy nhất.\nChuyển hóa và thải trừ Ở những người tình nguyện khỏe mạnh và bệnh nhân bị AIDS , atovaquone có thời gian bán hủy từ 2 đến 3 ngày.\nỞ những người tình nguyện khỏe mạnh, không có bằng chứng cho thấy thuốc được chuyển hóa và bài tiết atovaquone qua nước tiểu không đáng kể, với thuốc mẹ chủ yếu (> 90%) được bài tiết dưới dạng không đổi qua phân.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Liều lượng | Nội dung:\nLiều dùng Atovaquone Người lớn Viêm phổi do Pneumocystis Liều uống được khuyến cáo là 750 mg x 2 lần/ngày (1 x 5 ml sáng và tối) dùng với thức ăn mỗi ngày trong 21 ngày.\nLiều cao hơn có thể hiệu quả hơn ở một số bệnh nhân.\nTrẻ em Hiệu quả lâm sàng chưa được nghiên cứu.\nĐối tượng khác Người lớn tuổi Chưa có nghiên cứu nào về atovaquone ở người cao tuổi.\nSuy thận hoặc gan Atovaquone chưa được nghiên cứu cụ thể ở bệnh nhân suy gan hoặc suy thận đáng kể. Nếu cần thiết phải điều trị những bệnh nhân như vậy, nên thận trọng và nên theo dõi chặt chẽ việc dùng thuốc.\nCách dùng Atovaquone Cần dùng đủ liều atovaquone theo quy định, cùng thức ăn. Sự hiện diện của thực phẩm, đặc biệt là thực phẩm giàu chất béo , làm tăng khả dụng sinh học lên gấp hai đến ba lần.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Liều lượng | Nội dung:\nBổ sung liều đã quên ngay khi nhớ ra. Tuy nhiên nếu đến gần thời gian dùng liều tiếp theo thì bỏ qua liều đã quên. Không dùng gấp đôi liều.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Không có đủ kinh nghiệm để dự đoán hậu quả hoặc đề xuất xử trí cụ thể khi dùng quá liều atovaquone. Tuy nhiên, trong các trường hợp quá liều atovaquone được báo cáo, các tác dụng quan sát được phù hợp với các tác dụng không mong muốn đã biết của thuốc.\nCách xử lý khi quá liều Nếu xảy ra quá liều atovaquone, bệnh nhân cần được theo dõi và áp dụng các biện pháp điều trị hỗ trợ tiêu chuẩn.\nQuên liều và xử trí Bổ sung liều đã quên ngay khi nhớ ra. Tuy nhiên nếu đến gần thời gian dùng liều tiếp theo thì bỏ qua liều đã quên. Không dùng gấp đôi liều.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Vì kinh nghiệm còn hạn chế, nên cẩn thận khi kết hợp các thuốc khác với atovaquone.\nKhông khuyến cáo dùng đồng thời rifampicin hoặc rifabutin vì nó được biết đến là làm giảm nồng độ atovaquone trong huyết tương tương ứng khoảng 50% và 34%.\nĐiều trị đồng thời với metoclopramide có liên quan đến việc giảm đáng kể (khoảng 50%) nồng độ atovaquone trong huyết tương. Nên điều trị chống nôn khác.\nKhi dùng efavirenz hoặc các chất ức chế protease tăng cường, nồng độ atovaquone đã được quan sát thấy giảm tới 75%. Nên tránh sự kết hợp này bất cứ khi nào có thể.\nĐiều trị đồng thời với tetracycline có liên quan đến việc giảm nồng độ atovaquone trong huyết tương.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Tương tác thuốc | Nội dung:\nĐiều trị đồng thời với tetracycline có liên quan đến việc giảm nồng độ atovaquone trong huyết tương.\nViệc sử dụng đồng thời atovaquone với liều 45 mg/kg/ngày ở trẻ em (n = 9) bị bệnh bạch cầu nguyên bào lympho cấp tính để dự phòng PCP được phát hiện làm tăng nồng độ trong huyết tương (AUC) của etoposide và chất chuyển hóa của nó là catechol etoposide là 8,6% và 28,4% (tương ứng so với việc dùng đồng thời etoposide và sulfamethoxazole-trimethoprim). Cần thận trọng ở những bệnh nhân đang điều trị đồng thời với etoposide.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Tương tác thuốc | Nội dung:\nTrong các thử nghiệm lâm sàng, sự giảm nhỏ nồng độ atovaquone trong huyết tương (trung bình < 3 µg/ml) có liên quan đến việc dùng đồng thời paracetamol, benzodiazepin, acyclovir, opiates, cephalosporin, thuốc chống tiêu chảy và thuốc nhuận tràng. Mối quan hệ nhân quả giữa sự thay đổi nồng độ atovaquone trong huyết tương và việc sử dụng các loại thuốc nêu trên vẫn chưa được biết rõ.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Tương tác thuốc | Nội dung:\nZidovudine dường như không ảnh hưởng đến dược động học của atovaquone. Tuy nhiên, dữ liệu dược động học đã chỉ ra rằng atovaquone làm giảm tốc độ chuyển hóa của zidovudine thành chất chuyển hóa glucuronide của nó (AUC ở trạng thái ổn định của zidovudine tăng 33% và nồng độ đỉnh trong huyết tương của glucuronide giảm 19%). Ở liều zidovudine 500 hoặc 600 mg/ngày, dường như không chắc rằng liệu trình atovaquone ba tuần để điều trị PCP cấp tính sẽ làm tăng tỷ lệ phản ứng có hại do nồng độ zidovudine trong huyết tương cao hơn.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Tương tác thuốc | Nội dung:\nDidanosine không ảnh hưởng đến dược động học của atovaquone được xác định trong một nghiên cứu tương tác thuốc đa liều có triển vọng của atovaquone và didanosine. Tuy nhiên, AUC đối với didanosine đã giảm 24% khi dùng đồng thời với atovaquone, điều này không có ý nghĩa lâm sàng.\nTuy nhiên, các phương thức tương tác chưa được biết rõ, ảnh hưởng của việc sử dụng atovaquone đối với zidovudine và didanosine có thể lớn hơn với hỗn dịch atovaquone. Nồng độ atovaquone cao hơn có thể có trong hỗn dịch có thể gây ra những thay đổi lớn hơn về giá trị AUC của zidovudine hoặc didanosine so với những thay đổi được quan sát thấy. Bệnh nhân dùng atovaquone và zidovudine nên được theo dõi thường xuyên về các tác dụng ngoại ý liên quan đến zidovudine.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Tương tác thuốc | Nội dung:\nDùng đồng thời atovaquone và indinavir làm giảm đáng kể Cmin của indinavir (giảm 23%; 90% Cl 8-35%) và AUC (giảm 9%; 90% Cl 1-18%). Cần thận trọng với nguy cơ thất bại khi điều trị indinavir nếu dùng đồng thời với atovaquone.\nTrong các thử nghiệm lâm sàng của atovaquone, các loại thuốc sau đây không liên quan đến sự thay đổi nồng độ atovaquone trong huyết tương ở trạng thái ổn định: Fluconazole, clotrimazole, ketoconazole , thuốc kháng acid, corticosteroid toàn thân, thuốc chống viêm không steroid, thuốc chống nôn (trừ metoclopramide).",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Tương tác thuốc | Nội dung:\nAtovaquone liên kết cao với protein huyết tương và nên thận trọng khi dùng atovaquone đồng thời với các thuốc liên kết cao với protein huyết tương khác có chỉ số điều trị hẹp. Atovaquone không ảnh hưởng đến dược động học, chuyển hóa hoặc mức độ liên kết với protein của phenytoin in vivo. In vitro không có tương tác gắn kết với protein huyết tương giữa atovaquone và quinine, phenytoin, warfarin, sulfamethoxazole , indometacin hoặc diazepam.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Lưu ý | Nội dung:\nLưu ý chung Tiêu chảy khi bắt đầu điều trị đã được chứng minh là có liên quan đến nồng độ atovaquone trong huyết tương thấp hơn. Những điều này lại tương quan với tỷ lệ thất bại trị liệu cao hơn và tỷ lệ sống sót thấp hơn. Do đó, các liệu pháp thay thế nên được xem xét cho những bệnh nhân như vậy và cho những bệnh nhân gặp khó khăn khi dùng atovaquone cùng với thức ăn.\nBệnh nhân dùng đồng thời tetracyclin cần được theo dõi chặt chẽ.\nNên tránh sử dụng đồng thời atovaquone và efavirenz hoặc các chất ức chế protease tăng cường bất cứ khi nào có thể.\nKhông khuyến cáo sử dụng đồng thời atovaquone và rifampicin hoặc rifabutin.\nKhông khuyến cáo sử dụng đồng thời metoclopramide .\nAtovaquone có thể làm tăng nồng độ etoposide và chất chuyển hóa của nó.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Lưu ý | Nội dung:\nKhông khuyến cáo sử dụng đồng thời metoclopramide .\nAtovaquone có thể làm tăng nồng độ etoposide và chất chuyển hóa của nó.\nKhông có sẵn dữ liệu về bệnh nhân bị tổn thương miễn dịch không nhiễm HIV đang điều trị với PCP.\nChưa có kinh nghiệm lâm sàng về điều trị atovaquone ở bệnh nhân cao tuổi. Do đó, việc sử dụng ở người cao tuổi cần được theo dõi chặt chẽ.\nBệnh nhân bị bệnh phổi cần được đánh giá cẩn thận về các nguyên nhân gây bệnh ngoài PCP và được điều trị bằng các thuốc bổ sung nếu thích hợp. Atovaquone được cho là không phải là liệu pháp hiệu quả đối với các bệnh nấm, vi khuẩn, vi khuẩn Mycobacteria hoặc vi rút khác.\nChế phẩm có thể chứa benzyl alcohol có thể gây ra phản ứng dị ứng.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Lưu ý | Nội dung:\nChế phẩm có thể chứa benzyl alcohol có thể gây ra phản ứng dị ứng.\nBenzyl alcohol có liên quan đến nguy cơ tích tụ ở trẻ sơ sinh (đến 4 tuần tuổi) do quá trình trao đổi chất chưa trưởng thành. Tiêm tĩnh mạch benzyl alcohol có liên quan đến các tác dụng phụ nghiêm trọng và tử vong ở trẻ sơ sinh (“hội chứng thở hổn hển”). Lượng rượu benzyl tối thiểu có thể xảy ra độc tính không được biết.\nKhông nên dùng quá một tuần cho trẻ nhỏ (dưới 3 tuổi) do tăng nguy cơ tích lũy.\nNên sử dụng thận trọng và chỉ khi cần thiết, đặc biệt ở bệnh nhân có thai hoặc cho con bú hoặc bệnh nhân suy gan hoặc thận vì nguy cơ tích lũy và độc tính (nhiễm toan chuyển hóa).",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Atovaquone | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Không có thông tin về ảnh hưởng của việc sử dụng atovaquone trong thời kỳ mang thai ở người. Atovaquone không nên được sử dụng trong thời kỳ mang thai trừ khi lợi ích của việc điều trị cho người mẹ lớn hơn bất kỳ nguy cơ nào có thể xảy ra đối với thai nhi đang phát triển.\nKhông có đủ dữ liệu từ các thí nghiệm trên động vật để đánh giá nguy cơ có thể xảy ra đối với khả năng sinh sản.\nLưu ý với phụ nữ cho con bú Người ta không biết liệu atovaquone có bài tiết qua sữa mẹ hay không, và do đó không nên dùng ở phụ nữ cho con bú.\nLưu ý khi lái xe và vận hành máy móc Chưa có nghiên cứu nào để điều tra ảnh hưởng atovaquone đến hiệu suất lái xe hoặc khả năng vận hành máy móc nhưng tác dụng bất lợi đối với các hoạt động đó không được dự đoán từ dược lý học của thuốc.",
+        "metadata": {
+            "name": "Atovaquone",
+            "id": "atovaquone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/atovaquone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

@@ -1,0 +1,282 @@
+[
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Ganciclovir Loại thuốc Thuốc kháng virus Dạng thuốc và hàm lượng Viên nang: 250 mg, 500 mg.\nLọ bột pha tiêm: 500 mg ganciclovir natri.\nGel tra mắt 0,15% (w/w).",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Chỉ định | Nội dung:\nĐiều trị viêm võng mạc do Cytomegalovirus (CMV) ở người bệnh suy giảm miễn dịch, bao gồm cả những bệnh nhân AIDS .\nĐiều trị một số trường hợp viêm phổi , viêm đại tràng và viêm thực quản do nhiễm CMV.\nDự phòng nhiễm bệnh ở những người ghép cơ quan có nguy cơ lây nhiễm CMV.\nDự phòng nhiễm CMV cho bệnh nhân nhiễm HIV.\nDự phòng tái phát bệnh do CMV. Do hiện nay chưa có thuốc kháng CMV, điều trị chủ yếu là duy trì và hỗ trợ cho những bệnh nhân sau đợt nhiễm tiên phát.\nĐiều trị nhiễm một số virus khác như virus Epstein - Barr, tuy nhiên còn hạn chế vì tương quan an toàn - hiệu quả chưa được khẳng định.\nĐiều trị nhiễm virus Herpes (HSV-1 và HSV-2), virus thủy đậu, zona.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Dược lực học | Nội dung:\nGanciclovir là một nucleoside tổng hợp tương tự guanine có cấu trúc giống acyclovir. Ganciclovir có tác dụng chống các loại virus ở người như Herpes simplex type I (HSV-1), Herpes simplex type II (HSV-2), Cytomegalovirus (CMV). Virus Epstein - Barr, virus Varicella zoster (VZV) và virus Herpes simplex 6 cũng nhạy cảm với thuốc.\nCơ chế tác dụng của ganciclovir chưa được giải thích đầy đủ, nhưng nhiều giả thiết cho rằng thuốc có tác dụng bằng cách gây nhiễu quá trình tổng hợp DNA.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Dược lực học | Nội dung:\nKhi vào cơ thể, ganciclovir được phosphoryl hóa thành ganciclovir triphosphate, chất này có cấu trúc tương tự như cơ chất dGTP (deoxyguanosine-5’-triphosphate) của enzyme phiên mã ngược nên đã cạnh tranh với dGTP để gắn vào DNA của virus. Bên cạnh đó nó còn được xem như một nucleotide giả, gây nhiễu và làm ngừng quá trình sao chép, tổng hợp của virus. Quá trình này xảy ra một cách chọn lọc trong các tế bào nhiễm virus.\nNgười ta cho rằng ganciclovir được phosphoryl hóa trong cơ thể bởi enzyme thymidine kinase (có trong tế bào nhiễm HSV-1, HSV-2 và VZV) hoặc bởi deoxyguanosine kinase (trong tế bào nhiễm CMV và virus Epstein - Barr) thành ganciclovir monophosphate. Sự phosphoryl hóa được tiếp tục nhờ các kinase của tế bào để chuyển tiếp thành dạng diphosphate và triphosphate hoạt động.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Dược lực học | Nội dung:\nGanciclovir dễ bị phosphoryl hóa hơn bởi các enzyme tương tự có trong các tế bào lành (không nhiễm), đặc biệt trong các tế bào phân chia nhanh (như tế bào tủy xương). Khả năng bị phosphoryl hóa của ganciclovir trong tế bào lành xấp xỉ từ 10% đến ngang bằng so với quá trình xảy ra trong tế bào nhiễm virus.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Dược động học | Nội dung:\nHấp thu Ganciclovir hấp thu kém qua đường tiêu hóa sau khi uống và cũng rất hạn chế vào tuần hoàn sau khi tiêm thuốc trong thể kính. Sinh khả dụng đường uống chỉ đạt khoảng 5% và tăng đến 6 – 9% khi uống trong bữa ăn.\nPhân bố Sau khi tiêm tĩnh mạch, thuốc được phân bố vào khắp các mô và dịch cơ thể, kể cả dịch trong mắt và dịch não tủy.\nLiên kết với protein từ 1 – 2%.\nChuyển hóa Thuốc gần như không bị chuyển hóa ở gan ngoài sự chuyển dạng ganciclovir triphosphate trong tế bào.\nThải trừ Thời gian bán thải trung bình ở người chức năng thận bình thường từ 2,5 – 4,5 giờ sau khi tiêm tĩnh mạch và khoảng 4 – 5,7 giờ sau khi uống. Ở bệnh nhân suy giảm chức năng thận, thời gian bán thải có thể tăng đến 28,5 giờ.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Dược động học | Nội dung:\nThuốc thải trừ chủ yếu qua thận, phần lớn ở dạng không đổi trong nước tiểu. Thẩm tách máu có thể giảm nồng độ ganciclovir huyết tương tới khoảng 50%.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Liều lượng | Nội dung:\nLiều dùng Ganciclovir Người lớn Liều dùng của thuốc qui định theo dạng ganciclovir base. Với các trường hợp điều trị, thường khởi đầu bằng đợt liều tiêm (tấn công), sau đó điều trị duy trì.\nĐiều trị bệnh viêm võng mạc do CMV ở người có chức năng thận bình thường:\nĐiều trị khởi đầu:\n5 mg/kg/lần, 12 giờ một lần. Tiêm truyền tĩnh mạch chậm trong 1 giờ với tốc độ không đổi. Đợt điều trị khoảng 14 – 21 ngày, sau đó dùng liều duy trì.\nKhông dùng đường uống khi điều trị khởi đầu.\nĐiều trị duy trì:\nTiêm truyền tĩnh mạch: 5 mg/kg/lần/ngày, dùng liên tục 7 ngày/tuần hoặc tiêm liều 6 mg/kg/lần/ngày x 5 ngày/tuần.\nUống: 1000 mg/lần x 3 lần/ngày, uống vào bữa ăn hoặc 500 mg/lần x 6 lần/ngày, cách nhau 3 giờ/lần vào ban ngày, uống cùng với thức ăn.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Liều lượng | Nội dung:\nUống: 1000 mg/lần x 3 lần/ngày, uống vào bữa ăn hoặc 500 mg/lần x 6 lần/ngày, cách nhau 3 giờ/lần vào ban ngày, uống cùng với thức ăn.\nTrường hợp đang điều trị duy trì mà viêm võng mạc do CMV tiến triển hoặc tái phát thì cần bắt đầu lại với một đợt như liều khởi đầu bằng tiêm truyền tĩnh mạch.\nDự phòng bệnh nhiễm CMV cho người bệnh bị nhiễm HIV giai đoạn cuối, chức năng thận bình thường; phòng cho người nhiễm HIV/AIDS khi có TCDH(+) < 50/mm3 :\nUống 1000 mg/ lần x 3 lần/ngày.\nDự phòng bệnh nhiễm CMV cho người bệnh ghép cơ quan, có chức năng thận bình thường:\nLiều khởi đầu và duy trì giống như điều trị viêm võng mạc do CMV nhưng đợt điều trị khởi đầu trong khoảng 7 – 14 ngày.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Liều lượng | Nội dung:\nLiều khởi đầu và duy trì giống như điều trị viêm võng mạc do CMV nhưng đợt điều trị khởi đầu trong khoảng 7 – 14 ngày.\nThời gian dùng liều duy trì phụ thuộc vào triệu chứng lâm sàng và mức độ suy giảm miễn dịch (như phòng cho người bệnh ghép cơ quan có huyết tương dương tính với CMV, thời gian điều trị cần ít nhất 1 tháng).\nTrẻ em Điều trị bệnh viêm võng mạc do CMV:\nTrẻ em ≥ 12 tuổi có chức năng thận bình thường: Liều giống người lớn.\nTrẻ em từ sơ sinh đến < 12 tuổi: Có dữ liệu nghiên cứu nhưng chưa có khuyến nghị được đưa ra.\nDự phòng bệnh nhiễm CMV:\nTrẻ em ≥ 12 tuổi có chức năng thận bình thường: Dùng liều giống người lớn.\nĐối tượng khác Người bệnh suy thận: Cần điều chỉnh liều theo độ thanh thải creatinine.\nTiêm truyền tĩnh mạch:",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Liều lượng | Nội dung:\nĐối tượng khác Người bệnh suy thận: Cần điều chỉnh liều theo độ thanh thải creatinine.\nTiêm truyền tĩnh mạch:\nĐộ thanh thải creatinine (ml/phút) Liều dùng (khởi đầu) Khoảng cách liều (khởi đầu) (duy trì) Khoảng cách liều (duy trì) > 70 Không cần điều chỉnh 50 – 69 2,5 mg/kg 12 giờ 24 giờ 25 – 49 1,25 mg/kg 10 – 24 0,625 mg/kg < 10 3 lần/tuần, sau khi thẩm tách máu Uống: Theo độ thanh thải creatinin như sau:\n50 – 69 ml/phút: 1500 mg/lần/ngày hoặc 500 mg/lần x 3 lần/ngày.\n25 – 49 ml/phút: 1000 mg/lần/ngày hoặc 500 mg/lần x 2 lần/ngày.\n10 – 24 ml/phút: 500 mg/lần/ngày.\n< 10 ml/phút: 500 mg/lần x 3 lần/tuần sau khi thẩm tách máu.\nThẩm tách phúc mạc: Liều như liều dùng với độ thanh thải creatinine dưới 10 ml/phút.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Liều lượng | Nội dung:\n< 10 ml/phút: 500 mg/lần x 3 lần/tuần sau khi thẩm tách máu.\nThẩm tách phúc mạc: Liều như liều dùng với độ thanh thải creatinine dưới 10 ml/phút.\nLọc máu động mạch - tĩnh mạch hoặc tĩnh mạch - tĩnh mạch liên tục: Dùng với liều 2,5 mg/kg/lần x 1 lần/ngày.\nCách dùng Ganciclovir có thể được dùng đường uống hoặc tiêm truyền tĩnh mạch chậm.\nNên uống thuốc vào bữa ăn hoặc sau khi ăn do thuốc được hấp thu tốt hơn khi có thức ăn. Chỉ nên dùng dạng thuốc uống trong trường hợp dự phòng nhiễm CMV cho các bệnh nhân nhiễm HIV và cấy ghép tạng hoặc điều trị duy trì cho trường hợp viêm võng mạc do CMV đã ổn định sau khi điều trị bằng đường tiêm.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Liều lượng | Nội dung:\nTiêm truyền tĩnh mạch chậm (dạng ganciclovir natri) với tốc độ hằng định trong ít nhất 1 giờ, dùng dung dịch có nồng độ không quá 10 mg/ml. Không được tiêm trực tiếp vào tĩnh mạch hoặc tiêm truyền nhanh vì có thể tạo nồng độ thuốc trong huyết tương cao tới mức gây độc cho người bệnh. Người bệnh cần được cung cấp nước đầy đủ để hạn chế tăng độc tính.\nKhông nên tiêm bắp hoặc tiêm dưới da vì sẽ bị kích ứng nặng do dung dịch thuốc có trị số pH cao (khoảng 11) và hạn chế được viêm tĩnh mạch huyết khối.\nGanciclovir cũng được dùng dạng cấy (implant) trong thể kính để điều trị viêm võng mạc do CMV, tuy nhiên, an toàn và hiệu quả chưa được xác định.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Triệu chứng: Giảm bạch cầu trung tính, nôn, tăng tiết nước bọt, phân có máu, giảm tế bào máu, teo tinh hoàn.\nCách xử lý khi quá liều Chủ yếu là điều trị hỗ trợ, truyền dịch; thẩm tách máu (có thể loại khoảng 50% số thuốc).\nCân nhắc sử dụng yếu tố tăng trưởng tạo máu nếu cần.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Zidovudine : Cả 2 thuốc này đều gây tăng nguy cơ độc với máu nên không dùng đồng thời trong điều trị.\nDidanosine : Dùng didanosine 2 giờ trước hoặc dùng chung với ganciclovir cho thấy tăng diện tích dưới đường cong (AUC) của didanosine và giảm AUC của ganciclovir. Nếu phải kết hợp điều trị, cần thận trọng và theo dõi độc tính của didanosine.\nFoscanet: Dùng chung 2 thuốc này có thể làm ngừng tiến triển, giảm được triệu chứng bệnh đáng kể so với điều trị riêng, mặc dù tỷ lệ gây thiếu máu có thể cao hơn nhưng chưa tới mức phải ngừng điều trị.\nProbenecid làm tăng AUC của ganciclovir khi dùng đồng thời. Do đó cần theo dõi độc tính của ganciclovir nếu phải dùng chung 2 thuốc này.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Tương tác thuốc | Nội dung:\nProbenecid làm tăng AUC của ganciclovir khi dùng đồng thời. Do đó cần theo dõi độc tính của ganciclovir nếu phải dùng chung 2 thuốc này.\nNên giảm liều các thuốc ảnh hưởng tới hệ miễn dịch như azathioprin, cyclosporin, các corticosteroid khi dùng đồng thời ganciclovir để tránh làm suy giảm tủy xương và ảnh hưởng tới hệ miễn dịch.\nDùng đồng thời các thuốc gây độc cho thận (cyclosporin, amphotericin B ) với ganciclovir cho bệnh nhân cấy ghép tạng làm tăng độc tính với thận nên cần theo dõi độc tính trên thận.\nGanciclovir có thể hiệp đồng tăng độc tính của các thuốc ức chế sao chép hoặc phân chia tế bào (dapson, pentamidin, flucytosin, vincristin, vinblastin, adriamycin, amphotericin B, cotrimoxazole) nên khuyến cáo không dùng đồng thời với các thuốc này.\nDùng đồng thời imipenem /",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Tương tác thuốc | Nội dung:\nDùng đồng thời imipenem /\ncilastatin với ganciclovir có thể bị co giật.\nTương tác với thực phẩm Thức ăn làm tăng sinh khả dụng.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Lưu ý | Nội dung:\nLưu ý chung Thận trọng khi dùng đường tiêm, không được tiêm tĩnh mạch nhanh hoặc tiêm cả liều ngay một lúc.\nThận trọng với người bệnh suy giảm chức năng thận. Điều chỉnh liều dùng cho người già và người bệnh thận theo độ thanh thải creatinine huyết tương.\nDo thuốc có ảnh hưởng độc với máu nên cần theo dõi công thức máu thường xuyên, chú ý đặc biệt với công thức bạch cầu, bạch cầu trung tính, tiểu cầu; nên xét nghiệm 2 – 3 lần/tuần trong khi điều trị bằng đường tiêm và ít nhất 1 lần/tuần khi điều trị duy trì.\nThận trọng với người bệnh có tiền sử bệnh huyết học, đặc biệt giảm bạch cầu, hoặc có tiền sử giảm bạch cầu khi dùng thuốc, người bệnh điều trị bằng các thuốc ức chế tủy xương, điều trị phóng xạ.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Lưu ý | Nội dung:\nThông báo cho bệnh nhân biết rằng ganciclovir không chữa khỏi hẳn bệnh viêm võng mạc do CMV. Do vậy, bệnh có thể tiếp tục hoặc tái phát, đặc biệt khi bị suy giảm miễn dịch liên tục. Nên kiểm tra mắt định kỳ, khoảng 6 tuần một lần.\nThuốc có thể ảnh hưởng tới sự sinh tinh trùng và khả năng sinh sản. Bệnh nhân nam cần dùng các biện pháp tránh thai trong khi điều trị và ít nhất 90 ngày sau khi điều trị.\nAn toàn và hiệu quả trên trẻ em dưới 13 tuổi chưa được xác định, nên thận trọng và cân nhắc lợi ích - nguy cơ khi dùng thuốc cho trẻ em.\nLưu ý với phụ nữ có thai Ganciclovir có thể gây quái thai hay độc cho phôi khi thử với liều dùng cho người. Kinh nghiệm về việc sử dụng ở người mang thai còn rất ít.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ganciclovir | Phần: Lưu ý | Nội dung:\nKhông dùng ganciclovir khi có thai hoặc cân nhắc giữa lợi ích và rủi ro có thể xảy ra với bào thai nếu phải sử dụng. Do khả năng tiềm ẩn gây đột biến của ganciclovir, phụ nữ ở tuổi sinh con nên dùng biện pháp tránh thai khi điều trị bằng ganciclovir.\nLưu ý với phụ nữ cho con bú Không biết ganciclovir có phân bố qua sữa mẹ không. Ganciclovir gây quái thai và ung thư trên động vật thực nghiệm nên có thể xảy ra các phản ứng nghiêm trọng ở trẻ đang bú khi người mẹ dùng ganciclovir.\nNgừng cho con bú nếu mẹ đang dùng ganciclovir. Không được cho con bú trong vòng 72 giờ sau liều cuối cùng.\nLưu ý khi lái xe và vận hành máy móc Thuốc có ảnh hưởng nhiều đến khả năng lái xe và vận hành máy móc.",
+        "metadata": {
+            "name": "Ganciclovir",
+            "id": "ganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

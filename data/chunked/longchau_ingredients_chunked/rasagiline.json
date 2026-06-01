@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Rasagiline Loại thuốc Thuốc chống Parkinson, Thuốc ức chế Monoamine oxidase –B.\nDạng thuốc và hàm lượng Viên nén 1 mg.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Chỉ định | Nội dung:\nĐiều trị bệnh Parkinson vô căn dưới dạng đơn trị liệu (không dùng levodopa) hoặc điều trị bổ trợ (với levodopa ).",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Dược lực học | Nội dung:\nRasagiline được chứng minh là một chất ức chế chọn lọc MAO-B mạnh, không thuận nghịch, có thể gây tăng nồng độ dopamine ngoại bào trong thể vân. Mức dopamine tăng cao và hoạt động dopaminergic tăng lên sau đó có khả năng làm trung gian cho các tác dụng có lợi của rasagiline được thấy trong các mô hình rối loạn chức năng vận động dopaminergic.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Dược động học | Nội dung:\nHấp thu Rasagiline được hấp thu nhanh chóng, đạt nồng độ đỉnh trong huyết tương (C max) trong khoảng 0,5 giờ. Sinh khả dụng tuyệt đối của một liều rasagiline duy nhất là khoảng 36%.\nThức ăn không ảnh hưởng đến T max của rasagiline, mặc dù C max và phơi nhiễm (AUC) lần lượt giảm khoảng 60% và 20% khi thuốc được dùng với bữa ăn nhiều chất béo. Vì AUC về cơ bản không bị ảnh hưởng, nên có thể dùng rasagiline cùng với thức ăn hoặc không.\nPhân bố Thể tích phân phối trung bình sau một liều rasagiline tiêm tĩnh mạch duy nhất là 243 L. Liên kết với protein huyết tương sau một liều uống duy nhất của rasagiline được đánh dấu 14C là khoảng 60 đến 70%.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Dược động học | Nội dung:\nChuyển hóa và thải trừ Rasagiline trải qua quá trình biến đổi sinh học gần như hoàn toàn trong gan trước khi bài tiết. Sự chuyển hóa của rasagiline tiến hành qua hai con đường chính: N-dealkyl hóa và/hoặc hydroxyl hóa để tạo ra: 1-Aminoindan, 3-hydroxy-N-propargyl-1 aminoindan và 3-hydroxy-1-aminoindan. Các thí nghiệm in vitro chỉ ra rằng cả hai con đường chuyển hóa rasagiline đều phụ thuộc vào hệ thống cytochrome P450, với CYP1A2 là iso-enzyme chính tham gia vào quá trình chuyển hóa rasagiline. Sự kết hợp của rasagiline và các chất chuyển hóa của nó cũng được phát hiện là một con đường thải trừ chính để tạo ra glucuronid.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Dược động học | Nội dung:\nSau khi uống rasagiline đánh dấu 14C, thải trừ chủ yếu qua nước tiểu (62,6%) và thứ hai qua phân (21,8%), với tổng số phục hồi 84,4% liều dùng trong thời gian 38 ngày. Dưới 1% rasagiline được bài tiết dưới dạng không đổi trong nước tiểu. Thời gian bán hủy cuối của nó là 0,6-2 giờ.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Liều lượng | Nội dung:\nLiều dùng Liều khuyến cáo của rasagiline là 1 mg (1 viên rasagiline) một lần mỗi ngày, được dùng cùng với hoặc không cùng với levodopa.\nNgười già Không cần thay đổi liều đối với bệnh nhân cao tuổi.\nSuy gan Rasagiline được chống chỉ định ở bệnh nhân suy gan nặng. Nên tránh sử dụng Rasagiline ở bệnh nhân suy gan trung bình. Thận trọng khi bắt đầu điều trị bằng rasagiline ở bệnh nhân suy gan nhẹ. Trong trường hợp bệnh nhân tiến triển từ suy gan nhẹ đến trung bình, nên ngừng dùng rasagiline.\nSuy thận Không cần thận trọng đặc biệt ở bệnh nhân suy thận.\nTrẻ em Tính an toàn và hiệu quả của rasagiline ở trẻ em và thanh thiếu niên chưa được thiết lập. Không có việc sử dụng rasagiline phù hợp ở trẻ em trong chỉ định bệnh Parkinson.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Liều lượng | Nội dung:\nCách dùng Dùng đường uống. Rasagiline có thể được dùng cùng hoặc không cùng thức ăn.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Các triệu chứng được báo cáo sau khi sử dụng quá liều rasagiline với liều lượng từ 3 mg đến 100 mg bao gồm giảm hưng phấn, khủng hoảng tăng huyết áp và hội chứng serotonin.\nQuá liều có thể liên quan đến việc ức chế đáng kể cả MAO-A và MAO-B. Trong một nghiên cứu liều duy nhất, những người tình nguyện khỏe mạnh nhận được 20 mg/ngày và trong một nghiên cứu kéo dài 10 ngày, những người tình nguyện khỏe mạnh nhận được 10 mg/ngày. Các phản ứng có hại ở mức độ nhẹ hoặc trung bình và không liên quan đến việc điều trị bằng rasagiline.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Quá liều và xử trí | Nội dung:\nTrong một nghiên cứu tăng liều ở những bệnh nhân đang điều trị levodopa mãn tính được điều trị với 10 mg/ngày rasagiline, đã có báo cáo về các phản ứng có hại trên tim mạch (bao gồm tăng huyết áp và hạ huyết áp tư thế) được giải quyết sau khi ngừng điều trị. Những triệu chứng này có thể giống với những triệu chứng quan sát được với thuốc ức chế MAO không chọn lọc.\nCách xử lý khi quá liều Không có thuốc giải độc đặc. Trong trường hợp quá liều, bệnh nhân nên được theo dõi và điều trị triệu chứng và hỗ trợ thích hợp.\nQuên liều Rasagiline và xử trí",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Rasagiline được chống chỉ định cùng với các chất ức chế MAO khác (bao gồm thuốc và các sản phẩm tự nhiên không cần kê đơn như St. John's Wort) vì có thể có nguy cơ ức chế MAO không chọn lọc có thể dẫn đến cơn tăng huyết áp.\nCác phản ứng có hại nghiêm trọng đã được báo cáo khi sử dụng đồng thời pethidine và các chất ức chế MAO, bao gồm một chất ức chế MAO-B chọn lọc khác. Chống chỉ định dùng đồng thời rasagiline và pethidine.\nVới các chất ức chế MAO, đã có báo cáo về tương tác của sản phẩm thuốc với việc sử dụng đồng thời các sản phẩm thuốc cường giao cảm. Do đó, không nên dùng đồng thời rasagiline và thuốc cường giao cảm như những chất có trong thuốc thông mũi và thuốc uống hoặc các thuốc cảm có chứa ephedrine hoặc pseudoephedrine.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Tương tác thuốc | Nội dung:\nĐã có báo cáo về tương tác của sản phẩm thuốc với việc sử dụng đồng thời dextromethorphan và các chất ức chế MAO không chọn lọc. Do đó, không khuyến cáo sử dụng đồng thời.\nNên tránh sử dụng đồng thời rasagiline và fluoxetine hoặc fluvoxamine.\nCác phản ứng có hại nghiêm trọng đã được báo cáo khi sử dụng đồng thời SSRIs, SNRIs, thuốc chống trầm cảm ba vòng/bốn vòng và chất ức chế MAO. Do đó, theo quan điểm của hoạt động ức chế MAO của rasagiline, thuốc chống trầm cảm nên được sử dụng một cách thận trọng.\nCác nghiên cứu về chuyển hóa in vitro đã chỉ ra rằng cytochrom P450 1A2 (CYP1A2) là enzym chính chịu trách nhiệm chuyển hóa rasagiline.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Tương tác thuốc | Nội dung:\nCác nghiên cứu về chuyển hóa in vitro đã chỉ ra rằng cytochrom P450 1A2 (CYP1A2) là enzym chính chịu trách nhiệm chuyển hóa rasagiline.\nSử dụng đồng thời rasagiline và ciprofloxacin (một chất ức chế CYP1A2) làm tăng AUC của rasagiline lên 83%. Sử dụng đồng thời rasagiline và theophylline (chất nền của CYP1A2) không ảnh hưởng đến dược động học của cả hai sản phẩm. Do đó, các chất ức chế CYP1A2 mạnh có thể làm thay đổi nồng độ rasagiline trong huyết tương và nên được sử dụng một cách thận trọng.\nCó nguy cơ giảm nồng độ rasagiline trong huyết tương ở bệnh nhân hút thuốc do cảm ứng enzym chuyển hóa CYP1A2.\nDùng đồng thời rasagiline và entacapone làm tăng độ thanh thải qua đường miệng của rasagiline lên 28%.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Lưu ý | Nội dung:\nLưu ý chung Nên tránh sử dụng đồng thời rasagiline và fluoxetine hoặc fluvoxamine. Ít nhất hết năm tuần từ khi ngừng sử dụng fluoxetine đến khi bắt đầu điều trị bằng rasagiline. Ít nhất 14 ngày kể từ khi ngừng rasagiline và bắt đầu điều trị bằng fluoxetine hoặc fluvoxamine.\nKhông khuyến cáo sử dụng đồng thời rasagiline và dextromethorphan hoặc thuốc cường giao cảm như những chất có trong thuốc thông mũi và thuốc uống hoặc thuốc cảm có chứa ephedrin hoặc pseudoephedrin.\nVì rasagiline làm tăng tác dụng của levodopa, các phản ứng có hại của levodopa có thể tăng lên và rối loạn vận động đã có từ trước trở nên trầm trọng hơn. Giảm liều levodopa có thể cải thiện phản ứng có hại này.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Lưu ý | Nội dung:\nĐã có báo cáo về tác dụng hạ huyết áp khi dùng đồng thời rasagiline với levodopa. Bệnh nhân bị bệnh Parkinson đặc biệt dễ bị các phản ứng có hại của hạ huyết áp do các vấn đề về dáng đi hiện có.\nRasagiline có thể gây buồn ngủ vào ban ngày, buồn ngủ, và đôi khi, đặc biệt nếu được sử dụng với các sản phẩm thuốc dopaminergic khác - buồn ngủ trong các hoạt động sinh hoạt hàng ngày.\nRối loạn kiểm soát xung động (ICD) có thể xảy ra ở những bệnh nhân được điều trị bằng thuốc chủ vận dopamine và/hoặc điều trị dopaminergic. Các báo cáo tương tự về ICD cũng đã được nhận sau khi tiếp thị với rasagiline. Bệnh nhân cần được theo dõi thường xuyên về sự phát triển của các rối loạn kiểm soát xung động.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Lưu ý | Nội dung:\nMột nghiên cứu thuần tập hồi cứu cho thấy nguy cơ ung thư hắc tố có thể tăng lên khi sử dụng rasagiline, đặc biệt ở những bệnh nhân có thời gian tiếp xúc với rasagiline lâu hơn và/hoặc với liều tích lũy cao hơn của rasagiline. Bất kỳ tổn thương da đáng ngờ nào nên được đánh giá bởi bác sĩ chuyên khoa. Do đó, bệnh nhân nên đi khám bệnh nếu xác định có tổn thương da mới hoặc đang thay đổi.\nLưu ý với phụ nữ có thai Không có dữ liệu về việc sử dụng rasagiline ở phụ nữ mang thai. Các nghiên cứu trên động vật không chỉ ra tác hại trực tiếp hoặc gián tiếp đối với độc tính sinh sản. Như một biện pháp phòng ngừa, tốt nhất là tránh sử dụng rasagiline trong thời kỳ mang thai.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Rasagiline | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Dữ liệu phi lâm sàng chỉ ra rằng rasagiline ức chế bài tiết prolactin và do đó, có thể ức chế tiết sữa. Không biết liệu rasagiline có bài tiết qua sữa mẹ hay không. Cần thận trọng khi dùng rasagiline cho người mẹ đang cho con bú.\nLưu ý khi lái xe và vận hành máy móc Bệnh nhân đang được điều trị bằng rasagiline và có biểu hiện buồn ngủ và/hoặc các cơn buồn ngủ đột ngột phải được thông báo để tránh lái xe hoặc tham gia vào các hoạt động mà trong đó, sự tỉnh táo suy giảm có thể khiến bản thân hoặc những người khác có nguy cơ bị thương nặng hoặc tử vong (ví dụ vận hành máy móc) cho đến khi họ đạt được đủ kinh nghiệm với rasagiline và các thuốc dopaminergic khác để đánh giá xem nó có ảnh hưởng xấu đến hoạt động thần kinh và/hoặc vận động của họ hay không.",
+        "metadata": {
+            "name": "Rasagiline",
+            "id": "rasagiline",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rasagiline",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

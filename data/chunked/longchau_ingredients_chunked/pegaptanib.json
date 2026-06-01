@@ -1,0 +1,170 @@
+[
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Pegaptanib.\nLoại thuốc Thuốc nhãn khoa.\nDạng thuốc và hàm lượng Dung dịch vô trùng tiêm nội nhãn: 0,3 mg/90 µL.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Chỉ định | Nội dung:\nPegaptanib được chỉ định dùng để điều trị thoái hoá điểm vàng thể ướt liên quan đến tuổi già.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Dược lực học | Nội dung:\nNhóm dược lý:\nThuốc nhãn khoa khác.\nMã ATC: S01LA03.\nCơ chế tác dụng Pegaptanib là một chất đối kháng chọn lọc yếu tố tăng trưởng nội mô mạch máu (VEGF). VEGF là một protein tiết ra có tác dụng liên kết chọn lọc và kích hoạt các thụ thể của nó nằm chủ yếu trên bề mặt tế bào nội mô mạch máu.\nVEGF gây ra sự hình thành mạch và làm tăng tính thấm và viêm của mạch máu, tất cả đều được cho là góp phần vào sự tiến triển của bệnh thoái hóa điểm vàng do tuổi tác dạng tân mạch (thể ướt) (AMD), nguyên nhân hàng đầu gây ra mù lòa. VEGF có liên quan đến sự phá vỡ hàng rào võng mạc - mạch máu và tân mạch ở mắt.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Dược lực học | Nội dung:\nPegaptanib là một aptamer, một oligonucleotide được pegyl hóa, sử dụng cấu trúc ba chiều cho phép liên kết với VEGF ngoại bào. Trong thử nghiệm in vitro, pegaptanib liên kết với đồng dạng VEGF gây bệnh chính là VEGF 165 ngoại bào, ức chế VEGF 165 liên kết với các thụ thể VEGF của nó.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Dược động học | Nội dung:\nHấp thu Ở động vật, pegaptanib được hấp thu chậm vào hệ tuần hoàn từ mắt sau khi tiêm nội nhãn. Tốc độ thuốc hấp thu ở mắt là bước giới hạn tốc độ trong sự phân bố pegaptanib ở động vật và cũng có thể tương tự ở người.\nỞ người, nồng độ tối đa trung bình trong huyết tương khoảng 80 ng/mL đạt được trong vòng 1 - 4 ngày sau khi tiêm liều 3 mg cho một mắt (gấp 10 lần liều khuyến cáo). Diện tích trung bình dưới đường cong nồng độ - thời gian trong huyết tương (AUC) khoảng 25 µg.giờ/mL ở liều này.\nPhân bố Trong 24 giờ sau khi tiêm nội nhãn một liều pegaptanib được đánh dấu phóng xạ cho cả hai mắt của thỏ, nhận thấy thuốc chủ yếu phân bố trong dịch kính, võng mạc và nước mắt.\nChuyển hoá Pegaptanib được chuyển hóa bởi endo- và exonuclease, thường không bị ảnh hưởng bởi hệ thống cytochrome P450.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Dược động học | Nội dung:\nChuyển hoá Pegaptanib được chuyển hóa bởi endo- và exonuclease, thường không bị ảnh hưởng bởi hệ thống cytochrome P450.\nThải trừ Ở thỏ, pegaptanib được thải trừ dưới dạng nguyên vẹn và các chất chuyển hóa chủ yếu trong nước tiểu.\nỞ người, sau khi tiêm liều 3 mg cho một mắt (gấp 10 lần liều khuyến cáo), giá trị trung bình (± độ lệch chuẩn) của thời gian bán hủy biểu kiến ​​trong huyết tương là 10 (± 4) ngày.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Liều lượng | Nội dung:\nNgười lớn Tiêm nội nhãn: 0,3 mg/lần x 6 tuần/lần.\nĐối tượng khác Bệnh nhân suy thận và suy gan Không cần điều chỉnh liều lượng.\nPegaptanib chỉ được sử dụng ở bệnh viện dưới sự giám sát của nhân viên y tế. Vì vậy, bệnh nhân cần phải liên hệ ngay với bác sĩ nếu quên một liều.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Pegaptanib và xử trí Quá liều và độc tính Không ghi nhận các phản ứng phụ mới khi sử dụng quá liều pegaptanib, tuy nhiên hiệu quả điều trị của thuốc bị giảm khi tiêm liều trên 1 mg.\nCách xử lý khi quá liều Pegaptanib Chưa có thông tin.\nQuên liều và xử trí Pegaptanib chỉ được sử dụng ở bệnh viện dưới sự giám sát của nhân viên y tế. Vì vậy, bệnh nhân cần phải liên hệ ngay với bác sĩ nếu quên một liều.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Tương tác thuốc | Nội dung:\nChưa có thông tin.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Lưu ý | Nội dung:\nLưu ý chung Viêm nội nhãn Bệnh nhân có thể bị viêm nội nhãn khi tiêm pegaptanib. Luôn luôn dùng kỹ thuật tiêm vô trùng khi sử dụng thuốc. Bệnh nhân cũng nên được tiếp tục theo dõi trong tuần tiếp theo sau khi tiêm để điều trị kịp thời nếu xảy ra nhiễm trùng.\nTăng nhãn áp Đã có báo cáo về tình trạng tăng nhãn áp trong vòng 30 phút sau khi tiêm pegaptanib. Vì vậy cần theo dõi thận trọng sự tưới máu của dây thần kinh thị giác trong 2 - 7 ngày tiếp theo.\nSốc phản vệ Hiếm khi xảy ra giả phản vệ hoặc phản ứng phản vệ, bao gồm phù mạch sau khi tiêm pegaptanib.\nSử dụng ở trẻ em Tính an toàn và hiệu quả của thuốc ở trẻ em chưa được nghiên cứu.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Lưu ý | Nội dung:\nSử dụng ở trẻ em Tính an toàn và hiệu quả của thuốc ở trẻ em chưa được nghiên cứu.\nSử dụng ở người cao tuổi Khoảng 94% bệnh nhân được điều trị bằng pegaptanib ≥ 65 tuổi và khoảng 62% ≥ 75 tuổi. Không có sự khác biệt về hiệu quả điều trị hoặc nồng độ thuốc trong huyết tương khi tuổi tác ngày càng tăng.\nSuy gan Dược động học của pegaptanib chưa được nghiên cứu ở bệnh nhân suy gan.\nSuy thận Không cần điều chỉnh liều pegaptanib ở bệnh nhân suy thận.\nLưu ý với phụ nữ có thai Phân loại thai kỳ (FDA): B.\nTrong nghiên cứu trên chuột, pegaptanib không gây độc cho cơ thể mẹ và cũng không có bằng chứng về khả năng gây quái thai hoặc tử vong ở thai nhi khi tiêm tĩnh mạch liều lên đến 40 mg/kg/ngày.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Pegaptanib | Phần: Lưu ý | Nội dung:\nTuy nhiên, chưa có nghiên cứu về sử dụng pegaptanib ở người nên chỉ sử dụng thuốc này khi thật sự cần thiết.\nLưu ý với phụ nữ cho con bú Chưa có nghiên cứu về khả năng bài tiết vào sữa mẹ của pegaptanib, vì vậy, cần thận trọng khi kê đơn cho phụ nữ đang cho con bú.\nLưu ý khi lái xe và vận hành máy móc Chưa có thông tin.",
+        "metadata": {
+            "name": "Pegaptanib",
+            "id": "pegaptanib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pegaptanib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

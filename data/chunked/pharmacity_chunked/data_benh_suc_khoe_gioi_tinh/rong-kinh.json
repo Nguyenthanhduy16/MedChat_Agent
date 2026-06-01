@@ -1,0 +1,156 @@
+[
+  {
+    "text": "Bệnh: Rong kinh | Phần: Tổng quan | Nội dung:\nTổng quan chung\nRong kinh là hiện tượng kỳ kinh kéo dài trên 7 ngày và mất đi lượng máu vượt quá 80ml/chu kỳ, gây ảnh hưởng nhiều tới tâm sinh lý và sức khỏe của phái đẹp. Nếu không kịp thời điều trị, rong kinh còn có thể dẫn tới nhiều biến chứng nguy hiểm, thậm chí là gây vô sinh.",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Triệu chứng | Nội dung:\nTriệu chứng\nCác triệu chứng của rong kinh gồm:\nĐau bụng kinh;\nLượng máu kinh ra nhiều trong thời gian hành kinh, kéo dài liên tục trên 7 ngày, thậm chí có thể lên tới 10 ngày;\nLượng máu kinh nhiều hơn 80ml thay vì 50-80ml ở một chu kỳ bình thường;\nPhải thay băng vệ sinh liên tục sau vài giờ;\nPhải sử dụng cùng lúc hai hoặc nhiều băng vệ sinh;\nXuất hiện cục máu đông có kích thước lớn;\nXuất hiện các triệu chứng của thiếu máu như cảm giác mệt mỏi, khó thở, kiệt sức. Khi bị thiếu máu, chị em có thể gặp phải các triệu chứng của một tình trạng gọi là PICA, bao gồm rụng tóc, da nhợt nhạt và muốn ăn những thứ không phải là thực phẩm như tóc, giấy, bụi bẩn…\nKhi có những triệu chứng này, chị em nên đến bệnh viện ngay để được thăm khám và điều trị phù hợp.",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Nguyên nhân | Nội dung:\nNguyên nhân\nCó nhiều nguyên nhân có thể gây ra rong kinh, bao gồm:\nRối loạn nội tiết: Sự mất cân bằng hormone trong cơ thể có thể làm cho lớp niêm mạc tử cung phát triển quá mức và gây ra rong kinh.\nBệnh lý tử cung: Các bệnh như polyp tử cung, u xơ tử cung, viêm nội mạc tử cung, và ung thư tử cung có thể gây ra rong kinh.\nRối loạn đông máu: Một số rối loạn đông máu bẩm sinh hoặc mắc phải có thể làm tăng nguy cơ rong kinh.\nSử dụng thuốc: Một số loại thuốc như thuốc chống đông máu, thuốc tránh thai nội tiết tố có thể gây ra rong kinh.\nCác nguyên nhân khác: Bao gồm bệnh lý tuyến giáp, gan, thận và các bệnh lý mãn tính khác.",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ\nMột số phụ nữ có nguy cơ cao bị rong kinh, bao gồm:\nPhụ nữ ở độ tuổi sinh sản: Đặc biệt là những người mới bắt đầu có kinh nguyệt hoặc đang trong giai đoạn tiền mãn kinh.\nNgười có tiền sử bệnh lý tử cung: Như u xơ tử cung, polyp tử cung.\nNgười có rối loạn nội tiết: Bao gồm bệnh lý tuyến giáp, buồng trứng đa nang.\nNgười có tiền sử gia đình: Gia đình có tiền sử mắc các bệnh lý về đông máu.\nNgười sử dụng thuốc ảnh hưởng đến hormone hoặc đông máu.",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Chẩn đoán | Nội dung:\nChẩn đoán\nNhững kỹ thuật y tế được sử dụng để chẩn đoán rong kinh là:\nChẩn đoán dựa trên tiền sử, khám thực tế và xét nghiệm máu kiểm tra thiếu máu. Thiếu máu xảy ra khi phụ nữ mất máu quá nhiều trong thời kỳ kinh nguyệt kéo dài.\nSiêu âm.\nThử pap’s: bác sĩ lấy một mẫu nhỏ các tế bào từ bề mặt cổ tử cung để kiểm tra xem có dấu hiệu bất thường nào hay không.\nSinh thiết nội mạc tử cung, nong nạo tử cung: lấy mẫu mô nội mạc tử cung để kiểm tra ung thư nếu nghi ngờ nguyên nhân gây rong kinh là do ung thư ở tử cung.\nSoi ổ bụng: quan sát các cơ quan trong bụng thông qua một đường rạch nhỏ.\nChụp tử cung vòi trứng: đưa một chất cản quang vào tử cung và ống dẫn trứng để chụp và bác sĩ sẽ quan sát tử cung trên phim X-quang.",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Chẩn đoán | Nội dung:\nChụp tử cung vòi trứng: đưa một chất cản quang vào tử cung và ống dẫn trứng để chụp và bác sĩ sẽ quan sát tử cung trên phim X-quang.\nSoi tử cung: sử dụng một ống kim loại có gắn máy ghi hình đưa qua cổ tử cung đến tử cung để quan sát.",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa bệnh\nĐể phòng ngừa rong kinh, phái đẹp nên:\nChế độ ăn uống lành mạnh, ít thịt và chất béo, tăng cường bổ sung kẽm, sắt, magie, vitamin B1, B6, Vitamin E,… Cùng với đó, cần hạn chế các thức uống hoặc thực phẩm kích thích trong chu kỳ kinh nguyệt có thể dẫn đến rong kinh như rượu, cà phê, nước lạnh, gia vị cay,…\nNghỉ ngơi điều độ, tập thể dục thường xuyên, hạn chế căng thẳng và mệt mỏi kéo dài để nội tiết tố cơ thể ổn định, từ đó chu kỳ kinh nguyệt cũng bình thường và chứng rong kinh được cải thiện.\nNằm nghỉ nhiều hơn khi đến chu kỳ kinh nguyệt giúp giảm chứng rong kinh, giảm tình trạng máu ra quá nhiều cũng như những triệu chứng chu kỳ gây khó chịu như: đau bụng, tức bụng, buồn nôn, mệt mỏi,…",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Phòng ngừa | Nội dung:\nĂn ngải cứu: ngải cứu là vị thuốc Đông Y được dùng trong nhiều bài thuốc điều trị có tác dụng điều hòa kinh nguyệt, giảm máu xấu trong kỳ kinh, giảm đau bụng kinh. Người bị rong kinh do rối loạn nội tiết tố có thể dùng ngải cứu để kiểm soát chứng bệnh này.",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Cách điều trị | Nội dung:\nĐiều trị bệnh\nViệc điều trị rong kinh phụ thuộc vào nguyên nhân và mức độ nghiêm trọng của triệu chứng. Các phương pháp điều trị bao gồm:\nSử dụng thuốc: Thuốc nội tiết tố: Như thuốc tránh thai, vòng tránh thai chứa hormone để điều chỉnh chu kỳ kinh nguyệt. Thuốc chống viêm không steroid (NSAIDs): Như ibuprofen để giảm đau và lượng máu kinh. Thuốc cầm máu: Như tranexamic acid để giảm lượng máu kinh.\nThuốc nội tiết tố: Như thuốc tránh thai, vòng tránh thai chứa hormone để điều chỉnh chu kỳ kinh nguyệt.\nThuốc chống viêm không steroid (NSAIDs): Như ibuprofen để giảm đau và lượng máu kinh.\nThuốc cầm máu: Như tranexamic acid để giảm lượng máu kinh.",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Cách điều trị | Nội dung:\nThuốc chống viêm không steroid (NSAIDs): Như ibuprofen để giảm đau và lượng máu kinh.\nThuốc cầm máu: Như tranexamic acid để giảm lượng máu kinh.\nPhẫu thuật: Nạo niêm mạc tử cung: Loại bỏ lớp niêm mạc tử cung để giảm lượng máu kinh. Cắt bỏ tử cung: Dành cho trường hợp nặng không đáp ứng với các phương pháp khác và không có nhu cầu sinh con thêm.\nNạo niêm mạc tử cung: Loại bỏ lớp niêm mạc tử cung để giảm lượng máu kinh.\nCắt bỏ tử cung: Dành cho trường hợp nặng không đáp ứng với các phương pháp khác và không có nhu cầu sinh con thêm.\nThay đổi lối sống: Chế độ ăn uống cân bằng: Giàu chất sắt để phòng ngừa thiếu máu. Tập thể dục đều đặn: Giúp điều hòa hormone và cải thiện sức khỏe toàn diện.\nChế độ ăn uống cân bằng: Giàu chất sắt để phòng ngừa thiếu máu.",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Rong kinh | Phần: Cách điều trị | Nội dung:\nChế độ ăn uống cân bằng: Giàu chất sắt để phòng ngừa thiếu máu.\nTập thể dục đều đặn: Giúp điều hòa hormone và cải thiện sức khỏe toàn diện.\nTheo dõi và tái khám: Theo dõi tình trạng sức khỏe và tái khám định kỳ để điều chỉnh phương pháp điều trị kịp thời.\nRong kinh là một vấn đề phụ khoa thường gặp, nhưng với sự hiểu biết đúng đắn và phương pháp điều trị phù hợp, phụ nữ có thể kiểm soát và cải thiện tình trạng này. Nếu bạn gặp phải các triệu chứng rong kinh, hãy tìm đến các chuyên gia y tế để được tư vấn và điều trị kịp thời. Chăm sóc sức khỏe bản thân và duy trì lối sống lành mạnh sẽ giúp bạn ngăn ngừa và giảm thiểu các biến chứng liên quan đến rong kinh. Chúc bạn luôn khỏe mạnh và hạnh phúc!",
+    "metadata": {
+      "name": "Rong kinh",
+      "id": "rong-kinh",
+      "url": "https://www.pharmacity.vn/benh/rong-kinh.html",
+      "category": "data_benh_suc_khoe_gioi_tinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 2
+    }
+  }
+]

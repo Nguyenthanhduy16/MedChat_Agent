@@ -1,0 +1,226 @@
+[
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Iloprost (iloprost trometamol) Loại thuốc Ức chế sự kết dính tiểu cầu không phải heparin.\nDạng thuốc và hàm lượng Dung dịch đậm đặc tiêm truyền tĩnh mạch sau khi pha loãng 20 µg/ml.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Chỉ định | Nội dung:\nThuốc Iloprost dùng để điều trị cho các bệnh nhân bị viêm mạch nghẽn tắc tiến triển (bệnh Buerger), chủ yếu là các mạch ở chi đối với các trường hợp không thể phẫu thuật tái tạo lại mạch.\nĐiều trị cho các bệnh nhân mắc bệnh tắc động mạch ngoại vi (PAOD) nặng, đặc biệt đối với những bệnh nhân có nguy cơ bị cắt bỏ chi và đối với những bệnh nhân không thể phẫu thuật chỉnh hình.\nĐiều trị cho các bệnh nhân mắc hội chứng Raynaud nặng, không đáp ứng với các liệu pháp điều trị khác.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Dược lực học | Nội dung:\nIloprost là một chất tổng hợp tương tự prostacylin. Các tác dụng dược lý học đã được nghiên cứu bao gồm:\nHạn chế sự kết tập tiểu cầu, kết dính tiểu cầu và sự phóng thích của tiểu cầu.\nGiãn tiểu động mạch và tiểu tĩnh mạch.\nTăng mật độ của các ống mao dẫn và làm giảm tính thấm thành mạch gây ra bởi các chất trung gian như serotonin hoặc histamine tại hệ thống vị tuần hoàn.\nKích thích khả năng phân giải fibrin nội sinh.\nTác dụng chống viêm thông qua việc ức chế sự kết dính của các tế bào bạch cầu sau khi gây thương tổn nội mạc, và sự kết tụ của các bạch cầu tại mô bị tổn thương và làm giảm quá trình giải phóng các yếu tố hoại tử của các khối u.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Dược động học | Nội dung:\nHấp thu Nồng độ ổn định của thuốc trong huyết thanh đạt được rất sớm, từ 10 đến 20 phút sau khi bắt đầu truyền. Nồng độ ổn định trong huyết thanh có quan hệ tuyến tính với tốc độ truyền, Nồng độ huyết thanh ở mức 135 ± 24 pg/ml đạt được khi truyền với tốc độ là 3 ng/kg/phút. Nồng độ của iloprost trong huyết thanh sẽ giảm rất nhanh sau khi kết thúc truyền và tỷ lệ chuyển hoá cao.\nSự thanh thải chất chuyển hoá ra khỏi huyết tương là 205 ml/kg/phút. Thời gian bán huỷ của giai đoạn chuyển hóa cuối trong huyết thanh là 0,5 giờ; do đó tỷ lệ các chất chuyển hoá giảm xuống còn dưới 10% nồng độ đạt được ở trạng thái cân bằng chỉ 2 giờ sau khi kết thúc truyền thuốc.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Dược động học | Nội dung:\nPhân bố Sự tương tác với các loại thuốc khác tại mức độ liên kết protein trong huyết tương là không chắc chắn, bởi iloprost chủ yếu được gắn kết với albumin trong huyết tương (lượng gắn kết với protein: 60%) và nồng độ iloprost đạt được trong huyết tương là rất thấp.\nChuyển hóa Thuốc Iloprost chủ yếu được chuyển hoá thông qua quá trình oxi hoá β của một chuỗi carboxyl. Các chất không chuyển hoá sẽ không được bài tiết. Chất chuyển hoá chính là tetranor-iloprost, chất này được tìm thấy trong nước tiểu dưới dạng tự do và dạng tiếp hợp ở 4 chất đồng phân.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Dược động học | Nội dung:\nThải trừ Đối với những cá thể có chức năng gan và thận bình thường, sự chuyển hoá của iloprost sau khi tiêm truyền tĩnh mạch, trong phần lớn các trường hợp trải qua 2 giai đoạn với thời gian bán huỷ trung bình là 3 - 5 phút và 15 - 30 phút. Tốc độ thanh thải của thuốc iloprost vào khoảng 20 ml/kg/phút, điều này cho thấy các yếu tố ngoài gan tác động vào quá trình chuyển hoá của iloprost.\nCác chất chuyển hoá được đào thải khỏi huyết tương và nước tiểu thông qua 2 giai đoạn với thời gian bán huỷ tương ứng trong huyết tương là 2 giờ và 5 giờ; trong nước tiểu là 2 giờ và 18 giờ.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Liều lượng | Nội dung:\nLiều dùng thuốc Iloprost Người lớn Tốc độ truyền (ml/giờ) cho các liều khác nhau khi sử dụng máy truyền dịch:\nTrọng lượng cơ thể (kg) Liều dùng (ng/kg/phút) 0,5 1,0 1,5 2,0 Tốc độ truyền (ml/giờ) 40 6,0 12 18,0 24 50 7,5 15 22,5 30 60 9,0 18 27,0 36 70 10,5 21 31,5 42 80 12,0 36,0 48 90 13,5 27 40,5 54 100 15,0 45,0 110 16,5 33 49,5 66 Tốc độ truyền (ml/giờ) cho các liều khác nhau khi sử dụng bơm tiêm điện:\n0,60 1,2 1,80 2,4 0,75 2,25 3,0 0,90 1,8 2,70 3,6 1,05 2,1 3,15 4,2 1,20 3,60 4,8 1,35 2,7 4,05 5,4 1,50 4,50 1,65 3,3 4,95 6,6 Thời gian điều trị kéo dài khoảng 4 tuần. Điều trị ngắn hơn (từ 3 đến 5 ngày) thường có hiệu quả đối với các bệnh nhân mắc hiện tượng Raynaud để đạt được sự cải thiện trong một vài tuần tiếp theo. Không nên truyền thuốc liên tục trong nhiều ngày.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Liều lượng | Nội dung:\nĐối tượng khác Bệnh nhân suy chức năng gan hoặc chức năng thận Cần ghi nhớ rằng: Đối với những bệnh nhân suy chức năng thận cần phải chạy thận nhân tạo và những bệnh nhân xơ gan, quá trình đào thải thuốc iloprost bị giảm xuống. Trên những bệnh nhân này, việc giảm liều điều trị là cần thiết.\nCách dùng Iloprost Thuốc Iloprost được sử dụng sau khi đã pha loãng thành một dung dịch truyền tĩnh mạch. Lượng dung dịch này thường được truyền trong thời gian ít nhất là 6 giờ mỗi ngày qua tĩnh mạch ngoại biên hoặc đường tĩnh mạch trung tâm. Liều dùng được điều chỉnh tùy theo sự đáp ứng thuốc của mỗi cá nhân trong khoảng từ 0,5 đến 2,0 ng iloprost/kg trọng lượng cơ thể/phút.\nNên pha chế dung dịch tiêm truyền hàng ngày để đảm bảo vô trùng.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Liều lượng | Nội dung:\nNên pha chế dung dịch tiêm truyền hàng ngày để đảm bảo vô trùng.\nCần lắc kỹ dung dịch đã pha chế trong ống thuốc trước khi sử dụng.\nCần kiểm tra huyết áp và nhịp tim khi bắt đầu truyền dịch và sau mỗi lần tăng liều. Trong 2, 3 ngày đầu, cần xác định liều đáp ứng thuốc của từng cá nhân. Để đạt được điều này, liều điều trị nên bắt đầu với tốc độ truyền đảm bảo cung cấp một liều lượng 0,5 ng/kg thể trọng/phút trong thời gian 30 phút. Sau đó liều dùng nên tăng lên mỗi lần là 0,5 ng/kg thể trọng/phút trong mỗi 30 phút cho đến mức liều 2,0 ng/kg thể trọng/phút.\nTỷ lệ truyền chính xác sẽ được tính toán theo trọng lượng cơ thể trong khoảng từ 0,5 đến 2,0 ng/kg phút (Xem bảng dưới đây áp dụng cho việc sử dụng máy truyền dịch hoặc sử dụng bơm tiêm điện).",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Liều lượng | Nội dung:\nThuốc được sử dụng bởi nhân viên y tế nên không xảy ra quên liều.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Phản ứng hạ huyết áp có thể xuất hiện kèm theo đau đầu, đỏ bừng, buồn nôn, nôn và tiêu chảy. Có thể có tăng huyết áp, nhịp tim chậm hoặc nhanh, đau lưng hoặc đau chân.\nCách xử lý khi quá liều thuốc Iloprost Hiện chưa có thuốc giải độc đặc hiệu. Ngừng sử dụng thuốc iloprost và tiến hành điều trị triệu chứng.\nQuên liều và xử trí Thuốc được sử dụng bởi nhân viên y tế nên không xảy ra quên liều.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Tương tác thuốc | Nội dung:\nTương tác Iloprost với các thuốc khác Thuốc Iloprost có thể làm tăng tác dụng hạ huyết áp của các thuốc chẹn thụ thể beta, thuốc chẹn kênh calcium, thuốc giãn mạch và thuốc ức chế men chuyển (ACEI).\nSử dụng iloprost đồng thời với các thuốc chống đông máu (như heparin , thuốc chống động nhóm courmarin) và các chất ức chế kết tập tiểu cầu khác (như axit acetylsalicylic, thuốc chống viêm không steroid, thuốc ức chế phosphodiesterase và thuốc giãn mạch nitro) có thể làm tăng nguy cơ gây chảy máu.\nKhi điều trị dự phòng acetylsalicylic acid theo đường uống với liều 300 mg mỗi ngày trong vòng 8 ngày không làm ảnh hưởng đến dược động học của iloprost.\nTruyền tĩnh mạch iloprost không tác động lên được động học của digoxin khi sử dụng nhiều liều nhắc lại theo đường uống.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Tương tác thuốc | Nội dung:\nTruyền tĩnh mạch iloprost không tác động lên được động học của digoxin khi sử dụng nhiều liều nhắc lại theo đường uống.\nIloprost cũng không tác động lên được động học của t-PA khi sử dụng đồng thời.\nIn vitro , iloprost không gây ức chế đối với các thuốc chuyển hoá qua enzyme CYP P450.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Lưu ý | Nội dung:\nLưu ý chung khi dùng Iloprost Trong trường hợp khẩn cấp, phẫu thuật cắt bỏ chi cần phải được thực hiện ngay (ví dụ các bệnh nhân mắc chứng hoại thư).\nSự thải trừ iloprost giảm ở những bệnh nhân suy gan, đối với bệnh nhân suy thận đòi hỏi sự thẩm tách.\nĐối với bệnh nhân huyết áp thấp, cần chăm sóc kỹ để tránh tình trạng giảm huyết áp và cần theo dõi chặt chẽ các bệnh nhân bị bệnh tim.\nHạ huyết áp khi đứng có thể xảy ra khi bệnh nhân đột ngột chuyển từ tư thế nằm sang tư thế đứng sau khi vừa kết thúc thời gian truyền thuốc.\nCần tiến hành đánh giá về ích lợi - nguy cơ trong điều trị đối với các bệnh nhân mắc các bệnh mạch máu não trong 3 tháng gần nhất.\nCó một số báo cáo rải rác về việc sử dụng thuốc iloprost ở trẻ em và thiếu niên.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Lưu ý | Nội dung:\nCó một số báo cáo rải rác về việc sử dụng thuốc iloprost ở trẻ em và thiếu niên.\nTruyền iloprost không pha loãng ngoài đường tĩnh mạch có thể dẫn đến những thay đổi tại chỗ tiêm truyền. Không uống iloprost và không để thuốc tiếp xúc với niêm mạc. Khi tiếp xúc với da, thuốc iloprost/có thể xuất hiện các ban đỏ không đau nhưng tồn tại lâu dài.\nLưu ý với phụ nữ có thai Chưa có đầy đủ các dữ liệu về việc sử dụng thuốc iloprost cho phụ nữ có thai. Các nghiên cứu tiền lâm sàng cho thấy thuốc có nguy cơ gây nhiễm độc bào thai ở chuột nhưng không thấy ở thỏ và khỉ. Vì nguy cơ trong việc điều trị bằng thuốc iloprost ở phụ nữ có thai hiện chưa được xác định rõ, phụ nữ ở lứa tuổi sinh đẻ cần sử dụng các biện pháp tránh thai hiệu quả trong thời gian điều trị.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloprost | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Iloprost có trong sữa mẹ hay không chưa được xác định. Một lượng nhỏ iloprost bài tiết trong sữa chuột, do đó không được sử dụng thuốc iloprost trong thời gian cho con bú.\nLưu ý khi lái xe và vận hành máy móc Thuốc Iloprost có ảnh hưởng lớn đến khả năng lái xe và sử dụng máy móc đối với những bệnh nhân gặp các triệu chứng hạ huyết áp như chóng mặt. Cần thực hiện cẩn thận trong khi bắt đầu điều trị cho đến khi xác định được bất kỳ tác dụng nào đối với cá nhân.",
+        "metadata": {
+            "name": "Iloprost",
+            "id": "iloprost",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloprost",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

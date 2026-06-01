@@ -70,10 +70,10 @@ class ChatService:
             logger.info("chat.unsupported reason=outside_scope")
             return ChatResponse(
                 answer=(
-                    "Cau hoi nay nam ngoai pham vi duoc/y te cua he thong, "
-                    "nen toi khong co nguon phu hop de tra loi."
+                    "Câu hỏi này nằm ngoài phạm vi dược/y tế của hệ thống, "
+                    "nên tôi không có nguồn phù hợp để trả lời."
                 ),
-                safety_notice="He thong chi cung cap thong tin tham khao trong pham vi duoc va y te.",
+                safety_notice="Hệ thống chỉ cung cấp thông tin tham khảo trong phạm vi dược và y tế.",
                 citations=[],
                 intents=decision.intents,
                 risk_level=decision.risk_level.value,

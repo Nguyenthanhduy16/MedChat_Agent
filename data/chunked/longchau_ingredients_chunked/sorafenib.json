@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Sorafenib Loại thuốc Thuốc chống ung thư - ức chế tyrosine kinase.\nDạng thuốc và hàm lượng Viên nén bao phim 200 mg.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Chỉ định | Nội dung:\nUng thư biểu mô tế bào gan không thể cắt bỏ.\nUng thư biểu mô tế bào thận.\nUng thư biểu mô tuyến giáp biệt hóa.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Dược lực học | Nội dung:\nSorafenib là một chất ức chế multikinase làm giảm sự tăng sinh tế bào khối u trong ống nghiệm. Sorafenib ức chế sự phát triển khối u của một loạt các xenografts khối u ở người trên những con chuột khỏe mạnh đi kèm với việc giảm hình thành mạch khối u.\nSorafenib ức chế hoạt động của các mục tiêu hiện diện trong tế bào khối u (CRAF, BRAF, V600E BRAF, c-KIT và FLT-3) và trong mạch máu khối u (CRAF, VEGFR-2, VEGFR-3 và PDGFR-ß). RAF kinase là các kinase serine/ threonine, trong khi c-KIT, FLT-3, VEGFR-2, VEGFR-3 và PDGFR-ß là các tyrosine kinase thụ thể.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Dược động học | Nội dung:\nHấp thu Sinh khả dụng tương đối trung bình là 38-49% khi so sánh với dung dịch uống. Nồng độ đỉnh trong huyết tương đạt được sau khoảng 3 giờ.\nPhân bố Liên kết protein huyết tương 99,5%. Không biết liệu sorafenib có được phân bố vào sữa hay không.\nChuyển hóa Thời gian bán thải của sorafenib khoảng 25 - 48 giờ. Sorafenib được chuyển hóa chủ yếu ở gan và trải qua quá trình chuyển hóa oxy hóa, qua trung gian CYP 3A4, cũng như chuyển hóa glucuronid qua trung gian UGT1A9.\nCác chất liên hợp sorafenib có thể bị phân cắt trong đường tiêu hóa nhờ hoạt động glucuronidase của vi khuẩn, cho phép tái hấp thu hoạt chất chưa liên hợp. Sử dụng đồng thời neomycin đã được chứng minh là can thiệp vào quá trình này, làm giảm sinh khả dụng trung bình của sorafenib xuống 54%.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Dược động học | Nội dung:\nThải trừ Sau khi uống với liều 100 mg sorafenib dạng dung dịch, 96% liều dùng được phục hồi trong vòng 14 ngày, với 77% liều dùng được bài tiết qua phân và 19% liều dùng được bài tiết qua nước tiểu dưới dạng chất chuyển hóa glucuronid hóa.\nSorafenib ở dạng thay đổi, chiếm 51% liều dùng, được tìm thấy trong phân nhưng không có trong nước tiểu, cho thấy sự bài tiết qua mật của hoạt chất không thay đổi có thể góp phần thải trừ sorafenib.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Liều lượng | Nội dung:\nNgười lớn Dùng ≥ 1 giờ trước hoặc 2 giờ sau bữa ăn. Các viên thuốc nên được nuốt với một cốc nước.\nLiều khuyến cáo của sorafenib ở người lớn là 400 mg sorafenib (hai viên 200 mg) hai lần mỗi ngày (tương đương với tổng liều hàng ngày là 800 mg).\nĐiều trị nên tiếp tục miễn là quan sát thấy lợi ích lâm sàng hoặc cho đến khi xuất hiện độc tính không thể chấp nhận được.\nGiảm liều:\nXử trí các phản ứng có hại của thuốc có thể ngừng tạm thời hoặc giảm liều điều trị sorafenib.\nKhi cần giảm liều trong quá trình điều trị ung thư biểu mô tế bào gan (HCC) và ung thư biểu mô tế bào thận tiến triển (RCC), nên giảm liều sorafenid xuống hai viên 200 mg sorafenib một lần mỗi ngày.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Liều lượng | Nội dung:\nGiảm liều trong quá trình điều trị ung thư biểu mô tuyến giáp biệt hóa (DTC), nên giảm liều sorafenid xuống 600 mg sorafenib mỗi ngày chia làm nhiều lần (hai viên 200 mg và một viên 200 mg cách nhau 12 giờ).\nCó thể giảm sorafenid xuống 400 mg sorafenib mỗi ngày chia làm nhiều lần (hai viên 200 mg cách nhau 12 giờ), và nếu cần, giảm tiếp xuống một viên 200 mg một lần mỗi ngày. Sau khi cải thiện các phản ứng có hại không liên quan đến huyết học, có thể tăng liều sorafenid.\nTrẻ em Tính an toàn và hiệu quả của sorafenib ở trẻ em và thanh thiếu niên <18 tuổi vẫn chưa được xác định.\nĐối tượng khác Không cần điều chỉnh liều ở người cao tuổi (bệnh nhân trên 65 tuổi).",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Liều lượng | Nội dung:\nĐối tượng khác Không cần điều chỉnh liều ở người cao tuổi (bệnh nhân trên 65 tuổi).\nKhông cần điều chỉnh liều ở bệnh nhân suy thận nhẹ, trung bình hoặc nặng. Nên theo dõi cân bằng nước và điện giải ở những bệnh nhân có nguy cơ rối loạn chức năng thận.\nKhông cần điều chỉnh liều ở bệnh nhân suy gan Child Pugh A hoặc B (nhẹ đến trung bình).\nBỏ qua liều đã quên và sử dụng liều tiếp theo của bạn vào thời điểm bình thường. Không sử dụng hai liều cùng một lúc.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Sorafenib và xử trí Quá liều và độc tính Các tác dụng ngoại ý được quan sát ở liều này chủ yếu là tiêu chảy và các biến cố da liễu.\nCách xử lý khi quá liều Trong trường hợp nghi ngờ quá liều sorafenib nên giữ bệnh nhân tại cơ sở y tế và chăm sóc hỗ trợ nếu cần thiết.\nQuên liều và xử trí Bỏ qua liều đã quên và sử dụng liều tiếp theo của bạn vào thời điểm bình thường. Không sử dụng hai liều cùng một lúc.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Cần thận trọng khi dùng sorafenib với các hợp chất được chuyển hóa/ thải trừ chủ yếu theo con đường UGT1A1 (tăng AUC của irinotecan và chất chuyển hóa có hoạt tính của nó, SN-38) hoặc UGT1A9.\nKhi dùng đồng thời sorafenib với docetaxel sẽ làm tăng nồng độ đỉnh và AUC của docetaxel.\nSử dụng đồng thời neomycin hoặc các kháng sinh khác gây rối loạn sinh thái chính của hệ vi sinh đường tiêu hóa có thể dẫn đến giảm sinh khả dụng của sorafenib. Cần cân nhắc nguy cơ giảm nồng độ sorafenib trong huyết tương trước khi bắt đầu đợt điều trị bằng kháng sinh.\nThuốc chống co giật (carbamazepine, phenobarbital, phenytoin), dextromethorphan, St. John's wort (Hypericum perforatum): Tránh sử dụng đồng thời do có thể làm giảm nồng độ sorafenib trong huyết tương.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Tương tác thuốc | Nội dung:\nTương tác với thực phẩm Bữa ăn giàu chất béo có thể làm giảm sinh khả dụng đường uống khoảng 29%.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Lưu ý | Nội dung:\nLưu ý chung Độc tính da liễu:\nPhản ứng da chân ở bàn tay (ban đỏ da lòng bàn tay) và phát ban là những phản ứng có hại của thuốc phổ biến nhất với sorafenib.\nKiểm soát các độc tính trên da liễu có thể bao gồm các liệu pháp tại chỗ để giảm triệu chứng, ngừng điều trị tạm thời và/ hoặc điều chỉnh liều lượng của sorafenib, hoặc trong trường hợp nghiêm trọng hoặc dai dẳng, ngừng vĩnh viễn sorafenib.\nTăng huyết áp:\nTăng huyết áp thường nhẹ đến trung bình, xảy ra sớm trong quá trình điều trị và có thể xử trí được bằng liệu pháp hạ huyết áp tiêu chuẩn. Trong trường hợp tăng huyết áp nặng hoặc dai dẳng, hoặc khủng hoảng tăng huyết áp mặc dù đã điều trị bằng liệu pháp hạ huyết áp, nên xem xét việc ngừng sử dụng sorafenib vĩnh viễn.\nPhình động mạch và bóc tách động mạch:",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Lưu ý | Nội dung:\nPhình động mạch và bóc tách động mạch:\nViệc sử dụng các chất ức chế con đường VEGF ở bệnh nhân có hoặc không bị tăng huyết áp có thể thúc đẩy sự hình thành các túi phình và / hoặc bóc tách động mạch. Trước khi bắt đầu sử dụng sorafenib, nguy cơ này nên được xem xét cẩn thận ở những bệnh nhân có các yếu tố nguy cơ như tăng huyết áp hoặc tiền sử phình động mạch.\nHạ đường huyết:\nMột số trường hợp có triệu chứng lâm sàng và phải nhập viện do mất ý thức, đã được báo cáo trong khi điều trị bằng sorafenid, nên tạm thời ngừng dùng sorafenib. Mức đường huyết ở bệnh nhân tiểu đường nên được kiểm tra thường xuyên để đánh giá xem có cần điều chỉnh liều lượng của sản phẩm thuốc chống tiểu đường hay không.\nBăng huyết:",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Lưu ý | Nội dung:\nBăng huyết:\nTăng nguy cơ chảy máu có thể xảy ra sau khi dùng sorafenib. Nếu bất kỳ trường hợp chảy máu nào cần can thiệp y tế, nên xem xét việc ngừng sử dụng sorafenib vĩnh viễn.\nThiếu máu cục bộ ở tim và/ hoặc nhồi máu:\nViệc ngừng tạm thời hoặc vĩnh viễn sorafenib nên được xem xét ở những bệnh nhân phát triển chứng thiếu máu cục bộ ở tim và/ hoặc nhồi máu.\nKéo dài khoảng QT:\nSử dụng sorafenib một cách thận trọng ở những bệnh nhân có hoặc có thể phát triển kéo dài QTc, chẳng hạn như bệnh nhân mắc hội chứng QT dài bẩm sinh, điều trị bằng liệu pháp anthracycline tích lũy liều cao, đang dùng một số loại thuốc chống loạn nhịp tim hoặc các sản phẩm thuốc khác dẫn đến kéo dài QT, những người có rối loạn điện giải như hạ kali máu, hạ canxi máu, hoặc hạ kali máu.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Lưu ý | Nội dung:\nKhi sử dụng sorafenib ở những bệnh nhân này, nên theo dõi định kỳ bằng điện tâm đồ đang điều trị và chất điện giải (magiê, kali, canxi).\nThủng đường tiêu hóa:\nThủng đường tiêu hóa là một trường hợp không phổ biến và đã được báo cáo ở ít hơn 1% bệnh nhân dùng sorafenib. Nên ngừng điều trị bằng sorafenib.\nSuy gan:\nVì sorafenib được thải trừ chủ yếu qua đường gan nên phơi nhiễm có thể tăng lên ở những bệnh nhân suy gan nặng.\nPhối hợp với warfarin:\nBệnh nhân dùng đồng thời warfarin hoặc phenprocoumon nên được theo dõi thường xuyên về những thay đổi về thời gian prothrombin, INR hoặc các đợt chảy máu lâm sàng.\nCác biến chứng lành vết thương:",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Lưu ý | Nội dung:\nCác biến chứng lành vết thương:\nNên tạm thời ngừng điều trị sorafenib vì lý do phòng ngừa ở những bệnh nhân đang trải qua các thủ thuật phẫu thuật lớn. Do đó, quyết định tiếp tục điều trị sorafenib sau một can thiệp phẫu thuật lớn phải dựa trên đánh giá lâm sàng về việc vết thương đã lành.\nLưu ý với phụ nữ có thai Sorafenib không nên dùng trong thời kỳ mang thai trừ khi thật cần thiết, sau khi đã cân nhắc kỹ lưỡng nhu cầu của người mẹ và nguy cơ đối với thai nhi.\nPhụ nữ trong độ tuổi sinh đẻ phải sử dụng các biện pháp tránh thai hiệu quả trong quá trình điều trị.\nLưu ý với phụ nữ cho con bú Vì sorafenib có thể gây hại cho sự tăng trưởng và phát triển của trẻ sơ sinh, phụ nữ không được cho con bú trong thời gian điều trị bằng sorafenib.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Sorafenib | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Không có nghiên cứu nào về ảnh hưởng đến khả năng lái xe và sử dụng máy móc đã được thực hiện. Không có bằng chứng cho thấy sorafenib ảnh hưởng đến khả năng lái xe hoặc vận hành máy móc.",
+        "metadata": {
+            "name": "Sorafenib",
+            "id": "sorafenib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sorafenib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    }
+]

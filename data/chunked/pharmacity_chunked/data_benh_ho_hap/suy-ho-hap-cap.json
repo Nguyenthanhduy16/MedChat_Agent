@@ -1,0 +1,184 @@
+[
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Tổng quan | Nội dung:\nTổng quan chung\nSuy hô hấp cấp xảy ra khi chức năng trao đổi khí và thông khí ở phổi bị suy giảm. Những người bị suy hô hấp cấp sẽ có chỉ số áp lực khí oxy trong động mạch PaO2 giảm xuống dưới 60 mmHg, còn chỉ số CO2 trong động mạch PaO2 có thể giảm, ở mức bình thường hoặc tăng.\nSuy hô hấp cấp gồm 2 loại đó là:\nSuy hô hấp cấp thiếu oxy, đồng thời giảm CO2.\nSuy hô hấp cấp thiếu oxy, không bị ứ khí CO2.",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Triệu chứng | Nội dung:\nTriệu chứng\nTriệu chứng ban đầu khi mắc hội chứng suy hô hấp cấp là khó thở hoặc thở nhanh. Nếu không được chẩn đoán sớm và điều trị kịp thời, bệnh có thể tiến triển trầm trọng và gây nguy hiểm cho bệnh nhân.\nNguyên nhân gây bệnh khác nhau sẽ có những triệu chứng suy hô hấp cấp khác nhau:\nNguyên nhân gây bệnh do thiếu O2, người bệnh có thể gặp những triệu chứng sau:\nKhó thở hoặc thở nhanh;\nMệt mỏi, cản trở các hoạt động thường ngày của người bệnh;\nLuôn trong trạng thái buồn ngủ;\nNgười bệnh xanh xao, nhợt nhạt.\nNguyên nhân gây bệnh do nồng độ CO2 trong máu tăng cao, người bệnh có thể gặp những triệu chứng sau:\nNhịp tim nhanh, thở nhanh;\nĐau đầu, lú lẫn;\nGiảm sút thị lực.\nBất tỉnh",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Triệu chứng | Nội dung:\nNhịp tim nhanh, thở nhanh;\nĐau đầu, lú lẫn;\nGiảm sút thị lực.\nBất tỉnh\nTrong một số trường hợp suy hô hấp cấp, người bệnh có thể gặp những triệu chứng do thiếu O2 và CO2 trong cùng một thời điểm.",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Nguyên nhân | Nội dung:\nNguyên nhân\nSuy hô hấp cấp tính có một số nguyên nhân khác nhau:\nTắc nghẽn\nMột số tình trạng tắc nghẽn có thể gây ra suy hô hấp cấp tính như: tắc nghẽn phế quản cấp, tắc nghẽn thanh – khí quản, tắc nghẽn động mạch phổi, bệnh phổi tắc nghẽn mạn tính (COPD) hoặc hen suyễn khi đợt cấp làm cho đường thở bị thu hẹp.\nChấn thương\nMột chấn thương làm suy yếu hoặc ảnh hưởng đến hệ thống hô hấp có thể ảnh hưởng xấu đến lượng oxy trong máu.\nVí dụ, chấn thương tủy sống hoặc não có thể ảnh hưởng ngay lập tức đến hô hấp vì não không thể gửi tín hiệu kịp thời đến hô hấp. Chấn thương ở xương sườn hoặc ngực cũng có thể làm giảm khả năng hít đủ khí oxy vào phổi.\nHội chứng suy giảm hô hấp cấp tính",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Nguyên nhân | Nội dung:\nHội chứng suy giảm hô hấp cấp tính\nHội chứng suy hô hấp cấp tính (ARDS) là tình trạng lượng oxy trong máu thấp. Bạn có thể bị ARDS nếu có một trong các vấn đề sức khỏe dưới đây:\nViêm phổi.\nViêm tụy.\nChấn thương nặng, đặc biệt là chấn thương não.\nNhiễm trùng máu.\nTổn thương phổi do hít phải khói bụi hoặc các sản phẩm hóa học.\nLạm dụng ma túy hoặc rượu.\nSử dụng ma túy hoặc rượu quá liều có thể gây suy giảm chức năng não và cản trở khả năng hít vào hoặc thở ra của phổi.\nHít khói và hóa chất.\nHít phải hóa chất độc hại, khói thuốc lá cũng có thể gây suy hô hấp cấp tính do chúng làm tổn thương hoặc làm hỏng mô phổi, bao gồm cả các túi khí và mao mạch.\nĐột quỵ",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Nguyên nhân | Nội dung:\nĐột quỵ\nĐột quỵ xảy ra khi động mạch đưa máu lên não bị tắc nghẽn hoặc vỡ ra, khiến tế bào não bị chết đi. Mặc dù đột quỵ có một số dấu hiệu cảnh báo như nói lắp, tê liệt, nhầm lẫn… nhưng nó thường xảy ra nhanh chóng. Bạn có thể mất khả năng thở bình thường nếu bị đột quỵ.\nSự nhiễm trùng\nNhiễm trùng là nguyên nhân phổ biến gây suy hô hấp. Đặc biệt, viêm phổi có thể gây ra suy hô hấp ngay cả khi không có hội chứng suy hô hấp cấp tính ARDS.",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ\nBạn có thể có nguy cơ bị suy hô hấp cấp nếu:\nHút thuốc lá, thuốc lào.\nUống rượu quá mức.\nLạm dụng ma túy và chất kích thích.\nCó tiền sử gia đình bị các vấn đề về hô hấp.\nChấn thương cột sống, não, xương sườn hoặc ngực.\nHệ thống miễn dịch yếu.\nBị các bệnh hô hấp mạn tính, chẳng hạn như ung thư phổi, bệnh phổi tắc nghẽn mạn tính (COPD) và hen suyễn.",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Chẩn đoán | Nội dung:\nChẩn đoán\nThăm khám lâm sàng\nKiểm tra màu da môi, ngón tay và ngón chân có xanh xao, nhợt nhạt, tím tái hay không;\nLắng nghe nhịp tim, kiểm tra nhịp tim bình thường hay bị rối loạn;\nNghe phổi và kiểm tra những âm thanh bất thường khi thở; đồng thời kiểm tra ngực có di chuyển khi thở hay không;\nĐo spO2: Dùng một chiếc kẹp trên ngón tay để đo nồng độ oxy trong máu;\nĐo huyết áp, kiểm tra huyết áp người bệnh bình thường hay quá cao, quá thấp;\nĐo nhiệt độ cơ thể người bệnh để kiểm tra các dấu hiệu sốt nếu có.\nXét nghiệm cận lâm sàng\nXét nghiệm khí máu động mạch:\nChụp X-quang ngực:.\nChụp cắt lớp vi tính lồng ngực:\nXét nghiệm máu: NT-proBNP, Troponin Ths, D-dimer, Công thức máu, chức năng gan thận\nKiểm tra mẫu máu, nước tiểu hoặc đờm của người bệnh, xác định có nhiễm vi khuẩn hay không.",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Chẩn đoán | Nội dung:\nKiểm tra mẫu máu, nước tiểu hoặc đờm của người bệnh, xác định có nhiễm vi khuẩn hay không.\nNội soi phế quản: Kiểm tra tắc nghẽn phế quản, các khối u và những nguyên nhân khác gây suy hô hấp.\nĐiện tâm đồ ( ECG):\nSiêu âm phổi: Kiểm tra tình trạng hoạt động của phổi.\nSiêu âm tim, siêu âm hệ động tĩnh mạch",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa bệnh\nKhông phải tất cả các nguyên nhân gây suy hô hấp cấp tính đều có thể phòng ngừa được, ví dụ như suy hô hấp do chấn thương. Tuy nhiên, trong trường hợp suy hô hấp do viêm phổi và một số bệnh liên quan đến đường thở khác, mỗi người đều có thể thực hiện một số cách phòng tránh dưới đây để bảo vệ phổi của mình:\nHạn chế hút thuốc lá, vì khói thuốc có thể làm hỏng phổi;\nGặp bác sĩ khi có dấu hiệu nhiễm trùng do vi khuẩn, chẳng hạn như sốt, ho và tăng tiết dịch nhầy;\nTuân thủ tốt việc uống thuốc điều trị suy hô hấp để giữ cho tim và phổi khỏe mạnh;\nDuy trì hoạt động thể chất thích hợp để tăng cường chức năng phổi.",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Phòng ngừa | Nội dung:\nTuân thủ tốt việc uống thuốc điều trị suy hô hấp để giữ cho tim và phổi khỏe mạnh;\nDuy trì hoạt động thể chất thích hợp để tăng cường chức năng phổi.\nSuy hô hấp cấp tính là một tình trạng y tế nghiêm trọng có nhiều nguyên nhân tiềm ẩn. Các triệu chứng bao gồm nhầm lẫn, thở nhanh, khó thở, xanh tím. Bệnh nhân cần nhập viện ngay khi có các dấu hiệu đầu tiên của suy hô hấp để ngăn ngừa bệnh nặng hơn.",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Cách điều trị | Nội dung:\nĐiều trị như thế nào?\nPhương pháp điều trị suy hô hấp cấp thường phụ thuộc vào nguyên nhân gây bệnh. Ví dụ, đối với trường hợp suy hô hấp cấp do vẹo cột sống, các bác sĩ điều trị có thể chỉ định người bệnh phẫu thuật cột sống để cải thiện chức năng phổi.\nThông thường, bệnh nhân suy hô hấp cấp thường được chỉ định chèn ống dẫn khí qua khí quản để tăng cường lượng O2 và áp lực, hỗ trợ phổi hoạt động tốt hơn. Ngoài ra, một số phương pháp khác hỗ trợ điều trị suy hô hấp như:\nĐiều trị nhiễm trùng bằng thuốc kháng sinh, giảm sự tích tụ dịch trong phổi và cơ thể bằng thuốc lợi tiểu;\nHỗ trợ hô hấp đối với những bệnh nhân bị giảm thông khí;\nHỗ trợ long đờm bằng các phương pháp như vỗ, rung vùng ngực, ho;",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Suy hô hấp cấp | Phần: Cách điều trị | Nội dung:\nHỗ trợ hô hấp đối với những bệnh nhân bị giảm thông khí;\nHỗ trợ long đờm bằng các phương pháp như vỗ, rung vùng ngực, ho;\nÁp dụng phương pháp ECMO hay còn gọi là oxy hóa màng ngoài cơ thể nhằm hỗ trợ chức năng sống của bệnh nhân suy hô hấp nặng.\nThuốc an thần có thể hỗ trợ cho việc thở bằng máy thở dễ dàng hơn. Bởi vì suy hô hấp cấp tính là một tình trạng nghiêm trọng, vì vậy tiến triển bệnh có thể trở nặng và các phương pháp điều trị có thể mất thời gian.",
+    "metadata": {
+      "name": "Suy hô hấp cấp",
+      "id": "suy-h-hp-cp",
+      "url": "https://www.pharmacity.vn/benh/suy-ho-hap-cap.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 1
+    }
+  }
+]

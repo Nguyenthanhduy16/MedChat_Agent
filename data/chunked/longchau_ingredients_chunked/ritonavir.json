@@ -1,0 +1,268 @@
+[
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Ritonavir Loại thuốc Thuốc kháng virus.\nDạng thuốc và hàm lượng Viên nang mềm 100 mg (dạng nước).\nViên nén 100 mg.\nThuốc nước để uống 80 mg/ml; 600 mg/7,5 ml.\nViên nén bao phim chứa ritonavir (25 mg, 50 mg) và 1 thuốc kháng retrovirus khác.\nThuốc nước có ritonavir (20 mg) và 1 thuốc kháng retrovirus khác.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Chỉ định | Nội dung:\nĐược dùng phối hợp với các thuốc kháng retrovirus khác trong điều trị bệnh nhân nhiễm HIV và bệnh nhân AIDS . Thuốc không có tác dụng phòng ngừa lây nhiễm HIV.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Dược lực học | Nội dung:\nRitonavir là thuốc kháng HIV do có tác dụng ức chế protease của HIV. Tác dụng ức chế này có tính chọn lọc, cạnh tranh và đảo ngược được. Thuốc có tác dụng trên HIV-1 và lên HIV-2 với mức độ yếu hơn. Thuốc ngăn cản sự tạo thành các protein và enzym cơ bản của HIV nên làm cho virus không nhiễm sang các tế bào khác. Ritonavir còn là chất ức chế mạnh cytochrom CYP450 (chủ yếu là isoenzym CYP3A4); liều thấp ritonavir được dùng với các thuốc ức chế protease HIV khác để làm giảm chuyển hóa của các thuốc này (trừ với nelfinavir), giúp tăng nồng độ của thuốc trong huyết tương. Tác dụng này được gọi là sự tăng cường dược động bởi ritonavir, hay trị liệu được tăng cường bởi ritonavir (ritonavir boosted therapy). Có thể có hiện tượng kháng thuốc chéo giữa các thuốc ức chế protease",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Dược lực học | Nội dung:\n. Có thể có hiện tượng kháng thuốc chéo giữa các thuốc ức chế protease. Ritonavir có tác dụng lên cả tế bào nhiễm cấp và mạn tính vì tác động lên chu trình sao chép HIV sau phiên mã và trước khi kết tập.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Dược lực học | Nội dung:\nKhác với các thuốc nucleosid kháng retrovirus, hoạt tính kháng virus của ritonavir không phụ thuộc vào sự chuyển đổi thành một chất chuyển hóa có hoạt tính trong tế bào. Ritonavir và các thuốc ức chế protease khác ( amprenavir , indinavir, lopinavir, nelfinavir , saquinavir) tác động lên một giai đoạn khác trong chu trình sao chép HIV so với các nucleosid và không nucleosid ức chế enzym phiên mã ngược nên tác dụng kháng retrovirus của các thuốc ức chế protease và một số thuốc nucleosid và không nucleosid có thể có tác dụng cộng đồng hoặc hiệp đồng.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Dược lực học | Nội dung:\nHiện tượng virus kháng thuốc xảy ra rất nhanh nếu chỉ dùng ritonavir một mình; do đó ritonavir được dùng đồng thời với các thuốc kháng retrovirus khác. Ritonavir không có tác dụng phòng ngừa lây nhiễm HIV; bệnh nhân có HIV được điều trị bằng ritonavir và các thuốc kháng retrovirus vẫn phải dùng các biện pháp phòng ngừa lây truyền.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Dược động học | Nội dung:\nHấp thu Sau khi uống, ritonavir được hấp thu ở ống tiêu hóa và nồng độ đỉnh huyết tương đạt được sau 2 đến 4 giờ. Hấp thu phụ thuộc vào liều và tăng nếu uống thuốc cùng với thức ăn.\nPhân bố Khoảng 98% thuốc gắn với protein và có rất ít thuốc vào hệ thần kinh trung ương.\nChuyển hóa Ritonavir được chuyển hóa ở gan, chủ yếu nhờ các isoenzym CYP3A4 của cytochrom P450 và ở mức độ yếu hơn bởi CYP2D6. Người ta đã xác định được 5 chất chuyển hóa; chất chuyển hóa chính có hoạt tính kháng virus nhưng nồng độ chất này trong huyết tương thấp.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Dược động học | Nội dung:\nThải trừ Ở trẻ em (2 đến 14 tuổi) bị nhiễm HIV, sự thanh thải ritonavir nhanh hơn ở người lớn 1,5 đến 1,7 lần. Khoảng 86% liều uống được thải qua phân (trong đó 33,8% dưới dạng không bị biến đổi); khoảng 11% được đào thải qua nước tiểu (trong đó 3,5% là dưới dạng thuốc không thay đổi). Thời gian bán thải của thuốc là 3 - 5 giờ.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Liều lượng | Nội dung:\nThuốc (viên nang, viên nén, thuốc nước) được uống cùng bữa ăn. Phải lắc kỹ lọ thuốc nước trước khi uống.\nNgười lớn Ritonavir liều thấp được dùng làm chất tăng cường dược động cho các thuốc kháng protease khác: Liều thường dùng là 100 - 400 mg/ngày, uống 1 lần hoặc chia làm 2 lần.\nTrẻ em Được dùng làm thuốc tăng cường dược động, liều ritonavir cho trẻ em từ 6 tháng đến 13 tuổi là 57,5 mg/m2/lần, 2 lần/ngày (hoặc 3 - 5 mg/kg/lần, ngày 2 lần; liều tối đa: 100 mg/lần, 2 lần/ngày).\nLưu ý: Mỹ cho phép dùng thuốc uống cho trẻ trên 1 tháng tuổi còn Châu Âu khuyên chỉ dùng cho trẻ trên 2 tuổi.\nSuy gan Không cần thiết phải chỉnh liều ở người bị suy gan nhẹ hoặc vừa.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Liều lượng | Nội dung:\nSuy gan Không cần thiết phải chỉnh liều ở người bị suy gan nhẹ hoặc vừa.\nSuy thận Một số bác sĩ lâm sàng cho là không cần điều chỉnh liều. Cần tuân theo các phác đồ hướng dẫn điều trị HIV/AIDS của Bộ Y tế và Tổ chức y tế thế giới. Phải luôn luôn đánh giá độc tính, tiến triển của bệnh và thay đổi phác đồ điều trị nếu cần. Phải duy trì liều tối ưu.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Quá liều và xử trí | Nội dung:\nQuên liều và xử trí Nếu quên dùng một liều thuốc, hãy uống càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không uống gấp đôi liều đã quy định.\nQuá liều và xử trí Quá liều và độc tính Chế phẩm thương mại ritonavir có chứa cồn 43% và trẻ nhỏ có thể bị ngộ độc rượu. Triệu chứng ngộ độc ritonavir là những dấu hiệu nặng của các tác dụng phụ.\nCách xử lý khi quá liều Ritonavir Chưa có thuốc điều trị đặc hiệu. Cần điều trị triệu chứng và theo dõi chặt chẽ bệnh nhân: gây nôn hoặc rửa dạ dày, sau đó có thể dùng than hoạt để ngăn ngừa hấp thu thuốc vẫn còn trong đường tiêu hóa. Lọc máu hoặc thẩm phân phúc mạc không có tác dụng.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Tương tác thuốc | Nội dung:\nTương tác Ritonavir với các thuốc khác Không được dùng đồng thời ritonavir với các thuốc sau:\nThuốc đối kháng alpha adrenergic: Alfuzosin Thuốc chống loạn nhịp tim:\nAmiodaron , bepridil, encainid, flecainid, propafenon, quinidin.\nThuốc chống nấm: Voriconazol.\nThuốc kháng histamin: Astemizol, terfenadin.\nDẫn chất của ergot: Dihydroergotamin, ergometrin, ergotamin, methylergometrin.\nThuốc kích thích nhu động dạ dày - ruột: Cisaprid. Thuốc chống loạn thần: Clozapin, pimozid Thuốc an thần và gây ngủ: Midazolam, triazolam, clorazepat, diazepam, estazolam, flurazepam.\nThuốc giảm đau: Pethidin, piroxicam, dextropropoxyphen, bupropion, acid fusidic, rifabutin.\nStatin: Lovastatin, simvastatin.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Tương tác thuốc | Nội dung:\nRitonavir làm tăng tác dụng/nồng độ/độc tính của: Alfuzosin, almotriptan, alosetron, amiodaron, thuốc chống nấm loại azol, atomoxelin, benzodiazepin, bosentan, thuốc chẹn calci (dihydropyridin, nondihydropyridin), carbamazepin, ciclesonid, cisaprid, clarithromycin, corticosteroid (hít qua miệng), cyclosporin, dabigatran, etexilat, digoxin, dronabinol, enfuvirtid, eplerenon, dẫn xuất của ergot, everolimus, fentanyl, fesoterodin, flecainid, acid fusidic, halofantrin, thuốc ức chế HMG-CoA reductase, ixabepilon, maraviroc, meperidin, methadon, nebivolol, nefazodon, nilotinib, nisoldipin, cơ chất P-glycoprotein, thuốc ức chế phosphodiesterase 5, pimecrolimus, pimozid, propafenon, thuốc ức chế protease, quinidin, ranolazin, dẫn chất của rifamycin, rivaroxaban, salmeterol, silodosin, sirolimus",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Tương tác thuốc | Nội dung:\n, pimecrolimus, pimozid, propafenon, thuốc ức chế protease, quinidin, ranolazin, dẫn chất của rifamycin, rivaroxaban, salmeterol, silodosin, sirolimus, sorafenib, tacrolimus, tamoxifen, temsirolimus, tenofovir, tetrabenazin, thioridazin, tolvaptan, topotecan, trazodon, thuốc chống trầm cảm 3 vòng.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Tương tác thuốc | Nội dung:\nCác thuốc làm tăng nồng độ/tác dụng của ritonavir: Thuốc chống nấm azol, clarithromycin, cyclosporin, delavirdin, disulfuram, efavirenz, enfuvirtid, acid fusidic, thuốc ức chế P-glycoprotein.\nRitonavir có thể làm giảm nồng độ/tác dụng của: Abacavir, atovaquon, bupropion, clarythromycin, codein, delavirdin, etravirin, lamotrigin, meperidin, thuốc tránh thai uống (estrogen), phenytoin, theophylin, tramadol, acid valproic, voriconazol, warfarin, zidovudin.\nCác thuốc làm giảm nồng độ/tác dụng của ritonavir: Thuốc kháng acid, carbamazepin, thuốc kích thích CYP 3A4 (mạnh), deferasirox , efavirenz, tỏi, nevirapin, thuốc tránh thai uống (estrogen), peginterferon alpha-2b, thuốc kích thích P-glycoprotein, phenytoin, dẫn chất của rifamycin, cỏ St John (Hypericum perforatum), tenofovir.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Tương tác thuốc | Nội dung:\nTương tác với thực phẩm Ritonavir nên được dùng với thức ăn để làm giảm tác dụng phụ trên đường tiêu hóa.\nTương kỵ thuốc Không được pha dung dịch ritonavir vào nước để uống.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Lưu ý | Nội dung:\nLưu ý chung khi dùng Ritonavir Phải thận trọng khi dùng ritonavir để tăng cường dược động cho người bị bệnh gan, suy gan . Bệnh nhân có bệnh gan trước đó hoặc bị đồng nhiễm viêm gan mạn tính B hoặc C và được điều trị bằng phối hợp thuốc kháng retrovirus có nguy cơ cao bị tác dụng phụ nặng ở gan.\nPhải thận trọng khi dùng cho người bị bệnh tim, rối loạn dẫn truyền tim, thiếu máu cơ tim , bệnh cơ tim vì ritonavir có thể kéo dài khoảng PR do đó làm tăng nguy cơ rối loạn dẫn truyền tim.\nBệnh nhân bị mắc hemophilia A và B có thể bị chảy máu tự phát khi dùng các thuốc ức chế protease của HIV.\nCần theo dõi các dấu hiệu, triệu chứng viêm tụy (đau bụng, buồn nôn, nôn, tăng lipase hoặc amylase huyết thanh). Phải ngừng dùng ritonavir ở bệnh nhân bị viêm tụy.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Lưu ý | Nội dung:\nBệnh nhân dùng thuốc ức chế protease có nguy cơ tăng glucose huyết, tăng triglycerid và cholesterol huyết. Cần theo dõi định kỳ các thông số trên.\nHội chứng phục hồi miễn dịch (đáp ứng viêm miễn dịch làm cho hình ảnh lâm sàng xấu đi) xuất hiện ở giai đoạn bắt đầu trị liệu kết hợp các thuốc kháng retrovirus (trong đó có ritonavir) ở bệnh nhân nhiễm HIV bị suy giảm miễn dịch nặng. Tất cả các triệu chứng viêm (ví dụ; viêm võng mạc cơ hội) phải được đánh giá và điều trị.\nChế phẩm thương mại ritonavir có chứa cồn 43%, có thể gây ngộ độc rượu, nhất là ở trẻ nhỏ.\nBệnh nhân HIV phải dùng các biện pháp phòng ngừa vì thuốc không có tác dụng ngăn sự lây truyền HIV.\nLưu ý với phụ nữ có thai Chỉ sử dụng ở phụ nữ mang thai khi thật cần thiết.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ritonavir | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Chỉ sử dụng ở phụ nữ mang thai khi thật cần thiết.\nLưu ý với phụ nữ cho con bú Chưa rõ ritonavir có được bài tiết vào sữa không. Người mẹ không nên cho con bú nếu dùng ritonavir. Dù sao, phụ nữ có HIV không nên nuôi con bằng sữa mẹ cho dù có được điều trị bằng thuốc kháng retrovirus.\nLưu ý khi lái xe và vận hành máy móc Chóng mặt là một tác dụng không mong muốn đã biết cần được lưu ý khi lái xe hoặc sử dụng máy móc.",
+        "metadata": {
+            "name": "Ritonavir",
+            "id": "ritonavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ritonavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

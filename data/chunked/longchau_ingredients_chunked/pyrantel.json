@@ -1,0 +1,184 @@
+[
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Pyrantel Loại thuốc Thuốc trị giun Dạng thuốc và hàm lượng Viên nén 125 mg, 250 mg.\nHỗn dịch uống 50 mg/ml.",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Chỉ định | Nội dung:\nPyrantel được dùng cho cả người lớn lẫn trẻ em để điều trị nhiễm một hoặc nhiều loại giun sau đây:\nGiun đũa , giun móc, giun kim, giun Trichostrongylus colubriformis và T.orientalis.",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Dược lực học | Nội dung:\nPyrantel là một thuốc diệt giun có hiệu quả cao với giun đũa (Ascaris lumbricoides), giun kim (Enterobius vermicularis), giun Trichostrongylus spp., giun xoắn (Trichinella spiralis) và giun móc (Ancylostoma duodenale, Necator americanus), mặc dù tác dụng trên Necator americanus không bằng Ancylostoma duodenale.\nPyrantel không có tác dụng trên giun tóc (Trichuris trichiura).\nPyrantel có tác dụng phong bế thần kinh - cơ khử cực trên các loại giun nhạy cảm với thuốc thông qua giải phóng acetylcholin và ức chế cholinesterase, kết quả là kích thích thụ thể nicotin ở hạch của giun nhạy cảm, làm giun bị liệt cứng. Sau đó, giun sẽ bị tống ra ngoài do nhu động ruột.",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Dược động học | Nội dung:\nHấp thu Pyrantel hấp thu kém qua đường tiêu hóa. Sau khi uống một liều duy nhất 11 mg/kg, nồng độ đỉnh trong huyết tương là 50-130 nanogam/ml trong vòng 1-3 giờ.\nChuyển hóa Thuốc được chuyển hóa một phần ở gan Thải trừ Khoảng hơn 50% liều dùng thấy được đào thải ở dạng không biến đổi trong phân sau khi uống. Dưới 7% liều dùng được đào thải ra nước tiểu dưới dạng không biến đổi và dạng chuyển hóa",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Liều lượng | Nội dung:\nNgười lớn:\nNhiễm giun đũa, giun kim, giun móc, giun Trichostrongylus:\nDùng liều duy nhất 10 mg/kg (dạng base), tối đa 1g/ liều. Hiệu quả diệt giun sẽ cao hơn nếu nhắc lại liều trên sau 2-4 tuần điều trị.\nNhiễm giun móc:\nDùng liều duy nhất 20 mg/kg/ngày (tối đa 1g/ liều), trong 2 ngày liên tiếp; hoặc 10mg/kg/ngày (tối đa 1g/ liều), trong 3 ngày liên tiếp.\nNhiễm giun đũa đơn độc:\nDùng liều duy nhất 5 mg/kg (tối đa 1g/ liều). Trong chương trình điều trị cho toàn dân chống nhiễm giun đũa: Dùng liều duy nhất 2,5 mg/kg, 3-4 lần trong 1 năm.\nNhiễm giun xoắn:\nDùng liều 10 mg/kg/ngày (tối đa 1g/ liều) trong 5 ngày liên tiếp.\nTrẻ em trên 2 tuổi:\nNhiễm giun đũa, giun móc:\nUống 10 mg/kg mỗi ngày một lần trong 3 ngày, liều tối đa 1g/ liều.\nNhiễm Streptobacillus moniliformis:",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Liều lượng | Nội dung:\nTrẻ em trên 2 tuổi:\nNhiễm giun đũa, giun móc:\nUống 10 mg/kg mỗi ngày một lần trong 3 ngày, liều tối đa 1g/ liều.\nNhiễm Streptobacillus moniliformis:\nUống 11mg/ kg/ liều mỗi 2 tuần cho 3 liều.:\nNhiễm giun kim:\nNên điều trị chi cả gia đình để ngăn ngừa tái nhiễm Liều cố định tính theo cân nặng ở trẻ em:\nDùng một liều duy nhất; liều lặp lại trong 2 tuần để loại bỏ khả năng tái nhiễm.\n11 đến 16 kg: 125 mg.\n17 đến 28 kg: 250 mg.\n29 đến 39 kg: 375 mg.\n40 đến 50 kg: 500 mg.\n51 đến 62 kg: 625 mg.\n63 đến 73 kg: 750 mg.\n74 đến 84 kg: 875 mg.\n> 84 kg: 1.000 mg Dùng liều duy nhất 20 mg/kg/ngày, trong 2 ngày liên tiếp; hoặc 10 mg/kg/ngày, trong 3 ngày liên tiếp.\nDùng liều duy nhất 5 mg/kg. Trong chương trình điều trị cho toàn dân chống nhiễm giun đũa: Dùng liều duy nhất 2,5 mg/kg, 3-4 lần trong 1 năm.",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Liều lượng | Nội dung:\nDùng liều duy nhất 5 mg/kg. Trong chương trình điều trị cho toàn dân chống nhiễm giun đũa: Dùng liều duy nhất 2,5 mg/kg, 3-4 lần trong 1 năm.\nDùng liều 10 mg/kg/ngày trong 5 ngày liên tiếp.\nCách dùng Pyrantel Pyrantel thường dùng dưới dạng muối pamoat (còn gọi là embonat). Hàm lượng tính theo pyrantel base: 2,9 g pyrantel embonat tương đương với 1g pyrantel.\nTốt nhất là dùng thuốc pyrantel giữa các bữa ăn, có thể uống chung với sữa hoặc nước trái cây. Trước và sau khi dùng thuốc không cần phải theo chế độ ăn uống đặc biệt, không nhịn đói và không cần dùng thêm thuốc tẩy. Với thuốc dạng hỗn dịch cần lắc đều trước khi uống.\nĐối tượng khác Suy thận : Chưa có thông tin sử dụng trên đối tượng này Suy gan: Chưa có thông tin sử dụng trên đối tượng này, thận trọng khi sử dụng.",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Liều lượng | Nội dung:\nĐối tượng khác Suy thận : Chưa có thông tin sử dụng trên đối tượng này Suy gan: Chưa có thông tin sử dụng trên đối tượng này, thận trọng khi sử dụng.\nNếu quên dùng một liều thuốc, hãy uống càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không uống gấp đôi liều đã quy định",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Quá liều và xử trí | Nội dung:\nQuên liều Pyrantel và xử trí Nếu quên dùng một liều thuốc, hãy uống càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không uống gấp đôi liều đã quy định Quá liều và xử trí Quá liều và độc tính Các triệu chứng quá liều bao gồm:\nKhó thở , co giật, tình trạng co thắt cơ bắp hoặc yếu cơ nghiêm trọng.\nCách xử lý khi quá liều Trong trường hợp khẩn cấp hoặc quá liều, gọi ngay cho Trung tâm cấp cứu 115 hoặc đến ngay cơ sở y tế gần nhất",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Không có tương tác quan trọng được ghi nhận.\nPiperazin và pyrantel pamoat có tác dụng đối kháng trên giun nên không dùng phối hợp Tương tác với thực phẩm Không dùng chung một số sản phẩm chứa phenylalanin",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Lưu ý | Nội dung:\nLưu ý chung Cần thận trọng với người bệnh bị tổn thương chức năng gan.\nThận trọng khi dùng cho bệnh nhân suy dinh dưỡng hoặc thiếu máu nặng. Tốt nhất, bệnh nhân thiếu máu, mất nước hoặc suy dinh dưỡng nên được điều trị hỗ trợ trước khi dùng pyrantel.",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Lưu ý | Nội dung:\nMột số độc tính có thể xảy ra ở trẻ em và người lớn bao gồm tăng nồng độ cồn, nhiễm axit lactic, co giật và suy hô hấp, cần thận khi sử dụng. Điều trị cho tất cả các thành viên trong gia đình, vệ sinh thật kỹ nơi ở và quần áo để diệt hết trứng giun kim đề phòng tái nhiễm gồm các biện pháp như: Rửa tay thường xuyên và cắt tỉa móng tay gọn gàng, mặc quần lót cả ngày lẫn đêm, lau hoặc hút bụi sàn phòng ngủ thường xuyên trong vài ngày sau khi điều trị, thường xuyên giặt sạch và không nên giũ khăn trải giường, quần áo sau khi điều trị và giữ nhà vệ sinh sạch sẽ.",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Pyrantel | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Việc dùng pyrantel cho người mang thai còn chưa được nghiên cứu kỹ. Cho đến nay chưa thấy thông báo về nguy hại cho trẻ sơ sinh khi bà mẹ đã dùng thuốc trong thời kỳ mang thai. Tuy nhiên chỉ nên dùng khi thật cần thiết sau 3 tháng đầu của thai kỳ.\nLưu ý với phụ nữ cho con bú Còn chưa biết thuốc pyrantel tiết vào sữa với mức độ nào, nhưng do thuốc được hấp thu rất kém nên nồng độ thuốc trong sữa có thể không có ý nghĩa về mặt lâm sàng Lưu ý khi lái xe và vận hành máy móc Tránh lái xe, vận hành máy móc và các hoạt động cần sự tỉnh táo khác khi dùng thuốc cho đến khi xác định được các tác dụng phụ có thể có của thuốc",
+        "metadata": {
+            "name": "Pyrantel",
+            "id": "pyrantel",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/pyrantel",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

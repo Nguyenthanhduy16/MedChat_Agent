@@ -1,0 +1,436 @@
+[
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Eculizumab Loại thuốc Thuốc chống ung thư và điều hoà miễn dịch (kháng thể đơn dòng).\nDạng thuốc và hàm lượng Dung dịch đậm đặc pha tiêm truyền: 10 mg/ml.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Chỉ định | Nội dung:\nNgười lớn:\nTiểu huyết sắc tố kịch phát về đêm (PNH).\nHội chứng tan máu tăng ure huyết không điển hình (aHUS).\nBệnh nhược cơ toàn thân kháng trị (gMG) ở những bệnh nhân mang kháng thể kháng acetylcholin (AChR).\nRối loạn phổ viêm tuỷ thị thần kinh (NMOSD) ở những bệnh nhân mang kháng thể kháng aquaporin-4 (AQP4) với đợt bệnh tái phát.\nTrẻ em:",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Dược lực học | Nội dung:\nNhóm dược lý: Thuốc ức chế miễn dịch chọn lọc.\nMã ATC: L04AA25 Eculizumab là một kháng thể đơn dòng IgG2/4k tái tổ hợp từ người, liên kết với protein bổ thể C5 của người và ức chế sự hoạt hóa của bổ thể cuối. Kháng thể eculizumab chứa các vùng không đổi của người và các vùng xác định tính bổ thể của chuột được ghép vào các vùng biến đổi chuỗi nhẹ và chuỗi nặng của cơ thể người. Eculizumab bao gồm hai chuỗi nặng 448 acid amin và hai chuỗi nhẹ 214 acid amin và có trọng lượng phân tử khoảng 148 kDa.\nEculizumab được tạo ra trong hệ thống biểu hiện u tủy (dòng tế bào NS0) của chuột và được tinh chế bằng sắc ký trao đổi ion và ái lực.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Dược lực học | Nội dung:\nEculizumab được tạo ra trong hệ thống biểu hiện u tủy (dòng tế bào NS0) của chuột và được tinh chế bằng sắc ký trao đổi ion và ái lực.\nCơ chế hoạt động Eculizumab là một chất ức chế bổ thể cuối liên kết đặc biệt với protein bổ thể C5 có ái lực cao, do đó ức chế sự phân cắt của nó thành C5a và C5b, ngăn chặn sự tạo ra phức hợp bổ thể tận cùng C5b-9. Eculizumab bảo tồn các thành phần ban đầu của quá trình hoạt hóa bổ thể cần thiết cho quá trình opsonin hóa (quá trình loại bỏ mầm bệnh khỏi hệ thống khi được đánh dấu bằng opsonin) của vi sinh vật và đào thải các phức hợp miễn dịch.\nỞ bệnh nhân PNH, sự hoạt hóa bổ thể cuối không kiểm soát được và kết quả là quá trình tan máu nội mạch qua trung gian bổ thể bị chặn lại khi điều trị bằng eculizumab.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Dược lực học | Nội dung:\nỞ hầu hết bệnh nhân PNH, nồng độ eculizumab trong huyết thanh khoảng 35 microgram/mL là đủ để ức chế hoàn toàn về cơ bản quá trình tan máu nội mạch qua trung gian bổ thể cuối.\nTrong PNH, sử dụng eculizumab mãn tính dẫn đến giảm nhanh chóng và bền vững khả năng làm tan máu qua trung gian bổ thể.\nỞ bệnh nhân aHUS, sự hoạt hóa bổ thể cuối không kiểm soát được và kết quả là bệnh huyết khối vi mạch qua trung gian bổ thể bị chặn lại khi điều trị bằng eculizumab.\nTất cả các bệnh nhân được điều trị bằng eculizumab khi được dùng theo khuyến cáo cho thấy sự tạo thành bổ thể cuối giảm nhanh và bền vững. Ở tất cả bệnh nhân aHUS, nồng độ eculizumab trong huyết thanh khoảng 50 - 100 microgram/mL là đủ để ức chế hoàn toàn về cơ bản hoạt động của bổ thể cuối.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Dược lực học | Nội dung:\nTrong aHUS, sử dụng eculizumab mãn tính dẫn đến giảm nhanh chóng và bền vững bệnh huyết khối vi mạch qua trung gian bổ thể.\nỞ những bệnh nhân gMG kháng trị, sự kích hoạt bổ thể cuối không kiểm soát được gây ra sự ly giải phụ thuộc vào phức hợp tấn công màng (MAC) và viêm phụ thuộc C5a tại Neuromuscular Junction (NMJ) dẫn đến thất bại trong việc dẫn truyền thần kinh cơ. Sử dụng eculizumab mãn tính dẫn đến ức chế ngay lập tức, hoàn toàn và kéo dài hoạt động của bổ thể cuối (nồng độ huyết thanh eculizumab ≥ 116 microgam/ml).",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Dược lực học | Nội dung:\nỞ những bệnh nhân NMOSD, sự kích hoạt bổ thể cuối không kiểm soát được gây ra bởi các tự kháng thể chống lại AQP-4 dẫn đến sự hình thành viêm phụ thuộc MAC và C5a, dẫn đến hoại tử tế bào hình sao và tăng tính thấm của hàng rào máu não, cũng như làm chết tế bào oligodendrocytes (tế bào thần kinh đệm chịu trách nhiệm hình thành vỏ myelin của các sợi thần kinh) và tế bào thần kinh xung quanh. Sử dụng eculizumab mãn tính dẫn đến ức chế ngay lập tức, hoàn toàn và kéo dài hoạt động của bổ thể cuối (nồng độ huyết thanh eculizumab ≥ 116 microgam/ml).",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Dược động học | Nội dung:\nHấp thu Eculizumab được sử dụng đường tiêm nên sinh khả dụng là 100%.\nPhân bố Thể tích phân bố từ 5 đến 8 L.\nChuyển hóa Các kháng thể của con người trải qua quá trình tiêu hóa nội bào trong các tế bào của hệ thống lưới nội mô. Eculizumab chỉ chứa các acid amin tự nhiên và không có chất chuyển hóa có hoạt tính nào được biết đến. Các kháng thể của con người chủ yếu được dị hóa bởi các enzym lysosome thành các peptid nhỏ và acid amin.\nThải trừ Chưa có nghiên cứu cụ thể nào được thực hiện để đánh giá thải trừ eculizumab ở gan, thận, phổi hoặc đường tiêu hóa. Ở thận bình thường, các kháng thể không được bài tiết và bị loại trừ khỏi quá trình lọc theo kích thước của chúng.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Liều lượng | Nội dung:\nLiều dùng Người lớn (≥ 18 tuổi) Điều trị Tiểu huyết sắc tố kịch phát về đêm (PNH) Giai đoạn khởi đầu: Truyền tĩnh mạch 600 mg eculizumab trong 25 - 45 phút (35 phút ± 10 phút) mỗi tuần trong 4 tuần đầu tiên.\nGiai đoạn duy trì: Truyền tĩnh mạch 900 mg eculizumab trong 25 - 45 phút (35 phút ± 10 phút) trong tuần thứ 5. Sau đó, mỗi 14 ± 2 ngày, tiếp tục truyền 900 mg thuốc trong 25 - 45 phút (35 phút ± 10 phút).\nĐiều trị Hội chứng tan máu tăng urê huyết không điển hình (aHUS), Bệnh nhược cơ toàn thân kháng trị (gMG) và Rối loạn phổ viêm tuỷ thị thần kinh (NMOSD) Giai đoạn khởi đầu: Truyền tĩnh mạch 900 mg eculizumab trong 25 - 45 phút (35 phút ± 10 phút) mỗi tuần trong 4 tuần đầu tiên.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Liều lượng | Nội dung:\nGiai đoạn duy trì: Truyền tĩnh mạch 1200 mg eculizumab trong 25 - 45 phút (35 phút ± 10 phút) trong tuần thứ 5. Sau đó, mỗi 14 ± 2 ngày, tiếp tục truyền 1200 mg thuốc trong 25 - 45 phút (35 phút ± 10 phút).",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Liều lượng | Nội dung:\nĐiều trị Hội chứng tan máu tăng ure huyết không điển hình (aHUS), Bệnh nhược cơ toàn thân kháng trị (gMG) hoặc Rối loạn phổ viêm tuỷ thị thần kinh (NMOSD) cho bệnh nhân cần bổ sung eculizumab đồng thời với PE/PI (lọc huyết tương/trao đổi huyết tương, hoặc truyền huyết tương tươi đông lạnh) Loại can thiệp Liều eculizumab gần đây nhất Liều eculizumab bổ sung trong mỗi lần PE / PI Thời gian truyền eculizumab bổ sung Lọc huyết tương/ trao đổi huyết tương (PE) 300 mg Trong vòng 60 phút sau mỗi lần lọc huyết tương hoặc trao đổi huyết tương ≥ 600 mg 600 mg Truyền huyết tương tươi đông lạnh (PI) ≥ 300 mg 60 phút trước mỗi lần truyền huyết tương tươi đông lạnh Điều trị Bệnh sẩn teo da ác tính - Degos (Off-label) Điều trị khởi đầu: Truyền tĩnh mạch 600 mg eculizumab mỗi tuần, trong 4 tuần đầu tiên.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Liều lượng | Nội dung:\nĐiều trị duy trì: Truyền tĩnh mạch 600 mg eculizumab trong tuần thứ 5. Sau đó, tiếp tục truyền 900 mg thuốc mỗi 14 ngày. Có thể dùng liều lên đến 1200 mg/lần.\nTrẻ em Điều trị Tiểu huyết sắc tố kịch phát về đêm (PNH), Hội chứng tan máu tăng ure huyết không điển hình (aHUS) Trẻ em có trọng lượng cơ thể ≥ 40 kg: Dùng liều eculizumab như người lớn.\nTrẻ em có trọng lượng cơ thể < 40 kg:",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Liều lượng | Nội dung:\nTrẻ em có trọng lượng cơ thể < 40 kg:\nTrọng lượng cơ thể Giai đoạn đầu Giai đoạn bảo trì 30 đến < 40 kg 600 mg/tuần x 2 tuần 900 mg ở tuần thứ 3; sau đó là 900 mg mỗi 2 tuần 20 đến < 30 kg 600 mg ở tuần thứ 3; sau đó là 600 mg mỗi 2 tuần 10 đến < 20 kg 600 mg/tuần x 1 tuần 300 mg ở tuần thứ 2; sau đó là 300 mg mỗi 2 tuần 5 đến < 10 kg 300 mg/tuần x 1 tuần 300 mg ở tuần thứ 2; sau đó là 300 mg mỗi 3 tuần Liều lượng eculizumab chưa được nghiên cứu ở trẻ em mắc Tiểu huyết sắc tố kịch phát về đêm (PNH) có cân nặng dưới 40 kg mà dựa vào liều điều trị Hội chứng tan máu tăng ure huyết không điển hình (aHUS).",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Liều lượng | Nội dung:\nĐiều trị Hội chứng tan máu tăng ure huyết không điển hình (aHUS) cho trẻ em cần bổ sung eculizumab đồng thời với PE/PI (lọc huyết tương/trao đổi huyết tương, hoặc truyền huyết tương tươi đông lạnh) Dùng liều lượng như người lớn.\nĐối tượng khác Người cao tuổi Có thể dùng eculizumab cho bệnh nhân từ 65 tuổi trở lên. Không có bằng chứng cho thấy cần bất kỳ biện pháp phòng ngừa đặc biệt nào khi điều trị cho người lớn tuổi, mặc dù kinh nghiệm sử dụng thuốc ở nhóm bệnh nhân này vẫn còn hạn chế.\nBệnh nhân suy thận Không cần điều chỉnh liều cho bệnh nhân suy thận.\nBệnh nhân suy gan Tính an toàn và hiệu quả của eculizumab chưa được nghiên cứu ở bệnh nhân suy gan.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Liều lượng | Nội dung:\nBệnh nhân suy gan Tính an toàn và hiệu quả của eculizumab chưa được nghiên cứu ở bệnh nhân suy gan.\nCách dùng Trước khi truyền thuốc, cần pha loãng eculizumab đậm đặc trong dung dịch dextrose 5%, natri clorid 0,9%, natri clorid 0,45% hoặc Ringer để có nồng độ cuối cùng là 5 mg/mL.\nLàm ấm dung dịch đến nhiệt độ phòng (không được đun nóng).\nChỉ sử dụng đường tiêm truyền tĩnh mạch chậm. Theo dõi các phản ứng quá mẫn hoặc phản ứng liên quan đến truyền dịch trong và tối thiểu 1 giờ sau khi truyền xong. Nếu xuất hiện triệu chứng tác dụng không mong muốn, nên giảm tốc độ truyền hoặc ngưng điều trị.\nChỉ điều trị với eculizumab ở bệnh viện, vì vậy phải liên hệ ngay với bác sĩ nếu quên một liệu trình.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Eculizumab chỉ được sử dụng tại cơ sở y tế dưới sự giám sát của bác sĩ nên hầu như không xảy ra tình trạng quá liều.\nCách xử lý khi quá liều Chưa có thông tin.\nQuên liều và xử trí Chỉ điều trị với eculizumab ở bệnh viện, vì vậy phải liên hệ ngay với bác sĩ nếu quên một liệu trình.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Chưa có nghiên cứu tương tác nào được thực hiện. Dựa trên tác dụng ức chế tiềm năng của eculizumab đối với độc tính tế bào phụ thuộc vào bổ thể của rituximab , eculizumab có thể làm giảm tác dụng dược lực học dự kiến ​​của rituximab.\nĐiều trị mãn tính bằng globulin miễn dịch ở người qua đường tiêm tĩnh mạch có thể cản trở cơ chế tái chế thụ thể Fc sơ sinh (FcRn) endosome của các kháng thể đơn dòng như eculizumab và do đó làm giảm nồng độ eculizumab trong huyết thanh.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nLưu ý chung Nhiễm não mô cầu Do cơ chế hoạt động của eculizumab, sử dụng thuốc làm tăng tính nhạy cảm của bệnh nhân với nhiễm trùng não mô cầu (Neisseria meningitidis). Bất kỳ não mô cầu thuộc nhóm huyết thanh nào cũng có gây viêm não.\nĐể giảm nguy cơ nhiễm trùng, tất cả bệnh nhân phải được chủng ngừa ít nhất 2 tuần trước khi tiêm eculizumab trừ khi nguy cơ do trì hoãn điều trị bằng eculizumab cao hơn nguy cơ phát triển nhiễm trùng não mô cầu. Những bệnh nhân bắt đầu điều trị bằng eculizumab dưới 2 tuần sau khi chủng ngừa não mô cầu phải được điều trị bằng kháng sinh dự phòng thích hợp cho đến 2 tuần sau khi chủng ngừa. Khuyến cáo tiêm vaccine chống lại các nhóm huyết thanh A, C, Y, W 135 và B (nếu có sẵn), để ngăn ngừa các chủng não mô cầu gây bệnh phổ biến.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nNgoài ra, tiêm vaccine có thể kích hoạt bổ thể. Kết quả là, những bệnh nhân mắc các bệnh qua trung gian bổ thể, bao gồm Tiểu huyết sắc tố kịch phát về đêm (PNH), Hội chứng tan máu tăng ure huyết không điển hình (aHUS), Bệnh nhược cơ toàn thân kháng trị (gMG) hoặc Rối loạn phổ viêm tuỷ thị thần kinh (NMOSD), có thể bị tăng các triệu chứng của các bệnh này, chẳng hạn như tan máu (PNH), bệnh lý huyết khối vi mạch - TMA (aHUS), đợt cấp nhược cơ (gMG) hoặc tái phát (NMOSD). Do đó, bệnh nhân cần được theo dõi chặt chẽ các triệu chứng bệnh sau khi tiêm chủng theo khuyến cáo.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nTiêm vaccine có thể không đủ để ngăn ngừa nhiễm não mô cầu. Cần xem xét hướng dẫn chính thức về việc sử dụng kháng sinh thích hợp. Các trường hợp nhiễm não mô cầu nghiêm trọng hoặc tử vong đã được báo cáo ở những bệnh nhân được điều trị bằng eculizumab. Nhiễm trùng huyết là một biểu hiện phổ biến của nhiễm trùng não mô cầu ở những bệnh nhân được điều trị bằng eculizumab. Tất cả bệnh nhân cần được theo dõi các dấu hiệu ban đầu của nhiễm não mô cầu, đánh giá ngay tình trạng nếu nghi ngờ nhiễm trùng và điều trị bằng kháng sinh thích hợp khi cần thiết.\nCần hướng dẫn bệnh nhân rằng nếu bị sốt, nhức đầu kèm theo sốt và/hoặc cứng cổ hoặc nhạy cảm với ánh sáng, nên đi khám ngay lập tức vì đây có thể là dấu hiệu của nhiễm trùng não mô cầu.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nNhiễm trùng toàn thân khác Do cơ chế hoạt động của eculizumab, nên sử dụng thuốc thận trọng cho những bệnh nhân đang bị nhiễm trùng toàn thân. Bệnh nhân có thể tăng nhạy cảm với các bệnh nhiễm trùng, đặc biệt là với Neisseria và các vi khuẩn có vỏ. Các trường hợp nhiễm trùng nghiêm trọng do (ngoài Neisseria meningitidis ), bao gồm cả nhiễm trùng do lậu cầu lan tỏa, đã được báo cáo.\nPhản ứng truyền dịch Sử dụng eculizumab có thể dẫn đến phản ứng truyền dịch hoặc tính sinh miễn dịch có thể gây ra phản ứng dị ứng/quá mẫn (bao gồm cả phản vệ). Nên ngưng dùng eculizumab ở tất cả các bệnh nhân có phản ứng truyền dịch nghiêm trọng và điều trị bằng phương pháp phù hợp.\nLiệu pháp chống đông máu Điều trị bằng eculizumab không được làm thay đổi việc sử dụng thuốc chống đông máu.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nLiệu pháp chống đông máu Điều trị bằng eculizumab không được làm thay đổi việc sử dụng thuốc chống đông máu.\nCác liệu pháp ức chế miễn dịch và kháng cholinesterase Bệnh nhược cơ toàn thân kháng trị - gMG Khi các liệu pháp ức chế miễn dịch và kháng cholinesterase bị giảm hoặc ngừng, bệnh nhân cần được theo dõi chặt chẽ để tìm các dấu hiệu đợt cấp của gMG.\nRối loạn phổ viêm tuỷ thị thần kinh - NMOSD Khi điều trị bằng thuốc ức chế miễn dịch bị giảm hoặc ngừng, bệnh nhân cần được theo dõi chặt chẽ về các dấu hiệu và triệu chứng của khả năng tái phát NMOSD.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nGiám sát điều trị Tiểu ra huyết sắc tố kịch phát về đêm - PNH Bệnh nhân PNH đang điều trị bằng eculizumab nên được theo dõi dấu hiệu và triệu chứng của tình trạng tan máu nội mạch bằng cách đo nồng độ lactate dehydrogenase (LDH) trong huyết thanh. Ngoài ra, có thể điều chỉnh liều trong lịch trình dùng thuốc 14 ± 2 ngày trong giai đoạn duy trì (lên đến 12 ngày/lần).\nGiám sát điều trị Hội chứng tan máu tăng ure huyết không điển hình - aHUS Bệnh nhân aHUS đang điều trị bằng eculizumab nên được theo dõi bệnh huyết khối vi mạch bằng cách đo số lượng tiểu cầu, LDH huyết thanh và creatinin huyết thanh, và có thể điều chỉnh liều trong lịch trình dùng thuốc 14 ± 2 ngày trong giai đoạn duy trì (lên đến 12 ngày/lần).",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nNgừng điều trị PNH Nếu bệnh nhân PNH ngừng điều trị bằng eculizumab, cần phải theo dõi chặt chẽ về các dấu hiệu và triệu chứng của tan máu nội mạch nghiêm trọng. Tan máu nghiêm trọng được xác định bằng nồng độ LDH huyết thanh lớn hơn mức trước khi điều trị, cùng với bất kỳ điều kiện nào sau đây: Giảm trên 25% tỷ lệ tuyệt đối dòng PNH (trong trường hợp không pha loãng do truyền máu) trong một tuần hoặc ít hơn; mức hemoglobin < 5 g/dL hoặc giảm > 4 g/dL trong một tuần hoặc ít hơn; đau thắt ngực; thay đổi trạng thái tinh thần; tăng 50% creatinin huyết thanh; hoặc huyết khối. Theo dõi bệnh nhân ngừng sử dụng eculizumab trong ít nhất 8 tuần để phát hiện tình trạng tan máu nghiêm trọng và các phản ứng khác.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nNếu tình trạng tan máu nghiêm trọng xảy ra sau khi ngưng sử dụng eculizumab, có thể sử dụng các phương pháp sau: Truyền máu (hồng cầu lắng - RBCs), hoặc thay máu nếu PNH RBCs > 50% tổng số RBCs bằng phương pháp đo tế bào; thuốc chống đông máu; thuốc corticosteroid; hoặc tiếp tục điều trị với eculizumab.\nNgừng điều trị aHUS Các biến chứng của bệnh huyết khối vi mạch (TMA) đã được báo cáo trong 4 - 127 tuần sau khi ngừng điều trị bằng eculizumab ở một số bệnh nhân. Việc ngừng điều trị chỉ nên được xem xét nếu có lý do về mặt y tế.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nCác biến chứng TMA nghiêm trọng xảy ra bất kể bệnh nhân có đột biến di truyền đã xác định, đa hình nguy cơ cao, tự kháng thể hay không. Các biến chứng nghiêm trọng khác xảy ra ở những bệnh nhân này bao gồm suy giảm nghiêm trọng chức năng thận, nhập viện liên quan đến bệnh và tiến triển đến bệnh thận giai đoạn cuối cần lọc máu.\nNếu bệnh nhân aHUS ngừng điều trị bằng eculizumab, cần được dõi chặt chẽ dấu hiệu và triệu chứng của các biến chứng huyết khối vi mạch nặng. Tuy nhiên, việc theo dõi có thể không đủ để dự đoán hoặc ngăn ngừa các biến này.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 8
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nCác biến chứng bệnh huyết khối vi mạch nghiêm trọng sau khi ngừng thuốc có thể được xác định khi có 2 trong các tình trạng sau: Giảm số lượng tiểu cầu ≥ 25% so với ban đầu hoặc số lượng tiểu cầu cao nhất trong khi điều trị bằng eculizumab; tăng creatinine huyết thanh ≥ 25% so với ban đầu hoặc điểm thấp nhất trong khi điều trị bằng eculizumab; hoặc, tăng LDH huyết thanh từ 25% trở lên so với ban đầu hoặc điểm thấp nhất trong khi điều trị bằng eculizumab; hoặc bất kỳ trường hợp nào sau đây: Thay đổi trạng thái tâm thần hoặc co giật; đau thắt ngực hoặc khó thở; hoặc huyết khối.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 9
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nNếu các biến chứng bệnh huyết khối vi mạch nặng xảy ra sau khi ngưng dùng eculizumab, cân nhắc điều trị lại bằng eculizumab, chăm sóc hỗ trợ bằng PE/PI hoặc các biện pháp hỗ trợ phù hợp với cơ quan bị tổn thương bao gồm hỗ trợ thận bằng lọc máu, hỗ trợ hô hấp bằng thở máy hoặc chống đông máu.\nNgừng điều trị đối với gMG kháng trị Sử dụng eculizumab trong điều trị gMG kháng trị chỉ được nghiên cứu trong bệnh mãn tính. Những bệnh nhân ngừng điều trị bằng eculizumab nên được theo dõi cẩn thận về các dấu hiệu và triệu chứng của đợt cấp của bệnh.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 10
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nNgừng điều trị NMOSD Sử dụng eculizumab trong điều trị NMOSD chỉ được nghiên cứu trong trường hợp bệnh mãn tính và tác dụng của việc ngừng sử dụng eculizumab chưa rõ. Những bệnh nhân ngừng điều trị bằng eculizumab nên được theo dõi cẩn thận về các dấu hiệu và triệu chứng của khả năng tái phát NMOSD.\nLưu ý với phụ nữ có thai Phân loại thai kỳ (FDA): C.\nChưa có nghiên cứu được kiểm soát tốt ở phụ nữ mang thai được điều trị bằng eculizumab. Các trường hợp đã sử dụng cho thấy không có nguy cơ gia tăng dị tật thai nhi hoặc nhiễm độc thai nhi. Tuy nhiên, khuyến cáo phân tích lợi ích rủi ro cá nhân trước khi bắt đầu và trong khi điều trị với eculizumab ở phụ nữ có thai. Nếu việc điều trị thực sự cần thiết trong thời kỳ mang thai, nên theo dõi chặt chẽ bà mẹ và thai nhi.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 11
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nIgG của người có thể qua hàng rào nhau thai, và do đó eculizumab có thể gây ức chế bổ thể cuối cùng trong tuần hoàn thai nhi. Do đó, chỉ nên dùng eculizumab cho phụ nữ có thai khi thật cần thiết.\nCần sử dụng các biện pháp tránh thai thích hợp ít nhất 5 tháng sau liều điều trị cuối cùng với eculizumab cho phụ nữ trong độ tuổi sinh sản.\nLưu ý với phụ nữ cho con bú Chưa có tác dụng nào trên trẻ sơ sinh/trẻ bú sữa mẹ được dự đoán vì dữ liệu hạn chế có sẵn cho thấy eculizumab không được bài tiết qua sữa mẹ. Tuy nhiên, lợi ích phát triển và sức khỏe của việc cho con bú cần được xem xét cùng với nhu cầu lâm sàng của người mẹ đối với eculizumab, và bất kỳ tác dụng phụ tiềm ẩn nào đối với đứa trẻ được bú sữa mẹ từ eculizumab hoặc từ tình trạng cơ bản của người mẹ.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 12
+        }
+    },
+    {
+        "text": "Hoạt chất: Eculizumab | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Eculizumab không có hoặc ảnh hưởng không đáng kể đến khả năng lái xe và sử dụng máy móc.",
+        "metadata": {
+            "name": "Eculizumab",
+            "id": "eculizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/eculizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 13
+        }
+    }
+]

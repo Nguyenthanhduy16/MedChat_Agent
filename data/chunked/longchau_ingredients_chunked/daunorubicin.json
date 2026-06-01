@@ -1,0 +1,226 @@
+[
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Daunorubicin Loại thuốc Chống ung thư/Kháng sinh loại anthracyclin glycosid Dạng thuốc và hàm lượng Bột pha tiêm: Lọ 20 mg, đóng kèm ống dung môi 4 ml (dạng daunorubicin hydroclorid, tính hàm lượng theo daunorubicin base).\nDung dịch tiêm: Lọ 20 mg/4 ml và 50 mg/10 ml (dạng daunorubicin hydroclorid).\nThuốc tiêm liposom: Lọ 50 mg/25 ml (dạng liposom daunorubicin citrat).",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Chỉ định | Nội dung:\nDaunorubicin điều trị bệnh bạch cầu cấp dòng tủy và dòng lympho.\nDùng trong phác đồ kết hợp để điều trị bệnh bạch cầu cấp dòng tủy và dòng lympho ở trẻ em.\nBệnh bạch cầu dòng tủy mãn tính Daunorubicin ở dạng vi hạt liposom là thuốc lựa chọn hàng đầu điều trị bệnh sarcom Kaposi ở bệnh nhân bị AIDS tiến triển.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Dược lực học | Nội dung:\nDaunorubicin là một kháng sinh có tác dụng chống ung thư thuộc dẫn chất anthracyclin glycosid, do Streptomyces coeruleorubidus sản sinh ra nhưng không dùng như một thuốc kháng khuẩn. Daunorubicin có tác dụng mạnh nhất đến pha S trong chu trình phân chia tế bào nhưng không đặc hiệu theo pha. Cơ chế chống ung thư của thuốc là gắn kết với ADN xen vào giữa các cặp base và ức chế tổng hợp ADN và ARN, làm rối loạn mẫu sao chép và ngăn cản phiên bản. Do đó, tác dụng chống ung thư tối đa được thực hiện ở pha tổng hợp ADN (pha S) của chu trình phân bào. Ngoài ra thuốc còn có tác dụng kháng khuẩn và ức chế miễn dịch.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Dược động học | Nội dung:\nHấp thu Nồng độ đỉnh sau khi tiêm của daunorubicin citrat trong huyết tương cao hơn so với daunorubicin hydroclorid qua đường tĩnh mạch.\nSau khi tiêm tĩnh mạch, daunorubicin citrat dạng liposom liều đơn 40 mg/m2, sau 30-60 phút, trung bình nồng độ đỉnh khoảng 18 microgam/ml.\nPhân bố Thuốc được phân bố nhanh vào trong cơ thể, đặc biệt là lách, thận, gan, phổi và tim. Thuốc qua được nhau thai nhưng không qua được hàng rào máu - não. Thuốc hấp thu vào tế bào và gắn với các thành phần của tế bào, đặc biệt là acid nucleic. Khi dùng daunorubicin theo đường tiêm tĩnh mạch, thể tích phân bố là 1006-1055 lít/kg. Khoảng 63% thuốc gắn vào protein huyết tương, chủ yếu là albumin.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Dược động học | Nội dung:\nDaunorubicin citrat ở dạng liposom được bào chế với mục đích làm giảm phân bố thuốc vào các khoang ngoại vi, tăng phân bố vào các tổn thương sarcom Kaposi.\nChuyển hóa Daunorubicin được chuyển hóa nhanh (trong vòng một giờ),rộng ở gan và một số mô của cơ thể, chủ yếu bởi aldoketo reductase trong bào tương tạo thành một chất chuyển hóa chủ yếu là daunorubicinol có hoạt tính chống ung thư, có nửa đời trong huyết tương khoảng 26,7 giờ.\nThải trừ Daunorubicin và các chất chuyển hóa được bài tiết qua nước tiểu và mật, trong đó 25% thải trừ ở dạng hoạt tính qua nước tiểu, khoảng 40% được thải trừ qua mật.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Liều lượng | Nội dung:\nNgười lớn Daunorubicin rất kích ứng với các mô, nên chỉ được dùng đường tĩnh mạch.\nLiều dùng daunorubicin dạng dung dịch tiêm nên căn cứ trên đáp ứng lâm sàng và tác dụng phụ trên hệ tạo máu, khả năng dung nạp thuốc của người bệnh cũng như có hay không một hóa trị liệu hoặc xạ trị liệu đồng thời nhằm mục đích tối ưu hóa kết quả điều trị và giảm thiểu tác dụng không mong muốn.\nLiều người lớn: 40 - 60 mg/m2/ngày, một đợt điều trị bình thường 3 lần tiêm.\nBệnh bạch cầu cấp dòng tủy: Người dưới 60 tuổi dùng 45 mg/m2/ngày (người 60 tuổi trở lên dùng 30 mg/m2/ngày) trong 3 ngày liên tiếp của chu trình thứ nhất và trong 2 ngày liên tiếp của các chu trình tiếp theo. Có thể cần dùng đến 3 chu trình điều trị mới cho đáp ứng khả quan.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Liều lượng | Nội dung:\nBệnh bạch cầu cấp dòng lympho: Điều trị cảm ứng dùng 45 mg/m2/ngày trong 3 ngày liên tiếp. Điều trị củng cố có thể bắt đầu sau khi bệnh thuyên giảm với điều trị cảm ứng. Tổng liều tích lũy không nên vượt quá 550 mg/m2, vì nguy cơ độc tính trên tim và không nên quá 400 mg/m2 ở những bệnh nhân xạ trị.\nSarcom Kaposi ở bệnh nhân bị AIDS tiến triển: dùng dạng lipsom của daunorubicin citrat: Phải được pha loãng 1:1 với dung dịch tiêm dextrose 5% (không dùng dung dịch natri clorid 0,9%, hoặc có chất kìm khuẩn như cồn benzylic hoặc bất kỳ một dung dịch nào khác), để có một dung dịch 1 mg/ml và được truyền tĩnh mạch chậm trong 60 phút. Liều thường dùng ở người lớn: 40 mg/m2 dùng mỗi 2 tuần 1 lần cho đến khi kiểm soát được tình trạng bệnh.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Liều lượng | Nội dung:\nTrẻ em Liều thường dùng 25 mg/m2 vào ngày đầu của tuần. Kết quả tốt thường đánh giá được sau 4 đợt điều trị. Nếu sau 4 đợt chưa khỏi, dùng thêm 1-2 đợt nữa. Trẻ dưới 2 tuổi hoặc diện tích da dưới 0,5 m2 dùng 1 mg/kg/ngày.\nTổng liều ở trẻ em trên 2 tuổi không quá 300 mg/m2, trẻ em dưới 2 tuổi không quá 10 mg/kg.\nĐối tượng khác Người cao tuổi: Daunorubicin được dùng thận trọng ở người có dự trữ tủy xương không đủ do tuổi già, cần giảm liều tới 50%.\nSuy gan:\nBệnh nhân suy gan có bilirubin từ 1,2-3 mg/dl, dùng 75% liều thông thường; bilirubin > 3 mg/dl, dùng 50% liều thông thường.\nSuy thận:\nBệnh nhân suy thận có creatinin huyết thanh > 3 mg/dl, dùng 50% liều thông thường.\nNếu quên lịch hẹn tiêm daunorubicin, hãy gọi cho bác sĩ để được hướng dẫn",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Quá liều và xử trí | Nội dung:\nQuên liều và xử trí Nếu quên lịch hẹn tiêm daunorubicin, hãy gọi cho bác sĩ để được hướng dẫn Quá liều và xử trí Quá liều và độc tính Các triệu chứng quá liều daunorubicin bao gồm suy tủy (đặc biệt là giảm bạch cầu hạt), yếu mệt, buồn nôn, nôn; thoái hóa cơ tim cấp tính.\nCách xử lý khi quá liều Cần điều trị hỗ trợ. Hình như hiệu quả điều trị và độc tính không thay đổi bởi thẩm phân màng bụng và lọc thận nhân tạo.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Sử dụng phối hợp daunorubicin với các thuốc:\nalopurinol , colchicin, probenecid, hoặc sulfinpyrazon có thể gây tăng nồng độ acid uric trong máu.\nTác dụng gây giảm bạch cầu, giảm tiểu cầu của daunorubicin tăng lên khi dùng đồng thời với các thuốc gây loạn tạo máu.\nCác thuốc ức chế tủy xương hoặc chiếu xạ sẽ làm tăng ức chế tủy xương, khi dùng cùng hoặc tiếp nối nhau.\nDùng đồng thời daunorubicin với cyclophosphamid hoặc chiếu xạ vào vùng trung thất có thể gây tăng độc với tim.\nDùng daunorubicin ở người bệnh trước đó đã dùng doxorubicin sẽ tăng nguy cơ độc với tim, cần phải giảm liều.\nCác thuốc độc với gan khác ( methotrexate ) dùng đồng thời với daunorubicin gây nguy cơ ngộ độc.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Tương tác thuốc | Nội dung:\nCác thuốc độc với gan khác ( methotrexate ) dùng đồng thời với daunorubicin gây nguy cơ ngộ độc.\nDaunorubicin hydroclorid có thể làm tăng nồng độ, tác dụng của natalizumab và làm giảm nồng độ, tác dụng của glycosid tim, vắc xin bất hoạt.\nCác vắc xin virus sống dùng đồng thời với daunorubicin có thể làm tăng khả năng nhân lên của virus vắc xin, làm tăng tác dụng phụ, giảm đáp ứng kháng thể.\nTương kỵ thuốc Dung dịch tiêm daunorubicin tương kỵ với heparin natri, dexamethason natri phosphat và các dung dịch thuốc khác (kết tủa hoặc biến màu).\nKhông tương thích truyền chung qua nhánh chữ Y với natri allopurinol, aztreonam , fludarabine phosphate, piperacillin natri - tazobactam natri",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Lưu ý | Nội dung:\nLưu ý chung Khi xử lý daunorubicin hydrochloride, tất cả các tiếp xúc với da và niêm mạc phải tránh. Cũng nên thận trọng khi tiếp xúc với phân và chất nôn của bệnh nhân vì chúng có thể chứa daunorubicin hoặc chất chuyển hóa có hoạt tính Nhiễm trùng không được kiểm soát, đặc biệt là các bệnh do vi rút (Herpes zoster) có thể phát triển thành các đợt cấp đe dọa tính mạng sau khi dùng daunorubicin hydrochloride vì tác dụng ức chế miễn dịch của nó Cần phải giảm liều trên bệnh nhân đồng thời đang trong quá trình xạ trị .\nCần theo dõi cẩn thận công thức máu trước và trong khi điều trị, đặc biệt chú ý đến bạch cầu, bạch cầu hạt, tiểu cầu và hồng cầu.\nNhững người bệnh nhiễm HIV phải được theo dõi cẩn thận để phát hiện các biểu hiện của nhiễm khuẩn cơ hội hoặc gian phát.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Lưu ý | Nội dung:\nNhững người bệnh nhiễm HIV phải được theo dõi cẩn thận để phát hiện các biểu hiện của nhiễm khuẩn cơ hội hoặc gian phát.\nNên theo dõi cẩn thận chức năng tim trước, trong và sau khi điều trị để xác định nguy cơ biến chứng tim càng sớm càng tốt, đặc biệt ở người bệnh trước đây đã dùng anthracyclin, người đã mắc bệnh tim, trẻ em Sử dụng thuốc phải cẩn thận để đảm bảo thuốc không bị thoát mạch, gây hoại tử mô tại chỗ tiêm.\nCần thông báo cho bệnh nhân biết trước nước tiểu có thể tạm thời chuyển màu đỏ Thận trọng đặc biệt ở những bệnh nhân xạ trị trước, đồng thời hoặc đã lên kế hoạch nên theo dõi chức năng gan, thận trước khi bắt đầu điều trị.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Lưu ý | Nội dung:\nTránh chủng ngừa bằng vắc-xin sống ở những bệnh nhân đang dùng daunorubicin Daunorubicin có thể gây buồn nôn và nôn, có thể được ngăn ngừa hoặc giảm bớt bằng cách sử dụng liệu pháp chống nôn thích hợp. Viêm niêm mạc / viêm miệng thường xuất hiện sớm sau khi dùng thuốc và nếu nghiêm trọng, có thể tiến triển trong vài ngày đến loét niêm mạc. Hầu hết bệnh nhân hồi phục tác dụng phụ này vào tuần điều trị thứ ba.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Phân loại D Nên tránh dùng các thuốc daunorubicin chống ung thư, đặc biệt trong thời gian 3 tháng đầu của thai kỳ. Mặc dù thông tin còn chưa thật đầy đủ do ít trường hợp dùng thuốc chống ung thư khi mang thai, nên phải chú ý đến khả năng gây đột biến và gây ung thư của các thuốc loại này. Những nguy cơ khác đối với thai nhi bao gồm các tác dụng phụ gặp ở người lớn. Nói chung nên dùng thuốc tránh thai trong khi sử dụng các thuốc độc tế bào.\nLưu ý với phụ nữ cho con bú Chưa biết thuốc có bài tiết qua sữa mẹ hay không, nhưng do khả năng thuốc có tác dụng phụ mạnh ở trẻ còn bú, nên bà mẹ cần ngừng cho con bú trong thời kì dùng daunorubicin.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Daunorubicin | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Không có nghiên cứu nào về ảnh hưởng đến khả năng lái xe và sử dụng máy móc đã được thực hiện. Tình trạng lú lẫn, co giật và rối loạn thị giác đã được quan sát thấy ở những bệnh nhân được điều trị bằng liệu pháp phối hợp daunorubicin. Bệnh nhân cần được cảnh báo về tác dụng phụ có thể xảy ra và không nên lái xe hoặc vận hành máy móc nếu họ gặp các tác dụng phụ này trong quá trình điều trị.",
+        "metadata": {
+            "name": "Daunorubicin",
+            "id": "daunorubicin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/daunorubicin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    }
+]

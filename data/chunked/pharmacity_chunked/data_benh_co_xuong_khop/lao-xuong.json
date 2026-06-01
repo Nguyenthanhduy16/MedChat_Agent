@@ -1,0 +1,128 @@
+[
+  {
+    "text": "Bệnh: Lao xương | Phần: Tổng quan | Nội dung:\nLao xương là một căn bệnh nguy hiểm, có thể gây ra nhiều biến chứng nghiêm trọng nếu không được phát hiện và điều trị kịp thời. Bài viết này sẽ cung cấp cho bạn những thông tin chi tiết về lao xương, bao gồm: định nghĩa, triệu chứng, nguyên nhân, đối tượng nguy cơ, chẩn đoán, phòng ngừa và điều trị.\nTổng quan chung về lao xương\nLao xương là một bệnh nhiễm trùng do vi khuẩn lao Mycobacterium tuberculosis gây ra, ảnh hưởng đến hệ thống xương khớp của cơ thể. Vi khuẩn lao có thể xâm nhập vào xương qua đường máu hoặc đường bạch huyết từ phổi hoặc các vị trí khác đã bị nhiễm lao. Lao xương thường gặp nhất ở cột sống, hông, đầu gối, cổ chân, bàn tay và bàn chân.",
+    "metadata": {
+      "name": "Lao xương",
+      "id": "lao-xng",
+      "url": "https://www.pharmacity.vn/benh/lao-xuong.html",
+      "category": "data_benh_co_xuong_khop",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Lao xương | Phần: Triệu chứng | Nội dung:\nTriệu chứng của lao xương\nTriệu chứng của lao xương thường xuất hiện từ từ và có thể bao gồm:\nĐau nhức: Đau nhức thường xuất hiện ở vị trí bị tổn thương, thường là đau âm ỉ, tăng dần theo thời gian và có thể nặng hơn vào ban đêm.\nCứng khớp: Khớp bị ảnh hưởng có thể cứng và khó cử động, đặc biệt là vào buổi sáng.\nSưng tấy: Vùng da xung quanh khớp bị ảnh hưởng có thể sưng tấy nhẹ.\nGiảm vận động: Do đau và cứng khớp, người bệnh có thể gặp khó khăn trong việc vận động, đi lại và thực hiện các hoạt động bình thường.\nSốt: Sốt nhẹ có thể xảy ra, đặc biệt là vào buổi chiều tối.\nMệt mỏi: Người bệnh có thể cảm thấy mệt mỏi, thiếu sức sống.\nGiảm cân: Giảm cân không rõ nguyên nhân.",
+    "metadata": {
+      "name": "Lao xương",
+      "id": "lao-xng",
+      "url": "https://www.pharmacity.vn/benh/lao-xuong.html",
+      "category": "data_benh_co_xuong_khop",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Lao xương | Phần: Nguyên nhân | Nội dung:\nNguyên nhân gây ra lao xương\nLao xương thường xảy ra ở những người đã bị nhiễm vi khuẩn lao Mycobacterium tuberculosis. Vi khuẩn lao có thể xâm nhập vào xương qua đường máu hoặc đường bạch huyết từ phổi hoặc các vị trí khác đã bị nhiễm lao.",
+    "metadata": {
+      "name": "Lao xương",
+      "id": "lao-xng",
+      "url": "https://www.pharmacity.vn/benh/lao-xuong.html",
+      "category": "data_benh_co_xuong_khop",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Lao xương | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ mắc lao xương\nMột số đối tượng có nguy cơ cao mắc lao xương bao gồm:\nNgười đã bị lao phổi: Lao phổi là nguyên nhân phổ biến nhất gây ra lao xương.\nNgười có hệ miễn dịch yếu: Người mắc bệnh tiểu đường, HIV/AIDS, suy thận, ung thư hoặc đang sử dụng thuốc ức chế miễn dịch có nguy cơ cao mắc lao xương.\nTrẻ em: Trẻ em có nguy cơ cao mắc lao xương hơn người lớn.\nNgười nghiện ngập: Người nghiện ma túy và rượu có nguy cơ cao mắc lao xương.",
+    "metadata": {
+      "name": "Lao xương",
+      "id": "lao-xng",
+      "url": "https://www.pharmacity.vn/benh/lao-xuong.html",
+      "category": "data_benh_co_xuong_khop",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Lao xương | Phần: Chẩn đoán | Nội dung:\nChẩn đoán lao xương\nChẩn đoán lao xương thường dựa trên các yếu tố sau:\nTiền sử bệnh: Bác sĩ sẽ hỏi bạn về tiền sử bệnh, bao gồm tiền sử lao phổi hoặc các bệnh lao khác, các bệnh lý nền và các loại thuốc bạn đang sử dụng.\nKhám lâm sàng: Bác sĩ sẽ khám để tìm kiếm các dấu hiệu của lao xương, chẳng hạn như đau nhức, cứng khớp, sưng tấy và giảm vận động.",
+    "metadata": {
+      "name": "Lao xương",
+      "id": "lao-xng",
+      "url": "https://www.pharmacity.vn/benh/lao-xuong.html",
+      "category": "data_benh_co_xuong_khop",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Lao xương | Phần: Chẩn đoán | Nội dung:\nKhám lâm sàng: Bác sĩ sẽ khám để tìm kiếm các dấu hiệu của lao xương, chẳng hạn như đau nhức, cứng khớp, sưng tấy và giảm vận động.\nXét nghiệm: Một số xét nghiệm có thể được sử dụng để chẩn đoán lao xương, bao gồm: Xét nghiệm máu: Xét nghiệm máu có thể tìm kiếm sự hiện diện của vi khuẩn lao hoặc các kháng thể chống lại vi khuẩn lao. Chụp X-quang: Chụp X-quang có thể giúp phát hiện tổn thương xương do lao. Chụp MRI hoặc CT scan: Chụp MRI hoặc CT scan có thể cung cấp hình ảnh chi tiết hơn về xương và khớp bị ảnh hưởng. Sinh thiết: Sinh thiết có thể được thực hiện để lấy mẫu mô từ xương bị nghi ngờ bị lao để xét nghiệm vi khuẩn lao.\nXét nghiệm máu: Xét nghiệm máu có thể tìm kiếm sự hiện diện của vi khuẩn lao hoặc các kháng thể chống lại vi khuẩn lao.",
+    "metadata": {
+      "name": "Lao xương",
+      "id": "lao-xng",
+      "url": "https://www.pharmacity.vn/benh/lao-xuong.html",
+      "category": "data_benh_co_xuong_khop",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Lao xương | Phần: Chẩn đoán | Nội dung:\nXét nghiệm máu: Xét nghiệm máu có thể tìm kiếm sự hiện diện của vi khuẩn lao hoặc các kháng thể chống lại vi khuẩn lao.\nChụp X-quang: Chụp X-quang có thể giúp phát hiện tổn thương xương do lao.\nChụp MRI hoặc CT scan: Chụp MRI hoặc CT scan có thể cung cấp hình ảnh chi tiết hơn về xương và khớp bị ảnh hưởng.\nSinh thiết: Sinh thiết có thể được thực hiện để lấy mẫu mô từ xương bị nghi ngờ bị lao để xét nghiệm vi khuẩn lao.",
+    "metadata": {
+      "name": "Lao xương",
+      "id": "lao-xng",
+      "url": "https://www.pharmacity.vn/benh/lao-xuong.html",
+      "category": "data_benh_co_xuong_khop",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Bệnh: Lao xương | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa lao xương\nCách tốt nhất để phòng ngừa lao xương là phòng ngừa lao phổi. Một số biện pháp phòng ngừa lao phổi bao gồm:\nTiêm vắc-xin BCG: Vắc-xin BCG có thể giúp bảo vệ trẻ em khỏi lao nặng, đặc biệt là lao màng não và lao kê.\nĐiều trị lao phổi: Điều trị lao phổi đầy đủ có thể giúp ngăn ngừa vi khuẩn lao lây lan sang các bộ phận khác của cơ thể, bao gồm xương.\nPhát hiện sớm và điều trị lao: Người nghi ngờ bị lao nên được khám và điều trị kịp thời để ngăn ngừa vi khuẩn lao lây lan sang các bộ phận khác của cơ thể.",
+    "metadata": {
+      "name": "Lao xương",
+      "id": "lao-xng",
+      "url": "https://www.pharmacity.vn/benh/lao-xuong.html",
+      "category": "data_benh_co_xuong_khop",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Lao xương | Phần: Cách điều trị | Nội dung:\nĐiều trị lao xương như thế nào?\nĐiều trị lao xương thường bao gồm sử dụng thuốc kháng sinh trong thời gian dài, thường là từ 6 đến 18 tháng. Phác đồ điều trị lao xương thường bao gồm nhiều loại thuốc khác nhau để tiêu diệt vi khuẩn lao và ngăn ngừa vi khuẩn phát triển trở lại.\nNgoài ra, một số biện pháp điều trị khác cũng có thể được sử dụng để hỗ trợ điều trị lao xương, bao gồm:\nNghỉ ngơi: Người bệnh cần nghỉ ngơi đầy đủ để cơ thể có thời gian phục hồi.\nBó bột hoặc nẹp: Bó bột hoặc nẹp có thể được sử dụng để cố định khớp bị ảnh hưởng và giảm đau.\nVật lý trị liệu: Vật lý trị liệu có thể giúp cải thiện phạm vi chuyển động và sức mạnh của khớp bị ảnh hưởng.\nPhẫu thuật: Phẫu thuật có thể được cần thiết trong một số trường hợp, chẳng hạn như khi có áp xe hoặc tổn thương xương nặng.",
+    "metadata": {
+      "name": "Lao xương",
+      "id": "lao-xng",
+      "url": "https://www.pharmacity.vn/benh/lao-xuong.html",
+      "category": "data_benh_co_xuong_khop",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  }
+]

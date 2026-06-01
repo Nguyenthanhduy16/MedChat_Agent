@@ -1,0 +1,254 @@
+[
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Valganciclovir Loại thuốc Thuốc kháng virus.\nDạng thuốc và hàm lượng Viên nén bao phim 450 mg.\nHỗn dịch uống 50 mg/ml.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Chỉ định | Nội dung:\nĐiều trị bệnh viêm võng mạc do cytomegalovirus (CMV) ở bệnh nhân người lớn mắc hội chứng suy giảm miễn dịch mắc phải ( AIDS ).",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Dược lực học | Nội dung:\nValganciclovir là một este L-valyl (tiền chất) của ganciclovir. Sau khi uống, valganciclovir được chuyển hóa nhanh chóng và rộng rãi thành ganciclovir bởi các esterase ở ruột và gan. Ganciclovir là một chất tương tự tổng hợp của 2'-deoxyguanosine và ức chế sự nhân lên của virus herpes trong ống nghiệm và in vivo. Các virus nhạy cảm ở người bao gồm virus cytomegalovirus ở người (HCMV), virus herpes simplex-1 và -2 (HSV-1 và HSV-2), virus herpes ở người -6, -7 và -8 (HHV-6, HHV-7, HHV8), Virus Epstein-Barr (EBV), virus varicella-zoster (VZV) và virus viêm gan B (HBV).",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Dược lực học | Nội dung:\nHoạt tính độc của ganciclovir là do ức chế tổng hợp DNA của virus bằng cách: (a) ức chế cạnh tranh sự kết hợp deoxyguanosine-triphosphate vào DNA bởi DNA polymerase của virus, và (b) sự kết hợp của ganciclovir triphosphate vào DNA của virus gây ra sự chấm dứt, hoặc rất hạn chế, kéo dài thêm DNA của virus.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Dược động học | Nội dung:\nHấp thu Valganciclovir, một tiền chất của ganciclovir, được hấp thu tốt qua đường tiêu hóa và được chuyển hóa nhanh chóng bởi các esterase ở ruột và gan thành ganciclovir. Tiếp xúc toàn thân với tiền chất là thoáng qua và thấp.\nSau khi dùng liều Valganciclovir uống cùng với thức ăn, sinh khả dụng tuyệt đối của ganciclovir là khoảng 60% và thời gian trung bình để nồng độ ganciclovir đạt đỉnh là 2,2 giờ. AUC của ganciclovir tỷ lệ thuận với liều valganciclovir khi dùng trong bữa ăn.\nPhân bố Ganciclovir gắn kết với protein huyết tương 1 – 2%; sự gắn kết với protein của Valganciclovir không được xác định vì chuyển đổi nhanh chóng thành ganciclovir.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Dược động học | Nội dung:\nChuyển hóa Valganciclovir bị thủy phân nhanh chóng thành ganciclovir. Ganciclovir sau đó được phosphoryl hóa bởi protein kinase của virus (pUL97) thành ganciclovir monophosphat trong các tế bào nhiễm CMV. Ganciclovir monophosphat tiếp tục được phosphoryl hóa bởi các kinaza của tế bào thành ganciclovir triphosphat, được chuyển hóa nội bào chậm.\nThải trừ Con đường thải trừ chính của Valganciclovir là thải trừ qua thận dưới dạng ganciclovir bằng cách lọc ở cầu thận và bài tiết tích cực ở ống thận.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Dược động học | Nội dung:\nThời gian bán thải trung bình của ganciclovir sau khi dùng Valganciclovir đường uống (900 mg x 1 lần/ngày với thức ăn) là khoảng 4 giờ ở người lớn khỏe mạnh, người lớn nhiễm HIV hoặc người lớn nhiễm HIV/CMV dương tính (có hoặc không bị viêm võng mạc). Thời gian bán hủy trung bình ở người lớn ghép tim, thận và thận-tụy là 6,6–6,8 giờ.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Liều lượng | Nội dung:\nNgười lớn Điều trị khởi phát viêm võng mạc do CMV Đối với bệnh nhân bị viêm võng mạc do CMV hoạt động, liều khuyến cáo là 900 mg valganciclovir 2 lần/ngày trong 21 ngày và uống cùng với thức ăn bất cứ khi nào có thể.\nĐiều trị duy trì bệnh viêm võng mạc do CMV Sau khi điều trị khởi phát, hoặc ở những bệnh nhân bị viêm võng mạc do CMV không hoạt động, liều khuyến cáo là 900 mg 1 lần/ngày và uống cùng với thức ăn bất cứ khi nào có thể.\nPhòng ngừa bệnh CMV trong ghép tạng rắn Đối với bệnh nhân ghép thận, liều khuyến cáo là 900 mg 1 lần/ngày, bắt đầu trong vòng 10 ngày sau ghép và tiếp tục cho đến 100 ngày sau ghép. Có thể tiếp tục dự phòng cho đến 200 ngày sau khi cấy ghép.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Liều lượng | Nội dung:\nĐối với những bệnh nhân đã được cấy ghép nội tạng rắn ngoài thận, liều khuyến cáo là 900 mg 1 lần/ngày, bắt đầu trong vòng 10 ngày sau khi ghép và tiếp tục cho đến 100 ngày sau khi ghép.\nTrẻ em Viêm võng mạc do CMV ở bệnh nhi nhiễm HIV Điều trị ban đầu (liệu pháp kích thích) ở trẻ lớn hơn và thanh thiếu niên có thể dùng liều người lớn: Khuyến nghị 900 mg x 2 lần/ngày trong 14–21 ngày.\nĐiều trị duy trì (dự phòng thứ phát) ở trẻ lớn hơn và thanh thiếu niên có thể dùng liều người lớn: Khuyến nghị 900 mg 1 lần/ngày .\nBệnh CMV bẩm sinh Bệnh CMV bẩm sinh có triệu chứng: 16 mg/kg x 2 lần/ngày bắt đầu trong tháng đầu tiên sau sinh và tiếp tục trong tổng cộng 6 tháng.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Liều lượng | Nội dung:\nBệnh CMV bẩm sinh Bệnh CMV bẩm sinh có triệu chứng: 16 mg/kg x 2 lần/ngày bắt đầu trong tháng đầu tiên sau sinh và tiếp tục trong tổng cộng 6 tháng.\nPhòng ngừa nhiễm CMV và bệnh tật ở người nhận cấy ghép Người nhận ghép tim trẻ em từ 1 tháng đến 16 tuổi: Dùng một lần mỗi ngày bắt đầu trong vòng 10 ngày kể từ ngày cấy ghép và tiếp tục cho đến 100 ngày sau khi cấy ghép. Tính liều lượng cá nhân bằng cách sử dụng công thức liều lượng cho trẻ em được trình bày dưới đây.\nNgười nhận ghép thận trẻ em từ 4 tháng đến 16 tuổi: Dùng một lần mỗi ngày bắt đầu trong vòng 10 ngày kể từ ngày ghép và tiếp tục cho đến 200 ngày sau ghép. Tính liều lượng cá nhân bằng cách sử dụng công thức liều lượng cho trẻ em được trình bày dưới đây.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Liều lượng | Nội dung:\nCá nhân hóa liều Valganciclovir cho trẻ em để phòng ngừa nhiễm CMV hoặc bệnh dựa trên diện tích bề mặt cơ thể (BSA) và Clcr ước tính (công thức Schwartz đã sửa đổi), và tính toán bằng cách sử dụng công thức liều lượng trẻ em sau:\nLiều dùng cho trẻ em (tính bằng mg) = 7 × BSA (tính bằng m 2\n) × Clcr (công thức Schwartz đã sửa đổi) Schwartz Clcr được sửa đổi (tính bằng mL/phút trên 1,73 m ) = [k × chiều cao (tính bằng cm)]/creatinine huyết thanh (tính bằng mg/dL) Trong đó k = 0,33 đối với trẻ <1 tuổi nhẹ cân so với tuổi thai, 0,45 đối với trẻ <1 tuổi nhẹ cân so với tuổi thai, 0,45 đối với trẻ từ 1 đến <2 tuổi, 0,55 đối với trẻ từ 2 đến < 16 tuổi, 0,55 đối với trẻ em trai từ 2 đến <13 tuổi và 0,7 đối với trẻ em trai từ 13–16 tuổi.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Liều lượng | Nội dung:\nĐể ngăn ngừa quá liều ở bệnh nhân nhi, Clcr ước tính được sử dụng để tính liều cho trẻ em không được vượt quá 150 mL/phút trên 1,73 m bất kể giá trị được tính bằng công thức Schwartz đã sửa đổi. Nếu ước tính Clcr > 150 mL/phút trên 1,73 m sử dụng giá trị 150 mL/phút trên 1,73 m để tính liều. Làm tròn liều tính toán đến mức tăng gần nhất 10 mg. Liều tối đa là 900 mg.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Liều lượng | Nội dung:\nĐối tượng khác Bệnh nhân suy thận Clcr (ml / phút) Liều khởi đầu của Valganciclovir Liều duy trì/phòng ngừa của Valganciclovir ≥ 60 900 mg (2 viên) x 2 lần mỗi ngày 900 mg (2 viên) một lần mỗi ngày 40 - 59 450 mg (1 viên) hai lần mỗi ngày 450 mg (1 viên) một lần mỗi ngày 25 - 39 450 mg (1 viên) 2 ngày một lần 10 - 24 450 mg (1 viên) hai lần mỗi tuần <10 Không được khuyến khích Nếu bạn quên một liều thuốc, hãy dùng càng sớm càng tốt. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch. Lưu ý rằng không nên dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Dự kiến ​​rằng quá liều Valganciclovir có thể dẫn đến tăng độc tính trên thận.\nĐộc tính trên huyết học: Suy tủy bao gồm giảm bạch cầu, suy tủy xương, giảm bạch cầu trung tính, giảm bạch cầu hạt.\nNhiễm độc gan: Viêm gan, rối loạn chức năng gan.\nĐộc tính trên thận: Làm nặng hơn tình trạng đái ra máu ở bệnh nhân suy thận từ trước, chấn thương thận cấp, tăng creatinin.\nNhiễm độc đường tiêu hóa:\nĐau bụng , tiêu chảy, nôn mửa.\nNhiễm độc thần kinh: Run toàn thân, co giật.\nCách xử lý khi quá liều Lọc máu và hydrat hóa có thể có lợi trong việc làm giảm nồng độ huyết tương ở những bệnh nhân dùng quá liều valganciclovir.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Quá liều và xử trí | Nội dung:\nCách xử lý khi quá liều Lọc máu và hydrat hóa có thể có lợi trong việc làm giảm nồng độ huyết tương ở những bệnh nhân dùng quá liều valganciclovir.\nQuên liều và xử trí Nếu bạn quên một liều thuốc, hãy dùng càng sớm càng tốt. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch. Lưu ý rằng không nên dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Tương tác thuốc | Nội dung:\nTương tác Valganciclovir với các thuốc khác Probenecid : Bệnh nhân đang dùng probenecid và Valganciclovir nên được theo dõi chặt chẽ về độc tính của ganciclovir.\nDidanosine: Nồng độ didanosine trong huyết tương được phát hiện tăng lên một cách nhất quán khi dùng ganciclovir IV. Bệnh nhân cần được theo dõi chặt chẽ về độc tính của didanosine , ví dụ như viêm tụy.\nThuốc kháng retrovirus khác: Các isoenzyme cytochrome P450 không có vai trò gì trong dược động học của ganciclovir.\nImipenem-cilastatin: Co giật đã được báo cáo ở những bệnh nhân dùng đồng thời ganciclovir và imipenem-cilastatin.\nZidovudine : Cả zidovudine và ganciclovir đều có khả năng gây giảm bạch cầu và thiếu máu .",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Lưu ý | Nội dung:\nLưu ý chung Do sự giống nhau về cấu trúc hóa học của ganciclovir và aciclovir và penciclovir, phản ứng quá mẫn chéo giữa các thuốc này có thể xảy ra.\nGiảm bạch cầu nghiêm trọng, giảm bạch cầu trung tính, thiếu máu, giảm tiểu cầu, suy tủy xương và thiếu máu bất sản đã được quan sát thấy ở những bệnh nhân được điều trị bằng Valcyte (và ganciclovir). Không nên bắt đầu điều trị nếu số lượng bạch cầu trung tính tuyệt đối dưới 500 tế bào/μl, hoặc số lượng tiểu cầu dưới 25000/μl, hoặc mức hemoglobin dưới 8 g/dl.\nỞ những bệnh nhân bị suy giảm chức năng thận, cần điều chỉnh liều lượng dựa trên độ thanh thải creatinine.\nLưu ý với phụ nữ có thai Không nên dùng thuốc trong thai kỳ trừ khi lợi ích điều trị cho người mẹ cao hơn nguy cơ gây quái thai có thể xảy ra đối với thai nhi.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Valganciclovir | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Chưa biết ganciclovir có được bài tiết qua sữa mẹ hay không, nhưng khả năng ganciclovir được bài tiết qua sữa mẹ và gây ra các phản ứng có hại nghiêm trọng ở trẻ bú mẹ không thể giảm được. Do đó, phải ngừng cho con bú trong thời gian điều trị bằng valganciclovir.\nLưu ý khi lái xe và vận hành máy móc Các phản ứng có hại như co giật, chóng mặt và lú lẫn đã được báo cáo khi sử dụng Valcyte và/hoặc ganciclovir. Nếu xảy ra, những tác động như vậy có thể ảnh hưởng đến các công việc đòi hỏi sự tỉnh táo, bao gồm khả năng lái xe và vận hành máy móc của bệnh nhân.",
+        "metadata": {
+            "name": "Valganciclovir",
+            "id": "valganciclovir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/valganciclovir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

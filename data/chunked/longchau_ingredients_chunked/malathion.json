@@ -1,0 +1,198 @@
+[
+    {
+        "text": "Hoạt chất: Malathion | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Malathion Loại thuốc Thuốc diệt nấm và ký sinh trùng dùng tại chỗ Dạng thuốc và hàm lượng Thuốc bôi da: 0,5%",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Chỉ định | Nội dung:\nChỉ định cho những bệnh nhân bị nhiễm vi khuẩn Pediculus humanus capitis (chấy và buồng trứng của chúng) trên da đầu.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Dược lực học | Nội dung:\nMalathion là một tác nhân organophosphate hoạt động như một chất diệt khuẩn bằng cách ức chế hoạt động cholinesterase trong cơ thể sống. Malathion là chất độc đối với các sinh vật sống dưới nước, nhưng có độc tính tương đối thấp đối với các loài chim và động vật có vú.\nCác chất chuyển hóa chính của malathion là các dẫn xuất của axit mono- và di-carboxylic, và malaoxon là chất chuyển hóa phụ. Tuy nhiên, malaoxon mới là chất ức chế men cholinesterase mạnh nhất.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Dược lực học | Nội dung:\nCholinesterase xúc tác quá trình thủy phân chất dẫn truyền thần kinh acetylcholine thành choline và axit acetic, một phản ứng cần thiết để cho phép tế bào thần kinh cholinergic trở lại trạng thái nghỉ sau khi kích hoạt. Do chức năng thiết yếu của nó, các hóa chất cản trở hoạt động của cholinesterase là chất độc thần kinh mạnh, gây co thắt cơ và cuối cùng là tử vong.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Dược động học | Nội dung:\nHấp thu Sự hấp thụ toàn thân của malathion sau khi bôi kem dưỡng da 0,5% có bán trên thị trường ở Mỹ cho đến nay vẫn chưa được nghiên cứu cụ thể. Kết quả của một nghiên cứu cho thấy một lượng nhỏ thuốc được hấp thụ sau khi bôi lên da đầu và mức độ hấp thu là tương tự giữa các công thức nước và cồn.\nMalathion được hấp thu toàn thân sau khi uống, bôi lên da và niêm mạc, hoặc hít phải bụi hoặc bình xịt.\nMalathion chỉ được hấp thụ qua da người bình thường ở mức độ 8% của liều lượng sử dụng. Sự hấp thu có thể được tăng lên khi malathion được áp dụng cho vùng da bị thương. Malathion được hấp thụ nhanh chóng và hiệu quả trên thực tế trên tất cả các đường bao gồm đường tiêu hóa, da, màng nhầy và phổi.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Dược động học | Nội dung:\nPhân bố Không rõ liệu malathion có đi qua nhau thai, có được phân phối vào sữa sau khi bôi ngoài da hay không.\nKhông tích tụ trong các cơ quan trong cơ thể.\nChuyển hóa Được chuyển hóa nhanh chóng trong cơ thể, chủ yếu bằng cách thủy phân liên kết carboxyl ester với các chất chuyển hóa không hoạt động bởi carboxylesterase.\nCác chất chuyển hóa chính của malathion là axit malathion dicarboxylic (DCA) và axit malathion monocarboxylic (MCA). Malaoxon, chất chuyển hóa ức chế men cholinesterase có hoạt tính của malathion, là chất chuyển hóa thứ yếu. Cả malathion và malaoxon đều được giải độc bởi cacboxyesterase dẫn đến các chất phân cực, tan trong nước được đào thải bên ngoài.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Dược động học | Nội dung:\nThải trừ Malathion và các chất chuyển hóa của nó được bài tiết qua nước tiểu; các chất chuyển hóa monocarboxylic và axit dicarboxylic của malathion cũng được bài tiết qua mật.\nTrong một nghiên cứu sau khi bôi lên da đầu các chế phẩm chứa malathion dạng nước hoặc cồn thì khoảng 0,2–3,2% liều malathion bôi được thải trừ qua nước tiểu dưới dạng chất chuyển hóa trong vòng 96 giờ.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Liều lượng | Nội dung:\nLiều dùng Malathion Người lớn Một lần điều trị thường thành công; việc điều trị có thể được lặp lại sau 7–10 ngày nếu vẫn còn chấy.\nCác phương pháp điều trị bổ sung nói chung là không cần thiết.\nTrẻ em Trẻ em từ 6 tuổi trở lên: Dùng liều tương tự người lớn.\nCách dùng Thoa lên tóc khô một lượng vừa đủ để làm ướt tóc và da đầu (bao gồm cả vùng sau đầu và gáy).\nSau 8–12 giờ, gội sạch tóc (bao gồm cả vùng sau đầu và cổ) với dầu gội và xả sạch bằng nước. Dùng lược răng thưa (nit) để loại bỏ chấy và trứng chấy đã chết.\nVì thuốc bôi malathion thường chỉ cần dùng một lần, bạn không có khả năng phải theo lịch trình dùng thuốc. Chờ ít nhất 7 ngày trước khi sử dụng ứng dụng thứ hai.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Thuốc này có thể có hại nếu nuốt phải.\nCác triệu chứng quá liều có thể bao gồm: Khó thở, yếu cơ, tê liệt, run rẩy, tăng tiết mồ hôi, tiết nước bọt, chảy nước mắt nước mắt, tăng nước tiểu, buồn nôn, nôn, tiêu chảy, lo lắng, nhức đầu, lú lẫn, chóng mặt, buồn ngủ, nhịp tim chậm hoặc nhanh.\nCách xử lý khi quá liều Các phân tích lặp lại huyết thanh và cholinesterase RBC, xem xét nồng độ cồn isopropyl cao trong thành phần thuốc có thể hỗ trợ việc thiết lập chẩn đoán và hình thành tiên lượng dài hạn.\nNếu không may nuốt phải malathion, cần gây nôn kịp thời hoặc rửa dạ dày bằng dung dịch natri bicarbonat 5%.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Quá liều và xử trí | Nội dung:\nNếu không may nuốt phải malathion, cần gây nôn kịp thời hoặc rửa dạ dày bằng dung dịch natri bicarbonat 5%.\nSuy hô hấp nghiêm trọng là triệu chứng chính và nghiêm trọng nhất của ngộ độc organophosphat cần phải hô hấp nhân tạo, và có thể cần dùng atropine để chống lại các triệu chứng suy giảm cholinesterase.\nQuên liều và xử trí Vì thuốc bôi malathion thường chỉ cần dùng một lần, bạn không có khả năng phải theo lịch trình dùng thuốc. Chờ ít nhất 7 ngày trước khi sử dụng ứng dụng thứ hai.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Nồng độ trong huyết thanh của malathion có thể được tăng lên khi nó được kết hợp với abametapir .\nHiệu quả điều trị của malathion có thể bị giảm khi sử dụng kết hợp với dipyridamole Nguy cơ hoặc mức độ nghiêm trọng của kéo dài QTc có thể tăng lên khi malathion được kết hợp với fluoxetine, haloperidol , hydroxyzine, trazodone, ziprasidone Nguy cơ hoặc mức độ nghiêm trọng của nhịp tim chậm có thể tăng lên khi ponesimod được kết hợp với malathion.\nMalathion có thể làm tăng các hoạt động kéo dài QTc của pitolisant, lefamulin",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Lưu ý | Nội dung:\nLưu ý chung Chỉ sử dụng ngoài da. Không bôi lên môi, mắt, hoặc vùng mu và không dùng đường uống.\nTránh tiếp xúc với mắt. Nên nhắm chặt mắt và che mắt bằng khăn mềm hoặc khăn trong khi thoa hoặc gội sạch tóc trên da đầu. Nếu tiếp xúc với mắt, ngay lập tức rửa sạch bằng nước. Nếu vẫn tiếp tục bị kích ứng mắt hoặc thay đổi thị lực, hãy hỏi ý kiến bác sĩ.\nThuốc bôi malathion dễ cháy. Không để kem hoặc tóc đã làm ướt kem tiếp xúc với ngọn lửa trần, thuốc lá đang đốt hoặc nguồn nhiệt điện (ví dụ: Máy sấy tóc, máy uốn tóc bằng điện). Những người thoa kem hoặc những bệnh nhân có tóc ướt với kem nên hạn chế hút thuốc.\nKhi bôi kem malathion 0,5% nên rửa tay thật sạch sau khi bôi xong.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Lưu ý | Nội dung:\nKhi bôi kem malathion 0,5% nên rửa tay thật sạch sau khi bôi xong.\nSản phẩm này có thể chứa các thành phần có thể gây ra phản ứng dị ứng hoặc các vấn đề khác. Trước khi sử dụng malathion, cho bác sĩ hoặc dược sĩ của bạn nếu bạn bị dị ứng với nó; hoặc nếu bạn có bất kỳ dị ứng nào khác.\nTrước khi sử dụng thuốc này, hãy cho bác sĩ hoặc dược sĩ biết tiền sử bệnh của bạn, đặc biệt là: hen suyễn, nhiễm trùng da, các vấn đề về da hoặc da đầu (ví dụ: Bệnh vẩy nến, bệnh chàm), vết loét hoặc vết thương hở trên da đầu.\nViệc gãi mạnh hoặc quá mạnh có thể dẫn đến nhiễm trùng da do vi khuẩn. Hãy cho bác sĩ của bạn ngay lập tức nếu bạn bị mẩn đỏ hoặc chảy mủ ngày càng nặng.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Malathion | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Trong khi mang thai, thuốc này chỉ nên được sử dụng khi thực sự cần thiết. Thảo luận về những rủi ro và lợi ích với bác sĩ của bạn. Nếu bạn đang mang thai và bôi thuốc này cho người khác, hãy xử lý cẩn thận.\nLưu ý với phụ nữ cho con bú Không rõ liệu thuốc này có đi vào sữa mẹ hay không. Tham khảo ý kiến bác sĩ trước khi cho con bú.\nLưu ý khi lái xe và vận hành máy móc Không tìm thấy thông tin.",
+        "metadata": {
+            "name": "Malathion",
+            "id": "malathion",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/malathion",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

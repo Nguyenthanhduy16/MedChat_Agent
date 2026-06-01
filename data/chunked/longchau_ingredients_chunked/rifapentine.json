@@ -1,0 +1,226 @@
+[
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Rifapentine Loại thuốc Chống lao.\nDạng thuốc và hàm lượng Viên nén bao phim 150mg.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Chỉ định | Nội dung:\nĐiều trị bệnh lao (TB) hoạt động kết hợp với các thuốc chống lao khác.\nĐể điều trị lao phổi, rifapentine có thể được sử dụng trong cả giai đoạn tấn công và giai đoạn duy trì, ATC, CDC và IDSA đề nghị không sử dụng thuốc trong giai đoạn tấn công, nhưng có thể xem như thuốc chống lao đầu tay cho giai đoạn duy trì của phác đồ ngắt quãng được sử dụng để điều trị lao phổi.\nKinh nghiệm ở bệnh nhân nhiễm HIV còn hạn chế, tỷ lệ tái phát lao cao hơn được báo cáo ở những bệnh nhân nhiễm HIV được điều trị theo phác đồ rifapentine và isoniazid mỗi tuần một lần. ATS, CDC, IDSA và các chuyên gia khác tuyên bố rằng không nên sử dụng phác đồ rifapentine và isoniazid mỗi tuần một lần cho bệnh nhân nhiễm HIV.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Chỉ định | Nội dung:\nDo kinh nghiệm còn hạn chế, ATS, CDC và IDSA cho rằng không nên sử dụng rifapentine để điều trị lao ngoài phổi .",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Dược lực học | Nội dung:\nRifapentine ức chế RNA polymerase phụ thuộc DNA ở Mycobacterium tuberculosis nhạy cảm. Cả rifapentine và chất chuyển hóa chính của nó đều có hoạt tính kháng khuẩn.\nMycobacterium: Tác động in vitro và nhiễm trùng lâm sàng chống lại M. tuberculosis. Có một số tác động chống lại M. avium complex (MAC).\nVi khuẩn Gram âm: Tác động in vitro chống lại Brucella, Legionella, Neisseria, Haemophilus influenza, Bordetella pertussis và B. parapertussis.\nVi khuẩn Gram dương: Tác động in vitro chống lại liên cầu, tụ cầu, Corynebacterium pseudodiphtheriticum, Arcanobacterium haemolyticum (trước đây là Corynebacterium haemolyticum), A. pyogenes, Listeria, Turicella otitidis, Brevibacterium và Oerskovia.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Dược động học | Nội dung:\nHấp thu Dễ dàng hấp thụ từ đường tiêu hóa, nồng độ đỉnh trong huyết tương đạt được trong vòng 5 – 6 giờ. Nồng độ ở trạng thái ổn định đạt được vào ngày thứ 10 khi sử dụng chế độ một ngày một lần. Thức ăn làm tăng mức độ hấp thụ. So với khi dùng lúc đói, AUC tăng 43% và nồng độ đỉnh trong huyết tương tăng 44% khi dùng một liều 600mg duy nhất trong bữa ăn (850 calo, 33g protein, 55g chất béo, 58g carbohydrate).\nPhân bố Tích lũy trong các đại thực bào có nguồn gốc từ bạch cầu đơn nhân của con người, nồng độ nội bào cao hơn nồng độ ngoại bào. Liên kết protein huyết tương 97,7%.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Dược động học | Nội dung:\nChuyển hóa và thải trừ Chất chuyển hóa có hoạt tính (25-desacetyl rifapentine): 93,2%. Chuyển hóa bởi các enzym esterase thành 25-desacetyl rifapentine, chất chuyển hóa có hoạt tính chống lại vi khuẩn mycobacteria. Thải trừ qua phân (70%) và nước tiểu (17%). Thời gian bán thải 13,19 giờ.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Liều lượng | Nội dung:\nLiều dùng Rifapentine Được sử dụng trong phác đồ điều trị lao nhiều loại thuốc ngắt quãng (một lần hoặc hai lần mỗi tuần), nhà sản xuất khuyến cáo khoảng cách giữa các liều ≥3 ngày (≥72 giờ).\nTrẻ em Trẻ em từ 12 – 15 tuổi: 600mg x 2 lần/tuần trong giai đoạn tấn công (2 tháng), sau đó 600mg x 1 lần/tuần trong giai đoạn duy trì (4 tháng).\nThanh thiếu niên ≥15 tuổi: 10mg/kg (lên đến 600mg) mỗi tuần một lần do ATS, CDC và IDSA khuyến nghị cho giai đoạn duy trì.\nNgười lớn Liều 600mg x 2 lần/tuần trong giai đoạn tấn công (2 tháng), sau đó 600mg x 1 lần/tuần trong giai đoạn duy trì (4 tháng).",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Liều lượng | Nội dung:\nNgười lớn Liều 600mg x 2 lần/tuần trong giai đoạn tấn công (2 tháng), sau đó 600mg x 1 lần/tuần trong giai đoạn duy trì (4 tháng).\nLiều 10mg/kg (lên đến 600mg) mỗi tuần một lần được khuyến cáo bởi ATS, CDC và IDSA cho giai đoạn duy trì, không khuyến khích sử dụng trong giai đoạn tấn công. Thời gian của giai đoạn duy trì là 4 tháng ở những người có kết quả xét nghiệm đờm âm tính khi hoàn thành giai đoạn đầu hoặc 7 tháng ở những người có kết quả xét nghiệm đờm dương tính khi hoàn thành giai đoạn đầu.\nCách dùng Rifapentine Dùng đường uống.\nDùng chung với thức ăn có thể làm giảm buồn nôn, nôn mửa hoặc khó chịu GI ở những người nhạy cảm.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Liều lượng | Nội dung:\nCách dùng Rifapentine Dùng đường uống.\nDùng chung với thức ăn có thể làm giảm buồn nôn, nôn mửa hoặc khó chịu GI ở những người nhạy cảm.\nSử dụng đồng thời pyridoxine (vitamin B 6) ở những người bị suy dinh dưỡng hoặc dễ mắc bệnh thần kinh (ví dụ: Người nghiện rượu, bệnh nhân tiểu đường) và thanh thiếu niên.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Chưa có thông tin.\nCách xử lý khi quá liều Rifapentine Tìm kiếm sự chăm sóc y tế khẩn cấp hoặc gọi cho đường dây 115.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Tương tác thuốc | Nội dung:\nTương tác Rifapentine với các thuốc khác Thuốc Rifapentine ảnh hưởng hoặc chuyển hóa bởi các enzym ở vi mô gan.\nTương tác dược động học có thể xảy ra với các thuốc được chuyển hóa bởi CYP3A4 hoặc CYP2C8/9, tăng chuyển hóa của các thuốc này.\nCác chất ngăn chặn β-Adrenergic: Khả năng tăng chuyển hóa của tác nhân ngăn chặn β-adrenergic.\nThuốc kháng axit: Trong các nghiên cứu lâm sàng, bệnh nhân được khuyên dùng rifapentine 1 giờ trước hoặc 2 giờ sau khi dùng thuốc kháng axit.\nThuốc chống loạn nhịp tim ( disopyramide , mexiletine, quinidine , tocainide): Khả năng tăng chuyển hóa của tác nhân chống loạn nhịp tim.\nThuốc chống đông máu, đường uống ( warfarin ): Khả năng tăng chuyển hóa warfarin.\nThuốc chống co giật (phenytoin): Khả năng tăng chuyển hóa phenytoin.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Tương tác thuốc | Nội dung:\nThuốc chống co giật (phenytoin): Khả năng tăng chuyển hóa phenytoin.\nThuốc chống nấm, azoles ( fluconazole , itraconazole, ketoconazole): Khả năng tăng chuyển hóa chất chống nấm.\nThuốc kháng retrovirus, thuốc ức chế sự xâm nhập của HIV (Maraviroc): Không nên sử dụng đồng thời.\nThuốc kháng retrovirus, thuốc ức chế protease HIV (PI) (Indinavir): Giảm AUC và nồng độ của indinavir, không ảnh hưởng đến dược động học của rifapentine. Atazanavir, fosamprenavir, lopinavir, nelfinavir, ritonavir, saquinavir: Nồng độ PI có thể giảm. Không nên sử dụng đồng thời với PI.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Lưu ý | Nội dung:\nLưu ý chung Sử dụng rifapentine ở bệnh nhân có xét nghiệm bất thường chức năng gan hoặc bệnh gan chỉ khi sử dụng được coi là cần thiết và cần thận trọng và giám sát y tế chặt chẽ. Ngừng thuốc nếu các dấu hiệu của bệnh gan phát triển hoặc nặng hơn. Xem xét khả năng độc trên gan của các thuốc chống lao khác (ví dụ, isoniazid, pyrazinamide) nếu những thuốc này được sử dụng với rifapentine.\nTăng bilirubin trong máu (do sự cạnh tranh giữa rifapentine và bilirubin về đường bài tiết trong gan) có thể xảy ra.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Lưu ý | Nội dung:\nTăng bilirubin trong máu (do sự cạnh tranh giữa rifapentine và bilirubin về đường bài tiết trong gan) có thể xảy ra.\nĐiều trị bằng thuốc chống nhiễm trùng, bao gồm cả rifamycins, có thể cho phép clostridia phát triển quá mức. Cân nhắc tiêu chảy và viêm đại tràng do C. difficile (CDAD - còn được gọi là tiêu chảy và viêm đại tràng liên quan đến kháng sinh hoặc viêm đại tràng giả mạc) nếu tiêu chảy phát triển và xử trí phù hợp.\nMột số trường hợp CDAD nhẹ có thể đáp ứng với việc ngưng thuốc đơn thuần. Xử trí các trường hợp trung bình đến nặng bằng các chất bổ sung chất lỏng, chất điện giải và protein, điều trị chống nhiễm trùng thích hợp (ví dụ: Metronidazole uống hoặc vancomycin) được khuyến cáo nếu viêm đại tràng nặng. Thuốc ức chế nhu động chống chỉ định ở những bệnh nhân này.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Lưu ý | Nội dung:\nKhông nên sử dụng đồng thời với thuốc ức chế protease HIV (PI), thuốc ức chế men sao chép ngược không phải nucleoside (NNRTI) hoặc một số chất ức chế xâm nhập HIV nhất định.\nKhông nên dùng cho bệnh nhân rối loạn chuyển hóa porphyrin. Đã có những báo cáo riêng biệt về đợt cấp của rối loạn chuyển hóa porphyrin ở bệnh nhân dùng rifampin (rifampin có đặc tính cảm ứng enzym, bao gồm cảm ứng enzym delta amino levulinic acid synthetase), tác dụng tương tự có thể xảy ra với rifapentine.\nNước tiểu, mồ hôi, đờm, nước mắt và sữa mẹ có thể có màu đỏ cam trong khi điều trị bằng rifapentine. Kính áp tròng mềm và răng giả có thể bị ố vĩnh viễn.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Rifapentine | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Dùng rifampin trong vài tuần cuối của thai kỳ có thể gây xuất huyết sau sinh ở mẹ và trẻ sơ sinh cần điều trị bằng vitamin K. Các tác dụng tương tự có thể xảy ra với rifapentine. Các thông số đông máu thích hợp nên được đánh giá nếu việc sử dụng rifapentine được coi là cần thiết trong vài tuần cuối của thai kỳ.\nDữ liệu nghiên cứu ATS, CDC và IDSA không đủ để khuyến cáo sử dụng rifapentine ở phụ nữ mang thai.\nLưu ý với phụ nữ cho con bú Không biết liệu rifapentine có được phân phối vào sữa hay không, ngừng cho con bú hoặc thuốc. Sữa mẹ có thể có màu đỏ cam trong khi điều trị bằng rifapentine.\nLưu ý khi lái xe và vận hành máy móc Chưa có thông tin.",
+        "metadata": {
+            "name": "Rifapentine",
+            "id": "rifapentine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/rifapentine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

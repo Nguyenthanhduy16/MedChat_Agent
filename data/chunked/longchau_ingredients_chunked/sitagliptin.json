@@ -1,0 +1,198 @@
+[
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Sitagliptin Loại thuốc Thuốc ức chế Dipeptidyl peptidase 4 (DPP-4), thuốc điều trị đái tháo đường Dạng thuốc và hàm lượng Viên nén bao phim: 25 mg, 50 mg, 100 mg.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Chỉ định | Nội dung:\nĐiều trị đái tháo đường type 2.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Dược lực học | Nội dung:\nThuốc chống tăng đường huyết uống được gọi là chất ức chế dipeptidyl peptidase 4 (DPP-4). Sự cải thiện trong kiểm soát đường huyết được quan sát thấy với thuốc này có thể qua trung gian tăng cường mức độ hoạt động của các kích thích tố incretin.\nCác hormone này, bao gồm glucagon-like peptid-1 (GLP-1) và glucosedependent insulinotropic polypeptid (GIP), được ruột tiết ra suốt cả ngày và nồng độ được tăng lên theo bữa ăn.\nKhi nồng độ glucose trong máu ở mức bình thường hoặc tăng cao, GLP-1 và GIP làm tăng tổng hợp và giải phóng insulin từ các tế bào beta tuyến tụy bằng các con đường tín hiệu nội bào liên quan đến AMP vòng.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Dược lực học | Nội dung:\nNgoài ra, GLP-1 làm giảm tiết glucagon từ các tế bào alpha của tuyến tụy. Nồng độ glucagon giảm cùng với lượng insulin cao hơn dẫn đến giảm sản xuất glucose ở gan, giảm lượng glucose trong máu.\nTác dụng của GLP-1 và GIP phụ thuộc vào glucose do đó khi nồng độ glucose trong máu thấp, không quan sát thấy kích thích giải phóng insulin và ức chế bài tiết glucagon bởi GLP-1.\nHoạt động của GLP-1 và GIP bị hạn chế bởi enzym DPP-4, enzym này sẽ nhanh chóng thủy phân các hormone incretin để tạo ra các sản phẩm không hoạt động.\nSitagliptin ngăn cản quá trình thủy phân các hormone incretin bởi DPP-4, do đó làm tăng nồng độ trong huyết tương của các dạng hoạt động của GLP-1 và GIP.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Dược lực học | Nội dung:\nBằng cách tăng cường mức độ incretin hoạt động, sitagliptin làm tăng giải phóng insulin và giảm mức glucagon phụ thuộc vào glucose.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Dược động học | Nội dung:\nHấp thu Hấp thu nhanh sau khi uống, ở trạng thái ổn định (trong vòng 3 ngày kể từ khi bắt đầu điều trị), nồng độ đỉnh trong huyết tương thường đạt được ≤ 3 giờ sau khi dùng các liều khuyến cáo.\nSinh khả dụng tuyệt đối của sitagliptin là 87%.\nPhân bố Phân phối vào sữa ở chuột, không biết có được phân phối vào sữa mẹ hay không.\nLiên kết protein huyết tương 38%.\nChuyển hóa Được chuyển hóa ở một mức độ nhỏ bởi CYP isoenzyme 3A4 và 2C8 thành các chất chuyển hóa không hoạt động.\nThải trừ Thải trừ chủ yếu qua thận qua bài tiết tích cực ở ống thận. Thải trừ qua nước tiểu (87%) chủ yếu dưới dạng không đổi và qua phân (13%).\nThời gian bán thải 12,4 giờ.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Liều lượng | Nội dung:\nNgười lớn Liều là 100 mg sitagliptin một lần mỗi ngày.\nLiệu pháp kết hợp cố định metformin hydrochloride giải phóng tức thì: Ban đầu, 50 mg sitagliptin và 500 mg metformin hydrochloride giải phóng ngay hai lần mỗi ngày dưới dạng kết hợp cố định.\nKhi phối hợp sitagliptin với Insulin hoặc thuốc tăng tiết insulin (sulfonylurea) cần giảm liều insulin hoặc sulfonylurea.\nĐối tượng khác Bệnh nhân suy thận:\nĐối với bệnh nhân suy thận nhẹ (mức lọc cầu thận [GFR] ≥ 60 đến < 90 mL/phút), không cần điều chỉnh liều.\nĐối với bệnh nhân suy thận trung bình (GFR ≥ 45 đến < 60 mL/phút), không cần điều chỉnh liều.\nĐối với bệnh nhân suy thận trung bình (GFR ≥ 30 đến < 45 mL/phút), liều là 50 mg một lần mỗi ngày.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Liều lượng | Nội dung:\nĐối với bệnh nhân suy thận trung bình (GFR ≥ 30 đến < 45 mL/phút), liều là 50 mg một lần mỗi ngày.\nĐối với bệnh nhân suy thận nặng (GFR ≥ 15 đến < 30 mL/phút) hoặc bệnh thận giai đoạn cuối (ESRD) (GFR < 15 mL/phút), kể cả những người cần chạy thận nhân tạo hoặc thẩm phân phúc mạc, liều là 25 mg một lần mỗi ngày. Có thể tiến hành điều trị mà không cần quan tâm đến thời gian lọc máu.\nNếu quên dùng một liều thuốc, hãy dùng càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch.\nKhông dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Quá liều và xử trí | Nội dung:\nQuên liều Sitagliptin và xử trí Nếu quên dùng một liều thuốc, hãy dùng càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch.\nKhông dùng gấp đôi liều đã quy định.\nQuá liều và xử trí Quá liều và độc tính Không gây bất lợi trên lâm sàng.\nCách xử lý khi quá liều Trong trường hợp quá liều, sử dụng các biện pháp hỗ trợ thông thường, ví dụ, loại bỏ chất không được hấp thụ khỏi đường tiêu hóa, theo dõi lâm sàng (bao gồm cả việc lấy điện tâm đồ) và tiến hành liệu pháp hỗ trợ nếu cần thiết.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác:\nCác chất ức chế CYP3A4 mạnh (như ketoconazole, itraconazole ,\nritonavir , clarithromycin) có thể làm thay đổi dược động học của sitagliptin ở bệnh nhân suy thận nặng hoặc ESRD.\nSitagliptin là chất nền cho p-glycoprotein và chất vận chuyển anion hữu cơ-3 (OAT3). Sự vận chuyển qua trung gian OAT3 của sitagliptin bị ức chế trong ống nghiệm bởi probenecid, mặc dù nguy cơ xảy ra các tương tác có ý nghĩa lâm sàng được coi là thấp.\nMetformin: Dùng đồng thời nhiều liều mỗi ngày 1000 mg metformin với 50 mg sitagliptin không làm thay đổi đáng kể dược động học của sitagliptin ở bệnh nhân đái tháo đường type 2.\nDigoxin :",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Tương tác thuốc | Nội dung:\nDigoxin :\nSitagliptin có ảnh hưởng nhỏ đến nồng độ digoxin trong huyết tương. Sau khi dùng 0,25 mg digoxin đồng thời với 100 mg sitagliptin mỗi ngày trong 10 ngày, AUC huyết tương của digoxin tăng trung bình 11% và C max huyết tương trung bình là 18%.\nKhông khuyến cáo điều chỉnh liều digoxin. Tuy nhiên, những bệnh nhân có nguy cơ ngộ độc digoxin nên được theo dõi khi dùng đồng thời sitagliptin và digoxin.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Lưu ý | Nội dung:\nLưu ý chung Viêm tụy cấp Sử dụng chất ức chế DPP-4 có liên quan đến nguy cơ phát triển viêm tụy cấp tính. Bệnh nhân cần được thông báo về triệu chứng đặc trưng của viêm tụy cấp: đau bụng dữ dội, dai dẳng.\nHạ đường huyết khi sử dụng kết hợp với các thuốc chống tăng đường huyết khác Trong các thử nghiệm lâm sàng của thuốc dưới dạng đơn trị liệu và là một phần của liệu pháp phối hợp với các sản phẩm thuốc không được biết là gây hạ đường huyết (tức là metformin và/hoặc chất chủ vận PPARγ), tỷ lệ hạ đường huyết được báo cáo với sitagliptin tương tự như tỷ lệ ở bệnh nhân dùng giả dược.\nHạ đường huyết đã được ghi nhận khi sử dụng sitagliptin kết hợp với insulin hoặc sulphonylurea. Do đó, để giảm nguy cơ hạ đường huyết, có thể cân nhắc sử dụng liều sulphonylurea hoặc insulin thấp hơn.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Lưu ý | Nội dung:\nSuy thận Sitagliptin được bài tiết qua thận. Để đạt được nồng độ sitagliptin trong huyết tương tương tự như ở bệnh nhân có chức năng thận bình thường, khuyến cáo dùng liều thấp hơn ở bệnh nhân có GFR <45 mL/phút, cũng như ở bệnh nhân ESRD cần thẩm phân máu hoặc thẩm phân phúc mạc.\nPhản ứng quá mẫn Đã có các báo cáo sau khi đưa ra thị trường về phản ứng quá mẫn nghiêm trọng ở bệnh nhân được điều trị bằng sitagliptin. Những phản ứng này bao gồm sốc phản vệ, phù mạch và tình trạng da tróc vảy bao gồm hội chứng Stevens-Johnson.\nNhững phản ứng này khởi phát trong vòng 3 tháng đầu tiên sau khi bắt đầu điều trị, với một số báo cáo xảy ra sau liều đầu tiên. Nếu nghi ngờ có phản ứng quá mẫn, nên ngừng dùng thuốc.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sitagliptin | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Không có dữ liệu đầy đủ về việc sử dụng sitagliptin ở phụ nữ có thai. Các nghiên cứu trên động vật cho thấy độc tính sinh sản ở liều cao, những nguy cơ tiềm ẩn cho con người là không xác định. Do thiếu dữ liệu trên người, thuốc không nên được sử dụng trong thời kỳ mang thai.\nLưu ý với phụ nữ cho con bú Người ta vẫn chưa biết liệu sitagliptin có được bài tiết vào sữa mẹ hay không. Các nghiên cứu trên động vật đã cho thấy sự bài tiết sitagliptin trong sữa mẹ. Thuốc không nên dùng trong thời kỳ cho con bú.\nLưu ý khi lái xe và vận hành máy móc Thuốc không có hoặc ảnh hưởng không đáng kể đến khả năng lái xe và sử dụng máy móc. Tuy nhiên, khi lái xe hoặc sử dụng máy móc, cần lưu ý rằng tình trạng chóng mặt và buồn ngủ đã được báo cáo.",
+        "metadata": {
+            "name": "Sitagliptin",
+            "id": "sitagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sitagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

@@ -1,0 +1,254 @@
+[
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Bevacizumab Loại thuốc Thuốc chống ung thư và điều hoà miễn dịch (kháng thể đơn dòng).\nDạng thuốc và hàm lượng Dung dịch đậm đặc pha tiêm 25 mg/ml.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Chỉ định | Nội dung:\nBevacizumab được chỉ định cho những trường hợp sau:\nPhối hợp với hoá trị liệu có fluoropyrimidine trong điều trị ung thư biểu mô di căn ở đại tràng hoặc trực tràng (mCRC).\nPhối hợp với paclitaxel trong phác đồ đầu tay điều trị ung thư vú di căn.\ncapecitabine trong điều trị đầu tay ung thư vú di căn khi các thuốc hóa trị khác bao gồm các taxane hoặc anthracycline không phù hợp với bệnh nhân.\nHỗ trợ hóa trị liệu có platin trong điều trị ung thư phổi không tế bào nhỏ, tiến triển, di căn hoặc tái phát.\nPhối hợp với erlotinib trong chỉ định điều trị đầu tay ung thư phổi không tế bào nhỏ và không tế bào vảy tiến triển, di căn hoặc tái phát có đột biến kích hoạt thụ thể yếu tố tăng trưởng biểu mô (EGFR).",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Chỉ định | Nội dung:\nPhối hợp với interferon alfa 2a trong phác đồ đầu tay điều trị ung thư tế bào thận tiến triển và/ hoặc di căn.\nPhối hợp với carboplatin và paclitaxel điều trị ung thư biểu mô buồng trứng, ống dẫn trứng và ung thư phúc mạc nguyên phát trong giai đoạn tiến triển (giai đoạn III B, III C và IV theo FIGO).\nPhối hợp carboplatin và gemcitabine hoặc carboplatin và paclitaxel trong điều trị ung thư biểu mô, ung thư ống dẫn trứng hoặc ung thư phúc mạc nguyên phát nhạy cảm với platin trong lần tái phát đầu tiên ở những bệnh nhân chưa từng điều trị bằng bevacizumab hoặc các chất ức chế VEGF khác hoặc các tác nhân nhắm vào thụ thể VEGF.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Chỉ định | Nội dung:\nPhối hợp topotecan, hoặc doxorubicin liposom PEG hoá điều trị ung thư biểu mô buồng trứng, ống dẫn trứng hoặc ung thư phúc mạc tái phát kháng platin, ở những bệnh nhân chưa thực hiện quá hai phác đồ hóa trị trước đó và bệnh nhân chưa từng điều trị bằng bevacizumab hoặc các chất ức chế VEGF khác hoặc các tác nhân nhắm vào thụ thể VEGF.\nPhối hợp với paclitaxel và cisplatin hoặc paclitaxel và topotecan ở những bệnh nhân không thể dùng platin để điều trị ung thư biểu mô cổ tử cung dai dẳng, tái phát hoặc di căn.\nUng thư biểu mô tế bào gan.\nU nguyên bào thần kinh đệm đa dạng.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Dược lực học | Nội dung:\nBevacizumab liên kết với yếu tố tăng trưởng nội mô mạch máu (VEGF) là tác nhân chính của quá trình hình thành và tăng trưởng mạch máu, dẫn đến ức chế sự gắn kết của VEGF với các thụ thể Flt 1 (VEGFR 1) và KDR (VEGFR 2) trên bề mặt tế bào nội mô.\nTrung hòa hoạt tính sinh học của VEGF làm giảm cung cấp máu đến khối u, ức chế sự hình thành mạch máu khối u mới, do đó ức chế sự phát triển của khối u.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Dược động học | Nội dung:\nHấp thu Bevacizumab được sử dụng đường tiêm truyền nên hấp thu hoàn toàn vào tuần hoàn chung. Dược động học của bevacizumab tuyến tính ở liều từ 1 - 10 mg/kg. Nồng độ đỉnh trong huyết thanh Cmax là 17,38 ug/mL, AUC 5,358 ug.h/mL và Tmax là 2,5 giờ.\nPhân bố Thể tích phân bố trùng bình là 2,9 L: 3,2 L ở nam giới và 2,7 L ở nữ giới. Hơn 97% VEGF huyết thanh liên kết với bevacizumab.\nChuyển hóa Bevacizumab bị phân giải ở lưới nội mô giống như các IgG của cơ thể.\nThải trừ Kháng thể đơn dòng không bị đào thải qua thận trong điều kiện sinh lý bình thường. Dị hóa là quá trình đào thải chính. Giá trị độ thanh thải trung bình của nam và nữ tương ứng là 0,188 và 0,220 L /ngày. Thời gian bán thải khoảng 20 ngày.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Liều lượng | Nội dung:\nLiều dùng Bevacizumab Người lớn Ung thư biểu mô đại – trực tràng di căn (mCRC):\nPhối hợp với phác đồ IFL: 5 mg/kg mỗi 2 tuần.\nPhối hợp với phác đồ FOLFOX4: 10 mg/kg mỗi 2 tuần.\nPhối hợp với phác đồ có fluoropyrimidine: 5 mg/kg/lần mỗi 2 tuần hoặc 7,5 mg/kg/lần mỗi 3 tuần.\nUng thư vú di căn (mBC):\nLiều lượng: 10 mg/kg/lần mỗi 2 tuần hoặc 15mg/kg/lần mỗi 3 tuần.\nUng thư phổi không phải tế bào nhỏ (NSCLC):\nPhối hợp với carboplatin và paclitaxel: 15 mg/ kg/ lần mỗi 3 tuần.\nPhối hợp với carboplatin: 7,5 – 15 mg/ kg/ lần mỗi 3 tuần.\nUng thư phổi không tế bào nhỏ và không tế bào vảy có đột biến kích hoạt thụ thể yếu tố tăng trưởng biểu mô (EGFR):\nPhối hợp với erlotinib: 15 mg/kg/lần mỗi 3 tuần.\nUng thư tế bào thận tiến triển và/ hoặc di căn (mRCC):",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Liều lượng | Nội dung:\nPhối hợp với erlotinib: 15 mg/kg/lần mỗi 3 tuần.\nUng thư tế bào thận tiến triển và/ hoặc di căn (mRCC):\nPhối hợp với interferon alfa: 10 mg/ kg/ lần mỗi 2 tuần.\nUng thư biểu mô buồng trứng, ống dẫn trứng và ung thư phúc mạc nguyên phát:\nPhác đồ ưu tiên:\nPhối hợp với carboplatin và paclitaxel: 15 mg/ kg/ lần mỗi 3 tuần trong tối đa 6 chu kỳ điều trị, sau đó tiếp tục sử dụng bevacizumab đơn trị đến khi bệnh chuyển biến tốt hoặc trong tối đa 15 tháng hoặc cho đến khi không dung nạp được tác dụng phụ được tùy theo điều kiện nào xảy ra trước.\nPhác đồ điều trị khi tái phát và vẫn còn nhạy cảm với platin:\nPhối hợp với carboplatin và gemcitabine: 15 mg/kg/lần mỗi 3 tuần trong 6 – 10 chu kỳ hoặc phối hợp trong 6 – 8 chu kỳ, sau đó tiếp tục sử dụng bevacizumab đơn trị.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Liều lượng | Nội dung:\nPhác đồ điều trị khi tái phát nhưng không còn nhạy cảm với platin:\nPhối hợp topotecan (dùng hàng tuần): 15 mg/kg/lần mỗi 3 tuần Phối hợp doxorubicin liposom PEG hoá: 10 mg kg/lần mỗi 2 tuần.\nUng thư cổ tử cung:\nPhối hợp với paclitaxel và cisplatin hoặc paclitaxel và topotecan: 15 mg/kg/lần mỗi 3 tuần.\nU nguyên bào thần kinh đệm đa dạng:\nLiều lượng: 10 mg/kg/lần mỗi 2 tuần.\nUng thư biểu mô tế bào gan:\nLiều lượng: 15 mg/kg mỗi 3 tuần (sau khi dùng atezolizumab 1200 mg IV trong cùng một ngày).\nCách dùng Tiêm truyền tĩnh mạch.\nLần đầu tiên truyền thuốc trong 90 phút. Nếu dung nạp, lần thứ hai truyền trong khoảng 60 phút. Nếu vẫn dung nạp thì tất cả các lần tiếp theo đều truyền trong 30 phút.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Liều lượng | Nội dung:\nChỉ điều trị bằng bevacizumab ở bệnh viện, vì vậy phải liên hệ ngay với bác sĩ nếu quên một liệu trình.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Liều cao nhất được thử nghiệm ở người (20 mg/kg trọng lượng cơ thể, tiêm tĩnh mạch 2 tuần một lần) có thể gây ra chứng đau nửa đầu nghiêm trọng ở một số bệnh nhân.\nCách xử lý khi quá liều Chưa có dữ liệu.\nQuên liều và xử trí Chỉ điều trị bằng bevacizumab ở bệnh viện, vì vậy phải liên hệ ngay với bác sĩ nếu quên một liệu trình.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Bệnh nhân bị ung thư biểu mô thận di căn dùng bevacizumab và sunitinib có thể bị thiếu máu tán huyết vi thể.\nKết hợp với platin hoặc các taxan có thể gây giảm bạch cầu nặng, giảm bạch cầu do sốt, nhiễm trùng giảm hoặc không giảm bạch cầu.\nPhối hợp với kháng thể đơn dòng EGFR có thể làm tăng độc tính của bevacizumab.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Lưu ý | Nội dung:\nLưu ý chung Không chỉ định bevacizumab cho bệnh nhân dưới 18 tuổi.\nThủng đường tiêu hoá:\nHình thành lỗ rò, áp xe hoặc thủng đường tiêu hoá thường xảy ra trong vòng 50 ngày sau khi bắt đầu sử dụng bevacizumab, biểu hiện chung là đau bụng, buồn nôn, nôn, táo bón và sốt, có thể dẫn đến tử vong.\nNgoài ra, bệnh nhân điều trị ung thư cổ tử cung bằng bevacizumab cũng có nguy cơ tạo thành lỗ rò trực tràng – âm đạo.\nCác biến chứng phẫu thuật và chữa lành vết thương:\nBevacizumad có thể ảnh hưởng xấu đến quá trình lành vết thương. Vì vậy, ngưng sử dụng bevacizumab ít nhất 28 ngày cả trước và sau khi đại phẫu (đặc biệt khi vết mổ chưa lành hẳn).\nXuất huyết:",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Lưu ý | Nội dung:\nXuất huyết:\nBevacizumab có thể gây xuất huyết nghiêm trọng (ví dụ: Ho ra máu; chảy máu cam; xuất huyết tiêu hoá, thần kinh trung ương, âm đạo, phổi…), đôi khi dẫn đến tử vong.\nCác phản ứng khi truyền dịch:\nTrong quá trình truyền bevacizumab có khả năng xảy ra phản ứng khi truyền dịch như tăng huyết áp, kích thích thần kinh, thở khò khè, giảm độ bão hoà oxy, quá mẫn độ 3, đau ngực, nhức đầu, toát mồ hôi. Vì vậy, cần truyền thuốc chậm ở những liều đầu và tăng tốc độ khi đã dung nạp.\nThuyên tắc huyết khối:\nBevacizumab làm tăng biến cố huyết khối tắc nghẽn động mạch và tĩnh mạch nghiêm trọng, đặc biệt ở bệnh nhân có tiền sử huyết khối hoặc bệnh nhân> 65 tuổi.\nTăng huyết áp:",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Lưu ý | Nội dung:\nTăng huyết áp:\nSử dụng bevacizumab có thể gây tăng huyết áp nặng (độ 3 - 4). Cần theo dõi huyết áp 2–3 tuần/ lần trong khi điều trị. Tạm ngưng thuốc ở bệnh nhân tăng huyết áp nặng chưa kiểm soát.\nHội chứng rối loạn tuần hoàn não sau có hồi phục (RPLS):\nCác biểu hiện của hội chứng này xảy ra từ 16 giờ đến 1 năm sau khi bắt đầu sử dụng bevacizumab. Triệu chứng: nhức đầu, co giật, hôn mê, lú lẫn, mù, các rối loạn thị giác và thần kinh khác, tăng huyết áp từ nhẹ đến nặng.\nProtein niệu:\nTỷ lệ mắc và mức độ nghiêm trọng của tình trạng protein niệu tăng ở những bệnh nhân dùng bevacizumab đơn trị hoặc kết hợp với các thuốc chống ung thư khác. Ngưng điều trị bằng bevacizumab ở bệnh nhân bị hội chứng thận hư.\nSuy buồng trứng:",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Lưu ý | Nội dung:\nSuy buồng trứng:\nSuy buồng trứng có thể xảy ra ở phụ nữ tiền mãn kinh dùng bevacizumab kết hợp với phác đồ FOLFOX6 trong điều trị ung thư đại trực tràng. Tỷ lệ phục hồi chức năng buồng trứng sau khi ngừng bevacizumab khá thấp (22%).\nGiảm bạch cầu trung tính và nhiễm trùng:\nĐiều trị bằng bevacizumab có nguy cơ giảm bạch cầu trung tính nặng (độ 3 - 4), giảm bạch cầu do sốt, nhiễm trùng nghiêm trọng (viêm phổi, nhiễm trùng vết thương…).\nSuy tim sung huyết:\nThận trọng khi chỉ định bevacizumab cho bệnh nhân bị suy tim sung huyết.\nTính sinh miễn dịch:\nTiêm bevacizumab có thể kích thích miễn dịch.\nHiệu ứng trên mắt:",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Lưu ý | Nội dung:\nTính sinh miễn dịch:\nTiêm bevacizumab có thể kích thích miễn dịch.\nHiệu ứng trên mắt:\nMột số bệnh nhân bị mất thị lực vĩnh viễn, viêm nội nhãn (nhiễm trùng và vô trùng), bong võng mạc, tăng nhán áp, xuất huyết, phù thủy tinh thể, sung huyết mắt và đau hoặc khó chịu sau khi dùng bevacizumab.\nLưu ý với phụ nữ có thai Phân loại thai kỳ (FDA): C Bevacizumab đi qua nhau thai (giống các IgG của người) và được dự đoán có thể ức chế sự hình thành mạch máu ở thai nhi, gây ra dị tật bẩm sinh nghiêm trọng khi dùng trong thai kỳ. Vì vậy không dùng thuốc này cho phụ nữ có thai.\nLưu ý với phụ nữ cho con bú Bevacizumab có thể gây hại cho sự tăng trưởng và phát triển của trẻ sơ sinh nên bệnh nhân phải ngừng cho con bú trong thời gian điều trị và không cho con bú ít nhất sáu tháng sau liều cuối cùng.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Bevacizumab | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Bevacizumab không có hoặc ảnh hưởng không đáng kể đến khả năng lái xe và sử dụng máy móc.",
+        "metadata": {
+            "name": "Bevacizumab",
+            "id": "bevacizumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/bevacizumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    }
+]

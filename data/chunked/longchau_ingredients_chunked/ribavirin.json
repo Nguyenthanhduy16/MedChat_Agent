@@ -1,0 +1,296 @@
+[
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Ribavirin Loại thuốc Thuốc kháng virus.\nDạng thuốc và hàm lượng Viên nang 200 mg, 400 mg.\nViên nén 500 mg.\nThuốc bột để pha dung dịch tiêm hoặc hít: Lọ 6 g.\nDạng đóng gói phối hợp nang Ribavirin 200 mg cùng với lọ bột pha tiêm Peginterferon alpha-2b các hàm lượng 50, 80, 100, 120 microgam (Pegetron).",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Chỉ định | Nội dung:\nNhiễm virus hợp bào hô hấp (RSV) ở đường hô hấp dưới (bao gồm viêm tiểu phế quản và viêm phổi) ở trẻ em có nhiều nguy cơ (kể cả trẻ đẻ non, dị dạng bẩm sinh ở tim, phổi, suy dinh dưỡng, suy giảm miễn dịch,...) phải nằm viện. Mặc dù có thể bắt đầu điều trị trước khi có kết quả chẩn đoán, nhưng chỉ nên tiếp tục dùng ribavirin khi chắc chắn có nhiễm RSV. Do vậy, phải chẩn đoán nhanh và có kết quả sớm.\nMột số sốt xuất huyết do virus bao gồm sốt Lassa, sốt xuất huyết kèm hội chứng thận, hội chứng phổi (do nhiễm Hantavirus), sốt xuất huyết vùng Crimean-Congo.\nCúm virus A hoặc B: Điều trị bắt đầu sớm trong vòng 24 giờ đầu. Tuy nhiên, ribavirin không phải là thuốc lựa chọn đầu tiên, chỉ nên dùng khi bệnh vừa mới phát, tốt nhất là trong vòng 6 giờ.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Chỉ định | Nội dung:\nNhiễm virus viêm gan C mạn tính ở người có bệnh gan còn bù (chưa suy) chưa điều trị với interferon hoặc tái phát sau điều trị interferon alpha-2b: Phối hợp với interferon alpha-2b hoặc peginterferon alpha-2b, dùng riêng ribavirin không có tác dụng. Phác đồ này có hiệu quả với cả trường hợp viêm gan C có đồng nhiễm HIV.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Dược lực học | Nội dung:\nRibavirin là một nucleoside tổng hợp có cấu trúc giống guanosine. Thuốc gây cản trở tổng hợp RNA và DNA của virus, sau đó ức chế tổng hợp protein và sao chép virus.\nIn vitro, ribavirin có tác dụng chủ yếu trên tế bào nhiễm virus nhạy cảm, tuy nhiên tùy loại virus, đã thấy trường hợp tác dụng ức chế xảy ra ở các tế bào bình thường mạnh hơn tế bào nhiễm như tế bào nhiễm virus viêm dạ dày.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Dược động học | Nội dung:\nHấp thu Dược động học của ribavirin thay đổi nhiều giữa các dạng thuốc do đường dùng và cách dùng khác nhau. Khi dùng dưới dạng hít qua mũi hoặc miệng, thuốc được hấp thu vào cơ thể, nồng độ thuốc đạt được cao nhất ở các chất tiết đường hô hấp và hồng cầu, cao hơn nhiều nồng độ trong huyết tương.\nSau khi uống, thuốc được hấp thu nhanh, nồng độ đỉnh huyết tương đạt được trong vòng 1 - 2 giờ.\nPhân bố Thuốc phân bố vào huyết tương, các chất tiết đường hô hấp và hồng cầu. Ribavirin có phân bố vào dịch não tủy nhưng chậm. Chưa biết ribavirin có qua nhau thai hoặc vào sữa mẹ hay không. Thuốc liên kết với protein huyết tương rất ít.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Dược động học | Nội dung:\nChuyển hóa Trong tế bào, ribavirin được phosphoryl hóa có hồi phục thành mono-, di-, và tri-phosphate, dạng mono và triphosphate có hoạt tính mạnh hơn. Ngoài ra, thuốc cũng bị deribosyl hóa và thủy phân amide để tạo thành triazole carboxyacid.\nThải trừ Ribavirin thải trừ rất chậm và qua nhiều pha, tùy theo đường dùng và tình trạng người bệnh. Ribavirin thải trừ chủ yếu qua đường thận dưới dạng không đổi và chất chuyển hóa",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Liều lượng | Nội dung:\nLiều dùng Ribavirin Người lớn Liều dùng tùy thuộc vào bệnh và đường dùng, loại chế phẩm.\nLiều hít thông thường: Phun sương dung dịch có nồng độ khoảng 20 mg/ml (tương đương khoảng 190 microgam/lít khí dung) cung cấp qua mũ chụp, lều, mặt nạ hoặc máy thở. Phun với tốc độ khoảng 12,5 lít/phút.\nCúm virus A hoặc B:\nĐiều trị sớm trong vòng 24 giờ đầu có triệu chứng cúm. Bắt đầu càng sớm càng tốt ngay sau khi nhập viện, phun liên tục tới 16 - 18 giờ.\nTiếp tục phun khoảng 12 giờ mỗi ngày (3 lần, mỗi lần 4 giờ) vào ngày thứ 2 và thứ 3, và phun khoảng 4 giờ ngày thứ 4 (cuối cùng).\nViêm gan C mạn tính:\nDùng ribavirin dạng uống phối hợp với interferon.\nUống trung bình 800 mg/ngày, chia làm 2 lần. Liều có thể điều chỉnh theo cân nặng (tới 1200 mg/ngày với người trên 85 kg).",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Liều lượng | Nội dung:\nUống trung bình 800 mg/ngày, chia làm 2 lần. Liều có thể điều chỉnh theo cân nặng (tới 1200 mg/ngày với người trên 85 kg).\nLuôn dùng ribavirin phối hợp với interferon (3 - 5 triệu đơn vị quốc tế/lần, tiêm 3 lần/tuần) hoặc peginterferon liều 1,5 microgam/kg/ lần (tiêm 1 lần/tuần).\nThời gian điều trị: Thời gian điều trị tùy thuộc vào kiểu gien (genotype) của virus viêm gan C, và tùy thuộc trước đó người bệnh đã hoặc chưa điều trị với interferon. Nhiễm virus viêm gan C (mono) loại kiểu gien 1, 4: 48 tuần; loại 2 và 3: 24 tuần; loại 5 và 6 chưa có kinh nghiệm. Trường hợp đồng nhiễm HIV, điều trị trong 48 tuần, không phân biệt loại di truyền nào.\nCác trường hợp đã điều trị với interferon bị tái phát: Điều trị tiếp phối hợp với ribavirin trong 24 tuần.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Liều lượng | Nội dung:\nCác trường hợp đã điều trị với interferon bị tái phát: Điều trị tiếp phối hợp với ribavirin trong 24 tuần.\nHiệu quả và độ an toàn của phác đồ phối hợp này khi điều trị kéo dài trên 6 tháng chưa được xác định.\nĐến tuần 24, kiểm tra xem điều trị có đáp ứng không bằng cách đo nồng độ ARN HCV huyết thanh. Nếu không có đáp ứng, nên ngừng thuốc vì nhiều khả năng không hiệu quả nếu điều trị thêm.\nSốt xuất huyết (sốt Lassa, sốt do virus):\nĐiều trị: Tiêm truyền tĩnh mạch liều nạp 30 mg/kg, tiếp theo liều 16 mg/kg, 6 giờ truyền một lần trong 4 ngày; sau đó 8 mg/kg, 8 giờ truyền một lần trong 6 ngày. Thời gian truyền mỗi liều trong khoảng 15 - 20 phút. Tổng đợt điều trị khoảng 10 ngày.\nDự phòng: Khi có nguy cơ phơi nhiễm cao, uống 500 - 600 mg, 4 lần/ngày, trong 7 - 10 ngày.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Liều lượng | Nội dung:\nDự phòng: Khi có nguy cơ phơi nhiễm cao, uống 500 - 600 mg, 4 lần/ngày, trong 7 - 10 ngày.\nTrẻ em Nhiễm RSV nặng đường hô hấp dưới ở trẻ nhỏ:\nPhun trong khoảng 12 - 18 giờ. Thời gian điều trị từ 3 - 7 ngày.\nĐiều trị bằng ribavirin không được khuyến cáo sử dụng cho trẻ em và thanh thiếu niên (<18 tuổi) do không đủ dữ liệu về tính an toàn và hiệu quả khi kết hợp với các sản phẩm thuốc khác để điều trị viêm gan C. Chỉ có một số hạn chế dữ liệu an toàn và hiệu quả có sẵn ở trẻ em và thanh thiếu niên (6-18 tuổi) khi kết hợp với peginterferon alfa-2a. Cần đánh giá lợi ích/rủi ro theo từng trường hợp liên quan đến việc sử dụng ribavirin ở trẻ em.\nTrẻ em trên 3 tuổi: 15 mg/kg cân nặng/ngày, chia làm 2 lần.\nĐiều trị: Trẻ em trên 10 tuổi: Dùng giống liều người lớn.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Liều lượng | Nội dung:\nTrẻ em trên 3 tuổi: 15 mg/kg cân nặng/ngày, chia làm 2 lần.\nĐiều trị: Trẻ em trên 10 tuổi: Dùng giống liều người lớn.\nDự phòng: Trẻ em 6 - 9 tuổi: Uống 400 mg/lần, 4 lần/ngày, trong 7 - 10 ngày; trẻ dưới 6 tuổi, liều chưa xác định.\nĐối tượng khác Người suy thận: Tổng liều ribavirin hàng ngày nên giảm đối với bệnh nhân có độ thanh thải creatinin ≤ 50 ml/phút.\nClCr 30 – 50 ml/phút: Liều luân phiên mỗi ngày: 200 mg và 400 mg.\nClCr < 30 ml/phút và chạy thận nhân tạo: 200 mg/ngày.\nNgười suy gan: Không cần điều chỉnh liều.\nNgười cao tuổi: Chức năng thận phải được xác định trước khi dùng ribavirin.\nCách dùng Đường dùng ribavirin thường phụ thuộc vào bệnh. Với trường hợp nhiễm RSV và cúm do virus có triệu chứng nặng ở đường hô hấp, dùng đường hít có hiệu quả hơn đường uống.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Liều lượng | Nội dung:\nTrường hợp viêm gan C, chủ yếu dùng dạng thuốc uống kết hợp với interferon alpha-2b. Sốt xuất huyết có thể dùng cả dạng uống và tiêm.\nDùng thuốc theo đường hít:\nSử dụng máy khí dung tiểu phân nhỏ, thường do nhà sản xuất cung cấp kèm theo thuốc, ví dụ loại SPAG-2. Trước khi dùng, đọc kỹ tài liệu hướng dẫn sử dụng máy khí dung, cách pha thuốc và điều chỉnh tốc độ.\nDung dịch ribavirin được cho vào máy khí dung qua lều oxygen, hoặc qua mặt nạ. Nồng độ dung dịch thuốc được khuyến cáo sử dụng là 20 mg/ml, qua máy khí dung SPAG-2 có thể cho nồng độ thuốc trung bình khoảng 190 microgam/lít không khí, dùng trong 12 giờ.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Liều lượng | Nội dung:\nKhi cần hô hấp hỗ trợ, có thể dùng máy thở kết hợp với máy khí dung SPAG-2. Liều lượng tương tự như khi không dùng máy thở, nhưng phải chú ý không để thuốc kết tủa trong máy thở và ống đặt nội khí quản. Cách 1 - 2 giờ/lần phải hút ống đặt nội khí quản và giám sát thường xuyên (cách 2 - 4 giờ/lần) áp lực phổi; màng lọc vi khuẩn phải thay luôn (cách 4 giờ/lần), kiểm tra áp lực ống thông khí...\nCách pha dung dịch để tiêm hoặc hít:\nCho khoảng 75 ml nước vô khuẩn để pha thuốc tiêm vào lọ chứa 6 g ribavirin, lắc cho tan rồi chuyển vào bình chứa của máy khí dung. Thêm nước vô khuẩn pha tiêm vào bình chứa để có thể tích cuối cùng là 300 ml, dung dịch có nồng độ khoảng 20 mg/ml. Không dùng bất kỳ một dung môi nào khác có chứa chất phụ để pha thuốc.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Rất ít thông báo về trường hợp ngộ độc do quá liều.\nCách xử lý khi quá liều Không có thuốc đối kháng để có thể dùng điều trị đặc hiệu cho trường hợp ngộ độc quá liều. Nếu có xảy ra, điều trị theo triệu chứng.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Dùng đồng thời ribavirin dạng uống với các thuốc kháng acid có chứa magnesi, nhôm và simethicon làm giảm diện tích dưới đường cong của ribavirin.\nRibavirin có thể gây tăng nguy cơ giảm bạch cầu trung tính của interferon, phải thận trọng khi phối hợp.\nCác chất ức chế phiên mã ngược nucleosid (NRTI) như stavudin , zidovudin, lamivudin khi dùng chung với ribavirin có thể gây tăng nguy cơ các phản ứng bất lợi liên quan tới rối loạn ty thể như suy gan có thể tử vong, bệnh thần kinh ngoại biên, viêm tụy, nhiễm độc acid lactic. Do vậy tránh dùng đồng thời với các thuốc này và không dùng chung với didanosin.\nTương tác với thực phẩm Tránh dùng đồng thời ribavirin rượu vì rượu có thể làm trầm trọng thêm tình trạng của bệnh.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Tương tác thuốc | Nội dung:\nTương tác với thực phẩm Tránh dùng đồng thời ribavirin rượu vì rượu có thể làm trầm trọng thêm tình trạng của bệnh.\nDùng ribavirin cùng với bữa ăn nhiều chất béo làm chậm sự hấp thu, làm tăng AUC và Cmax của ribavirin.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Lưu ý | Nội dung:\nLưu ý chung Thận trọng khi dùng thuốc cho người dưới 18 tuổi, nhất là khi phối hợp với interferon alpha-2b vì chưa rõ tác dụng và an toàn của thuốc ở lứa tuổi này.\nMột số triệu chứng rối loạn tâm thần đã gặp ở những bệnh nhân dùng ribavirin phối hợp với interferon alpha-2b như mất ngủ, kích thích, trầm cảm, muốn tự tử, không kể ở người có tiền sử hay không có tiền sử bệnh tâm thần.\nDo vậy, cần theo dõi và thận trọng khi dùng ribavirin uống phối hợp với interferon alpha-2b, đặc biệt ở người có bệnh sử rối loạn tâm thần, trầm cảm.\nPhụ nữ trong độ tuổi sinh đẻ: Phải chắc chắn không mang thai hoặc không có ý định mang thai trong thời gian điều trị và nhiều tháng sau thời gian điều trị, vì thuốc có tiềm năng gây quái thai.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Lưu ý | Nội dung:\nKhông nên dùng thuốc cho người đang dùng ma túy theo đường tiêm (nguy cơ bị tái nhiễm cao) và người nghiện rượu nặng (nguy cơ làm tăng tổn thương ở gan).\nRibavirin gây những rối loạn về máu, nên phải xét nghiệm máu (hồng cầu, bạch cầu, công thức bạch cầu, tiểu cầu, thời gian máu đông) trước khi dùng thuốc. Đồng thời, theo dõi và xét nghiệm máu vào các tuần điều trị thứ 2, thứ 4 và định kỳ sau đó tùy theo tình trạng lâm sàng để có thể kịp thời phát hiện tình trạng thiếu máu.\nKhi dùng thuốc dưới dạng khí dung, phải chú ý không để thuốc khuếch tán ra môi trường xung quanh, phải theo dõi xem thuốc có bị kết tủa trong máy thở. Thuốc hít không thể thay thế được liệu pháp hỗ trợ hô hấp và bù dịch ở trẻ nhỏ bị suy hô hấp nặng.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Ribavirin độc với thai và gây quái thai. Không được dùng cho phụ nữ mang thai. Trước khi cho phụ nữ dùng thuốc phải xét nghiệm chắc chắn không mang thai.\nPhụ nữ đang trong độ tuổi sinh đẻ phải dùng các biện pháp tránh thai có hiệu quả trong thời gian điều trị và trong 6 tháng sau khi đã ngừng thuốc. Nếu có thai trong thời gian này thì phải thông báo cho người bệnh biết về nguy cơ gây quái thai của thuốc.\nNam giới được điều trị bằng ribavirin cũng phải áp dụng các biện pháp tránh thai trong thời gian điều trị và trong 6 - 7 tháng sau khi ngừng thuốc.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Lưu ý | Nội dung:\nNam giới được điều trị bằng ribavirin cũng phải áp dụng các biện pháp tránh thai trong thời gian điều trị và trong 6 - 7 tháng sau khi ngừng thuốc.\nCần có biện pháp hỗ trợ, bảo vệ cho những nhân viên y tế mang thai hoặc có thể có thai khi tiếp xúc với người bệnh đang điều trị bằng ribavirin qua mặt nạ hoặc lều oxygen để tránh hít phải ribavirin. Nếu có thể thì tốt nhất là cho những nhân viên này tạm chuyển làm công việc khác.\nLưu ý với phụ nữ cho con bú Chưa rõ thuốc có được bài tiết vào sữa mẹ hay không. Để tránh tác dụng phụ của thuốc lên trẻ đang bú, không dùng cho phụ nữ cho con bú.\nNgừng cho con bú trước khi bắt đầu dùng thuốc.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Ribavirin | Phần: Lưu ý | Nội dung:\nNgừng cho con bú trước khi bắt đầu dùng thuốc.\nLưu ý khi lái xe và vận hành máy móc Ribavirin không có hoặc ảnh hưởng không đáng kể đến khả năng lái xe và sử dụng máy móc. Tuy nhiên, các thuốc khác khi phối hợp với ribavirin có thể ảnh hưởng. Do đó, bệnh nhân mệt mỏi, buồn ngủ hoặc lú lẫn trong khi điều trị phải thận trọng để tránh lái xe hoặc vận hành máy móc.",
+        "metadata": {
+            "name": "Ribavirin",
+            "id": "ribavirin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/ribavirin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    }
+]

@@ -1,0 +1,884 @@
+[
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Mô tả tổng quan | Nội dung:\nGiotrif 20mg là sản phẩm của Boehringer Ingelheim Pharma GmbH & Co. KG với thành phần chính là Afatinib (dưới dạng Afatinib dimaleat). Thuốc Giotrif 20mg được sử dụng để điều trị ung thư phổi không tế bào nhỏ tiến xa tại chỗ hoặc di căn có đột biến thụ thể yếu tố tăng trưởng biểu bì (EGFR) ở bệnh nhân trưởng thành chưa được điều trị trước đó bằng thuốc ức chế EGFR tyrosine kinase.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thành phần | Nội dung:\nThành phần: Afatinib (20mg)",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "ingredients",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Chỉ định điều trị | Nội dung:\nGIOTRIF đơn trị liệu được chỉ định điều trị ung thư phổi không tế bào nhỏ tiến xa tại chỗ hoặc di căn có đột biến thụ thể yếu tố tăng trưởng biểu bì (EGFR) cho bệnh nhân trưởng thành chưa được điều trị trước đó bằng thuốc ức chế EGFR Tyrosine Kinase.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "chi_dinh",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược lực học | Nội dung:\nNhóm điều trị dược lý: các thuốc chống ung thư khác - ức chế protein kinase, mã ATC: L01XE13.\nCơ chế tác dụng Afatinib là một chất ức chế nhóm ErbB có tác dụng mạnh, chọn lọc và không hồi phục. Afatinib liên kết cộng hóa trị và ức chế không hồi phục các tín hiệu từ homo- và heterodimer hình thành bởi các thành viên thuộc nhóm ErbB: EGFR (ErbB1), HER2 (ErbB2), ErbB3 và ErbB4.\nTác dụng dược lý Tín hiệu ErbB sai lệch có thể được kích hoạt bởi đột biến và/hoặc khuếch đại của EGFR, khuếch đại hoặc đột biến HER2 và/hoặc tăng biểu hiện ligand ErbB góp phần tạo đặc tính bất thường trong các phân nhóm bệnh nhân bị nhiều loại ung thư khác nhau.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_luc_hoc",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược lực học | Nội dung:\nTrong những mô hình bệnh lý tiền lâm sàng có mất kiểm soát lộ trình ErbB, afatinib dùng đơn chất có tác dụng ức chế hiệu quả dẫn truyền tín hiệu của thụ thể ErbB gây ức chế tăng trưởng khối u hoặc thoái triển khối u. Mô hình NSCLC với sự đột biến L858R hoặc Del 19 EGFR đặc biệt nhạy cảm khi điều trị với afatinib. Afatinib duy trì tác dụng kháng khối u đáng kể trong các dòng tế bào NSCLC in vitro và các mô hình khối ụ in vivo (ghép khác loài hoặc mô hình chuyển gen) được quyết định bởi đồng dạng EGFR đột biến như T790M vốn được xác định là đề kháng với thuốc ức chế EGFR có hồi phục là erlotinib và gefitinib.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_luc_hoc",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược lực học | Nội dung:\nThử nghiệm lâm sàng Xem thêm ở tờ Hướng dẫn sử dụng thuốc Điện sinh lý tim GIOTRIF với liều 50 mg mỗi ngày không gây kéo dài đáng kể khoảng QTcF sau khi dùng đơn liều hay đa liều ở những bệnh nhân với khối u đặc tái phát hoặc kháng trị. Không thấy bất lợi về mặt lâm sàng ảnh hưởng đến an toàn trên tim gợi ý GIOTRIF không có tác dụng liên quan đến khoảng QTcF.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_luc_hoc",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nHấp thu và phân phối Sau khi uống GIOTRIF, nồng độ tối đa (Cmax) của afatinib được quan sát thấy khoảng 2 đến 5 giờ sau khi dùng thuốc. Giá trị Cmax và AUCa- trung bình tăng nhẹ hơn mức tỷ lệ trong khoảng liều GIOTRIF từ 20 mg đến 50 mg. Nồng độ theo thời gian toàn thân của afatinib giảm 50% (Cmax) và 39% (AUC), khi uống cùng với thức ăn giàu chất béo so với khi uống lúc đói. Dựa trên dữ liệu dược động học quần thể thu được từ các thử nghiệm lâm sàng với các loại khối u khác nhau, đã thấy AUC,s giảm trung bình 26% khi ăn trong vòng 3 giờ trước hoặc 1 giờ sau khi dùng GIOTRIF.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nDo đó, không nên ăn trong vòng ít nhất 3 giờ trước và trong vòng ít nhất 1 giờ sau khi uống GIOTRIF (xem “Liều lượng và cách dùng” và “Tương tác”). Sau khi dùng GIOTRIF, sinh khả dụng tương đối trung bình là 92% (tỷ số trung bình nhẫn hiệu chỉnh của AUC) khi so sánh với dạng dung dịch uống.\nIn vitro afatinib gắn kết với protein trong huyết tương người khoảng 95%.\nChuyển hóa và thải trừ Các phản ứng chuyển hóa bởi enzym xúc tác đóng vai trò không đáng kể đối với afatinib in vivo.\nSản phẩm gắn kết cộng hóa trị với protein là các chất chuyển hóa chính của afatinib.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nSản phẩm gắn kết cộng hóa trị với protein là các chất chuyển hóa chính của afatinib.\nSau khi uống 15 mg afatinib dạng dung dịch, 85,4% liều dùng được tìm thấy trong phân và 4,3% trong nước tiểu. Hợp chất afatinib ban đầu chiếm 88% liều dùng được phát hiện. Thời gian bán thải cuối biểu kiến là 37 giờ. Nồng độ trong huyết tương ở trạng thái ổn định của afatinib đạt được trong vòng 8 ngày sau khi dùng nhiều liều afatinib gây tích lũy AUC gấp 2,77 lần và Cmax gấp 2,11 lần.\nPhân tích dược động học quần thể ở nhóm dân số đặc biệt Phân tích dược động học quần thể được tiến hành trên 927 bệnh nhân ung thư (764 với NSCLC) dùng GIOTRIF đơn trị liệu. Không cần thiết phải điều chỉnh liều khởi đầu cho bất kỳ biến số nào được nghiên cứu dưới đây.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nTuổi Không quan sát thấy ảnh hưởng đáng kể của tuổi tác (phạm vi 28-87 tuổi) đến dược động học của afatinib.\nThể trọng Nồng độ trong huyết tương (AUC,ss) tăng 26% ở bệnh nhân 42 kg (2,5 %) và giảm 2 % ở bệnh nhân 95 kg (97,5 %) so với bệnh nhân 62 kg (thể trọng trung bình của những bệnh nhân trong quần thể thử nghiệm nói chung).\nGiới tính Nồng độ trong huyết tương theo thời gian của bệnh nhân nữ cao hơn 15 % (AUCr,s, đã hiệu chỉnh thể trọng) so với bệnh nhân nam.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nGiới tính Nồng độ trong huyết tương theo thời gian của bệnh nhân nữ cao hơn 15 % (AUCr,s, đã hiệu chỉnh thể trọng) so với bệnh nhân nam.\nChủng tộc Không có sự khác biệt đáng kể mang ý nghĩa thống kê về dược động học giữa bệnh nhân châu Á và da trắng. Cũng không thấy sự khác biệt rõ ràng về dược động học đối với người Mỹ gốc thổ dân/Alaska bản xứ hoặc bệnh nhân da đen dựa trên dữ liệu hạn chế sẵn có ở những quần thể này (tương ứng 6 và 9 bệnh nhân trong số 927 bệnh nhân được đưa vào phân tích).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nSuy thận Dưới 5% liểu đơn của afatinib được thải trừ qua thận. Nồng độ của afatinib ở những bệnh nhân suy thận được so sánh với người tình nguyện khoẻ mạnh sau khi dùng liều đơn 40 mg Giotrif. Đối tượng suy thận trung bình (n=8, eGFR 30-59 mL/min/1,73m2, theo công thức điều chỉnh chế độ ăn trong bệnh thận [MDRD]) có nồng độ là 101% (Cmax) và 122% (AUCoz) so với nhóm đối chứng khoẻ mạnh. Đối tượng suy thận nặng (n=8, eGFR 15-29 mL/min/1,73m2, theo công thức MDRD) có nồng độ là 122% (Cmax) và 150% (AUCa-t) so với nhóm đối chứng khoẻ mạnh",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\n. Dựa trên thử nghiệm lâm sàng này và dữ liệu dược động học quần thể thu được từ các thử nghiệm lâm sàng trên nhiều loại khối u khác nhau, không cần thiết phải điều chỉnh liều khởi đầu ở bệnh nhân suy thận nhẹ (eGFR 60-89 mL/phút/1,73m2), trung bình (eGFR 30-59 mL/phút/1,73m2) hoặc nặng (eGFR 15-29 mL/phút/1,73m2), nhưng cần theo dõi bệnh nhân suy thận nặng (xin xem mục Liều lượng và cách dùng). Chưa có nghiên cứu sử dụng Giotrif cho bệnh nhân có eGFR < 15 mL/phút/1,73m2 hoặc lọc máu.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nNồng độ theo thời gian của GIOTRIF tăng tương đối khi độ thanh thải creatinin (CrCL) thấp, ví dụ đối với bệnh nhân có CrCL 60 hoặc 30 mL/phút thì nồng độ theo thời gian (AUC,ss) của afatinib tăng tương ứng là 13% và 42%, và giảm 6% và 20% tương ứng với bệnh nhân CrCL 90 hoặc 120 mL/phút khi so với CrCL 79 mL/phút (CrCL trung vị trong nhóm quần thể bệnh nhân được phân tích).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nSuy gan Afatinib được thải trừ chủ yếu qua mật/phân. Những người suy gan nhẹ (Child Pugh A) hoặc trung bình (Child Pugh B) đạt được nồng độ thuốc tương tự như những người tình nguyện khỏe mạnh sau khi uống liều duy nhất GIOTRIF 50 mg. Điều này phù hợp với dữ liệu dược động học quần thể thu được từ các thử nghiệm lâm sàng trên nhiều loại khối u khác nhau (xem “Phân tích dược động học quần thể trong dân số đặc biệt” dưới đây). Không cần điều chỉnh liều khởi đầu ở những bệnh nhân suy gan nhẹ hoặc trung bình (xem “Liều lượng và cách dùng”). Chưa nghiên cứu dược động học của afatinib ở những người suy gan nặng (Child Pugh C) (xem “Thận trọng và cảnh báo đặc biệt”).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 8
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nBệnh nhân suy gan nhẹ đến trung bình được xác định bởi xét nghiệm chức năng gan bất thường không tương quan đến bất kỳ thay đổi đáng kể nào đến nồng độ afatinib.\nĐặc tính khác của bệnh nhân yếu tố nội tại Các đặc tính khác của bệnh nhân/yếu tố nội tại được thấy ảnh hưởng đáng kể đến nồng độ afatinib: Điểm ECOG, nồng độ lactat dehydrogenase, nồng độ alkalin phospatase và protein toàn phần. Mức ảnh hưởng riêng biệt của các biển số này được cho là không có ý nghĩa về mặt lâm sàng. Tiền sử hút thuốc, uống rượu, hoặc có di căn gan không ảnh hưởng đáng kể đến dược động học của afatinib.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 9
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nTương tác dược động học Chất vận chuyển thuốc Ảnh hưởng của các thuốc ức chế P-gp và các thuốc ức chế protein kháng thuốc trong ung thư vú (BCRP) đối với afatinib Các nghiên cứu in vitro đã chứng minh afatinib là cơ chất của P-gp và BCRP. Khi dùng một thuốc ức chế mạnh P-gp và BCRP là ritonavir (200 mg hai lần mỗi ngày trong ba ngày) một giờ trước khi dùng liều đơn 20 mg Giotrif, nồng độ afatinib tăng 48% (diện tích dưới đường cong (AUC)) và 39% (nồng độ đỉnh trong huyết tương (Cmax)). Mặt khác, khi dùng ritonavir đồng thời hoặc cách 6 giờ sau khi dùng 40 mg Giotrif, sinh khả dụng tương đối của afatinib lần lượt là 119% (AUC), 104% (Cmax) và 111% (AUC), 105% (Cmax)",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 10
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\n. Vì vậy, khuyến cáo dùng những thuốc ức chế mạnh P- gp (bao gồm nhưng không chỉ giới hạn trong các thuốc ritonavir, cyclosporine A, ketoconazole, itraconazole, erythromycin, verapamil, quinidine, tacrolimus, nelfinavir, saquinavir, and amiodarone) so le với Giotrif, tốt nhất là dùng cách 6 giờ hoặc 12 giờ so với Giotrif.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 11
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nẢnh hưởng của các thuốc cảm ứng P-gp đối với afatinib Điều trị trước đó bằng rifampicin (600 mg một lần mỗi ngày trong 7 ngày) là thuốc kích thích mạnh P-gp làm giảm nồng độ afatinib 34% (AUC) và 22% (Cmax) sau khi dùng liều duy nhất GIOTRIF 40 mg. Các thuốc cảm ứng mạnh P-gp (bao gồm nhưng không chỉ giới hạn trong các thuốc rifampicin, carbamazepine, phenytoin, phenobarbital hoặc thảo dược St. John’s (Hypericum perforatum) có thể làm giảm nồng độ afatinib (xin xem mục Cảnh báo và thận trọng đặc biệt).\nẢnh hưởng của afatinib đối với cơ chất của P-gp Dựa vào các dữ liệu in vitro, afatinib là chất ức chế P-gp trung bình. Tuy nhiên, dựa trên các dữ liệu lâm sàng, điều trị với Giotrif được xem như không làm thay đổi nồng độ trong huyết tương của các cơ chất của P-gp.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 12
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nTương tác với BCRP Các nghiên cứu in vitro chỉ ra rằng afatinib là một cơ chất và một chất ức chế chất vận chuyển BCRP. Afatinib có thể làm tăng sinh khả dụng của các cơ chất BCRP dùng đường uống (bao gồm nhưng không chỉ giới hạn trong các chất rosuvastatin và sulfasalazine).\nHệ thống vận chuyển hấp thụ thuốc Dữ liệu in vitro cho thấy tương tác thuốc-thuốc với afatinib do ức chế chất vận chuyển OATB1B1, OATP1B3, OATP2B1, OAT1, OAT3, OCT1, OCT2 và OCT3 ít có khả năng xảy ra.\nCác enzym chuyển hóa thuốc:",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 13
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nCác enzym chuyển hóa thuốc:\nEnzym cytochrome P450 (CYP) Ảnh hưởng của các thuốc kích thích và ức chế enzym CYP đến afatinib Dữ liệu in vitro cho thấy tương tác thuốc-thuốc với afatinib do các thuốc kích thích hoặc ức chế enzym CYP do sử dụng kết hợp thuốc khó có khả năng xảy ra. Ở người, đã thấy các phản ứng chuyển hóa qua enzym xúc tác đóng vai trò không đáng kể đối với sự chuyển hóa afatinib. Khoảng 2% liều dùng afatinib được chuyển hóa bởi FMO3 và quá trình N-demethyl hóa phụ thuộc CYP3A4 thấp đến mức khó có thể định lượng được.\nẢnh hưởng của afatinib đến enzym CYP Afatinib không phải là chất ức chế hoặc kích thích enzym CYP. Do đó, GIOTRIF thường không ảnh hưởng đến sự chuyển hóa của các thuốc phụ thuộc enzym CYP.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 14
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nUDP-glucuronosyltransferase 1A1 (UGTIAI) Dữ liệu in vitro cho thấy tương tác thuốc-thuốc với afatinib do ức chế UGT1A1 khó có khả năng xảy ra.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 15
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nĐộc tính Uống liều duy nhất ở chuột cống và chuột nhắt cho thấy khả năng gây độc cấp tính của afatinib thấp. Những nghiên cứu khi uống liều lặp lại trong 26 tuần ở chuột cống hoặc 52 tuần ở lợn con, những tác dụng chủ yếu được xác định biểu hiện trên da (thay đổi da, teo biểu mô và viêm nang lông ở chuột cống), trên đường tiêu hóa (tiêu chảy, ăn mòn bên trong dạ dày và teo biểu mô ở chuột cống và lợn con), trên thận (hoại tử nhú thận ở chuột). Tùy thuộc vào phát hiện, những thay đổi này xuất hiện tại nồng độ thấp hơn, trong phạm vi, hoặc cao hơn nồng độ điều trị lâm sàng. Ngoài ra, teo biểu mô do tác động dược lực học trong nhiều cơ quan đã quan sát thấy ở cả hai loài.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 16
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nẢnh hưởng đến khả năng sinh sản Dựa trên cơ chế tác dụng, GIOTRIF có khả năng gây hại cho thai. Những nghiên cứu về sự phát triển phôi-thai được tiến hành với afatinib không cho thấy độc tính gây quái thai khi dùng liều cao đến nồng độ gây tử vong cho con mẹ. Những thay đổi được xác định liên quan đến thay đổi ở xương bao gồm cốt hóa không hoàn toàn/các phần không cốt hóa (chuột) và sảy thai tại liều gây độc cho con mẹ, giảm khối lượng thai cũng như các thay đổi chủ yếu ở nội tạng và da (thỏ). Tổng nồng độ toàn thân theo thời gian tương ứng (AUC) hoặc hơi cao hơn (2,2 lần ở chuột) hoặc thấp hơn (0,3 lần ở thỏ) khi so với nồng độ ở người.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 17
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nAfatinib đánh dấu phóng xạ được dùng đường uống cho chuột vào ngày thứ 11 cho con bú đã được bài tiết vào sữa con mẹ. Nồng độ trung bình trong sữa tại thời điểm 1 và 6 giờ sau khi uống thuốc cao hơn khoảng 80 và 150 lần so với nồng độ trong huyết tương.\nMột nghiên cứu về khả năng sinh sản ở chuột đực và chuột cái sử dụng thuốc uống dùng đến liều tối đa dung nạp được không cho thấy tác động đáng kể trên khả năng sinh sản. Nồng độ toàn thân theo thời gian (AUC 0-24) đạt được ở chuột đực và chuột cái nằm trong phạm vi hoặc thấp hơn nồng độ ghi nhận ở bệnh nhân (tương ứng 1,3 lần và 0,51 lần).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 18
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nMột nghiên cứu ở chuột với thuốc uống dùng đến liều tối đa dung nạp được không cho thấy tác động đáng kể trên phát triển trước và sau khi sinh. Tác động chỉ giới hạn ở tình trạng nhẹ cân khi sinh và chậm tăng cân ở chuột con mà không ảnh hưởng đáng kể đến việc đạt các mốc phát triển, trưởng thành về sinh dục, hoặc thể hiện khi đánh giá về hành vi. Nồng độ toàn thân theo thời gian cao nhất (AUC 0-24) có thể đạt được ở chuột cái thấp hơn ở bệnh nhân (0,23 lần).\nHiện tượng nhạy cảm với ánh sáng Một khảo sát tính gây nhạy cảm với ánh sáng in vitro 3T3 với afatinib đã được tiến hành với kết luận là GIOTRIF có khả năng gây nhạy cảm với ánh sáng.\nKhả năng gây ung thư Chưa có nghiên cứu đánh giá khả năng gây ung thư với GIOTRIF.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 19
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Dược động học | Nội dung:\nKhả năng gây ung thư Chưa có nghiên cứu đánh giá khả năng gây ung thư với GIOTRIF.\nĐáp ứng kém với afatinib được ghi nhận ở duy nhất một dòng vi khuẩn thử nghiệm với nghiệm pháp gây đột biến ở vi khuẩn (Ames). Tuy nhiên, không phát hiện được khả năng gây đột biến hoặc độc gen trong một xét nghiệm in vitro đánh giá rối loạn nhiễm sắc thể ở các nồng độ không gây độc tế bào cũng như nghiệm pháp in vivo trên vi nhân ở tủy xương, nghiệm pháp in vivo Comet và khảo sát đột biến in vitro với thuốc uống trong 4 tuần ở chuột Muta.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "duoc_dong_hoc",
+            "chunk_index": 20
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Cách dùng | Nội dung:\nUống trọn viên thuốc với nước.\nCách sử dụng khác Nếu không thể uống nguyên viên thuốc thì có thể hòa viên GIOTRIF vào khoảng 100 mL nước uống không chứa carbonat. Không sử dụng dung dịch khác. Bỏ viên thuốc vào trong nước và không được nghiền, thỉnh thoảng khuấy trong 15 phút cho đến khi viên thuốc bị rã thành những hạt rất nhỏ và uống ngay. Nên tráng cốc bằng 100 mL nước và uống luôn sau đó. Có thể dùng dung dịch này qua ống thông dạ dày.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "cach_dung",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Liều dùng | Nội dung:\nUng thư phổi không tế bào nhỏ (NSCLC):\nLiều GIOTRIF khuyến cáo là 40 mg uống một lần mỗi ngày đối với điều trị bước một hoặc đối với những bệnh nhân chưa được điều trị trước đó bằng thuốc ức chế EGFR Tyrosine Kinase (bệnh nhân chưa bao giờ dùng EGFR TKI).\nKhông nên uống GIOTRIF cùng với thức ăn. Không nên ăn ít nhất 3 giờ trước hoặc ít nhất 1 giờ sau khi uống GIOTRIF. Nên nuốt trọn viên thuốc với nước.\nNên điều trị bằng GIOTRIF liên tục cho đến khi bệnh tiến triển hoặc bệnh nhân không còn dung nạp được thuốc.\nTăng liều Có thể cân nhắc tăng đến liều tối đa là 50 mg mỗi ngày ở những bệnh nhân chưa bao giờ dùng EGFR TKI mà dung nạp được liều 40 mg mỗi ngày (tức là không bị tiêu chảy, nổi ban, viêm miệng và các biến cổ khác liên quan đến thuốc với Mức độ >1 theo CTCAE) trong 3 tuần đầu tiên.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "lieu_dung",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Liều dùng | Nội dung:\nKhông nên tăng liều ở những bệnh nhân đã giảm liều trước đó.\nTrong bất kỳ trường hợp nào, liều tối đa mỗi ngày là 50 mg.\nĐiều chỉnh liều do phản ứng bất lợi Phản ứng bất lợi gây triệu chứng liên quan đến thuốc (như tiêu chảy nặng/kéo dài hoặc phản ứng ngoại ý biểu hiện trên da) có thể được xử trí tốt bằng cách tạm ngừng điều trị và giảm liều GIOTRIF như nếu trong Bảng 1 (xem “Tác dụng phụ”; để biết thêm chi tiết về cách xử trí các biến cố ngoại ý đặc hiệu do thuốc xem “Cảnh báo và thận trọng đặc biệt”).\nBảng 1: Thông tin về điều chỉnh liều do phản ứng bất lợi:\nBiến cố ngoại ý do thuốc theo CTCAE a\nLiều GIOTRIF khuyến cáo Mức độ 1 hoặc Mức độ 2 Không ngừng thuốc b\nKhông điều chỉnh liều Mức độ 2 (kéo dàic hoặc không thể dung nạp) hoặc Mức độ >= 3 Không ngừng thuốc b",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "lieu_dung",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Liều dùng | Nội dung:\nKhông điều chỉnh liều Mức độ 2 (kéo dàic hoặc không thể dung nạp) hoặc Mức độ >= 3 Không ngừng thuốc b\nNgừng thuốc cho đến khi về Mức độ 0/1 b\nTiếp tục điều trị nhưng giảm liều bớt 10 mg d\na Thuật ngữ chung cho Tiêu chí về biến cố ngoại ý của NCI (Viện Ung Thư Quốc gia) phiên bản 3.0.\nb Trong trường hợp tiêu chảy, nên uống ngay các thuốc chống tiêu chảy (như loperamid) và nếu vẫn còn tiêu chảy thì uống tiếp tục cho đến khi hết phân lỏng.\nc Tiêu chảy > 48 giờ và/hoặc phát ban >7 ngày.\nd Nếu bệnh nhân không dung nạp được liều 20 mg mỗi ngày thì nên cân nhắc ngừng GIOTRIF vĩnh viễn.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "lieu_dung",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Liều dùng | Nội dung:\nc Tiêu chảy > 48 giờ và/hoặc phát ban >7 ngày.\nd Nếu bệnh nhân không dung nạp được liều 20 mg mỗi ngày thì nên cân nhắc ngừng GIOTRIF vĩnh viễn.\nNên nghĩ đến bệnh phổi mô kẽ (ILD) nếu một bệnh nhân có các triệu chứng hô hấp cấp tính hoặc xấu đi, trường hợp này nên tạm ngừng GIOTRIF trong khi chờ đánh giá. Nếu được chẩn đoán ILD thì nên ngừng GIOTRIF và tiến hành điều trị thích hợp [xem “Cảnh báo và thận trọng đặc biệt”].",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "lieu_dung",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Liều dùng | Nội dung:\nBệnh nhân suy thận Nồng độ afatinib được quan sát thấy tặng lên ở bệnh nhân suy thận trung bình hoặc nặng (xin xem mục Dược động học). Không cần thiết phải điều chỉnh liều khởi đầu ở bệnh nhân suy thận nhẹ (eGFR 60-89 mL/phút/1,73m2), trung bình (eGFR 30-59 mL/phút/1,73m2) hoặc nặng (eGFR 15-29mL/phút/1,73m2). Theo dõi bệnh nhẫn suy thận nặng (eGFR 15-29 mL/phút/1,73m2) và điều chỉnh liều Giotrif nếu không dung nạp.\nKhông khuyến cáo điều trị Giotrif ở bệnh nhân có eGFR <15 mL/phút/1,73m2 hoặc lọc máu.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "lieu_dung",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Liều dùng | Nội dung:\nKhông khuyến cáo điều trị Giotrif ở bệnh nhân có eGFR <15 mL/phút/1,73m2 hoặc lọc máu.\nBệnh nhân suy gan Nồng độ thuốc theo thời gian của afatinib không thay đổi đáng kể ở những bệnh nhân suy gan nhẹ (Child Pugh A) hoặc trung bình (Child Pugh B) (xem “Dược động học”). Không cần điều chỉnh liều khởi đầu ở những bệnh nhân suy gan nhẹ hoặc trung bình. Chưa nghiên cứu GIOTRIF ở những bệnh nhân suy gan nặng (Child Pugh C). Không khuyến cáo dùng GIOTRIF cho nhóm bệnh nhân này.\nTuổi, chủng tộc, giới tính Không cần điều chỉnh liều theo yếu tố tuổi, chủng tộc hoặc giới tính (xem “Dược động học”).\nTrẻ em Tính an toàn và hiệu quả của GIOTRIF chưa được nghiên cứu trên trẻ em. Do đó, không khuyến cáo dùng GIOTRIF cho trẻ em hoặc thanh thiếu niên.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "lieu_dung",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Liều dùng | Nội dung:\nTrẻ em Tính an toàn và hiệu quả của GIOTRIF chưa được nghiên cứu trên trẻ em. Do đó, không khuyến cáo dùng GIOTRIF cho trẻ em hoặc thanh thiếu niên.\nSử dụng chất ức chế P-glycoprotein (P-gp) Nếu cần phải sử dụng các thuốc ức chế P-gp, nên dùng so le với Giotrif, ví dụ dùng liều thuốc ức chế P-gp cách ra xa nhất có thể về thời gian so với liều Giotrif. Điều này có nghĩa là nên dùng thuốc ức chế P-gp cách 6 giờ (đối với thuốc ức chế P-gp dùng hai lần một ngày) hoặc 12 giờ (đối với thuốc ức chế P-gp dùng một lần một ngày) so với Giotrif (xin xem mục Tương tác).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "lieu_dung",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Xử trí quá liều | Nội dung:\nTriệu chứng Trong các nghiên cứu lâm sàng Pha I, liều GIOTRIF cao nhất được nghiên cứu trên số lượng giới hạn bệnh nhân là 160 mg một lần mỗi ngày trong 3 ngày và 100 mg một lần mỗi ngày trong 2 tuần.\nCác phản ứng bất lợi quan sát thấy khi dùng những liều này chủ yếu là biến cố trên da (phát ban/mụn trứng cá) và trên đường tiêu hóa (đặc biệt là tiêu chảy). Quá liều ở 2 thanh niên khỏe mạnh khi mỗi người uống 360 mg GIOTRIF (là một phần của hỗn hợp thuốc uống vào) gây ra các phản ứng bất lợi liên quan đến thuốc: buồn nôn, nôn, suy nhược, chóng mặt, đau đầu, đau bụng và tăng amylase (<1,5 lần giới hạn trên của mức bình thường). Hai người đều hồi phục khỏi các biến cố ngoại ý.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "xu_tri_qua_lieu",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Xử trí quá liều | Nội dung:\nĐiều trị Không có thuốc giải đặc hiệu khi quá liều GIOTRIF. Trong trường hợp nghi quá liều thì nên ngừng dùng GIOTRIF và điều trị nâng đỡ. Nếu có chỉ định thì có thể loại bỏ afatinib chưa hấp thu bằng cách gây nôn hoặc rửa dạ dày.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "xu_tri_qua_lieu",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Xử trí quên liều | Nội dung:\nNếu quên một liều GIOTRIF thì nên uống trong ngày ngay khi nhớ ra. Tuy nhiên, bỏ qua liều bị quên nếu liều kế tiếp theo lịch trình sẽ uống trong vòng 8 giờ.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "xu_tri_quen_lieu",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Chống chỉ định | Nội dung:\nChống chỉ định dùng GIOTRIF cho những bệnh nhân quá mẫn với afatinib hoặc với bất kỳ tá dược nào.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "chong_chi_dinh",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nĐánh giá tình trạng đột biến EGFR Khi đánh giá tình trạng đột biến EGFR ở một bệnh nhân, điều quan trọng là lựa chọn một phương pháp chính xác và đã được thẩm định kỹ để tránh kết quả âm tính giả hoặc dương tính giả.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nTiêu chảy Tiêu chảy, kể cả tiêu chảy nặng, đã được báo cáo trong thời gian điều trị với GIOTRIF (xem ”Tác dụng phụ”). Tiêu chảy có thể dẫn đến mất nước kèm hoặc không kèm suy thận, trong những trường hợp hiếm có thể dẫn đến tử vong. Tiêu chảy thường xuất hiện trong 2 tuần điều trị đầu tiên. Tiêu chảy mức độ 3 thường xuất hiện trong 6 tuần điều trị đầu tiên. Điều quan trọng là nên chủ động xử trí tiêu chảy bao gồm bù đủ nước kết hợp với thuốc chống tiêu chảy trong 6 tuần điều trị đầu tiên và nên bắt đầu ngay khi có những dấu hiệu tiêu chảy đầu tiên. Nên sử dụng thuốc chống tiêu chảy (như loperamid) và nếu cần nên tăng liều đến liều khuyến cáo cao nhất đã được phê duyệt",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\n. Nên sử dụng thuốc chống tiêu chảy (như loperamid) và nếu cần nên tăng liều đến liều khuyến cáo cao nhất đã được phê duyệt. Nên có sẵn các thuốc chống tiêu chảy để bệnh nhân có thể được điều trị khi có dấu hiệu tiêu chảy đầu tiên và nên điều trị liên tục cho đến khi đã hết phân lỏng được 12 giờ. Bệnh nhân tiêu chảy nặng có thể cần tạm ngừng thuốc và giảm liều hoặc ngừng vĩnh viễn điều trị với GIOTRIF (xem “Liều lượng và cách dùng”). Bệnh nhân mất nước có thể cần được truyền tĩnh mạch dịch và điện giải.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nBiến cố ngoại ý trên da Đã có báo cáo phát ban/mụn trứng cá ở những bệnh nhân điều trị với GIOTRIF (xem “Tác dụng phụ”). Nói chung, ban biểu hiện dưới dạng ban đỏ nhẹ hoặc trung bình và ban dạng mụn trứng cá mà có thể xuất hiện hoặc nặng lên ở những vùng tiếp xúc với ánh nắng mặt trời. Những bệnh nhân tiếp xúc với ánh nắng mặt trời nên được khuyên sử dụng quần áo che kín, và/hoặc kem chống nắng.\nCan thiệp sớm các phản ứng trên da (như kem làm mềm da, kháng sinh) có thể tạo điều kiện giúp điều trị liên tục bằng GIOTRIF.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nCan thiệp sớm các phản ứng trên da (như kem làm mềm da, kháng sinh) có thể tạo điều kiện giúp điều trị liên tục bằng GIOTRIF.\nNhững bệnh nhân có các phản ứng trên da kéo dài hoặc nghiêm trọng cũng có thể cần ngừng điều trị tạm thời, giảm liều (xem “Liều lượng và cách dùng”), điều trị bổ sung, và khám bác sĩ chuyên khoa da liễu để điều trị các ảnh hưởng trên da. Đã có báo cáo trường hợp da bóng nước, phồng rộp, tróc vảy, kể cả trường hợp hiếm gợi ý hội chứng Stevens-Johnson và hoại tử thượng bì nhiễm độc.\nNên tạm ngừng hoặc ngừng vĩnh viễn điều trị với GIOTRIF nếu bệnh nhân có biểu hiện da bóng nước, phồng rộp hoặc tróc vảy nặng.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nNên tạm ngừng hoặc ngừng vĩnh viễn điều trị với GIOTRIF nếu bệnh nhân có biểu hiện da bóng nước, phồng rộp hoặc tróc vảy nặng.\nBệnh nhân nữ, nhẹ cân và có sẵn suy thận Đã quan sát thấy nồng độ theo thời gian của afatinib cao ở những bệnh nhân nữ, nhẹ cân và những bệnh nhân có sẵn suy thận (xem “Dược động học”). Điều này có thể làm tăng nguy cơ xuất hiện các biến cố ngoại ý qua trung gian EGFR như tiêu chảy, phát ban/mụn trứng cá và viêm miệng. Nên theo dõi chặt chẽ bệnh nhân có những yếu tố nguy cơ này.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nBệnh phổi mô kẽ (ILD) Đã có báo cáo ILD hoặc biến cố giống ILD (như thâm nhiễm phổi, viêm phổi, hội chứng suy hô hấp cấp, viêm phế nang dị ứng), kể cả tử vong ở những bệnh nhân dùng GIOTRIF để điều trị NSCLC. Các biến cố giống ILD liên quan đến thuốc được báo cáo ở 0,7% trong số hơn 3800 bệnh nhân được điều trị. Các biến cố giống ILD Mức độ ≥ 3 theo CTCAE, bất kể liên quan nhân quả, được báo cáo ở 1% bệnh nhân (xem “Tác dụng phụ”). Chưa nghiên cứu ở những bệnh nhân có tiền sử ILD. Nên đánh giá cẩn thận tất cả những bệnh nhân có các triệu chứng ở phổi (khó thở, ho, sốt) biểu hiện cấp tính và/hoặc tiến triển xấu không rõ nguyên nhân để loại trừ ILD. Nên tạm ngừng điều trị GIOTRIF trong khi chờ đánh giá các triệu chứng",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\n. Nên tạm ngừng điều trị GIOTRIF trong khi chờ đánh giá các triệu chứng. Nên ngừng điều trị vĩnh viễn bằng GIOTRIF nếu chẩn đoán là ILD và điều trị thích hợp khi cần (xem “Liều lượng và cách dùng”).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nSuy gan nặng Suy gan, kể cả tử vong, đã được báo cáo trong thời gian điều trị bằng GIOTRIF với tỷ lệ dưới 1% bệnh nhân. Ở những bệnh nhân này, các yếu tố gây nhiễu bao gồm bệnh gan đã có từ trước và/hoặc các bệnh đi kèm cùng với sự tiến triển của khối u ác tính. Nên kiểm tra chức năng gan định kỳ cho những bệnh nhân đã bị bệnh gan từ trước. Có thể cần tạm ngừng GIOTRIF ở những bệnh nhân có chức năng gan xấu đi (xem “Liều lượng và cách dùng”). Nên ngừng vĩnh viễn điều trị bằng GIOTRIF nếu bệnh nhân xuất hiện suy gan nghiêm trọng trong thời gian dùng thuốc.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 8
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nViêm giác mạc Cần đi khám chuyên khoa mắt ngay nếu có các triệu chứng viêm mắt cấp tính hoặc tiến triển xấu, chảy nước mắt, nhạy cảm ánh sáng, nhìn mờ, đau mắt và/hoặc đỏ mắt. Nếu được chẩn đoán viêm loét giác mạc thì nên tạm ngừng hoặc ngừng vĩnh viễn điều trị bằng GIOTRIF. Nếu chẩn đoán viêm giác mạc thì nên cân nhắc thận trọng giữa lợi ích và nguy cơ của việc tiếp tục điều trị. Nên thận trọng khi dùng GIOTRIF cho những bệnh nhân có tiền sử viêm giác mạc, viêm loét giác mạc hoặc khô mắt nặng. Sử dụng kính áp tròng cũng là yếu tố nguy cơ của viêm giác mạc và loét (xem “Tác dụng phụ”).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 9
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nChức năng thất trái Rối loạn chức năng thất trái có liên quan đến sự ức chế HER2. Dựa trên dữ liệu lâm sàng đã có, không có gợi ý cho thấy GIOTRIF gây tác dụng bất lợi trên sự co bóp tim. Tuy nhiên, chưa có nghiên cứu của GIOTRIF ở những bệnh nhân có phân suất tống máu thất trái (LVEF) bất thường hoặc có tiền sử bệnh tim nặng. Ở những bệnh nhân có các yếu tố nguy cơ về tim và những bệnh nhân bị bệnh có thể ảnh hưởng đến LVEF, nên cân nhắc theo dõi tim mạch, bao gồm đánh giá LVEF tại thời điểm bắt đầu và trong thời gian điều trị GIOTRIF. Nếu bệnh nhân xuất hiện các dấu hiệu/triệu chứng liên quan đến tim trong thời gian điều trị thì nên theo dõi tim mạch bao gồm đánh giá LVEF",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 10
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\n. Nếu bệnh nhân xuất hiện các dấu hiệu/triệu chứng liên quan đến tim trong thời gian điều trị thì nên theo dõi tim mạch bao gồm đánh giá LVEF. Ở những bệnh nhân có phân suất tổng máu thấp hơn giới hạn dưới của mức bình thường theo quy định thì nên khám chuyên khoa tim mạch cũng như cân nhắc tạm ngừng hoặc ngừng vĩnh viễn điều trị bằng GIOTRIF.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 11
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nTương tác với thuốc ức chế P-glycoprotein (P-gp) Sử dụng thuốc ức chế mạnh P-gp trước khi dùng GIOTRIF có thể gây tăng nồng độ theo thời gian của afatinib và do đó nên sử dụng thuốc thận trọng. Nếu cần dùng thuốc ức chế P-gp thì nên sử dụng cùng lúc hoặc sau GIOTRIF. Điều trị đồng thời với các thuốc cảm ứng mạnh P-gp có thể làm giảm nồng độ theo thời gian của afatinib (xem “Liều lượng và cách dùng”, “Tương tác” và “Dược động học”).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 12
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Thận trọng | Nội dung:\nKết hợp với vinorelbin trong ung thư vú di căn với HER2 dương tính Trong một phân tích giữa kỳ về sống còn toàn bộ trong thời gian đầu của một nghiên cứu Pha III trong ung thư vú di căn với HER2 dương tính đã cho thấy tăng tỷ lệ tử vong ở những bệnh nhân dùng GIOTRIF kết hợp với vinorelbin so với dùng trastuzumab và vinorelbin. Kết hợp GIOTRIF với vinorelbin cũng gây tăng tỷ lệ tác dụng bất lợi (như tiêu chảy, phát ban) và các biến cố gây tử vong liên quan đến nhiễm khuẩn và ung thư tiến triển. Không nên dùng GIOTRIF kết hợp với vinorelbin cho những bệnh nhân ung thư vú di căn với HER2 dương tính.\nLactose GIOTRIF chứa lactose. Những bệnh nhân mắc bệnh di truyền hiếm gặp không dung nạp galactose, như thiếu hụt Lapp lactase hoặc kém hấp thu glucose-galactose thì không nên dùng thuốc này.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "than_trong",
+            "chunk_index": 13
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Tương tác thuốc | Nội dung:\nCác tương tác với hệ thống vận chuyển thuốc Ảnh hưởng của các thuốc ức chế P-gp và các thuốc ức chế protein kháng thuốc trong ung thư vú (BCRP) đối với afatinib Các nghiên cứu in vitro đã chứng minh afatinib là cơ chất của P-gp và BCRP. Khi dùng một thuốc ức chế mạnh P-gp và BCRP là ritonavir (200 mg hai lần mỗi ngày trong ba ngày) một giờ trước khi dùng liều đơn 20 mg Giotrif, nồng độ afatinib tăng 48% (diện tích dưới đường cong (AUC)) và 39% (nồng độ đỉnh trong huyết tương (Cmax)). Mặt khác, khi dùng ritonavir đồng thời hoặc cách 6 giờ sau khi dùng 40 mg Giotrif, sinh khả dụng tương đối của afatinib lần lượt là 119% (AUC), 104% (Cmax) và 111% (AUC), 105% (Cmax)",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "tuong_tac_thuoc",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Tương tác thuốc | Nội dung:\n. Vì vậy, khuyến cáo dùng những thuốc ức chế mạnh P-gp (bao gồm nhưng không chỉ giới hạn trong các thuốc ritonavir, cyclosporine A, ketoconazole, itraconazole, erythromycin, verapamil, quinidine, tacrolimus, nelfinavir, saquinavir, and amiodarone) so le với Giotrif, tốt nhất là dùng cách 6 giờ hoặc 12 giờ so với Giotrif (xin xem mục Liều lượng và cách dùng).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "tuong_tac_thuoc",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Tương tác thuốc | Nội dung:\nẢnh hưởng của các thuốc cảm ứng P-gp đối với afatinib Điều trị trước đó bằng rifampicin (600 mg một lần mỗi ngày trong 7 ngày) là thuốc kích thích mạnh P-gp làm giảm nồng độ afatinib 34% (AUC) và 22% (Cmax) sau khi dùng liều duy nhất GIOTRIF 40 mg. Các thuốc cảm ứng mạnh P-gp (bao gồm nhưng không chỉ giới hạn trong các thuốc rifampicin, carbamazepine, phenytoin, phenobarbital hoặc thảo dược St. John’s (Hypericum perforatum) có thể làm giảm nồng độ afatinib (xin xem mục Cảnh báo và thận trọng đặc biệt).\nẢnh hưởng của afatinib đối với cơ chất của P-gp Dựa vào các dữ liệu in vitro, afatinib là chất ức chế P-gp trung bình, Tuy nhiên, dựa trên các dữ liệu lâm sàng, điều trị với Giotrif được xem như không làm thay đổi nồng độ trong huyết tương của các cơ chất của P-gp.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "tuong_tac_thuoc",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Tương tác thuốc | Nội dung:\nTương tác với BCRP Các nghiên cứu in vitro chỉ ra rằng afatinib là một cơ chất và một chất ức chế chất vận chuyển BCRP. Afatinib có thể làm tăng sinh khả dụng của các cơ chất BCRP dùng đường uống (bao gồm nhưng không chỉ giới hạn trong các chất rosuvastatin và sulfasalazine).\nẢnh hưởng của thức ăn đến afatinib Uống GIOTRIF cùng với bữa ăn giàu chất béo làm giảm đáng kể nồng độ theo thời gian của afatinib, cụ thể Cmax giảm khoảng 50% và AUCo giảm khoảng 39%. Do đó không nên dùng GIOTRIF cùng với thức ăn (xem “Liều lượng và cách dùng” và “Dược động học”).",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "tuong_tac_thuoc",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Tác dụng phụ | Nội dung:\nCác loại tác dụng không mong muốn (ADR) nói chung liên quan đến phương thức ức chế EGFR trong hoạt động của afanitib. Tất cả các tác dụng không mong muốn được tổng hợp trong bảng 2.\nTác dụng không mong muốn hay gặp nhất là tiêu chảy và các biến cố ngoại ý trên da (xin xem mục Cảnh báo và thận trọng đặc biệt) và viêm miệng, viêm quanh móng (xin xem thêm bảng 3).\nNói chung, giảm liều dẫn đến giảm tần suất của các phản ứng phụ hay gặp (xem mục Liều dùng và cách dùng).\nỞ bệnh nhân điều trị với Giotrif 40 mg một lần một ngày, giảm liều do các tác dụng không mong muốn xảy ra ở 57% bệnh nhân trong thử nghiệm lâm sàng LUX-Lung 3. Dừng thuốc do các tác dụng không mong muốn tiêu chảy và phát ban/nổi mụn là 1,3% và 0% trong thử nghiệm LUX-Lung 3.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "adverse_effect",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Tác dụng phụ | Nội dung:\nPhản ứng giống như bệnh phổi mô kẽ được báo cáo ở 0,7% bệnh nhân điều trị với afatinib. Đã có báo cáo trường hợp da bóng nước, phồng rộp, tróc vảy, kể cả trường hợp hiếm gợi ý hội chứng Stevens-Johnson và hoại tử thượng bì nhiễm độc mặc dù những trường hợp này có thể do nguyên nhân khác (xin xem mục Cảnh báo và thận trọng đặc biệt) Bảng liệt kê các tác dụng không mong muốn Bảng 2 tổng hợp tần suất của các tác dụng không mong muốn từ các thử nghiệm NSCLC và từ kinh nghiệm sử dụng sau khi thuốc Giotrif lưu hành với liều 40 mg hoặc 50 mg đơn trị liệu. Những thuật ngữ sau được dùng để phân loại tác dụng không mong muốn bởi tần suất: rất phổ biến (≥1/10); phổ biến (≥1/100 đến <1/10); không phổ biến (≥1/1000 đến <1/100); hiếm gặp (≥1/10000 đến <1/1000); rất hiếm gặp (<1/10000)",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "adverse_effect",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Tác dụng phụ | Nội dung:\n. Trong mỗi nhóm tần suất, các tác dụng không mong muốn được trình bày theo thứ tự giảm dần về mức độ nghiêm trọng.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "adverse_effect",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Tác dụng phụ | Nội dung:\nBảng 2 Tổng hợp các tác dụng không mong muốn phân loại theo tần suất Hệ cơ quan Rất phổ biến (≥1/10) Phổ biến (≥1/100 đến <1/10) Không phổ biến (≥1/1000 đến <1/100) Hiếm gặp (≥1/10000 đến <1/1000) Nhiễm khuẩn và nhiễm ký sinh trùng Viêm quanh móng 1\nViêm bàng quang Rối loạn chuyển hoá và dinh dưỡng Giảm ngon miệng Mất nước Giảm kali máu Rối loạn hệ thần kinh Loạn vị giác Rối loạn mắt Viêm kết mạc Khô mắt Viêm giác mạc Rối loạn hô hấp, ngực và trung thất Chảy máu cam Chảy nước mũi Bệnh phổi mô kẽ Rối loạn đường tiêu hóa Tiêu chảy Viêm miệng 2\nBuồn nôn Nôn Khó tiêu Viêm môi Viêm tụy Rối loạn gan mật Tăng alanine aminotransferase Tăng aspartate aminotransferase Rối loạn da và mô dưới da Phát ban 3\nViêm da dạng trứng cá 4\nNgứa 5\nKhô da 6",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "adverse_effect",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Tác dụng phụ | Nội dung:\nViêm da dạng trứng cá 4\nNgứa 5\nKhô da 6\nHội chứng bàn tay- bàn chân Hội chứng Stevens-Johnson7 Hoại tử thượng bì nhiễm độc7 Rối loạn cơ xương và mô liên kết Co thắt cơ Rối loạn thận và tiết niệu Suy giảm chức năng thận/ suy thận Rối loạn toàn thân và tại chỗ dùng thuốc Sốt Đánh giá bệnh nhân Giảm cân 1\nBao gồm viêm quanh móng, viêm móng, viêm giường móng 2\nBao gồm viêm miệng, viêm miệng áp tơ, sưng niêm mạc, loét miệng, mòn bề mặt niêm mạc miệng, mòn niêm mạc, loét niêm mạc 3\nBao gồm nhóm các thuật ngữ hay dùng về phát ban 4\nBao gồm mụn trứng cá, mụn trứng cá mủ, viêm da dạng trứng cá 5\nBao gồm mẩn ngứa, tình trạng ngứa nói chung 6\nBao gồm khô da, da nứt nẻ 7\nDựa trên kinh nghiệm sử dụng sau khi lưu hành thuốc",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "adverse_effect",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Thuốc: Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên) | Phần: Bảo quản | Nội dung:\nĐể nơi mát, tránh ánh sáng, nhiệt độ dưới 30⁰C.\nĐể xa tầm tay trẻ em, đọc kỹ hướng dẫn sử dụng trước khi dùng.",
+        "metadata": {
+            "name": "Thuốc Giotrif 20mg Boehringer điều trị ung thư phổi (4 vỉ x 7 viên)",
+            "id": "35456",
+            "url": "https://nhathuoclongchau.com.vn/thuoc/giotrif-20mg-boehringer-4x7-35456.html",
+            "category": "Thuốc điều trị ung thư",
+            "type": "thuốc",
+            "source": "Thuốc Long Châu",
+            "original_lang": "vietnamese",
+            "field": "preservation",
+            "chunk_index": 0
+        }
+    }
+]

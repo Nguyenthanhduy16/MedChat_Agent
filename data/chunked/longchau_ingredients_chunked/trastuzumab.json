@@ -1,0 +1,254 @@
+[
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Trastuzumab.\nLoại thuốc Thuốc chống ung thư, kháng thể đơn dòng.\nDạng thuốc và hàm lượng Bột dùng để pha dịch truyền: 150 mg trong lọ 15 ml; 440 mg trong lọ 20 ml.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Chỉ định | Nội dung:\nUng thư vú di căn, ung thư vú giai đoạn sớm.\nUng thư biểu mô tuyến dạ dày di căn có HER2 biểu hiện quá mức.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Dược lực học | Nội dung:\nTrastuzumab là kháng thể đơn dòng tái tổ hợp, có tác dụng liên kết đặc hiệu với phần bên ngoài của thụ thể HER2, tham gia vào tương tác thụ thể - thụ thể nên có vai trò điều hòa sự biệt hóa, sự tăng trưởng, sự tăng sinh. Tác dụng độc của trastuzumab xảy ra ở tế bào có HER biểu hiện quá mức mà ít ảnh hưởng đến tế bào bình thường.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Dược lực học | Nội dung:\nTrastuzumab ức chế sự tăng sinh các tế bào u có HER2 biểu hiện quá mức. HER2 là một tiền gen ung thư (pro-oncogene), còn gọi là thụ thể tyrosin kinase qua màng 185-kd (185-kd transmembrane tyrosine kinase receptor) hoặc thụ thể 2 của yếu tố tăng trưởng biểu mô người (human epidermal growth factor receptor 2) có bản chất là protein, còn có ký hiệu là HER2/neu. HER2 biểu hiện quá mức sẽ góp vào quá trình tạo thành ung thư. Khi gen ung thư HER2 bị khuếch đại (cũng là khi protein của HER2 có biểu hiện quá mức) sẽ xảy ra ung thư vú sơ phát có hạch hoặc không có hạch.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Dược động học | Nội dung:\nHấp thu Trastuzumab được tiêm tĩnh mạch. Chưa có nghiên cứu nào được thực hiện với các đường dùng khác.\nPhân bố Thể tích phân bố vào khoảng 2,95 lít. Trastuzumab rất ít qua hàng rào máu não.\nChuyển hóa Chưa rõ chuyển hóa của thuốc. Có thể ở hệ thống võng nội mô.\nThải trừ Sự đào thải phức tạp của trastuzumab ở người được thực hiện qua trung gian của các tế bào biểu mô phụ thuộc vào liều lượng (không tuyến tính). Bài tiết trastuzumab qua thận rất thấp",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Liều lượng | Nội dung:\nLiều dùng Trastuzumab Người lớn Điều trị ung thư vú giai đoạn sớm: Để điều trị ung thư vú, có HER2 biểu hiện quá mức (overexpressing): Trastuzumab được dùng đồng thời với paclitaxel hoặc docetacel và/hoặc carboplatin sau hóa trị liệu bằng doxorubicin và cyclophosphamid. Liều ban đầu của trastuzumab là 4 mg/kg (dùng cùng với liều paclitaxel đầu tiên); sau đó mỗi tuần dùng trastuzumab liều 2 mg/kg trong 11 tuần; tiếp theo là trastuzumab liều tấn công 8 mg/kg và 6 mg/kg chu kỳ 3 tuần, trị liệu kéo dài đủ 1 năm.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Liều lượng | Nội dung:\nĐiều trị ung thư vú giai đoạn muộn có di căn, có HER2 biểu hiện quá mức: Trastuzumab có thể được dùng đơn độc trong trường hợp bệnh tái phát sau hóa trị liệu trước đó hoặc được dùng kết hợp với paclitaxel hoặc một số thuốc khác trong điều trị khởi đầu. Nhà sản xuất khuyến cáo dùng liều 4 mg/kg truyền tĩnh mạch chậm trong 90 phút; sau đó mỗi tuần dùng liều 2 mg/kg truyền tĩnh mạch. Trong lúc truyền, cần theo dõi bệnh nhân có bị các dấu hiệu phản ứng do truyền thuốc, sốt, rét run không. Nếu những lần truyền trước được dung nạp tốt thì những lần truyền sau (liều 2 mg/kg) có thể truyền trong 30 phút. Trị liệu bằng trastuzumab kéo dài cho đến khi bệnh có biểu hiện tiến triển.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Liều lượng | Nội dung:\nLiều thường dùng là 4 mg/kg truyền tĩnh mạch chậm trong 90 phút; sau đó mỗi tuần truyền 2 mg/kg trong 30 phút. Liều một lần tối đa < 8 mg/kg.\nĐiều trị ung thư dạ dày di căn có HER2 biểu hiện quá mức: Liều tấn công được khuyên dùng là 8 mg/kg truyền tĩnh mạch. Liều duy trì được khuyên dùng là 6 mg/kg; 3 tuần một lần. Trị liệu duy trì bắt đầu 3 tuần sau đợt tấn công.\nTrẻ em Không có thông tin sử dụng trastuzumab ở trẻ em.\nĐối tượng khác Người cao tuổi: Không cần điều chỉnh liều.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Liều lượng | Nội dung:\nTrẻ em Không có thông tin sử dụng trastuzumab ở trẻ em.\nĐối tượng khác Người cao tuổi: Không cần điều chỉnh liều.\nNgười suy thận: Không cần điều chỉnh liều cho bệnh nhân suy thận nhẹ (CLcr: 50-80 mL / phút / 1,73 m2). Khuyến cáo không dùng quá 200 mg BID cho bệnh nhân suy thận trung bình (CLcr: 30-49 mL / phút / 1,73 m2) và 200 mg QD được dùng cho bệnh nhân suy thận nặng (CLcr: <30 mL / tối thiểu / 1,73 m2). Liều lượng thích hợp ở bệnh nhân bệnh thận giai đoạn cuối vẫn chưa được xác định.\nNgười suy gan: Không cần điều chỉnh liều cho bệnh nhân suy gan nhẹ hoặc trung bình.\nCách dùng Trastuzumab phải do thầy thuốc có kinh nghiệm sử dụng thuốc độc tế bào chỉ định và theo dõi.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Liều lượng | Nội dung:\nCách dùng Trastuzumab phải do thầy thuốc có kinh nghiệm sử dụng thuốc độc tế bào chỉ định và theo dõi.\nTrước khi bắt đầu điều trị bằng trastuzumab bắt buộc phải làm test HER2. Nếu khối ung thư vú không có thụ thể HER2 hoạt động quá mức thì trastuzumab không những không có tác dụng mà còn có thể gây hại.\nPha thuốc:",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Liều lượng | Nội dung:\nPha thuốc:\nPha thuốc trong điều kiện vô khuẩn. Trước hết dùng bơm tiêm vô khuẩn bơm nước cất vô khuẩn (hoặc dung môi được nhà sản xuất cấp kèm với thuốc) vào lọ chứa thuốc bột. Thể tích nước/dịch để hòa tan theo hướng dẫn của nhà sản xuất. Bơm sao cho tia nước bắn vào chỗ bột thuốc đông khô. Để hòa tan, lộn lên lộn xuống thật nhẹ nhàng ống thuốc. Không được lắc, làm sủi bọt; nếu có ít bọt thì để lọ đứng yên trong khoảng 5 phút. Dung dịch này phải có màu vàng nhạt, trong suốt, không có cặn. Không được đông lạnh dung dịch này. Dung dịch thuốc đã hòa tan này có nồng độ trastuzumab là 21 mg/ml, pH xấp xỉ 6,0 (440 mg trong lọ 20 ml). Phải ghi ngay nhãn: Ngày pha, người pha, ngày sẽ sử dụng (trong vòng 28 ngày kể từ ngày pha). Sau 28 ngày, lọ thuốc này phải bị loại bỏ và hủy theo quy định.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Liều lượng | Nội dung:\nTừ dung dịch này sẽ pha thành dịch truyền. Thể tích thuốc đã hòa tan cần để pha loãng được tính như sau:\nCho liều tấn công 4 mg/kg hoặc liều 2 mg/kg mỗi tuần tiếp theo:\nThể tích (ml) = [Cân nặng (kg) x liều*] / 21 mg/ml * mg/kg với liều tấn công, 2 mg/kg cho liều tiếp theo.\nCho liều tấn công 8 mg/kg hoặc liều 6 mg/kg 3 tuần một lần:\nThể tích (ml) = [Cân nặng (kg) x liều**] / 21 mg/ml ** 8 mg/kg với liều tấn công, 6 mg/kg cho liều tiếp theo.\nBơm thể tích thuốc lấy từ lọ ra và đưa vào túi truyền có chứa 250 ml dung dịch natri clorid 0,9% (chỉ dùng dung dịch này). Lộn ngược nhẹ nhàng túi để trộn; không được để có bọt. Phải ghi ngay nhãn: Nồng độ, ngày pha, người pha, ngày sẽ dùng đến v.v... Dung dịch pha loãng này phải được dùng ngay.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Liều lượng | Nội dung:\nChế phẩm thuốc không chứa chất bảo quản. Tất cả thuốc thừa, lọ đựng, dây truyền, găng tay v.v... phải vứt bỏ và hủy theo các quy định.\nNếu quên liều duy trì dưới 7 ngày: Liều duy trì vẫn dùng phải được truyền ngay, không chờ đến chu kỳ sau. Các liều duy trì tiếp theo vẫn theo lịch đã có trước đấy.\nNếu quên liều duy trì hơn 7 ngày: Phải truyền tĩnh mạch liều tấn công trong 90 phút. Chu kỳ điều trị duy trì tiếp theo được tính từ liều tấn công này.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Chưa có dữ liệu về quá liều và ngộ độc cấp trastuzumab, ngay cả ở bệnh nhân đã dùng tới liều 500 mg/m2 trong các thực nghiệm lâm sàng.\nCách xử lý khi quá liều Không có thuốc giải độc đặc hiệu với trastuzumab.\nQuên liều và xử trí Nếu quên liều duy trì dưới 7 ngày: Liều duy trì vẫn dùng phải được truyền ngay, không chờ đến chu kỳ sau. Các liều duy trì tiếp theo vẫn theo lịch đã có trước đấy.\nNếu quên liều duy trì hơn 7 ngày: Phải truyền tĩnh mạch liều tấn công trong 90 phút. Chu kỳ điều trị duy trì tiếp theo được tính từ liều tấn công này.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Dùng đồng thời trastuzumab và các thuốc chống ung thư anthracyclin làm tăng độc tính lên tim của trastuzumab. Không nên kết hợp 2 thuốc này để điều trị ung thư vú.\nTrong nghiên cứu lâm sàng, khi được dùng phối hợp paclitaxel làm tăng nồng độ trung bình của trastuzumab lên 1,5 lần.\nTrastuzumab làm tăng tác dụng của thuốc chống đông warfarin .\nTương kỵ thuốc Không pha trastuzumab vào dung dịch glucose vì làm tủa protein.\nKhông pha lẫn bất kỳ thuốc nào vào dung dịch trastuzumab để truyền.\nThuốc không tương kỵ với các túi đựng dịch truyền và ống dây truyền bằng polyvinyl clorid, polyethylen, polypropylen nên có thể dùng các túi và dây truyền này để đựng dịch truyền trastuzumab.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Lưu ý | Nội dung:\nLưu ý chung Phải thực hiện test HER2 ở một phòng thí nghiệm chuyên khoa đáp ứng được các yêu cầu kỹ thuật.\nThận trọng ở bệnh nhân đã hóa trị liệu có anthracyclin (doxorubicin hoặc epirubicin). Mọi bệnh nhân bị bệnh tim, nhất là đã dùng anthracyclin hoặc cyclophosphamid phải được khám kỹ tim mạch trước khi dùng trastuzumab: Hỏi tiền sử, khám lâm sàng, điện tâm đồ, siêu âm tim, chụp hình phóng xạ, cộng hưởng từ. Cần đánh giá lợi ích/nguy cơ trước khi dùng trastuzumab. Chỉ dùng trastuzumab cho người có phân số tống máu của thất trái nằm trong giới hạn bình thường (ít nhất là ≥ 50%) và giảm từ đường cơ sở ít hơn 15 điểm sau khi đã hoàn thành hóa trị liệu bổ sung bằng doxorubicin và cyclophosphamid.\nNgười cao tuổi có nguy cơ bị tác dụng phụ cao hơn người trẻ.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Lưu ý | Nội dung:\nNgười cao tuổi có nguy cơ bị tác dụng phụ cao hơn người trẻ.\nLưu ý với phụ nữ có thai Gây thiểu ối. Do thụ thể HER2 có vai trò quan trọng đối với sự phát triển hệ tim mạch và hệ TKTW của thai mà nồng độ HER2 receptor lại cao ở nhiều mô của thai, trong đó có các mô tim và thần kinh nên phải thận trọng. Chỉ dùng trastuzumab cho phụ nữ mang thai khi lợi ích do thuốc lớn hơn nguy cơ đối với thai.\nLưu ý với phụ nữ cho con bú Không rõ trastuzumab có được bài tiết qua sữa hay không. Nhưng vì IgG có trong sữa mẹ và vì trastuzumab có thể được hấp thu và gây ADR ở trẻ bú mẹ nên người mẹ phải thôi cho con bú trong thời gian điều trị và 6 tháng sau liều cuối cùng.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Trastuzumab | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Trastuzumab có thể có ảnh hưởng nhỏ đến khả năng lái xe và sử dụng máy móc. Bệnh nhân nên thận trọng khi lái xe hoặc vận hành máy móc trong trường hợp họ bị mệt mỏi, đau đầu hoặc chóng mặt trong khi điều trị với trastuzumab.",
+        "metadata": {
+            "name": "Trastuzumab",
+            "id": "trastuzumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/trastuzumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

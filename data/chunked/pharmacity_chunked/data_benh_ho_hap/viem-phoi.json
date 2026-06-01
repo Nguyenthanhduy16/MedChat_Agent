@@ -1,0 +1,184 @@
+[
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Tổng quan | Nội dung:\nTổng quan chung\nViêm phổi là một bệnh nhiễm trùng bao gồm viêm phế nang (túi khí nhỏ), túi phế nang, ống phế nang, tổ chức liên kết khe kẽ và viêm tiểu phế quản tận cùng do vi khuẩn, virus, nấm gây nên, có thể làm viêm túi khí ở một hoặc cả hai phổi. Khi các phế nang, đường dẫn khí chứa nhiều dịch nhầy hoặc mủ, xuất tiết dịch đường hô hấp trên gây ho đờm, sốt ớn lạnh, khó thở.\nViêm phổi có thể có nhiều mức độ bệnh khác nhau từ nhẹ đến đe dọa tính mạng. Bệnh nguy hiểm nhất đối với trẻ sơ sinh và trẻ nhỏ, người trên 65 tuổi và những người có vấn đề về sức khỏe hoặc hệ miễn dịch yếu.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Triệu chứng | Nội dung:\nTriệu chứng\nCác triệu chứng bệnh viêm phổi có thể khác nhau, tùy thuộc vào nguyên nhân gây viêm phổi, tuổi tác và sức khỏe tổng thể của bệnh nhân. Bệnh thường phát triển trong vài ngày. Triệu chứng bệnh ban đầu thường nhẹ như: ho, nóng sốt, ớn lạnh và đau đầu.\nCác triệu chứng bệnh viêm phổi bao gồm:\nĐau tức ngực khi thở hoặc ho\nHo, thường ho có đờm\nMệt mỏi\nĂn không ngon\nSốt, đổ mồ hôi và ớn lạnh\nBuồn nôn, nôn hoặc tiêu chảy\nHụt hơi\nMạch đập nhanh",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Nguyên nhân | Nội dung:\nNguyên nhân\nNguyên nhân gây bệnh viêm phổi có thể được phân loại theo nhiều cách khác nhau dựa vào nguồn lây, mục đích, tác nhân gây bệnh… Nhìn chung nguyên nhân gây viêm phổi chủ yếu được phân chia thành 4 loại dưới đây:\nViêm phổi mắc phải cộng đồng: là loại viêm phổi phổ biến nhất. Nó xảy ra bên ngoài bệnh viện hoặc các cơ sở chăm sóc sức khỏe khác. Nó có thể được gây ra bởi: vi khuẩn, vi rút (bao gồm covid 19), nấm, hay tiếp xúc với hóa chất.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Nguyên nhân | Nội dung:\nViêm phổi bệnh viện: Một số bệnh nhân phát triển viêm phổi trong quá trình điều trị tại bệnh viện do một số bệnh lý khác. Đặc biệt, tại khoa hồi sức tích cực tình trạng sức khỏe bệnh nhân suy kiệt cần sử dụng máy trợ thở (máy thở) sẽ có nguy cơ cao mắc bệnh viêm phổi. Tại Việt Nam, viêm phổi bệnh viện chiếm tỷ lệ khoảng từ 21-75%, trong đó viêm phổi do lây nhiễm qua thở máy chiếm đến 90% và được xác định sau thở máy 48 giờ. Đây là vấn đề khó khăn mà ngành y tế đang phải đương đầu vì khó chẩn đoán bệnh, thường vi khuẩn bị đề kháng với kháng sinh cao, nên thời gian điều trị kéo dài và chi phí điều trị rất tốn kém.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Nguyên nhân | Nội dung:\nViêm phổi mắc phải do chăm sóc sức khỏe: Viêm phổi mắc phải tại cơ sở chăm sóc sức khỏe là một bệnh nhiễm trùng do vi khuẩn gây ra ở những người sống trong các cơ sở chăm sóc dài hạn hoặc những người được chăm sóc tại các phòng khám ngoại trú, bao gồm cả các trung tâm lọc thận. Giống như viêm phổi mắc phải tại bệnh viện, viêm phổi mắc phải tại cơ sở y tế có thể do vi khuẩn có khả năng kháng kháng sinh cao hơn gây ra.\nViêm phổi hít: Viêm phổi do khí thở là tình trạng người bệnh hít phải lượng lớn dị vật từ đường thở (miệng, hầu họng, dạ dày,…) sau đó rơi vào phổi 2 bên. Các dị vật có thể là nước bọt, thức ăn, hóa chất, axit dịch vị,… nếu chúng đi vào phổi sẽ kích thích phản ứng viêm của niêm mạc phổi, tạo cơ hội để vi khuẩn xâm nhập và gây bệnh viêm phổi.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ\nViêm phổi có thể ảnh hưởng đến bất cứ ai. Nhưng hai nhóm tuổi có nguy cơ lây nhiễm cao, biến chứng nặng nề và tỷ lệ tử vong cao thường gặp ở 2 đối tượng là:\nTrẻ em từ 2 tuổi trở xuống\nNhững người từ 65 tuổi trở lên\nCác đối tượng nguy cơ khác bao gồm:\nNgười đang phải nhập viện: Bệnh nhân đang được điều trị tại bệnh viện có sử dụng máy thở sẽ có nguy cơ mắc bệnh cao hơn.\nNgười mắc bệnh mãn tính như hen suyễn, bệnh phổi tắc nghẽn mãn tính ( COPD ) hoặc bệnh tim.\nNgười bị nghiện thuốc lá, thuốc lào, người làm việc, sinh sống ở môi trường bị ô nhiễm, khói bụi,…\nHệ thống miễn dịch bị suy yếu hoặc bị ức chế. Những người nhiễm HIV/AIDS, những người đã được cấy ghép nội tạng hoặc những người được hóa trị hoặc sử dụng steroid lâu dài đều có nguy cơ mắc bệnh.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Chẩn đoán | Nội dung:\nChẩn đoán\nTùy từng đối tượng, từng trường hợp mà viêm phổi có thể xuất hiện các triệu chứng lâm sàng rõ ràng, hoặc thậm chí không có triệu chứng. Khi đến thăm khám, bác sĩ sẽ dựa vào tình trạng bệnh để chỉ định các xét nghiệm chẩn đoán viêm phổi và tìm nguyên nhân để đưa ra các phương pháp điều trị phù hợp như:\nKhám lâm sàng: Hỏi và chẩn đoán viêm phổi dựa trên các dấu hiệu cảnh báo như: đếm nhịp thở, nghe phổi,…\nChụp X-quang phổi: Đây cũng là xét nghiệm tiêu chuẩn để chẩn đoán viêm phổi, từ kết quả chụp X-quang, bác sĩ sẽ đánh giá các tổn thương nhu mô như tổn thương phế nang, mô kẽ phổi.\nXét nghiệm máu: Kết quả cho thấy bạch cầu trong máu tăng cao, kiểm tra tình trạng nhiễm khuẩn phổi.\nSoi cấy đờm, cấy máu: Tìm thấy vi khuẩn, virus gây nhiễm trùng phổi.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Chẩn đoán | Nội dung:\nSoi cấy đờm, cấy máu: Tìm thấy vi khuẩn, virus gây nhiễm trùng phổi.\nXét nghiệm đo nồng độ Oxy, CO2 trong máu: Thấy rõ tình trạng tăng giảm oxy, thán khí chứng minh cho tình trạng suy hô hấp.\nChụp CT: Tìm ra tổn thương dù là nhỏ hay khó thấy nhất (đám mờ ở phổi) mà phim chụp X-quang bỏ sót.\nNội soi phế quản: Quan sát đường hô hấp bằng ống nội soi mềm (soi phế quản) để chẩn đoán các bệnh lý về phổi. Thủ thuật này cho phép lấy các mẫu mô, tế bào hoặc dịch của phổi.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa bệnh\nBiện pháp phòng ngừa viêm phổi:\nDùng khẩu trang và giữ khoảng cách xã hội: Sử dụng khẩu trang khi ra ngoài và giữ khoảng cách an toàn với người khác để giảm nguy cơ lây nhiễm từ các giọt bắn và tiếp xúc gần gũi với người nhiễm bệnh.\nThực hiện vệ sinh cá nhân và môi trường: Duy trì vệ sinh cá nhân bằng cách thường xuyên rửa tay bằng xà phòng và nước sạch. Giữ môi trường sống sạch sẽ, thông thoáng để ngăn ngừa sự lây lan của vi khuẩn và virus gây viêm phổi.\nTăng cường hệ miễn dịch: Bổ sung chế độ ăn uống giàu chất dinh dưỡng, tập luyện thể dục đều đặn và đủ giấc ngủ để củng cố hệ miễn dịch, giúp cơ thể chống lại vi khuẩn và virus.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Phòng ngừa | Nội dung:\nTránh hút thuốc và tiếp xúc với hóa chất độc hại: Hút thuốc lá và tiếp xúc với khói, hóa chất độc hại có thể làm tổn thương phế quản và làm tăng nguy cơ mắc viêm phổi.\nTiêm phòng vắc xin: Tiêm phòng các loại vắc xin phòng ngừa viêm phổi, như vắc xin phòng viêm phổi do virus SARS-CoV-2 hoặc vắc xin phòng viêm phổi do vi khuẩn như vi khuẩn pneumococcus.\nKiểm tra sức khỏe định kỳ: Điều này giúp phát hiện và điều trị sớm các vấn đề sức khỏe tiềm ẩn có thể gây ra viêm phổi.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Cách điều trị | Nội dung:\nĐiều trị bệnh viêm phổi\nTùy vào mức độ nặng của bệnh, bác sĩ sẽ quyết định hướng điều trị bệnh viêm phổi. Các trường hợp viêm phổi nhẹ có thể điều trị ngoại trú, trong khi các trường hợp viêm phổi trung bình đến nặng cần nằm viện để điều trị.\nViêm phổi do vi khuẩn cần sử dụng kháng sinh để điều trị. Loại thuốc kháng sinh được sử dụng phụ thuộc mức độ nặng của bệnh, tuổi tác, bệnh đồng mắc và các tương tác thuốc. Thời gian sử dụng kháng sinh từ 7-14 ngày tùy vào tác nhân gây bệnh.\nViêm phổi do virus điều trị triệu chứng là chính như hạ sốt, giảm đau kèm theo thuốc kháng virus để giảm thời gian bệnh và mức độ bệnh do vi-rút.\nThuốc kháng nấm để điều trị viêm phổi do nhiễm nấm.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Cách điều trị | Nội dung:\nThuốc kháng nấm để điều trị viêm phổi do nhiễm nấm.\nTrong trường hợp viêm phổi nặng có thể cần phải thở oxy, thông khí nhân tạo, hoặc phải hút dịch nếu dịch tràn màng phổi và điều trị các biến chứng nếu có.\nKết luận",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Bệnh viêm phổi | Phần: Cách điều trị | Nội dung:\nKết luận\nViêm phổi là một căn bệnh nghiêm trọng, nhưng có thể phòng ngừa và điều trị hiệu quả nếu được phát hiện sớm. Hãy luôn chú ý đến các triệu chứng như ho, sốt, đau ngực và khó thở. Để phòng ngừa bệnh, bạn nên tiêm vắc xin, duy trì vệ sinh cá nhân và môi trường sống sạch sẽ, và hạn chế tiếp xúc với các tác nhân gây hại như khói thuốc lá và hóa chất độc hại. Đặc biệt, việc kiểm tra sức khỏe định kỳ là rất quan trọng để phát hiện và điều trị kịp thời các vấn đề sức khỏe tiềm ẩn. Hãy đảm bảo rằng bạn và gia đình luôn tuân thủ các biện pháp phòng ngừa và tham khảo ý kiến bác sĩ khi cần thiết.",
+    "metadata": {
+      "name": "Bệnh viêm phổi",
+      "id": "bnh-vim-phi",
+      "url": "https://www.pharmacity.vn/benh/viem-phoi.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 2
+    }
+  }
+]

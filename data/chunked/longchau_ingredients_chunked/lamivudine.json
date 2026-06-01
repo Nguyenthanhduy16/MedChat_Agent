@@ -1,0 +1,408 @@
+[
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Lamivudine (Lamivudin) Loại thuốc Thuốc kháng retrovirus và virus.\nDạng thuốc và hàm lượng Viên nén bao phim: 100 mg; 150 mg; 300 mg.\nDung dịch: 5 mg/ml; 10 mg/ml.\nDạng kết hợp:\n150 mg lamivudine, 300 mg abacavir sulfate, 300 mg zidovudine;\n150 mg lamivudine, 300 mg zidovudine;\n300 mg lamivudine, 600 mg abacavir.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Chỉ định | Nội dung:\nNhiễm virus HIV .\nPhòng lây truyền HIV từ mẹ sang con.\nPhòng sau phơi nhiễm HIV do nghề nghiệp.\nPhòng sau phơi nhiễm HIV không do nghề nghiệp.\nĐiều trị viêm gan virus B mạn tính.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Dược lực học | Nội dung:\nLamivudine có cấu trúc tương tự zalcitabine. Lamivudine được các enzyme trong tế bào chuyển thành dẫn xuất có hoạt tính là lamivudine-5’-triphosphate (3TC-TP). Do có cấu trúc tương tự deoxycytidin triphosphate là cơ chất tự nhiên cho enzyme phiên mã ngược nên 3TC-TP cạnh tranh với deoxycytidin triphosphate tự nhiên và làm sự tổng hợp DNA của virus bị kết thúc sớm.\nLamivudine có hoạt tính lên virus HIV type 1 và 2 (HIV-1, HIV-2), và cũng có tác dụng ức chế virus viêm gan B ở người bệnh mạn tính. Tuy lamivudine được dung nạp tốt, nhưng không được dùng lamivudine đơn độc vì dễ sinh kháng thuốc.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Dược lực học | Nội dung:\nĐiều trị viêm gan B mạn tính bằng lamivudine một thời gian sẽ xuất hiện các chủng đột biến kháng thuốc trên enzyme polymerase. Các chủng HBV đột biến kháng lamivudine là M552V (valin thay methionin ở codon 552) và M552I (isoleucin thay methionin).",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Dược động học | Nội dung:\nHấp thu Lamivudine hấp thu nhanh và nồng độ đỉnh huyết thanh đạt sau khoảng 1 giờ (uống lúc đói), 3,2 giờ (uống lúc no). Thức ăn làm chậm nhưng không làm giảm hấp thu thuốc.\nSinh khả dụng ở người lớn nhiễm HIV là khoảng 80 - 87%; ở trẻ em từ 5 tháng đến 12 tuổi nhiễm HIV là 66%.\nPhân bố Tỷ lệ gắn với protein huyết tương thấp (< 36%). Thể tích phân bố là 1,3 lít/kg, không phụ thuộc vào liều và không có tương quan với cân nặng. Chỉ khoảng 10% lamivudine qua hàng rào máu - não; tỷ lệ nồng độ trong dịch não - tủy/nồng độ huyết thanh là 0,12.\nĐi qua nhau thai và phân phối vào máu cuống rốn và nước ối. Nồng độ trong nước ối thường cao gấp hai lần so với nồng độ trong huyết thanh của mẹ.\nPhân phối vào sữa.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Dược động học | Nội dung:\nPhân phối vào sữa.\nChuyển hóa Lamivudine được chuyển hóa trong tế bào thành dạng triphosphate có hoạt tính. Thuốc chuyển hóa ít ở gan và không được chuyển hóa bởi các isoenzyme CYP.\nThải trừ Thuốc được đào thải chủ yếu qua thận dưới dạng không thay đổi.\nThời gian bán thải trong tế bào lympho ở máu ngoại vi là 10 - 19 giờ. Thời gian bán thải sau khi uống liều một lần là 5 - 7 giờ ở người lớn, 2 giờ ở trẻ em từ 4 tháng đến 14 tuổi.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nLiều dùng Lamivudine Người lớn Điều trị HIV/AIDS:\nPhải kết hợp với ít nhất 2 thuốc kháng retrovirus khác. Lamivudine (3TC) kết hợp với 2 nucleoside khác như sau:\nPhác đồ hàng đầu: Stavudine (d4T) + lamivudine (3TC) + nevirapine (NVP).\nPhác đồ thay thế: d4T + 3TC + EFV (efavirenz); hoặc: AZT (zidovudine) + 3TC + NVP; hoặc: AZT + 3TC + EFV.\nDùng viên kết hợp lamivudine và zidovudine: 1 viên/lần (150 mg lamivudine, 300 mg zidovudine) x 2 lần/ngày.\nDùng viên kết hợp lamivudine và abacavir: 1 viên (600 mg abacavir, 300 mg lamivudine), ngày 1 lần.\nDùng viên kết hợp abacavir, lamivudine và zidovudine: 1 viên (300 mg abacavir, 150 mg lamivudine, 300 mg zidovudine), ngày 1 lần.\nNgười lớn < 50 kg: 4 mg/kg/lần, ngày 2 lần (tối đa: 150 mg/lần, ngày 2 lần).\nĐiều trị viêm gan B mạn tính:",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nNgười lớn < 50 kg: 4 mg/kg/lần, ngày 2 lần (tối đa: 150 mg/lần, ngày 2 lần).\nĐiều trị viêm gan B mạn tính:\nTrước khi điều trị, phải chắc chắn bệnh nhân bị viêm gan B mạn tính không nhiễm đồng thời HIV. Nên chọn thuốc khác vì lamivudine không phải là thuốc được ưa dùng để điều trị viêm gan B mạn tính do tỷ lệ kháng thuốc cao.\nViêm gan mạn có HBeAg dương tính: Lamivudine 100 mg/ngày uống liên tục từ 9 - 12 tháng cho đến khi chuyển đổi huyết thanh xuất hiện kháng thể anti-HBe dương tính và nồng độ ADN-HBV huyết thanh trở nên âm tính (dưới ngưỡng phát hiện) và ALT trở về bình thường.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nViêm gan mạn tính có có HBeAg âm tính và anti-HBe dương tính: Lamivudine 100 mg/ngày uống liên tục trong 9 - 12 tháng cho đến khi nồng độ ADN-HBV huyết thanh trở nên âm tính (dưới ngưỡng phát hiện) và ALT trở về bình thường.\nĐiều trị đồng thời nhiễm viêm gan B và HIV:\nLiều lamivudine là liều để điều trị HIV.\nChú ý: Chế phẩm uống không phù hợp để điều trị nhiễm đồng thời HBV và HIV. Thuốc được lựa chọn là tenofovir và lamivudine.\nDùng liều 150 mg/lần x 2 lần/ngày hoặc 300 mg/lần x 1 lần/ngày, kết hợp với thuốc kháng virus khác.\nPhòng sau phơi nhiễm HIV do nghề nghiệp:\n150 - 300 mg, ngày 1 lần dùng đồng thời với các thuốc kháng retrovirus khác. Thường dùng kết hợp với zidovudine, hoặc tenofovir hay lamivudine và stavudine hoặc didanosine (phác đồ 2 thuốc cơ bản).",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nNếu cần phác đồ tăng cường thì thêm 1 thuốc ức chế protease HIV hoặc 1 thuốc không phải nucleoside ức chế enzyme phiên mã ngược.\nPhải uống thuốc ngay sau khi bị phơi nhiễm, càng sớm càng tốt (trong vòng vài giờ) và dùng liên tục trong 4 tuần nếu thuốc được dung nạp.\nPhòng sau phơi nhiễm HIV:\n150 mg/lần x 2 lần/ngày hoặc 300 mg/lần x 1 lần/ngày kết hợp với ít nhất là 2 thuốc kháng retrovirus khác (zidovudine, tenofovir, stavudine hoặc didanosine kết hợp hoặc không kết hợp với một thuốc ức chế protease tùy theo nguy cơ).\nPhải uống thuốc ngay sau khi bị phơi nhiễm, càng sớm càng tốt (trong vòng 72 giờ) và dùng liên tục trong 28 ngày.\nTrẻ em Phòng lây nhiễm từ mẹ sang con:\nPhải kết hợp với thuốc kháng retrovirus khác.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nTrẻ em Phòng lây nhiễm từ mẹ sang con:\nPhải kết hợp với thuốc kháng retrovirus khác.\nSơ sinh: 2 mg/kg/lần x 2 lần/ngày x 7 ngày (kể từ lúc sinh đến lúc được 7 ngày tuổi).\nChú ý:\nLamivudine dùng cho trẻ sơ sinh kết hợp với nevirapine ngày 1 lần và 6 tuần kết hợp với zidovudine tùy theo trường hợp cụ thể (ví dụ: Mẹ chưa dùng thuốc kháng retrovirus trước hoặc trong khi chuyển dạ; mẹ chỉ được dùng thuốc kháng retrovirus trong lúc mang thai; mẹ có mức ức chế virus dưới mức tối ưu lúc chuyển dạ; mẹ mang virus kháng thuốc).",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nCác hướng dẫn khuyến nghị phải dùng lamivudine ít nhất là 7 ngày để giảm thiểu kháng nevirapine. Nếu người mẹ không được uống thuốc kháng retrovirus trước và/hoặc trong lúc chuyển dạ, liều khuyên dùng cho trẻ sơ sinh nặng 1,5 - 2 kg là 4 mg, ngày 2 lần; cho trẻ sơ sinh nặng trên 2 kg là 6 mg, ngày 2 lần, cho uống ngay sau khi lọt lòng và dùng liên tục trong 2 tuần.\nLamivudine phải được kết hợp với uống nelfinavir trong 2 tuần để bổ sung cho phác đồ 6 tuần dùng zidovudine uống hoặc tiêm tĩnh mạch cho sơ sinh. Cần trao đổi với bác sĩ chuyên khoa nhi trong lựa chọn phác đồ nhiều thuốc để phòng ngừa cho trẻ sơ sinh.\nPhác đồ hàng đầu: d4T +3TC + NVP.\nPhác đồ thay thế: d4T + 3TC + EFV; hoặc: AZT + 3TC + NVP; hoặc: AZT + 3TC + ABC (abacavir).",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nPhác đồ hàng đầu: d4T +3TC + NVP.\nPhác đồ thay thế: d4T + 3TC + EFV; hoặc: AZT + 3TC + NVP; hoặc: AZT + 3TC + ABC (abacavir).\nChú ý: Không dùng efavirenz cho trẻ dưới 3 tuổi hoặc trẻ nặng dưới 10 kg.\nLiều lamivudin:\nSơ sinh: 2 mg/kg/lần; ngày 2 lần.\nTrẻ 1 - 3 tháng tuổi: 4 mg/kg/lần; ngày 2 lần.\nTrẻ nhỏ và trẻ em từ 3 tháng đến 16 tuổi: 4 mg/kg/lần; ngày 2 lần (liều tối đa: 150 mg/lần; ngày 2 lần).\nNếu tính theo cân nặng: Với viên nén 150 mg có thể bẻ đôi:\n14 - 21 kg: 75 mg/lần; ngày 2 lần (150 mg/ngày).\n22 - 29 kg: 75 mg uống buổi sáng; 150 mg uống buổi chiều (225 mg/ngày).\n≥ 30 kg: 150 mg/lần; ngày 2 lần (300 mg/ngày).\nTrẻ em > 2 tuổi: 3 mg/kg/lần; ngày 1 lần (tối đa: 100 mg/ngày) trong 9 - 12 tháng cho đến khi nồng độ ADN-HBV huyết thanh trở nên âm tính (dưới ngưỡng phát hiện).",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nTrẻ em > 16 tuổi: Tương tự liều người lớn.\nTrẻ nhỏ và trẻ em: 4 mg/kg/lần, ngày 2 lần (tối đa: 150 mg/lần), kết hợp với thuốc kháng virus khác.\nVị thành niên: 150 mg/lần x 2 lần/ngày hoặc 300 mg/lần x 1 lần/ngày, kết hợp với thuốc kháng virus khác.\nĐối tượng khác Điều trị HIV/AIDS ở phụ nữ mang thai: Không dùng thuốc kháng retrovirus trong 12 tuần đầu của thai kỳ; thường bắt đầu điều trị từ tuần 36 theo phác đồ: AZT + 3TC + NVP hoặc: d4T + 3TC + EFV.\nSuy thận: Chỉnh liều theo độ thanh thải creatinine (điều trị nhiễm HIV):\nĐộ thanh thải creatinine (ml/phút) (cho người 16 tuổi trở lên) 30 - 49 150 mg, ngày 1 lần.\n15 - 29 Ngày đầu tiên 150 mg, ngày 1 lần; rồi những ngày sau 100 mg, ngày 1 lần 5 - 14 Ngày đầu tiên 150 mg, rồi những ngày sau 50 mg, ngày 1 lần.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\n15 - 29 Ngày đầu tiên 150 mg, ngày 1 lần; rồi những ngày sau 100 mg, ngày 1 lần 5 - 14 Ngày đầu tiên 150 mg, rồi những ngày sau 50 mg, ngày 1 lần.\n< 5 Ngày đầu tiên 50 mg, rồi những ngày sau 25 mg, ngày 1 lần.\nĐiều chỉnh liều lamivudine theo độ thanh thải creatinine (điều trị viêm gan B):\n(cho người lớn) Ngày đầu tiên 100 mg, sau đó 50 mg ngày 1 lần Ngày đầu tiên 100 mg, ngày 1 lần; rồi những ngày sau 25 mg, ngày 1 lần.\nNgày đầu tiên 35 mg, rồi những ngày sau 15 mg, ngày 1 lần.\nNgày đầu tiên 35 mg, rồi những ngày sau 10 mg, ngày 1 lần.\nThẩm tách máu hoặc thẩm phân phúc mạc: Sau 4 giờ chỉ lấy đi được một lượng không đáng kể; không cần phải cho liều bổ sung. Tuy nhiên, nên cho liều bổ sung sau khi đã lọc máu.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 8
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nNgười lớn tuổi: Không có sẵn dữ liệu cụ thể; tuy nhiên, nên thận trọng sử dụng do những thay đổi liên quan đến tuổi như giảm chức năng thận và thay đổi các thông số huyết học.\nSuy gan: Không cần điều chỉnh liều ở bệnh nhân suy gan trung bình hoặc nặng trừ khi có suy thận kèm theo.\nCách dùng Phải dùng lamivudine kết hợp với ít nhất một thuốc kháng retrovirus khác. Lamivudine và chế phẩm kết hợp được dùng uống, lúc đói hoặc lúc no (uống lúc no làm hấp thu chậm).\nThuốc nên được nuốt, không cần nghiền nát.\nDạng dung dịch uống dành cho trẻ em > 3 tháng tuổi và cân nặng < 14 kg hoặc cho bệnh nhân không thể nuốt được viên nén.\nCần theo dõi liên tục độc tính của thuốc và tiến triển lâm sàng, định kỳ xác định tải lượng virus và số lượng tế bào TCD4+ và thay đổi phác đồ điều trị nếu cần.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 9
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Liều lượng | Nội dung:\nNếu quên liều thì phải uống ngay liều đã quên; sau đó lại uống thuốc theo giờ cũ; không được uống gấp đôi liều để bù. Bệnh nhân không được tự ý thay đổi liều, thay thuốc, bỏ thuốc mà không có ý kiến của bác sĩ.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 10
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Có rất ít thông tin về quá liều. Ngộ độc nặng (viêm tuy, bệnh thần kinh ngoại biên, gan nhiễm mỡ, suy thận cấp, nhiễm toan) xảy ra sau điều trị mà không xảy ra ngay sau khi uống quá liều. Dùng lâu dài có thể gây độc cho ty thể dẫn đến nhiễm toan lactic có hoặc không kèm theo nhiễm mỡ vi thể ở gan.\nCách xử lý khi quá liều Không có thuốc giải độc đặc hiệu. Thẩm tách máu hoặc thẩm phân phúc mạc sau 4 giờ chỉ lấy đi được một lượng không đáng kể.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Quá liều và xử trí | Nội dung:\nCách xử lý khi quá liều Không có thuốc giải độc đặc hiệu. Thẩm tách máu hoặc thẩm phân phúc mạc sau 4 giờ chỉ lấy đi được một lượng không đáng kể.\nĐiều trị ngộ độc nặng bao gồm: ngừng thuốc, điều trị hỗ trợ, dùng benzodiazepine để an thần và chống co giật, thuốc chống nôn, điều chỉnh toan máu; dùng thuốc kích thích tạo bạch cầu hạt (nếu bị nhiễm khuẩn có giảm bạch cầu hạt); dùng thuốc gây co mạch nếu bị suy nhiều phủ tạng; theo dõi chặt các dấu hiệu lâm sàng, điện giải, enzyme gan, tìm ổ nhiễm khuẩn ở bệnh nhân nhất là nếu có giảm bạch cầu trung tính.\nQuên liều và xử trí Nếu quên liều thì phải uống ngay liều đã quên; sau đó lại uống thuốc theo giờ cũ; không được uống gấp đôi liều để bù. Bệnh nhân không được tự ý thay đổi liều, thay thuốc, bỏ thuốc mà không có ý kiến của bác sĩ.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Các thuốc chống sự xâm nhập vào tế bào và chống hòa màng của virus HIV ( enfuvirtid , maravioc), thuốc ức chế enzyme phiên mã ngược không phải nucleoside (delavirdine, efavirenz, nevirapine ): Có tác dụng hiệp đồng với lamivudine kháng HIV-1.\nCác thuốc ức chế integrase của HIV (raltenavir): Không ảnh hưởng có ý nghĩa lâm sàng lên dược động học của lamivudine.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Tương tác thuốc | Nội dung:\nCác thuốc ức chế integrase của HIV (raltenavir): Không ảnh hưởng có ý nghĩa lâm sàng lên dược động học của lamivudine.\nCác thuốc ức chế protease HIV (amprenavir/fosamprenavir, nelfinavir, ritonavir, saquinavir, tipranavir): Có tác dụng hiệp đồng (in vitro) với lamivudine. Không rõ có tương tác về mặt dược động học giữa chế phẩm kết hợp có lopinavir và ritonavir với lamivudine khi được dùng đồng thời. Nồng độ đỉnh huyết tương và AUC của lamivudine tăng khi dùng đồng thời với nelfinavir; tuy nhiên điều này không có ý nghĩa lâm sàng và không cần phải chỉnh liều.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Tương tác thuốc | Nội dung:\nCác nucleoside và nucleotide ức chế enzyme phiên mã ngược (abacavir, emtricitabine, stavudine, tenofovir, zidovudine): Tenofovir làm giảm 24% nồng độ đỉnh huyết tương của lamivudine. Không dùng đồng thời lamivudine và emtricitabine (emtricitabine là chất tương tự lamivudine, dùng đồng thời không có lợi ích vì 2 thuốc bị kháng như nhau và không có tác dụng tăng cường lẫn nhau).\nKhông dùng đồng thời lamivudine và zalcitabine vì lamivudine ức chế mạnh sự phosphoryl hóa zalcitabine ở bên trong tế bào.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Tương tác thuốc | Nội dung:\nKhông dùng đồng thời lamivudine và zalcitabine vì lamivudine ức chế mạnh sự phosphoryl hóa zalcitabine ở bên trong tế bào.\nInterferon và peginterferon: Dùng đồng thời thuốc kháng retrovirus (có hoặc không có ribavirin) và interferon alpha (hoặc peginterferon alpha) cho người đồng thời có HIV và HCV có thể gây suy gan gây tử vong. Phải theo dõi chặt chẽ độc tính, nhất là suy gan và phải ngừng thuốc nếu cần. Nếu tình trạng bị độc xấu thêm (ví dụ suy gan trên độ 6 theo thang Child-Pugh) thì có thể phải ngừng hoặc giảm liều interferon alpha (hoặc peginterferon) và/hoặc ribavirin.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Tương tác thuốc | Nội dung:\nRibavirin có thể làm giảm phosphoryl hóa lamivudine. Bệnh nhân đồng thời có HIV và HCV có nguy cơ bị suy gan khi dùng đồng thời thuốc kháng retrovirrus và interferon alpha (hoặc peginterferon alpha) có hoặc không có ribavirin.\nTrimethoprim/sulfamethoxazole làm tăng AUC của lamivudine 43% nhưng không cần phải chỉnh liều.\nKhông khuyến cáo kết hợp lamivudine với cladribine.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Lưu ý | Nội dung:\nLưu ý chung Phải ngừng thuốc ở bệnh nhân bị đau bụng, buồn nôn, nôn hoặc có kết quả hóa sinh bất thường khiến nghi ngờ bị viêm tụy. Chỉ dùng thuốc khi đã loại trừ viêm tụy.\nPhải ngừng thuốc ở bệnh nhân có nồng độ aminotransferase tăng nhanh, gan to dần hoặc bị nhiễm toan do acid lactic không rõ căn nguyên, hoặc có nguy cơ mắc bệnh gan.\nBệnh nhân đồng thời nhiễm HIV và viêm gan B hoặc C mạn tính được điều trị bằng kết hợp thuốc kháng retrovirus có nguy cơ cao bị ADR nặng lên gan.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Lưu ý | Nội dung:\nBệnh nhân đồng thời nhiễm HIV và viêm gan B hoặc C mạn tính được điều trị bằng kết hợp thuốc kháng retrovirus có nguy cơ cao bị ADR nặng lên gan.\nViêm gan B dễ bị trở lại nặng hơn ở người mắc viêm gan B mạn tính ngừng dùng lamivudine. Phải theo dõi chặt chức năng gan ở những người này. Trước khi dùng lamivudine để điều trị viêm gan B phải chắc chắn bệnh nhân không đồng thời có HIV vì dùng lamivudine liều thấp để điều trị viêm gan sẽ dẫn đến các chủng HIV kháng lamivudine.\nPhải giảm liều ở bệnh nhân bị suy thận.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Lưu ý | Nội dung:\nPhải giảm liều ở bệnh nhân bị suy thận.\nPhải theo dõi chặt chẽ khi dùng thuốc, nhất là lamivudine kết hợp với zidovudine cho trẻ em có tiền sử viêm tụy hoặc có nguy cơ bị viêm tụy. Phải ngừng thuốc ngay khi có dấu hiệu lâm sàng hoặc kết quả xét nghiệm gợi ý viêm tụy. Phải chỉ dẫn cho người thân hoặc người trông nom trẻ em nhiễm HIV về những dấu hiệu và triệu chứng của viêm tụy.\nKhông dùng chế phẩm kết hợp cố định liều chứa lamivudine và zidovudine, chứa abacavir và lamivudine, chứa abacavir, lamivudine và zidovudine cho trẻ nhỏ, vị thành niên nặng dưới 40 kg vì không điều chỉnh được liều cho từng thuốc.\nTrong thuốc dạng uống có glucose (1 g/5 ml), không dùng cho bệnh nhân đái tháo đường.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Lưu ý | Nội dung:\nTrong thuốc dạng uống có glucose (1 g/5 ml), không dùng cho bệnh nhân đái tháo đường.\nLamivudine không chữa khỏi nhiễm HIV, họ vẫn tiếp tục mang virus HIV, kể cả nhiễm khuẩn cơ hội. Người bệnh vẫn phải được theo dõi và uống thuốc liên tục. Nói rõ cho người bệnh biết là lamivudine không làm giảm nguy cơ lây truyền HIV và phải dùng bao cao su để bảo vệ bạn tình.\nLưu ý với phụ nữ có thai Thận trọng khi dùng lamivudine cho phu nữ mang thai, phải cân nhắc giữa lợi ích cho mẹ và nguy cơ cho thai. Chỉ dùng lamivudine kết hợp với zidovudine cho phụ nữ mắc viêm gan B trong 3 tháng cuối thai kỳ để giảm sự phát triển HBV. Không dùng lamivudine trong 3 tháng đầu và 3 tháng giữa của thai kỳ vì có nguy cơ gây dị tật bẩm sinh cho thai nhi.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Lamivudine | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Lamivudine được bài tiết trong sữa. Người mẹ bị nhiễm HIV đang dùng lamivudine không nuôi con bằng sữa mẹ.\nLưu ý khi lái xe và vận hành máy móc Chưa có nghiên cứu nào về ảnh hưởng của lamivudine đến khả năng lái xe và sử dụng máy móc được thực hiện.",
+        "metadata": {
+            "name": "Lamivudine",
+            "id": "lamivudine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lamivudine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    }
+]

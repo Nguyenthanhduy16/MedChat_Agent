@@ -1,0 +1,170 @@
+[
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Gadolinium (gadoteric acid, gadodiamide) Loại thuốc Chất tương phản từ có chứa gadolinium Dạng thuốc và hàm lượng Dung dịch tiêm gadoteric acid 0,0025 mmol/ml; 0,5 mmol/ml Dung dịch tiêm gadodiamide 0,5 mmol/ml",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Chỉ định | Nội dung:\nGadolinium được dùng trong phương pháp chẩn đoán chụp cộng hưởng từ (MRI) cần sự tăng cường tương phản hình ảnh (chụp cho các bệnh về não, tủy sống, cột sống, xương khớp, mạch máu).\nĐiều trị u thần kinh đệm (chỉ định mồ côi).",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Dược lực học | Nội dung:\nAcid gadoteric có đặc tính thuận từ cho phép tăng cường độ tương phản trong MRI.\nGadolinium không có hoạt tính dược lực học và không có tác dụng sinh học.\nCác tác nhân thuận từ có các điện tử chưa ghép đôi tạo ra từ trường lớn hơn khoảng 700 lần so với trường của proton, do đó làm nhiễu từ trường cục bộ của proton.\nKhi từ trường cục bộ xung quanh một proton bị xáo trộn, quá trình giãn (quá trình giải phóng năng lượng) của nó bị thay đổi. Hình ảnh MRI dựa trên mật độ proton và động lực giãn proton. Phân tử chứa gadolimium làm tăng tốc độ giãn của proton trong vùng lân cận dẫn đến tăng cường độ tín hiệu (độ sáng).",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Dược động học | Nội dung:\nHấp thu Không có thông tin.\nPhân bố Gadolinium phân bố dịch ngoại bào, không gắn protein huyết và không qua hàng rào máu não.\nChuyển hóa Không có sự chuyển hóa.\nThải trừ Thời gian bán thải khoảng 90 phút, thải trừ qua thận dưới dạng không đổi.",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Liều lượng | Nội dung:\nNgười lớn Dùng liều thấp nhất đủ độ tương phản để chẩn đoán.\nChẩn đoán bệnh xương khớp (dùng dung dịch tiêm gadoteric acid 0,0025 mmol/ml):\nLiều khuyến cáo phụ thuộc vào khu vực cần chẩn đoán và kích thước của khớp.\nChụp hình ảnh tốt nhất trong vòng khoảng 45 phút sau khi tiêm.\nKhớp Lượng dung dịch tiêm 0,0025 mmol/ml Vai Hông Khuỷu tay Gối Cổ tay Cổ chân 5 - 25 ml 4 - 10 ml 20 - 40 ml 3 - 9 ml 4 - 19 ml Chẩn đoán các bệnh về não, tủy sống, cột sống (dùng dung dịch tiêm gadoteric acid hoặc gadodiamide 0,5 mmol/l) Liều khuyến cáo dựa trên khối lượng cơ thể bệnh nhân: 0,1 mmol/kg hoặc 0,2 ml/kg cân nặng, tiêm tĩnh mạch bolus, sau đó rửa đường truyền với 5 mL NaCl 0,9% để đảm bảo liều lượng được truyền hoàn toàn.\nKhi cần thiết có thể tiêm mũi thứ 2.",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Liều lượng | Nội dung:\nKhi cần thiết có thể tiêm mũi thứ 2.\nHoàn thành quy trình chụp ảnh trong vòng 1 giờ sau khi sử dụng.\nChẩn đoán hình ảnh mạch máu (tổn thương với mạch máu bất thường trong lồng ngực (không có tim), ổ bụng, khoang chậu và khoang sau phúc mạc; dùng dung dịch tiêm gadodiamide 0,5 mmol/l) Hình ảnh thận: 0,1 mL/kg (0,05 mmol/kg) được dùng dưới dạng tiêm tĩnh mạch nhanh Hình ảnh lồng ngực (không có tim), trong ổ bụng, khoang chậu: 0,2 mL/kg (0,1 mmol/kg) được dùng dưới dạng tiêm tĩnh mạch bolus.\nXả đường IV với 5 mL NaCl 0,9% để đảm bảo liều lượng được sử dụng hoàn toàn. Hoàn thành quy trình chẩn đoán hình ảnh trong vòng 1 giờ sau khi tiêm Trẻ em Hiệu quả và độ an toàn chưa được thiết lập ở trẻ em dưới 18 tuổi.\nChỉ định chụp MRI não và cột sống/ MRI toàn thân:",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Liều lượng | Nội dung:\nChỉ định chụp MRI não và cột sống/ MRI toàn thân:\nLiều khuyến cáo và tối đa gadoteric acid là 0,1 mmol/kg. Do chức năng thận chưa trưởng thành ở trẻ từ sơ sinh đến 4 tuần tuổi, nên chỉ sử dụng khi đã đánh giá cẩn thận. Không tiêm nhiều hơn 1 liều trong một lần chụp.\nChẩn đoán hình ảnh mạch máu (tổn thương với mạch máu bất thường trong lồng ngực (không có tim), ổ bụng, khoang chậu và khoang sau phúc mạc; dùng dung dịch tiêm gadodiamide 0,5 mmol/l): L iều như người lớn cho trẻ 2 - 16 tuổi. Trẻ dưới 2 tuổi chưa xác định được tính an toàn và hiệu quả.\nĐối tượng khác Suy thận:",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Liều lượng | Nội dung:\nĐối tượng khác Suy thận:\nDùng liều khuyến cáo như trên cho bệnh nhân suy thận nhẹ đến trung bình. Chỉ nên dùng cho bệnh nhân suy thận nặng (GFR < 30 ml/phút/ 1,73 m2) khi thật cần thiết và lợi ích cao hơn nguy cơ. Liều gadoteric acid không vượt quá 0,1 mmol/kg và không tiêm nhiều hơn 1 liều. Chỉ lặp lại khi khoảng cách giữa các lần ít nhất 7 ngày.\nNgười cao tuổi : Không cần điều chỉnh liều lượng. Thận trọng.\nRối loạn chức năng gan:\nDùng liều khuyến cáo như trên. Thận trọng, đặc biệt trong phẩu thuật ghép gan.\nHoạt chất gadolinium thường dùng cho bệnh nhân trước khi chụp MRI dưới sự giám sát của nhân viên y tế tại bệnh viện nên không xảy ra việc quên liều.",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Gadolinium và xử trí Quá liều và độc tính Chưa có báo cáo. Nguy cơ độc tính cấp rất khó xảy ra đối với dung dịch tiêm vào khớp.\nCách xử lý khi quá liều Acid gadoteric có thể được loại bỏ khỏi cơ thể nhờ thẩm tách máu.\nQuên liều và xử trí Hoạt chất gadolinium thường dùng cho bệnh nhân trước khi chụp MRI dưới sự giám sát của nhân viên y tế tại bệnh viện nên không xảy ra việc quên liều.",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Không có tương tác nào được ghi nhận.\nTương kỵ thuốc Gadolinium không được trộn với các hoạt chất khác.\nKhông nên sử dụng gadolinium cùng chất tương phản có chứa i-ốt.",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Lưu ý | Nội dung:\nLưu ý chung Chỉ được tiêm nội khớp. Không tiêm vào khớp bị nhiễm trùng.\nCó nguy cơ quá mẫn với bất kể liều lượng nào. Phản ứng quá mẫn có tính chất dị ứng (phản ứng phản vệ nghiêm trọng có thể dẫn đến tử vong) hoặc không dị ứng, diễn ra ngay lập tức hoặc trì hoãn (lên đến 7 ngày).\nCó thể làm trầm trọng thêm bệnh hen suyễn , cần đánh giá lợi ích nguy cơ ở bệnh nhân này trước khi sử dụng thuốc.\nBệnh nhân cần được thăm khám kĩ tiền sử dị ứng.\nNên theo dõi ít nhất nửa giờ sau khi tiêm.\nCần xét nghiệm đánh giá chức năng thận ở tất cả bệnh nhân.\nXơ hóa hệ thống nguồn gốc thận (NSF) xảy ra ở một số trường hợp bị suy giảm chức năng thận (GFR < 30 ml/phút/ 1,73 m2) Lưu ý với phụ nữ có thai Không có dữ liệu. Không nên sử dụng gadolinium trong thời kì mang thai trừ khi việc dùng thuốc là cần thiết.",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Gadolinium | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Ở liều chỉ định, một lượng nhỏ bài tiết qua sữa và không gây tác dụng nào đối với trẻ bú mẹ. Liều lượng trong chẩn đoán bệnh khớp là rất thấp và dùng tại chỗ nên không cần thiết gián đoạn việc cho con bú sau khi khám.\nLưu ý khi lái xe và vận hành máy móc Chưa được nghiên cứu. Tuy nhiên nguy cơ tràn dịch khớp có thể xảy ra và làm giảm khả năng lái xe và vận hành máy móc.",
+        "metadata": {
+            "name": "Gadolinium",
+            "id": "gadolinium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/gadolinium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

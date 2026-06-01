@@ -1,0 +1,198 @@
+[
+  {
+    "text": "Bệnh: Khô mắt | Phần: Tổng quan | Nội dung:\nTổng quan chung\nBệnh khô mắt là một tình trạng phổ biến xảy ra khi nước mắt của bạn không đủ khả năng giữ ẩm và bôi trơn cho bề mặt nhãn cầu. Nước mắt có thể không đủ và không ổn định vì nhiều lý do. Ví dụ, khô mắt có thể xảy ra nếu bạn không tiết đủ nước mắt hoặc nếu bạn tiết ra nước mắt kém chất lượng. Sự không ổn định của nước mắt này dẫn đến viêm và tổn thương bề mặt của mắt.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Triệu chứng | Nội dung:\nTriệu chứng\nỞ những người mắc bệnh khô mắt thường xuất hiện các triệu chứng:\nĐỏ mắt: do mắt bị khô nên tế bào phía trên bề mặt của mắt rất dễ bị tổn thương, mạch máu ở trên kết mạc nổi rõ hơn nên mắt bị đỏ và thậm chí còn bị xung huyết mắt.\nNhạy cảm nhiều hơn với ánh sáng: khi có ánh sáng mắt sẽ cảm thấy rất khó chịu nên phải nhắm hoặc nheo lại để cảm thấy dễ chịu hơn.\nChảy nước mắt: mắt bị khô nên màng phim nước mắt trên bề mặt giác mạc không đủ khả năng làm ẩm, do đó mắt phải tiết ra nhiều nước hơn để tự cân bằng độ ẩm.\nCộm mắt: có cảm giác cộm như có bụi trong mắt, nhất là vào buổi sáng sớm khi vừa mới ngủ dậy.\nMắt bị ngứa và cay: cũng vì độ ẩm trong mắt không đủ nên tuyến lệ và tuyến bờ mi bị khô từ đó sinh ra hiện tượng cay và ngứa mắt.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Triệu chứng | Nội dung:\nMắt bị ngứa và cay: cũng vì độ ẩm trong mắt không đủ nên tuyến lệ và tuyến bờ mi bị khô từ đó sinh ra hiện tượng cay và ngứa mắt.\nCảm giác mờ nhòe: mức độ điều tiết của mắt bị ảnh hưởng tương đối nhiều khi mắc bệnh khô mắt nên mắt phải điều tiết nhiều hơn, mỏi hơn, kết quả là cảm giác nhìn thường xuyên bị mờ nhòe.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Nguyên nhân | Nội dung:\nNguyên nhân\nKhô mắt là do khả năng tiết nước và việc thoát nước của mắt bị mất cân bằng. Theo các chuyên gia mắt, nguyên nhân khô mắt do:\nSố lượng nước mắt tiết ra không đủ: Các tuyến lệ trong và quanh mi mắt có nhiệm vụ tiết nước làm ướt mắt. Khả năng này sẽ giảm dần theo tuổi tác, hoặc những người mắc bệnh về mắt. Ngoài ra những yếu tố như gió, thời tiết môi trường ô nhiễm cũng làm mắt dễ bị khô. Đặc biệt, với những người thường xuyên phải tiếp xúc với máy vi tính sẽ làm tăng tốc độ bay hơi của nước mắt dẫn đến tình trạng khô mắt.\nRối loạn của màng phim nước mắt",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Nguyên nhân | Nội dung:\nRối loạn của màng phim nước mắt\nMàng phim nước mắt gồm 3 lớp: lớp mỡ, lớp nước và lớp nhầy. 3 lớp này cùng nhau bảo vệ nhãn cầu khỏi các yếu tố bên ngoài. Lớp nhầy giúp dàn đều nước mắt trên giác mạc, lớp mỡ hạn chế sự bốc hơi nước giúp mắt luôn ẩm ướt. Khô mắt là do nước bị bốc hơi quá nhanh hoặc nước không thể dàn phẳng trên bề mặt mắt. Khi 3 lớp này bị mất cân bằng sẽ làm tăng tốc độ bay hơi của nước mắt, khiến mắt bị khô. Ngoài ra một số bệnh có thể gây nên những xáo trộn ở lớp nhờn và lớp nhầy, cũng sẽ khiến mắt dễ bị khô. Các bệnh lý như viêm bờ mi, trứng cá đỏ cũng có thể ngăn cản lớp nhầy sản xuất nước.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Nguyên nhân | Nội dung:\nMàng phim nước mắt gồm 3 lớp: lớp mỡ, lớp nước và lớp nhầy. 3 lớp này cùng nhau bảo vệ nhãn cầu khỏi các yếu tố bên ngoài. Lớp nhầy giúp dàn đều nước mắt trên giác mạc, lớp mỡ hạn chế sự bốc hơi nước giúp mắt luôn ẩm ướt. Khô mắt là do nước bị bốc hơi quá nhanh hoặc nước không thể dàn phẳng trên bề mặt mắt.\nKhi 3 lớp này bị mất cân bằng sẽ làm tăng tốc độ bay hơi của nước mắt, khiến mắt bị khô. Ngoài ra một số bệnh có thể gây nên những xáo trộn ở lớp nhờn và lớp nhầy, cũng sẽ khiến mắt dễ bị khô. Các bệnh lý như viêm bờ mi, trứng cá đỏ cũng có thể ngăn cản lớp nhầy sản xuất nước.\nSự tăng bay hơi nước mắt: Mắt không thể giữ nước mắt đủ lâu do các yếu tố môi trường như gió, khô, hoặc làm việc với máy tính trong thời gian dài.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Nguyên nhân | Nội dung:\nSự tăng bay hơi nước mắt: Mắt không thể giữ nước mắt đủ lâu do các yếu tố môi trường như gió, khô, hoặc làm việc với máy tính trong thời gian dài.\nCác bệnh lý khác: Một số bệnh như bệnh Sjogren, viêm khớp dạng thấp, và tiểu đường có thể gây ra khô mắt.\nSử dụng thuốc: Một số loại thuốc như thuốc chống dị ứng, thuốc chống trầm cảm, và thuốc huyết áp có thể làm giảm sản xuất nước mắt.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ\nNhững người có nguy cơ bị mắc bệnh khô mắt như sau:\nVề tuổi tác: phần lớn những người lớn trên 65 tuổi do quá trình lão hóa tự nhiên sẽ có các triệu chứng của khô mắt.\nVề giới tính: Những người là nữ giới do thay đổi hormone sau khi mang thai hoặc dùng thuốc tránh thai, ở thời kỳ mãn kinh sẽ có khả năng bị khô mắt cao hơn.\nN hững người có tiền sử sử dụng thuốc: Những người có tiền sử sử dụng thuốc kháng histamin, thuốc chống viêm, thuốc chống tăng huyết áp và thuốc giảm đau hoặc thuốc nhỏ mắt mà chưa có chỉ định của bác sĩ sẽ có khả năng cao bị khô mắt.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Đối tượng nguy cơ | Nội dung:\nNhững người bị mắc các bệnh lý toàn thân hoặc bệnh lý về tai mắt: Những người có tiền sử mắc các bệnh viêm khớp dạng thấp, đái tháo đường, tổn thương tuyến giáp, viêm nhiễm của mi mắt, bề mặt nhãn cầu hoặc những bất thường của mi mắt sẽ có nguy cơ cao bị khô mắt.\nNhững người sống và làm việc trong các môi trường như: tiếp xúc với thuốc lá, gió, thời tiết hanh khô, làm việc với máy tính trong thời gian dài sẽ có nguy cơ bị khô mắt cao.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Chẩn đoán | Nội dung:\nChẩn đoán\nChẩn đoán khô mắt thường bao gồm:\nKhám mắt tổng quát: Bác sĩ sẽ kiểm tra tình trạng mắt và hỏi về các triệu chứng bạn gặp phải.\nĐo lượng nước mắt: Sử dụng các phương pháp đo lượng nước mắt để xác định mức độ sản xuất nước mắt.\nKiểm tra chất lượng nước mắt: Bác sĩ có thể sử dụng các xét nghiệm để đánh giá chất lượng nước mắt và phát hiện bất thường.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa bệnh\nKhô mắt là bệnh mạn tính, vì vậy rất khó có thể chữa khỏi dứt điểm. Cách điều trị tốt nhất là có kiến thức về bệnh để phòng ngừa, thực hành thói quen tốt để duy trì đôi mắt khỏe mạnh, tránh bệnh tái phát.\nTập thói quen chớp mắt đều, đặc biệt lưu ý chớp mắt khi làm việc với máy tính.\nGiữ vệ sinh sạch sẽ, massage giúp làm ấm và lưu thông mắt.\nĐeo kính khi đi ra đường để tránh khói bụi, gió, sử dụng kính chống tia UV.\nTránh gió lạnh (máy lạnh), gió quạt thổi trực tiếp vào mắt.\nBáo tồn nước mắt bằng cách sử dụng máy tạo độ ẩm không khí khi thời tiết hanh khô, nắng nóng, khi sử dụng máy lạnh.\nSinh hoạt lành mạnh, không thức khuya, ngủ đủ giấc.\nKhông hút thuốc lá, tiếp xúc với khói thuốc lá.\nĂn uống đủ chất, bổ sung thực phẩm giàu vitamin A, omega 3 và beta carotene.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Phòng ngừa | Nội dung:\nKhông hút thuốc lá, tiếp xúc với khói thuốc lá.\nĂn uống đủ chất, bổ sung thực phẩm giàu vitamin A, omega 3 và beta carotene.\nUống nhiều nước: Nên uống 1,5-2 lít mỗi ngày.\nĐặc biệt, với những người làm việc văn phòng nên tập thói quen làm việc trước máy tính:\nNgồi xa màn hình máy tính tối thiếu một sải tay\nThường xuyên chớp mắt, nhắm mắt và xoay tròn mất trong 10 giây để điều tiết chất nhờn.\nQuy tắc 20-20-20: làm việc sau 20 phút hãy nhìn xa 2m trong 20 giây.\nSử dụng kính chống ánh sáng xanh khi nhìn màn hình điện thoại, máy tính.\nKhám mắt định kỳ để phát hiện và điều trị kịp thời.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Cách điều trị | Nội dung:\nĐiều trị như thế nào?\nĐiều trị khô mắt bao gồm các phương pháp sau:\nSử dụng nước mắt nhân tạo: Thuốc nhỏ mắt hoặc gel bôi trơn giúp cung cấp độ ẩm cho mắt.\nThuốc chống viêm: Sử dụng thuốc chống viêm để giảm viêm và kích thích sản xuất nước mắt.\nSử dụng kính áp tròng đặc biệt: Kính áp tròng mềm hoặc kính áp tròng cứng có thể giúp giữ ẩm cho mắt.\nPhẫu thuật: Trong một số trường hợp, phẫu thuật có thể cần thiết để cải thiện tình trạng khô mắt.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Khô mắt | Phần: Cách điều trị | Nội dung:\nPhẫu thuật: Trong một số trường hợp, phẫu thuật có thể cần thiết để cải thiện tình trạng khô mắt.\nKhô mắt là một tình trạng phổ biến có thể gây ra nhiều phiền toái và ảnh hưởng đến chất lượng cuộc sống. Việc nhận biết sớm và điều trị kịp thời có thể giúp giảm triệu chứng và cải thiện sức khỏe mắt. Hãy chú ý đến các biện pháp phòng ngừa và duy trì thói quen chăm sóc mắt đúng cách để bảo vệ đôi mắt của bạn. Nếu bạn gặp bất kỳ dấu hiệu nào của khô mắt, hãy tham khảo ý kiến bác sĩ mắt để được tư vấn và điều trị phù hợp. Chăm sóc mắt là điều quan trọng để duy trì tầm nhìn rõ ràng và sức khỏe tổng thể.",
+    "metadata": {
+      "name": "Khô mắt",
+      "id": "kh-mt",
+      "url": "https://www.pharmacity.vn/benh/kho-mat.html",
+      "category": "data_benh_ve_mat",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 1
+    }
+  }
+]

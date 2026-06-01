@@ -1,0 +1,212 @@
+[
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Esmolol.\nLoại thuốc Thuốc chẹn chọn lọc beta1, tác dụng ngắn hạn.\nDạng thuốc và hàm lượng Thường dùng dạng esmolol hydrocloride.\nLọ 5 ml, dung dịch tiêm tĩnh mạch 20 mg/ml.\nLọ 10 ml, dung dịch tiêm tĩnh mạch 10 mg/ml.\nTúi 100 ml, dung dịch truyền tĩnh mạch 20 mg/ml.\nTúi 250 ml, dung dịch truyền tĩnh mạch 10 mg/ml.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Chỉ định | Nội dung:\nLoạn nhịp nhanh trên thất (bao gồm rung nhĩ, cuồng nhĩ, nhanh nhịp xoang không bù).\nTăng huyết áp và/hoặc nhịp tim nhanh trong và sau phẫu thuật.\nThiếu máu cục bộ cơ tim cấp tính.\nTrẻ em bị tim bẩm sinh tứ chứng Fallot.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Dược lực học | Nội dung:\nEsmolol hydroclorid là một thuốc chẹn beta1 chọn lọc, khởi phát tác dụng nhanh và thời gian tác dụng ngắn. Esmolol ức chế chọn lọc đáp ứng kích thích giao cảm bằng cách phong bế cạnh tranh các thụ thể beta1 của tim và có tác dụng yếu trên các thụ thể beta2 của cơ trơn phế quản và mạch máu.\nỞ liều cao (trên 300 microgram/kg/phút), tính chọn lọc của esmolol trên thụ thể beta1 giảm, thuốc ức chế cạnh tranh cả thụ thể beta1 và beta2.\nỞ liều thường dùng trên lâm sàng, esmolol không có hoạt tính giao cảm nội tại hay tác dụng ổn định màng, cũng không có tác dụng ức chế alpha.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Dược động học | Nội dung:\nHấp thu Sau khi tiêm tĩnh mạch nhanh, nhịp tim giảm 13-18% trong 1 phút, giảm 11-18% huyết áp tâm thu trong 2 phút và kéo dài khoảng PR trong 4 phút.\nỞ bệnh nhân bị nhịp tim nhanh trên thất, esmolo làm nhịp tim giảm 15-20% trong 5-22 phút sau khi truyền tĩnh mạch.\nSau khi ngừng truyền esmolol, mất tác dụng chẹn beta trong 1-2 phút, phục hồi rõ sau 10-20 phút và hết hoàn toàn 20-30 phút.\nPhân bố Thể tích phân bố của esmolol ở người lớn khỏe mạnh khoảng 3,4 lít/kg sau khi tiêm tĩnh mạch. Thuốc liên kết với protein huyết tương khoảng 55%, chủ yếu với albumin và α1 -acid glycoprotein (α1 -AGP).\nChuyển hóa Esmolol thủy phân nhanh và nhiều tại hồng cầu nhờ esterase, tạo thành acid tự do (ASL 8123) và methanol. ASL 8123 không có tác dụng ức chế thụ thể β-adrenergic đáng kể ở người.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Dược động học | Nội dung:\nThải trừ Nồng độ thuốc trong máu giảm theo hai pha, thời gian bán thải của esmolol ở pha phân bố ban đầu (t½α) khoảng 2 phút và ở pha thải trừ cuối cùng (t½β) khoảng 9 phút (dao động từ 5 đến 23 phút.\nThuốc thải trừ chủ yếu qua thận, phần lớn dưới dạng ASL 8123 (khoảng 73 - 88%) và ít hơn 2% ở dạng thuốc nguyên vẹn ban đầu. Có chưa đến 5% liều dùng thải trừ qua phân.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Liều lượng | Nội dung:\nNgười lớn Loạn nhịp nhanh trên thất:\nBước Cách truyền 1\nLiều nạp tiêm tĩnh mạch 500 microgram/kg trong khoảng 1 phút, sau đó truyền tĩnh mạch liều duy trì 50 microgram/kg/phút trong 4 phút.\n2 Nếu bệnh nhân chưa đáp ứng tốt trong 5 phút, truyền tĩnh mạch liều nạp 500 microgram/kg trong khoảng 1 phút, sau đó truyền tĩnh mạch liều duy trì 100 microgram/kg/phút trong 4 phút.\n3 Nếu bệnh nhân chưa đáp ứng tốt, truyền tĩnh mạch liều nạp 500 microgram/kg trong khoảng 1 phút, sau đó truyền tĩnh mạch liều duy trì 150 microgram/kg/phút trong 4 phút 4\nNếu cần, tăng liều duy trì tối đa là 200 microgram/kg/phút Mỗi lần điều chỉnh liều đều gồm có một liều nạp (tấn công) và một liều duy trì. Khi đã đạt được đáp ứng như mong muốn, tiếp tục duy trì truyền tĩnh mạch nếu cần, cho tới tối đa 48 giờ.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Liều lượng | Nội dung:\nLiều duy trì lớn hơn 200 microgram/kg/phút ít có tác dụng hạ nhịp tim nhưng tỷ lệ phản ứng không mong muốn tăng lên nhiều.\nTăng huyết áp và nhịp tim nhanh trong quá trình phẫu thuật:\nCó 2 lựa chọn về liều lượng trong quá trình phẫu phẫu thuật và sau phẫu thuật:\nKiểm soát ngay lập tức: Truyền tĩnh mạch liều 1 mg/kg trong 30 giây, sau đó truyền 150 microgram/kg/phút nếu cần thiết. Điều chỉnh tốc độ truyền thích hợp để duy trì nhịp tim và mức huyết áp mong muốn.\nKiểm soát từ từ: Truyền tĩnh mạch liều 500 microgram/ kg trong 1 phút, sau đó truyền 50 microgram/ kg/ phút trong 4 phút. Tùy thuộc vào đáp ứng của bệnh nhân, áp dụng chế độ liều và cách dùng giống như xử trí loạn nhịp nhanh trên thất nêu ở trên.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Liều lượng | Nội dung:\nLiều duy trì nên ở mức 250 – 300 microgram/ kg/ phút, sự an toàn của liều hơn 300 microgram/ kg/ phút vẫn chưa được nghiên cứu.\nTrẻ em Tăng huyết áp cấp cứu:\nTruyền tĩnh mạch liên tục liều 100 – 500 microgram/ kg/ phút.\nTứ chứng Fallot bẩm sinh:\nTrẻ sơ sinh: Khởi đầu tiêm tĩnh mạch 600 microgram/kg trong vòng 1 - 2 phút, nếu cần thiết, duy trì truyền tĩnh mạch 300 - 900 microgram/kg/phút.\nKhông có dữ liệu.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Esmolol và xử trí Quá liều và độc tính Triệu chứng: Hạ huyết áp quá mức, nhịp tim chậm xoang, block nhĩ thất, suy tim, sốc tim, ngừng tim, co thắt phế quản, suy hô hấp, mất ý thức dẫn đến hôn mê, co giật, buồn nôn, nôn, hạ đường huyết và tăng kali máu.\nCó thể dẫn tới tử vong hoặc tàn phế vĩnh viễn. Liều đã gây tử vong dao động rộng, từ 0,625 - 2,5 g (12,5 - 50 mg/kg).\nCách xử lý khi quá liều Ngừng thuốc ngay lập tức. Điều trị triệu chứng và hỗ trợ.\nNhịp tim chậm: Cân nhắc tiêm tĩnh mạch atropine hoặc thuốc kháng cholinergic khác.\nGlycosid trợ tim và/ hoặc thuốc lợi tiểu có thể giải quyết tình trạng suy tim. Trường hợp cần điều trị sốc do co bóp cơ tim không đủ có thể tiêm tĩnh mạch dopamine, dobutamine, isoproterenol inamrinone. Glucagon cũng có thể được cân nhắc.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Quá liều và xử trí | Nội dung:\nHạ huyết áp có triệu chứng: Truyền dịch hoặc sử dụng thuốc vận mạch (dopamine, norepinephrine).\nSử dụng thuốc chủ vận β2 -adrenergic và/hoặc dẫn chất theophylin, hay ipratropium khi bệnh nhân bị co thắt phế quản.\nQuên liều và xử trí Không có dữ liệu.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Tương tác thuốc | Nội dung:\nSử dụng đồng thời esmolol và digoxin làm tăng nồng độ digoxin trong huyết thanh 10 - 20%, digoxin không làm ảnh hưởng dược động học của esmolol. Phối hợp 2 thuốc trong điều trị loạn nhịp nhanh trên thất trong quá trình mổ tim có khả năng làm giảm nhịp tim tốt hơn dùng esmolol đơn độc.\nSử dụng đồng thời thuốc chẹn β-adrenergic tiêm tĩnh mạch và verapamil tiêm tĩnh mạch đã gây ra những phản ứng bất lợi nghiêm trọng như ngừng tim dẫn tới tử vong.\nKhông sử dụng esmolol ở bệnh nhân đang dùng các thuốc co mạch hoặc co cơ (inotropic) như dopamin , epinephrin, norepinephrin vì có nguy cơ ức chế co bóp cơ tim khi sức cản mạch toàn thân lớn.\nThận trọng khi sử dụng reserpine với esmolol vì có thể gây hạ huyết áp tư thế, ngất.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Tương tác thuốc | Nội dung:\nThận trọng khi sử dụng reserpine với esmolol vì có thể gây hạ huyết áp tư thế, ngất.\nNồng độ esmolol có thể tăng nhẹ khi dùng cùng warfarin , nên cần thận trọng điều chỉnh lại liều.\nNồng độ esmolol trong máu ở trạng thái cân bằng tăng 50% khi sử dụng chung với morphine . Do vậy cần thận trọng điều chỉnh lại liều esmolol.\nThuốc chẹn thần kinh cơ: Esmolol có thể kéo dài tới 60% tác dụng ức chế thần kinh cơ của sucinylcholin ở một số bệnh nhân, nhưng không ảnh hưởng đến thời gian khởi đầu tác dụng.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Lưu ý | Nội dung:\nLưu ý chung Ở người có bệnh co thắt phế quản, cần chỉnh liều thận trọng, ngừng truyền thuốc ngay nếu xuất hiện co thắt phế quản.\nỞ bệnh nhân suy tim sung huyết, có nguy cơ làm suy giảm thêm khả năng co bóp cơ tim và làm suy tim trầm trọng thêm. Ngừng thuốc ngay khi xuất hiện dấu hiệu suy tim và có thể dùng thuốc điều trị đặc hiệu nếu cần (glycosid trợ tim và/hoặc thuốc lợi tiểu). Nếu nhất thiết phải tiếp tục điều trị bằng esmolol, khi những biểu hiện của suy tim giảm bớt, có thể truyền lại với tốc độ chậm hơn.\nThuốc có thể che lấp dấu hiệu hạ đường huyết (nhịp tim nhanh, hồi hộp, thay đổi huyết áp, run, lo lắng).",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Lưu ý | Nội dung:\nThuốc có thể che lấp dấu hiệu hạ đường huyết (nhịp tim nhanh, hồi hộp, thay đổi huyết áp, run, lo lắng).\nCần thận trọng khi dùng esmolol cho bệnh nhân suy giảm huyết động hoặc người bệnh đang sử dụng các thuốc làm giảm sức cản ngoại vi, giảm máu đến cơ tim, giảm co bóp cơ tim và/hoặc giảm lan truyền xung động điện tại cơ tim.\nTiêm esmolol có thể gây kích ứng, viêm tắc tĩnh mạch, hoại tử và phồng rộp tại nơi tiêm.\nĐối với điều trị tăng huyết áp và nhịp tim nhanh trong quá trình phẫu thuật: Theo dõi chặt chẽ các dấu hiệu sinh tồn và điều chỉnh liều lượng esmolol từ từ nếu bị tăng huyết áp do co mạch kết hợp hạ thân nhiệt.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Esmolol | Phần: Lưu ý | Nội dung:\nThận trọng sử dụng esmolol ở các bệnh nhân bị đau thắt ngực prinzmetal, u tủy thượng thận, bệnh tuần hoàn ngoại vi, tăng kali máu, cường giáp, rung nhĩ cấp tính kèm suy chức năng thất trái nặng, giảm huyết áp hoặc có đường dẫn truyền phụ.\nLưu ý với phụ nữ có thai Phân loại an toàn của esmolol đối với phụ nữ có thai là loại C. Chỉ sử dụng esmolol cho phụ nữ mang thai khi lợi ích cho mẹ vượt trội nguy cơ đối với thai nhi.\nLưu ý với phụ nữ cho con bú Không rõ esmolol có bài tiết qua sữa mẹ hay không, vì vậy, cần thận trọng khi sử dụng thuốc cho phụ nữ nuôi con bú.\nLưu ý khi lái xe và vận hành máy móc Không ảnh hưởng.",
+        "metadata": {
+            "name": "Esmolol",
+            "id": "esmolol",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/esmolol",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

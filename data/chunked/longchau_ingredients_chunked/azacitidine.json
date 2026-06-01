@@ -1,0 +1,226 @@
+[
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Azacitidine Loại thuốc Thuốc chống ung thư; một chất tương tự nucleoside pyrimidine tổng hợp của cytidine.\nDạng thuốc và hàm lượng Bột pha hỗn dịch tiêm chứa 100 mg azacitidine.\nViên uống có hàm lượng azacitidine: 200 mg; 300 mg.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Chỉ định | Nội dung:\nThuốc Azacitidine được chỉ định điều trị bệnh nhân người lớn không đủ điều kiện để ghép tế bào gốc tạo máu như:\nHội chứng rối loạn sinh tủy (Myelodysplastic syndromes – MDS) trung bình-2 và nguy cơ cao theo Hệ thống Chấm điểm Tiên lượng Quốc tế (IPSS).\nBệnh bạch cầu myelomonocytic mãn tính với 10 - 29% tế bào blast mà không có rối loạn tăng sinh tủy.\nBệnh bạch cầu cấp dòng tuỷ với 20 - 30% tế bào blast và loạn sản đa dòng, theo phân loại của Tổ chức Y tế Thế giới (WHO).\nBệnh bạch cầu cấp dòng tuỷ trên 30% tế bào blast theo phân loại của WHO.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Dược lực học | Nội dung:\nThuốc Azacitidine được cho là có tác dụng chống ung thư bằng nhiều cơ chế bao gồm gây độc tế bào trên các tế bào tạo máu bất thường trong tủy xương và giảm methyl hóa DNA. Tác dụng gây độc tế bào của azacitidine có thể do nhiều cơ chế, bao gồm ức chế tổng hợp DNA, RNA và protein, kết hợp thành RNA và DNA, và kích hoạt các con đường tổn thương DNA.\nCác tế bào không tăng sinh tương đối không nhạy cảm với azacitidine. Việc kết hợp azacitidine vào DNA dẫn đến việc bất hoạt DNA methyltransferase, dẫn đến hiện tượng hypomethyl hóa DNA và gây độc tế bào trực tiếp trên các tế bào tạo máu bất thường trong tủy xương.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Dược động học | Nội dung:\nHấp thu Hấp thu nhanh sau khi uống, nồng độ đỉnh trong huyết tương đạt được trong khoảng 0,5 giờ. Khả dụng sinh học là 89% so với liều tiêm tĩnh mạch.\nPhân phối Sau khi tiêm tĩnh mạch, thể tích phân bố trung bình là 76 ± 26 L, và độ thanh thải toàn thân là 147 ± 47 L/ h.\nChuyển hóa Nghiên cứu in vitro cho thấy azacitidine có thể được chuyển hóa ở gan. Azacitidine trải qua quá trình thủy phân và khử amin tự phát qua trung gian cytidine deaminase.\nThải trừ Azacitidine được đào thải nhanh khỏi huyết tương với thời gian bán thải trung bình sau khi tiêm dưới da là 41 ± 8 phút.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Dược động học | Nội dung:\nThải trừ Azacitidine được đào thải nhanh khỏi huyết tương với thời gian bán thải trung bình sau khi tiêm dưới da là 41 ± 8 phút.\nKhông có sự tích tụ xảy ra sau khi tiêm dưới da 75 mg/m2 azacitidine một lần mỗi ngày trong 7 ngày. Bài tiết qua nước tiểu là con đường thải trừ chủ yếu của azacitidine hoặc các chất chuyển hóa. Thời gian bán thải khoảng 4 giờ.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Liều lượng | Nội dung:\nLiều dùng thuốc Azacitidine Người lớn Hội chứng rối loạn sinh tủy:\nChu kỳ đầu: 75 mg/m2 tiêm truyền hoặc tiêm dưới da hàng ngày trong 7 ngày; lặp lại chu kỳ sau mỗi 4 tuần.\nSau 2 chu kỳ, có thể tăng liều lên 100 mg/m2 nếu không thấy tác dụng bất lợi và nếu không có độc tính nào khác ngoài buồn nôn và nôn.\nThời gian điều trị tối thiểu từ 4 đến 6 chu kỳ, mặc dù có thể cần thêm các chu kỳ điều trị khác để đạt được đáp ứng hoàn toàn hoặc một phần.\nBệnh bạch cầu cấp tính dòng tủy:\nChu kỳ đầu: 75 mg/m2 tiêm truyền hoặc tiêm dưới da hàng ngày trong 7 ngày; lặp lại chu kỳ sau mỗi 4 tuần. Sau 2 chu kỳ, có thể tăng liều lên 100 mg/m2 nếu không thấy tác dụng có lợi và nếu không có độc tính nào khác ngoài buồn nôn và nôn.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Liều lượng | Nội dung:\nThời gian điều trị tối thiểu từ 4 đến 6 chu kỳ. Có thể tiếp tục điều trị nếu bệnh nhân có đáp ứng điều trị.\nĐiều chỉnh liều lượng đối với độc tính huyết học ở bệnh nhân khi bắt đầu điều trị với bạch cầu ≥ 3000/mm3, ANC ≥ 1500/mm3 và số lượng tiểu cầu ≥ 75.000/mm3.\nTrẻ em Chưa xác định được tính an toàn và hiệu quả ở trẻ em < 16 tuổi.\nĐối tượng khác Người cao tuổi:\nKhông có sự khác biệt đáng kể về độ an toàn và hiệu quả so với người trẻ tuổi.\nKhông cần điều chỉnh liều. Cần đánh giá chức năng thận định kỳ khi sử dụng thuốc, vì azacitidine và các chất chuyển hóa của nó được thải trừ qua thận và bệnh nhân lớn tuổi nguy cơ bị giảm chức năng thận.\nSuy thận:",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Liều lượng | Nội dung:\nSuy thận:\nNếu có sự gia tăng BUN hoặc creatinin huyết thanh, nên trì hoãn chu kỳ tiếp theo cho đến khi các giá trị trở về bình thường hoặc bắt đầu và giảm liều 50% cho liệu trình tiếp theo.\nNên theo dõi chặt chẽ độc tính.\nSuy thận nặng (độ thanh thải creatinin ClCr < 30 mL/phút) không ảnh hưởng lớn đến việc sử dụng với azacitidine khi dùng đường tiêm dưới da. Do đó, có thể dùng azacitidine cho bệnh nhân suy thận mà không cần điều chỉnh liều theo chu kỳ 1.\nChưa xác định được tính an toàn và hiệu quả ở bệnh nhân suy thận nặng.\nSuy gan:\nCó khả năng gây độc cho gan ở những bệnh nhân bị suy gan nặng từ trước, thận trọng khi sử dụng cho bệnh nhân bị bệnh gan.\nChưa xác định được tính an toàn và hiệu quả ở bệnh nhân rối loạn sinh tủy (MDS) và suy gan.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Liều lượng | Nội dung:\nChưa xác định được tính an toàn và hiệu quả ở bệnh nhân rối loạn sinh tủy (MDS) và suy gan.\nCách dùng Được sử dụng bằng đường uống, có thể uống cùng thức ăn hoặc không.\nĐường tiêm dạng hỗn dịch:\nPha loãng lọ 100 mg azacitidine với 4 mL nước vô trùng để tiêm để tạo hỗn dịch tiêm.\nTiêm dưới da vào đùi, bụng, hoặc cánh tay trên; luân phiên các vị trí tiêm.\nTiêm các mũi tiêm mới cách vị trí cũ ≥ 2,54 cm (1 inch); Không tiêm vào những nơi da mềm, bầm tím, đỏ hoặc cứng.\nNếu liều vượt quá 4 mL, chia đều liều lượng vào 2 ống tiêm và tiêm vào 2 vị trí riêng biệt.\nĐường tiêm tĩnh mạch:\nPha lọ chứa 100 mg azacitidine với 10 mL nước vô trùng pha tiêm để tạo ra dung dịch chứa 10 mg/mL.\nDung dịch đã hoàn nguyên nên được pha loãng với 50 đến 100 mL dung dịch natri clorid 0,9% hoặc Lactat Ringer.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Liều lượng | Nội dung:\nDung dịch đã hoàn nguyên nên được pha loãng với 50 đến 100 mL dung dịch natri clorid 0,9% hoặc Lactat Ringer.\nTruyền dung dịch trong 10 – 40 phút. Truyền tĩnh mạch tối đa 1 giờ sau khi pha.\nLọ chỉ được sử dụng một lần.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Một trường hợp quá liều với azacitidine đã được báo cáo trong các thử nghiệm lâm sàng. Một bệnh nhân bị tiêu chảy, buồn nôn và nôn sau khi nhận một liều tiêm tĩnh mạch duy nhất khoảng 290 mg/m2, gần gấp 4 lần liều khởi đầu được khuyến cáo.\nCách xử lý khi quá liều Azacitidine Trong trường hợp quá liều, bệnh nhân cần được theo dõi công thức máu thích hợp và nên được điều trị hỗ trợ. Không có thuốc giải độc cụ thể cho quá liều azacitidine.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Tương tác thuốc | Nội dung:\nTương tác Azacitidine với các thuốc khác Không biết liệu chuyển hóa của thuốc azacitidine có bị ảnh hưởng bởi các chất ức chế hoặc chất cảm ứng đã biết của các enzym ở microsom gan hay không.\nKhông biết liệu azacitidine có ức chế isoenzyme CYP hay không. Thuốc Azacitidine không cảm ứng CYP isoenzyme 1A2, 2C19, 3A4, hoặc 3A5 trong ống nghiệm.\nKhông có nghiên cứu chính thức về tương tác thuốc nào với azacitidine cho đến nay.\nTương kỵ Không tương thích với các dung dịch có chứa natri bicarbonate, hetastarch, dung dịch dextrose.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Lưu ý | Nội dung:\nLưu ý chung Các xét nghiệm về chức năng gan, creatinin huyết thanh và bicarbonat huyết thanh nên được xác định trước khi bắt đầu điều trị và trước mỗi chu kỳ điều trị. Công thức máu toàn phần nên được thực hiện trước khi bắt đầu điều trị và khi cần thiết để theo dõi đáp ứng và độc tính, nhưng ở mức tối thiểu, trước mỗi chu kỳ điều trị.\nNên dự phòng bằng thuốc chống nôn trước khi điều trị.\nĐiều trị bằng azacitidine có liên quan đến thiếu máu, giảm bạch cầu trung tính và giảm tiểu cầu, đặc biệt trong 2 chu kỳ đầu tiên. Sau khi sử dụng liều khuyến cáo cho chu kỳ đầu tiên, giảm hoặc trì hoãn liều cho các chu kỳ tiếp theo dựa trên số lượng tế bào máu nadir (số lượng tế bào máu ở mức thấp nhất sau khi điều trị hóa trị) và đáp ứng huyết học.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Lưu ý | Nội dung:\nHôn mê gan tiến triển và tử vong hiếm khi được báo cáo ở những bệnh nhân có gánh nặng khối u lớn thứ phát sau di căn, đặc biệt ở những người có nồng độ albumin huyết thanh ban đầu < 3 g/dL. Thực hiện các xét nghiệm chức năng gan trước khi bắt đầu điều trị.\nCác bất thường về thận (tăng creatinin máu, nhiễm toan ống thận), suy thận và tử vong hiếm khi được báo cáo ở những bệnh nhân được điều trị bằng azacitidine đường tiêm kết hợp với các thuốc chống ung thư khác (ví dụ: Etoposide). Nếu giảm nồng độ bicarbonate trong huyết thanh xuống < 20 mEq/L hoặc tăng BUN hoặc creatinin huyết thanh một cách không giải thích được xảy ra, hãy giảm liều hoặc ngừng điều trị bằng thuốc.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Lưu ý | Nội dung:\nBệnh nhân có tiền sử suy tim sung huyết nặng, bệnh tim hoặc bệnh phổi không ổn định về mặt lâm sàng bị loại khỏi các nghiên cứu và do đó tính an toàn và hiệu quả của azacitidine ở những bệnh nhân này đã chưa được thiết lập.\nViêm cân mạc hoại tử, bao gồm cả các trường hợp tử vong, đã được báo cáo ở những bệnh nhân được điều trị bằng azacitidine.\nLưu ý với phụ nữ có thai Có thể gây hại cho thai nhi; tính gây quái thai và khả năng gây chết phôi thai đã được chứng minh trên động vật. Tránh mang thai trong khi điều trị, đặc biệt là trong ba tháng đầu, trừ khi thật cần thiết.\nLưu ý với phụ nữ cho con bú Không biết liệu azacitidine hoặc các chất chuyển hóa của nó có được phân phối vào sữa hay không. Ngừng cho con bú hoặc ngừng điều trị với thuốc.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Azacitidine | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Azacitidine có ảnh hưởng ít hoặc trung bình đến khả năng lái xe và sử dụng máy móc. Mệt mỏi đã được báo cáo khi sử dụng azacitidine. Do đó, cần thận trọng khi lái xe hoặc vận hành máy móc.",
+        "metadata": {
+            "name": "Azacitidine",
+            "id": "azacitidine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/azacitidine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

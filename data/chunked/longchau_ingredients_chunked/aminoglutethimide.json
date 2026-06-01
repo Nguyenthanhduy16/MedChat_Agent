@@ -1,0 +1,198 @@
+[
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Amininoglutethimide Loại thuốc Chất ức chế corticosteroid tuyến vỏ thượng thận Dạng thuốc và hàm lượng Viên nén 250 mg",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Chỉ định | Nội dung:\nHội chứng Cushing.\nUng thư vú .\nUng thư tuyến tiền liệt.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Dược lực học | Nội dung:\nAminoglutethimide ức chế enzym chuyển đổi cholesterol thành D5-pregnenolone, dẫn đến giảm sản xuất glucocorticoid tuyến thượng thận, mineralocorticoid, estrogen và androgen.\nAminoglutethimide ngăn chặn một số bước khác trong quá trình tổng hợp steroid, bao gồm hydroxyl hóa C-11, C-18 và C-21 và hydroxyl hóa cần thiết để cấu trúc nhân thơm của nội tiết tố androgen thành estrogen, qua trung gian liên kết của aminoglutethimide với phức hợp cytochrom P-450. Cụ thể, thuốc liên kết và ức chế men aromatase, chất cần thiết cho việc tạo ra các estrogen từ androstenedione và testosterone.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Dược lực học | Nội dung:\nSự giảm tiết cortisol của tuyến thượng thận kéo theo sự tăng tiết hormone vỏ thượng thận (ACTH), hormone này sẽ vượt qua sự ức chế tổng hợp steroid ở vỏ thượng thận của Aminoglutethimide. Sự tăng tiết ACTH bù đắp có thể bị ngăn chặn bằng cách sử dụng đồng thời hydrocortisone.\nMặc dù aminoglutethimide ức chế sự tổng hợp thyroxine của tuyến giáp, nhưng sự gia tăng bù trừ hormone kích thích tuyến giáp (TSH) thường đủ lớn để vượt qua sự ức chế tổng hợp tuyến giáp do aminoglutethimide. Mặc dù tăng TSH, aminoglutethimide không liên quan đến tăng tiết prolactin.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Dược động học | Nội dung:\nAminoglutethimide làm giảm sản xuất D5-thuậnenolone và ngăn chặn một số bước khác trong quá trình tổng hợp steroid, bao gồm hydroxyl hóa C-11, C-18 và C-21 và hydroxylation cần thiết cho quá trình aromat hóa androgen thành estrogen, qua trung gian của aminogl đến phức hợp cytochrom P-450.\nCụ thể, thuốc liên kết và ức chế aromatase rất cần thiết cho việc tạo estrogen từ androstenedione và testosterone.\nSự giảm bài tiết cortisol ở thượng thận được theo sau bởi sự tăng tiết hormon tuyến thượng thận tuyến yên (ACTH), sẽ vượt qua sự phong tỏa tổng hợp steroid của vỏ thượng thận bằng aminoglutethimide. Sự gia tăng bù trong bài tiết ACTH có thể được ngăn chặn bằng cách sử dụng đồng thời hydrocortison.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Dược động học | Nội dung:\nVì aminoglutethimide làm tăng tốc độ chuyển hóa của dexamethasone nhưng không phải là hydrocortison, nên sau này được ưu tiên là thay thế glucocorticoid tuyến thượng thận. Mặc dù aminoglutethimide ức chế sự tổng hợp thyroxine của tuyến giáp, nhưng sự gia tăng bù của hormone kích thích tuyến giáp (TSH) thường có cường độ đủ để vượt qua sự ức chế tổng hợp tuyến giáp do aminoglutethimide.\nMặc dù sự gia tăng TSH, aminoglutethimide không liên quan đến tăng tiết prolactin.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Liều lượng | Nội dung:\nNgười lớn Hội chứng Cushing 250 mg uống mỗi 6 giờ. Phản ứng vỏ thượng thận nên được theo dõi cẩn thận, tốt nhất là ở bệnh viện, trong khi bắt đầu điều trị. Nếu ức chế không đủ, liều có thể được tăng 250 mg mỗi 1 đến 2 tuần đến liều tối đa hàng ngày là 2 g.\nUng thư vú 250 mg, uống hai lần một ngày. Có thể tăng liều sau 2 tuần đến 250 mg uống 4 lần một ngày dựa trên đáp ứng lâm sàng và khả năng dung nạp thuốc của bệnh nhân. Phạm vi liều lượng điển hình là 250 đến 1000 mg / ngày. Aminoglutethimide thường được sử dụng đồng thời với hydrocortisone hoặc cortisone acetate trong bệnh này để ngăn chặn hiện tượng phản xạ ACTH.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Liều lượng | Nội dung:\nUng thư tuyến tiền liệt 250 mg, uống hai lần một ngày. Có thể tăng liều sau 2 tuần đến 250 mg uống 4 lần một ngày dựa trên đáp ứng lâm sàng và khả năng dung nạp thuốc của bệnh nhân.\nKhoảng liều lượng điển hình là 250 đến 1000 mg/ngày. Aminoglutethimide thường được sử dụng đồng thời với hydrocortisone hoặc cortisone acetate trong bệnh này để ngăn chặn hiện tượng phản xạ ACTH.\nCó thể phải giảm liều hoặc ngừng điều trị tạm thời trong trường hợp có tác dụng phụ, bao gồm buồn ngủ quá mức, phát ban da nghiêm trọng hoặc nồng độ cortisol thấp quá mức.\nNếu phát ban trên da kéo dài hơn 5-8 ngày hoặc trở nên nghiêm trọng, nên ngừng thuốc. Có thể sử dụng lại aminoglutethimide với liều lượng thấp hơn sau khi biến mất phát ban nhẹ hoặc trung bình.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Liều lượng | Nội dung:\nThay thế mineralocorticoid (ví dụ, fludrocortisone ) có thể cần thiết. Nếu cần điều trị thay thế glucocorticoid, nên dùng 20-30 mg hydrocortisone uống vào buổi sáng.\nNếu bạn quên một liều thuốc, hãy uống càng sớm càng tốt. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không uống gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Không dùng quá liều lượng được kê. Dùng thuốc nhiều hơn sẽ không cải thiện triệu chứng của bạn; thay vào đó chúng có thể gây ngộ độc hoặc những tác dụng phụ nghiêm trọng.\nNếu bạn nghi vấn rằng bạn hoặc ai khác có thể đã sử dụng quá liều, vui lòng đến phòng cấp cứu tại bệnh viện hoặc viện chăm sóc gần nhất.\nMang theo hộp, vỏ, hoặc nhãn hiệu thuốc đã dùng quá liều để giúp các bác sĩ có thông tin cần thiết.\nKhông đưa thuốc của bạn cho người khác dù bạn biết họ có cùng bệnh chứng hoặc trông có vẻ như họ có thể có bệnh chứng tương tự. Điều này có thể dẫn tới việc dùng quá liều.\nVui lòng tham khảo ý kiến bác sĩ hoặc dược sĩ hoặc gói sản phẩm để có thêm thông tin.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Quá liều và xử trí | Nội dung:\nVui lòng tham khảo ý kiến bác sĩ hoặc dược sĩ hoặc gói sản phẩm để có thêm thông tin.\nQuên liều và xử trí Nếu bạn quên một liều thuốc, hãy uống càng sớm càng tốt. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không uống gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Aminoglutethimide làm tăng tốc độ chuyển hóa của dexamethasone; do đó, nếu cần sử dụng glucocorticoid, nên chỉ định hydrocortisone.\nAminoglutethimide làm giảm tác dụng của coumarin và warfarin, theophyllin ,\ntamoxifen , medroxyprogesterone hoặc thuốc hạ đường huyết dạng uống.\nTương tác với thực phẩm Một số loại thuốc không nên được sử dụng cùng với thức ăn vì có thể xảy ra tương tác. Sử dụng rượu hoặc thuốc lá với một số loại thuốc cũng có thể gây ra tương tác.\nRượu làm tăng tác dụng của aminoglutethimide.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Lưu ý | Nội dung:\nLưu ý chung Aminoglutethimide có thể gây giảm chức năng hoạt động của tuyến vỏ thượng thận, đặc biệt là trong trường hợp căng thẳng, chẳng hạn như phẫu thuật, chấn thương hoặc bệnh lý cấp tính. Bệnh nhân cần được theo dõi cẩn thận và được bổ sung hydrocortisone và mineralocorticoid theo chỉ định. Dexamethasone không nên được sử dụng.\nAminoglutethimide cũng có thể ức chế sản xuất aldosterone của vỏ thượng thận và có thể gây hạ huyết áp thế đứng hoặc kéo dài. Nên theo dõi huyết áp ở tất cả bệnh nhân trong những khoảng thời gian thích hợp. Bệnh nhân nên được thông báo về khả năng mệt mỏi, suy yếu và chóng mặt như các triệu chứng của hạ huyết áp, và các biện pháp cần thực hiện nếu chúng xảy ra.\nTác dụng của aminoglutethimide có thể được tăng cường nếu nó được dùng kết hợp với rượu.",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Aminoglutethimide | Phần: Lưu ý | Nội dung:\nTác dụng của aminoglutethimide có thể được tăng cường nếu nó được dùng kết hợp với rượu.\nLưu ý với phụ nữ có thai Aminoglutethimide có thể gây hại cho thai nhi khi dùng cho phụ nữ có thai.\nLưu ý với phụ nữ cho con bú Aminoglutethimide có khả năng gây phản ứng có hại nghiêm trọng ở trẻ bú mẹ, nên cần đưa ra quyết định ngừng cho con bú hay ngừng thuốc, có tính đến tầm quan trọng của thuốc đối với người mẹ.\nLưu ý khi lái xe và vận hành máy móc Có thể xảy ra buồn ngủ do đó không nên lái xe, vận hành máy móc",
+        "metadata": {
+            "name": "Aminoglutethimide",
+            "id": "aminoglutethimide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/aminoglutethimide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

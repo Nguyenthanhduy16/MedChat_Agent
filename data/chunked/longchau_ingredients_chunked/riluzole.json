@@ -1,0 +1,198 @@
+[
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Riluzole Loại thuốc Thuốc đối kháng glutamate Dạng thuốc và hàm lượng Viên nén bao phim 50 mg",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Chỉ định | Nội dung:\nChỉ định để kéo dài sự sống hoặc thời gian mở khí quản cho bệnh nhân mắc bệnh xơ cứng teo cơ một bên (ALS).",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Dược lực học | Nội dung:\nRiluzole, thuộc nhóm benzothiazol, được chỉ định để điều trị bệnh nhân mắc chứng xơ cứng teo cơ một bên (ALS). Riluzole kéo dài thời gian sống sót và/hoặc thời gian mở khí quản. Thuốc cũng bảo vệ thần kinh trong các mô hình thực nghiệm in vivo khác nhau về tổn thương tế bào thần kinh liên quan đến cơ chế gây độc kích thích.\nCăn nguyên và cơ chế bệnh sinh của bệnh xơ cứng teo cơ một bên (ALS) vẫn chưa được biết, mặc dù một số giả thuyết đã được đưa ra. Một giả thuyết là các tế bào thần kinh vận động, dễ bị tổn thương do khuynh hướng di truyền hoặc các yếu tố môi trường, bị tổn thương do glutamate. Trong một số trường hợp ALS gia đình, enzyme superoxide dismutase được phát hiện là bị lỗi.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Dược lực học | Nội dung:\nCơ chế hoạt động của riluzole là chưa được biết rõ. Các đặc tính dược lý của thuốc bao gồm những điều sau đây, một trong số đó có thể liên quan đến tác dụng của thuốc: Tác dụng ức chế giải phóng glutamate (kích hoạt tái hấp thu glutamate), bất hoạt các kênh natri phụ thuộc vào điện thế, và khả năng can thiệp vào nội bào các sự kiện theo sau sự liên kết của chất dẫn truyền tại các thụ thể kích thích acid amin.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Dược động học | Nội dung:\nHấp thu Riluzole được hấp thu nhanh chóng sau khi uống với nồng độ tối đa trong huyết tương xảy ra trong vòng 60 đến 90 phút (C max = 173 ± 72 (sd) ng/ml). Khoảng 90% liều dùng được hấp thu và sinh khả dụng tuyệt đối là 60 ± 18%.\nKhi dùng nhiều liều, riluzole tích lũy trong huyết tương gấp hai lần.\nThức ăn làm giảm AUC đi 20% và nồng độ đỉnh trong huyết tương là 45%.\nPhân bố Riluzole được phân bố rộng khắp cơ thể và đã được chứng minh là có thể vượt qua hàng rào máu não. Thể tích phân bố của riluzole là khoảng 245 ± 69 l (3,4 l/kg). Riluzole liên kết với protein huyết tương khoảng 97% và liên kết chủ yếu với albumin huyết thanh và lipoprotein.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Dược động học | Nội dung:\nChuyển hóa Các nghiên cứu in vitro sử dụng các chế phẩm gan người đã chứng minh rằng cytochrome P450 1A2 là isoenzyme chính tham gia vào quá trình chuyển hóa riluzole. Các chất chuyển hóa được xác định trong nước tiểu là ba dẫn xuất phenolic, một dẫn xuất ureido và riluzole không thay đổi.\nCon đường chuyển hóa chính của riluzole là quá trình oxy hóa ban đầu bởi cytochrome P450 1A2 tạo ra N-hydroxy-riluzole (RPR112512), chất chuyển hóa có hoạt tính chính của riluzole. Chất chuyển hóa này nhanh chóng liên kết với glucurono thành O- và N-glucuronid.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Dược động học | Nội dung:\nThải trừ Thời gian bán thải từ 9 đến 15 giờ. Riluzole được thải trừ chủ yếu qua nước tiểu. Bài tiết tổng thể qua nước tiểu chiếm khoảng 90% liều dùng. Glucuronid chiếm hơn 85% các chất chuyển hóa trong nước tiểu. Chỉ 2% liều riluzole đào thải dưới dạng không đổi trong nước tiểu.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Liều lượng | Nội dung:\nNgười lớn Teo xơ cứng một bên:\nLiều khuyến cáo: 50 mg x 2 lần/ngày.\nĐối tượng khác Suy gan Không có khuyến nghị về liều lượng cụ thể; tuy nhiên, không khuyến cáo sử dụng ở những bệnh nhân có nồng độ aminotransferase> 5 lần ULN hoặc có bằng chứng rối loạn chức năng gan.\nSuy thận Không có khuyến nghị về liều lượng cụ thể.\nBệnh nhân lão khoa",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Quá liều và xử trí | Nội dung:\nQuên liều Riluzole và xử trí Nếu quên dùng một liều thuốc, hãy uống càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch.\nKhông uống gấp đôi liều đã quy định.\nQuá liều và xử trí Quá liều và độc tính Quá liều sau khi uống riluzole từ 1,5 đến 3 gam (gấp 30 đến 60 lần liều khuyến cáo) bao gồm bệnh não nhiễm độc cấp tính, hôn mê, buồn ngủ, mất trí nhớ và methemoglobin huyết.\nCách xử lý khi quá liều Riluzole chất chống co giậ Trong trường hợp quá liều, điều trị theo triệu chứng và hỗ trợ. Không có thuốc giải độc đặc hiệu để điều trị quá liều riluzole.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Tương tác thuốc | Nội dung:\nTương tác Riluzole với các thuốc khác Các chất ức chế vừa phải hoặc mạnh đối với CYP1A2, trên thử nghiệm in vitro cho thấy khi dùng chung với riluzole, có thể làm tăng nguy cơ tác dụng phụ liên quan đến riluzole.\nAllopurinol sử dụng đồng thời với riluzole có thể tăng nguy cơ nhiễm độc gan.\nCiprofloxacin sử dụng đồng thời với riluzole có thể tăng nguy cơ tác dụng phụ liên quan đến riluzole.\nFluvoxamine Methoxsalen Methyldopa sử dụng đồng thời với riluzole có thể tăng nguy cơ nhiễm độc gan.\nThuốc uống tránh thai sử dụng đồng thời với riluzole có thể tăng nguy cơ tác dụng phụ liên quan đến riluzole.\nSulfasalazine sử dụng đồng thời với riluzole có thể tăng nguy cơ nhiễm độc gan.\nVemurafenib sử dụng đồng thời với riluzole có thể tăng nguy cơ tác dụng phụ liên quan đến riluzole.\nZileuton",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Lưu ý | Nội dung:\nLưu ý chung khi dùng Riluzole Suy gan Riluzole sử dụng thận trọng ở những bệnh nhân có tiền sử chức năng gan bất thường, hoặc ở những bệnh nhân có transaminase huyết thanh tăng nhẹ (ALT/SGPT, AST/SGOT lên đến 3 lần giới hạn trên bình thường (ULN)), bilirubin và/hoặc mức gamma-glutamyl transferase (GGT) tăng.\nDo nguy cơ viêm gan, nên đo transaminase huyết thanh, bao gồm ALT, trước và trong khi điều trị bằng riluzole. ALT nên được đo hàng tháng trong 3 tháng đầu điều trị, 3 tháng một lần trong thời gian còn lại của năm đầu tiên và định kỳ sau đó. Mức ALT nên được đo thường xuyên hơn ở những bệnh nhân có mức ALT cao.\nNên ngừng dùng riluzole nếu mức ALT tăng lên gấp 5 lần ULN.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Lưu ý | Nội dung:\nNên ngừng dùng riluzole nếu mức ALT tăng lên gấp 5 lần ULN.\nGiảm bạch cầu trung tính Bệnh nhân báo cho bác sĩ nếu có sốt xảy ra để kiểm tra số lượng bạch cầu và ngừng riluzole trong trường hợp giảm bạch cầu trung tính nghiêm trọng (số lượng bạch cầu trung tính tuyệt đối dưới 500 trên mm3) trong vòng 2 tháng đầu điều trị riluzole.\nBệnh phổi kẽ Các trường hợp bệnh phổi kẽ đã được báo cáo ở những bệnh nhân được điều trị bằng riluzole, một số trường hợp nặng.\nNếu các triệu chứng hô hấp như ho khan và/hoặc khó thở, nên tiến hành chụp X quang phổi và trong trường hợp phát hiện có dấu hiệu của bệnh phổi kẽ (ví dụ như đục phổi lan tỏa hai bên), nên ngừng sử dụng riluzole ngay lập tức.\nTrong phần lớn các trường hợp được báo cáo, các triệu chứng sẽ hết sau khi ngừng thuốc và điều trị triệu chứng.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Lưu ý | Nội dung:\nTrong phần lớn các trường hợp được báo cáo, các triệu chứng sẽ hết sau khi ngừng thuốc và điều trị triệu chứng.\nLưu ý với phụ nữ có thai Không có dữ liệu đầy đủ về việc sử dụng riluzole ở phụ nữ có thai. Trong các nghiên cứu trên động vật, các tác dụng phụ đối với sự phát triển (ví dụ, giảm khả năng sống, tăng trưởng và phát triển chức năng của phôi thai/con cái) ở các liều phù hợp về mặt lâm sàng.\nChống chỉ định ở phụ nữ có thai.\nLưu ý với phụ nữ cho con bú Thuốc phân bố vào sữa ở chuột, không biết có được phân bố vào sữa mẹ hay không. Khả năng gây ra các tác dụng phụ nghiêm trọng ở trẻ bú mẹ có sử dụng riluzole không được biết.\nChống chỉ định cho phụ nữ cho con bú.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Riluzole | Phần: Lưu ý | Nội dung:\nChống chỉ định cho phụ nữ cho con bú.\nLưu ý khi lái xe và vận hành máy móc Bệnh nhân nên được cảnh báo về khả năng bị chóng mặt hoặc chóng mặt, và không nên lái xe hoặc vận hành máy móc nếu những triệu chứng này xảy ra.",
+        "metadata": {
+            "name": "Riluzole",
+            "id": "riluzole",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/riluzole",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

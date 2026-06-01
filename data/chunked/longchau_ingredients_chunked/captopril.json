@@ -1,0 +1,254 @@
+[
+    {
+        "text": "Hoạt chất: Captopril | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Captopril Loại thuốc Thuốc ức chế men chuyển Dạng thuốc và hàm lượng Viên nén: 12,5 mg, 25 mg, 50 mg, 100 mg.\nHỗn dịch uống 25mg/ 5mL.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Chỉ định | Nội dung:\nThuốc Captopril được chỉ định trong các trường hợp sau:\nTăng huyết áp.\nSuy tim sung huyết.\nNhồi máu cơ tim : Điều trị ngắn hạn trong 24 giờ đầu (ở người bệnh đã có huyết động ổn định), rối loạn chức năng thất trái sau nhồi máu cơ tim cấp.\nBệnh thận do đái tháo đường týp I.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Dược lực học | Nội dung:\nTác dụng hạ huyết áp của Captopril liên quan đến ức chế hệ Renin-angiotensin-aldosteron.\nAngiotensin I là một Decapeptid không có hoạt tính. Captopril ngăn Angiotensin I chuyển thành Angiotensin II bằng cách ức chế cạnh tranh ACE. Ức chế ACE làm giảm nồng độ angiotensin II và làm tăng hoạt tính renin trong huyết tương.\nGiảm angiotensin II làm giảm co mạch, giảm tiết Aldosteron nên tăng thải natri và nước đồng thời giữ lại một lượng nhỏ kali.\nCaptopril không ảnh hưởng đến nồng độ norepinephrin tuần hoàn trong huyết tương và cũng không ức chế tăng nồng độ norepinephrin trong huyết tương do phản xạ tư thế.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Dược lực học | Nội dung:\nTuy vậy, do ức chế hình thành Angiotensin II, Captopril có thể tác động đến giải phóng và tái hấp thu norepinephrin ở các dây thần kinh noradrenergic và/hoặc có thể làm giảm tính nhạy cảm của mạch máu đối với các thuốc làm tăng huyết áp. Do ACE có thể giáng hóa bradykinin là một chất làm giãn mạch, nên ức chế ACE do Captopril có thể làm bradykinin tích lũy trong huyết tương hoặc trong mô và làm giãn mạch.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Dược động học | Nội dung:\nHấp thu Khi uống lúc đói, khoảng 60 - 75% liều được hấp thu nhanh qua đường tiêu hóa. Thức ăn làm hấp thu chậm tới 25 - 40% nhưng không ảnh hưởng tới tác dụng. Nồng độ đỉnh trung bình trong máu là 800 nanogam/ml, đạt được trong vòng 1 giờ.\nPhân bố Captopril phân bố vào hầu hết các mô cơ thể, trên hệ thần kinh trung ương. Captopril qua nhau thai và vào sữa mẹ với nồng độ khoảng 1% nồng độ thuốc trong máu mẹ. Khoảng 25 - 30% captopril gắn vào protein huyết tương, chủ yếu là albumin.\nChuyển hóa Khoảng một nửa liều thuốc hấp thu được chuyển hóa nhanh, chủ yếu thành Captopril-cystein Disulfid và Dimercaptopril Disulfid.\nThải trừ Nửa đời thải trừ Captopril không chuyển hóa dưới 2 giờ ở người bệnh có chức năng thận bình thường.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Dược động học | Nội dung:\nThải trừ Nửa đời thải trừ Captopril không chuyển hóa dưới 2 giờ ở người bệnh có chức năng thận bình thường.\nNửa đời thải trừ của Captopril cùng chất chuyển hóa tương quan với thanh thải creatinin và tăng tới khoảng 20 - 40 giờ ở người bệnh có thanh thải creatinin dưới 20 ml/phút và tới 6,5 ngày ở người bệnh vô niệu.\nCaptopril có thể loại bỏ bằng thẩm phân máu.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Liều lượng | Nội dung:\nLiều dùng Người lớn Liều dùng điều trị tăng huyết áp:\nLiều thường dùng: 25 mg/lần, 2 - 3 lần/ngày. Liều ban đầu có thể thấp hơn (6,25 mg/lần, 2 lần/ngày đến 12,5 mg/lần, 3 lần/ngày) cũng có thể có hiệu quả, đặc biệt ở người đang dùng thuốc lợi tiểu.\nNếu huyết áp không kiểm soát được sau 1 - 2 tuần, có thể tăng liều tới 50 mg/lần, ngày uống 2 hoặc 3 lần. Thường không cần thiết vượt quá 150 mg/ngày. Lúc đó, có thể cho thêm thuốc lợi tiểu thiazid liều thấp (thí dụ 15 mg hydroclorothiazid mỗi ngày).",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Liều lượng | Nội dung:\nCơn tăng huyết áp (huyết áp tăng nhanh, tăng huyết áp ác tính): Mục đích đầu tiên là giảm huyết áp động mạch trung bình không quá 25% trong vài phút tới 1 giờ, tiếp theo giảm thêm nếu ổn định ở 160/100 tới 110 mmHg trong 2 - 6 giờ sau, tránh giảm huyết áp quá mức có thể gây thiếu máu cục bộ ở thận, não hoặc động mạch vành.\nLiều dùng 25 mg/lần, 2 - 3 lần/ngày. Nếu cần, có thể tăng liều cách nhau 24 giờ hoặc sớm hơn, cho tới đạt được huyết áp tối ưu hoặc tới liều 450 mg/ngày. Có thể dùng thêm thuốc lợi tiểu Furosermid.\nLiều điều trị cơn tăng huyết áp cấp cứu: 12,5 - 25 mg/lần, 1 hoặc 2 lần cách nhau 30 - 60 phút hoặc dài hơn.\nLiều điều trị rối loạn chức năng thất trái sau nhồi máu cơ tim:\nNên dùng Captopril sớm (3 ngày sau nhồi máu cơ tim ở bệnh nhân có rối loạn chức năng thất trái).",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Liều lượng | Nội dung:\nNên dùng Captopril sớm (3 ngày sau nhồi máu cơ tim ở bệnh nhân có rối loạn chức năng thất trái).\nSau khi dùng liều ban đầu 6,25 mg, có thể tiếp tục điều trị với liều 12,5 mg/lần x 3 lần/ngày, sau đó tăng lên 25 mg/lần x 3 lần/ngày trong vài ngày tiếp theo và nâng lên liều 50 mg/lần x 3 lần/ngày trong những tuần tiếp theo nếu người bệnh dung nạp được thuốc.\nLiều điều trị suy tim sung huyết:\nCaptopril phải được bắt đầu dưới sự giám sát y tế chặt chẽ. Liều khởi đầu thông thường là 6,25 mg - 12,5 m, 2 đến 3 lần/ ngày.\nLiều duy trì đến 75 - 150 mg mỗi ngày nên được thực hiện dựa trên đáp ứng của bệnh nhân.\nTối đa là 150 mg mỗi ngày chia làm nhiều lần. Liều nên được tăng dần dần, với khoảng thời gian ít nhất là 2 tuần để đánh giá đáp ứng của bệnh nhân.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Liều lượng | Nội dung:\nTối đa là 150 mg mỗi ngày chia làm nhiều lần. Liều nên được tăng dần dần, với khoảng thời gian ít nhất là 2 tuần để đánh giá đáp ứng của bệnh nhân.\nLiều dùng cho bệnh thận do tiểu đường type I: Liều khuyến cáo là 75-100 mg mỗi ngày chia làm nhiều lần. Captopril có thể được dùng kết hợp với các thuốc hạ huyết áp khác, tức là thuốc lợi tiểu, thuốc chẹn beta, thuốc tác dụng trung ương hoặc thuốc giãn mạch nếu chỉ dùng Captopril mà giảm huyết áp.\nTrẻ em Trẻ mới đẻ: 0,01 mg/kg/lần, dùng 8 - 12 giờ một lần.\nTrẻ nhỏ: 0,15 - 0,3 mg/kg/lần, liều có thể tăng lên tối đa là 6 mg/ kg/ngày, chia làm 1 - 4 lần.\nTrẻ lớn: 0,3 - 0,5 mg/kg/lần, có thể tăng lên tối đa là 6 mg/kg/ngày, chia làm 2 - 4 lần.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Liều lượng | Nội dung:\nTrẻ lớn: 0,3 - 0,5 mg/kg/lần, có thể tăng lên tối đa là 6 mg/kg/ngày, chia làm 2 - 4 lần.\nHiệu quả và độ an toàn của Captopril chưa được thiết lập đầy đủ. Việc sử dụng Captopril ở trẻ em và thanh thiếu niên nên được bắt đầu dưới sự giám sát y tế chặt chẽ.\nĐối tượng khác Người cao tuổi:\nLiều ban đầu là 6,25 mg/lần, 2 lần/ngày; nếu cần thiết có thể tăng lên đến 25 mg/lần, 2 lần/ngày sau 2 tuần điều trị.\nBệnh nhân suy thận:\nKhoảng cách chia liều cho người bệnh có hệ số thanh thải creatinin từ 10 - 50 ml/phút là 12 - 18 giờ, đối với hệ số thanh thải creatinin < 10 ml/phút thì khoảng cách này là 24 giờ. Liều cụ thể theo chức năng thận như sau:",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Liều lượng | Nội dung:\nHệ số thanh thải creatinin (ml/phút/1,73m2) Liều tối đa 24 giờ (mg) Liều bắt đầu (mg) > 41 150 25 - 50 40 - 21 100 25 20 - 11 75 12,5 < 10 37,5 6,25 Bệnh nhân suy gan:\nBệnh nhân dùng thuốc ức chế men chuyển bị vàng da hoặc tăng men gan rõ rệt nên ngừng thuốc ức chế men chuyển và được theo dõi y tế thích hợp.\nCách dùng Uống Captopril trước ăn 1 giờ hoặc 2 giờ sau bữa ăn.\nThuốc có thể ngậm dưới lưỡi nhưng tác dụng không hơn.\nPhải theo dõi sát huyết áp.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Captopril và xử trí Quá liều và độc tính Triệu chứng: Hạ huyết áp nghiêm trọng, sốc, sững sờ, nhịp tim chậm, rối loạn điện giải và suy thận.\nCách xử lý khi quá liều Điều trị phù mạch ảnh hưởng đến lưỡi, thanh môn hoặc thanh quản.\nNgừng dùng Captopril, tiêm Adrenalin dưới da, tiêm tĩnh mạch Diphenhydramin, tiêm tĩnh mạch Hydrocortison.\nTruyền tĩnh mạch dung dịch Natri Clorid 0,9% để duy trì huyết áp; có thể loại bỏ Captopril bằng thẩm phân máu.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Tương tác thuốc | Nội dung:\nCaptopril có thể làm tăng tác dụng của Allopurinol, Amifostin, Cyclosporin, các thuốc điều trị tăng huyết áp, lithi khi dùng đồng thời.\nDùng đồng thời Captopril với Fusosemid, thuốc chẹn Receptor Angiotensin II, Diazoxid, thuốc ức chế MAO, Trimethoprim gây ra tác dụng hiệp đồng hạ huyết áp.\nThuốc chống viêm không steroid, thuốc kháng acid, Aprotinin, Yohimbin làm giảm tác dụng của Captopril khi dùng đồng thời.\nThuốc ức chế men chuyển làm giảm sự mất kali do lợi tiểu gây ra. Thuốc lợi tiểu tiết kiệm kali (Triamterene, Amiloride và Spironolactone), chất thay thế muối có chứa kali hoặc chất bổ sung kali có thể làm tăng đáng kể kali huyết thanh.\nĐộ thanh thải qua thận của captopril bị giảm khi có Probenecid.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Lưu ý | Nội dung:\nLưu ý chung Thuốc có thể gây giảm bạch cầu trung tính, đặc biệt trên người bệnh thận, trong 3 - 12 tuần điều trị đầu tiên. Nguy cơ giảm bạch cầu phụ thuộc vào mức độ suy thận và các bệnh colagen mạch máu kèm theo (lupus ban đỏ hệ thống...). Cần kiểm tra định kỳ bạch cầu trong thời gian điều trị.\nCó thể gây protein niệu ở bệnh nhân dùng Captopril, phần lớn ở người có bệnh thận từ trước hoặc đã dùng Captopril với liều tương đối cao (>150 mg/ngày) hoặc có cả 2 yếu tố trên. Trong nhiều trường hợp, protein niệu giảm dần và hết trong 6 tháng, dù có dùng thuốc hay không.\nCó thể gây hội chứng thận hư, vì vậy nên kiểm tra chức năng thận (creatinin huyết và BUN) trước và 1 tuần sau khi điều trị Captopril cho người bị suy tim sung huyết.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Lưu ý | Nội dung:\nCaptopril có thể gây tăng nhẹ kali huyết, vì vậy tránh kết hợp với các thuốc lợi tiểu giữ kali (Spironolacton, Triamteren...). Cần thận trọng khi dùng các muối có chứa kali và nên kiểm tra cân bằng điện giải định kỳ.\nỞ người bệnh tăng hoạt độ Renin mạnh, thiếu muối hoặc giảm khối lượng tuần hoàn có thể xảy ra hạ huyết áp nặng thế đứng sau liều dùng Captopril đầu tiên, cần tiêm truyền tĩnh mạch dung dịch natri clorid 0,9%, không cần ngừng thuốc.\nNguy cơ tăng mạnh các phản ứng phản vệ khi sử dụng đồng thời các chất ức chế ACE và màng thẩm tách có tính thấm cao, lọc máu. Captopril cũng gây phản ứng dương tính giả khi xét nghiệm Aceton trong nước tiểu.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Lưu ý | Nội dung:\nNên sử dụng thận trọng Captopril cho bệnh nhân bị tắc nghẽn van thất trái và đường ra. Vì kinh nghiệm còn hạn chế đã thu được trong điều trị cơn tăng huyết áp cấp tính, nên tránh sử dụng Captopril trong các trường hợp sốc tim và tắc nghẽn huyết động đáng kể.\nPhù mạch ở tứ chi, mặt, môi, niêm mạc, lưỡi, thanh môn hoặc thanh quản có thể xảy ra ở những bệnh nhân được điều trị bằng thuốc ức chế men chuyển bao gồm Captopril. Điều này có thể xảy ra bất cứ lúc nào trong quá trình điều trị.\nLưu ý với phụ nữ có thai Sử dụng Captopril hoặc các chất ức chế ACE khác trong 3 tháng giữa và 3 tháng cuối của thai kỳ có thể gây thương tổn thai nhi hay trẻ sơ sinh (hạ huyết áp, giảm sản xương sọ, suy thận, tử vong). Không được dùng Captopril trong thời kỳ mang thai.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Captopril | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Captopril bài tiết vào sữa mẹ (khoảng 1%), cần cân nhắc ngừng cho con bú hay ngừng thuốc, phải tính đến tầm quan trọng của thuốc đối với mẹ.\nLưu ý khi lái xe và vận hành máy móc Cũng như các thuốc điều trị cao huyết áp khác, khả năng lái xe và sử dụng máy móc có thể bị giảm, cụ thể là khi bắt đầu điều trị, hoặc khi điều trị sau khi được điều chỉnh, và cả khi sử dụng kết hợp với rượu, nhưng những tác dụng này phụ thuộc vào mức độ mẫn cảm của từng người.",
+        "metadata": {
+            "name": "Captopril",
+            "id": "captopril",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/captopril",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

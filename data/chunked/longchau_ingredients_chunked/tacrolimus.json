@@ -1,0 +1,268 @@
+[
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Tacrolimus.\nLoại thuốc Thuốc ức chế miễn dịch.\nDạng thuốc và hàm lượng Thường dùng dạng tacrolimus monohydrate.\nViên nang: 0,5 mg; 0,75 mg; 1 mg; 5 mg.\nThuốc tiêm: 5 mg/5ml, 5 mg/ml.\nThuốc mỡ: 0,03%; 0,1%.\nViên nang phóng thích kéo dài: 0,5 mg; 0,75 mg; 1 mg; 2 mg; 3 mg; 4 mg; 5 mg.\nHỗn dịch uống: 0,2 mg; 1 mg.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Chỉ định | Nội dung:\nPhòng ngừa thải loại tổ chức ghép trong ghép tạng cùng loài khác gen: Ghép gan, ghép thận, ghép tim (thuốc tiêm và thuốc uống) Điều trị bệnh Crohn có lỗ dò.\nThuốc dự phòng hàng hai trong trường hợp có sự đào thải tổ chức ghép cấp tính hoặc mạn tính khi ghép thận hoặc do độc tính của cyclosporin.\nĐiều trị ngắn hạn hoặc điều trị cách quãng eczema dị ứng thể vừa hoặc thể nặng khi điều trị thông thường không hiệu quả hoặc không thích hợp.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Dược lực học | Nội dung:\nTacrolimus là một macrolid (macrolactam) chiết xuất từ Streptomyces tsukubaensis, có tác dụng ức chế mạnh miễn dịch và có hoạt tính kháng khuẩn nhưng rất hạn chế. Cơ chế chính xác tác dụng ức chế miễn dịch của tacrolimus chưa được biết rõ. Tacrolimus có tác dụng ức chế tế bào lympho T thông qua ức chế sự sản sinh interleukin-2.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Dược lực học | Nội dung:\nTacrolimus ức chế sự hoạt hóa các tế bào lympho T bằng cách gắn kết với một protein nội bào là FKBP-12. Phức hợp tacrolimus- FKBP-12, ion calci, calmodulin và calcineurin được tạo thành và ức chế hoạt tính phosphatase của calcineurin nên ngăn chặn sự khử phosphoryl hóa và chuyển đoạn yếu tố nhân tế bào của tế bào T (NF-AT) được hoạt hóa, một thành phần của nhân tế bào thông qua sự khởi động quá trình phiên mã để tạo thành các lymphokin (ví dụ, interleukin -2, gama interferon).",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Dược lực học | Nội dung:\nTacrolimus cũng ức chế quá trình phiên mã các gen có ký hiệu IL-3, IL-4, IL-5, GM-CSF và TNF-α, tất cả các gen này đều tham gia vào quá trình hoạt hóa ở giai đoạn ban đầu các tế bào T. Tacrolimus có khả năng ức chế sự giải phóng các chất trung gian đã được tạo thành trước từ các dưỡng bào của da, các bạch cầu ái kiềm và làm giảm biểu hiện của các thụ thể có ái lực cao đối với IgE (FcεRI) trên các tế bào Langerhans. Tuy tacrolimus không gây độc cho gen và không tương tác trực tiếp với DNA, thuốc có thể gây tổn hại đến giám sát miễn dịch tại chỗ.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Dược động học | Nội dung:\nHấp thu Hấp thu đường uống không hoàn toàn và bị ảnh hưởng bởi thức ăn. Sinh khả dụng sau khi uống là 7 – 28%. Thời gian đạt nồng độ đỉnh trong máu: 0,5 - 4 giờ.\nDùng ngoài: Nồng độ trong huyết tương dưới 20 nanogam/ml (đa số dưới 5 nanogam/ml). Sinh khả dụng dưới 0,5%.\nPhân bố Sau khi tiêm tĩnh mạch, thuốc phân bố rộng khắp các mô. Khoảng 99% tacrolimus liên kết với protein trong huyết tương. Tacrolimus liên kết chủ yếu với albumin và alpha-1-glycoprotein acid.\nChuyển hóa Chuyển hóa mạnh ở gan và đường tiêu hóa qua CYP3A4 tạo 8 chất chuyển hóa (chất chuyển hóa chủ yếu là 31-demethyl tacrolimus, có tác dụng giống tacrolimus in vitro).",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Dược động học | Nội dung:\nThải trừ Độ thanh thải trung bình sau khi tiêm truyền tĩnh mạch là 0,040 lít/giờ/kg. Dưới 1% liều dùng được thải trừ nguyên vẹn qua nước tiểu. Thải trừ qua mật dưới dạng hydroxy hóa. Thời gian bán thải từ 21 – 61 giờ.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Liều lượng | Nội dung:\nLiều dùng Người lớn Đối với bệnh nhân ghép tạng:\nLiều khởi đầu chia 2 lần/ngày, dùng dạng phóng thích tức thời:\nGhép gan: 100 – 200 mcg/kg, bắt đầu uống 12 giờ sau khi ghép gan;\nGhép thận: 200 – 300 mcg/kg bắt đầu 24 giờ sau khi ghép thận;\nGhép tim: 75 mcg/kg, sau khi dùng liệu pháp kháng thể để cảm ứng và trong vòng 5 ngày sau khi hoàn thành phẫu thuật và khi người bệnh ổn định.\nCó thể dùng tacrolimus 12 giờ sau phẫu thuật ở người có chức năng tạng bình thường với liều khởi đầu từ 2 – 4 mg/ngày kèm với mycophenolat mofetil và corticosteroid.\nNếu người bệnh không thể uống, cho truyền tĩnh mạch liên tục trong 24 giờ, liều hàng ngày:\nGhép gan: 10 – 15 mcg/kg;\nGhép thận: 50 – 100 mcg/kg;\nGhép tim: 10 – 20 mcg/kg.\nĐiều trị thải loại tổ chức ghép:",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Liều lượng | Nội dung:\nGhép gan: 10 – 15 mcg/kg;\nGhép thận: 50 – 100 mcg/kg;\nGhép tim: 10 – 20 mcg/kg.\nĐiều trị thải loại tổ chức ghép:\nGhép gan, ghép thận: Uống với liều khởi đầu được khuyến cáo cho lần ức chế miễn dịch đầu tiên.\nGhép tim: Liều khởi đầu 150 mcg/kg/2 lần/ ngày.\nỞ Châu Âu, liều khuyến cáo hàng ngày như sau:\nGhép phổi: 100 – 150 mcg/kg.\nGhép tụy: 200 mcg/kg.\nGhép ruột: 300 mcg/kg.\nỞ Mỹ, liều uống ban đầu khuyến cáo 2 lần/ngày:\nGhép gan: 100 – 150 mcg/kg bắt đầu sau 6 giờ sau phẫu thuật ghép;\nGhép thận: 200 mcg/kg khi phối hợp với azathioprin, hoặc 100 mcg/kg khi phối hợp với mycophenolat mofetil và một thuốc đối kháng thụ thể interleukin-2, bắt đầu trong vòng 24 giờ sau ghép thận và khi chức năng thận được phục hồi;\nGhép tim: 75 mcg/kg bắt đầu sau 6 giờ sau khi ghép.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Liều lượng | Nội dung:\nGhép tim: 75 mcg/kg bắt đầu sau 6 giờ sau khi ghép.\nCó thể tiêm truyền liên tục với liều khởi đầu hàng ngày và sau 6 giờ sau ghép:\nGhép gan: 30 – 50 mcg/kg;\nGhép thận: 30 – 50 mcg/kg;\nGhép tim: 10 mcg/kg.\nĐiều trị eczema dị ứng khi điều trị thông thường không hiệu quả hoặc không thích hợp:\nDùng thuốc mỡ 0,1% (cho người từ 16 tuổi trở lên), bôi 2 lần/ngày, nếu triệu chứng cải thiện sau 2 tuần điều trị (ở Mỹ là sau 6 tuần) thì chẩn đoán lại.\nỞ Anh, tacrolimus được dùng điều trị duy trì. Người bệnh đã đáp ứng tới 6 tuần điều trị bôi 2 lần/ngày, có thể bôi thuốc mỡ 0,1%, 2 lần/tuần, cách nhau 2 – 3 ngày trong 12 tháng. Nếu bệnh tái phát có thể bôi 2 lần/ngày.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Liều lượng | Nội dung:\nTrẻ em Dùng thuốc mỡ 0,03% (cho trẻ em từ 2 – 15 tuổi) 2 lần/ngày, nếu triệu chứng cải thiện sau 2 tuần điều trị (ở Mỹ là sau 6 tuần) thì chẩn đoán lại.\nThuốc mỡ 0,03%: Bôi 2 - 3 lần/tuần có hiệu quả ngăn chặn eczema nặng ở trẻ 1 tuổi.\nGhép tạng:\nỞ Anh, liều khởi đầu hàng ngày chia 2 lần uống:\nGhép gan: 300 mcg/kg, bắt đầu khoảng 12 giờ sau khi ghép;\nGhép thận: 300 mcg/kg, bắt đầu trong vòng 24 giờ sau khi ghép.\nGhép tim, sau khi sử dụng liệu pháp kháng thể cảm ứng: 100 – 300 mcg/kg.\nNếu bệnh nhân không thể uống thuốc, có thể truyền tĩnh mạch liên tục trong 24 giờ kéo dài 7 ngày nhưng cần chuyển sang dùng thuốc bằng đường uống sớm nhất có thể. Liều khuyến cáo hàng ngày như sau:\nGhép gan: 50 mcg/kg;\nGhép thận: 75 – 100 mcg/kg.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Liều lượng | Nội dung:\nGhép gan: 50 mcg/kg;\nGhép thận: 75 – 100 mcg/kg.\nGhép tim (không dùng liệu pháp kháng thể cảm ứng): Tiêm truyền liên tục trong 24 giờ với liều 30 – 50 mcg/kg. Trong vòng 8 – 12 giờ sau khi ngừng tiêm truyền, uống thuốc với liều 300 mcg/kg/2 lần/ngày.\nGhép gan, ghép thận: Dùng liều người lớn.\nGhép tim, liều uống khởi đầu là 200 – 300 mcg/2 lần/ngày.\nỞ Hoa Kỳ, liều hàng ngày chia làm 2 lần:\nGhép gan: 150 – 200 mcg/kg, bắt đầu khoảng 6 giờ sau phẫu thuật.\nLiều tiêm truyền tĩnh mạch giống như liều dùng ở người lớn.\nCách dùng Tacrolimus Uống khi đói hoặc ít nhất 1 giờ trước ăn hoặc 2 – 3 giờ sau ăn để hấp thu thuốc tối đa.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Tacrolimus và xử trí Quá liều và độc tính Triệu chứng: Tăng thuận nghịch nồng độ creatinin trong máu hoặc hoạt tính transaminase, buồn nôn, run nhẹ.\nCách xử lý khi quá liều Khử độc thông qua đường dạ dày và điều trị duy trì, lọc máu tích cực.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Khi kết hợp tacrolimus với các thuốc sau cần lưu ý:\nCác thuốc có thể làm tăng nồng độ tacrolimus trong máu:\nNhôm hydroxyd-magnesihydroxyd: Bromocriptin; cloramphenicol; cimetidin; Cisaprid; clarithromycin; lotrimazol; itraconazol; cyclosporin; danazol; erythromycin; ethinyl oestradiol; fluconazol; ketoconazol; lanzoprazol; methylprednisolon; metoclopramid; nefazodon; nicardipin; nifedipin; omeprazol; troleandomycin; verapamil; voriconazol; các chất ức chế enzym protease của HIV.\nCác thuốc có thể làm giảm nồng độ tacrolimus trong máu:\nCarbamazepin; caspofungin; phenobarbital; phenytoin; rifabutin; rifampin; sirolimus; cây Nữ lang (cỏ St. John’s: Hypericum perforatum).\nThuốc kháng retrovirus có thể chuyển hóa bởi enzym CYP3A (ví dụ nelfinavir, ritonavir).",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Tương tác thuốc | Nội dung:\nThuốc kháng retrovirus có thể chuyển hóa bởi enzym CYP3A (ví dụ nelfinavir, ritonavir).\nPhenytoin: Có thể làm tăng nồng độ phenytoin trong huyết tương.\nCác thuốc độc với thận (như kháng sinh aminoglycosid, amphotericin B, cisplastin, ganciclovir, cyclosporin) Các thuốc lợi tiểu giữ kali:\nLàm tăng kali huyết nghiêm trọng.\nVaccine:\nKhuyến cáo cần tránh tiêm chủng các vaccine sống như vắc xin sởi, quai bị, rubella, vắc xin polio uống, BCG, sốt vàng, thương hàn TY 21a.\nMetronidazol có thể tăng gấp 2 lần nồng độ trong máu của cyclosporin và tacrolimus nên làm tăng nồng độ creatinin huyết trong cả 2 trường hợp.\nTương tác với thực phẩm Không dùng chung với nước bưởi chùm.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Tương tác thuốc | Nội dung:\nTương tác với thực phẩm Không dùng chung với nước bưởi chùm.\nTương kỵ thuốc Tacrolimus không ổn định trong môi trường kiềm, không được trộn dung dịch tiêm truyền tacrolimus với các dung dịch khác có pH ≥ 9 (ví dụ ganciclovir hoặc acyclovir).",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Lưu ý | Nội dung:\nLưu ý chung Nên làm các xét nghiệm thường quy (như urê huyết, creatinin huyết thanh, bilirubin, enzym gan) để đánh giá chức năng thận, gan.\nThận trọng khi phối hợp với các thuốc ức chế miễn dịch vì nguy cơ nhiễm khuẩn và có khả năng phát triển lymphoma và các u khác.\nTăng nguy cơ nhiễm khuẩn cơ hội.\nCó báo cáo về bệnh não trắng tiến triển nhiều ổ (PML, do virus JC gây ra, điển hình ở nguời suy giảm miễn dịch) Gây độc cho thận ở liều cao. Phải rất thận trọng khi dùng phối hợp với các thuốc độc cho thận như aminoglycosid, amphotericin B, cisplatin.\nKhông nên dùng tacrolimus cùng với cyclosporin vì gây nhiễm độc thận rất nặng. Nếu đang dùng cyclosporin hoặc tacrolimus mà ngừng lại, phải ít nhất 24 giờ sau mới dùng thuốc kia.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Lưu ý | Nội dung:\nNguy cơ phì đại cơ tim ở người bị suy thận hoặc có biểu hiện lâm sàng rối loạn chức năng thất, phải siêu âm tim. Nếu có phì đại cơ tim, phải giảm liều hoặc ngừng tacrolimus.\nNgười bệnh ghép gan có thể phát triển tổn thương gan sau ghép và có nguy cơ cao bị suy thận kèm theo nồng độ thuốc cao trong máu toàn phần.\nTrường hợp ghép tim khác gen cùng loài, cũng không nên phối hợp tacrolimus với sirolimus vì tăng nguy cơ độc.\nDo nguy cơ phản ứng phản vệ, chỉ tiêm tĩnh mạch cho người không thể dùng đường uống được.\nTránh để thuốc mỡ tiếp xúc với mắt và niêm mạc. Nếu thuốc dính vào mắt và niêm mạc, cần lau và rửa sạch với nước.\nKhông sử dụng thuốc mỡ trên những bệnh nhân bị tổn thương da: Hội chứng Netherton, bệnh vẩy nến tróc vẩy, ban đỏ toàn thân hoặc bệnh tổ chức ghép - người nhận.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Tacrolimus | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Tacrolimus có thể đi vào nhau thai, gây tăng kali huyết và suy thận ở trẻ sơ sinh. Không sử dụng thuốc trong thời kì này.\nLưu ý với phụ nữ cho con bú Tacrolimus có thể vào sữa mẹ. Chống chỉ định cho con bú khi sử dụng tacrolimus.\nLưu ý khi lái xe và vận hành máy móc Tacrolimus có thể gây rối loạn thị giác và thần kinh, triệu chứng này nặng hơn nếu dùng chung với rượu.",
+        "metadata": {
+            "name": "Tacrolimus",
+            "id": "tacrolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/tacrolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

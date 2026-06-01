@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Fludarabine (fludarabin phosphate).\nLoại thuốc Thuốc chống ung thư loại chống chuyển hóa.\nDạng thuốc và hàm lượng Lọ 50 mg bột đông khô để pha với nước cất tiêm thành dung dịch 25 mg/ml.\nLọ hoặc ống tiêm 2 ml dung dịch 25 mg/ml.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Chỉ định | Nội dung:\nThuốc được chỉ định trong điều trị bệnh bạch cầu mạn dòng lympho không đáp ứng hoặc tiến triển khi đang dùng thuốc alkyl hóa.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Dược lực học | Nội dung:\nKhi vào máu, fludarabine phosphat bị chuyển hóa thành fludarabine và được vận chuyển vào tế bào. Tại đây, enzym deoxycytidin kinase xúc tác làm chuyển hóa fludarabine thành 2-fluoroarabino- furanosyladenin triphosphat (2-fluoro-ara-ATP, FATP). FATP được cho là có tác dụng độc tế bào. Trong các tế bào khỏe mạnh, tỷ lệ vận chuyển thuốc qua màng tế bào ít hơn trong các tế bào ung thư.\nCơ chế chính xác của fludarabine chưa được chứng minh cụ thể. Tuy nhiên, fludarabine triphosphat (FATP) cho thấy ức chế các enzym α-DNA polymerase, ribonucleotid reductase, DNA-primase bằng cách cạnh tranh với các cơ chất sinh học như deoxyadenosin triphosphat, kết quả là ức chế tổng hợp DNA.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Dược động học | Nội dung:\nHấp thu Sau khi được tiêm truyền tĩnh mạch, fludarabine phosphat nhanh chóng chuyển thành fludarabine trong 2 đến 5 phút, dạng monophosphat còn lại có nồng độ ở mức không thể phát hiện.\nSau khi tiêm truyền tĩnh mạch 25 mg/m 2\ntrong 30 phút mỗi ngày, thuốc tích lũy vừa phải trong máu với nồng độ đáy tăng gấp 2 lần sau 5 ngày điều trị. Nồng độ đỉnh đạt được khoảng 2 giờ sau khi tiêm truyền. Diện tích dưới đường cong AUC của fludarabine trong máu và fludarabine triphosphat trong nguyên bào tỷ lệ với liều.\nPhân bố Tiêm truyền tĩnh mạch mức liều khuyến cáo 25 mg/m2/ngày, trong 5 ngày liên tiếp, thể tích phân bố ở trạng thái ổn định là 96 - 98 lít/m2. Tỷ lệ liên kết protein huyết tương khoảng 19 đến 29% dựa trên dữ liệu in vitro.\nChuyển hóa Không có thông tin.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Dược động học | Nội dung:\nChuyển hóa Không có thông tin.\nThải trừ Sau khi tiêm truyền fludarabine phosphat liều từ 20 đến 125 mg/m /ngày trong 30 phút, trong 5 ngày, nửa đời thải trừ pha cuối của FATP là 15 giờ. Ở bệnh nhân ung thư, nửa đời thải trừ pha cuối của FATP có thể lên đến 20 giờ với liều 25 mg/m2/ngày, truyền tĩnh mạch trong 30 phút, trong 5 ngày. Với liều 18 đến 25 mg/m /ngày tiêm truyền tĩnh mạch trong 5 ngày, 24% liều được thải trừ qua thận ở dạng fludarabine trong 24 giờ. Trái lại, khi truyền liều 80 - 260 mg/m , thải trừ qua nước tiểu là 41 - 60%.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Liều lượng | Nội dung:\nLiều dùng Fludarabine Người lớn Bệnh bạch cầu mạn dòng lympho Ở người trưởng thành, liều khởi đầu là 25 mg/m 2\n, 1 lần/ngày, trong 5 ngày liên tục; cũng có thể dùng các mức liều lên đến 30 mg/m , 1 lần/ngày, trong 5 ngày liên tục. Cần xem xét hiệu chỉnh liều trên bệnh nhân dễ nhiễm độc do fludarabine.\nMỗi đợt điều trị 5 ngày, nên cách nhau khoảng 28 ngày.\nBạch cầu cấp dòng tủy nguy cơ cao: Tiêm tĩnh mạch 30 mg/m /ngày, trong 5 ngày với liều tấn công, 30 mg/m /ngày, trong 4 ngày với liều duy trì.\nBạch cầu cấp dòng tủy, kháng thuốc: Tiêm tĩnh mạch 30 mg/m /ngày, trong 5 ngày (phối hợp với cytarabin và filgrastim).\nU lympho không Hodgkin: 25 mg/m /ngày trong 3 ngày, chu kì 21 ngày, phối hợp với các thuốc khác.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Liều lượng | Nội dung:\nU lympho không Hodgkin: 25 mg/m /ngày trong 3 ngày, chu kì 21 ngày, phối hợp với các thuốc khác.\nBệnh Waldenstron (globulin M): Tiêm tĩnh mạch 25 mg/m /ngày trong 5 ngày, chu kỳ 28 ngày.\nChống thải ghép trong ghép tế bào gốc: Tiêm tĩnh mạch 30 mg/m /liều, 6 liều bắt đầu trong 10 ngày trước khi ghép tế bào; hoặc tiêm tĩnh mạch 30 mg/m /liều trong 5 ngày bắt đầu 6 ngày trước khi ghép (phối hợp với busulfan).\nTrẻ em Bạch cầu cấp dòng tủy: Tiêm tĩnh mạch 10,5 mg/m , cho cả liều 15 phút, theo sau bằng liều 30,5 mg/m /ngày trong 48 giờ.\nBạch cầu cấp dòng lympho hay dòng tủy tái phát: 10,5 mg/m cho cả liều 15 phút, 30 mg/m Chống thải ghép: 30 mg/m /liều x 6 liều, 7 - 10 ngày trước ghép.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Liều lượng | Nội dung:\nĐối tượng khác Suy thận Nhà sản xuất khuyến cáo giảm 20% liều fludarabine và giám sát chặt chẽ ở người suy thận mức độ trung bình (Cl 30 - 70 ml/phút/1,73 m ). Không nên sử dụng fludarabine cho những bệnh nhân suy thận nặng (Cl < 30 ml/phút/1,73 m ).\nCách dùng thuốc Fludarabine Thuốc có thể được tiêm tĩnh mạch nhanh hoặc truyền tĩnh mạch liên tục (ví dụ trong hơn 48 giờ). Tuy nhiên, nhà sản xuất khuyến cáo fludarabine phosphat nên được truyền tĩnh mạch trong 30 phút.\nThuốc dùng dưới sự theo dõi của nhân viên y tế nên thường không xảy ra quên liều.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều Fludarabine và độc tính Các độc tính nghiêm trọng và không thể đảo ngược hoặc độc tính gây tử vong (ví dụ, độc tính thần kinh) đã được quan sát thấy ở mức liều 96 mg/m2 hoặc hơn, dùng mỗi ngày trong 5 - 7 ngày, các mức liều tương đối cao như vậy hiện nay không được khuyến cáo. Các dữ liệu còn hạn chế cho thấy rằng liều tối đa lên đến 40 mg/m2 mỗi ngày, trong 5 ngày có thể được dung nạp tốt ở người trưởng thành.\nCách xử lý khi quá liều Không có thuốc giải độc đặc hiệu cho các trường hợp quá liều fludarabine. Các biện pháp kiểm soát bao gồm ngừng dùng thuốc, điều trị hỗ trợ và điều trị triệu chứng. Truyền máu và các thành phần huyết học có thể cần thiết trong các trường hợp khi bị suy tủy.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Quá liều và xử trí | Nội dung:\nQuên liều Fludarabine và xử trí Thuốc dùng dưới sự theo dõi của nhân viên y tế nên thường không xảy ra quên liều.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Sử dụng đồng thời fludarabine và pentostatin có thể dẫn đến nhiễm độc tại phổi nghiêm trọng, có thể tử vong.\nSử dụng cytarabin trước khi sử dụng fludarabine có thể ức chế tác dụng chống ung thư của fludarabine tại một số bệnh nhân mắc bệnh bạch cầu.\nSử dụng fludarabine trước cytarabin có thể không ảnh hưởng đến quá trình chuyển hóa của cytarabin mà thậm chí còn kích thích quá trình chuyển hóa này.\nTránh sử dụng đồng thời fludarabine với một trong các thành phần sau: BCG, clozapin , natalizumab, pentostatin, pimecrolimus , tacrolimus (bôi ngoài da), vắc xin (sống).\nFludarabine có thể làm tăng hoạt tính hoặc tác dụng của:\n, leflunomid, natalizumab, pentostatin , vắc xin sống.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Tương tác thuốc | Nội dung:\nFludarabine có thể làm tăng hoạt tính hoặc tác dụng của:\n, leflunomid, natalizumab, pentostatin , vắc xin sống.\nTác dụng của fludarabine có thể tăng lên bởi: Denosumab, pentostatin, pimecrolimus, roflumilast , tacrolimus (bôi ngoài da), trastuzumab.\nFludarabine có thể giảm hoạt tính hoặc tác dụng của: BCG, dung dịch kiểm tra da coccidioidin, sipuleucel-T, vắc xin bất hoạt, vắc xin sống.\nTác dụng của fludarabine có thể bị giảm bởi: Echinacea, imatinib.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Tương tác thuốc | Nội dung:\nTác dụng của fludarabine có thể bị giảm bởi: Echinacea, imatinib.\nTương kỵ thuốc Tương kỵ vật lý với một số dược chất khác, bao gồm acyclovir natri, amphotericin B, clorpromazin hydroclorid, daunorubicin hydroclorid, ganciclovir natri, hydroxyzin hydroclorid, miconazol, proclorperazin edisylat. Tuy nhiên, khả năng tương kỵ và không tương kỵ còn phụ thuộc vào một số yếu tố như nồng độ thuốc, dung môi dùng, pH sau khi pha, nhiệt độ.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Lưu ý | Nội dung:\nLưu ý chung khi dùng Fludarabine Trong trường hợp tác dụng phụ xảy ra nghiêm trọng, cần phải ngừng thuốc hoặc giảm liều ở mức độ cần thiết.\nKiểm tra các thông số huyết học thường xuyên và cẩn thận trong và sau khi điều trị.\nCần cân nhắc sử dụng máu chiếu xạ ở những bệnh nhân cần truyền máu trong quá trình điều trị.\nBệnh nhân trước điều trị có khối u kích thước lớn có nguy cơ bị hội chứng phân giải khối u khi điều trị bằng fludarabine, cần phải được xét nghiệm acid uric và LDH máu trước điều trị.\nBệnh nhân suy giảm chức năng thận cần phải điều chỉnh liều một cách cẩn thận.\nCác bệnh nhân suy tủy từ trước, bệnh nhân cao tuổi cần phải theo dõi kiểm soát chặt chẽ độc tính của thuốc.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Lưu ý | Nội dung:\nCác bệnh nhân suy tủy từ trước, bệnh nhân cao tuổi cần phải theo dõi kiểm soát chặt chẽ độc tính của thuốc.\nKhông sử dụng đồng thời corticosteroid với các dẫn chất purin (bao gồm fludarabine và các dẫn chất khác) để tránh nguy cơ nhiễm khuẩn.\nĐộc tính trên thần kinh đã xảy ra cả khi thuốc được đưa bằng đường tiêm tĩnh mạch nhanh hoặc truyền tĩnh mạch chậm.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Lưu ý | Nội dung:\nĐộc tính trên thần kinh đã xảy ra cả khi thuốc được đưa bằng đường tiêm tĩnh mạch nhanh hoặc truyền tĩnh mạch chậm.\nLưu ý với phụ nữ có thai Fludarabine gây độc với bào thai khi sử dụng cho người mang thai, tuy nhiên có thể cân nhắc sử dụng thuốc khi lợi ích điều trị ở mức chấp nhận được so với nguy cơ độc tính lên thai nhi. Người trong độ tuổi sinh sản nên tránh mang thai khi sử dụng fludarabine; và ngược lại fludarabine chỉ sử dụng cho phụ nữ mang thai khi tình trạng bệnh nghiêm trọng, nguy hiểm đến tính mạng mà không sử dụng được các thuốc khác an toàn hơn.\nCần phải thông báo đầy đủ thông tin về nguy cơ tử vong đối với thai nhi cho các bệnh nhân mang thai khi sử dụng thuốc hoặc bệnh nhân đang sử dụng thuốc mà bắt đầu mang thai.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Fludarabine | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Chưa rõ khả năng phân bố của thuốc vào sữa mẹ. Tuy nhiên, vì những nguy cơ nghiêm trọng có thể xảy ra trong trường hợp thuốc phân bố vào sữa, cần cân nhắc dùng thuốc thì phải ngừng cho con bú.\nLưu ý khi lái xe và vận hành máy móc Fludarabine có thể làm giảm khả năng lái xe và sử dụng máy móc, do thuốc gây mệt mỏi, suy nhược, rối loạn thị giác, lú lẫn, kích động và co giật.",
+        "metadata": {
+            "name": "Fludarabine",
+            "id": "fludarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fludarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

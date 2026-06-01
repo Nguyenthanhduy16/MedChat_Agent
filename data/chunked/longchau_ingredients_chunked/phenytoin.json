@@ -1,0 +1,212 @@
+[
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Phenytoin Loại thuốc Thuốc chống động kinh Dạng thuốc và hàm lượng Viên nén: 50 mg, 100 mg.\nViên nang tác dụng kéo dài và nang tác dụng nhanh: 30 mg, 100 mg.\nHỗn dịch: 30 mg/5 ml và 125 mg/5 ml.\nThuốc tiêm: 50 mg/ml (dạng muối natri).",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Chỉ định | Nội dung:\nPhenytoin được chỉ định trong các trường hợp:\nĐộng kinh cơn lớn, động kinh cục bộ, có thể dùng cho trạng thái động kinh.\nĐộng kinh tâm thần - vận động.\nĐiều trị loạn nhịp nhanh thất và nhịp nhanh nhĩ kịch phát do nhiễm độc digitalis, đặc biệt trên bệnh nhân không đáp ứng với các thuốc chống loạn nhịp thông thường.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Dược lực học | Nội dung:\nPhenytoin có hiệu quả trong điều trị rối loạn co giật toàn thân, hiệu quả cao trong co giật một phần nhưng tương đối hiệu quả trong động kinh rung giật cơ.\nThuốc nâng cao ngưỡng co giật và ngăn chặn sự lây lan của hoạt động co giật.\nCơ chế mà phenytoin phát huy tác dụng chống co giật vẫn chưa được làm sáng tỏ đầy đủ, tuy nhiên các tác dụng góp phần có thể có bao gồm:\nTác động không tiếp hợp giảm dẫn truyền natri, tăng cường quá trình đào thải natri, ngăn chặn quá trình dẫn truyền lặp đi lặp lại và giảm điện thế sau tetanic.\nTác động sau synap để tăng cường ức chế qua trung gian GABA và giảm dẫn truyền kích thích qua synap.\nTác động trước synap làm giảm sự hấp thu canxi và ngăn chặn sự giải phóng chất dẫn truyền thần kinh.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Dược động học | Nội dung:\nHấp thu Phenytoin được hấp thu từ ruột non sau khi uống. Các yếu tố công thức khác nhau có thể ảnh hưởng đến sinh khả dụng của phenytoin, tuy nhiên các kỹ thuật phi tuyến tính đã ước tính sự hấp thu về cơ bản là hoàn chỉnh.\nPhân bố Sau khi hấp thu, nó được phân phối vào dịch cơ thể bao gồm cả dịch não tủy (CSF). Thể tích phân phối của nó được ước tính là từ 0,52 đến 1,19 lít/kg và nó liên kết với protein cao (thường là 90% ở người lớn).\nChuyển hóa Phenytoin được hydroxyl hóa trong gan bởi một hệ thống enzym có thể bão hòa. Liều tăng nhỏ có thể làm tăng nồng độ huyết thanh rất đáng kể khi nồng độ này nằm trong khoảng cao hơn của nồng độ điều trị.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Dược động học | Nội dung:\nThải trừ Thời gian bán thải trong huyết tương của phenytoin ở người trung bình là 22 giờ với khoảng từ 7 đến 42 giờ. Các thông số kiểm soát đào thải cũng có thể thay đổi giữa các bệnh nhân. Do đó, nồng độ huyết thanh đạt được với một liều nhất định cũng có thể thay đổi nhiều.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Liều lượng | Nội dung:\nNgười lớn Thuốc uống:\nLiều ban đầu là: 100 - 125 mg/lần, 3 lần/ngày. Cần điều chỉnh liều theo khoảng cách 7 - 10 ngày. Liều duy trì: 300 - 400 mg/ngày.\nThuốc tiêm:\nThường bắt đầu tiêm tĩnh mạch benzodiazepin (như diazepam), tiếp theo tiêm tĩnh mạch phenytoin. Người lớn và thiếu niên: 15 - 20 mg/kg, tiêm tĩnh mạch trực tiếp, tốc độ không vượt quá 50 mg/phút. Liều duy trì: Tiêm tĩnh mạch trực tiếp 100 mg/lần, 6 - 8 giờ/lần, tốc độ không vượt quá 50 mg/phút.\nTrẻ em Liều ban đầu là 5 mg/kg/ngày, chia 2 - 3 lần. Điều chỉnh liều khi cần, nhưng không được vượt 300 mg/ngày. Liều duy trì: 4 - 8 mg/kg/ngày, chia 2 - 3 lần.\nTiêm tĩnh mạch trực tiếp 15 - 20 mg/kg, tốc độ không vượt quá 50 mg/phút (tốc độ 1 - 3 mg/kg thể trọng/phút).",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Liều lượng | Nội dung:\nTiêm tĩnh mạch trực tiếp 15 - 20 mg/kg, tốc độ không vượt quá 50 mg/phút (tốc độ 1 - 3 mg/kg thể trọng/phút).\nĐối tượng khác Điều trị loạn nhịp nhanh thất và nhĩ kịch phát: 100 mg/lần, 2 - 4 lần/ngày tùy theo mức độ kiểm soát nhịp tim.\nNgười cao tuổi, bệnh nặng hoặc người suy gan cần phải giảm liều. Đối với người béo phì, toàn bộ liều phải được tính toán dựa trên trọng lượng lý tưởng cộng với 1,33 lần phần vượt quá cân nặng lý tưởng.\nĐiều trị loạn nhịp nhanh thất và nhĩ kịch phát, đặc biệt do nguyên nhân quá liều điều trị nhóm glycosid trợ tim: 3,5 - 5 mg/kg, tiêm tĩnh mạch chậm trực tiếp, tốc độ không vượt quá 50 mg/phút.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Phenytoin và xử trí Quá liều và độc tính Liều gây tử vong ở trẻ em chưa xác định được. Liều gây chết trung bình cho người lớn được ước tính là 2g đến 5g. Các triệu chứng ban đầu là rung giật nhãn cầu, mất điều hòa và rối loạn nhịp tim. Sau đó bệnh nhân hôn mê, đồng tử không phản ứng và xảy ra hạ huyết áp, sau đó là suy hô hấp và ngừng thở. Tử vong là do suy hô hấp và tuần hoàn.\nCó sự khác biệt rõ rệt giữa các cá nhân liên quan đến nồng độ phenytoin trong huyết thanh nơi độc tính có thể xảy ra. Rung giật nhãn cầu khi nhìn nghiêng thường xuất hiện ở 20 mg/l và mất điều hòa ở 30 mg/l, rối loạn nhịp tim và hôn mê xuất hiện khi nồng độ huyết thanh lớn hơn 40 mg/l, nhưng nồng độ cao tới 50 mg/l đã được báo cáo nhưng không có bằng chứng về độc tính.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Quá liều và xử trí | Nội dung:\nLiều điều trị gấp 25 lần đã được thực hiện để đạt được nồng độ trong huyết thanh trên 100 mg/l (400 micromoles/l) khi phục hồi hoàn toàn. Rối loạn chức năng và teo tiểu não không hồi phục đã được báo cáo.\nCách xử lý khi quá liều Điều trị không đặc hiệu vì không có thuốc giải độc. Nếu uống trong vòng 4 giờ trước đó, dạ dày nên được làm trống. Nếu không có phản xạ đóng miệng, cần hỗ trợ đường thở. Oxy và thông khí hỗ trợ có thể cần thiết cho hệ thần kinh trung ương, suy hô hấp và tim mạch. Thẩm phân máu có thể được xem xét vì phenytoin không liên kết hoàn toàn với protein huyết tương. Truyền máu toàn phần đã được sử dụng trong điều trị quá liều ở trẻ em.\nTrong quá liều cấp tính, cần lưu ý đến khả năng có mặt của các thuốc ức chế thần kinh trung ương khác, bao gồm cả rượu.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Quá liều và xử trí | Nội dung:\nTrong quá liều cấp tính, cần lưu ý đến khả năng có mặt của các thuốc ức chế thần kinh trung ương khác, bao gồm cả rượu.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Coumarin hoặc dẫn chất indandion, cloramphenicol, cimetidin, isoniazid , phenylbutazon, ranitidin, salicylat, sulfonamid: Gây tăng nồng độ phenytoin trong huyết thanh do giảm chuyển hóa.\nAmiodaron: Làm tăng nồng độ phenytoin trong huyết thanh.\nCarbamazepin, estrogen, corticosteroid (glucocorticoid, mineralocorticoid), ciclosporin , glycosid của digitalis, doxycyclin, furosemid, levodopa, saquinavir bị giảm tác dụng khi dùng đồng thời với phenytoin.\nThuốc chống trầm cảm ba vòng, haloperidol, chất ức chế monoaminoxidase, phenothiazin có thể hạ thấp ngưỡng gây co giật và làm giảm tác dụng chống co giật của phenytoin.\nCác muối calci: Giảm sinh khả dụng của cả hai thuốc.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Tương tác thuốc | Nội dung:\nCác muối calci: Giảm sinh khả dụng của cả hai thuốc.\nFluconazol, ketoconazol, miconazol: Làm giảm chuyển hóa phenytoin, dẫn đến tăng nồng độ phenytoin trong máu.\nVerapamil, nifedipin: Có thể làm thay đổi nồng độ phenytoin tự do trong huyết thanh. Omeprazol làm giảm chuyển hóa phenytoin ở gan do ức chế cytochrom P450.\nRifampicin kích thích chuyển hóa phenytoin.\nAcid valproic đẩy phenytoin ra khỏi liên kết với protein huyết tương và ức chế chuyển hóa phenytoin.\nXanthin (aminophylin, cafein, theophylin): Ức chế hấp thu phenytoin và kích thích chuyển hóa các xanthin ở gan.\nTương tác với thực phẩm Rượu làm tăng nồng độ phenytoin trong huyết thanh. Nếu uống rượu một thời gian dài sẽ làm giảm nồng độ phenytoin trong huyết thanh.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Tương tác thuốc | Nội dung:\nTương kỵ thuốc Phenytoin natri chỉ tồn tại trong môi trường kiềm (pH 10 - 12). Dung dịch tiêm phenytoin không trong suốt hoặc bị kết tủa khi trộn lẫn với các thuốc khác. Vì vậy, không được trộn lẫn phenytoin với các thuốc khác hoặc với dung dịch tiêm truyền.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Lưu ý | Nội dung:\nLưu ý chung Không nên dùng đồng thời phenytoin với chế phẩm cho ăn qua đường ruột.\nPhenytoin có thể làm tăng nồng độ glucose, phosphatase kiềm và gamma glutamyl transpeptidase trong huyết thanh và làm giảm nồng độ canxi và axit folic trong huyết thanh. Nên đo nồng độ folate trong huyết thanh ít nhất 6 tháng một lần và bổ sung acid folic nếu cần thiết.\nSuy nghĩ và hành vi tự tử có thể xảy ra trên bệnh nhân sử dụng phenytoin vì vậy cần thiết phải theo dõi và giám sát các dấu hiệu trong thời gian sử dụng phenytoin để có phương pháp điều trị thích hợp.\nThận trọng trên bệnh nhân suy gan, suy thận, đái tháo đường. Ngừng điều trị nhanh có thể gây nguy cơ tăng số cơn động kinh, thậm chí nguy cơ xảy ra trạng thái động kinh. Nguy cơ tăng sản lợi do đó cần vệ sinh miệng tốt.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Phenytoin | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Phenytoin qua nhau thai do đó phải cân nhắc nguy cơ/lợi ích vì thuốc có khả năng làm tăng khuyết tật thai nhi; cơn động kinh có thể tăng trong thai kỳ đòi hỏi phải tăng liều; chảy máu có thể xảy ra ở mẹ khi sinh và ở trẻ sơ sinh. Có thể tiêm vitamin K phòng chảy máu cho mẹ lúc đẻ và cho trẻ sơ sinh ngay sau khi sinh.\nLưu ý với phụ nữ cho con bú Phenytoin tiết vào sữa mẹ ở nồng độ thấp, nên người mẹ dùng thuốc vẫn có thể cho con bú.\nLưu ý khi lái xe và vận hành máy móc Thận trọng ở những bệnh nhân thực hiện các công việc có tay nghề cao (ví dụ như lái xe hoặc vận hành máy móc) vì điều trị bằng phenytoin có thể gây ra các tác dụng phụ đối với hệ thần kinh trung ương như chóng mặt và buồn ngủ.",
+        "metadata": {
+            "name": "Phenytoin",
+            "id": "phenytoin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/phenytoin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

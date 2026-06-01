@@ -1,0 +1,254 @@
+[
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Hydroxyurea (Hydroxycarbamide) Loại thuốc Thuốc chống ung thư, loại thuốc chống chuyển hóa Dạng thuốc và hàm lượng Viên nén 1000 mg Viên nang 200 mg, 250 mg, 300 mg, 400 mg, 500 mg",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Chỉ định | Nội dung:\nCác dạng ung thư như bệnh bạch cầu mạn dòng tủy kháng thuốc, ung thư biểu mô vảy vùng đầu - cổ (phối hợp với xạ trị), bệnh bạch cầu mạn dòng tủy không thể ghép tủy tự thân. Các loại u hắc tố, ung thư cổ tử cung ,\nung thư vú .\nThiếu máu hồng cầu hình liềm; bệnh tăng hồng cầu vô căn.\nĐiều trị hỗ trợ nhiễm HIV Bệnh vảy nến; hội chứng tăng tế bào ưa eosin không đáp ứng với corticosteroid.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Dược lực học | Nội dung:\nHydroxyurea ức chế tổng hợp DNA, nhưng không ảnh hưởng đến sự tổng hợp ARN và protein. Cơ chế chủ yếu là hydroxyurea ức chế sự kết hợp của thymidin vào DNA.\nNgoài ra, thuốc còn trực tiếp gây hư hại DNA. Hydroxyurea phá hủy gốc tự do tyrosyl. Gốc này là trung tâm xúc tác của ribonucleosid diphosphat reductase, một enzym xúc tác chuyển ribonucleotid thành deoxyribonucleotid; sự chuyển này bị ức chế nên làm giảm sự tổng hợp DNA. Hydroxyurea ức chế đặc hiệu ở pha S của chu kỳ tế bào, làm ngừng tiến triển ở chỗ giáp giới giữa pha G1 và pha S, nên ức chế sự tổng hợp DNA.\nTác dụng độc cho tế bào của hydroxyurea chỉ giới hạn ở các mô có tốc độ tăng sinh cao và có tác dụng rõ rệt nhất ở những tế bào đang tổng hợp mạnh DNA.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Dược lực học | Nội dung:\nHydroxyurea có thể kích thích sản xuất và làm tăng nồng độ hemoglobin bào thai (Hb F) và như vậy, có tiềm năng làm giảm hồng cầu hình liềm, làm giảm các cơn đau tắc mạch là đặc trưng của thiếu máu tế bào hình liềm.\nHồng cầu này hình thành là do polyme hóa deoxyhemoglobin S (deoxyHb S) vào gel nhớt của protein kết tụ, nhưng bị Hb F ngăn cản quá trình polyme hóa này. Thuốc không chữa khỏi bệnh thiếu máu hồng cầu liềm và cũng không có vai trò nào trong điều trị cơn đau đang tiến triển, mà chỉ có tác dụng phòng cơn đau.\nHydroxyurea còn được dùng hỗ trợ điều trị bệnh tăng hồng cầu vô căn, kết hợp với trích lấy máu tĩnh mạch gián đoạn, do thuốc có tác dụng ức chế tủy xương, làm giảm sản xuất thừa tiểu cầu và hồng cầu.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Dược lực học | Nội dung:\nHydroxyurea cũng có tác dụng chống virus. Do thuốc ức chế ribonucleotid reductase của tế bào và làm giảm lượng deoxynucleotid trong tế bào, nên thuốc ức chế tổng hợp DNA của virus HIV-1 ở tế bào lympho máu ngoại vi. Như vậy, góp phần ngăn cản sao chép của HIV-1. Phối hợp hydroxyurea với didanosin có tác dụng hiệp đồng ức chế HIV-1.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Dược động học | Nội dung:\nHấp thu Hydroxycarbamid hấp thu nhanh qua đường tiêu hóa sau khi uống (trên 80%). Nồng độ đỉnh trong huyết tương đạt được trong vòng 1- 4 giờ.\nPhân bố Phân phối rộng rãi vào các mô (bao gồm cả vào não); tập trung trong bạch cầu và hồng cầu Tỷ lệ 75% đến 80% liên kết với protein huyết thanh.\nChuyển hóa Chuyển hóa ở gan với tỷ lệ 60%.\nThải trừ Đào thải bởi thận.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Liều lượng | Nội dung:\nNgười lớn Liều hydroxyurea phải tùy theo từng người bệnh, dựa vào khối lượng cơ thể và tình trạng béo bệu hoặc giữ nước của người bệnh.\nCác loại u ác tính Các loại u đặc: Liều uống là 80 mg/kg, 3 ngày 1 lần; hoặc 20 - 30 mg/kg mỗi ngày 1 lần.\nUng thư vùng đầu và cổ: Thường kết hợp với liệu pháp tia xạ, liều hydroxyurea là 80 mg/kg, 3 ngày 1 lần. Phải uống hydroxyurea trước khi bắt đầu liệu pháp tia xạ ít nhất 7 ngày. Sau đó, vẫn dùng trong quá trình chiếu xạ và sau khi ngừng chiếu xạ, nhưng phải theo dõi chặt chẽ, và không có tai biến nặng.\nBệnh bạch cầu mạn dòng tủy không đáp ứng với thuốc khác: Uống liều 20 - 30 mg/kg, mỗi ngày 1 lần. Nếu thuốc có tác dụng rõ ràng sau 6 tuần, liệu pháp có thể kéo dài mãi, vô thời hạn.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Liều lượng | Nội dung:\nPhải ngừng điều trị khi số lượng bạch cầu sụt xuống còn dưới 2 500/mm3, hoặc tiểu cầu dưới 100 000/mm3. Chỉ bắt đầu điều trị lại, khi số lượng bạch cầu và tiểu cầu trở lại gần bình thường.\nLách to do bệnh bạch cầu mạn dòng tủy: 5 - 15 mg/kg trong 24 giờ.\nThiếu máu hồng cầu hình liềm Để làm giảm các cơn đau từ vừa đến nặng lặp đi lặp lại ở người lớn, uống liều 15 mg/kg, mỗi ngày 1 lần, dựa vào khối lượng thực hoặc khối lượng lý tưởng của cơ thể (tùy theo cái nào nhỏ hơn).",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Liều lượng | Nội dung:\nCứ 2 tuần 1 lần, điều chỉnh liều tùy theo số lượng huyết cầu của người bệnh. Nếu công thức huyết cầu trong phạm vi chấp nhận được , liều hydroxyurea có thể tăng thêm 5 mg/kg mỗi ngày, cứ 12 tuần tăng 1 lần, cho đến liều tối đa dung nạp được là 35 mg/kg mỗi ngày. Liều tối đa dung nạp được là liều dùng hàng ngày cao nhất không gây độc cho máu trong 24 tuần điều trị liên tiếp.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Liều lượng | Nội dung:\nNếu các huyết cầu trong phạm vi từ chấp nhận được đến độc, không được tăng liều. Nếu các huyết cầu ở mức độc, phải ngừng hydroxyurea cho đến khi phục hồi được các thông số huyết học. Khi đó, có thể dùng lại thuốc, nhưng liều phải giảm đi 2,5 mg/kg mỗi ngày so với liều vừa gây ra độc. Từ đó, cứ sau 12 tuần, liều hydroxyurea lại có thể tăng hoặc giảm 2,5 mg/kg mỗi ngày. Nhưng dù tăng cũng không được quá 35 mg/kg mỗi ngày.\nBệnh tăng hồng cầu vô căn Liều khởi đầu 15 - 20 mg/kg, mỗi ngày 1 lần. Có thể cần thiết phải bổ sung trích máu tĩnh mạch để kiểm soát được hematocrit. Đáp ứng với hydroxyurea giữa các người bệnh thay đổi nhiều, nên liều phải thay đổi tùy theo hematocrit (thường dưới 45 - 50%) và độc tính trên máu của người bệnh.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Liều lượng | Nội dung:\nThông thường, người bệnh đáp ứng với liều 500 - 1 000 mg mỗi ngày. Một số người bệnh đáp ứng với liều thấp hơn, chỉ 1,5 - 2,0 g một tuần, cùng với thỉnh thoảng trích máu tĩnh mạch, nhưng lại có người bệnh cần dùng đến liều mỗi ngày 1,5 - 2,0 g hoặc hơn.\nHỗ trợ điều trị HIV:\n1 000 - 1 500 mg/ngày, uống 1 lần hoặc chia nhiều lần.\nTrẻ em Liều cho trẻ em:\nHiện chưa xác định được liều dùng cho trẻ em, có thể dùng liều ban đầu 10 - 20 mg/kg, một lần mỗi ngày cho trẻ từ 1 đến 18 tuổi, sau đó điều chỉnh tăng dần 5 mg/kg/ngày từ 2 - 6 tháng cho tới liều tối đa là 30 mg/kg/ngày.\nĐối tượng khác Bệnh nhân suy thận: Giảm liều ban đầu còn 50% nếu eGFR thấp hơn 60 ml/phút/1,73 m2. Tránh dùng thuốc nếu eGFR thấp hơn 30 ml/phút/1,73 m2.\nCó thể cần giảm liều hydroxyurea cho người cao tuổi.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Liều lượng | Nội dung:\nCó thể cần giảm liều hydroxyurea cho người cao tuổi.\nBệnh nhân suy gan: Không cần giảm liều.\nNếu bạn quên dùng một liều thuốc này, không được dùng liều đã quên. Dùng thuốc tại thời điểm liều tiếp theo; không dùng liều gấp đôi để bù cho liều đã quên.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Hydroxyurea và xử trí Quá liều và độc tính Khi dùng liều cao và kéo dài, thường gây ra rất nhiều tai biến đã nêu trong mục tác dụng không mong muốn, nhưng mức độ nặng hơn, đặc biệt là độc tính trên máu. Ngoài ra, còn gặp đau, ban tím da, phù bàn tay, bàn chân kèm theo bong da chân, bàn tay.\nCách xử lý khi quá liều Xử trí bằng cách ngừng thuốc, thực hiện các biện pháp chăm sóc, hỗ trợ chung và điều trị triệu chứng. Nếu suy tủy nặng, phải truyền khối hồng cầu hoặc khối tiểu cầu.\nQuên liều và xử trí Nếu bạn quên dùng một liều thuốc này, không được dùng liều đã quên. Dùng thuốc tại thời điểm liều tiếp theo; không dùng liều gấp đôi để bù cho liều đã quên.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác:\nKhi phối hợp hydroxyurea với các thuốc khác cũng gây ức chế tủy xương hoặc phối hợp với xạ trị, rất dễ xảy ra suy tủy, làm tăng nguy cơ giảm bạch cầu, giảm tiểu cầu và các tai biến khác.\nHydroxyurea làm tăng nồng độ acid uric trong máu. Vì vậy, người bệnh đã bị tăng acid uric trong máu đang dùng thuốc tăng thải trừ acid uric niệu, nếu dùng hydroxyurea, có thể phải tăng liều dùng thuốc thải trừ acid uric.\nTránh sử dụng đồng thời hydroxyurea với một trong các thành phần sau: Natalizumab, vắc xin sống, do hydroxyurea làm tăng tác dụng của chúng.\nNồng độ và tác dụng của hydroxyurea có thể tăng bởi:\nDidanosin , trastuzumab, denosumad.\nNồng độ và tác dụng của hydroxyurea có thể giảm bởi: Echinacea. Hydroxyurea có thể giảm tác dụng của vắc xin (mất hoạt tính).",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Lưu ý | Nội dung:\nLưu ý chung Hydroxyurea có độc tính cao, chỉ số điều trị thấp. Cần thông báo cho người bệnh về các độc tính có thể xảy ra.\nCần phải có thầy thuốc chuyên khoa có kinh nghiệm sử dụng hóa trị liệu ung thư chỉ định điều trị và theo dõi trong suốt quá trình điều trị.\nNgười thao tác với thuốc, nhất là khi phải mở nang thuốc ra hoặc phải bẻ viên thuốc để chia liều, phải đi găng tay, đeo khẩu trang, đội mũ; tránh thuốc tiếp xúc với da và niêm mạc; không được để thuốc vương vãi ra vùng thao tác, nếu thuốc vương vãi, phải lau sạch ngay bằng khăn ẩm, rồi bỏ vào túi chất dẻo để đem đốt. Phải để xa tầm với của trẻ em.\nThận trọng với người gần đây đã dùng thuốc chữa ung thư gây độc tế bào hoặc dùng liệu pháp tia xạ, vì tai biến hay xảy ra hơn và nặng hơn.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Lưu ý | Nội dung:\nThận trọng với người gần đây đã dùng thuốc chữa ung thư gây độc tế bào hoặc dùng liệu pháp tia xạ, vì tai biến hay xảy ra hơn và nặng hơn.\nThuốc gây suy tủy xương, vì vậy, phải theo dõi các thông số huyết học, đặc biệt là bạch cầu, tiểu cầu, hàm lượng hemoglobin, trước khi điều trị và định kỳ trong khi điều trị.\nNgười bệnh dùng hydroxyurea điều trị bệnh thiếu máu hồng cầu hình liềm hoặc tăng hồng cầu vô căn cần được cho biết là: Hydroxyurea không phải chữa khỏi bệnh, mà chỉ có lợi chừng nào người bệnh còn duy trì sử dụng thuốc theo đúng chỉ định và chấp nhận các tai biến.\nTăng đại hồng cầu do hydroxyurea có thể là do thiếu hụt acid folic, cần dùng acid folic để dự phòng.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Lưu ý | Nội dung:\nTăng đại hồng cầu do hydroxyurea có thể là do thiếu hụt acid folic, cần dùng acid folic để dự phòng.\nCần phải thận trọng khi dùng hydroxyurea cho người bị suy thận, suy gan nặng, vì có thể gây ra ảo giác về thị giác và thính giác và độc mạnh về huyết học; vì vậy, cần theo dõi chức năng gan thận trước khi dùng thuốc và trong quá trình dùng thuốc. Nên kiểm tra nồng độ acid uric và uống nhiều nước trong quá trình điều trị.\nĐiều trị bằng hydroxyurea gây ra những tổn thương ban đỏ rải rác ở da. Những tổn thương này thường xảy ra sau vài năm điều trị và thường là lành tính. Tuy nhiên, có thể mất vài tháng để điều trị những tổn thương trong những trường hợp cần ngừng thuốc để điều trị. Thuốc cũng có thể gây ra các loét ở chân gây đau, có thể phải ngừng điều trị.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Hydroxyurea | Phần: Lưu ý | Nội dung:\nBệnh nhân nhiễm HIV được điều trị với hydroxyurea và các thuốc kháng virus dễ xảy ra hơn các biến chứng gây tử vong như viêm tụy, nhiễm độc gan, suy gan và triệu chứng viêm thận ngoại vi nặng.\nLưu ý với phụ nữ có thai Dựa trên cơ chế hoạt động của nó, hydroxyurea có thể gây hại cho thai nhi nếu dùng trong thời kỳ mang thai. Chỉ dùng khi không còn biện pháp nào khác để cứu người bệnh và phải biết rõ là thai sẽ bị tổn hại.\nLưu ý với phụ nữ cho con bú Hydroxyurea bài tiết vào được sữa mẹ, thuốc gây tai biến nặng cho trẻ; vì vậy, không được dùng thuốc khi nuôi con bú. Nếu mẹ sử dụng thuốc thì không được cho con bú.\nLưu ý khi lái xe và vận hành máy móc Hydroxyurea có thể gây buồn ngủ. Bệnh nhân không nên lái xe hoặc vận hành máy móc trừ khi không bị ảnh hưởng bởi tác dụng này của thuốc.",
+        "metadata": {
+            "name": "Hydroxyurea",
+            "id": "hydroxyurea",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/hydroxyurea",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

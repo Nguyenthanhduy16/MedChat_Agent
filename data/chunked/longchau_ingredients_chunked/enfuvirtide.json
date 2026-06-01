@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Enfuvirtide Loại thuốc Thuốc kháng vi rút Dạng thuốc và hàm lượng Bột pha tiêm có kèm dung môi pha dung dịch tiêm, hàm lượng 90 mg/ml, lọ 3 ml.\nBột đông khô liều duy nhất để tiêm chứa 108 mg enfuvirtide mỗi lọ.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Chỉ định | Nội dung:\nThuốc được chỉ định điều trị kết hợp với các thuốc kháng vi rút (ARV) khác trên bệnh nhân nhiễm HIV-1 đã được điều trị và không thành công trên các phác đồ có chứa ít nhất một trong các thuốc sau: chất ức chế protease, chất ức chế men sao chép ngược không nucleoside và chất ức chế men sao chép ngược nucleoside.\nĐiều trị HIV ở bệnh nhân không dung nạp với các phác đồ điều trị ARV trước đó.\nDự phòng phơi nhiễm HIV sau khi phơi nhiễm nghề nghiệp ở nhân viên y tế và những người khác qua vết thương qua da hoặc màng nhầy hoặc tiếp xúc với máu, mô, các chất dịch cơ thể khác có thể chứa HIV.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Dược lực học | Nội dung:\nEnfuvirtide là chất ức chế phản ứng tổng hợp, ngăn cản sự sắp xếp lại cấu trúc của HIV-1 gp41 và có hoạt tính bằng cách liên kết đặc biệt với protein ngoại bào của vi rút, do đó ngăn chặn sự dung hợp giữa màng tế bào vi rút và màng tế bào đích, ngăn cản ARN của vi rút xâm nhập vào tế bào đích. Từ đó, làm giảm lượng vi rút trong cơ thể. Ngoài ra, hỗ trợ hệ thống miễn dịch của người bệnh có thể hoạt động tốt hơn làm giảm nguy cơ mắc các biến chứng của HIV (nhiễm trùng, ung thư).",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Dược động học | Nội dung:\nHấp thu Sinh khả dụng sau khi tiêm dưới da của enfuvirtide 90 mg trong bụng là 84,3%. C max Trung bình là 4,59 ± 1,5 μg/ml, AUC là 55,8 ± 12,1 μg*giờ/ml.\nSự hấp thu dưới da của enfuvirtide tỷ lệ thuận với liều dùng trong khoảng liều từ 45 đến 180 mg. Nồng độ đáy trong huyết tương ở trạng thái ổn định trung bình dao động từ 2,6 đến 3,4 μg/ml.\nNồng độ trong huyết tương ở trẻ em 6 – 16 tuổi dùng enfuvirtide liều 2 mg/kg x 2 lần/ngày (tối đa 90 mg x 2 lần/ngày) tương tự như ở người lớn với liều khuyến cáo.\nPhân bố Thể tích phân bố ở trạng thái ổn định khi tiêm tĩnh mạch liều 90 mg enfuvirtide là 5,5 L. Enfuvirtide liên kết 92% với protein huyết tương. Enfuvirtide gắn kết chủ yếu với albumin và một ít với axit α-1 glycoprotein.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Dược động học | Nội dung:\nEnfuvirtide không bị các đẩy ra khỏi liên kết protein bởi các thuốc khác và cũng không đẩy thuốc khác khỏi vị trí liên kết của chúng. Ở bệnh nhân HIV, enfuvirtide không phân bố nhiều vào dịch não tủy.\nChuyển hóa Là một peptide, enfuvirtide trải qua quá trình dị hóa thành các axit amin, với sự tái chế tiếp theo của các axit amin trong cơ thể. Enfuvirtide không phải là chất ức chế enzym CYP450. Sự thủy phân nhóm amit của axit amin đầu tận cùng, phenylalanin dẫn đến kết quả là chất chuyển hóa được khử amit và sự hình thành chất chuyển hóa này không phụ thuộc NADPH. Chất chuyển hóa này được phát hiện trong huyết tương người sau khi dùng enfuvirtide, với AUC nằm trong khoảng từ 2,4 đến 15% AUC của enfuvirtide.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Dược động học | Nội dung:\nThải trừ Độ thanh thải của enfuvirtide sau khi tiêm tĩnh mạch 90 mg là 1,4 ± 0,28 l/h và thời gian bán thải là 3,2 ± 0,42 h. Sau khi dùng 90mg enfuvirtide tiêm dưới da, thời gian bán hủy là 3,8 ± 0,6 giờ.\nĐường thải trừ enfuvirtide chưa được báo cáo.\nThẩm phân máu không có ảnh hưởng quan trọng về mặt lâm sàng đối với độ thanh thải enfuvirtide.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Liều lượng | Nội dung:\nLiều dùng Người lớn Điều trị nhiễm HIV: Liều khuyến cáo là 90 mg x 2 lần/ngày, tiêm dưới da vào bắp tay, đùi trước hoặc bụng.\nDự phòng phơi nhiễm HIV: Enfuvirtide là một trong những thuốc kháng vi rút có thể được sử dụng cùng với các thuốc kháng retrovirus khác, nhưng chỉ sử dụng phác đồ này khi có sự tư vấn của chuyên gia. Liều 90 mg x 2 lần/ngày, sử dụng kết hợp với các thuốc kháng retrovirus khác. Bắt đầu thuốc càng sớm càng tốt sau khi phơi nhiễm HIV do nghề nghiệp (tốt nhất là trong vòng vài giờ); tiếp tục trong 4 tuần, nếu dung nạp.\nTrẻ em Trẻ em ≥ 6 tuổi và thanh thiếu niên:\nTrẻ em 6 - 16 tuổi: 2 mg/kg (tối đa 90 mg) x 2 lần/ngày.\nThanh thiếu niên > 16 tuổi: 90 mg x 2 lần/ngày.\nKinh nghiệm ở trẻ em còn hạn chế. Trong các thử nghiệm lâm sàng, chế độ liều như sau:",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Liều lượng | Nội dung:\nThanh thiếu niên > 16 tuổi: 90 mg x 2 lần/ngày.\nKinh nghiệm ở trẻ em còn hạn chế. Trong các thử nghiệm lâm sàng, chế độ liều như sau:\nTrọng lượng (kg) Liều lượng mỗi lần tiêm giá thầu (mg/liều) Dung tích thuốc tiêm (90 mg enfuvirtide mỗi ml) 11,0 đến 15,5 27 0,3 ml 15,6 đến 20,0 36 0,4 ml 20,1 đến 24,5 45 0,5 ml 24,6 đến 29,0 54 0,6 ml 29,1 đến 33,5 63 0,7 ml 33,6 đến 38,0 72 0,8 ml 38,1 đến 42,5 81 0,9 ml ≥ 42,6 90 1,0 ml Trẻ em dưới 6 tuổi:\nKhông khuyến cáo sử dụng cho do không có đủ dữ liệu về tính an toàn và hiệu quả.\nĐối tượng khác Người cao tuổi:\nKhông có kinh nghiệm ở bệnh nhân > 65 tuổi.\nSuy thận:",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Liều lượng | Nội dung:\nĐối tượng khác Người cao tuổi:\nKhông có kinh nghiệm ở bệnh nhân > 65 tuổi.\nSuy thận:\nKhông cần điều chỉnh liều cho bệnh nhân suy thận kể cả những người đang thẩm phân. Tuy nhiên, dữ liệu còn hạn chế ở những bệnh nhân suy thận từ trung bình đến nặng và những bệnh nhân chạy thận nhân tạo. Enfuvirtide nên được sử dụng một cách thận trọng.\nSuy gan:\nChưa có thông tin về liều trên bệnh nhân suy gan. Không cần điều chỉnh liều lượng.\nCách dùng Enfuvirtide dùng để tiêm dưới da vào cánh tay trên, bụng hoặc đùi trước; Luân phiên các vị trí tiêm với mỗi lần tiêm.\nMột lọ chỉ thích hợp để sử dụng một lần, phần thuốc thừa không sử dụng phải được loại bỏ.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Liều lượng | Nội dung:\nMột lọ chỉ thích hợp để sử dụng một lần, phần thuốc thừa không sử dụng phải được loại bỏ.\nTrong trường hợp bỏ lỡ một liều thuốc, bệnh nhân nên được hướng dẫn sử dụng liều càng sớm càng tốt. Tuy nhiên, nếu thời gian còn ít hơn 6 giờ trước khi dùng liều thông thường tiếp theo, nên bỏ qua liều đã quên.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Không có trường hợp quá liều đã được báo cáo.\nCách xử lý khi quá liều Không có thuốc giải độc cụ thể cho quá liều với enfuvirtide. Điều trị quá liều nên bao gồm các biện pháp hỗ trợ chung.\nQuên liều và xử trí Trong trường hợp bỏ lỡ một liều thuốc, bệnh nhân nên được hướng dẫn sử dụng liều càng sớm càng tốt. Tuy nhiên, nếu thời gian còn ít hơn 6 giờ trước khi dùng liều thông thường tiếp theo, nên bỏ qua liều đã quên.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Nghiên cứu tương tác chỉ được thực hiện ở người lớn.\nKhông có tương tác dược động học đáng kể nào về mặt lâm sàng giữa enfuvirtide và các thuốc dùng đồng thời được chuyển hóa bởi enzym CYP450.\nKhông ảnh hưởng đến sự chuyển hóa của các chất nền CYP3A4, CYP2D6, CYP1A2, CYP2C19, hoặc CYP2E1.\nTương kỵ Không nên được trộn lẫn với bất kỳ loại thuốc nào khác.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Lưu ý | Nội dung:\nLưu ý chung Khi quyết định một phác đồ mới cho những bệnh nhân thất bại với phác đồ điều trị ARV, cần xem xét cẩn thận tiền sử điều trị của từng bệnh nhân.\nEnfuvirtide phải được dùng trong phác đồ kết hợp.\nEnfuvirtide không phải là phương pháp phòng ngừa nhiễm HIV. Các biện pháp phòng ngừa để ngăn ngừa lây truyền cần được thực hiện theo các hướng dẫn.\nEnfuvirtide có thể làm suy giảm một số chức năng miễn dịch, gia tăng một số bệnh nhiễm khuẩn như viêm phổi.\nCó thể xảy ra phản ứng quá mẫn bao gồm phát ban, sốt, buồn nôn và nôn, ớn lạnh, gay gắt, huyết áp thấp và tăng transaminase gan trong huyết thanh ở nhiều dạng kết hợp khác nhau, nên ngừng điều trị bằng enfuvirtide.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Lưu ý | Nội dung:\nBệnh nhân bị viêm gan B và C mãn tính và được điều trị bằng liệu pháp kháng retrovirus có nguy cơ gia tăng các tác dụng phụ nghiêm trọng và có khả năng gây tử vong do gan.\nViệc sử dụng thuốc enfuvirtide cho những người không bị nhiễm HIV-1 có thể tạo ra các kháng thể kháng enfuvirtide phản ứng chéo với HIV gp41. Điều này có thể dẫn đến kết quả xét nghiệm HIV dương tính giả với xét nghiệm ELISA kháng HIV.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Lưu ý | Nội dung:\nỞ những bệnh nhân nhiễm HIV bị suy giảm miễn dịch nghiêm trọng tại thời điểm điều trị kết hợp thuốc kháng vi rút, phản ứng viêm đối với các mầm bệnh cơ hội không có triệu chứng hoặc còn sót lại có thể phát sinh và gây ra các tình trạng lâm sàng nghiêm trọng hoặc làm trầm trọng thêm các triệu chứng như: viêm võng mạc do Cytomegalovirus, nhiễm trùng Mycobacteria, viêm phổi do Pneumocystis carinii.\nCác rối loạn tự miễn dịch (chẳng hạn như bệnh Graves và viêm gan tự miễn) cũng đã được báo cáo là xảy ra trong quá trình kích hoạt lại miễn dịch; tuy nhiên, thời gian được báo cáo để khởi phát bệnh thay đổi nhiều hơn và có thể xảy ra nhiều tháng sau khi bắt đầu điều trị.\nNgười bệnh nên đi khám nếu thấy đau nhức xương khớp, cứng khớp hoặc vận động khó khăn trong quá trình sử dụng enfuvirtide.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Lưu ý | Nội dung:\nNgười bệnh nên đi khám nếu thấy đau nhức xương khớp, cứng khớp hoặc vận động khó khăn trong quá trình sử dụng enfuvirtide.\nBệnh nhân đang dùng thuốc chống đông máu và những người dễ chảy máu hoặc rối loạn đông máu có thể có nguy cơ chảy máu sau tiêm cao hơn.\nLưu ý với phụ nữ có thai Không có nghiên cứu đầy đủ trên phụ nữ có thai. Các nghiên cứu trên động vật không chỉ ra tác động có hại đối với sự phát triển của thai nhi. Enfuvirtide chỉ nên được sử dụng trong thời kỳ mang thai nếu cân nhắc giữa lợi ích và nguy cơ.\nLưu ý với phụ nữ cho con bú Enfuvirtide chưa được biết có tiết vào sữa mẹ hay không. Khuyến cáo không cho con bú nếu đang sử dụng enfuvirtide.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Enfuvirtide | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Enfuvirtide chưa được biết có tiết vào sữa mẹ hay không. Khuyến cáo không cho con bú nếu đang sử dụng enfuvirtide.\nLưu ý khi lái xe và vận hành máy móc Không có nghiên cứu nào về ảnh hưởng đến khả năng lái xe và sử dụng máy móc đã được thực hiện. Không có bằng chứng nào cho thấy enfuvirtide có thể làm thay đổi khả năng lái xe và sử dụng máy của bệnh nhân. Cân nhắc khi sử dụng.",
+        "metadata": {
+            "name": "Enfuvirtide",
+            "id": "enfuvirtide",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/enfuvirtide",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    }
+]

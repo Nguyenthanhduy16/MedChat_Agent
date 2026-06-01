@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Amikacin Loại thuốc Kháng sinh họ aminoglycoside.\nDạng thuốc và hàm lượng Dung dịch tiêm amikacin sulfate (có sulft để ổn định): 50 mg/1 ml (dùng cho trẻ em) và 250 mg/ml (2 ml, 4 ml).\nBột amikacin sulfate để pha tiêm (không có sulft): Lọ 250 mg hoặc 500 mg bột, kèm theo tương ứng 2 ml hoặc 4 ml dung môi để pha thuốc tiêm.\nBiểu thị liều lượng và hàm lượng của amikacin sulfate dưới dạng amikacin. 1,3 mg amikacin sulfate tương ứng với 1 mg amikacin.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Chỉ định | Nội dung:\nĐiều trị nhiễm khuẩn ổ bụng nặng (kể cả viêm phúc mạc) do các vi khuẩn Gram âm, cần kết hợp với các kháng sinh khác.\nAmikacin kết hợp với ampicilin hoặc cephalosporin thế hệ 3 điều trị viêm màng não do vi khuẩn gram âm.\nĐiều trị nhiễm khuẩn nặng, đe dọa tính mạng, đặc biệt chưa biết nguyên nhân hoặc nhiễm khuẩn máu nghi do trực khuẩn Gram âm.\nThuốc dùng phối hợp với cephalosporin, penicilin và các kháng sinh khác, phụ thuộc vào loại nhiễm khuẩn.\nĐiều trị phải dựa vào kết quả nuôi cấy vi khuẩn.\nThông thường, nên phối hợp với một kháng sinh beta-lactam.\nKhi nhiễm khuẩn toàn thân do P. aeruginosa, phối hợp với piperacilin.\nNếu viêm nội tâm mạc do Staphylococcus faecalis hoặc alpha Streptococcus, phối hợp với ampicilin hoặc benzylpenicilin tương ứng.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Chỉ định | Nội dung:\nNếu viêm nội tâm mạc do Staphylococcus faecalis hoặc alpha Streptococcus, phối hợp với ampicilin hoặc benzylpenicilin tương ứng.\nĐể điều trị vi khuẩn kỵ khí, phối hợp với metronidazol hoặc một thuốc chống vi khuẩn kỵ khí khác.\nGentamicin vẫn là thuốc hàng đầu để điều trị nhiễm khuẩn Gram âm, đặc biệt vì rẻ. Amikacin chỉ được dùng đặc biệt trong các trường hợp có thể có kháng gentamicin hoặc tobramycin.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Dược lực học | Nội dung:\nAmikacin sulfat là kháng sinh bán tổng hợp họ aminoglycoside.\nThuốc diệt khuẩn nhanh do gắn hẳn vào tiểu đơn vị 30S của ribosom vi khuẩn và ngăn chặn sự tổng hợp protein của vi khuẩn. Aminoglycoside bị thu giữ và xâm nhập qua màng tế bào là một quá trình phụ thuộc hệ thống vận chuyển Oxy.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Dược lực học | Nội dung:\nNhư vậy, hoạt tính aminoglycoside bị giảm nhiều trong môi trường kỵ khí. Aminoglycoside có tác dụng hậu kháng sinh, nghĩa là hoạt tính diệt khuẩn vẫn còn sau khi nồng độ thuốc trong huyết thanh đã xuống dưới nồng độ ức chế tối thiểu. Đặc tính này có thể giải thích hiệu quả của thuốc dùng một lần trong ngày Hoạt tính kháng khuẩn của amikacin chủ yếu chống các trực khuẩn Gram âm ưa khí. Amikacin được dùng để điều trị nhiễm khuẩn nặng, kể cả nhiễm khuẩn trong ổ bụng, viêm phúc mạc do các vi khuẩn gram âm nhạy cảm, bao gồm: Acinetobacter, E. coli, Enterobacter, Klebsiella, Proteus, Providencia, Pseudomonas.\nAmikacin thường dùng đầu tiên để điều trị nhiễm khuẩn Gram âm bệnh viện, nhất là ở những vùng vi khuẩn kháng gentamicin và tobramycin.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Dược động học | Nội dung:\nHấp thu Không hấp thu qua đường uống, phải dùng đường tiêm.\nHấp thu nhanh sau khi tiêm bắp, nồng độ đỉnh trong huyết thanh đạt được trong vòng 0,5–2 giờ.\nPhân bố Phân bố vào xương, tim, túi mật, nhu mô phổi, mật, đờm, dịch tiết phế quản và dịch kẽ, màng phổi, dịch khớp.\nChỉ có nồng độ thấp phân bố vào dịch não tủy ​​sau khi tiêm IM hoặc IV, nhưng khi màng não bị viêm, nồng độ thuốc trong dịch não tủy có thể bằng 50% nồng độ thuốc trong huyết thanh đồng thời.\nĐi qua nhau thai.\nPhân phối vào sữa với nồng độ thấp.\nLiên kết với protein huyết tương thấp, < 11%.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Dược động học | Nội dung:\nĐi qua nhau thai.\nPhân phối vào sữa với nồng độ thấp.\nLiên kết với protein huyết tương thấp, < 11%.\nChuyển hóa và thải trừ 94-98% của một liều IM hoặc IV duy nhất được đào thải dưới dạng không đổi qua quá trình lọc cầu thận trong vòng 24 giờ. Thời gian bán thải là 2–3 giờ ở người lớn có chức năng thận bình thường. Thời gian bán thải từ 28–86 giờ ở người lớn bị suy thận nặng.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Liều lượng | Nội dung:\nCách dùng Amikacin sulfate dùng tiêm bắp hoặc truyền tĩnh mạch. Để tiêm bắp, dùng dung dịch sẵn có, có nồng độ thích hợp 50 hoặc 250 mg/ml, không được pha loãng.\nĐể truyền tĩnh mạch, đối với người lớn, pha 500 mg amikacin vào 100 - 200 ml dịch truyền thông thường như dung dịch natri clorid 0,9% hoặc dextrose 5%. Liều thích hợp amikacin phải truyền trong 30 - 60 phút.\nĐối với trẻ em, thể tích dịch truyền phụ thuộc vào nhu cầu người bệnh, nhưng phải đủ để có thể truyền trong 1 - 2 giờ ở trẻ nhỏ, hoặc 30 - 60 phút ở trẻ lớn.\nNgười lớn Liều lượng phải dựa vào cân nặng lý tưởng tính theo chiều cao.\nLiều thông thường đối với người lớn và trẻ em trên 12 tuổi, có chức năng thận bình thường là 15 mg/kg/ngày, chia làm các liều bằng nhau để tiêm cách 8 hoặc 12 giờ/lần.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Liều lượng | Nội dung:\nLiều hàng ngày không được vượt quá 15 mg/kg hoặc 1,5 g. Điều trị không nên kéo dài quá 7 - 10 ngày và tổng liều ở người lớn không được vượt quá 15 g. Cần tránh nồng độ đỉnh trong huyết tương lớn hơn 30 - 35 microgam/ml và nồng độ đáy trong huyết tương lớn hơn 5 - 10 microgam/ml.\nTrẻ em Trẻ sơ sinh: Liều nạp đầu tiên 10 mg/kg, tiếp theo là 7,5 mg/kg cách nhau 12 giờ/lần.\nTrẻ đẻ non: Liều nạp đầu tiên 7,5 mg/kg cách nhau 12 giờ/lần. Thời gian điều trị thông thường là 7 đến 10 ngày. Tổng liều hàng ngày của tất cả các đường dùng thuốc không được vượt quá 15-20 mg/kg/ngày.\nTrẻ em từ 4 tuần đến 12 tuổi:",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Liều lượng | Nội dung:\nTrẻ em từ 4 tuần đến 12 tuổi:\nLiều khuyến cáo tiêm bắp hoặc tiêm tĩnh mạch (truyền tĩnh mạch chậm) ở trẻ em có chức năng thận bình thường là 15-20 mg/kg/ngày, có thể dùng 15-20 mg/kg, ngày 1 lần, hoặc 7,5 mg/kg mỗi 12 giờ. Trong bệnh viêm nội tâm mạc và bệnh nhân sốt giảm bạch cầu trung tính, nên dùng liều hai lần mỗi ngày.\nĐối tượng khác Đối với người suy thận, có thể dùng các liều 7,5 mg/kg thể trọng, theo các khoảng cách thời gian ghi trong bảng dưới đây, tùy thuộc vào nồng độ creatinin huyết thanh hoặc vào độ thanh thải creatinin.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Liều lượng | Nội dung:\nCreatinin trong huyết thanh (micromol/l) Độ thanh thải creatinin (ml/phút/1,73 m2) Khoảng cách liều dùng (giờ) ≤ 110 > 100 12 111 - 150 100 - 55 15 151 - 200 54 - 40 18 201 - 255 39 - 30 24 256 - 335 29 - 22 30 ≥ 336 < 22 ≥ 36 Theo hướng dẫn của nhân viên y tế.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Amikacin và xử trí Quá liều và độc tính Trong trường hợp dùng quá liều, có nguy cơ xảy ra các phản ứng với thận, độc tai và độc tính thần kinh (phong bế thần kinh cơ).\nCách xử lý khi quá liều Phong bế thần kinh cơ kèm theo ngừng hô hấp cần được điều trị thích hợp bao gồm sử dụng canxi dạng ion (ví dụ như gluconate hoặc lactobionate trong dung dịch 10-20%).\nTrong trường hợp dùng quá liều hoặc phản ứng độc hại, thẩm phân phúc mạc hoặc thẩm tách máu sẽ hỗ trợ loại bỏ amikacin khỏi máu. Nồng độ amikacin cũng bị giảm trong quá trình lọc máu liên tục qua động mạch.\nỞ trẻ sơ sinh, truyền máu.\nQuên liều và xử trí Theo hướng dẫn của nhân viên y tế.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Dùng đồng thời hoặc nối tiếp amikacin với các tác nhân gây độc với thận hoặc thính giác khác có thể làm tăng độc tính nguy hiểm của aminoglycoside.\nDùng amikacin với các thuốc phong bế thần kinh cơ, có thể tăng nguy cơ gây chẹn thần kinh cơ dẫn đến liệt hô hấp.\nAmikacin có thể làm tăng tác dụng thuốc giãn cơ cura và thuốc gây mê.\nAmikacin còn có thể tương tác với một số thuốc khác như các penicilin hoạt phổ rộng, furosemide, bumetanide, hoặc indomethacin.\nTương kỵ thuốc Không được trộn lẫn amikacin với các thuốc khác, đặc biệt là với kháng sinh nhóm beta-lactam.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Lưu ý | Nội dung:\nLưu ý chung Phải dùng amikacin thận trọng, đặc biệt đối với người cao tuổi và trẻ nhỏ, vì có nguy cơ cao độc cho tai và cho thận. Phải giám sát chức năng thính giác và chức năng thận. Tránh dùng thuốc kéo dài và/hoặc lặp lại. Cần phải tránh dùng đồng thời hoặc nối tiếp với các thuốc khác có độc tính cho thính giác hoặc thận (toàn thân và tại chỗ).",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Lưu ý | Nội dung:\nAminoglycoside có khả năng gây độc cho thận. Độc tính trên thận không phụ thuộc vào nồng độ đỉnh (Cmax). Nguy cơ độc thận cao hơn ở những bệnh nhân bị suy giảm chức năng thận, và dùng liều cao hơn, hoặc điều trị kéo dài. Việc kiểm tra chức năng thận trong quá trình điều trị bằng aminoglycosid ở người bệnh cao tuổi có suy giảm chức năng thận là đặc biệt quan trọng Độc tính thần kinh, biểu hiện là độc tính trên tiền đình và/hoặc hai bên tai, có thể xảy ra ở những bệnh nhân được điều trị bằng aminoglycoside. Nguy cơ độc tính trên tai do aminoglycoside cao hơn ở những bệnh nhân bị suy giảm chức năng thận, và ở những người dùng liều cao, hoặc điều trị kéo dài hơn 5-7 ngày, ngay cả ở những bệnh nhân khỏe mạnh. Chóng mặt có thể xảy ra và có thể là bằng chứng của tổn thương tiền đình.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Lưu ý | Nội dung:\nỨc chế thần kinh cơ và liệt hô hấp đã được báo cáo sau khi tiêm, nhỏ thuốc tại chỗ (trong chỉnh hình và rửa ổ bụng hoặc trong điều trị tại chỗ chứng phù thũng), và sau khi sử dụng aminoglycoside đường uống. Khả năng liệt hô hấp nên được xem xét nếu sử dụng aminoglycosid theo bất kỳ đường nào.\nAmikacin không được dùng cho bệnh nhân nhược cơ. Aminoglycoside nên được sử dụng thận trọng cho những bệnh nhân bị rối loạn cơ như bệnh Parkinson.\nGiống các kháng sinh khác, dùng amikacin có thể gây tăng sinh các vi sinh vật không nhạy cảm. Nếu xuất hiện điều đó, phải tiến hành điều trị thích hợp.\nLưu ý với phụ nữ có thai Aminoglycoside có thể gây hại cho thai nhi khi dùng cho người mang thai.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Amikacin | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Aminoglycoside có thể gây hại cho thai nhi khi dùng cho người mang thai.\nNếu dùng amikacin trong khi mang thai hoặc bắt đầu có thai trong khi đang dùng thuốc, người bệnh phải được thông báo là có khả năng nguy hiểm cho thai nhi, kể cả hội chứng nhược cơ. Vì vậy, việc dùng thuốc an toàn cho người mang thai chưa được xác định.\nLưu ý với phụ nữ cho con bú Amikacin khuếch tán rất ít vào sữa mẹ. Không biết rõ amikacin có đào thải vào trong sữa hay không. Theo nguyên tắc chung, không cho con bú khi dùng thuốc, vì nhiều thuốc được tiết vào sữa.\nLưu ý khi lái xe và vận hành máy móc Không có nghiên cứu nào về ảnh hưởng đến khả năng lái xe và sử dụng máy móc đã được thực hiện. Do xảy ra một số phản ứng bất lợi, khả năng lái xe và sử dụng máy móc có thể bị suy giảm.",
+        "metadata": {
+            "name": "Amikacin",
+            "id": "amikacin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/amikacin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

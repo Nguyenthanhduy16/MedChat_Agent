@@ -1,0 +1,156 @@
+[
+  {
+    "text": "Bệnh: Viêm da | Phần: Tổng quan | Nội dung:\nTổng quan chung\nViêm da là tình trạng tổn thương da do viêm, thường biểu hiện qua các triệu chứng như sưng, đỏ, ngứa, phồng rộp, phát ban, hoặc bong da. Đây là vấn đề gây khó chịu và ảnh hưởng đến cuộc sống hàng ngày của người bệnh.\nViêm da có nhiều loại khác nhau, được phân chia thành giai đoạn cấp tính và mạn tính, phản ứng quá mức của cơ thể với các chất kích thích hoặc tác nhân dị ứng từ môi trường.\nCác loại viêm da phổ biến:\nBệnh chàm: Thường có dấu hiệu bao gồm phát ban, xuất hiện mụn nước ở bên trong khuỷu tay, đầu gối hoặc phía trước cổ.\nViêm da tiếp xúc: Phát ban thường xảy ra ở khu vực da tiếp xúc với chất kích ứng và dị ứng trên da.",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Tổng quan | Nội dung:\nViêm da tiếp xúc: Phát ban thường xảy ra ở khu vực da tiếp xúc với chất kích ứng và dị ứng trên da.\nViêm da tiết bã: Là tình trạng viêm da mạn tính xuất hiện tại các vùng da có tuyến bã nhờn hoạt động mạnh như mặt, da đầu, lưng, ngực. Đặc trưng của bệnh là xuất hiện các đám da đỏ, các mảng da đóng vảy trên da và gàu trên da đầu.",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Triệu chứng | Nội dung:\nTriệu chứng\nTùy thuộc vào dạng viêm da gặp phải, mức độ nặng nhẹ của bệnh mà có các biểu hiện khác nhau ở mỗi người. Đôi khi các biểu hiện giữa các bệnh viêm da rất giống nhau khiến người bệnh khó khăn trong nhận biết.\nTriệu chứng viêm da tiếp xúc\nDa nổi phát ban đỏ\nDa ngứa và sưng\nXuất hiện mụn nước, chảy dịch và kết vảy\nTriệu chứng viêm da dị ứng\nDa khô và ngứa dữ dội\nDa sưng nổi cộm lên và rò rỉ dịch\nXuất hiện các mảng da đỏ, nứt nẻ và có vảy\nTriệu chứng viêm da tiết bã\nXuất hiện gàu da đầu\nCó vảy hoặc các mảng bám màu vàng trên da đầu, tai, mặt và các bộ phận khác trên cơ thể\nVùng da bệnh chuyển sang màu đỏ\nTriệu chứng viêm da cơ địa\nXuất hiện các nốt mụn nhỏ, có mủ ở quanh miệng, mũi, má và mắt hoặc nhiều vị trí khác nhau trên cơ thể.",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Triệu chứng | Nội dung:\nTriệu chứng viêm da cơ địa\nXuất hiện các nốt mụn nhỏ, có mủ ở quanh miệng, mũi, má và mắt hoặc nhiều vị trí khác nhau trên cơ thể.\nVùng da tổn thương có chảy dịch vàng, đóng vảy tiết\nDễ viêm, gây ngứa ngày khó chịu cho người bệnh\nTriệu chứng viêm da ứ máu\nDa ở mắt cá chân hoặc cẳng chân dày, đổi màu (màu đỏ)\nNgứa ngáy, khó chịu\nXuất hiện các vết loét, rỉ máu, dịch và kết vảy\nSưng tấy",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Nguyên nhân | Nội dung:\nNguyên nhân\nViêm da có thể do nhiều nguyên nhân khác nhau gây ra, bao gồm:\nTiếp xúc với các chất kích ứng hoặc dị ứng nguyên: Ví dụ như xà phòng, chất tẩy rửa, hóa chất, phấn hoa, bụi bẩn, thức ăn,…\nNhiễm trùng: Do vi khuẩn, nấm hoặc virus.\nBệnh lý nền: Hen suyễn, dị ứng, bệnh tự miễn dịch,…\nCăng thẳng: Căng thẳng có thể làm cho các triệu chứng viêm da trở nên tồi tệ hơn.\nThay đổi nội tiết tố: Ở phụ nữ mang thai hoặc mãn kinh.\nThời tiết: Khí hậu hanh khô hoặc quá nóng có thể làm cho da dễ bị kích ứng.",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ\nTuổi tác: Mặc dù viêm da có thể xuất hiện ở mọi lứa tuổi, tuy nhiên viêm da cơ địa thường xuất hiện ở trẻ em.\nDị ứng và hen suyễn: Người bệnh hoặc có tiền sử gia đình mắc bệnh dị ứng và hen suyễn có nguy cơ viêm da cao hơn người khác.\nNghề nghiệp: Những nghề thường xuyên tiếp xúc với hóa chất, kim loại và dung môi có nguy cơ mắc bệnh viêm da cao hơn.\nTình trạng sức khỏe: Bệnh nhân suy tim sung huyết, Parkinson hoặc HIV có nguy cơ viêm da khá cao.",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Chẩn đoán | Nội dung:\nChẩn đoán\nThông thường bệnh viêm da được chẩn đoán thông qua dấu hiệu phát ban và lịch sử bệnh án của bạn. Có rất ít xét nghiệm có thể giúp chẩn đoán giúp phân biệt rõ ràng các loại viêm da.\nTuy nhiên, đối với viêm da tiếp xúc hoặc viêm da dị ứng, bác sĩ có thể tiến hành xét nghiệm soi tươi KOH để xác định các nguy cơ nhiễm nấm.\nThông thường viêm da không phải là tình trạng nguy hiểm và có thể ảnh hưởng đến tính mạng của người bệnh. Tuy nhiên, hãy đến gặp bác sĩ ngay khi:\nKhó chịu đến mức khiến bạn bị mất ngủ hoặc không thể tập trung vào công việc hàng ngày\nDa trở nên đau rát\nCó dấu hiệu bị nhiễm trùng\nBạn đã thử các bước chăm sóc và khắc phục tại nhà nhưng không thành công.",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa bệnh\nHiện chưa có vaccine phòng bệnh viêm da, tuy nhiên chúng ta vẫn có thể phòng ngừa bệnh khởi phát bằng những cách sau:\nVệ sinh cơ thể sạch sẽ và thường xuyên, đặc biệt sau khi đổ nhiều mồ hôi, sau khi chơi thể thao, tiếp xúc trong môi trường nhiều bụi ô nhiễm.\nBôi kem dưỡng ẩm cho da sau khi tắm để tránh da bị khô gây nứt nẻ, viêm nhiễm.\nHạn chế tắm nước nóng để tránh kích thích da, gây ngứa và viêm.\nLựa chọn nước hoa, mỹ phẩm, xà phòng tắm gội dịu nhẹ, phù hợp với làn da của bạn. Nên đọc kỹ thành phần để tránh gây kích ứng cho da.\nHạn chế ăn hải sản, uống rượu bia, không hút thuốc lá,… có thể kích thích dị ứng, gây ngứa ngáy.\nKhông tự ý mua thuốc chống dị ứng, cần uống theo toa của bác sĩ.",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Cách điều trị | Nội dung:\nĐiều trị viêm da như thế nào?\nChăm sóc tại nhà\nĐa số người bệnh khi gặp các dấu hiệu viêm da thường áp dụng các cách chữa trị tại nhà từ các thảo mộc quen thuộc. Một số cách chữa viêm da cơ địa tại nhà cũng như các bệnh viêm da khác phổ biến bao gồm:\nChữa viêm da bằng lá trầu không: Đây là cách hữu hiệu giúp sát khuẩn và làm dịu cơn ngứa ngoài da do viêm da gây ra. Dân gian thường sử dụng 1 nắm lá trầu không, rửa sạch, đun sôi với nước. Dùng nước này để ngâm rửa vùng da bị viêm.\nLá lốt giảm ngứa do viêm da: Các bệnh viêm da dị ứng, viêm da tiếp xúc có thể sử dụng lá lốt rửa sạch, đun sôi với nước. Dùng nước này để tắm, ngâm rửa vùng da bị viêm, ngứa rát.",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Cách điều trị | Nội dung:\nDùng lá khế giảm triệu chứng viêm da: Lấy 1 nắm lá khế, rửa sạch, đun sôi với nước. Dùng nước này tắm hàng ngày. Lá khế được sử dụng phổ biến làm lá tắm chữa viêm da cơ địa trẻ em.\nMật ong và dầu dừa: Bôi mật ong và dầu dừa lên vùng da bị viêm giúp làm mềm, kháng viêm, cải thiện tình trạng khô, bong tróc và ngứa da.\nSử dụng thuốc\nCó nhiều loại thuốc khác nhau được sử dụng để điều trị viêm da, tùy thuộc vào nguyên nhân gây bệnh và mức độ nghiêm trọng của các triệu chứng. Một số loại thuốc phổ biến bao gồm:\nKem bôi tại chỗ Corticosteroid: Giảm viêm và ngứa trên da, đặc biệt hiệu quả trong việc làm giảm các triệu chứng như đỏ, phồng rộp.\nThuốc Corticosteroid toàn thân: Được sử dụng thay thế khi kem và mỡ không hiệu quả, tuy nhiên cần sự theo dõi chặt chẽ về tác động phụ có thể gây ra.",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Viêm da | Phần: Cách điều trị | Nội dung:\nThuốc Corticosteroid toàn thân: Được sử dụng thay thế khi kem và mỡ không hiệu quả, tuy nhiên cần sự theo dõi chặt chẽ về tác động phụ có thể gây ra.\nThuốc kháng sinh: Thường được kê đơn khi viêm da kèm theo nhiễm trùng do vi khuẩn, đặc biệt là trong các trường hợp nghiêm trọng.\nThuốc kháng virus và chống nấm: Dùng cho các trường hợp nhiễm nấm và virus.\nThuốc kháng histamin: Được chỉ định cho các trường hợp có nguy cơ trầy xước cao.\nThuốc ức chế calcineurin tại chỗ: Có tác dụng ngăn ngừa viêm và tái phát bằng cách ức chế hệ thống miễn dịch tại vùng da bị tổn thương.\nTrên đây là một số chia sẻ về bệnh Viêm da. Hy vọng nó nó sẽ giúp ích cho bạn và gia đình của mình",
+    "metadata": {
+      "name": "Viêm da",
+      "id": "vim-da",
+      "url": "https://www.pharmacity.vn/benh/viem-da.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 2
+    }
+  }
+]

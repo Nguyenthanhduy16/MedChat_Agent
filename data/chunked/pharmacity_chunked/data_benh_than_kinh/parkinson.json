@@ -1,0 +1,170 @@
+[
+  {
+    "text": "Bệnh: Parkinson | Phần: Tổng quan | Nội dung:\nBệnh Parkinson là một rối loạn thoái hóa thần kinh, gây ra những khó khăn trong cử động và ảnh hưởng lớn đến chất lượng cuộc sống của người bệnh. Hiểu rõ về bệnh, triệu chứng, nguyên nhân, và các phương pháp điều trị là điều cần thiết để hỗ trợ người bệnh tốt nhất.\nTổng quan chung\nBệnh Parkinson là một bệnh thoái hóa thần kinh mạn tính, thường xuất hiện ở người lớn tuổi. Bệnh được mô tả lần đầu tiên bởi bác sĩ James Parkinson vào năm 1817. Bệnh Parkinson gây ra do sự thoái hóa của các tế bào thần kinh sản xuất dopamine trong não, dẫn đến giảm khả năng điều khiển cử động và gây ra các triệu chứng vận động điển hình.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Triệu chứng | Nội dung:\nTriệu chứng\nTriệu chứng của bệnh Parkinson thường bắt đầu từ từ và trở nên rõ ràng hơn theo thời gian. Các triệu chứng chính bao gồm:\nRun (tremor): Thường bắt đầu ở tay hoặc ngón tay khi nghỉ ngơi và có thể lan ra các bộ phận khác của cơ thể.\nCứng cơ (rigidity): Các cơ bị cứng, gây khó khăn trong việc cử động và dẫn đến cảm giác đau hoặc mệt mỏi.\nChậm vận động (bradykinesia): Sự giảm tốc độ cử động, khiến cho các hoạt động hàng ngày trở nên khó khăn.\nMất thăng bằng và phối hợp (postural instability): Gây khó khăn trong việc giữ thăng bằng, dễ dẫn đến ngã.\nNgoài các triệu chứng vận động, người bệnh Parkinson còn có thể gặp các triệu chứng không vận động như trầm cảm, rối loạn giấc ngủ, và khó khăn trong việc nuốt.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Nguyên nhân | Nội dung:\nNguyên nhân\nNguyên nhân chính xác của bệnh Parkinson hiện chưa được xác định rõ ràng, nhưng có nhiều yếu tố được cho là góp phần gây ra bệnh:\nYếu tố di truyền: Một số trường hợp bị Parkinson được cho là có liên quan đến di truyền. Nếu gia đình có người từng mắc bệnh Parkinson thì nguy cơ mắc bệnh của bạn cũng cao hơn.\nYếu tố môi trường: Tiếp xúc với các chất độc hại như thuốc trừ sâu, kim loại nặng có thể làm tăng nguy cơ mắc bệnh.\nTuổi tác: Nguy cơ mắc bệnh Parkinson tăng lên khi tuổi tác tăng, đặc biệt là ở những người trên 60 tuổi.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ\nMột số yếu tố làm tăng nguy cơ mắc bệnh Parkinson:\nTuổi tác: Người già từ 60 tuổi trở lên.\nDi truyền: Có người thân trong gia đình mắc bệnh.\nTiếp xúc môi trường: Làm việc trong môi trường tiếp xúc với chất độc hại.\nGiới tính: Nam giới có khả năng mắc bệnh cao hơn nữ giới.\nTiền sử chấn thương đầu: Những người từng bị chấn thương đầu nghiêm trọng cũng có nguy cơ cao hơn.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Chẩn đoán | Nội dung:\nChẩn đoán\nChẩn đoán bệnh Parkinson dựa trên các triệu chứng lâm sàng và loại trừ các bệnh lý khác. Các phương pháp chẩn đoán bao gồm:\nKhám lâm sàng: Bác sĩ sẽ kiểm tra các triệu chứng như run rẩy, cứng cơ, chậm vận động.\nCác xét nghiệm hình ảnh: MRI hoặc CT scan có thể được sử dụng để loại trừ các nguyên nhân khác.\nĐánh giá đáp ứng với thuốc: Một số bệnh nhân có thể được thử điều trị bằng thuốc dopamine để xem liệu các triệu chứng có cải thiện hay không.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa bệnh\nHiện tại, chưa có phương pháp phòng ngừa hoàn toàn bệnh Parkinson, nhưng một số biện pháp có thể giảm nguy cơ:\nDinh dưỡng hợp lý, chế độ ăn giàu chất chống oxy hóa, dopamine, omega-3 và chất xơ, đặc biệt là hoa quả giàu flavonoid.\nTập thể dục đều đặn giúp duy trì sức khỏe và cải thiện chức năng vận động.\nHạn chế tiếp xúc với môi trường có hại, các hóa chất như thuốc trừ sâu, hóa chất công nghiệp.\nTắm nắng thường xuyên để bổ sung đủ vitamin D cho cơ thể. Theo nghiên cứu của các nhà khoa học, hầu hết các bệnh nhân mắc bệnh Parkinson đều có nồng độ Vitamin D thấp.\nUống trà xanh hay cà phê giúp bổ sung caffeine hóa giúp ngăn độc tố xâm nhập và giết chết tế bào thần kinh.\nThường xuyên kiểm tra sức khỏe định kỳ cũng giúp phát hiện sớm và quản lý bệnh hiệu quả hơn.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Cách điều trị | Nội dung:\nĐiều trị\nĐiều trị bệnh Parkinson tập trung vào giảm triệu chứng và cải thiện chất lượng cuộc sống của người bệnh. Các phương pháp điều trị bao gồm:\nĐiều trị bằng thuốc\nBác sĩ có thể chỉ định người bệnh sử dụng các loại thuốc như:\nThuốc đồng vận dopamine: Loại thuốc này sẽ kích thích trực tiếp các receptor dopamine. Các đồng vận dopamin bao gồm ropinirole, pramipexole, rotigotine và apomorphine.\nThuốc thay thế dopamine: Là các loại thuốc như syndopa, sinemer, madopar,… Thuốc có khả năng giúp bổ sung kịp thời lượng dopamine bị thiếu hụt ở người bệnh. Tuy nhiên, cần lưu ý không kết hợp thuốc với vitamin B6 trong suốt quá trình sử dụng.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Cách điều trị | Nội dung:\nThuốc ức chế dị hóa dopamine: Thuốc giúp kéo dài thời gian hoạt động của dopamine trong cơ thể người bệnh. Tại Việt Nam hiện nay ít áp dụng loại thuốc này trong điều trị bệnh Parkinson. Các loại thuốc ức chế dị hóa dopamine tiêu biểu bao gồm thuốc ức chế men oxy hóa amin đơn như selegiline và các thuốc ức chế men COM như tolcapone.\nThuốc kháng cholinergic: Thuốc có khả năng ngăn chặn hoạt động của acetylcholine. Dạng điển hình của thuốc chính là benztropine. Dòng thuốc điều trị triệu chứng Parkinson này có thể gây nên một số tác dụng phụ như buồn ngủ, khô miệng, giảm tiết nước bọt, táo bón,…",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Cách điều trị | Nội dung:\nThông thường, ở giai đoạn điều trị đầu tiên, người bệnh chỉ được sử dụng thuốc với liều thấp. Bác sĩ sẽ dựa trên tình trạng đáp ứng thuốc của người bệnh và quyết định tiếp tục dùng thuốc với lượng tăng dần hay đổi sang một loại thuốc khác.\nĐiều trị phẫu thuật\nTrường hợp sử dụng thuốc không thể cải thiện các dấu hiệu bệnh Parkinson, người bệnh có thể được chỉ định phẫu thuật. Các phương pháp phẫu thuật đối với bệnh nhân mắc chứng Parkinson bao gồm phẫu thuật định vị, phẫu thuật kích thích điện vùng liềm đen – thể vận và ghép mô thần kinh.\nDinh dưỡng",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Cách điều trị | Nội dung:\nDinh dưỡng\nBệnh nhân Parkinson hay bị táo bón, một phần do triệu chứng bệnh, phần khác do dùng thuốc như chất kháng cholin và levodopa. Do đó nên đảm bảo một chế độ ăn cân đối, đủ nhu cầu năng lượng và giàu chất xơ cũng như hàng ngày cần cho uống nhiều nước. Khi cần thiết có thể cho dùng thuốc nhuận tràng nhẹ.\nPhục hồi chức năng\nBên cạnh việc sử dụng thuốc, người bệnh Parkinson cũng có thể kết hợp thực hiện các biện pháp phục hồi chức năng để cải thiện tình trạng bệnh:\nÁp dụng phương pháp trị liệu ngôn ngữ có thể cải thiện tình trạng rối loạn về nói và nuốt.\nTập vật lý trị liệu là biện pháp giúp người mắc bệnh Parkinson có thể giảm rối loạn thăng bằng cũng như tăng khả năng vận động.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Cách điều trị | Nội dung:\nTập vật lý trị liệu là biện pháp giúp người mắc bệnh Parkinson có thể giảm rối loạn thăng bằng cũng như tăng khả năng vận động.\nNgười bệnh cũng có thể tập dưỡng sinh, yoga, thái cực quyền,… để hạn chế tình trạng rối loạn vận động, khắc phục triệu chứng co cứng cơ hay run rẩy,…\nKết luận\nBệnh Parkinson là một thách thức lớn đối với người bệnh và gia đình họ. Hiểu rõ về triệu chứng, nguyên nhân, và các phương pháp điều trị giúp người bệnh có thể sống chung với bệnh một cách tốt hơn và duy trì chất lượng cuộc sống. Để đạt được điều này, sự hỗ trợ từ các chuyên gia y tế và sự động viên từ gia đình và bạn bè là vô cùng quan trọng. Việc phát hiện và điều trị sớm có thể giúp kiểm soát triệu chứng và cải thiện đáng kể cuộc sống của người bệnh.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 4
+    }
+  },
+  {
+    "text": "Bệnh: Parkinson | Phần: Cách điều trị | Nội dung:\nHy vọng rằng bài viết này đã cung cấp cho bạn những thông tin hữu ích về bệnh Parkinson. Hãy luôn lắng nghe cơ thể mình và tìm kiếm sự tư vấn từ các chuyên gia y tế khi cần thiết. Với sự hiểu biết và hỗ trợ đúng đắn, người bệnh Parkinson hoàn toàn có thể vượt qua và sống một cuộc sống ý nghĩa.",
+    "metadata": {
+      "name": "Parkinson",
+      "id": "parkinson",
+      "url": "https://www.pharmacity.vn/benh/parkinson.html",
+      "category": "data_benh_than_kinh",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 5
+    }
+  }
+]

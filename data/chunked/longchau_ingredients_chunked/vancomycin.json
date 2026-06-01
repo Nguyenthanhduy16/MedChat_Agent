@@ -1,0 +1,268 @@
+[
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Vancomycin Loại thuốc Kháng sinh Glycopeptid nhân 3 vòng phổ hẹp.\nDạng thuốc và hàm lượng Vancomycin được dùng ở dạng muối hydroclorid. Hàm lượng và liều dùng được tính theo dạng base.\nViên nang: 125 mg, 250 mg.\nLọ bột tinh khiết đông khô để pha tiêm: 500 mg, 750 mg, 1000 mg.\nDung dịch đẳng trương pha trong glucose 5% đế truyền tĩnh mạch: 500 mg/100ml, 750 mg/150ml, 1000 mg/200ml (đông lạnh).",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Chỉ định | Nội dung:\nVancomycin thuốc là kháng sinh Glycopeptid được chỉ định cho những trường hợp nhiễm khuẩn nặng đe dọa tính mạng gây bởi tụ cầu và các vi khuẩn Gram dương khác mà không thể sử dụng các kháng sinh thông thường như Penicilin, Cephalosporin (do bị kháng hoặc người bệnh không dung nạp được thuốc).\nThuốc đặc biệt được sử dụng cho các trường hợp nhiễm khuẩn do tụ cầu kháng Methicillin (MRSA) ở người bệnh bị áp xe não, viêm màng não ,\nviêm phúc mạc do thẩm phân màng bụng lưu động liên tục và nhiễm khuẩn huyết.\nThuốc Vancomycin được sử dụng đơn độc hoặc phối hợp với các kháng sinh khác như Aminoglycosid để điều trị và phòng ngừa viêm màng trong tim, dự phòng nhiễm khuẩn phẫu thuật và trong điều trị, chăm sóc tích cực cho người bệnh suy giảm miễn dịch.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Chỉ định | Nội dung:\nSử dụng phối hợp Vancomycin với các thuốc khác trong phác đồ điều trị bệnh than hô hấp hoặc tiêu hóa. Vancomycin có thể được phối hợp với các kháng sinh khác để mở rộng phổ hoặc tăng hiệu quả điều trị, chủ yếu với Gentamicin và các Aminoglycosid khác, hoặc với Rifampicin.\nVancomycin dùng đường uống được sử dụng trong điều trị viêm đại tràng do Clostridium difficile cho những bệnh nhân bị bệnh rất nặng đe doạ tính mạng, bệnh nhân bị dị ứng hoặc không đáp ứng với Metronidazol uống.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Dược lực học | Nội dung:\nVancomycin có tác dụng diệt khuẩn thông qua ức chế quá trình sinh tổng hợp vỏ tế bào vi khuẩn bằng cách gắn với nhóm carboxyl ở các tiểu đơn vị peptid chứa D-alanyl-D-alanin tự do, từ đó ức chế peptidoglycan polymerase và phản ứng transpeptid.\nVancomycin còn tác động đến tính thấm màng tế bào và ức chế quá trình tổng hợp RNA của vi khuẩn. Do vị trí tác dụng khác nhau, không xảy ra kháng chéo của vi khuẩn giữa các kháng sinh beta-lactam và Vancomycin.\nVancomycin có tác dụng diệt khuẩn với hầu hết các vi khuẩn Gram dương, tuy nhiên chỉ có tác dụng kìm khuẩn đối với Streptococcus faecalis . Các vi khuẩn Gram âm đều kháng thuốc thông qua giảm tính thẩm của lớp màng ngoài.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Dược lực học | Nội dung:\nVancomycin có tác dụng tốt trên các vi khuẩn Gram dương ưa khí và kỵ khí, bao gồm: Tụ cầu, đặc biệt là Staphylococcus aureus, Staphylococcus epidermidis (kể cả các chủng kháng methicillin), Streptococcus pneumoniae, Streptococcus pyogenes và một số chủng Streptococci nhóm B.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Dược động học | Nội dung:\nHấp thu Vancomycin được hấp thu rất ít qua đường uống. Nồng độ thuốc tối đa trong huyết tương khoảng 63 microgam/ml, đạt được ngay sau khi truyền xong. Nồng độ thuốc trong huyết tương lần lượt là khoảng 23 microgam/ml và 8 microgam/ml tại thời điểm một giờ và 11 giờ sau khi truyền.\nPhân bố Sau khi tiêm tĩnh mạch, thuốc được phân bố rộng rãi trong các tổ chức và các dịch của cơ thể. Thuốc đạt được nồng độ ức chế vi khuẩn trong dịch màng phổi, dịch màng ngoài tim, dịch cổ trướng, hoạt dịch. Một lượng nhỏ thuốc được phân bố vào mật.\nVancomycin hầu như không thấm vào dịch não tủy nếu màng não không viêm. Nồng độ thuốc trong dịch não tủy vào khoảng 21 - 22% nồng độ thuốc trong huyết tương.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Dược động học | Nội dung:\nTỉ lệ liên kết protein huyết tương của thuốc khoảng 30 - 60%, có thể giảm xuống (19 - 29%) ở người bệnh bị giảm albumin máu (bị bỏng, suy thận giai đoạn cuối). Thuốc qua được nhau thai, phân bố vào máu cuống rốn. Vancomycin có thải trừ vào sữa.\nChuyển hóa Thuốc hầu như không chuyển hóa.\nThải trừ Thời gian bán thải của thuốc ở người bệnh có chức năng thận bình thường từ 4 đến 7 giờ, có thể kéo dài hơn ở người bị suy thận.\nVancomycin thải trừ chủ yếu qua thận.\nỞ người có chức năng thận bình thường, khoảng 75 - 90% liều dùng được thải trừ ở dạng không đổi qua nước tiểu nhờ lọc ở cầu thận, một lượng nhỏ được thải trừ qua mật. Chỉ loại bỏ được một lượng nhỏ Vancomycin bằng phương pháp thẩm phân máu hay thẩm phân màng bụng. Thuốc được loại bỏ tốt hơn với lọc máu.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Liều lượng | Nội dung:\nLiều dùng Vancomycin Người lớn Liều thông thường cho người lớn có chức năng thận bình thường:\nLiều 500 mg, cứ 6 giờ một lần hoặc 1 g, cứ 12 giờ một lần. Vancomycin được tính dựa trên cân nặng thực của bệnh nhân 15 mg/kg.\nNgười bệnh viêm nội tâm mạc do tụ cầu cần phải điều trị ít nhất 3 tuần.\nVancomycin được dùng đường uống: Để điều trị viêm ruột do tụ cầu và viêm đại tràng do dùng kháng sinh bao gồm cả viêm đại tràng giả mạc do phát triển quá mức Clostridium diffcile. Liều dùng là 0,5 - 2 g mỗi ngày chia làm 3 - 4 lần, dùng 7 - 10 ngày.\nTrong viêm màng não hoặc các nhiễm khuẩn TKTW khác, Vancomycin có thể được dùng tiêm trong vỏ hoặc trong não thất để đảm bảo đạt được nồng độ điều trị trong dịch não tủy.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Liều lượng | Nội dung:\nVancomycin cũng đã được dùng nhỏ mắt, tiêm dưới kết mạc hoặc vào thể thủy tinh, dùng đường hít. Thuốc có thể được thêm vào dung dịch thẩm phân để điều trị viêm phúc mạc do thẩm phân màng bụng lưu động liên tục.\nVancomycin là kháng sinh có khoảng trị liệu hẹp, vì thế nên cá thể hóa liều dùng bằng cách đo nồng độ thuốc trong máu để lựa chọn mức liều phù hợp cho bệnh nhân, đáp ứng điều trị, an toàn và hiệu quả. Mục tiêu điều trị dựa vào nồng độ đáy Vancomycin hoặc AUC/MIC.\nTrẻ em Vancomycin dạng tiêm truyền:\nTrẻ em từ 1 tháng tuổi trở lên: 10 mg/kg, cứ 6 giờ một lần. Tối đa 2 g/ngày.\nTrẻ sơ sinh: Liều đầu tiên 15 mg/kg, tiếp theo là 10 mg/kg, cứ 12 giờ một lần với trẻ dưới 1 tuần tuổi, hoặc tiếp theo là 10 mg/kg, cứ 8 giờ một lần cho trẻ từ 1 tuần tới 1 tháng tuổi.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Liều lượng | Nội dung:\nVancomycin dạng uống: Liều cho trẻ em là 40 mg/kg mỗi ngày, chia làm 3 - 4 lần. Tối đa 2 g/ngày.\nĐối tượng khác Cần điều chỉnh liều ở người bệnh có chức năng thận suy giảm, trẻ đẻ non và người cao tuổi.\nCách dùng Vancomycin dạng truyền tĩnh mạch:\nThêm 10 ml nước vô khuẩn vào lọ chứa 500 mg hoặc 20 ml vào lọ chứa 1 g bột Vancomycin vô khuẩn. Như vậy, sẽ được dung dịch chứa 50 mg/ml.\nDung dịch chứa 500 mg (hoặc 1 g) Vancomycin phải được pha loãng trong dung môi (dung dịch glucose 5% hoặc natri clorid 0,9%) để tạo ra dung dịch pha loãng có nồng độ thuốc không quá 5 mg/ml và được truyền tĩnh mạch chậm ít nhất trong 60 phút (liều 500 mg) hoặc 100 phút (liều 1 g).",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Liều lượng | Nội dung:\nTrường hợp cần giới hạn lượng dịch sử dụng cho người bệnh, có thể truyền dung dịch 10 mg/ml, tuy nhiên sẽ làm tăng nguy cơ xảy ra tác dụng không mong muốn.\nCó thể truyền tĩnh mạch liên tục: 1 - 2 g Vancomycin được pha vào dung dịch glucose 5% hoặc natri clorid 0,9% vừa đủ để truyền nhỏ giọt trong 24 giờ.\nVancomycin dạng đường uống: Vancomycin được dùng đường uống để điều trị viêm ruột do tụ cầu và viêm đại tràng.\nĐối với thuốc dạng tiêm truyền được sử dụng bởi nhân viên ý tế, nên bệnh nhân có ít khả năng quên liều.\nĐối với dạng uống: Nếu bạn quên một liều thuốc, hãy dùng càng sớm càng tốt. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch. Không dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Vancomycin và xử trí Quá liều và độc tính Dùng thuốc quá liều tăng nguy cơ gây độc của thuốc.\nCách xử lý khi quá liều Điều trị hỗ trợ, duy trì mức lọc cầu thận. Loại bỏ Vancomycin bằng phương pháp thẩm phân ít có hiệu quả. Lọc máu qua màng và qua chất hấp phụ giúp tăng tốc độ thải trừ Vancomycin.\nQuên liều và xử trí Đối với thuốc dạng tiêm truyền được sử dụng bởi nhân viên ý tế, nên bệnh nhân có ít khả năng quên liều.\nĐối với dạng uống: Nếu bạn quên một liều thuốc, hãy dùng càng sớm càng tốt. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch. Không dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Các thuốc gây mê dùng đồng thời với Vancomycin có thể gây ban đỏ, nóng bừng giống phản ứng giải phóng histamin và phản ứng dạng phản vệ.\nCác thuốc độc với thận và thính giác (dùng ngoài hoặc toàn thân) dùng đồng thời hoặc tiếp theo, ví dụ như Amphotericin B, Aminoglycosid, Bacitracin, Polymyxin B, Colistin, Viomycin hay Cisplatin cần phải theo dõi thật cẩn thận. Phối hợp thuốc với Aminoglycosid gây nguy cơ độc tính cao trên thận, chỉ được sử dụng trong trường hợp thật cần thiết và phải theo dõi thật cẩn thận.\nVancomycin làm tăng tác dụng phong bế thần kinh cơ của các thuốc như Suxamethonium hay Vecuronium.\nTương kỵ thuốc Dung dịch Vancomycin Hydroclorid có pH acid nên tương kỵ với các chế phẩm kiềm và các thuốc không bền vững ở pH thấp.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Tương tác thuốc | Nội dung:\nTương kỵ thuốc Dung dịch Vancomycin Hydroclorid có pH acid nên tương kỵ với các chế phẩm kiềm và các thuốc không bền vững ở pH thấp.\nĐã thấy có tương kỵ giữa Vancomycin với Aminophylin, Aztreonam, Barbiturat kể cả Phenobarbiton, Benzylpenicilin (đặc biệt là trong dung dịch Dextrose), Ceftazidim, Ceftriaxon, Cloramphenicol Natri, Dexamethason Natri Phosphat, dung dịch tăng thể tích huyết tương Gelatin hoặc Polygelin, Heparin Natri, Idarubicin, Methicilin Natri, Natri Bicarbonat, Ticarcilin và Warfarin Natri.\nCác báo cáo về tương kỵ nhiều khi không thống nhất. Nồng độ dung dịch và thành phần các dung dịch dùng pha loãng cũng ảnh hưởng đến tính tương kỵ.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Lưu ý | Nội dung:\nLưu ý chung Thuốc độc với thận và thính giác, vì vậy cần thận trọng khi dùng cho bệnh nhân suy giảm chức năng thận và tránh dùng cho bệnh nhân đã bị giảm thính lực từ trước. Cần giảm liều thuốc nếu nhất thiết cần dùng cho các bệnh nhân này.\nCác bệnh nhân có chức năng thận ở mức giới hạn hoặc người trên 60 tuổi cần định kỳ kiểm tra chức năng thính giác và định kỳ theo dõi nồng độ Vancomycin trong máu.\nTất cả các bệnh nhân dùng Vancomycin đều cần được phân tích nước tiểu và kiểm tra chức năng thận thường xuyên.\nTheo dõi số lượng bạch cầu của người bệnh dùng thuốc kéo dài hoặc dùng phối hợp các thuốc có gây giảm bạch cầu vì Vancomycin có thể gây giảm bạch cầu trung tính có hồi phục.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Lưu ý | Nội dung:\nĐể giảm thiểu nguy cơ xảy ra các phản ứng do truyền tĩnh mạch, bao gồm hạ huyết áp và đau tim, cần pha loãng mỗi 500 mg Vancomycin với ít nhất 100 ml dịch và dung dịch pha loãng phải truyền trong ít nhất 60 phút. Ngừng truyền nếu phản ứng xảy ra. Thường xuyên thay đổi vị trí truyền thuốc.\nDùng đồng thời với các thuốc gây mê làm tăng nguy cơ gặp các phản ứng do truyền tĩnh mạch (giảm huyết áp, nóng bừng, ban đỏ, mày đay hoặc ngứa ).\nViêm niêm mạc ruột làm tăng nguy cơ hấp thu thuốc dùng đường uống và tăng độc tính. Cần theo dõi những bệnh nhân có nguy cơ cao gặp độc tính, bao gồm bệnh nhân suy thận và/hoặc viêm ruột hoặc dùng đồng thời với aminoglycosid đường uống.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Lưu ý | Nội dung:\nVancomycin gây kích ứng mô, nên bắt buộc phải tiêm tĩnh mạch. Đau, ấn đau và hoại tử xảy ra nếu tiêm bắp hoặc tiêm ra ngoài mạch.\nViêm tắc tĩnh mạch có thể xảy ra. Truyền tốc độ chậm dung dịch thuốc pha loãng (2,5 - 5 mg/ml) và thay đổi vị trí tiêm giúp hạn chế tần suất và mức độ nặng của tác dụng phụ này.\nThận trọng khi sử dụng Vancomycin đường tĩnh mạch cho trẻ sơ sinh và trẻ nhỏ do chức năng thận chưa hoàn chỉnh, có nguy cơ tăng nồng độ thuốc trong máu.\nĐộ an toàn và hiệu quả của Vancomycin dùng đường uống chưa được xác định ở trẻ em.\nLưu ý với phụ nữ có thai Kinh nghiệm lâm sàng và các dữ liệu về dùng thuốc cho người mang thai còn ít. Chưa rõ thuốc có ảnh hưởng tới khả năng sinh sản hay không.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Lưu ý | Nội dung:\nChỉ dùng Vancomycin cho phụ nữ mang thai trong trường hợp thật cần thiết, cho những người bệnh nhiễm khuẩn rất nặng.\nDược động học của Vancomycin có thể bị thay đổi trong quá trình mang thai: Thể tích phân bố và độ thanh thải toàn bộ tăng lên, vì vậy có thể phải dùng liều cao hơn cho phụ nữ mang thai.\nCần theo dõi nồng độ thuốc trong máu để có điều chỉnh phù hợp. Vancomycin được chỉ định dùng cho phụ nữ có thai để ngăn ngừa các bệnh do Streptococcal nhóm B khởi phát sớm ở trẻ sơ sinh.\nLưu ý với phụ nữ cho con bú Vancomycin tiết qua sữa mẹ.\nẢnh hưởng của Vancomycin trên trẻ đang bú mẹ có dùng Vancomycin chưa được biết rõ. Vancomycin được hấp thu rất ít qua đường uống khi ống tiêu hóa bình thường, nguyên vẹn.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Vancomycin | Phần: Lưu ý | Nội dung:\nDo vậy, hấp thu thuốc vào hệ tuần hoàn của trẻ không đáng kể. Tuy vậy, có ba vấn đề với trẻ đang bú sữa mẹ: Gây biến đổi vi khuẩn chí đường ruột, tác dụng trực tiếp lên trẻ đang bú mẹ (ví dụ như phản ứng dị ứng hay mẫn cảm) và làm sai kết quả nuôi cấy vi khuẩn.\nCăn cứ vào tầm quan trọng của thuốc đối với bà mẹ để quyết định ngừng thuốc hay ngừng cho con bú.\nLưu ý khi lái xe và vận hành máy móc Không ảnh hưởng.",
+        "metadata": {
+            "name": "Vancomycin",
+            "id": "vancomycin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/vancomycin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    }
+]

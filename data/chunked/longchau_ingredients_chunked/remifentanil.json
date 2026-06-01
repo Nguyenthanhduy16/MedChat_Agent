@@ -1,0 +1,58 @@
+[
+    {
+        "text": "Hoạt chất: Remifentanil | Phần: Mô tả tổng quan | Nội dung:\nRemifentanil (được Abbott bán trên thị trường là Ultiva) là một loại thuốc giảm đau opioid tổng hợp có tác dụng cực ngắn. Nó được trao cho bệnh nhân trong quá trình phẫu thuật để giảm đau và như một thuốc bổ trợ gây mê. Remifentanil là một chất chủ vận thụ thể mu-type-opioid cụ thể. Do đó, nó làm giảm trương lực hệ thống thần kinh giao cảm, suy hô hấp và giảm đau.",
+        "metadata": {
+            "name": "Remifentanil",
+            "id": "remifentanil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/remifentanil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Remifentanil | Phần: Chỉ định | Nội dung:\nĐể sử dụng trong quá trình gây mê và duy trì gây mê toàn thân.",
+        "metadata": {
+            "name": "Remifentanil",
+            "id": "remifentanil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/remifentanil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Remifentanil | Phần: Dược lực học | Nội dung:\nRemifentanil là một chất chủ vận opioid với tác dụng khởi phát nhanh và hiệu quả cực đại và thời gian tác dụng cực ngắn. Hoạt tính opioid của remifentanil được đối kháng bởi các thuốc đối kháng opioid như naloxone. Tác dụng giảm đau của remifentanil rất nhanh khi khởi phát và bù đắp. Tác dụng và tác dụng phụ của nó phụ thuộc vào liều và tương tự như các opioid khác. Remifentanil ở người có thời gian cân bằng máu-não nhanh chóng là 1 ± 1 phút (trung bình ± SD) và khởi phát nhanh chóng.",
+        "metadata": {
+            "name": "Remifentanil",
+            "id": "remifentanil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/remifentanil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Remifentanil | Phần: Dược động học | Nội dung:\nRemifentanil là một chất chủ vận ức chế opioid với tác dụng khởi phát nhanh và hiệu quả cực đại, và thời gian tác dụng ngắn. Hoạt tính-opioid của remifentanil được đối kháng bởi các thuốc đối kháng opioid như naloxone.",
+        "metadata": {
+            "name": "Remifentanil",
+            "id": "remifentanil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/remifentanil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    }
+]

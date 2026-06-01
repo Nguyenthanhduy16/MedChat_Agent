@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Nitisinone.\nLoại thuốc Thuốc chuyển hóa và dinh dưỡng khác.\nDạng thuốc và hàm lượng Viên nang 2mg; 5mg; 10mg; 20mg.\nHỗn dịch uống 4mg/ml.",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Chỉ định | Nội dung:\nTyrosinemia di truyền týp 1 (hereditary tyrosinemia, HT-1): Điều trị cho cả người lớn và trẻ em (ở mọi lứa tuổi) mắc bệnh tyrosinemia di truyền týp 1 (HT-1).\nAlcapton niệu (Alkaptonuria - AKU) : Điều trị bệnh nhân người lớn mắc chứng alcapton niệu, là bệnh di truyền hiếm gặp, còn được gọi là bệnh nước tiểu sẫm màu.",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Dược lực học | Nội dung:\nNitisinone là một chất ức chế cạnh tranh của 4-hydroxyphenylpyruvate dioxygenase, một enzyme ngược dòng của fumaryl acetoacetate hydrolase (FAH) trong con đường dị hóa tyrosine. Bằng cách ức chế sự dị hóa bình thường của tyrosine ở bệnh nhân HT-1, nitisinone ngăn chặn sự tích tụ của các chất trung gian dị hóa maleyl acetoacetate và fumaryl acetoacetate. Ở những bệnh nhân có HT-1, các chất trung gian dị hóa này được chuyển thành các chất chuyển hóa độc tính là succinylacetone và succinyl acetoacetate, là nguyên nhân gây độc cho gan và thận. Succinylacetone cũng có thể ức chế con đường tổng hợp porphyrin dẫn đến tích tụ 5-aminolevulinate, một chất độc thần kinh gây ra các triệu chứng rối loạn chuyển hóa porphyrin đặc trưng của HT-1.",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Dược động học | Nội dung:\nHấp thu Tác dụng thực phẩm: Không có nghiên cứu về tác dụng thực phẩm nào được thực hiện với viên nang. Đối với hỗn dịch uống, một bữa ăn giàu calo (800 đến 1000 calo) và nhiều chất béo (khoảng 50% tổng lượng calo) không ảnh hưởng đến tổng mức phơi nhiễm nitisinone (AUC 72h ), nhưng làm giảm nồng độ tối đa khoảng 20%.\nPhân bố Liên kết in vitro của nitisinone với protein huyết tương người lớn hơn 95% ở nồng độ 50 micromolar.\nChuyển hóa Các nghiên cứu in vitro đã chỉ ra rằng nitisinone tương đối ổn định trong các microsome gan người với 1 phần nhỏ có thể chuyển hóa qua trung gian của enzym CYP3A4.",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Dược động học | Nội dung:\nThải trừ Thời gian bán thải ở nam giới khỏe mạnh là 54 giờ. Độ thanh thải biểu kiến trung bình (CV%) trong huyết tương ở 18 người lớn khỏe mạnh sau khi dùng nhiều liều 80 mg mỗi ngày một lần là 113 ( 16 ) mL/ giờ.\nMột phần nhỏ thải trừ nitisinone qua thận. Độ thanh thải nitisinone qua thận trung bình ước tính (CV%) là 0,003 L/ h (25%).",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Liều lượng | Nội dung:\nLiều dùng Nitisinone Người lớn Điều trị tyrosinemia di truyền týp 1 (HT-1) Liều khởi đầu: 1mg/kg, uống 1 lần mỗi ngày. Nhưng đối với bệnh nhân nặng < 20 kg, nên chia tổng liều hàng ngày thành 2 lần mỗi ngày.\nĐiều chỉnh liều:\nChỉnh liều ở từng bệnh nhân dựa trên kết quả xét nghiệm sinh hóa hoặc lâm sàng. Theo dõi nồng độ succinylacetone trong huyết tương hoặc nước tiểu, các thông số chức năng gan và nồng độ alpha-fetoprotein. Nếu vẫn còn phát hiện thấy succinylacetone trong nước tiểu một tháng sau khi bắt đầu điều trị bằng nitisinone, thì nên tăng liều nitisinone lên 1,5 mg/ kg / ngày hoặc cao hơn. Tổng liều tối đa hàng ngày là 2 mg/ kg cân nặng.\nNếu đáp ứng sinh hóa đạt yêu cầu, chỉ nên điều chỉnh liều dựa trên trọng lượng của cơ thể.",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Liều lượng | Nội dung:\nNếu đáp ứng sinh hóa đạt yêu cầu, chỉ nên điều chỉnh liều dựa trên trọng lượng của cơ thể.\nTrong thời gian bắt đầu điều trị, khi chuyển từ liều hai lần mỗi ngày sang một lần mỗi ngày hoặc tình trạng bệnh nhân xấu đi, cần theo dõi chặt chẽ hơn tất cả các thông số sinh hóa hiện có (tức là succinylacetone trong huyết tương, trongnước tiểu, 5-aminolevulinate trong nước tiểu (ALA) và porphobilinogen hồng cầu (PBG) - hoạt động tổng hợp).\nĐiều trị alcapton niệu (AKU): Liều 10mg x 1 lần/ngày.\nTrẻ em Tyrosinemia di truyền týp 1 (HT-1) Liều tính bằng mg/ kg thể trọng là như người lớn nhưng chia tổng liều hàng ngày thành hai lần mỗi ngày (do cân nặng < 20kg) Cách dùng Nitisinone Cần phối hợp chế độ ăn hạn chế tyrosine và phenylalanine khi dùng nitisinone.\nViên nang:",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Liều lượng | Nội dung:\nViên nang:\nUống ít nhất một giờ trước hoặc hai giờ sau bữa ăn. Đối với những bệnh nhân khó nuốt viên nang, có thể mở vỏ viên nang và trộn phần thuốc bên trong với một lượng nhỏ nước, sữa hoặc nước sốt táo ngay trước khi sử dụng.\nHỗn dịch:\nCó thể uống thuốc cùng với bữa ăn hoặc không đều được.\nHỗn dịch được đưa vào miệng bệnh nhân bằng ống tiêm uống. Một ống tiêm uống 1 ml, 3 ml và 5 ml kèm theo trong gói để đo liều lượng theo ml phù hợp. Các ống tiêm uống được chia vạch lần lượt theo các mức 0,01 ml, 0,1 ml và 0,2 ml. Bảng dưới đây cho thấy sự chuyển đổi liều lượng (mg/ ml) cho ba kích cỡ ống tiêm uống.\nBảng chuyển đổi liều tương ứng cho ba kích cỡ ống tiêm dùng đường uống:",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Liều lượng | Nội dung:\nBảng chuyển đổi liều tương ứng cho ba kích cỡ ống tiêm dùng đường uống:\nLắc đều trong 20 giây trước khi sử dụng lần đầu tiên, lắc đều trong 5 giây trước mỗi lần sử dụng sau đó. Hỗn dịch cũng thường được dùng cho bệnh nhi do khó nuốt viên nang. Khuyến cáo nên dùng hỗn dịch cùng với thức ăn (xem phần tương tác với thực phẩm).\nSau khi mở nắp chai hỗn dịch nitisinone lần đầu tiên, có thể bảo quản thuốc ở nhiệt độ phòng trong tối đa 60 ngày.\nNếu quên dùng một liều thuốc, hãy uống càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không uống gấp đôi liều đã quy định",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Nếu tình cờ uống phải nitisinone bởi những người ăn chế độ bình thường không bị hạn chế tyrosine và phenylalanine sẽ dẫn đến mức tyrosine tăng cao, có thể gây đến độc tính trên mắt, da và hệ thần kinh.\nCách xử lý khi quá liều Hạn chế tyrosine và phenylalanine trong chế độ ăn uống sẽ hạn chế độc tính liên quan đến loại tyrosinemia này. Không có thông tin về điều trị cụ thể của quá liều.\nQuên liều Nitisinone và xử trí Nếu quên dùng một liều thuốc, hãy uống càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không uống gấp đôi liều đã quy định",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Nitisinone ức chế CYP2C9 vừa phải, cảm ứng CYP2E1 yếu, ức chế OAT1 / OAT3.\nChất nền nhạy cảm với CYP2C9 (ví dụ: Celecoxib, tolbutamide) hoặc chất nền CYP2C9 có cửa sổ điều trị hẹp (ví dụ:\nPhenytoin ,\nwarfarin ): Tăng nồng độ các thuốc dùng chung này trong cơ thể. Giảm một nửa liều của các thuốc dùng chung được chuyển hóa bởi thuốc CYP2C9. Cân nhắc điều chỉnh liều để duy trì nồng độ thuốc điều trị.\nChất nền của OAT1/ OAT3 (adefovir, ganciclovir, methotrexate): Tăng nồng độ các thuốc dùng chung này trong cơ thể; theo dõi các phản ứng phụ có thể xảy ra.\nTương tác với thực phẩm Viên nang:",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Tương tác thuốc | Nội dung:\nTương tác với thực phẩm Viên nang:\nKhông có nghiên cứu về ảnh hưởng của thực phẩm nào được thực hiện với viên nang. Tuy nhiên, nếu bệnh nhân khởi đầu điều trị bằng cách dùng viên nang Nitisinone cùng với thức ăn, khuyến cáo tiếp tục dùng với thức ăn trong suốt quá trình điều trị.\nHỗn dịch:\nThức ăn không ảnh hưởng đến sinh khả dụng của hỗn dịch uống, nhưng dùng cùng với thức ăn làm giảm tỷ lệ hấp thu và do đó sự dao động nồng độ trong huyết thanh thấp hơn nhưng trong một khoảng nhưng đủ cho có tác dụng. Do đó, nên dùng hỗn dịch uống Nitisinone cùng với thức ăn.",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Lưu ý | Nội dung:\nLưu ý chung Khuyến cáo nên kiểm tra mắt bằng đèn khe trước khi bắt đầu điều trị bằng nitisinone và sau đó thường xuyên, ít nhất mỗi năm một lần. Một bệnh nhân có biểu hiện rối loạn thị giác nên được bác sĩ nhãn khoa kiểm tra ngay lập tức.\nCần xác định rằng bệnh nhân đang tuân thủ chế độ ăn hạn chế tyrosine và phenylalanine, đo nồng độ tyrosine trong huyết tương, nếu mức tyrosine trong huyết tương trên 500 micromol/ l. Không nên giảm nồng độ tyrosine trong huyết tương bằng cách giảm hoặc ngừng nitisinone.\nỞ những bệnh nhân phát triển bệnh dày sừng, nên theo dõi nồng độ tyrosine trong huyết tương. Nên thực hiện chế độ ăn kiêng để giữ mức tyrosine trong huyết tương dưới 500 micromol/ l. Ngoài ra, nên tạm ngừng sử dụng nitisinone, dùng lại khi các triệu chứng đã được giải quyết.",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Lưu ý | Nội dung:\nChức năng gan cần được theo dõi thường xuyên bằng các xét nghiệm chức năng gan và siêu âm gan, nồng độ alpha-fetoprotein huyết thanh. Tăng nồng độ alpha-fetoprotein huyết thanh có thể là một dấu hiệu của việc điều trị không đầy đủ. Những bệnh nhân có tăng alpha-fetoprotein hoặc có dấu hiệu nốt sần ở gan phải được đánh giá về bệnh ác tính ở gan.\nTheo dõi thường xuyên số lượng tiểu cầu và bạch cầu trong điều trị HT-1 và AKU, vì có thể gây giảm có hồi phục tiểu cầu và giảm bạch cầu. Các xét nghiệm theo dõi nên được thực hiện 6 tháng một lần hoặc thường xuyên hơn trong trường hợp xảy ra các tác dụng phụ.\nẢnh hưởng của các tá dược của một số sản phẩm hỗn dịch uống Glycerol:",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Lưu ý | Nội dung:\nẢnh hưởng của các tá dược của một số sản phẩm hỗn dịch uống Glycerol:\nNguy cơ xảy ra phản ứng có hại do hàm lượng glycerol của hỗn dịch uống: Liều 20 ml hỗn dịch uống có thể gây nhức đầu, đau bụng và tiêu chảy. Nếu có, cân nhắc chuyển sang dùng viên nang.\nNatri benzoate:",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Lưu ý | Nội dung:\nNatri benzoate:\nCó thể đẩy bilirubin ra khỏi albumin, làm tăng vàng da ở trẻ sơ sinh, có thể phát triển thành kernicterus. Cần theo dõi chặt chẽ nồng độ bilirubin trong huyết tương ở trẻ sơ sinh, trước khi bắt đầu điều trị: Trong trường hợp nồng độ bilirubin trong huyết tương tăng cao rõ rệt, đặc biệt ở những bệnh nhân sinh non có các yếu tố nguy cơ như nhiễm toan và mức albumin thấp, nên cân nhắc điều trị bằng một phần của viên nang (đã hiệu chỉnh theo cân nặng phù hợp) thay vì hỗn dịch uống cho đến khi nồng độ bilirubin không liên hợp trong huyết tương trở lại bình thường.",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitisinone | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Không có dữ liệu đầy đủ về việc sử dụng nitisinone ở phụ nữ mang thai. Các nghiên cứu trên động vật cho thấy độc tính sinh sản. Không nên được sử dụng trong khi mang thai trừ khi thực sự cần thiết. Nitisinone có thể đi qua nhau thai người.\nLưu ý với phụ nữ cho con bú Các bà mẹ đang dùng thuốc nitisinone không được cho con bú.\nLưu ý khi lái xe và vận hành máy móc Các phản ứng có hại liên quan đến mắt có thể ảnh hưởng đến thị lực. Nếu thị lực bị ảnh hưởng, bệnh nhân không nên lái xe hoặc vận hành máy móc cho đến khi tình trạng này giảm bớt.",
+        "metadata": {
+            "name": "Nitisinone",
+            "id": "nitisinone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitisinone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    }
+]

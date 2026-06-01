@@ -1,0 +1,254 @@
+[
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Everolimus Loại thuốc Thuốc ức chế miễn dịch chọn lọc Dạng thuốc và hàm lượng Viên nén: 0,25 mg; 0,5 mg; 1 mg; 2,5 mg; 5 mg; 10 mg.\nViên nén phân tán: 1 mg; 2 mg; 3 mg; 5 mg.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Chỉ định | Nội dung:\nChỉ định để dự phòng thải ghép tạng ở bệnh nhân người lớn có nguy cơ về miễn dịch từ thấp đên trung bình đang được ghép thận hoặc tim cùng loài khác gen.\nĐiều trị ung thư vú tiến triển dương tính với thụ thể hormone.\nĐiều trị các khối u nội tiết thần kinh biệt hóa tốt hoặc trung bình không thể cắt bỏ hoặc di căn có nguồn gốc tuyến tụy ở người lớn bị bệnh tiến triển.\nĐiều trị các khối u thần kinh không chức năng không thể cắt bỏ hoặc di căn, biệt hóa tốt (độ 1 hoặc độ 2) có nguồn gốc đường tiêu hóa hoặc phổi ở người lớn bị bệnh tiến triển.\nĐiều trị bệnh nhân bị ung thư biểu mô tế bào thận tiến triển, bệnh đã tiến triển trong hoặc sau khi điều trị bằng liệu pháp nhắm mục tiêu VEGF.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Dược lực học | Nội dung:\nEverolimus, một chất ức chế tín hiệu tăng sinh, phòng ngừa thải mảnh ghép, có tác dụng ức chế miễn dịch bằng cách ức chế sự tăng sinh tế bào T hoạt hóa kháng nguyên, do đó mở rộng thêm clon, được điều hòa bởi các interleukin đặc hiệu đối với tế bào T, ví dụ interleukin - 2 và interleukin - 15. Everolimus ức chế con đường dẫn truyền tín hiệu nội bào vốn thường dẫn đến tăng sinh tế bào khi được kích hoạt do sự gắn kết của các yếu tố tăng trưởng tế bào T vào các thụ thể. Sự ngăn chặn con đường dẫn truyền này do everolimus làm cho các tế bào bị ngừng lại ở giai đoạn G của chu kỳ tế bào.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Dược lực học | Nội dung:\nỞ mức phân tử, everolimus tạo thành một phức hợp với protein FKBP - 12 của bào tương. Khi có sự hiện diện của everolimus thì sự phosphoryl hóa p70 S6 kinase vốn kích thích bởi yếu tố tăng trưởng bị ức chế. Vì sự phosphoryl hóa p70 S6 kinase chịu sự kiểm soát của FRAP (còn được gọi là m - TOR), phát hiện này gợi ý là phức hợp everolimus - KFBP - 12 gắn vào và do đó làm cản trở chức năng của FRAP. FRAP là một protein điều hòa chính kiểm soát sự chuyển hóa, tăng trưởng và tăng sinh của tế bào; vì vậy sự mất chức năng của FRAP giải thích cho việc ngừng chu kỳ tế bào gây ra do everolimus.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Dược động học | Nội dung:\nHấp thu Ở những bệnh nhân có khối u đặc tiến triển, nồng độ everolimus cao nhất (C max) đạt được vào thời điểm trung bình là 1 giờ sau khi dùng 5 và 10 mg everolimus hàng ngày trong điều kiện lúc đói hoặc ăn nhẹ không có chất béo. C max tỷ lệ với liều lượng giữa 5 và 10 mg. Everolimus là chất nền và chất ức chế vừa phải của Pgp.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Dược động học | Nội dung:\nPhân bố Tỷ lệ giữa máu và huyết tương của everolimus, phụ thuộc vào nồng độ trong khoảng từ 5 đến 5.000 ng/ml, là 17% đến 73%. Khoảng 20% ​​nồng độ everolimus trong máu toàn phần được giới hạn trong huyết tương ở bệnh nhân ung thư được dùng everolimus 10 mg/ngày. Liên kết với protein huyết tương là khoảng 74% ở cả người khỏe mạnh và bệnh nhân suy gan trung bình. Ở những bệnh nhân có khối u đặc tiến triển, Vd là 191 lít đối với ngăn trung tâm rõ ràng và 517 lít đối với ngăn ngoại vi rõ ràng.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Dược động học | Nội dung:\nChuyển hóa Everolimus là chất nền của CYP3A4 và Pgp. Sau khi uống, everolimus là thành phần lưu thông trong máu. Sáu chất chuyển hóa chính của everolimus đã được phát hiện trong máu, bao gồm ba chất chuyển hóa monohydroxyl hóa, hai sản phẩm mở vòng thủy phân và một chất liên hợp phosphatidylcholine của everolimus. Các chất chuyển hóa này cũng được xác định ở các loài động vật được sử dụng trong các nghiên cứu độc tính, và cho thấy hoạt tính ít hơn khoảng 100 lần so với everolimus. Do đó, everolimus được coi là thành phần chính liên quan hoạt động dược lý tổng thể.\nThải trừ Thời gian bán thải trung bình của everolimus là khoảng 30 giờ.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Liều lượng | Nội dung:\nNgười lớn Liều khuyến cáo là 10 mg everolimus một lần mỗi ngày. Điều trị nên tiếp tục khi vẫn thấy lợi ích lâm sàng hoặc cho đến khi xuất hiện độc tính không thể chấp nhận được.\nTrẻ em Điều trị u tế bào khổng lồ: 4,5 mg/m2 ngày một lần.\nĐối tượng khác Bệnh nhân cao tuổi (≥ 65 tuổi) Không cần điều chỉnh liều.\nSuy thận Suy gan Suy gan nhẹ (Child - Pugh A): Liều khuyến cáo là 7,5 mg mỗi ngày.\nSuy gan trung bình (Child - Pugh B): Liều khuyến cáo là 5 mg mỗi ngày.\nSuy gan nặng (Child - Pugh C): Thuốc chỉ được khuyến cáo nếu lợi ích mong muốn cao hơn nguy cơ. Trong trường hợp này, không được vượt quá liều 2,5 mg mỗi ngày. Nên điều chỉnh liều nếu tình trạng gan (Child - Pugh) của bệnh nhân thay đổi trong quá trình điều trị.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Liều lượng | Nội dung:\nNếu bỏ lỡ một liều, bệnh nhân không được dùng thêm một liều nữa mà hãy dùng liều tiếp theo được chỉ định như bình thường.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Kinh nghiệm được báo cáo về quá liều ở người là rất hạn chế. Liều đơn lên đến 70 mg đã được đưa ra với khả năng dung nạp cấp tính chấp nhận được.\nCách xử lý khi quá liều Các biện pháp hỗ trợ chung nên được bắt đầu trong mọi trường hợp quá liều.\nQuên liều và xử trí Nếu bỏ lỡ một liều, bệnh nhân không được dùng thêm một liều nữa mà hãy dùng liều tiếp theo được chỉ định như bình thường.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Everolimus được chuyển hóa chủ yếu ở gan và ở một mức độ nào đó ở thành ruột non nhờ CYP3A4. Nó còn là một cơ chất đối với P - glycoprotein (Pgp) là chất bơm cho sự thoát ra của nhiều thuốc. Vì vậy, sự hấp thu và thải trừ sau đó của everolimus được hấp thu toàn thân có thể bị ảnh hưởng bởi các thuốc ảnh hưởng đến CYP3A4 và/hoặc Pgp. Không khuyến cáo điều trị đồng thời với các chất ức chế và/hoặc gây cảm ứng mạnh CYP3A4. Các chất ức chế chế Pgp có thể làm giảm sự thoát ra của everolimus từ tế bào ruột non và làm tăng nồng độ everolimus trong máu. In vitro, everolimus là một chất ức chế cạnh tranh của CYP3A4 và CYP2D6, làm tăng mạnh nồng độ của các thuốc được thải trừ bởi các enzyme này",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Tương tác thuốc | Nội dung:\n. In vitro, everolimus là một chất ức chế cạnh tranh của CYP3A4 và CYP2D6, làm tăng mạnh nồng độ của các thuốc được thải trừ bởi các enzyme này. Vì vậy, cần thận trọng khi dùng phối hợp everolimus với các cơ chất của CYP3A4 và CYP2D6 có chỉ số điều trị hẹp.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Tương tác thuốc | Nội dung:\nTương tác với thực phẩm Quả bưởi và nước bưởi ảnh hưởng đến hoạt động của cytochrome P450 và Pgp, vì vậy nên tránh sử dụng.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Lưu ý | Nội dung:\nLưu ý chung Viêm phổi không nhiễm trùng là tác dụng bất lợi của các dẫn xuất rapamycin, kể cả everolimus. Viêm phổi không do nhiễm trùng (bao gồm cả bệnh phổi kẽ) đã được báo cáo thường xuyên ở những bệnh nhân dùng thuốc. Một số trường hợp nghiêm trọng và trong những trường hợp hiếm hoi, tử vong đã được quan sát thấy. Chẩn đoán viêm phổi không do nhiễm trùng nên được xem xét ở những bệnh nhân có các dấu hiệu và triệu chứng hô hấp không đặc hiệu như thiếu oxy, tràn dịch màng phổi, ho hoặc khó thở và trong đó các nguyên nhân truyền nhiễm, ung thư và các nguyên nhân không phải do thuốc khác đã được loại trừ bằng các nghiên cứu thích hợp.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Lưu ý | Nội dung:\nEverolimus có đặc tính ức chế miễn dịch và có thể khiến bệnh nhân mắc các bệnh nhiễm trùng do vi khuẩn, nấm, virus hoặc động vật nguyên sinh, bao gồm cả các bệnh nhiễm trùng cơ hội.\nPhản ứng quá mẫn biểu hiện bằng các triệu chứng bao gồm phản vệ, khó thở, đỏ bừng, đau ngực hoặc phù mạch (sưng đường thở hoặc lưỡi, có hoặc không có suy giảm hô hấp) đã được quan sát thấy với everolimus.\nViêm miệng, bao gồm loét miệng và viêm niêm mạc miệng, là phản ứng có hại được báo cáo phổ biến nhất ở những bệnh nhân được điều trị bằng thuốc. Viêm miệng chủ yếu xảy ra trong vòng 8 tuần đầu điều trị.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Lưu ý | Nội dung:\nCác trường hợp suy thận (bao gồm cả suy thận cấp), một số có thể tử vong, đã được quan sát thấy ở những bệnh nhân được điều trị bằng everolimus. Chức năng thận cần được theo dõi đặc biệt khi bệnh nhân có thêm các yếu tố nguy cơ có thể làm suy giảm thêm chức năng thận.\nTăng creatinin huyết thanh, thường nhẹ, và protein niệu đã được báo cáo. Theo dõi chức năng thận, bao gồm đo nitơ urê máu (BUN), protein niệu hoặc creatinin huyết thanh, được khuyến cáo trước khi bắt đầu điều trị bằng everolimus và định kỳ sau đó.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Lưu ý | Nội dung:\nTăng đường huyết đã được báo cáo. Nên theo dõi đường huyết lúc đói trước khi bắt đầu điều trị bằng everolimus và định kỳ sau đó. Nên theo dõi thường xuyên hơn khi everolimus được dùng đồng thời với các sản phẩm thuốc khác có thể gây tăng đường huyết. Khi có thể, nên kiểm soát đường huyết tối ưu trước khi bắt đầu cho bệnh nhân dùng everolimus.\nRối loạn lipid máu (bao gồm tăng cholesterol máu và tăng triglyceride máu) đã được báo cáo. Nên theo dõi cholesterol và triglycerid máu trước khi bắt đầu điều trị bằng everolimus và định kỳ sau đó, cũng như quản lý bằng liệu pháp y tế thích hợp.\nGiảm hemoglobin, tế bào lympho, bạch cầu trung tính và tiểu cầu. Theo dõi công thức máu đầy đủ được khuyến nghị trước khi bắt đầu điều trị bằng everolimus và định kỳ sau đó.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Everolimus | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Everolimus không được khuyến cáo trong thời kỳ mang thai và phụ nữ có khả năng sinh đẻ không sử dụng biện pháp tránh thai.\nLưu ý với phụ nữ cho con bú Không biết rõ liệu everolimus có bài tiết qua sữa mẹ hay không. Tuy nhiên, ở chuột, everolimus và/hoặc các chất chuyển hóa của nó dễ dàng đi vào sữa. Do đó, phụ nữ dùng everolimus không nên cho con bú trong thời gian điều trị và trong 2 tuần sau liều cuối cùng.\nLưu ý khi lái xe & vận hành máy móc Everolimus có thể có ảnh hưởng nhỏ hoặc trung bình đến khả năng lái xe và sử dụng máy móc. Bệnh nhân nên thận trọng khi lái xe hoặc sử dụng máy móc nếu họ cảm thấy mệt mỏi trong quá trình điều trị với everolimus.",
+        "metadata": {
+            "name": "Everolimus",
+            "id": "everolimus",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/everolimus",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    }
+]

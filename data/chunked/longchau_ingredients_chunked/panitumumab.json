@@ -1,0 +1,380 @@
+[
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Panitumumab Loại thuốc Thuốc chống ung thư và điều hoà miễn dịch (kháng thể đơn dòng).\nDạng thuốc và hàm lượng Dung dịch đậm đặc pha tiêm 20 mg/ml.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Chỉ định | Nội dung:\nPanitumumab được chỉ định dùng để điều trị cho bệnh nhân người lớn bị ung thư đại trực tràng di căn RAS kiểu hoang dã (mCRC):\nĐiều trị ưu tiên: Kết hợp với phác đồ FOLFOX ( Oxaliplatin + fluorouracil và leucovorin ) hoặc FOLFIRI (Irinotecan + fluorouracil và leucovorin).\nĐiều trị thay thế: Kết hợp với phác đồ FOLFIRI cho những bệnh nhân đã được hóa trị liệu bằng phác đồ ưu tiên có fluoropyrimidine (không bao gồm irinotecan).\nĐơn trị liệu sau khi thất bại với phác đồ hóa trị có fluoropyrimidine-, oxaliplatin- và irinotecan.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Dược lực học | Nội dung:\nNhóm dược lý: Thuốc chống ung thư, kháng thể đơn dòng.\nMã ATC: L01XC08.\nCơ chế hoạt động:\nPanitumumab là một kháng thể đơn dòng IgG2 tái tổ hợp từ người, tạo liên kết có ái lực và độ đặc hiệu cao với EGFR của người. EGFR là một glycoprotein xuyên màng là thành viên của phân họ tyrosine kinase thụ thể loại I bao gồm EGFR (HER1/c-ErbB-1), HER2, HER3 và HER4. EGFR thúc đẩy sự phát triển của tế bào trong các biểu mô bình thường, bao gồm da và nang lông, được biểu hiện trên nhiều loại tế bào khối u.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Dược lực học | Nội dung:\nPanitumumab gắn vào vùng liên kết phối tử của EGFR và ức chế quá trình tự động phosphoryl hóa thụ thể gây ra bởi tất cả các phối tử EGFR. Sự liên kết của panitumumab với EGFR dẫn đến sự xâm nhập của thụ thể, ức chế sự phát triển của tế bào, cảm ứng quá trình apoptosis, giảm interleukin 8 và sự sản xuất yếu tố tăng trưởng nội mô mạch máu.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Dược lực học | Nội dung:\nKRAS (sarcoma chuột Kirsten 2 tương đồng gen ung thư) và NRAS (ung thư nguyên bào thần kinh RAS tương đồng gen virus) là các thành viên có liên quan chặt chẽ của họ gen sinh ung thư RAS. Các gen KRAS và NRAS mã hóa các protein nhỏ liên kết GTP liên quan đến quá trình truyền tín hiệu. Một loạt các kích thích, bao gồm cả kích thích từ EGFR gây kích hoạt KRAS và NRAS, sẽ kích thích các protein nội bào khác và thúc đẩy tế bào tăng sinh, tồn tại và hình thành mạch máu.\nCác đột biến kích hoạt gen RAS xuất hiện thường xuyên ở nhiều loại khối u ở người và có liên quan đến cả quá trình sinh ung thư và sự phát triển của khối u.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Dược động học | Nội dung:\nHấp thu Panitumumab dùng đơn lẻ hoặc kết hợp với hóa trị liệu thể hiện dược động học phi tuyến tính. Sau khi truyền một liều panitumumab trong 1 giờ, diện tích dưới đường cong nồng độ - thời gian (AUC) tăng nhiều hơn so với mức độ tăng liều và độ thanh thải (Cl) của panitumumab giảm từ 30,6 xuống 4,6 mL/ngày/kg khi liều tăng từ 0,75 lên 9 mg/kg. Tuy nhiên, ở liều trên 2 mg/kg, AUC của panitumumab tăng xấp xỉ với mức độ tăng liều.\nPhân bố Nồng độ đỉnh trong huyết tương: 213 ± 59 mcg/mL. Panitumumab có thể qua nhau thai và bài tiết vào sữa mẹ.\nChuyển hóa Chưa có thông tin.\nThải trừ Thời gian bán huỷ từ 4 - 11 ngày (trung bình là 7,5 ngày).\nĐộ thanh thải: 4,9 ± 1,4 mL/kg/ngày.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Liều lượng | Nội dung:\nLiều dùng Người lớn Trước khi bắt đầu điều trị bằng panitumumab, bệnh nhân cần phải được xét nghiệm đột biến RAS kiểu hoang dã trong các khối u để xác nhận có mang đột biến tại exon 2 (codon 12 và 13), exon 3 (codon 59 và 61) và exon 4 (codon 117 và 146) của cả KRAS và NRAS hay không.\nLiều khuyến cáo của panitumumab là 6 mg/kg thể trọng, tiêm 2 tuần/lần.\nXử lý khi gặp các phản ứng không mong muốn Phản ứng da liễu Phản ứng nhẹ - trung bình (độ 1 hoặc 2): Giảm 50% tốc độ truyền thuốc.\nPhản ứng nghiêm trọng (≥ độ 3):",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Liều lượng | Nội dung:\nPhản ứng nghiêm trọng (≥ độ 3):\nTriệu chứng trên da: ≥ độ 3* Liều panitumumab Kết quả Quy định về liều lượng Xuất hiện lần đầu tiên Giữ lại 1 hoặc 2 liều Cải thiện (< độ 3) Tiếp tục truyền 100% liều ban đầu Không hồi phục Ngừng Xuất hiện lần thứ 2 Tiếp tục truyền 80% liều ban đầu Xuất hiện lần thứ 3 Tiếp tục truyền 60% liều ban đầu Xuất hiện lần thứ 4 -\n* Lớn hơn hoặc bằng độ 3 nghĩa là mức độ nghiêm trọng hoặc đe dọa tính mạng.\nĐộc tính trên mắt (viêm giác mạc cấp tính hoặc nặng hơn) Tạm ngừng hoặc ngưng điều trị.\nĐộc tính với phổi Các triệu chứng phổi khởi phát cấp tính hoặc xấu đi: Điều trị gián đoạn.\nBệnh phổi kẽ: Ngừng điều trị vĩnh viễn.\nTrẻ em Không chỉ định panitumumab cho trẻ em trong điều trị ung thư đại trực tràng.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Liều lượng | Nội dung:\nBệnh phổi kẽ: Ngừng điều trị vĩnh viễn.\nTrẻ em Không chỉ định panitumumab cho trẻ em trong điều trị ung thư đại trực tràng.\nĐối tượng khác Bệnh nhân suy gan hoặc suy thận Tính an toàn và hiệu quả của panitumumab chưa được nghiên cứu ở bệnh nhân suy thận hoặc gan.\nBệnh nhân cao tuổi Dùng liều như người lớn.\nCách dùng Chỉ dùng panitumumab đường tiêm truyền tĩnh mạch chậm.\nTrước khi truyền, nên pha loãng dung dịch đậm đặc panitumumab trong natri clorid 9 mg/mL (0,9%) thành dung dịch có nồng độ cuối cùng không vượt quá 10 mg/ml.\nKhi truyền panitumumab, cho dịch chảy qua một bầu lọc có lỗ lọc 0,20 hoặc 0,22 micromet và ít liên kết với protein.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Liều lượng | Nội dung:\nKhi truyền panitumumab, cho dịch chảy qua một bầu lọc có lỗ lọc 0,20 hoặc 0,22 micromet và ít liên kết với protein.\nThời gian truyền được khuyến cáo là khoảng 60 phút. Nếu dung nạp được trong lần truyền đầu tiên, thì những lần tiếp theo có thể truyền trong 30 - 60 phút. Liều cao hơn 1000 mg nên được truyền trong khoảng 90 phút.\nNên rửa đường truyền bằng dung dịch natri clorid trước và sau khi dùng panitumumab để tránh trộn lẫn với các thuốc khác hoặc dung dịch tiêm tĩnh mạch.\nCần giảm tốc độ truyền panitumumab trong trường hợp gặp phản ứng liên quan đến truyền dịch.\nChỉ điều trị bằng panitumumab ở bệnh viện, vì vậy phải liên hệ ngay với bác sĩ nếu quên một liệu trình.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều Panitumumab và độc tính Đã có báo cáo về quá liều ở liều xấp xỉ gấp đôi liều điều trị khuyến cáo (12 mg/kg). Triệu chứng quá liều bao gồm nhiễm độc da, tiêu chảy , mất nước và mệt mỏi gần giống các tác dụng phụ ở liều khuyến cáo.\nCách xử lý khi quá liều Chưa có thông tin.\nQuên liều và xử trí Chỉ điều trị bằng panitumumab ở bệnh viện, vì vậy phải liên hệ ngay với bác sĩ nếu quên một liệu trình.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Sử dụng đồng thời panitumumab và irinotecan ở bệnh nhân mCRC không làm thay đổi dược động học của irinotecan và chất chuyển hóa có hoạt tính của nó là SN-38. Và ngược lại, phác đồ chứa irinotecan (IFL hoặc FOLFIRI) cũng không ảnh hưởng đến dược động học của panitumumab.\nKhông nên dùng kết hợp panitumumab với hóa trị liệu IFL hoặc với hóa trị liệu có chứa bevacizumab. Nhiều trường hợp gặp phải tiêu chảy nghiêm trọng khi dùng panitumumab kết hợp với IFL cũng như tăng độc tính hoặc tử vong khi kết hợp panitumumab với bevacizumab và hóa trị.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Tương tác thuốc | Nội dung:\nChống chỉ định kết hợp panitumumab với hóa trị chứa oxaliplatin cho bệnh nhân đã xác định hoặc nghi ngờ mang đột biến RAS mCRC. Một nghiên cứu lâm sàng cho thấy thời gian sống sót bị rút ngắn ở những bệnh nhân có khối u RAS đột biến được điều trị bằng panitumumab và FOLFOX.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nLưu ý chung Phản ứng ngoài da và độc tính mô mềm Các phản ứng liên quan đến da liễu là một tác dụng dược lý phổ biến của các chất ức chế thụ thể yếu tố tăng trưởng biểu bì (EGFR), gặp phải với hầu hết bệnh nhân được điều trị bằng panitumumab. Bệnh nhân có thể mắc phản ứng da nghiêm trọng (NCI-CTC độ 3) và phản ứng da đe dọa tính mạng (NCI-CTC độ 4) khi điều trị bằng panitumumab đơn trị và kết hợp với phác đồ hóa trị. Nếu các phản ứng da tăng lên độ 3 hoặc cao hơn, hoặc không thể dung nạp, cần phải điều chỉnh liều lượng thuốc.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nSau khi xuất hiện phản ứng da nghiêm trọng bao gồm cả viêm miệng), một số bệnh nhân bị nhiễm trùng bao gồm nhiễm trùng huyết và viêm cân hoại tử, có thể dẫn đến tử vong và áp xe cục bộ cần phải rạch và dẫn lưu. Những bệnh nhân có phản ứng da nghiêm trọng, nhiễm độc mô mềm hoặc các phản ứng phụ trầm trọng hơn trong khi dùng panitumumab nên được theo dõi sự tiến triển các di chứng viêm hoặc nhiễm trùng (bao gồm viêm mô tế bào và viêm cân mạc hoại tử) và bắt đầu điều trị thích hợp ngay lập tức.\nNgưng hoặc tạm dừng điều trị bằng panitumumab trong trường hợp nhiễm độc da hoặc mô mềm liên quan đến các biến chứng viêm nhiễm, nhiễm trùng nặng hoặc đe dọa tính mạng.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nPhòng ngừa và điều trị các phản ứng da nên dựa trên mức độ nghiêm trọng. Bệnh nhân có thể sử dụng kem dưỡng ẩm, kem chống nắng (SPF > 15 UVA và UVB) và kem bôi steroid (không mạnh hơn hydrocortisone 1%) trên các vùng bị ảnh hưởng và/hoặc thuốc kháng sinh uống (ví dụ: Doxycycline).\nCác bệnh nhân bị phát ban/nhiễm độc da cũng nên mặc áo chống nắng, đội mũ và hạn chế tiếp xúc với ánh nắng mặt trời vì ánh nắng có thể làm trầm trọng thêm bất kỳ phản ứng da nào. Bệnh nhân nên bôi kem dưỡng ẩm và kem chống nắng cho mặt, tay, chân, cổ, lưng và ngực vào buổi sáng và bôi steroid vào các vị trí đó mỗi đêm trong quá trình điều trị.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nBiến chứng trên phổi Panitumumab có thể gây biến chứng trên phổi. Nếu các triệu chứng phổi khởi phát cấp tính hoặc xấu đi, nên ngừng điều trị bằng panitumumab và xác định nguyên nhân gây ra. Nếu bệnh nhân được chẩn đoán mắc bệnh phổi kẽ (Interstitial Lung Disease - ILD), nên ngừng sử dụng panitumumab vĩnh viễn và điều trị thích hợp. Những bệnh nhân có tiền sử viêm phổi kẽ hoặc xơ phổi, lợi ích của điều trị bằng panitumumab so với nguy cơ biến chứng phổi phải được xem xét cẩn thận.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nRối loạn điện giải Một số bệnh nhân trong quá trình điều trị bị giảm nồng độ magie dẫn đến hạ magie máu nghiêm trọng (độ 4). Bệnh nhân nên được theo dõi tình trạng hạ magie máu và hạ calci máu kèm theo trước khi bắt đầu điều trị bằng panitumumab và định kỳ cho đến 8 tuần sau khi kết thúc điều trị. Nên bổ sung magie nếu cần.\nCác rối loạn điện giải khác, bao gồm cả hạ kali máu, cũng đã được quan sát thấy. Theo dõi như trên và bổ sung các chất điện giải thích hợp cũng được khuyến khích.\nCác phản ứng truyền dịch Trong các nghiên cứu lâm sàng mCRC đơn trị liệu và phối hợp, các phản ứng trong quá trình truyền thuốc panitumumab (xảy ra trong vòng 24 giờ sau khi truyền) đã được báo cáo, bao gồm các phản ứng mức độ nghiêm trọng (NCI-CTC cấp 3 và cấp 4) .",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nNếu phản ứng nghiêm trọng hoặc đe dọa tính mạng xảy ra trong hoặc bất kỳ lúc nào sau khi truyền (ví dụ: Co thắt phế quản, phù mạch, hạ huyết áp hoặc sốc phản vệ), nên ngừng vĩnh viễn panitumumab.\nỞ những bệnh nhân có phản ứng nhẹ hoặc trung bình (CTCAE v 4.0 độ 1 và 2) liên quan đến truyền dịch, nên giảm tốc độ truyền thuốc. Khuyến cáo duy trì tốc độ truyền thấp hơn này trong tất cả các lần điều trị tiếp theo.\nSuy thận cấp Suy thận cấp đã được báo cáo ở những bệnh nhân bị tiêu chảy nặng và mất nước. Những bệnh nhân này nên liên hệ ngay với bác sĩ.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nSuy thận cấp Suy thận cấp đã được báo cáo ở những bệnh nhân bị tiêu chảy nặng và mất nước. Những bệnh nhân này nên liên hệ ngay với bác sĩ.\nĐiều trị bằng panitumumab kết hợp với hóa trị liệu irinotecan, 5-fluorouracil và leucovorin (IFL) Bệnh nhân dùng panitumumab kết hợp với phác đồ IFL gồm: 5-fluorouracil (500 mg/m2), leucovorin (20 mg/m2) và irinotecan (125 mg/m2), có tỷ lệ cao bị tiêu chảy nặng. Do đó nên tránh sử dụng panitumumab kết hợp với IFL.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nPanitumumab kết hợp với bevacizumab và phác đồ hóa trị Thời gian sống bị rút ngắn và tỷ lệ tử vong gia tăng ở những bệnh nhân dùng panitumumab kết hợp với bevacizumab và hóa trị. Tần suất thuyên tắc phổi, nhiễm trùng (chủ yếu trên da), tiêu chảy, mất cân bằng điện giải, buồn nôn, nôn và mất nước cao hơn cũng được quan sát thấy ở nhóm điều trị sử dụng panitumumab kết hợp với bevacizumab và hóa trị.\nPanitumumab kết hợp với hóa trị liệu dựa trên oxaliplatin ở bệnh nhân có đột biến RAS mCRC hoặc chưa xác định được tình trạng khối u RAS Chống chỉ định kết hợp panitumumab với hóa trị liệu chứa oxaliplatin cho bệnh nhân có đột biến RAS mCRC hoặc chưa rõ tình trạng RAS mCRC.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nThời gian sống bệnh không tiến triển (PFS) và thời gian sống sót tổng thể (OS) bị rút ngắn ở những bệnh nhân có khối u mang đột biến KRAS (exon 2) và các đột biến RAS bổ sung (KRAS - exons 3 và 4 hoặc NRAS - exons 2, 3, 4) điều trị bằng panitumumab kết hợp 5-fluorouracil, leucovorin, và oxaliplatin (FOLFOX) so với chỉ dùng FOLFOX.\nĐộc tính trên mắt Các trường hợp nghiêm trọng của viêm giác mạc và viêm loét giác mạc hiếm khi được báo cáo. Bệnh nhân có các dấu hiệu và triệu chứng gợi ý viêm giác mạc như cấp tính hoặc nặng hơn: Viêm mắt, chảy nước mắt, nhạy cảm với ánh sáng, nhìn mờ, đau mắt và/hoặc mắt đỏ cần được chuyển ngay đến bác sĩ chuyên khoa mắt.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 8
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nNếu chẩn đoán viêm loét giác mạc được xác nhận, nên ngừng điều trị bằng panitumumab. Nếu viêm giác mạc được chẩn đoán, cần cân nhắc kỹ giữa lợi ích và nguy cơ của việc tiếp tục điều trị.\nPanitumumab nên được sử dụng thận trọng cho những bệnh nhân có tiền sử viêm giác mạc, viêm loét giác mạc hoặc khô mắt nghiêm trọng. Sử dụng kính áp tròng cũng là một yếu tố nguy cơ gây viêm và loét giác mạc.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 9
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nBệnh nhân có chỉ số đánh giá hoạt động cơ thể ECOG mức 2 được điều trị bằng panitumumab kết hợp với hóa trị liệu Đối với những bệnh nhân có chỉ số đánh giá hoạt động cơ thể ECOG mức 2 (có triệu chứng, nằm giường bệnh < 50% thời gian trong ngày), nên đánh giá lợi ích - nguy cơ trước khi bắt đầu sử dụng panitumumab kết hợp với hóa trị liệu để điều trị mCRC. Sự cân bằng giữa lợi ích và nguy cơ tích cực chưa được ghi nhận ở những bệnh nhân có chỉ số đánh giá hoạt động cơ thể ECOG mức 2.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 10
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nBệnh nhân cao tuổi Không có sự khác biệt tổng thể về độ an toàn hoặc hiệu quả được ghi nhận ở bệnh nhân cao tuổi (≥ 65 tuổi) được điều trị bằng panitumumab đơn trị liệu. Tuy nhiên, số lượng các phản ứng có hại nghiêm trọng đã được báo cáo tăng lên ở bệnh nhân cao tuổi được điều trị bằng paitumumab kết hợp với hóa trị liệu FOLFIRI hoặc FOLFOX so với hóa trị liệu đơn thuần.\nLưu ý với phụ nữ có thai Phân loại thai kỳ (FDA): C.\nChưa có dữ liệu đầy đủ về việc sử dụng panitumumab ở phụ nữ có thai. EGFR có liên quan đến việc kiểm soát sự phát triển trước khi sinh và có thể cần thiết cho sự hình thành cơ quan, tăng sinh và biệt hóa bình thường trong phôi thai đang phát triển.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 11
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nNgoài ra, IgG của người qua được qua hàng rào nhau thai, và do đó, panitumumab có thể được truyền từ mẹ sang thai nhi đang phát triển. Vì vậy, panitumumab có khả năng gây hại cho thai nhi khi dùng cho phụ nữ có thai.\nNếu sử dụng panitumumab trong thời kỳ mang thai hoặc nếu bệnh nhân có thai trong khi điều trị bằng thuốc, cần thông báo cho bệnh nhân về nguy cơ sảy thai hoặc tác hại tiềm ẩn cho thai nhi.\nLưu ý với phụ nữ cho con bú Vẫn chưa biết khả năng bài tiết vào sữa mẹ của panitumumab. Vì IgG của con người được tiết vào sữa mẹ, nên panitumumab cũng có thể tương tự như vậy. Khả năng hấp thụ và tác hại đối với trẻ sơ sinh sau khi uống là không rõ. Khuyến cáo phụ nữ không cho con bú trong thời gian điều trị bằng panitumumab và trong 2 tháng sau liều cuối cùng.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 12
+        }
+    },
+    {
+        "text": "Hoạt chất: Panitumumab | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Panitumumab ít ảnh hưởng đến khả năng lái xe và sử dụng máy móc. Nếu bệnh nhân gặp các triệu chứng liên quan đến điều trị có ảnh hưởng đến thị lực và/hoặc khả năng tập trung và phản ứng thì không nên lái xe hoặc sử dụng máy móc cho đến khi tác dụng giảm bớt.",
+        "metadata": {
+            "name": "Panitumumab",
+            "id": "panitumumab",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/panitumumab",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 13
+        }
+    }
+]

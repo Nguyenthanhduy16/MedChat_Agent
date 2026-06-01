@@ -1,0 +1,268 @@
+[
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Darunavir Loại thuốc Chất ức chế HIV Protease.\nDạng thuốc và hàm lượng Viên nén bao phim 800mg.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Chỉ định | Nội dung:\nDarunavir với ritonavir liều thấp: Điều trị nhiễm HIV-1 ở người lớn, thanh thiếu niên và trẻ em ≥3 tuổi, được sử dụng kết hợp với các thuốc kháng retrovirus khác.\nDarunavir với cobicistat: Điều trị nhiễm HIV-1 ở người lớn, được sử dụng kết hợp với các thuốc kháng retrovirus khác.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Dược lực học | Nội dung:\nLiên kết với vị trí hoạt động của protease HIV-1 và ức chế sự phân cắt các tiền chất polyprotein Gag-Pol của virus thành các protein chức năng riêng biệt cần thiết cho HIV lây nhiễm. Điều này dẫn đến việc hình thành các hạt virus chưa trưởng thành, không lây nhiễm.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Dược động học | Nội dung:\nHấp thu và phân bố Sinh khả dụng: Đường uống tuyệt đối: 82% (darunavir 600mg liều duy nhất với ritonavir hai lần mỗi ngày), sinh khả dụng tăng 30% đến 40% với thức ăn.\nThời gian đạt đỉnh trong huyết tương: 2,5 đến 4 giờ.\nChuyển hóa và thải trừ Bài tiết: Qua phân (80%, 41% dưới dạng thuốc không thay đổi), nước tiểu (14%, 8% dưới dạng thuốc không thay đổi).\nThời gian bán thải: 15 giờ.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Liều lượng | Nội dung:\nNgười lớn Điều trị nhiễm HIV-1 Điều trị ban đầu: Uống 800mg x 1 lần/ngày.\nCần dùng chung với ritonavir 100mg hoặc cobicistat 150mg một lần mỗi ngày.\nĐã có kinh nghiệm điều trị: Nên kiểm tra kiểu gen ở những bệnh nhân đã có kinh nghiệm điều trị.\nBệnh nhân không có thay thế liên quan đến kháng darunavir 800mg x 1 lần/ngày. Cần dùng chung với ritonavir 100mg hoặc cobicistat 150mg một lần mỗi ngày.\nBệnh nhân có ít nhất 1 thay thế liên quan đến kháng thuốc darunavir 600mg x 2 lần/ngày. Cần dùng chung với ritonavir 100mg x 2 lần/ngày.\nNếu không thể kiểm tra kiểu gen 600mg x 2 lần/ngày, dùng chung với ritonavir 100mg x 2 lần/ngày.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Liều lượng | Nội dung:\nNếu không thể kiểm tra kiểu gen 600mg x 2 lần/ngày, dùng chung với ritonavir 100mg x 2 lần/ngày.\nBệnh nhân có thai Ghi chú trên nhãn sản phẩm 800mg x 1 lần/ngày dùng chung với ritonavir 100mg x 1 lần/ngày chỉ nên được xem xét ở những bệnh nhân đã có chế độ điều trị ổn định một lần/ngày trước khi mang thai, những người bị ức chế virus học (HIV-1 RNA dưới 50 bản sao/ml) và ở những bệnh nhân nào việc thay đổi liều lượng hai lần mỗi ngày có thể ảnh hưởng đến khả năng dung nạp hoặc sự tuân thủ. Tuy nhiên, các hướng dẫn hiện tại không khuyến cáo dùng liều một lần mỗi ngày trong khi mang thai.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Liều lượng | Nội dung:\nĐiều trị dự phòng sau phơi nhiễm HIV-1 (nPEP) (chỉ định off label) Uống: 800mg cộng với ritonavir 100mg ngày một lần (kết hợp với các thuốc kháng retrovirus khác), bắt đầu điều trị trong vòng 72 giờ sau khi phơi nhiễm và tiếp tục trong 28 ngày.\nTrẻ em Nên xét nghiệm kiểu gen để tìm kháng virus ở những bệnh nhân đã từng điều trị, cần dùng chung với ritonavir.\nBệnh nhân chưa từng điều trị hoặc đã từng điều trị mà không có đột biến liên quan đến kháng darunavir Trẻ em ≥3 tuổi nặng ≥10 kg và thanh thiếu niên Liều lượng theo cân nặng Trọng lượng cơ thể 10 đến <15kg: Darunavir 35mg/kg (liều tối đa 800mg/liều) một lần mỗi ngày cộng với ritonavir 7mg/kg (liều tối đa 100mg/liều) một lần mỗi ngày.\nLiều lượng cố định: Dung dịch uống (Darunavir 100mg/ml).",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Liều lượng | Nội dung:\nLiều lượng cố định: Dung dịch uống (Darunavir 100mg/ml).\n≥10kg đến <11kg: Darunavir 350mg (3,6ml) cộng với ritonavir 64mg một lần mỗi ngày.\n≥11kg đến <12g: Darunavir 385mg (4ml) cộng với ritonavir 64mg một lần mỗi ngày.\n≥12kg đến <13kg: Darunavir 420mg (4,2ml) cộng với ritonavir 80mg ngày một lần.\n≥13kg đến <14kg: Darunavir 455mg (4,6ml) cộng với ritonavir 80mg một lần mỗi ngày.\n≥14kg đến <15kg: Darunavir 490mg (5ml) cộng với ritonavir 96mg ngày một lần.\n≥15kg đến <30kg: Darunavir 600mg (viên nén hoặc 6ml) cộng với ritonavir 100mg một lần mỗi ngày.\n≥30 kg đến <40kg: Darunavir 675mg (viên nén hoặc 6,8 ml) cộng với ritonavir 100mg x 1 lầnngày.\n≥40kg: Darunavir 800mg (viên nén hoặc 8ml) cộng với ritonavir 100mg một lần mỗi ngày.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Chưa có thông tin.\nCách xử lý khi quá liều thuốc Darunavir Nếu bạn nghĩ rằng đã xảy ra quá liều, hãy gọi cho trung tâm kiểm soát chất độc của bạn hoặc nhận viên chăm sóc y tế ngay lập tức. Hãy sẵn sàng cho biết những gì đã được sử dụng, bao nhiêu và thời gian xảy ra.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Darunavir, ritonavir và cobicistat được chuyển hóa chủ yếu bởi CYP3A.\nDarunavir, ritonavir và cobicistat ức chế CYP3A4 và CYP2D6.\nRitonavir-boosted darunavir ức chế hệ thống vận chuyển P-glycoprotein (P-gp), cobicistat là một chất ức chế P-gp.\nCobicistat ức chế protein kháng ung thư vú (BCRP) và polypeptide vận chuyển anion hữu cơ (OATP) 1B1 và ​​1B3.\nDarunavir phải được sử dụng với một chất tăng cường dược động học (tức là, ritonavir liều thấp hoặc cobicistat), xem xét các tương tác thuốc liên quan đến cả darunavir và thuốc tăng cường dược động học. Tương tác được báo cáo hoặc dự kiến ​​với darunavir tăng cường ritonavir có thể khác với những tương tác được báo cáo hoặc dự kiến ​​với darunavir tăng cobicistat.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Tương tác thuốc | Nội dung:\nCác tương tác thuốc sau đây dựa trên các nghiên cứu sử dụng darunavir tăng cường ritonavir hoặc các nghiên cứu chỉ sử dụng cobicistat. Các nghiên cứu về tương tác thuốc cho đến nay chưa có bằng cách sử dụng darunavir tăng cobicistat được dùng dưới dạng darunavir/cobicistat kết hợp cố định hoặc dưới dạng darunavir đơn thực thể được dùng với cobicistat đơn thực thể.\nThuốc ảnh hưởng hoặc chuyển hóa bởi các enzym ở vi mô gan.\nChất cảm ứng CYP3A: Tương tác dược động học tiềm năng với darunavir tăng cường ritonavir hoặc tăng cobicistat (tăng độ thanh thải của darunavir, ritonavir, hoặc cobicistat, có thể mất hiệu quả kháng retrovirus và phát triển đề kháng).",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Tương tác thuốc | Nội dung:\nThuốc ức chế CYP3A: Tương tác dược động học tiềm năng với darunavir tăng cường ritonavir hoặc tăng cobicistat (tăng nồng độ trong huyết tương của darunavir, ritonavir, hoặc cobicistat).\nChất nền CYP3A: Tương tác dược động học tiềm năng với darunavir tăng cường ritonavir hoặc tăng cobicistat (thay đổi chuyển hóa của chất nền CYP3A).\nChất nền CYP2D6: Tương tác dược động học tiềm năng với darunavir tăng cường ritonavir hoặc tăng cobicistat (tăng nồng độ trong huyết tương của chất nền CYP2D6, tác dụng điều trị có thể tăng hoặc kéo dài và tăng nguy cơ tác dụng phụ kèm theo).",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Tương tác thuốc | Nội dung:\nThuốc bị ảnh hưởng bởi vận chuyển P-glycoprotein Chất nền P-gp: Tương tác dược động học tiềm tàng với darunavir tăng cường ritonavir hoặc tăng cobicistat (tăng nồng độ trong huyết tương của chất nền P-gp, tác dụng điều trị có thể tăng hoặc kéo dài và tăng nguy cơ tác dụng phụ kèm theo).\nThuốc ức chế p-gp: Tương tác dược động học tiềm năng với darunavir tăng cường ritonavir hoặc tăng cobicistat (giảm độ thanh thải của darunavir và ritonavir dẫn đến tăng nồng độ trong huyết tương).\nThuốc bị ảnh hưởng hoặc bị ảnh hưởng bởi các chất vận chuyển màng khác Chất nền BCRP, OATP1B1 hoặc OATP1B3: Tương tác dược động học tiềm tàng với darunavir tăng cobicistat (tăng nồng độ trong huyết tương của chất nền đó, tác dụng điều trị có thể tăng hoặc kéo dài và tăng nguy cơ tác dụng phụ kèm theo).",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Lưu ý | Nội dung:\nLưu ý chung khi dùng Darunavir Tái phân bố chất béo: Có thể gây ra sự phân bố lại/tích tụ chất béo (ví dụ: Béo phì trung tâm, bướu trâu, gầy mòn ngoại vi, gầy còm trên khuôn mặt, phì đại vú, xuất hiện hội chứng cushing).\nĐộc tính trên gan: Các trường hợp viêm gan do thuốc (bao gồm cả cấp tính và tiêu bào) không thường xuyên đã được báo cáo. Tổn thương gan đã được báo cáo khi sử dụng (bao gồm một số trường hợp tử vong), mặc dù thường xảy ra ở những bệnh nhân dùng nhiều thuốc, mắc bệnh HIV giai đoạn nặng, đồng nhiễm viêm gan B/C hoặc hội chứng phục hồi miễn dịch. Theo dõi bệnh nhân chặt chẽ, cân nhắc việc ngừng hoặc ngừng điều trị nếu các dấu hiệu/triệu chứng của suy gan xảy ra.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Lưu ý | Nội dung:\nPhản ứng quá mẫn: Thuốc ức chế protease có liên quan đến nhiều hiện tượng quá mẫn (một số trường hợp nghiêm trọng), bao gồm phát ban, phản vệ (hiếm gặp), phù mạch, co thắt phế quản, ban đỏ đa dạng, hội chứng Stevens - Johnson (hiếm gặp), mụn mủ ngoại ban cấp tính, biểu bì nhiễm độc hoại tử hoặc phát ban do thuốc với tăng bạch cầu ái toan và các triệu chứng toàn thân (DRESS). Ngừng điều trị nếu phản ứng da nghiêm trọng phát triển. Các phản ứng da nghiêm trọng có thể đi kèm với sốt, khó chịu, mệt mỏi, đau khớp, viêm gan, tổn thương miệng, mụn nước, viêm kết mạc hoặc tăng bạch cầu ái toan. Phát ban nhẹ đến trung bình có thể xuất hiện sớm khi điều trị và hết khi tiếp tục điều trị.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Lưu ý | Nội dung:\nHội chứng phục hồi miễn dịch: Bệnh nhân có thể phát triển hội chứng phục hồi miễn dịch dẫn đến sự xuất hiện của phản ứng viêm đối với nhiễm trùng cơ hội chậm hoặc còn sót lại trong quá trình điều trị HIV ban đầu hoặc kích hoạt các rối loạn tự miễn dịch (ví dụ: Bệnh Graves, viêm đa cơ, hội chứng Guillain-Barré) sau đó trị liệu, đánh giá và điều trị thêm có thể được yêu cầu.\nDị ứng với sulfonamide: Thận trọng khi sử dụng cho bệnh nhân dị ứng sulfonamide (chứa gốc sulfa).\nCác mối quan tâm liên quan đến bệnh Bệnh tiểu đường: Những thay đổi về dung nạp glucose, tăng đường huyết, đợt cấp của bệnh tiểu đường, DKA, và bệnh đái tháo đường mới khởi phát đã được báo cáo ở những bệnh nhân dùng thuốc ức chế protease. Có thể phải bắt đầu hoặc điều chỉnh liều của thuốc trị đái tháo đường.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Lưu ý | Nội dung:\nBệnh máu khó đông A hoặc B: Thận trọng khi sử dụng cho bệnh nhân mắc bệnh máu khó đông A hoặc B, tăng chảy máu trong khi điều trị bằng thuốc ức chế protease (PI) đã được báo cáo. Ở một số bệnh nhân, yếu tố VIII bổ sung đã được sử dụng. Trong hơn một nửa số trường hợp, liệu pháp PI được tiếp tục hoặc được giới thiệu lại nếu đã ngừng điều trị.\nSuy gan: Có thể làm trầm trọng thêm tình trạng rối loạn chức năng gan đã có từ trước, thận trọng khi sử dụng ở những bệnh nhân có bệnh gan tiềm ẩn, chẳng hạn như viêm gan B hoặc C hoặc xơ gan. Không khuyến khích sử dụng ở những trường hợp suy giảm chức năng nghiêm trọng.\nLưu ý với phụ nữ có thai Dữ liệu hiện có trên người và động vật cho thấy darunavir không làm tăng nguy cơ mắc các dị tật bẩm sinh lớn so với tỷ lệ nền.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Lưu ý | Nội dung:\nDarunavir tăng cường ritonavir: Các chuyên gia cho biết darunavir tăng cường ritonavir (600mg x 2 lần/ngày với ritonavir 100mg x 2 lần/ngày) và 2 NRTI là chế độ điều trị dựa trên PI được ưa thích để điều trị ban đầu ở phụ nữ mang thai. Chế độ dùng darunavir tăng cường ritonavir mỗi ngày một lần không được khuyến cáo ở phụ nữ mang thai.\nDarunavir tăng cobicistat: Các nhà sản xuất chỉ sử dụng darunavir tăng cobicistat cho phụ nữ mang thai nếu lợi ích tiềm năng cho người phụ nữ phù hợp với những nguy cơ tiềm ẩn đối với thai nhi. Các chuyên gia cho biết dữ liệu không đủ để khuyến nghị sử dụng thường quy darunavir tăng cobicistat để điều trị ban đầu ở phụ nữ mang thai.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Darunavir | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Không biết liệu darunavir, ritonavir, hoặc cobicistat có phân phối vào sữa mẹ hay không, darunavir và cobicistat phân phối vào sữa ở chuột. Hướng dẫn phụ nữ nhiễm HIV không cho con bú vì có nguy cơ lây truyền HIV và nguy cơ ảnh hưởng xấu đến trẻ sơ sinh.\nLưu ý khi lái xe và vận hành máy móc Không có hoăc ảnh hưởng không đáng kể đến khả năng lái xe, vận hành máy móc, tuy nhiên nhức đầu đã được báo cáo ở một số bệnh nhân nên cần thận trọng dùng thuốc khi lái xe, vận hành máy móc.",
+        "metadata": {
+            "name": "Darunavir",
+            "id": "darunavir",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/darunavir",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    }
+]

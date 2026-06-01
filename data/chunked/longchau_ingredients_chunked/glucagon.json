@@ -1,0 +1,226 @@
+[
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Glucagon.\nLoại thuốc Thuốc chống hạ glucose huyết; chất phụ trợ chẩn đoán; thuốc chống co thắt; thuốc giải độc (do thuốc chẹn beta - adrenergic).\nDạng thuốc và hàm lượng Bột pha tiêm: Lọ 1 mg (1 đơn vị), 10 mg (10 đơn vị) glucagon, dạng muối hydroclorid. Có kèm theo dung môi pha tiêm.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Chỉ định | Nội dung:\nĐiều trị cấp cứu hạ glucose huyết nặng ở người đái tháo đường khi dùng insulin hoặc thuốc uống hạ glucose huyết.\nNgười bệnh tâm thần trong liệu pháp gây sốc bằng insulin.\nTrong khoa X-quang (giúp chẩn đoán) để xét nghiệm X-quang hoặc nội soi thực quản, dạ dày, tá tràng ruột non và đại tràng.\nĐiều trị triệu chứng cho những người ngộ độc/quá liều thuốc chẹn thụ thể beta: Tiêm tĩnh mạch glucagon liều cao để điều trị tác dụng độc với tim, đặc biệt, trị nhịp tim chậm và hạ huyết áp , khi dùng quá liều các thuốc ức chế beta.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Dược lực học | Nội dung:\nGlucagon là hormon polypeptid nội sinh do các tế bào alpha của đảo Langerhans tụy sản xuất. Glucagon có tác dụng làm tăng nồng độ glucose huyết bằng cách kích thích phân giải glycogen và tân tạo glucose ở gan. Glucagon hoạt hóa adenylcyclase để xúc tác chuyển ATP thành AMP vòng, đặc biệt ở gan và ở mô mỡ. Sự tạo thành AMP vòng khởi động một loạt các phản ứng trong tế bào bao gồm hoạt hóa phosphorylase làm thúc đẩy giáng hóa glycogen thành glucose. Nồng độ glucose huyết tăng trong vài phút. Tiết glucagon được kích thích khi nồng độ glucose huyết thấp hoặc khi nồng độ insulin huyết thanh cao. Nói chung, tác dụng của glucagon đối kháng insulin, tuy vậy, glucagon đã được báo cáo kích thích tiết insulin ở người khỏe mạnh và ở người đái tháo đường typ 2.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Dược lực học | Nội dung:\nGlucagon cũng tăng cường sử dụng glucose ở ngoại biên.\nCường độ tác dụng tăng glucose huyết của glucagon phụ thuộc vào dự trữ glycogen ở gan và sự hiện diện của phosphorylase.\nTác dụng của glucagon không bị các thuốc hủy giao cảm như dihydroergotamin chẹn lại. Tác dụng tăng glucose huyết của glucagon tăng và kéo dài khi dùng đồng thời với epinephrin.\nGlucagon có tác dụng ngoài gan không phụ thuộc vào tác dụng tăng glucose huyết, glucagon làm thư giãn cơ trơn của dạ dày, tá tràng, ruột non và đại tràng, tuy cơ chế tác dụng chưa xác định.\nGlucagon cũng ức chế bài tiết của dạ dày, tụy.\nGlucagon có tác dụng làm tăng co sợi cơ tim và điều hòa nhịp tim.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Dược lực học | Nội dung:\nGlucagon cũng ức chế bài tiết của dạ dày, tụy.\nGlucagon có tác dụng làm tăng co sợi cơ tim và điều hòa nhịp tim.\nSau khi tiêm tĩnh mạch nhanh ở động vật gây mê, glucagon làm hạ huyết áp. Glucagon cũng làm giảm nồng độ amino nitrogen trong huyết tương, làm tăng bài tiết các chất điện giải qua thận, làm giảm tổng hợp protein và mỡ, làm tăng tốc độ chuyển hóa. Nếu điều trị kéo dài, glucagon có thể gây tác dụng đái tháo đường kéo dài trong một số ngày.\nTrong điều trị, glucagon có thể được chiết xuất từ nguồn động vật, nhưng hiện nay phổ biến hơn là được sản xuất bằng kỹ thuật DNA tái tô hợp. Glucagon được dùng dưới dạng hydroclorid, nhưng liều thường được tính theo glucagon (một đơn vị tương đương với 1 mg glucagon).",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Dược động học | Nội dung:\nHấp thu Vì bản chất của glucagon là một polypeptid, nên glucagon bị phá hủy ở đường tiêu hóa, do đó phải dùng đường tiêm.\nSau khi tiêm glucagon, nồng độ glucose tối đa trong huyết tương đạt được trong vòng 30 phút, tác dụng tăng glucose huyết kéo dài trong khoảng 60 - 90 phút. Sau khi tiêm tĩnh mạch liều 0,25 - 0,5 mg, tác dụng giãn cơ trơn đường tiêu hóa xảy ra trong vòng 1 phút và kéo dài 9 - 17 phút. Sau khi tiêm bắp liều duy nhất 1mg, tác dụng giãn cơ trơn đường tiêu hóa xảy ra trong vòng 8 - 10 phút và kéo dài 12 - 27 phút.\nPhân bố Thể tích phân bố là 0,25 lít/kg. Nửa đời của glucagon trong huyết tương khoảng 8 đến 18 phút.\nChuyển hóa và thải trừ Độ thanh thải là 13,5 ml/phút/kg.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Dược động học | Nội dung:\nChuyển hóa và thải trừ Độ thanh thải là 13,5 ml/phút/kg.\nGlucagon bị phân hủy bằng enzym trong huyết tương và trong các cơ quan mà nó được phân phối. Gan và thận là những vị trí chính của quá trình thanh thải glucagon, mỗi cơ quan đóng góp khoảng 30% vào tốc độ thanh thải chuyển hóa chung.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Liều lượng | Nội dung:\nLiều dùng Glucagon Người lớn Hạ glucose huyết nghiêm trọng (hôn mê do insulin):\nLiều thông thường (tiêm dưới da, bắp, tĩnh mạch): 1 mg. Sau khi người bệnh tỉnh, đáp ứng, phải bổ sung hydrat carbon để phục hồi glycogen ở gan và ngăn chặn hạ glucose huyết tái phát. Nếu trong vòng 15 phút sau khi dùng thuốc, người bệnh không tỉnh có thể cho thêm một liều và cho tiêm tĩnh mạch dextrose.\nXét nghiệm X-quang đường tiêu hóa ở người lớn:\nTiêm bắp 1 - 2 mg hoặc tiêm tĩnh mạch 0,25 - 2 mg, phụ thuộc vào thời gian bắt đầu tác dụng và thời gian tác dụng cần thiết cho xét nghiệm đặc hiệu. Do dạ dày ít nhạy cảm với glucagon, nhà sản xuất khuyến cáo dùng liều 0,5 mg tiêm tĩnh mạch hoặc 2 mg tiêm bắp khi muốn dạ dày thư giãn.\nĐối với đại tràng:\n2 mg tiêm bắp 1 liều duy nhất trước khi bắt đầu làm thủ thuật.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Liều lượng | Nội dung:\nĐối với đại tràng:\n2 mg tiêm bắp 1 liều duy nhất trước khi bắt đầu làm thủ thuật.\nQuá liều thuốc chen calci hoặc chen beta:\nLiều ban đầu tiêm tĩnh mạch 50 microgam/kg trong 1 - 2 phút. Nếu không hiệu quả, cho liều cao hơn, có thể tới 10 mg đối với một số người lớn. Trong nhiều trường hợp, tiếp theo liều ban đầu, có thể cho truyền lĩnh mạch liên tục với tốc độ 2 - 5 mg/giờ (tối đa 10 mg/giờ), pha loãng với dextrose 5%; tốc độ truyền sau đó có thể giảm dần theo đáp ứng.\nTrẻ em Trẻ em trên 20 kg: Liều thông thường (tiêm dưới da, bắp, tĩnh mạch): 1 mg.\nTrẻ em cân nặng dưới 20 kg: 0,5 mg. Một cách khác: 20 - 30 microgam/kg.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Liều lượng | Nội dung:\nTrẻ em cân nặng dưới 20 kg: 0,5 mg. Một cách khác: 20 - 30 microgam/kg.\nCách dùng Glucagon và glucagon hydroclorid có thể tiêm dưới da, tiêm bắp hoặc tiêm tĩnh mạch. Pha loãng glucagon với dung môi kèm theo hướng dẫn: Thêm 1 ml dung môi vô khuẩn vào lọ chứa 1 mg thuốc để có dung dịch chứa 1 mg/ml. Không được dùng dung dịch có nồng độ trên 1 mg/ml. Dung dịch hòa tan phải trong và phải dùng ngay.\nKhi cần dùng các liều lớn hơn 2 mg, không pha thuốc bằng dung môi kèm theo bột thuốc mà pha bằng nước cất pha tiêm để giảm thiểu khả năng bị viêm tĩnh mạch huyết khối, ngộ độc thần kinh hoặc ức chế cơ tim, gây ra bởi chất bảo quản phenol có sẵn trong dung môi của nhà sản xuất.\nKhông tìm thấy thông tin thuốc.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Glucagon và xử trí Quá liều và độc tính Triệu chứng quá liều glucagon gồm buồn nôn, nôn, giảm trương lực cơ dạ dày và ỉa chảy .\nCách xử lý khi quá liều Do glucagon có nửa đời ngắn, điều trị quá liều glucagon chủ yếu là điều trị triệu chứng và điều trị hỗ trợ và có thể sử dụng những biện pháp sau:\nTheo dõi nồng độ điện giải trong huyết thanh, đặc biệt nồng độ kali và điều trị hạ kali huyết bằng bô sung kali. Bổ sung dịch khi cần.\nTheo dõi nồng độ glucose huyết.\nTheo dõi huyết áp, đặc biệt cần phải điều trị tăng huyết áp và mạch nhanh cho những người có bệnh mạch vành hoặc u tế bào ưa crom.\nNếu người bệnh tăng huyết áp đột ngột có thể tiêm tĩnh mạch 5 - 10 mg phentolamin mesylat để kiểm soát huyết áp.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Quá liều và xử trí | Nội dung:\nNếu người bệnh tăng huyết áp đột ngột có thể tiêm tĩnh mạch 5 - 10 mg phentolamin mesylat để kiểm soát huyết áp.\nSử dụng các thuốc lợi niệu mạnh, thẩm tách màng bụng, thẩm tách thận nhân tạo vẫn chưa được chứng minh là có hiệu quả trong điều trị quá liều glucagon.\nQuên liều và xử trí Không tìm thấy thông tin thuốc.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Có thể dùng glucagon và glucose cùng nhau mà không làm giảm tác dụng của mỗi thuốc.\nKhi sử dụng đồng thời glucagon và thuốc kháng cholinergic, không có hiệu quả hơn khi dùng một thuốc mà lại làm tăng tác dụng phụ.\nDùng đồng thời với các dẫn xuất cumarin hoặc indandion chống đông, glucagon có thể làm tăng tác dụng chống đông của chúng.\nGlucagon làm tăng tác dụng của thuốc kháng vitamin K.\nGlucagon làm tăng tác dụng chống đông máu của warfarin.\nInsulin: Phản ứng đối kháng với glucagon.\nIndomethacin: Glucagon có thể làm mất khả năng tăng đường huyết hoặc ngược lại là thậm chí có thể gây hạ đường huyết.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Tương tác thuốc | Nội dung:\nIndomethacin: Glucagon có thể làm mất khả năng tăng đường huyết hoặc ngược lại là thậm chí có thể gây hạ đường huyết.\nThuốc chẹn beta: Bệnh nhân dùng thuốc chẹn beta có thể bị tăng cả mạch và huyết áp, sự gia tăng này sẽ chỉ là tạm thời vì thời gian bán hủy của glucagon ngắn. Việc tăng huyết áp và nhịp mạch có thể cần điều trị ở những bệnh nhân bị bệnh mạch vành .\nTương kỵ thuốc Glucagon có thể kết tủa trong dung dịch nước muối và trong các dung dịch có pH 3 đến 9,5.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Lưu ý | Nội dung:\nLưu ý chung Người có u đảo tụy (u tiết insulin) và/hoặc u tế bào ưa crom: Glucagon kích thích giải phóng các catecholamin từ u tế bào ưa crom, dẫn đến tăng huyết áp và kích thích giải phóng insulin từ u đảo tụy, dẫn đến hạ glucose huyết. Glucagon đã được dùng trong chẩn đoán u tế bào ưa crom và u đảo tụy, nhưng việc sử dụng này không được khuyến cáo vì lý do an toàn.\nDùng glucagon để chẩn đoán ở người có tiền sử đái tháo đường.\nNgười dị ứng với protein lợn hoặc bò có thể dị ứng với glucagon vì glucagon có nguồn gốc từ lợn hoặc bò.\nLưu ý với phụ nữ có thai Dùng glucagon cho người mang thai chưa thấy có tác dụng phụ đặc biệt đối với bào thai Lưu ý với phụ nữ cho con bú Không có nguy cơ đối với trẻ bú mẹ khi dùng glucagon cho người mẹ.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Glucagon | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Sau một trường hợp hạ đường huyết nghiêm trọng, khả năng tập trung và phản ứng của bệnh nhân có thể bị suy giảm. Do đó bệnh nhân không nên lái xe hoặc vận hành máy móc sau khi bị hạ đường huyết nghiêm trọng cho đến khi bệnh nhân đã ổn định.\nSau các thủ thuật chẩn đoán, tình trạng hạ đường huyết không thường xuyên được báo cáo. Do đó, nên tránh lái xe và vận hành máy móc cho đến khi bệnh nhân đã dùng bữa với carbohydrate đường uống.",
+        "metadata": {
+            "name": "Glucagon",
+            "id": "glucagon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/glucagon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

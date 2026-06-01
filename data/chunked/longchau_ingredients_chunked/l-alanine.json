@@ -1,0 +1,58 @@
+[
+    {
+        "text": "Hoạt chất: L-Alanine | Phần: Mô tả tổng quan | Nội dung:\nMột axit amin không thiết yếu xảy ra ở mức cao trong trạng thái tự do trong huyết tương. Nó được sản xuất từ pyruvate bằng cách truyền. Nó tham gia vào quá trình chuyển hóa đường và axit, tăng khả năng miễn dịch và cung cấp năng lượng cho mô cơ, não và hệ thần kinh trung ương.",
+        "metadata": {
+            "name": "L-Alanine",
+            "id": "l-alanine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/l-alanine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: L-Alanine | Phần: Chỉ định | Nội dung:\nĐược sử dụng để tổng hợp protein .",
+        "metadata": {
+            "name": "L-Alanine",
+            "id": "l-alanine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/l-alanine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: L-Alanine | Phần: Dược lực học | Nội dung:\nLà một nguồn năng lượng quan trọng cho các mô cơ, não và hệ thần kinh trung ương; tăng cường hệ thống miễn dịch bằng cách sản xuất kháng thể; giúp chuyển hóa đường và axit hữu cơ.",
+        "metadata": {
+            "name": "L-Alanine",
+            "id": "l-alanine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/l-alanine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: L-Alanine | Phần: Dược động học | Nội dung:\nL-Alanine là một axit amin không thiết yếu xảy ra ở mức độ cao ở trạng thái tự do trong huyết tương. Nó được sản xuất từ pyruvate bằng cách truyền. Nó tham gia vào quá trình chuyển hóa đường và axit, tăng khả năng miễn dịch và cung cấp năng lượng cho mô cơ, não và hệ thần kinh trung ương. BCAA được sử dụng làm nguồn năng lượng cho các tế bào cơ. Trong thời gian tập thể dục kéo dài, BCAA được giải phóng từ cơ xương và xương carbon của chúng được sử dụng làm nhiên liệu, trong khi phần nitơ của chúng được sử dụng để tạo thành một axit amin khác, Alanine. Alanine sau đó được chuyển đổi thành Glucose bởi gan. Hình thức sản xuất năng lượng này được gọi là chu trình Alanine-Glucose và nó đóng vai trò chính trong việc duy trì cân bằng lượng đường trong máu của cơ thể.",
+        "metadata": {
+            "name": "L-Alanine",
+            "id": "l-alanine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/l-alanine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    }
+]

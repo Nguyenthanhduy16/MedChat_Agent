@@ -1,0 +1,506 @@
+[
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Iloperidone Loại thuốc Thuốc chống loạn thần.\nDạng thuốc và hàm lượng Viên nén: 1 mg, 2 mg, 4 mg, 6 mg, 8 mg, 10 mg, 12 mg.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Chỉ định | Nội dung:\nThuốc Iloperidone được chỉ định dùng để điều trị tâm thần phân liệt ở người lớn.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Dược lực học | Nội dung:\nNhóm dược lý :\nThuốc chống loạn thần không điển hình.\nMã ATC:\nN05AX14.\nCơ chế tác dụng: Cơ chế hoạt động của iloperidone , cũng như các thuốc khác có hiệu quả trong bệnh tâm thần phân liệt vẫn chưa được biết rõ. Tuy nhiên, có thể do iloperidone tác động thông qua sự kết hợp hoạt tính đối kháng dopamine loại 2 (D2) và serotonin loại 2 (5-HT2).",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Dược động học | Nội dung:\nHấp thu Iloperidone được hấp thu tốt sau khi uống với nồng độ đỉnh trong huyết tương đạt được trong vòng 2 - 4 giờ. Dùng iloperidone với một bữa ăn giàu chất béo không ảnh hưởng đáng kể đến C max hoặc AUC của thuốc, chất chuyển hoá P88 và P95, nhưng Tmax tăng 1 giờ đối với iloperidone, 2 giờ đối với P88 và 6 giờ đối với P95.\nPhân bố Iloperidone có CL/F (độ thanh thải/sinh khả dụng) từ 47 - 102 L/h, thể tích phân bố là 1340 - 2800 L. Ở nồng độ điều trị, iloperidone liên kết trong huyết tương khoảng 97% và của mỗi chất chuyển hóa (P88 và P95) khoảng 92%.\nChuyển hóa Iloperidone được chuyển hóa chủ yếu theo 3 con đường: Khử carbonyl, hydroxyl hóa (qua trung gian CYP2D6) và O-demethyl hóa (qua trung gian CYP3A4). Có 2 chất chuyển hóa chính: P95 và P88.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Dược động học | Nội dung:\nThải trừ Thuốc được đánh dấu phóng xạ hầu hết thải trừ qua nước tiểu (58% ở người mang gen CYP2D6 chuyển hoá nhiều và 45% ở người mang gen CYP2D6 chuyển hoá kém). Thải trừ qua phân chiếm khoảng 20%. Thời gian bán thải trung bình của iloperidone, P88 và P95 lần lượt là 18, 26 và 23 giờ ở những người mang gen CYP2D6 chuyển hóa nhiều và 33, 37, 31 giờ tương ứng ở những người chuyển hóa kém.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Liều lượng | Nội dung:\nLiều dùng Iloperidone Người lớn Dùng liều khởi đầu iloperidone thấp và tăng liều từ từ để tránh hạ huyết áp thế đứng do tác động chẹn α-adrenergic của thuốc.\nLiều khởi đầu khuyến cáo: 1 mg x 2 lần/ngày.\nTăng dần liều lên 6 - 12 mg x 2 lần/ngày (12 - 24 mg/ngày) để đạt hiệu quả điều trị với mức điều chỉnh liều hàng ngày không vượt quá 2 mg x 2 lần/ngày (4 mg/ngày).\nLiều tối đa: 12 mg x 2 lần/ngày (24 mg/ngày).\nChưa có nghiên cứu về thời gian điều trị tối ưu với iloperidone. Tiếp tục sử dụng thuốc sau khi qua giai đoạn cấp tính và định kỳ đánh giá để xác định nhu cầu điều trị duy trì.\nTái điều trị ở những bệnh nhân ngừng thuốc Điều chỉnh liều dùng từ đầu nếu bệnh nhân có khoảng thời gian ngưng dùng iloperidone trên 3 ngày.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Liều lượng | Nội dung:\nTái điều trị ở những bệnh nhân ngừng thuốc Điều chỉnh liều dùng từ đầu nếu bệnh nhân có khoảng thời gian ngưng dùng iloperidone trên 3 ngày.\nChuyển từ các thuốc chống loạn thần khác Có thể ngưng hẳn hoặc giảm liều từ từ các thuốc chống loạn thần khác khi chuyển sang sử dụng iloperidone, tuỳ vào từng cá thể bệnh nhân. Trong mọi trường hợp, nên giảm tối đa khoảng thời gian dùng đồng thời các thuốc chống loạn thần.\nĐối tượng khác Điều chỉnh liều cho bệnh nhân dùng iloperidone đồng thời với các chất ức chế CYP2D6 và CYP3A4 Nên giảm nửa liều iloperidone khi dùng đồng thời với các chất ức chế CYP2D6 mạnh (như fluoxetine hoặc paroxetin) và chất ức chế CYP3A4 mạnh (như ketoconazole hoặc clarithromycin). Khi ngưng chất ức chế CYP2D6 và CYP3A4, tăng liều iloperidone như khuyến cáo.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Liều lượng | Nội dung:\nĐiều chỉnh liều cho bệnh nhân mang kiểu gen chuyển hóa kém qua CYP2D6 đang dùng iloperidone Giảm nửa liều iloperidone khi kê đơn cho đối tượng này.\nSuy gan Không cần điều chỉnh liều iloperidone ở bệnh nhân suy gan nhẹ, thận trọng khi dùng cho bệnh nhân suy gan trung bình và không khuyến cáo chỉ định cho bệnh nhân suy gan nặng.\nCách dùng Uống thuốc cùng hoặc không cùng với thức ăn.\nNếu bệnh nhân bỏ lỡ một liều, nên uống bổ sung càng sớm càng tốt. Nếu gần đến thời điểm cho liều tiếp theo, không nên dùng liều đã quên và dùng thuốc vào thời điểm bình thường.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Các dấu hiệu và triệu chứng quá liều iloperidone giống với tác dụng không mong muốn nhưng ở mức độ nặng hơn (ví dụ: Buồn ngủ, an thần, nhịp tim nhanh và hạ huyết áp).\nCách xử lý khi quá liều Không có thuốc giải độc cụ thể cho iloperidone. Do đó, nên dùng các biện pháp hỗ trợ. Trong trường hợp quá liều cấp tính, cần đảm bảo đường thở thông thoáng và cung cấp đủ oxy. Rửa dạ dày (sau khi đặt nội khí quản, nếu bệnh nhân bất tỉnh) và dùng than hoạt cùng với thuốc nhuận tràng. Phù, co giật hoặc phản ứng loạn dưỡng ở đầu và cổ sau quá liều có thể gây ra nguy cơ hít chất nôn. Theo dõi điện tâm đồ liên tục để phát hiện các rối loạn nhịp tim và điều trị ngay nếu cần.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Quá liều và xử trí | Nội dung:\nKhông nên sử dụng disopyramide, procainamide và quinidine, vì các thuốc này có khả năng gây kéo dài QT. Điều trị hạ huyết áp và trụy tuần hoàn bằng truyền dịch tĩnh mạch hoặc dùng thuốc cường giao cảm (không dùng epinephrine và dopamine, vì chủ vận beta có thể làm trầm trọng thêm tình trạng hạ huyết áp trong do iloperidone chẹn alpha). Trong trường hợp các triệu chứng ngoại tháp nghiêm trọng, nên dùng thuốc kháng cholinergic.\nQuên liều và xử trí Nếu bệnh nhân bỏ lỡ một liều, nên uống bổ sung càng sớm càng tốt. Nếu gần đến thời điểm cho liều tiếp theo, không nên dùng liều đã quên và dùng thuốc vào thời điểm bình thường.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Tương tác thuốc | Nội dung:\nTương tác Iloperidone với các thuốc khác Các thuốc khác ảnh hưởng đến iloperidone Cả CYP3A4 và CYP2D6 đều chuyển hóa iloperidone. Chất ức chế CYP3A4 (ketoconazole) hoặc ức chế CYP2D6 (fluoxetine, paroxetine) có thể ức chế đào thải iloperidone và gây tăng nồng độ trong máu.\nKetoconazole Dùng đồng thời ketoconazole (200 mg x 2 lần/ngày trong 4 ngày) với 3 mg iloperidone làm tăng diện tích dưới đường cong (AUC) của iloperidone và các chất chuyển hóa P88 và P95 lần lượt là 57%, 55% và 35%. Nên giảm nửa liều Iloperidone khi dùng với hoặc các chất ức chế mạnh CYP3A4 khác (itraconazole). Khi ngưng chất ức chế CYP3A4, tăng liều iloperidone về mức cũ.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Tương tác thuốc | Nội dung:\nFluoxetine Dùng chung (20 mg x 2 lần/ngày trong 21 ngày), với 3 mg iloperidone làm tăng AUC của iloperidone và chất chuyển hóa P88 lên khoảng 2 - 3 lần và giảm AUC của chất chuyển hóa P95 một nửa. Nên giảm nửa liều iloperidone khi dùng với fluoxetine.\nParoxetine Dùng đồng thời chất ức chế mạnh CYP2D6 là (20 mg/ngày trong 5 - 8 ngày) với iloperidone (8 hoặc 12 mg x 2 lần/ngày) làm tăng nồng độ đỉnh trung bình ở trạng thái ổn định của iloperidone và chất chuyển hóa P88 khoảng 1,6 lần và giảm một nửa của chất chuyển hóa P95 . Nên giảm nửa liều iloperidone khi dùng với paroxetine.\nKhi ngưng chất ức chế CYP2D6, tăng liều iloperidone về mức cũ.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Tương tác thuốc | Nội dung:\nKhi ngưng chất ức chế CYP2D6, tăng liều iloperidone về mức cũ.\nParoxetine và Ketoconazole Dùng chung paroxetine (20 mg x 1 lần/ngày trong 10 ngày) và ketoconazole (200 mg x 2 lần/ngày) với iloperidone (8 hoặc 12 mg x 2 lần/ngày) dẫn đến nồng độ iloperidone ở trạng thái ổn định tăng 1,4 lần; chất chuyển hóa P88 và P95 giảm 1,4 lần. Do đó, nên giảm nửa liều iloperidone khi dùng đồng thời với hai chất ức chế CYP2D6 và CYP3A4.\nIloperidone ảnh hưởng đến các thuốc khác Iloperidone là một chất ức chế CYP3A phụ thuộc vào thời gian ở liều điều trị. Sử dụng đồng thời iloperidone có thể dẫn đến tăng nồng độ thuốc được chuyển hoá chủ yếu bởi CYP3A4 trong huyết tương.\nMột liều iloperidone 3 mg duy nhất không ảnh hưởng đến dược động học của fluoxetine (20 mg x 2 lần/ngày).",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Tương tác thuốc | Nội dung:\nMột liều iloperidone 3 mg duy nhất không ảnh hưởng đến dược động học của fluoxetine (20 mg x 2 lần/ngày).\nThuốc kéo dài khoảng QT Không nên sử dụng đồng thời iloperidone với bất kỳ loại thuốc nào khác gây kéo dài khoảng QT.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nLưu ý chung Tăng tỷ lệ tử vong Bệnh nhân cao tuổi bị rối loạn tâm thần liên quan đến sa sút trí tuệ được điều trị bằng thuốc chống loạn thần không điển hình có nguy cơ gia tăng tỷ lệ tử vong so với giả dược. Iloperidone không được chấp thuận để điều trị bệnh nhân mắc chứng sa sút trí tuệ liên quan đến rối loạn tâm thần.\nCác biến cố trên mạch máu não, bao gồm đột quỵ Trong các thử nghiệm có đối chứng với giả dược ở người cao tuổi mắc chứng sa sút trí tuệ, bệnh nhân dùng iloperidone có tỷ lệ bị tác dụng phụ mạch máu não ( tai biến mạch máu não và cơn thiếu máu cục bộ thoáng qua) bao gồm tử vong cao hơn so với bệnh nhân được điều trị bằng giả dược. Iloperidone không được chấp thuận để điều trị cho bệnh nhân bị rối loạn tâm thần liên quan đến sa sút trí tuệ.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nKéo dài QT Iloperidone liều 12 mg x 2 lần/ngày gây kéo dài QTc 9 msec so với bình thường. Ảnh hưởng của iloperidone đến khoảng QT tăng lên khi dùng đồng thời với chất ức chế CYP2D6 hoặc 3A4 (ví dụ: Paroxetine 20 mg x 1 lần/ngày và ketoconazole 200 mg x 2 lần/ngày). Kết hợp 2 thuốc ức chế CYP2D6 và 3A4 với iloperidone 12 mg x 2 lần/ngày có thể gây tăng QTcF so với ban đầu khoảng 19 msec.\nKhông có trường hợp xoắn đỉnh hoặc rối loạn nhịp tim nghiêm trọng được báo cáo.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nKhông có trường hợp xoắn đỉnh hoặc rối loạn nhịp tim nghiêm trọng được báo cáo.\nNên tránh kết hợp iloperidone với các loại thuốc có khả năng kéo dài QTc bao gồm thuốc chống loạn nhịp nhóm IA ( quinidine , procainamide) hoặc nhóm III ( amiodarone , sotalol), thuốc chống loạn thần ( chlorpromazine , thioridazine), kháng sinh (gatifloxacin, moxifloxacin ) hoặc một số thuốc khác (như pentamidine , levomethadyl acetate, methadone). Tránh kê đơn iloperidone cho bệnh nhân có hội chứng QT dài bẩm sinh và có tiền sử rối loạn nhịp tim.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nMột số trường hợp có yếu tố gây tăng nguy cơ xoắn đỉnh và/hoặc đột tử liên quan đến sử dụng các thuốc kéo dài khoảng QTc, bao gồm nhịp tim chậm, hạ kali hoặc hạ magnesi máu, sử dụng đồng thời các loại thuốc kéo dài khoảng QTc, khoảng QT dài bẩm sinh, nhồi máu cơ tim cấp gần đây và suy tim mất bù.\nThận trọng khi kê đơn iloperidone với các thuốc ức chế chuyển hóa thuốc này và ở bệnh nhân bị giảm hoạt tính của CYP2D6.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nThận trọng khi kê đơn iloperidone với các thuốc ức chế chuyển hóa thuốc này và ở bệnh nhân bị giảm hoạt tính của CYP2D6.\nCần định lượng nồng độ kali và magnesi huyết thanh ban đầu và theo dõi định kỳ ở bệnh nhân điều trị bằng iloperidone có nguy cơ rối loạn điện giải đáng kể. Hạ kali máu (và/hoặc hạ magnesi máu) có thể làm tăng nguy cơ kéo dài QT và rối loạn nhịp tim . Không chỉ định iloperidone cho bệnh nhân có tiền sử bệnh tim mạch nghiêm trọng (QT kéo dài, nhồi máu cơ tim cấp gần đây, suy tim mất bù, hoặc rối loạn nhịp tim). Những bệnh nhân được phát hiện có QTc liên tục dài > 500 msec nên ngưng thuốc.\nBệnh nhân dùng iloperidone gặp các triệu chứng dự báo rối loạn nhịp tim như chóng mặt, đánh trống ngực hoặc ngất cần được chẩn đoán ngay.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nBệnh nhân dùng iloperidone gặp các triệu chứng dự báo rối loạn nhịp tim như chóng mặt, đánh trống ngực hoặc ngất cần được chẩn đoán ngay.\nHội chứng ác tính do thuốc an thần (NMS) Một phức hợp triệu chứng có khả năng gây tử vong được gọi là \"Hội chứng ác tính do thuốc an thần (NMS)\" đã được báo cáo khi bệnh nhân dùng thuốc chống loạn thần, bao gồm cả iloperidone. Biểu hiện lâm sàng như tăng oxy máu, cứng cơ, thay đổi tâm thần (gồm các dấu hiệu căng trương lực catatonic) và bằng chứng về sự bất ổn hệ thần kinh tự chủ (mạch hoặc huyết áp không đều, nhịp tim nhanh, toát mồ hôi và rối loạn nhịp tim). Các dấu hiệu khác như tăng creatine phosphokinase, myoglobin niệu (tiêu cơ vân) và suy thận cấp .",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nViệc chẩn đoán bệnh nhân mắc hội chứng này rất phức tạp. Khi chẩn đoán, cần phải xác định các trường hợp có biểu hiện lâm sàng bao gồm cả bệnh lý nghiêm trọng (ví dụ: Viêm phổi, nhiễm trùng toàn thân...) và các triệu chứng ngoại tháp (EPS) không hoặc chưa điều trị khỏi. Ngoài ra cũng cần chẩn đoán phân biệt với ngộ độc thuốc kháng cholinergic trung ương, đột quỵ do nhiệt, sốt do thuốc và bệnh lý thần kinh trung ương nguyên phát hệ thống (CNS).\nCách xử lý Ngừng ngay các thuốc chống loạn thần và các thuốc khác không cần thiết để điều trị đồng thời, điều trị và theo dõi triệu chứng, điều trị các bệnh lý kèm theo. Chưa có phác đồ điều trị NMS cụ thể.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nNếu bệnh nhân phải dùng thuốc chống loạn thần sau khi hồi phục sau NMS, cần lựa chọn cẩn thận liệu pháp điều trị và thường xuyên theo dõi, vì đã có các trường hợp tái phát NMS.\nRối loạn vận động chậm Rối loạn vận động chậm là một hội chứng đặc trưng bởi các rối loạn vận động không thể đảo ngược, không tự chủ, có thể phát triển ở những bệnh nhân được điều trị bằng thuốc chống loạn thần. Hội chứng này thường gặp nhất ở người cao tuổi, đặc biệt là phụ nữ.\nKhông thể dựa vào ước tính tỷ lệ để dự đoán khả năng mắc mà tất cả bệnh nhân đều có thể gặp hội chứng này. Nguy cơ phát triển rối loạn vận động chậm và khả năng không phục hồi được sẽ tăng lên khi tăng thời gian điều trị và tổng liều tích lũy của thuốc chống loạn thần.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nChưa có phương pháp điều trị rối loạn vận động chậm, tuy nhiên hội chứng có thể thuyên giảm một phần hoặc hoàn toàn nếu ngưng thuốc chống loạn thần. Tuy nhiên, bản thân điều trị chống loạn thần có thể ngăn chặn các dấu hiệu và triệu chứng của hội chứng và do đó khó có thể phát hiện. Ảnh hưởng lâu dài của việc ức chế triệu chứng của hội chứng vẫn chưa được biết rõ.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 8
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nCần cân nhắc khi kê đơn iloperidone để giảm thiểu sự xuất hiện của rối loạn vận động muộn. Điều trị lâu dài bằng thuốc nên dành riêng cho những bệnh nhân mắc bệnh mãn tính có đáp ứng tốt với các loại thuốc chống loạn thần và không có sẵn hoặc không thích hợp điều trị bằng phương pháp thay thế (hiệu quả tương đương nhưng độc tính thấp hơn). Ở những bệnh nhân này, nên dùng liều nhỏ nhất và thời gian điều trị ngắn nhất có hiệu quả và định kỳ đánh giá nhu cầu tiếp tục điều trị.\nNếu các dấu hiệu và triệu chứng của rối loạn vận động chậm xuất hiện ở bệnh nhân đang điều trị FANAPT, nên xem xét việc ngừng thuốc. Tuy nhiên, một số bệnh nhân có thể yêu cầu điều trị bằng FANAPT bất chấp sự hiện diện của hội chứng.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 9
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nNếu các dấu hiệu và triệu chứng rối loạn vận động chậm xuất hiện ở bệnh nhân đang điều trị bằng iloperidone, nên xem xét ngừng thuốc (trừ một vài trường hợp nhất thiết phải sử dụng).\nThay đổi trao đổi chất Thuốc chống loạn thần không điển hình có thể gây thay đổi chuyển hóa, làm tăng nguy cơ tim mạch/mạch máu não. Những thay đổi chuyển hóa này bao gồm tăng đường huyết, rối loạn lipid máu và tăng cân.\nTăng đường huyết và bệnh đái tháo đường Một số báo cáo về tình trạng tăng đường huyết quá cao, dẫn đến đến nhiễm toan ceton, hôn mê sâu hoặc tử vong ở những bệnh nhân điều trị bằng thuốc chống loạn thần không điển hình bao gồm iloperidone, tuy nhiên mối liên hệ vẫn chưa được xác định.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 10
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nBệnh nhân đái tháo đường bắt đầu dùng thuốc chống loạn thần không điển hình nên được theo dõi thường xuyên để kiểm soát tránh lượng glucose máu tăng cao. Bệnh nhân có yếu tố nguy cơ mắc đái tháo đường (ví dụ: Béo phì, tiền sử gia đình) đang bắt đầu dùng thuốc chống loạn thần không điển hình nên làm xét nghiệm đường huyết đói lúc khởi đầu và định kỳ trong thời gian điều trị.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 11
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nTheo dõi các triệu chứng của tăng đường huyết ở bệnh nhân đang dùng thuốc chống loạn thần không điển hình, bao gồm ăn nhiều, uống nhiều, tiểu nhiều và suy nhược. Triệu chứng của tăng đường huyết tiến triển trong khi điều trị bằng nhóm thuốc này nên kiểm tra đường huyết đói. Trong một số trường hợp, tình trạng tăng đường huyết sẽ hết khi ngừng thuốc; tuy nhiên, một số bệnh nhân khác vẫn cần tiếp tục điều trị đái tháo đường.\nRối loạn lipid máu Một số bệnh nhân điều trị với thuốc chống loạn thần không điển hình gặp phải tình trạng rối loạn lipid máu.\nTăng cân Thuốc chống loạn thần không điển hình có thể gây tăng cân. Cần thường xuyên theo dõi cân nặng trong quá trình dùng thuốc.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 12
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nTăng cân Thuốc chống loạn thần không điển hình có thể gây tăng cân. Cần thường xuyên theo dõi cân nặng trong quá trình dùng thuốc.\nĐộng kinh Cũng như các thuốc chống loạn thần khác, thận trọng khi chỉ định iloperidone cho bệnh nhân có tiền sử động kinh hoặc các bệnh lý có thể làm giảm ngưỡng động kinh, như bệnh Alzheimer, chứng mất trí nhớ (phổ biến hơn ở nhóm dân số 65 tuổi trở lên).",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 13
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nHạ huyết áp thế đứng và ngất Iloperidone có thể gây hạ huyết áp thế đứng liên quan đến chóng mặt, nhịp tim nhanh và ngất do tác dụng đối kháng α1-adrenergic. Nên sử dụng iloperidone thận trọng ở những bệnh nhân có bệnh tim mạch (ví dụ: Suy tim, tiền sử nhồi máu cơ tim, thiếu máu cục bộ hoặc bất thường dẫn truyền), bệnh mạch máu não hoặc các tình trạng dẫn đến hạ huyết áp (mất nước, giảm thể tích tuần hoàn và điều trị bằng thuốc hạ huyết áp). Nên giám sát sinh hiệu thế đứng ở những bệnh nhân dễ bị hạ huyết áp.\nGiảm bạch cầu, giảm bạch cầu trung tính và tăng bạch cầu hạt Giảm bạch cầu/giảm bạch cầu trung tính tạm thời có liên quan đến thuốc chống loạn thần. Mất bạch cầu hạt (có thể gây tử vong) cũng đã được báo cáo.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 14
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nCác yếu tố gây tăng nguy cơ gặp phải biến cố này bao gồm số lượng bạch cầu (WBC) thấp và tiền sử dùng thuốc giảm bạch cầu/bạch cầu trung tính. Bệnh nhân có những yếu tố nguy cơ này nên được theo dõi công thức máu toàn bộ (CBC) thường xuyên trong vài tháng đầu dùng thuốc và nên ngừng iloperidone khi có dấu hiệu khởi phát suy giảm WBC trong trường hợp không có các yếu tố gây bệnh khác.\nBệnh nhân bị giảm bạch cầu cần được theo dõi tình trạng sốt hoặc các dấu hiệu nhiễm trùng khác và được điều trị kịp thời. Bệnh nhân bị giảm bạch cầu trung tính nặng (số lượng bạch cầu trung tính tuyệt đối < 1000/mm3) nên ngừng iloperidone và theo dõi WBC đến khi hồi phục.\nTăng prolactin máu Giống các loại thuốc khác đối kháng với các thụ thể dopamine D2, iloperidone gây tăng mức prolactin.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 15
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nTăng prolactin máu Giống các loại thuốc khác đối kháng với các thụ thể dopamine D2, iloperidone gây tăng mức prolactin.\nTăng prolactin máu có thể ức chế GnRH vùng dưới đồi, dẫn đến tuyến yên giảm bài tiết gonadotropin. Điều này có thể gây ức chế chức năng sinh sản do suy giảm sự hình thành tuyến sinh dục ở cả bệnh nhân nữ và nam. Chứng xuất huyết, vô kinh, nữ hóa tuyến vú và bất lực đã được báo cáo với các hợp chất làm tăng prolactin. Tăng prolactin máu khi kết hợp với thiểu năng sinh dục có thể dẫn đến giảm mật độ xương ở cả nữ và nam.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 16
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nKhoảng 1/3 số ca ung thư vú ở người là phụ thuộc vào prolactin (in vitro). Theo một số nghiên cứu đối chứng với giả dược, iloperidone gây tăng nồng độ prolactin huyết tương. Tuy nhiên, đến nay vẫn chưa chứng minh được mối liên quan giữa việc sử dụng mãn tính nhóm thuốc này với sự phát sinh khối u ở người.\nĐiều chỉnh nhiệt độ nội tạng Thuốc chống loạn thần có thể gây gián đoạn khả năng giảm nhiệt độ các cơ quan bên trong cơ thể. Nên cẩn thận khi kê đơn iloperidone cho bệnh nhân gặp tình trạng thúc đẩy tăng nhiệt độ nội tạng, ví dụ: Tập thể dục gắng sức, tiếp xúc với nhiệt độ quá cao, tiếp nhận đồng thời thuốc có hoạt tính kháng cholinergic, hoặc bị mất nước.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 17
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nChứng khó nuốt Sử dụng thuốc chống loạn thần có liên quan đến rối loạn chức năng thực quản và khả năng nuốt. Viêm phổi hít là một nguyên nhân phổ biến gây bệnh tật và tử vong ở bệnh nhân cao tuổi, đặc biệt là những người bị sa sút trí tuệ Alzheimer giai đoạn cuối.\nThận trọng khi kê đơn iloperidone và các thuốc chống loạn thần khác cho những bệnh nhân có nguy cơ bị viêm phổi hít.\nTự tử Bệnh nhân tâm thần thường có ý định tự sát nên cần giám sát chặt chẽ kèm điều trị bằng thuốc. Phải quản lý việc dùng thuốc hằng ngày của bệnh nhân để tránh nguy cơ cố ý sử dụng quá liều.\nCương dương kéo dài Thuốc chẹn α-adrenergic có thể gây cương dương kéo dài, kể cả iloperidone. Trong trường hợp nghiêm trọng, có thể phải can thiệp bằng phẫu thuật.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 18
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nNguy cơ suy giảm nhận thức và vận động Giống như các thuốc chống loạn thần khác, iloperidone có thể làm giảm khả năng phán đoán, tư duy hoặc kỹ năng vận động. Bệnh nhân không nên vận hành máy móc nguy hiểm, bao gồm lái xe, cho đến khi chắc chắn iloperidone không gây tác dụng ngoại ý này.\nLưu ý với phụ nữ có thai Phân loại thai kỳ (FDA): C.\nChưa có nghiên cứu đầy đủ về việc dùng iloperidone ở phụ nữ có thai.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 19
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Phân loại thai kỳ (FDA): C.\nChưa có nghiên cứu đầy đủ về việc dùng iloperidone ở phụ nữ có thai.\nTrẻ tiếp xúc với thuốc chống loạn thần trong ba tháng cuối của thai kỳ có nguy cơ bị ngoại tháp và/hoặc triệu chứng cai nghiện sau khi sinh ra. Đã có báo cáo về tình trạng kích động, tăng trương lực, giảm trương lực cơ, run, buồn ngủ, suy hô hấp và rối loạn bú ở những trẻ sơ sinh này. Các biến chứng này có mức độ nghiêm trọng khác nhau; các triệu chứng tự giới hạn hoặc phải được điều trị tại đơn vị chăm sóc đặc biệt và thời gian nằm viện kéo dài.\nChỉ nên dùng iloperidone trong thời kỳ mang thai nếu lợi ích mang lại cao hơn nguy cơ có thể xảy ra cho thai nhi.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 20
+        }
+    },
+    {
+        "text": "Hoạt chất: Iloperidone | Phần: Lưu ý | Nội dung:\nChỉ nên dùng iloperidone trong thời kỳ mang thai nếu lợi ích mang lại cao hơn nguy cơ có thể xảy ra cho thai nhi.\nLưu ý với phụ nữ cho con bú Chưa biết liệu iloperidone hoặc các chất chuyển hóa có được bài tiết trong sữa mẹ hay không. Khuyến cáo rằng phụ nữ đang dùng iloperidone không nên cho con bú.\nLưu ý khi lái xe và vận hành máy móc Bệnh nhân không nên lái xe hoặc vận hành máy móc nguy hiểm cho đến khi chắc chắn iloperidone không gây ra tác dụng không mong muốn.",
+        "metadata": {
+            "name": "Iloperidone",
+            "id": "iloperidone",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/iloperidone",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 21
+        }
+    }
+]

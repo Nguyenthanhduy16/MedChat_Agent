@@ -1,0 +1,212 @@
+[
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Piroxicam Loại thuốc Thuốc chống viêm không steroid (NSAID) Dạng thuốc và hàm lượng Viên nén 10 mg, 20 mg.\nViên nang 10 mg, 20 mg.\nThuốc tiêm 20 mg/ml.\nGel hoặc kem: 0,5%, 1%.\nViên đạn đặt hậu môn: 20 mg.\nThuốc nhỏ mắt: 0,5%.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Chỉ định | Nội dung:\nPiroxicam không được chỉ định đầu tiên khi có chỉ định dùng thuốc chống viêm không steroid.\nĐiều trị triệu chứng trong các trường hợp sau:\nViêm khớp dạng thấp ,\nthoái hóa khớp .\nViêm cột sống dính khớp, bệnh cơ xương cấp và chấn thương trong thể thao.\nThống kinh và đau sau phẫu thuật.\nBệnh gút cấp.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Dược lực học | Nội dung:\nPiroxicam là thuốc chống viêm không steroid (NSAID), thuộc nhóm oxicam. Thuốc có tác dụng chống viêm, giảm đau và hạ sốt. Cơ chế tác dụng của thuốc chưa được rõ. Tuy nhiên cơ chế chung cho các tác dụng nêu trên có thể do ức chế tổng hợp prostaglandin ở các mô cơ thể bằng cách ức chế cyclooxygenase. Piroxicam ức chế ít nhất 2 isozym là COX-1 (cyclooxygenase-1 còn gọi là PGHS-1) và COX-2 (cyclooxygenase-2 còn gọi là PGHS-2).\nTuy cơ chế chính xác chưa rõ, piroxicam có tác dụng chống viêm giảm đau, hạ sốt chủ yếu thông qua ức chế COX-2 isozym, ức chế COX- 1 gây tác dụng phụ đối với niêm mạc đường tiêu hóa và kết tập tiểu cầu. Piroxicam còn có tác dụng chống viêm, ức chế kết tập tiểu cầu.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Dược động học | Nội dung:\nHấp thu Piroxicam được hấp thu tốt qua đường tiêu hóa. Nồng độ đỉnh trong huyết tương xuất hiện từ 3 - 5 giờ sau khi uống thuốc. Thức ăn làm thay đổi tốc độ nhưng không làm thay đổi mức độ hấp thu thuốc. Các thuốc chống acid (antacid) không làm thay đổi tốc độ và mức độ hấp thu thuốc. Do piroxicam có chu kỳ gan - ruột và có sự khác nhau rất nhiều về hấp thu giữa các người bệnh, nên nửa đời thải trừ của thuốc trong huyết tương biến đổi từ 20 - 70 giờ.\nPhân bố Thuốc gắn rất mạnh với protein huyết tương (khoảng 99,3%). Thể tích phân bố xấp xỉ 0,12 - 0,14 lít/kg. Nồng độ thuốc trong hoạt dịch xấp xỉ 40% nồng độ trong huyết tương, tuy nhiên nồng độ này thay đổi rộng ở các cá thể khác nhau.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Dược động học | Nội dung:\nChuyển hóa Chuyển hóa chủ yếu của thuốc là hydroxyl - hóa nhân pyridin của chuỗi bên của piroxicam, tiếp theo là liên hợp với acid glucuronic, sau đó chất liên hợp này được thải theo nước tiểu.\nThải trừ Dưới 5% thuốc thải trừ theo nước tiểu và phân ở dạng không thay đổi. Lượng thải qua phân ở dạng chuyển hóa bằng ½ so với lượng thải trừ qua nước tiểu.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Liều lượng | Nội dung:\nLiều dùng piroxicam Người lớn Đường uống: 10 - 20 mg/ngày/lần. Một số người bệnh có thể đáp ứng với liều 30 - 40 mg/ngày, liều cao hơn 20 mg/ngày thường tăng các ADR trên hệ tiêu hoá. Tác dụng giảm đau, chống viêm của thuốc sẽ xuất hiện ngay khi điều trị, và tác dụng này sẽ tăng lên từ từ qua vài tuần do nửa đời thải trừ của thuốc kéo dài, nồng độ thuốc thường chưa đạt được mức ổn định trong vòng 7 - 12 ngày điều trị hoặc do sự điều chỉnh liều.\nĐiều trị bệnh gút cấp: Uống 40 mg/ngày, tác dụng giảm đau và sưng đáp ứng ổn định sau 5 ngày.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Liều lượng | Nội dung:\nĐiều trị bệnh gút cấp: Uống 40 mg/ngày, tác dụng giảm đau và sưng đáp ứng ổn định sau 5 ngày.\nNgười cao tuổi: Liều tương tự như liều người lớn. Thường bắt đầu là 10 mg/lần/ngày. Liều tối đa 20 mg/ngày. Cần thận trọng khi sử dụng thuốc đối với người trên 65 tuổi, ADR trên hệ tiêu hóa như viêm loét và chảy máu dạ dày dẫn đến tử vong rất khác nhau giữa các người bệnh, vì vậy cần dùng liều thấp nhất và thời gian điều trị ngắn nhất có hiệu quả.\nĐường trực tràng: Liều tương tự như đường uống. Phải dùng đường trực tràng trong thời gian ngắn nhất vì nguy cơ độc tại chỗ cao hơn so với đường uống.\nĐường tiêm: Tiêm bắp piroxicam với liều 20 - 40 mg/ngày.\nBôi tại chỗ: Bôi gel hoặc kem 0,5% lên vùng da lành tại chỗ đau, ngày 3 hoặc 4 lần.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Liều lượng | Nội dung:\nĐường tiêm: Tiêm bắp piroxicam với liều 20 - 40 mg/ngày.\nBôi tại chỗ: Bôi gel hoặc kem 0,5% lên vùng da lành tại chỗ đau, ngày 3 hoặc 4 lần.\nTrẻ em Chưa có nghiên cứu cụ thể nên thuốc không nên dùng cho trẻ em. Tuy vậy, theo một số tác giả, piroxicam cũng có thể dùng cho trẻ em từ 6 tuổi trở lên bị viêm khớp dạng thấp thiếu niên. Liều uống thường dùng: 5 mg/ngày cho trẻ nặng dưới 15 kg, 10 mg/ngày cho trẻ nặng 16 - 25 kg, 15 mg/ngày cho trẻ cân nặng 26 - 45 kg và 20 mg/ngày cho trẻ cân nặng từ 46 kg trở lên.\nĐối tượng khác Suy gan: Chưa xác định được dược động học ở người suy gan. Do thuốc thải trừ chủ yếu ở gan, nhà sản xuất khuyến cáo nên giảm liều ở người bị suy gan.\nSuy thận: Không cần điều chỉnh liều với suy thận nhẹ hoặc vừa, chống chỉ định suy thận nặng.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Liều lượng | Nội dung:\nSuy thận: Không cần điều chỉnh liều với suy thận nhẹ hoặc vừa, chống chỉ định suy thận nặng.\nCách dùng Nên dùng liều thấp nhất có hiệu quả và trong thời gian điều trị ngắn nhất phù hợp với mục đích điều trị của người bệnh.\nLợi ích và an toàn của người bệnh phải được đánh giá lại sau mỗi 14 ngày. Nếu cần thiết tiếp tục điều trị phải đánh giá lại thường xuyên.\nThuốc thường uống một liều đơn trong ngày, có thể chia thành các liều nhỏ nếu cần thiết. Liều piroxicam cần điều chỉnh cẩn thận theo đáp ứng của người bệnh.\nCác dạng kết hợp và muối như piroxicam betadex, piroxicam cinamat, piroxicam cholin, piroxicam pivalat đã được sử dụng. Liều piroxicam betadex được tính theo piroxicam, 191,3 mg piroxicam betadex tương đương với 20 mg piroxicam.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Quá liều và xử trí | Nội dung:\nQuá liều piroxicam và xử trí Cách xử lý khi quá liều Điều trị triệu chứng và hỗ trợ. Hiện nay, chưa có các thông tin về xử trí quá liều cấp về hiệu quả và không có khuyến cáo về tính hiệu quả giải độc đặc hiệu. Do đó, các biện pháp rửa dạ dày và điều trị hỗ trợ chung cần được áp dụng. Uống than hoạt có thể làm giảm hấp thu và tái hấp thu piroxicam có hiệu quả và như vậy sẽ làm giảm lượng thuốc còn lại trong cơ thể.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Các NSAID khác và các thuốc chống đông: Không sử dụng đồng thời với piroxicam.\nThuốc chống đông loại cumarin và các thuốc có liên kết protein cao: Cần theo dõi người bệnh chặt chẽ để điều chỉnh liều dùng của các thuốc cho phù hợp, vì piroxicam có thể làm tăng tác dụng của các thuốc này.\nAspirin: Làm giảm kết tập tiểu cầu và kéo dài thời gian đông máu.\nLithi: Sẽ tăng độc tính lithi do làm tăng nồng độ của lithi trong huyết tương.\nRitonavir: Làm tăng nồng độ piroxicam trong huyết tương gây tăng nguy cơ độc tính do đó không nên dùng đồng thời.\nThuốc lợi tiểu: Làm giảm bài tiết natri qua nước tiểu, làm tăng nguy cơ suy thận.\nMethotrexat: Phải thận trọng vì piroxicam làm tăng độc tính của thuốc này, đặc biệt khi sử dụng liều cao.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Tương tác thuốc | Nội dung:\nMethotrexat: Phải thận trọng vì piroxicam làm tăng độc tính của thuốc này, đặc biệt khi sử dụng liều cao.\nGlycoside tim: Trầm trọng thêm tình trạng suy tim .\nCiclosporin, tacrolimus: Có thể tăng nguy cơ độc thận.\nCorticoid: Tăng nguy cơ loét hoặc chảy máu đường tiêu hóa.\nThuốc hạ huyết áp: Làm đối kháng với tác dụng hạ huyết áp.\nThuốc kháng sinh quinolone: Có thể làm tăng nguy cơ co giật.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Lưu ý | Nội dung:\nLưu ý chung Trước khi dùng piroxicam, cần cân nhắc lợi/hại khi dùng piroxicam cũng như liệu pháp thay thế. Xem xét các yêu cầu sau đây khi quyết định sử dụng piroxicam:\nChỉ nên sử dụng khi có chỉ định của thầy thuốc chuyên khoa.\nKhông sử dụng làm thuốc được lựa chọn hàng đầu trong điều trị.\nChỉ sử dụng hạn chế để giảm nhẹ triệu chứng đau trong viêm xương khớp, viêm khớp dạng thấp, viêm cột sống dính khớp ở người lớn.\nKhông nên dùng quá 20 mg/ngày.\nKhông dùng điều trị trong các trường hợp đau và viêm cấp.\nNên sử dụng kết hợp với thuốc bảo vệ dạ dày.\nKhông dùng thuốc đối với người bệnh rối loạn và chảy máu đường tiêu hóa và người bệnh có phản ứng trên da nặng.\nDùng thận trọng trong những trường hợp sau:\nNgười cao tuổi.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Lưu ý | Nội dung:\nDùng thận trọng trong những trường hợp sau:\nNgười cao tuổi.\nRối loạn chảy máu, bệnh tim mạch, có tiền sử loét dạ dày - tá tràng , suy gan hoặc suy thận.\nNgười đang dùng thuốc lợi niệu.\nLưu ý với phụ nữ có thai Giống như các thuốc ức chế tổng hợp và giải phóng prostaglandin khác, piroxicam gây nguy cơ tăng áp lực phổi dai dẳng ở trẻ sơ sinh, do đóng ống động mạch trước khi sinh nếu các thuốc này được dùng trong 3 tháng cuối thai kỳ. Piroxicam còn ức chế chuyển dạ, kéo dài thời gian mang thai và độc tính đối với đường tiêu hóa ở người mang thai. Ngoài ra các nghiên cứu dịch tễ cho thấy sự tăng nguy cơ sẩy thai, dị tật tim và liệt dạ dày sau khi điều trị bằng thuốc ức chế tổng hợp prostaglandin trong thời kỳ đầu mang thai. Vì vậy, không nên dùng piroxicam cho người mang thai.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Piroxicam | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Piroxicam bài tiết vào sữa mẹ với lượng tương đối nhỏ để có thể ảnh hưởng tới trẻ bú sữa mẹ (khoảng 1% so với nồng độ trong huyết tương). Tuy nhiên không dùng trong thời kỳ cho con bú vì chưa xác định độ an toàn của thuốc khi dùng cho mẹ trong thời gian cho con bú.\nLưu ý khi lái xe và vận hành máy móc Các tác dụng không mong muốn như chóng mặt, buồn ngủ, mệt mỏi và rối loạn thị giác có thể xảy ra sau khi dùng NSAID. Nếu bị ảnh hưởng, bệnh nhân không nên lái xe hoặc vận hành máy móc.",
+        "metadata": {
+            "name": "Piroxicam",
+            "id": "piroxicam",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/piroxicam",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

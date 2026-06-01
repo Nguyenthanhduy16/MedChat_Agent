@@ -1,0 +1,184 @@
+[
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Alefacept Loại thuốc Thuốc ức chế miễn dịch; protein tái tổ hợp từ người.\nDạng thuốc và hàm lượng Bột pha tiêm: Lọ chứa 7,5 mg alefacept để tiêm bắp và 15 mg alefacept để tiêm tĩnh mạch.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Chỉ định | Nội dung:\nĐiều trị bệnh vẩy nến : Bao gồm bệnh vẩy nến thể mảng m ạ\nn tính từ trung bình đến nặng ở người lớn với liệu pháp toàn thân hoặc liệu pháp ánh sáng (phototherapy). K hông sử dụng đồng thời với các thuốc ức chế miễn dịch khác .",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Dược lực học | Nội dung:\nAlefacept là một protein tái tổ hợp từ người, Gắn kết CD2 trên các tế bào lympho, ngoại bào của kháng nguyên 3 liên quan đến chức năng bạch cầu người (LFA-3) được liên kết với phần Fc (vùng bản lề và vùng C H2 và C H3) của IgG1 ở người, ngăn chặn sự kích hoạt và giảm sô lượng tế bào T bằng cách liên kết đặc biệt với kháng nguyên CD2 trên tế bào T và ức chế sự tương tác giữa LFA-3 trên tế bào trình diện kháng nguyên và CD2.\nGây giảm số lượng của tế bào T CD2+ (chủ yếu là tế bào T CD45RO+ ), có lẽ là do cầu nối giữa CD2 trên tế bào lympho đích và thụ thể immunoglobulin Fc trên tế bào gây độc tế bào như tế bào chết tự nhiên.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Dược lực học | Nội dung:\nGây giảm tổng số tế bào lympho trong tuần hoàn phụ thuộc vào liều lượng, chủ yếu ảnh hưởng đến kích hoạt của tế bào T CD4+ và CD8+ (tức là tế bào T CD4+ CD45RO+ và CD8+ CD45RO+ ).\nCó thể ảnh hưởng đến sự hoạt hóa và số lượng các tế bào không phải tế bào T, vì CD2 cũng được biểu hiện ở mức độ thấp trên bề mặt của các tế bào chết tự nhiên và một số tế bào B của tủy xương.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Dược động học | Nội dung:\nỨc chế sự kích hoạt và sản xuất tế bào lympho T bằng cách liên kết với kháng nguyên tế bào lympho CD2.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Liều lượng | Nội dung:\nLiều dùng Alefacept Người lớn Bệnh vẩy nến:\nLiều 7,5 mg mỗi tuần một lần dưới dạng tiêm tĩnh mạch hoặc 15 mg mỗi tuần một lần dưới dạng tiêm bắp. Sử dụng liên tục 12 tuần. Có thể điều trị lặp lại kéo dài 12 tuần nếu số lượng tế bào T CD4+ nằm trong phạm vi bình thường và ≥ 12 tuần đã trôi qua kể từ quá trình trước .\nTrước khi bắt đầu điều trị, cần theo dõi số lượng tế bào CD4+ và mỗi 2 tuần trong suốt liệu trình điều trị 12 tuần . Nếu số lượng tế bào T CD4+ thấp hơn 250 /mm 3\n, điều trị duy trì và theo dõi CD4+ hàng tuần, ngừng sử dụng nếu số lượng tế bào T CD4+ vẫn thấp hơn 250/m trong 1 tháng Trẻ em ≥ 6 tuổi và thanh thiếu niên Chưa xác định được tính an toàn và hiệu quả ở bệnh nhi (dưới 18 tuổi) Đối tượng khác Người cao tuổi:",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Liều lượng | Nội dung:\nKhông cần chỉnh liều. Không có sự khác biệt tổng thể về độ an toàn hoặc hiệu quả so với người trẻ tuổi, tuy nhiên vẫn chưa có đủ thông tin để loại trừ những khác biệt quan trọng. Thận trọng khi sử dụng do tăng tỷ lệ nhiễm trùng và một số khối u ác tính ở bệnh nhân lão khoa.\nSuy thận:\nChưa có thông tin.\nSuy gan:\nCách dùng Alefacept Thuốc được sử dụng theo đường tiêm bắp hoặc tiêm tĩnh mạch.\nChuẩn bị thuốc ngay trước khi sử dụng. Hủy bỏ thuốc nếu không sử dụng trong vòng 4 giờ.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Liều lượng | Nội dung:\nChuẩn bị thuốc ngay trước khi sử dụng. Hủy bỏ thuốc nếu không sử dụng trong vòng 4 giờ.\nChỉ sử dụng dung môi pha loãng do nhà sản xuất cung cấp kèm trong sản phẩm. Xoay nhẹ các chất trong dung dịch (thường mất < 2 phút để hòa tan). Để tránh tạo bọt quá nhiều, không lắc lọ và tránh khuấy mạnh. Dung dịch hoàn nguyên phải trong suốt và không màu đến hơi vàng; hòa tan hoàn toàn. Không sử dụng nếu bị đổi màu, vẩn đục hoặc thuốc chưa hòa tan hoàn toàn.\nSử dụng một lần mỗi tuần bằng cách tiêm tĩnh mạch nhanh (≤ 5 giây) hoặc tiêm bắp ở phác đồ điều trị 12 tuần. Đối với tiêm bắp, nên luân chuyển các vị trí tiêm; không tiêm ở những nơi da mềm, bầm tím, đỏ hoặc cứng.\nThuốc được sử dụng bởi nhân viên y tế nên người bệnh ít có khả năng quên liều.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Quá liều và xử trí | Nội dung:\nQuên liều và xử trí Thuốc được sử dụng bởi nhân viên y tế nên người bệnh ít có khả năng quên liều.\nQuá liều và xử trí Quá liều và độc tính Chưa có thông tin về liều dung nạp tối đa của alefacept trên người.\nCách xử lý khi quá liều Alefacept Không có thuốc giải độc cụ thể cho quá liều với alefacept. Điều trị quá liều nên bao gồm các biện pháp hỗ trợ chung.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Tương tác thuốc | Nội dung:\nTương tác Alefacept với các thuốc khác Không có nghiên cứu chính thức về tương tác thuốc cho đến nay.\nKhông nên sử dụng đồng thời với các thuốc ức chế miễn dịch khác vì nguy cơ ức chế miễn dịch quá mức như: abatacept, adalimumab , aldesleukin, alemtuzumab , altretamine, amsacrine, baricitinib , cisplatin… Hiệu quả điều trị của globulin miễn dịch bệnh than ở người có thể bị giảm khi sử dụng kết hợp với alefacept.\nNguy cơ hoặc mức độ nghiêm trọng của các tác dụng ngoại ý có thể tăng lên khi alefacept được kết hợp với các thuốc chống động kinh như carbamazepine, phenytoin.\nKhông tiêm vắc xin (vi rút sống) khi đang sử dụng thuốc.\nTương tác với thực phẩm Chưa có thông tin.\nTương kỵ Không nên được trộn lẫn với bất kỳ loại thuốc nào khác.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Lưu ý | Nội dung:\nLưu ý chung khi dùng Alefacept Nguy cơ giảm bạch huyết, bao gồm giảm số lượng tế bào T CD4+ và CD8+ phụ thuộc vào liều lượng.\nKhông điều trị khi bệnh nhân có lượng CD4+ dưới mức bình thường.\nCó thể tăng nguy cơ mắc các khối u ác tính (ví dụ: ung thư da tế bào đáy hoặc tế bào vảy, u ác tính, các khối u rắn khác, u lympho). Thận trọng sử dụng cho bệnh nhân có tiền sử bệnh ác tính, ngừng nếu bệnh ác tính phát triển.\nCó thể tăng nguy cơ nhiễm trùng. Không sử dụng cho những bệnh nhân bị nhiễm trùng nặng (ví dụ: nhiễm HIV). Theo dõi cẩn thận các biểu hiện nhiễm trùng trong và sau khi điều trị; ngưng nếu nhiễm trùng nghiêm trọng phát triển.\nPhản ứng quá mẫn (ví dụ: nổi mày đay, phù mạch) được báo cáo; nếu phản ứng quá mẫn nghiêm trọng xảy ra, ngừng ngay lập tức và bắt đầu điều trị thích hợp.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Lưu ý | Nội dung:\nKhông sử dụng đồng thời với các thuốc ức chế miễn dịch khác hoặc liệu pháp quang trị liệu (do có khả năng ức chế miễn dịch quá mức).\nTính an toàn và hiệu quả của việc sử dụng vắc xin vi rút sống ở những bệnh nhân đang dùng alefacept chưa được báo cáo.\nTăng nồng độ AST hoặc ALT, nguy cơ dẫn đến gan nhiễm mỡ, viêm gan, xơ gan mất bù hoặc suy gan. Nên đánh giá và theo dõi các biểu hiện của tổn thương gan. Ngừng alefacept nếu tổn thương gan quan trọng về mặt lâm sàng.\nSự hình thành kháng thể Lưu ý với phụ nữ có thai Có thể sử dụng được trên phụ nữ mang thai.\nLưu ý với phụ nữ cho con bú Không biết có được phân phối vào sữa hay không; ngừng cho con bú khi sử dụng thuốc hoặc ngưng thuốc nếu cho con bú.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Alefacept | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Không biết có được phân phối vào sữa hay không; ngừng cho con bú khi sử dụng thuốc hoặc ngưng thuốc nếu cho con bú.\nLưu ý khi lái xe & vận hành máy móc Không có nghiên cứu nào về ảnh hưởng đến khả năng lái xe và sử dụng máy móc đã được thực hiện.",
+        "metadata": {
+            "name": "Alefacept",
+            "id": "Alefacept",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/Alefacept",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

@@ -1,0 +1,226 @@
+[
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc Raltitrexed Loại thuốc Thuốc điều trị ung thư – thuốc kháng chuyển hóa.\nDạng thuốc và hàm lượng Bột pha tiêm 2 mg.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Chỉ định | Nội dung:\nRaltitrexed được chỉ định dùng điều trị giảm nhẹ bệnh ung thư đại trực tràng tiến triển, không dung nạp hoặc không phù hợp với các phác đồ dùng 5 - fluorouracil và Acid folinic.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Dược lực học | Nội dung:\nRaltitrexed là một chất tương tự folate thuộc họ chất chống chuyển hóa và có hoạt tính ức chế mạnh đối với enzyme thymidylate synthase (TS). So với các chất chống chuyển hóa khác như 5-fluorouracil hoặc methotrexate , Raltitrexed tác động như một chất ức chế TS trực tiếp và chọn lọc.\nTS là enzyme quan trọng trong tổng hợp mới thymidine triphosphate (TTP), một nucleotide cần thiết cho quá trình tổng hợp acid deoxyribonucleic (DNA). Sự ức chế TS dẫn đến sự phân mảnh DNA và làm chết tế bào.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Dược lực học | Nội dung:\nRaltitrexed được vận chuyển vào tế bào thông qua chất mang folate khử (RFC) và sau đó được polyglutamate hóa bởi enzyme folylpolyglutamate synthetase (FPGS) thành dạng polyglutamate được giữ lại trong tế bào và có tác dụng ức chế mạnh hơn TS. Raltitrexed polyglutamate tăng cường hiệu lực ức chế TS và tăng thời gian trong tế bào, điều này có thể cải thiện hoạt động kháng khối u.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Dược động học | Nội dung:\nHấp thu và phân bố Ở bệnh nhân truyền tĩnh mạch 3,0 mg/m 2\nRaltitrexed, nồng độ đỉnh trung bình trong huyết tương là 656 ng/ml. Nồng độ đỉnh tăng tuyến tính với liều ở các mức liều nghiên cứu.\nKhi dùng lặp lại cách nhau 3 tuần, không có sự tích tụ Raltitrexed trong huyết tương ở bệnh nhân có chức năng thận bình thường. Khoảng 93% thuốc liên kết với protein.\nChuyển hóa Thuốc được Polyglutamate hoá trong tế bào, phần còn lại không chuyển hóa.\nThải trừ Thải trừ qua nước tiểu 40 – 50% và thải trừ qua phân 15%.\nSuy gan nhẹ - trung bình: Giảm độ thanh thải khoảng dưới 25%.\nSuy thận nhẹ - trung bình (độ thanh thải creatinin từ 25 - 65 ml/phút) giảm đáng kể độ thanh thải Raltitrexed (khoảng 50%).",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Liều lượng | Nội dung:\nLiều dùng Người lớn Liều 3 mg/m 2\ntính theo diện tích da. Trong trường hợp không có độc tính, điều trị có thể được lặp lại sau mỗi 3 tuần.\nTrước mỗi đợt điều trị, cần xét nghiệm công thức máu toàn phần, transaminase gan, bilirubin huyết, creatinine huyết.\nTổng số lượng bạch cầu phải > 4.000/mm 3\n, bạch cầu trung tính > 2.000/mm và tiểu cầu > 100.000/mm trước khi điều trị.\nTrong trường hợp xuất hiện độc tính, tạm ngưng điều trị cho đến khi các hết các triệu chứng, đặc biệt là triệu chứng nhiễm độc đường tiêu hóa và huyết học. Những bệnh nhân có dấu hiệu nhiễm độc tiêu hóa nên được theo dõi cẩn thận công thức máu toàn phần (ít nhất hàng tuần) để tìm các dấu hiệu nhiễm độc huyết học.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Liều lượng | Nội dung:\nDựa trên mức độ độc tính nặng nhất trên đường tiêu hóa và huyết học ở lần điều trị trước đó, khuyến cáo giảm liều như sau đây cho lần điều trị kế tiếp:\nGiảm 25% liều: Ở bệnh nhân nhiễm độc huyết học cấp độ 3 của WHO (giảm bạch cầu trung tính hoặc giảm tiểu cầu) hoặc nhiễm độc đường tiêu hóa cấp độ 2 của WHO ( tiêu chảy hoặc viêm niêm mạc).\nGiảm 50% liều: Ở bệnh nhân nhiễm độc huyết học cấp độ 4 của WHO (giảm bạch cầu hoặc giảm tiểu cầu) hoặc nhiễm độc đường tiêu hóa cấp 3 theo WHO (tiêu chảy hoặc viêm niêm mạc).\nKhi đã giảm liều, tất cả các liều tiếp theo phải được dùng với mức liều đã giảm.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Liều lượng | Nội dung:\nKhi đã giảm liều, tất cả các liều tiếp theo phải được dùng với mức liều đã giảm.\nNgừng điều trị ngay nếu nhiễm độc đường tiêu hóa cấp độ 4 của WHO (tiêu chảy hoặc viêm niêm mạc) hoặc trong trường hợp nhiễm độc đường tiêu hóa cấp độ 3 của WHO liên quan đến độc tính huyết học cấp độ 4 của WHO, đồng thời điều trị hỗ trợ bằng bù nước bằng đường truyền tĩnh mạch và hỗ trợ tủy xương. Có thể dùng Leucovorin (Acid folinic) với liều 25 mg/m tiêm mỗi 6 giờ cho đến khi hết các triệu chứng. Không sử dụng lại Raltitrexed sau đó.\nĐối tượng khác Suy thận:\nCần xác định độ thanh thải creatinin trước mỗi đợt điều trị. Nên chỉnh liều theo bảng sau:",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Liều lượng | Nội dung:\nĐối tượng khác Suy thận:\nCần xác định độ thanh thải creatinin trước mỗi đợt điều trị. Nên chỉnh liều theo bảng sau:\nĐ ộ thanh thải creatinin Liều theo % của 3,0 mg/m Khoảng thời gian định lượng > 65 ml/phút Đủ liều 3 tuần 55 - 65 ml/phút 75% 4 tuần 25 - 54 ml/phút 50% Suy gan Suy gan nhẹ - trung bình: Do phần thuốc được thải trừ qua phân, vì vậy cần sử dụng thận trọng ở đối tượng bệnh nhân này, không cần chỉnh liều.\nSuy gan nặng, vàng da hoặc bệnh gan mất bù: Không khuyến cáo sử dụng.\nCách dùng Hòa tan 2 mg Raltitrexed với 4 ml nước vô trùng pha tiêm, tạo dung dịch nồng độ 0,5 mg/ml. Tiếp tục pha loãng trong 50 – 250 ml dung dịch natri clorid 0,9% hoặc glucose (dextrose) 5%, truyền tĩnh mạch ngắn trong 15 phút.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Liều lượng | Nội dung:\nDo thuốc chỉ được sử dụng bởi nhân viên y tế trong bệnh viện, việc quên liều gần như không thể xảy ra.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Các biểu hiện dự kiến có thể là tăng nặng các phản ứng có hại của thuốc.\nCách xử lý khi quá liều Bệnh nhân cần được theo dõi cẩn thận về các dấu hiệu nhiễm độc đường tiêu hóa và huyết học. Chưa có thuốc giải độc đặc hiệu khi quá liều. Trong trường hợp dùng quá liều, nên cân nhắc việc sử dụng Leucovorin với liều 25 mg/m 2\ntiêm mỗi 6 giờ, dùng càng sớm càng tốt. Phối hợp với điều trị triệu chứng.\nQuên liều và xử trí Do thuốc chỉ được sử dụng bởi nhân viên y tế trong bệnh viện, việc quên liều gần như không thể xảy ra.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Leucovorin (acid folinic), acid folic hoặc các vitamin có chứa các tác nhân này không được dùng ngay trước hoặc trong khi dùng Raltitrexed vì gây giảm tác dụng của thuốc.\nVaccine sốt vàng da: Dùng chung có thể gây bệnh vaccine tổng quát, có thể tử vong. Chống chỉ định sử dụng đồng thời.\nTăng tần suất đo INR nếu dùng chung với thuốc chống đông máu đường uống.\nPhenytoin ,\nFosphenytoin : Tăng nguy cơ co giật do giảm hấp thu phenytoin hoặc nguy cơ tăng độc tính hoặc mất tác dụng của thuốc độc tế bào do cảm ứng men gan bởi Phenytoin, Fosphenytoin.\nVaccine sống giảm độc lực (trừ vaccine sốt vàng da): Dùng chung có nguy cơ mắc bệnh vắc xin tổng quát, có khả năng tử vong.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Tương tác thuốc | Nội dung:\nVaccine sống giảm độc lực (trừ vaccine sốt vàng da): Dùng chung có nguy cơ mắc bệnh vắc xin tổng quát, có khả năng tử vong.\nThuốc ức chế miễn dịch (Ciclosporin, Everolimus , Sirolimus, Tacrolimus ): Ức chế miễn dịch quá mức với nguy cơ mắc hội chứng tăng sinh bạch huyết.\nTương kỵ thuốc Không nên phối trộn sản phẩm thuốc này với bất kỳ thuốc nào.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Lưu ý | Nội dung:\nLưu ý chung Chỉ sử dụng Raltitrexed dưới sự giám sát của bác sĩ có kinh nghiệm trong hóa trị liệu ung thư và trong việc quản lý độc tính liên quan đến hóa trị liệu. Bệnh nhân đang điều trị phải được giám sát thích hợp để phát hiện và điều trị kịp thời các dấu hiệu của các phản ứng có hại (đặc biệt là tiêu chảy).\nTương tự với các tác nhân gây độc tế bào khác, cần thận trọng ở những bệnh nhân bị suy giảm chức năng tủy xương, thể trạng kém, hoặc trước khi xạ trị.\nBệnh nhân cao tuổi dễ bị ảnh hưởng bởi tác dụng phụ của Raltitrexed do chức năng thận thường suy giảm. Cần sử dụng thận trọng, theo dõi chặt chẽ các phản ứng có hại, đặc biệt là các dấu hiệu nhiễm độc đường tiêu hóa và suy tủy, cân nhắc giảm và / hoặc trì hoãn liều thích hợp.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Lưu ý | Nội dung:\nRaltitrexed cần được sử dụng theo quy trình thực hiện thuốc riêng của tác nhân gây độc tế bào.\nRaltitrexed gây tiêu chảy thường nhẹ - trung bình (WHO độ 1, 2) và có thể xảy ra bất cứ lúc nào trong khi dùng thuốc, nhưng cũng có thể gây tiêu chảy nặng (WHO độ 3, 4), có thể kết hợp với ức chế huyết học đồng thời, đặc biệt là giảm bạch cầu (đặc biệt là bạch cầu trung tính). Raltitrexed gây nôn, buồn nôn thường nhẹ, có thể dùng thuốc chống nôn.\nRaltitrexed gây giảm bạch cầu (đặc biệt bạch cầu trung tính), thiếu máu và giảm tiểu cầu, thường nhẹ đến trung bình và xảy ra trong tuần 1 hoặc 2 khi điều trị và phục hồi vào tuần 3. Có thể gây giảm bạch cầu nặng (WHO độ 3 và 4) và giảm tiểu cầu theo WHO độ 4, có nguy cơ đe dọa tính mạng, đặc biệt nếu kết hợp với các dấu hiệu nhiễm độc đường tiêu hóa.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Raltitrexed | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Cần có biện pháp tránh thai hiệu quả khi 1 trong 2 người đang điều trị với Raltitrexed và trong ít nhất 6 tháng sau khi ngừng điều trị. Phụ nữ độ tuổi sinh sản cần có biện pháp tránh thai phù hợp trước khi bắt đầu điều trị.\nKhông sử dụng trong thời kỳ mang thai.\nLưu ý với phụ nữ cho con bú Phụ nữ đang cho con bú không nên dùng Raltitrexed.\nLưu ý khi lái xe và vận hành máy móc Raltitrexed có thể gây khó chịu, suy nhược sau khi tiêm truyền, nếu tác dụng này kéo dài có khả năng ảnh hưởng đến việc lái xe và vận hành máy móc.",
+        "metadata": {
+            "name": "Raltitrexed",
+            "id": "raltitrexed",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/raltitrexed",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

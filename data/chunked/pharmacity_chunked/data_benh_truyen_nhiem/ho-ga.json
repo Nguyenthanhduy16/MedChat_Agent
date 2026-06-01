@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Bệnh: Ho gà | Phần: Tổng quan | Nội dung:\nTổng quan chung về ho gà\nHo gà, hay còn được gọi là bệnh ho gà, là một bệnh truyền nhiễm cấp tính đường hô hấp do vi khuẩn Bordetella pertussis gây ra. Bệnh có khả năng lây lan cao qua đường hô hấp khi người bệnh ho hoặc hắt hơi, bắn ra các giọt nước bọt chứa vi khuẩn. Ho gà thường gặp ở trẻ em dưới 15 tuổi, đặc biệt nguy hiểm cho trẻ sơ sinh và trẻ nhỏ dưới 6 tháng tuổi.",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Ho gà | Phần: Triệu chứng | Nội dung:\nTriệu chứng\nTriệu chứng ho gà thường diễn biến theo 3 giai đoạn:\nGiai đoạn 1 (1-2 tuần):\nXuất hiện các triệu chứng tương tự như cảm lạnh: sổ mũi, chảy nước mũi, hắt hơi, ho nhẹ, và sốt nhẹ.\nTriệu chứng ở giai đoạn này thường không rõ ràng, dễ bị nhầm lẫn với các bệnh hô hấp thông thường.\nGiai đoạn 2 (2-4 tuần):\nCơn ho trở nên dữ dội hơn: ho từng cơn liên tục, kéo dài 10-20 giây, sau đó có tiếng thở rít cao như tiếng gà gáy.\nCó thể xuất hiện các triệu chứng khác như nôn trớ, chảy nước mắt, đỏ mặt, và tím tái.\nTrẻ có thể thể hiện dấu hiệu mệt mỏi, bỏ ăn, và quấy khóc nhiều.\nGiai đoạn 3 (4-6 tuần):\nCơn ho giảm dần cường độ và tần suất.\nTuy nhiên, trẻ vẫn có thể có những cơn ho nhẹ trong vài tuần hoặc vài tháng sau đó.",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Ho gà | Phần: Triệu chứng | Nội dung:\nGiai đoạn 3 (4-6 tuần):\nCơn ho giảm dần cường độ và tần suất.\nTuy nhiên, trẻ vẫn có thể có những cơn ho nhẹ trong vài tuần hoặc vài tháng sau đó.\nLưu ý: Ho gà có thể gây ra các biến chứng nguy hiểm như viêm phế quản, viêm phổi, và ngừng thở, đặc biệt là ở trẻ nhỏ.",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Ho gà | Phần: Nguyên nhân | Nội dung:\nNguyên nhân gây bệnh ho gà\nNguyên nhân gây bệnh ho gà là do vi khuẩn Bordetella pertussis xâm nhập vào đường hô hấp. Vi khuẩn này bám vào lông mao ở đường hô hấp trên, sau đó giải phóng độc tố tấn công hệ hô hấp và làm đường thở sưng lên.",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Ho gà | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ cao mắc bệnh ho gà\nTrẻ em dưới 15 tuổi, đặc biệt là trẻ sơ sinh và trẻ nhỏ dưới 6 tháng tuổi.\nNgười chưa được tiêm phòng đầy đủ vắc-xin ho gà.\nNgười có hệ miễn dịch suy yếu.\nNgười tiếp xúc trực tiếp với người bệnh ho gà.",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Ho gà | Phần: Chẩn đoán | Nội dung:\nChẩn đoán ho gà\nChẩn đoán ho gà dựa trên các yếu tố sau:\nTiền sử bệnh: tiếp xúc với người bệnh ho gà, chưa được tiêm phòng đầy đủ vắc-xin ho gà.\nTriệu chứng lâm sàng: ho gà giai đoạn 2 với cơn ho đặc trưng “tiếng gà gáy”.\nXét nghiệm: xét nghiệm máu, xét nghiệm dịch tiết đường hô hấp.",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Ho gà | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa bệnh ho gà\nPhòng ngừa bệnh ho gà là biện pháp hiệu quả nhất để bảo vệ bản thân và cộng đồng. Các biện pháp phòng ngừa bao gồm:\nTiêm phòng đầy đủ vắc-xin ho gà: Đây là biện pháp quan trọng nhất để phòng ngừa ho gà. Vắc-xin ho gà có thể tiêm cho trẻ từ 2 tháng tuổi trở lên và tiêm nhắc theo lịch trình khuyến cáo của Bộ Y tế.\nChe miệng khi ho hoặc hắt hơi: Sử dụng khăn giấy hoặc khuỷu tay để che miệng khi ho hoặc hắt hơi, sau đó vứt bỏ khăn giấy đúng nơi quy định.\nRửa tay thường xuyên: Rửa tay bằng xà phòng và nước sạch, đặc biệt là sau khi tiếp xúc với người bệnh ho gà.\nTránh tiếp xúc với người bệnh ho gà: Hạn chế tiếp xúc trực tiếp với người đang mắc bệnh ho gà, đặc biệt là trẻ em dưới 6 tháng tuổi.",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Ho gà | Phần: Cách điều trị | Nội dung:\nĐiều trị ho gà\nĐiều trị ho gà tùy thuộc vào độ tuổi, tình trạng bệnh và các biến chứng của bệnh. Các biện pháp điều trị bao gồm:\nThuốc kháng sinh: Thuốc kháng sinh được sử dụng để tiêu diệt vi khuẩn Bordetella pertussis.\nThuốc giảm ho: Thuốc giảm ho giúp giảm bớt cơn ho\nThuốc chống co giật: Thuốc chống co giật được sử dụng để điều trị các cơn co giật do ho gà gây ra.\nHỗ trợ hô hấp: Hỗ trợ oxy hoặc thở máy có thể cần thiết cho trẻ bị suy hô hấp nặng.\nChăm sóc tại nhà: Cho trẻ bú hoặc uống sữa thường xuyên để đảm bảo đủ nước và dinh dưỡng. Vỗ nhẹ vào lưng trẻ khi trẻ ho để giúp trẻ long đờm. Sử dụng máy tạo độ ẩm để làm ẩm không khí trong phòng. Giữ ấm cho trẻ và cho trẻ nghỉ ngơi đầy đủ.\nCho trẻ bú hoặc uống sữa thường xuyên để đảm bảo đủ nước và dinh dưỡng.",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Ho gà | Phần: Cách điều trị | Nội dung:\nCho trẻ bú hoặc uống sữa thường xuyên để đảm bảo đủ nước và dinh dưỡng.\nVỗ nhẹ vào lưng trẻ khi trẻ ho để giúp trẻ long đờm.\nSử dụng máy tạo độ ẩm để làm ẩm không khí trong phòng.\nGiữ ấm cho trẻ và cho trẻ nghỉ ngơi đầy đủ.\nLưu ý\nViệc điều trị ho gà cần được thực hiện theo hướng dẫn của bác sĩ.\nNgười chăm sóc trẻ bệnh cần chú ý theo dõi sức khỏe của trẻ và đưa trẻ đi khám ngay nếu có bất kỳ dấu hiệu bất thường nào.\nHo gà có thể gây ra các biến chứng nguy hiểm, do đó, việc phát hiện và điều trị bệnh sớm là rất quan trọng.\nKết luận",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: Ho gà | Phần: Cách điều trị | Nội dung:\nHo gà có thể gây ra các biến chứng nguy hiểm, do đó, việc phát hiện và điều trị bệnh sớm là rất quan trọng.\nKết luận\nHo gà là một bệnh truyền nhiễm nguy hiểm, đặc biệt là đối với trẻ em. Tuy nhiên, bệnh có thể được phòng ngừa hiệu quả bằng cách tiêm phòng đầy đủ vắc-xin và thực hiện các biện pháp phòng ngừa. Nếu bạn nghi ngờ mình hoặc người thân mắc ho gà, hãy đến gặp bác sĩ để được chẩn đoán và điều trị kịp thời.",
+    "metadata": {
+      "name": "Ho gà",
+      "id": "ho-g",
+      "url": "https://www.pharmacity.vn/benh/ho-ga.html",
+      "category": "data_benh_truyen_nhiem",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 2
+    }
+  }
+]

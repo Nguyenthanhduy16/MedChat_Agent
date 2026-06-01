@@ -1,0 +1,254 @@
+[
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Zaleplon Loại thuốc Thuốc ngủ Dạng thuốc và hàm lượng Viên nang: 5 mg, 10 mg",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Chỉ định | Nội dung:\nĐiều trị ngắn hạn chứng mất ngủ.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Dược lực học | Nội dung:\nZaleplon là thuốc ngủ nonbenzodiazepin thuộc nhóm pyrazolopyrimidin và được dùng để điều trị ngắn hạn chứng mất ngủ. Mặc dù zaleplon có cấu trúc hóa học không liên quan đến benzodiazepine , barbiturat hoặc các thuốc ngủ khác, tuy nhiên thuốc tương tác với phức hợp thụ thể gamma-aminobutyric acid-benzodiazepin (GABABZ).\nPhức hợp thụ thể này chịu trách nhiệm về một số đặc tính dược lý của benzodiazepin, bao gồm tác dụng an thần, giải lo âu , giãn cơ và chống co giật trên mô hình động vật.\nCác nghiên cứu phi lâm sàng khác cũng chỉ ra rằng zaleplon liên kết có chọn lọc với thụ thể omega-1 của não nằm trên tiểu đơn vị alpha của phức hợp thụ thể GABAA/ kênh Cl-.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Dược động học | Nội dung:\nHấp thu Zaleplon được hấp thu nhanh chóng và gần như hoàn toàn sau khi uống với sinh khả dụng tuyệt đối là khoảng 30%, bữa ăn nhiều chất béo làm chậm quá trình hấp thu. Nồng độ đỉnh trong huyết tương đạt được trong vòng khoảng 1 giờ sau khi uống.\nPhân bố Thể tích phân bố khoảng 1,4 L/kg, tỉ lệ liên kết với protein huyết tương là khoảng 45 - 75%.\nChuyển hóa Zaleplon được chuyển hóa nhiều qua gan, chủ yếu bởi aldehyde oxidase để tạo thành 5-oxo-zaleplon. Cyptochrom CYP 3A4 cũng tham gia vào quá trình chuyển hóa zaleplon với mức độ thấp hơn để tạo thành desetylzaleplon. Tất cả các chất chuyển hóa của zaleplon đều không có hoạt tính.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Dược động học | Nội dung:\nThải trừ Thời gian bán thải trung bình là 0,5 đến khoảng 1 giờ. Độ thanh thải trong huyết tương của zaleplon khi uống vào khoảng 3 L/h/kg và độ thanh thải trong huyết tương của zaleplon IV là khoảng 1 L/giờ/kg.\nThuốc được bài tiết chủ yếu dưới dạng chất chuyển hóa (~ 70% qua nước tiểu và ~ 17% qua phân), chỉ <1% được bài tiết qua nước tiểu dưới dạng không đổi.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Liều lượng | Nội dung:\nNgười lớn Liều 10 mg Zaleplon x 1 lần/ngày uống ngay trước khi đi ngủ hoặc khi đã đi ngủ nhưng không thể ngủ được.\nKhoảng liều thường dùng từ 5 - 20 mg/ngày, liều trên 20 mg không được khuyến cáo.\nThời gian dùng tối đa 7 - 10 ngày.\nĐối tượng khác Bệnh nhân nhẹ cân hoặc suy nhược: Liều 5 mg/ngày (liều tối đa: 10 mg/ngày).\nBệnh nhân cao tuổi: Liều 5 mg/ngày (liều tối đa: 10 mg/ngày).\nSuy gan: Bệnh nhân suy gan nhẹ đến trung bình nên dùng liều 5 mg/ngày. Không khuyến cáo sử dụng zaleplon cho bệnh nhân suy gan nặng.\nSuy thận: Không cần điều chỉnh liều ở bệnh nhân suy thận nhẹ đến trung bình. Zaleplon chưa được nghiên cứu đầy đủ ở bệnh nhân suy thận nặng.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Liều lượng | Nội dung:\nSuy thận: Không cần điều chỉnh liều ở bệnh nhân suy thận nhẹ đến trung bình. Zaleplon chưa được nghiên cứu đầy đủ ở bệnh nhân suy thận nặng.\nZaleplon chỉ được dùng khi cần thiết, không phải theo lịch trình dùng thuốc thường xuyên nên ít/không xảy ra quên thuốc. Không dùng hai liều cùng một lúc.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Zaleplon và xử trí Quá liều và độc tính Quá liều thường được biểu hiện bằng các mức độ suy nhược hệ thần kinh trung ương, từ buồn ngủ đến hôn mê.\nTrong trường hợp nhẹ, các triệu chứng bao gồm buồn ngủ, rối loạn tâm thần và hôn mê; trong trường hợp nghiêm trọng hơn, các triệu chứng có thể bao gồm mất điều hòa, giảm trương lực cơ, hạ huyết áp, suy hô hấp, mất ý thức, hiếm khi hôn mê và rất hiếm khi tử vong.\nCách xử lý khi quá liều Zaleplon Sử dụng các biện pháp hỗ trợ để cải thiện triệu chứng và rửa dạ dày ngay lập tức nếu thích hợp.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Quá liều và xử trí | Nội dung:\nCách xử lý khi quá liều Zaleplon Sử dụng các biện pháp hỗ trợ để cải thiện triệu chứng và rửa dạ dày ngay lập tức nếu thích hợp.\nTheo dõi hô hấp, mạch, huyết áp và các dấu hiệu thích hợp khác và áp dụng các biện pháp hỗ trợ chung trong tất cả các trường hợp quá liều. Tụt huyết áp và suy nhược thần kinh trung ương cần được theo dõi và điều trị thích hợp. Dịch truyền tĩnh mạch nên được truyền khi cần thiết.\nFlumazenil là một chất đối kháng với zaleplon. Tuy nhiên, không có kinh nghiệm lâm sàng về việc sử dụng flumazenil làm thuốc giải độc cho quá liều zaleplon.\nQuên liều Zaleplon và xử trí Zaleplon chỉ được dùng khi cần thiết, không phải theo lịch trình dùng thuốc thường xuyên nên ít/không xảy ra quên thuốc. Không dùng hai liều cùng một lúc.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Thuốc đồng vận opioid tác dụng ức chế TKTW có thể được tăng cường khi dùng đồng thời zaleplon và các thuốc đồng vận opioid.\nDùng cùng zaleplon và các thuốc ức chế thần kinh trung ương khác có thể tăng cường tác dụng phụ, độc tính trên TKTW.\nImipramin , thioridazin khi dùng đồng thời zaleplon có thể tăng cường tác dụng làm suy giảm thần kinh trung ương.\nPromethazin làm giảm 15% nồng độ zaleplon trong huyết tương, nhưng không thay đổi AUC.\nThuốc cảm ứng CYP3A4 (như rifampin, phenytoin , carbamazepine và phenobarbital) có thể làm giảm nồng độ zaleplon trong huyết thanh dẫn đến giảm/mất tác dụng của thuốc.\nThuốc ức chế CYP3A4 (như erythromycin ,\nketoconazol ,…) làm tăng nồng độ trong huyết tương của zaleplon.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Tương tác thuốc | Nội dung:\nThuốc ức chế CYP3A4 (như erythromycin ,\nketoconazol ,…) làm tăng nồng độ trong huyết tương của zaleplon.\nCimetidine có thể làm tăng nồng độ zaleplon trong huyết thanh do ức chế enzym aldehyd oxidase và CYP 3A4.\nTương tác với thực phẩm Rượu có thể làm tăng tác dụng ức chế thần kinh trung ương của zaleplon.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Lưu ý | Nội dung:\nLưu ý chung Zaleplon có thể gây ra các thay đổi suy nghĩ/hành vi bất thường bao gồm: Giảm ức chế (như hung hăng, gây hấn), hành vi kỳ lạ, kích động, ảo giác, chứng hay quên và các triệu chứng thần kinh khác có thể xảy ra không thể đoán trước.\nThay đổi suy nghĩ/ hành vi bất thường có thể là tự phát và/hoặc do các rối loạn tâm thần tiềm ẩn trước đó; do đó, cần đánh giá một cách cẩn thận và ngay lập tức khi xuất hiện bất kỳ hành vi hoặc triệu chứng đáng lo ngại nào.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Lưu ý | Nội dung:\nCác thuốc ngủ bao gồm zaleplon có thể gây suy nhược thần kinh trung ương làm suy giảm khả năng thể chất và tinh thần. Nguy cơ này vào ngày hôm sau sẽ tăng lên nếu bệnh nhân không đảm bảo có 1 giấc ngủ liên tục trong 7 - 8 giờ sau khi uống thuốc, dùng liều cao hơn khuyến cáo và/hoặc dùng chung với rượu, các thuốc ức chế thần kinh trung ương khác hoặc các loại thuốc làm tăng nồng độ zaleplon trong máu.\nCó thể cần điều chỉnh liều zaleplon nếu dùng đồng thời với thuốc ức chế thần kinh trung ương; không khuyến khích sử dụng đồng thời với các thuốc an thần gây ngủ khác.\nZaleplon có thể gây ra các hành vi phức tạp khi ngủ bao gồm đi bộ khi ngủ, lái xe khi ngủ và tham gia vào các hoạt động khác trong khi không hoàn toàn tỉnh táo và có thể dẫn đến thương tích nghiêm trọng, bao gồm cả tử vong.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Lưu ý | Nội dung:\nCác hành vi phức tạp khi ngủ có thể xảy ra khi sử dụng lần đầu, ở liều lượng khuyến cáo và có hoặc không sử dụng cùng với rượu hoặc các chất ức chế thần kinh trung ương khác. Cảnh báo bệnh nhân về nguy cơ mắc các hành vi phức tạp khi ngủ, ngừng thuốc ngay lập tức nếu bệnh nhân gặp phải tình trạng này.\nZaleplon có thể gây ra phản ứng phản vệ, tuy hiếm gặp nhưng đã được báo cáo ở những bệnh nhân dùng liều đầu tiên hoặc liều tiếp theo của thuốc an thần - gây ngủ với dấu hiệu phù mạch liên quan đến lưỡi, thanh môn hoặc thanh quản và/hoặc các triệu chứng khác như khó thở, buồn nôn và nôn.\nNhững bệnh nhân bị phù mạch sau khi điều trị bằng zaleplon không nên tiếp tục điều trị với thuốc.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Lưu ý | Nội dung:\nNhững bệnh nhân bị phù mạch sau khi điều trị bằng zaleplon không nên tiếp tục điều trị với thuốc.\nCần đánh giá cẩn thận bệnh nhân để chẩn đoán các bệnh mắc kèm trước khi bắt đầu điều trị triệu chứng mất ngủ với zaleplon. Tình trạng mất ngủ không thuyên giảm sau 7 đến 10 ngày điều trị có thể cho thấy sự hiện diện của một bệnh mắc kèm cần được đánh giá.\nTình trạng mất ngủ trở nên tồi tệ hơn hoặc xuất hiện những bất thường về suy nghĩ/hành vi mới có thể là hậu quả của chứng rối loạn tâm thần hoặc thể chất chưa được chẩn đoán trước đó.\nTình trạng trầm cảm trở nên tồi tệ hơn, bao gồm tự sát hoặc có ý định tự sát đã được báo cáo ở bệnh nhân trầm cảm dùng zaleplon. Nên thận trọng khi sử dụng, dùng liều thấp nhất có hiệu quả và kê đơn với số lượng ít nhất ở bệnh nhân này.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Lưu ý | Nội dung:\nThận trọng khi sử dụng cho những bệnh nhân có tiền sử phụ thuộc thuốc, lạm dụng benzodiazepin, hoặc thuốc ngủ giống benzodiazepin.\nHội chứng cai thuốc thường nhẹ, ít gặp và sẽ khỏi trong vòng vài tuần hoặc sau khi bắt đầu lại thuốc. Trường hợp nghiêm trọng hơn có thể hiếm khi xảy ra khi ngừng đột ngột hoặc giảm liều lớn sau khi sử dụng liên tục và đặc trưng bởi các dấu hiệu như đau bụng, lo lắng, lú lẫn, mê sảng, mất phương hướng, hưng phấn, tăng huyết áp, mất ngủ, khó chịu, bồn chồn, khó nói, co giật và run. Dùng thuốc ngắt quãng có thể làm giảm nguy cơ xuất hiện các triệu chứng cai thuốc.\nThận trọng khi dùng thuốc zaleplon ở những bệnh nhân bị suy giảm chức năng hô hấp.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Lưu ý | Nội dung:\nThận trọng khi dùng thuốc zaleplon ở những bệnh nhân bị suy giảm chức năng hô hấp.\nLưu ý với phụ nữ có thai Không có nghiên cứu nào về zaleplon trên phụ nữ có thai; do đó, zaleplon không được khuyến cáo sử dụng cho phụ nữ trong thời kỳ mang thai.\nLưu ý với phụ nữ cho con bú Một lượng nhỏ zaleplon được bài tiết qua sữa mẹ, với lượng bài tiết cao nhất xảy ra khi cho con bú vào khoảng 1 giờ sau khi dùng zaleplon. Vì tác dụng của zaleplon đối với trẻ bú mẹ chưa được biết, nên các bà mẹ cho con bú không nên dùng zaleplon.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Zaleplon | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Zaleplon có thể gây làm suy giảm khả năng thể chất và tinh thần với các dấu hiệu như: Buồn ngủ, chóng mặt, nhìn mờ/nhìn đôi, giảm tỉnh táo và suy giảm khả năng lái xe vào buổi sáng sau khi điều trị. Cần thận trọng với các bệnh nhân khi thực hiện các công việc đòi hỏi sự tỉnh táo như lái xe hoặc vận hành máy móc.",
+        "metadata": {
+            "name": "Zaleplon",
+            "id": "zaleplon",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zaleplon",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 6
+        }
+    }
+]

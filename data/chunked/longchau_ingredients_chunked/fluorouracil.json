@@ -1,0 +1,226 @@
+[
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Fluorouracil Loại thuốc Thuốc chống ung thư, loại chống chuyển hóa Dạng thuốc và hàm lượng Ống tiêm: 250 mg/10 ml; lọ tiêm: 500 mg/10 ml, lọ tiêm lượng lớn nhiều liều: 2,5 g/100 ml Viên nang: 250 mg Kem dùng ngoài: 1%, 5% Dung dịch dùng ngoài: 1%, 2%, 5%",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Chỉ định | Nội dung:\nAdenocarcinom (ung thư biểu mô tuyến) đại tràng, trực tràng.\nUng thư vú.\nCarcinom (ung thư biểu mô) buồng trứng, cổ tử cung, bàng quang, gan và tụy.\nDùng ngoài da: Điều trị tổn thương da nông ác tính và tiền ác tính, dày sừng tuổi già; dày sừng quang hóa; u sừng gai, bệnh Bowen, carcinom nông tế bào đáy. Carcinom tế bào đáy và tế bào vảy xuyên sâu thường không đáp ứng với liệu pháp ﬂuorouracil.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Dược lực học | Nội dung:\nFluorouracil là thuốc chống chuyển hóa pyrimidin có ﬂuor. Khi ﬂuorouracil chuyển hóa theo con đường đồng hóa, thuốc phong bế phản ứng methyl hóa acid deoxyuridylic thành acid thymidilic.\nDo đó ﬂuorouracil cản trở sự tổng hợp acid deoxyribonucleic (DNA) và ức chế ở mức độ kém hơn sự tạo thành acid ribonucleic (RNA).\nVì DNA và RNA cần thiết cho sự phân chia và phát triển tế bào, mà ﬂuorouracil lại gây ra thiếu thymin, nên làm cho sự phát triển mất cân bằng và tế bào bị chết. Hiệu quả thiếu hụt DNA và RNA càng rõ nét ở các tế bào phát triển nhanh và tốc độ ﬂuorouracil thâm nhập vào tế bào càng nhanh.\nFluorouracil tác động đặc hiệu lên pha S của chu kỳ phân bào.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Dược động học | Nội dung:\nHấp thu Fluorouracil thường dùng tiêm tĩnh mạch và có nửa đời chuyển hóa ngắn. Mặc dù thuốc vẫn có hoạt tính khi uống, nhưng khả dụng sinh học không ổn định.\nKhi dùng tại chỗ, khoảng 6% lượng thuốc được hấp thu nhưng không đủ gây tác dụng toàn thân.\nPhân bố Sau khi tiêm tĩnh mạch, thuốc phân bố vào các khối u, niêm mạc tiêu hóa, tủy xương, gan và các mô khác của cơ thể. Mặc dù ít tan trong mỡ nhưng ﬂuorouracil dễ dàng thấm qua hàng rào máu – não và phân bố vào dịch não tủy, và mô não.\nNồng độ của thuốc hoặc của các chất chuyển hóa của thuốc trong khối u cao hơn ở các mô xung quanh hoặc mô bình thường. Trong một số khối u, thuốc tồn tại lâu hơn so với ở mô lành.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Dược động học | Nội dung:\nChuyển hóa 5-fluorouracil bị dị hóa bởi enzym dihydropyrimidine dehydrogenase (DPD) thành dihydro-5-fluorouracil (FUH2) ít độc hơn nhiều. Dihydropyrimidinase phân cắt vòng pyrimidine để tạo ra axit 5-fluoro-ureidopropionic (FUPA). Cuối cùng, β-ureido-propionase phân cắt FUPA thành α-fluoro-β- alanin (FBAL) và được đào thải trong nước tiểu.\nThải trừ Sau khi tiêm tĩnh mạch, thời gian bán thải trong huyết tương trung bình khoảng 16 phút và phụ thuộc vào liều lượng. Sau một liều Fluorouracil IV duy nhất, khoảng 15% liều dùng được bài tiết dưới dạng không đổi qua nước tiểu trong vòng 6 giờ; hơn 90% trong số này được bài tiết trong giờ đầu tiên.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Liều lượng | Nội dung:\nNgười lớn Điều trị khởi đầu:\nTruyền tĩnh mạch:\n15 mg/kg/ngày, không quá 1 g cho 1 lần truyền. Thuốc được hòa trong 500 ml dextrose 5% hoặc 500 ml natri clorid 0,9%, truyền tốc độ 40 giọt/phút trong 4 giờ, hoặc truyền trong 30 - 60 phút, hoặc truyền liên tục trong 24 giờ.\nLiều hàng ngày này được truyền liên tiếp cho đến khi độc tính xuất hiện hoặc cho đến khi được 12 - 15 g. Đây là cho 1 đợt điều trị. Một số người bệnh dùng tới 30 g với liều tối đa 1 g/ngày. Liều hàng ngày không bao giờ được quá 1 g. Giữa 2 đợt điều trị nên nghỉ 4 - 6 tuần.\nTiêm tĩnh mạch:",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Liều lượng | Nội dung:\nTiêm tĩnh mạch:\n12 mg/kg/ngày, liền 3 - 4 ngày (tối đa là 0,8 - 1 g/ngày). Nếu không xuất hiện ngộ độc thuốc có thể dùng tiếp 6 mg/kg/ngày vào ngày thứ 5, thứ 7 và thứ 9. Nếu xuất hiện nhiễm độc thì ngừng cho đến khi các dấu hiệu ngộ độc rút mới dùng liều tiếp theo.\nMột cách khác là dùng liều 15 mg/kg, 1 lần/tuần trong suốt cả đợt điều trị, như vậy không cần dùng liều khởi đầu nữa. Sau đó 4 - 6 tuần lặp lại, hoặc mỗi tuần dùng liều duy trì 5 - 15 mg/kg, tới liều tối đa là 1 g mỗi tuần.\nTruyền vào động mạch vùng: Liều thường dùng 5 - 7,5 mg/kg/ngày.\nPhối hợp với xạ trị:\nDùng theo liều thông thường.\nĐường uống:\nLiều duy trì là 15 mg/kg, mỗi tuần 1 lần. Trong điều trị tạm thời, để đạt tác dụng điều trị nhanh hơn, dùng liều 15 mg/kg/ngày, trong 6 ngày liền.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Liều lượng | Nội dung:\nLiều duy trì là 15 mg/kg, mỗi tuần 1 lần. Trong điều trị tạm thời, để đạt tác dụng điều trị nhanh hơn, dùng liều 15 mg/kg/ngày, trong 6 ngày liền.\nSau đó dùng liều duy trì 15 mg/kg/lần/tuần.\nLiều mỗi ngày không quá 1 g. Nên uống thuốc sau bữa ăn, với nước.\nMột phác đồ thường dùng để điều trị ung thư vú giai đoạn sớm: Liều dùng 600 mg/m2, vào các ngày 1 và 8 của mỗi chu kỳ điều trị, phối hợp với cyclophosphamid 100 mg/m2, vào các ngày từ 1 tới 14 và methotrexate 40 mg/m2, vào các ngày 1 và 8 của mỗi chu kỳ.\nDùng ngoài:\nBệnh dày sừng quang hóa (multiple actinic keratoses): Ở vùng cổ và đầu, dùng loại dung dịch hoặc kem 1 - 2%, ngày 2 lần. Tổn thương ở các vùng khác, dùng loại 5%.\nCarcinom nông tế bào đáy: Chỉ dùng loại chế phẩm 5%. Bôi 2 lần/ngày trong ít nhất 3 - 6 tuần.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Liều lượng | Nội dung:\nCarcinom nông tế bào đáy: Chỉ dùng loại chế phẩm 5%. Bôi 2 lần/ngày trong ít nhất 3 - 6 tuần.\nĐối tượng khác Liều có thể giảm đi 1/3 hoặc 1/2 nếu thể trạng người bệnh dinh dưỡng kém, sau phẫu thuật lớn (trong vòng 30 ngày), suy tủy xương (thiếu máu, giảm bạch cầu, giảm tiểu cầu), suy gan, suy thận.\nNếu quên dùng một liều thuốc, hãy dùng càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch.\nKhông dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Fluorouracil và xử trí Quá liều và độc tính Các biểu hiện quá liều là buồn nôn, nôn, ỉa chảy, viêm loét đường tiêu hóa, chảy máu đường tiêu hóa, ức chế tủy xương (giảm tiểu cầu, giảm bạch cầu, giảm bạch cầu hạt).\nCách xử lý khi quá liều Uridine triacetate là một loại thuốc giải độc đặc hiệu để điều trị quá liều 5-fluorouracil hoặc điều trị ngộ độc nặng khởi phát sớm. Nó nên được dùng trong vòng 96 giờ sau khi kết thúc truyền 5-fluorouracil. Trong trường hợp không có sẵn uridine triacetate, việc điều trị là điều trị triệu chứng và hỗ trợ.\nNgười bệnh có biểu hiện quá liều ﬂuorouracil nên được kiểm tra công thức máu ít nhất trong 4 tuần.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Quá liều và xử trí | Nội dung:\nNgười bệnh có biểu hiện quá liều ﬂuorouracil nên được kiểm tra công thức máu ít nhất trong 4 tuần.\nQuên liều và xử trí Nếu quên dùng một liều thuốc, hãy dùng càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch.\nKhông dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Không dùng đồng thời với natalizumab , vắc xin (sống).\nFluorouracil làm tăng nồng độ/tác dụng của carvedilol, cơ chất CYP2C9, natalizumab, phenytoin, vắc xin (sống), thuốc kháng vitamin K.\nFluorouracil làm giảm nồng độ/tác dụng của vắc xin (bất hoạt), thuốc kháng vitamin K.\nGemcitabin, leucovorin - levoleucovorin, sorafenib, trastuzumab làm tăng nồng độ/tác dụng của ﬂuorouracil.\nEchinacea, sorafenib làm giảm nồng độ/tác dụng của ﬂuorouracil.\nMột số thuốc được dùng để điều hòa tác dụng của ﬂuorouracil nhằm làm tăng tác dụng của thuốc, nhất là trong điều trị ung thư đại - trực tràng: acid folinic, interferon alpha, methotrexat.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Tương tác thuốc | Nội dung:\nMột số thuốc làm tăng tác dụng chống ung thư và độc tính của ﬂuorouracil như: methotrexat, metronidazol, leucovorin, allopurinol, cimetidine.\nTương kỵ thuốc Fluorouracil tương kỵ với carboplatin, cisplatin, cytarabin, diazepam, doxorubicin, các anthracyclin khác và có thể cả methotrexat. Khi dùng phối hợp với ﬂuorouracil, các thuốc này phải dùng riêng.\nThuốc pha trong dung dịch có kiềm tính, do đó tránh pha trộn với các thuốc có tính acid.\nDùng nước cam, nước hoa quả để pha loãng ﬂuorouracil để uống sẽ gây tủa và làm giảm hấp thu thuốc.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Lưu ý | Nội dung:\nLưu ý chung Fluorouracil là thuốc có độc tính cao, chỉ số điều trị rất thấp. Thuốc có độc tính cao với máu, gây chảy máu đường tiêu hóa, thậm chí tử vong. Thuốc chỉ được dùng dưới sự theo dõi chặt chẽ của thầy thuốc có kinh nghiệm sử dụng hóa trị liệu chữa ung thư và các chất chống chuyển hóa.\nNếu xảy ra nôn không khắc phục được, phải ngừng thuốc ngay.\nHàng ngày phải hỏi người bệnh và khám miệng để phát hiện sớm viêm miệng. Nếu có các biểu hiện viêm miệng như đỏ niêm mạc miệng, loét trong miệng, hoặc các biểu hiện viêm họng thực quản như đau cổ, khó nuốt, cần phải ngừng thuốc. Nếu xuất hiện ỉa chảy, loét hoặc chảy máu dạ dày hoặc xuất huyết ở bất cứ nơi nào, đều phải ngừng thuốc ngay.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Lưu ý | Nội dung:\nCần đếm bạch cầu trước mỗi lần dùng ﬂuorouracil. Nếu lượng bạch cầu giảm nhanh hoặc dưới 3500/mm3 hoặc nếu số lượng tiểu cầu dưới 100000/mm3 phải ngừng dùng thuốc. Nếu số lượng bạch cầu dưới 2000/mm3, người bệnh phải được cách ly và cần có các biện pháp thích hợp để ngăn chặn nhiễm khuẩn.\nNgười bệnh suy dinh dương, suy tủy xương do các đợt điều trị trước hoặc bị thâm nhiễm các tế bào ác tính, càng có thể dễ bị ngộ độc nặng với ﬂuorouracil. Cần dùng hết sức thận trọng cho người bệnh đã xạ trị liều cao, nhất là ở vùng chậu, hoặc đã dùng các tác nhân alkyl hóa, và người bệnh suy gan, thận, đặc biệt là những người đã có di căn rộng vào cả tủy xương.\nĐộc tính của thuốc tăng ở người bị thiếu hụt DPD do di truyền, ngay cả khi dùng thuốc bôi. Phải ngừng thuốc nếu có triệu chứng do thiếu DPD.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Fluorouracil | Phần: Lưu ý | Nội dung:\nĐộc tính của thuốc tăng ở người bị thiếu hụt DPD do di truyền, ngay cả khi dùng thuốc bôi. Phải ngừng thuốc nếu có triệu chứng do thiếu DPD.\nThuốc bôi ngoài phải rất cẩn thận ở vùng gần mắt, mũi,miệng. Có thể gây ngộ độc toàn thân khi bôi ở vùng loét rộng.\nLưu ý với phụ nữ có thai Chống chỉ định.\nLưu ý với phụ nữ cho con bú Lưu ý khi lái xe và vận hành máy móc Không có nghiên cứu nào về ảnh hưởng đến khả năng lái xe và sử dụng máy móc đã được thực hiện.\nFluorouracil có thể gây ra các tác dụng phụ như buồn nôn và nôn. Thuốc cũng các tác dụng phụ đối với hệ thần kinh và những thay đổi về thị giác có thể cản trở việc lái xe hoặc sử dụng máy móc.",
+        "metadata": {
+            "name": "Fluorouracil",
+            "id": "fluorouracil",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/fluorouracil",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

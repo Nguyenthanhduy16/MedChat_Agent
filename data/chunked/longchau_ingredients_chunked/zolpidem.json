@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Zolpidem Loại thuốc An thần gây ngủ Dạng thuốc và hàm lượng Viên nén, viên bao phim 5 mg và 10 mg (zolpidem tartrat).\nViên giải phóng chậm 6,25 mg và 12,5 mg (zolpidem tartrat).",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Chỉ định | Nội dung:\nĐiều trị ngắn hạn chứng mất ngủ không thường xuyên (như khi đi du lịch).\nĐiều trị ngắn chứng mất ngủ tạm thời (do stress).",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Dược lực học | Nội dung:\nZolpidem tartrat là một dẫn chất của imidazopyridin có tác dụng an thần mạnh gây ngủ. Tuy zolpidem có cấu trúc không liên quan đến benzodiazepin nhưng zolpidem có một vài tính chất dược lý của benzodiazepin và đã tương tác với phức hợp kênh Cl - thụ thể GABA (acid gamma-aminobutyric) ở hệ TKTW tại các thụ thể benzodiazepin (BZ, omega).\nKhông giống một số benzodiazepin tác động không chọn lọc vào các thụ thể týp 1 (BZ1, omega1), týp 2 (BZ2, omega2) ở hệ TKTW cũng như các thụ thể týp 3 (BZ3, omega3) ở ngoại vi, dẫn đến các tác dụng dược lý không đặc hiệu, zolpidem gắn chọn lọc vào các thụ thể BZ1 với một tỷ lệ ái lực cao đối với đơn vị phụ alpha1/alpha2 nên zolpidem ít có tác dụng giãn cơ, giải lo âu và chống co giật so với benzodiazepin.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Dược lực học | Nội dung:\nZolpidem tác dụng nhanh và ngắn. Với liều thông thường gây ngủ ở người, zolpidem rút ngắn thời gian bắt đầu ngủ và kéo dài thời gian ngủ, duy trì giấc ngủ sâu (giai đoạn 3 và 4).\nTính gắn chọn lọc của zolpidem vào thụ thể BZ1 có thể làm giảm tiềm năng lạm dụng thuốc và làm giảm phát triển quen thuốc nhưng chưa được công nhận.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Dược động học | Nội dung:\nHấp thu Zolpidem hấp thu nhanh và hầu như hoàn toàn qua đường tiêu hóa. Thức ăn làm chậm và giảm hấp thu thuốc.\nSau khi uống từ 30 phút đến 2 giờ, thuốc đạt nồng độ tối đa trong huyết tương (sau 30 phút khi uống liều 20 mg zolpidem, nồng độ đỉnh trong máu đạt được khoảng 200 nanogam/ml). Zolpidem chuyển hóa bước đầu, sinh khả dụng tuyệt đối khoảng 70%.\nPhân bố Thể tích phân bố khoảng 0,54 lít/kg. Zolpidem qua được sữa mẹ (3 giờ sau khi uống liều 20 mg, nồng độ trong sữa đạt từ 0,004 - 0,019%). Liên kết với protein huyết tương khoảng 92%. Chưa biết zolpidem có qua nhau thai không.\nChuyển hóa Thuốc chuyển hóa chủ yếu ở gan nhờ cytochrom P450 tạo chất chuyển hóa không còn hoạt tính.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Dược động học | Nội dung:\nChuyển hóa Thuốc chuyển hóa chủ yếu ở gan nhờ cytochrom P450 tạo chất chuyển hóa không còn hoạt tính.\nThải trừ Những chất chuyển hóa không còn hoạt tính được thải trừ chủ yếu qua thận (48 - 67% đào thải qua nước tiểu) và phân (29 - 42%). Zolpidem có thời gian bán thải trung bình 2,5 giờ (từ 1,4 đến 4,5 giờ). Không loại zolpidem được bằng thẩm phân lọc máu.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Liều lượng | Nội dung:\nLiều dùng Zolpidem Người lớn Liều dùng thay đổi tùy từng người, phải dùng liều nhỏ nhất có hiệu quả (đặc biệt đối với người cao tuổi, người suy nhược, người có bệnh gan). Tránh điều trị kéo dài.\nLiều thường dùng:\nViên nén thông thường: 10 mg trước khi đi ngủ.\nViên giải phóng kéo dài: 12,5 mg.\nTrong tất cả các trường hợp, không được vượt quá liều 10 mg mỗi ngày.\nTrẻ em Sự an toàn và hiệu lực của thuốc với trẻ dưới 18 tuổi chưa được xác minh, không có khuyến cáo dùng thuốc này cho trẻ em.\nĐối tượng khác Người cao tuổi, người suy nhược: Liều khởi đầu 5 mg (viên nén thông thường) hoặc 6,25 mg (viên giải phóng kéo dài) trước khi đi ngủ; điều chỉnh liều nếu cần thiết.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Liều lượng | Nội dung:\nNgười suy gan: Liều khởi đầu 5 mg (viên nén thông thường) hoặc 6,25 mg (viên giải phóng kéo dài) trước khi đi ngủ; điều chỉnh liều nếu cần thiết.\nNgười suy thận: Ý kiến chưa thống nhất. Nhà sản xuất cho là không cần điều chỉnh nhưng phải giám sát chặt. Một số khác cho là cần phải giảm liều vì tốc độ đào thải zolpidem chậm hơn và có những thay đổi khác về dược động học ở người suy thận không thẩm phân máu và có thẩm phân máu.\nThời gian điều trị: Càng ngắn càng tốt, nếu có thể, từ vài ngày đến 4 tuần, kể cả thời gian giảm liều. Cần hướng dẫn thời gian điều trị cho người bệnh như mất ngủ không thường xuyên (thí dụ như đi du lịch): 2 - 5 ngày; mất ngủ tạm thời (stress tinh thần): 2 - 3 tuần.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Liều lượng | Nội dung:\nĐiều trị rất ngắn, không cần giảm dần liều. Nếu phải điều trị lâu dài, cần phải đánh giá nhiều lần và chính xác tình trạng của người bệnh.\nCần giảm liều ở người bệnh có dùng đồng thời thuốc ức chế thần kinh trung ương khác do tăng khả năng tác dụng.\nCách dùng Uống thuốc ngay trước khi đi ngủ. Viên giải phóng chậm phải nuốt toàn viên, không được nhai hoặc chia nhỏ.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Tính mạng có thể bị đe dọa, nhất là khi dùng nhiều thuốc bao gồm các thuốc ức chế hệ thần kinh trung ương (kể cả rượu).\nNếu chỉ nhiễm độc duy nhất zolpidem, tiên lượng thường tốt với liều lên tới 400 mg. Các dấu hiệu quá liều (zolpidem duy nhất hay nhiều thuốc) chủ yếu là ức chế hệ TKTW đi từ buồn ngủ đến hôn mê, tùy theo lượng uống.\nTrường hợp nhẹ: Lú lẫn, ngủ li bì. Trường hợp nặng hơn: Mất điều phối động tác, giảm trương lực cơ, hạ huyết áp, suy thở, hãn hữu tử vong.\nCách xử lý khi quá liều Nếu quá liều do uống trước 1 giờ, gây nôn nếu người bệnh tỉnh, nếu mê, tiến hành rửa dạ dày kèm bảo vệ đường hô hấp.\nQuá thời gian đó, cho than hoạt tính có thể làm giảm hấp thu. Phải đặc biệt theo dõi chức năng tim mạch hô hấp ở đơn vị chăm sóc tăng cường.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Quá liều và xử trí | Nội dung:\nQuá thời gian đó, cho than hoạt tính có thể làm giảm hấp thu. Phải đặc biệt theo dõi chức năng tim mạch hô hấp ở đơn vị chăm sóc tăng cường.\nCó thể dùng flumazenil để chẩn đoán và/hoặc điều trị quá liều do cố ý hoặc ngẫu nhiên các loại benzodiazepin. Tính đối kháng của flumazepin đối với tác dụng của benzodiazepin có thể làm xuất hiện các rối loạn thần kinh (co giật), chủ yếu ở người bị bệnh động kinh. Không thẩm phân được zolpidem.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Zolpidem được chuyển hóa chính bởi CYP3A4 và ở một mức độ ít hơn bởi CYP1A2 và CYP2D6.\nThuốc tác động đến enzym vi tiểu thể ở gan: Có tiềm năng tương tác về dược động học.\nCác azol chống nấm (ketoconazol, fluconazol...) ức chế chuyển hóa, làm tăng nồng độ và tăng tác dụng của zolpidem.\nRifampicin: Làm tăng chuyển hóa qua cytochrom P450 CYP3A4, làm giảm nồng độ trong huyết tương và giảm tác dụng của zolpidem.\nRitonavir và thuốc cùng nhóm: Ức chế chuyển hóa qua gan, làm tăng nồng độ của zolpidem dẫn đến gây tác dụng an thần mạnh và ức chế hô hấp.\nThuốc ức chế hấp thu serotonin (fluoxetin, paroxetin…) ức chế chuyển hóa làm tăng tác dụng của zolpidem.\nFlumazepin: Làm đảo ngược tác dụng an thần gây ngủ của zolpidem.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Tương tác thuốc | Nội dung:\nFlumazepin: Làm đảo ngược tác dụng an thần gây ngủ của zolpidem.\nTương tác với thực phẩm Tránh dùng chung với rượu, vì có cộng hợp hoặc tăng tác dụng của zolidem.\nZilopem không nên dùng cùng hoặc ngay sau bữa ăn.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Lưu ý | Nội dung:\nLưu ý chung Trước khi điều trị triệu chứng mất ngủ, phải thăm khám cẩn thận người bệnh. Nếu sau 7 - 10 ngày điều trị bằng zolpidem mà không đỡ, cần phải đánh giá lại.\nKhông nên dùng thuốc ngủ quá 2 - 3 tuần.\nZolpidem có khả năng làm thay đổi nghiêm trọng cách ứng xử và tâm trạng bất thường như lái xe khi ngủ (nghĩa là lái xe trong khi không hoàn toàn tỉnh sau khi uống thuốc an thần gây ngủ mà không nhớ sự kiện đã xảy ra).\nKhi dùng các thuốc này kết hợp với rượu hoặc các thuốc ức chế hệ TKTW khác, trầm cảm có thể xuất hiện hoặc nặng lên (ý tưởng tự tử), lo âu, hiện tượng quên. Do đó, khi thấy xuất hiện bất cứ ứng xử mới nào ở người đang dùng zolpidem cũng phải được thăm khám đánh giá lại.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Lưu ý | Nội dung:\nVì một số tác dụng phụ xảy ra liên quan đến liều, nên điều quan trọng là cố gắng dùng liều thấp nhất có hiệu quả, đặc biệt đối với người cao tuổi.\nVì zolpidem tác dụng nhanh nên chỉ uống ngay trước khi đi ngủ.\nNgười bệnh cũng không được dùng thuốc nếu không thể được ngủ đầy đủ suốt đêm liên tục trong nhiều giờ (7 - 8 giờ) và thuốc đào thải ra khỏi cơ thể trước khi trở lại hoạt động và làm việc vì có thể xảy ra giai đoạn quên.\nTránh ngừng zolpidem đột ngột hoặc giảm liều quá nhanh ở người bệnh dùng thuốc kéo dài (như trên 1 - 2 tuần) vì có thể thúc đẩy các biểu hiện của triệu chứng cai thuốc.\nThuốc nên sử dụng thận trọng ở người bệnh suy giảm chức năng hô hấp do các thuốc an thần gây ngủ có khả năng ức chế hô hấp.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Lưu ý | Nội dung:\nThuốc nên sử dụng thận trọng ở người bệnh suy giảm chức năng hô hấp do các thuốc an thần gây ngủ có khả năng ức chế hô hấp.\nPhải ngừng thuốc khi có phản ứng dị ứng như phát ban ngứa mày đay , nhất là phù mạch.\nDùng thuốc thận trọng ở người trầm cảm, người có tiền sử nghiện thuốc, người bệnh bị tổn thương chức năng hô hấp, nghiện rượu, suy gan (trường hợp nặng không được dùng), suy thận và người cao tuổi.\nTránh dùng thuốc kéo dài. Cần giải thích rõ ràng thời gian dùng thuốc cho người bệnh, tùy theo loại mất ngủ. Khi dùng thuốc từ 1 - 2 tuần trở lên, phải giảm liều dần dần trước khi ngừng để tránh hội chứng cai thuốc.\nLưu ý với phụ nữ có thai Người mang thai không nên dùng zolpidem bất kỳ thời điểm nào.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Zolpidem | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Người mang thai không nên dùng zolpidem bất kỳ thời điểm nào.\nLưu ý với phụ nữ cho con bú Zolpidem phân bố vào sữa mẹ một lượng nhỏ, ảnh hưởng của thuốc trên trẻ bú mẹ chưa rõ. Tuy nhiên, để tránh ADR đối với trẻ, trong thời kỳ cho con bú người mẹ không nên dùng thuốc này hoặc ngừng cho con bú khi đã cân nhắc lợi ích của việc dùng thuốc cho mẹ.\nLưu ý khi lái xe và vận hành máy móc Zolipem tác dụng phụ gây buồn ngủ, nhìn mờ/nhìn đôi, giảm tỉnh táo và suy giảm khả năng lái xe vào buổi sáng sau khi điều trị. Để giảm thiểu nguy cơ này, nên nghỉ ngơi ít nhất 8 giờ từ khi uống zolpidem đến khi lái xe, sử dụng máy móc và làm việc trên cao.",
+        "metadata": {
+            "name": "Zolpidem",
+            "id": "zolpidem",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/zolpidem",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

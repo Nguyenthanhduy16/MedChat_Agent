@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Mô tả tổng quan | Nội dung:\nSargramostim dạng lỏng có chứa EDTA đã bị FDA rút khỏi thị trường.\nTên thuốc gốc (Hoạt chất) Sargramostim.\nLoại thuốc Tác nhân kích thích tạo máu: Yếu tố kích thích phát triển đơn dòng (CSF), yếu tố tăng trưởng, yếu tố kích thích sản sinh bạch cầu.\nDạng thuốc và hàm lượng Bột pha tiêm 250 mcg Dung dịch tiêm 500 mcg/ml",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Chỉ định | Nội dung:\nThuốc Sargramostim được chỉ định trong trường hợp:\nGhép tủy xương (BMT) tự thân hoặc đồng loài.\nGhép tế bào gốc máu ngoại vi (PBPC).\nKéo dài sống còn ở người bệnh đã ghép tủy xương nhưng quá trình ghép bị trì hoãn hoặc thất bại.\nBệnh bạch cầu.\nHội chứng loạn sản sinh tủy (MDS) và thiếu máu bất sản.\nGiảm bạch cầu trung tính liên quan đến nhiễm HIV và điều trị bằng thuốc kháng virus.\nBệnh bạch cầu trung tính bẩm sinh, có chu kỳ và vô căn.\nGiảm bạch cầu trung tính do hóa trị liệu.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Dược lực học | Nội dung:\nSargramostim liên kết với thụ thể yếu tố kích thích tế bào hạt-đại thực bào (GM-CSF-R-alpha hoặc CSF2R), kích thích con đường dẫn truyền tín hiệu JAK2 STAT1 / STAT3. Điều này dẫn đến việc sản xuất các tế bào tạo máu và bạch cầu trung tính.\nSargramostim hoặc GM-CSF là một yếu tố tăng trưởng tạo máu, kích thích sự tồn tại, mở rộng dòng (tăng sinh) và biệt hóa các tế bào tiền thân tạo máu. GM-CSF cũng có khả năng kích hoạt các tế bào hạt và đại thực bào trưởng thành.\nSau khi cấy ghép tủy xương hoặc hóa trị, bệnh nhân bị giảm khả năng sản xuất hồng cầu và bạch cầu.\nBổ sung bằng các nguồn GM-CSF bên ngoài giúp đưa lượng bạch cầu trung tính trở lại bình thường để giúp chống lại nhiễm trùng tốt hơn.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Dược động học | Nội dung:\nHấp thu thuốc Sargramostim Nồng độ đỉnh trong huyết thanh đạt được trong hoặc ngay sau khi hoàn thành truyền tĩnh mạch.\nHấp thu nhanh sau khi tiêm dưới da với nồng độ đỉnh trong huyết thanh trong vòng 1 – 4 giờ.\nPhân bố, chuyển hóa Không có dữ liệu ở người.\nThải trừ Thời gian bán thải cuối cùng là khoảng 60 phút sau khi truyền tĩnh mạch hơn 2 giờ. Sau khi dùng tiêm dưới da, thời gian bán thải khoảng 162 phút.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Liều lượng | Nội dung:\nNếu phản ứng có hại nghiêm trọng xảy ra, giảm 50% liều Sargramostim hoặc tạm thời ngừng điều trị cho đến khi phản ứng thuyên giảm.\nNgừng điều trị nếu tế bào blast xuất hiện hoặc nếu bệnh tiến triển.\nTạm thời ngừng điều trị hoặc giảm liều Sargramostim 50% nếu số lượng bạch cầu trung tính tuyệt đối (ANC) > 20.000/mm 3 hoặc nếu số lượng tiểu cầu > 500.000/mm3. Dựa vào tình trạng lâm sàng của bệnh nhân để quyết định tạm ngưng điều trị hay giảm liều.\nNgười lớn Bạch cầu dòng tủy cấp tính (AML):\nTruyền tĩnh mạch 250 mcg/m²/ngày trong thời gian 4 giờ, bắt đầu vào khoảng ngày thứ 11 hoặc 4 ngày sau khi hoàn thành hóa trị liệu cảm ứng. Chỉ sử dụng nếu ngày 10 tủy xương giảm sản sinh với ít hơn 5% tế bào blast.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Liều lượng | Nội dung:\nNếu cần điều trị chu kỳ thứ hai của hóa trị cảm ứng, theo dõi bệnh khoảng 4 ngày sau khi hoàn thành hóa trị liệu nếu tủy xương giảm sản sinh với ít hơn 5% tế bào blast.\nTiếp tục cho đến khi số lượng bạch cầu trung tính tuyệt đối (ANC) lớn hơn 1.500 tế bào/mm³ trong 3 ngày liên tiếp hoặc tối đa là 42 ngày.\nGhép tủy xương tự thân hoặc đồng loài:\nTruyền tĩnh mạch 250 mcg/m²/ngày trong 2 giờ, bắt đầu từ 2 – 4 giờ sau khi truyền tủy xương và ít nhất 24 giờ sau liều hóa trị hoặc xạ trị cuối cùng.\nKhông bắt đầu dùng thuốc cho đến khi số lượng bạch cầu trung tính tuyệt đối (ANC) sau ghép nhỏ hơn 500 tế bào/mm³, tiếp tục cho đến khi ANC lớn hơn 1.500 tế bào/mm³ trong 3 ngày liên tục.\nGhép tủy xương thất bại hoặc trì hoãn quá trình ghép:",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Liều lượng | Nội dung:\nGhép tủy xương thất bại hoặc trì hoãn quá trình ghép:\nLiều khởi đầu 250 mcg/m2 truyền tĩnh mạch trong 2 giờ một lần mỗi ngày trong 14 ngày liên tục. Ngừng trong 7 ngày liên tục sau đó.\nNếu quá trình ghép vẫn chưa xảy ra sau 7 ngày này, bắt đầu đợt điều trị thứ hai: truyền tĩnh mạch 250 mcg/m2 trong 2 giờ, một lần mỗi ngày trong 14 ngày liên tục. Ngừng trong 7 ngày liên tục sau đó.\nNếu quá trình ghép vẫn chưa xảy ra sau 7 ngày này, bắt đầu đợt điều trị thứ ba: truyền tĩnh mạch 500 mcg/m2 trong 2 giờ, một lần mỗi ngày trong 14 ngày liên tục.\nKhuyến cáo tối đa 3 đợt điều trị (500 mcg/m2 /ngày trong đợt điều trị thứ ba).\nGhép tế bào tiền thân máu ngoại vi:\nGiai đoạn huy động:\nTruyền tĩnh mạch liên tục 250 mcg/m2/ngày trong 24 giờ hoặc tiêm dưới da mỗi ngày một lần.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Liều lượng | Nội dung:\nGhép tế bào tiền thân máu ngoại vi:\nGiai đoạn huy động:\nTruyền tĩnh mạch liên tục 250 mcg/m2/ngày trong 24 giờ hoặc tiêm dưới da mỗi ngày một lần.\nTiếp tục với cùng một liều lượng trong suốt quá trình thu thập tế bào tiền thân máu ngoại vi (PBPC). Giảm 50% liều nếu lượng bạch cầu hơn 50.000 tế bào/mm3.\nGiai đoạn sau khi huy động:\nTruyền tĩnh mạch liên tục 250 mcg/m2/ngày trong 24 giờ hoặc tiêm dưới da mỗi ngày một lần ngay sau khi truyền tế bào tiền thân và tiếp tục cho đến khi ANC lớn hơn 1500 tế bào/mm3 trong 3 ngày liên tiếp.\nNếu thu thập không đủ tế bào tiền thân: Cân nhắc liệu pháp vận động khác.\nHội chứng loạn sản sinh tủy:\nTruyền tĩnh mạch 15 – 500 mcg/m2 ngày một lần, trong 1 – 12 giờ hoặc liều 30 – 500 mcg/m2 mỗi ngày, truyền tĩnh mạch liên tục trong 24 giờ.\nThiếu máu bất sản:",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Liều lượng | Nội dung:\nThiếu máu bất sản:\nTruyền tĩnh mạch 15 – 480 mcg/m2 ngày một lần, trong 1 - 12 giờ hoặc liều 120 – 500 mcg/m2 mỗi ngày, truyền tĩnh mạch liên tục trong 24 giờ.\nGiảm bạch cầu trung tính liên quan đến nhiễm HIV và điều trị bằng thuốc kháng virus:\nLiều 250 mcg/m2 truyền tĩnh mạch hoặc tiêm dưới da một lần mỗi ngày trong 2 - 4 tuần.\nTrẻ em Thanh thiếu niên, điều trị giảm bạch cầu trung tính liên quan đến HIV và điều trị kháng virus:\nThuốc chỉ được dùng trong bệnh viện hoặc cơ sở y tế.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Quá liều và xử trí | Nội dung:\nQuên liều và xử trí Thuốc chỉ được dùng trong bệnh viện hoặc cơ sở y tế.\nQuá liều và xử trí Quá liều và độc tính Các triệu chứng quá liều có thể bao gồm buồn nôn, suy nhược cơ thể , nhức đầu, sốt, ớn lạnh, phát ban trên da, nhịp tim nhanh hoặc khó thở .\nCách xử lý khi quá liều Đến trung tâm y tế gần nhất hoặc gọi ngay cho 115.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Dùng chung sargramostim với thuốc trị ung thư có thể làm tăng độ nhạy của các tế bào phân chia nhanh với hóa trị liệu độc tế bào.\nDo đó, không khuyến cáo sử dụng sargramostim trong vòng 24 giờ sau khi dùng hóa trị liệu.\nDùng chung sargramostim với thuốc tăng sinh tuỷ có thể làm tăng tác dụng tăng sinh tuỷ. Do đó, cần thận trọng khi dùng chung.\nTương kỵ thuốc Acyclovir natri, ampicillin natri, ampicillin natri – sulbactam natri, chlorpromazine HCl, ganciclovir natri, haloperidol lactate, hydrocortisone natri phosphate, hydrocortisone natri succinate, hydromorphone HCl, hydroxyzine HCl, imipenem – cilastatin natri, lorazepam, methylprednisolone natri succinate, mitomycin, morphine sulfate, nalbuphine HCl, ondansetron HCl, natri bicacbonate, tobramycin sulfate.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Lưu ý | Nội dung:\nLưu ý chung Ứ dịch Có thể gây phù, hội chứng rò mao mạch hệ thống, và tràn dịch màng phổi và/hoặc màng tim, làm trầm trọng thêm tình trạng ứ dịch, đặc biệt ở bệnh nhân đã có tràn dịch màng phổi và màng tim.\nTheo dõi trọng lượng cơ thể, tình trạng mất/dư nước. Thận trọng ở bệnh nhân có ứ dịch từ trước, thâm nhiễm phổi, hoặc suy tim.\nTác động lên hô hấp Thận trọng khi sử dụng cho những bệnh nhân có bệnh phổi từ trước và/hoặc thiếu oxy.\nNếu khó thở, giảm 50% tốc độ truyền, cho thở oxy để giảm triệu chứng nếu cần, nếu các triệu chứng hô hấp vẫn xấu đi, hãy ngừng truyền. Các liều tiếp theo có thể được dùng theo lịch liều thông thường với sự theo dõi cẩn thận.\nTác dụng lên tim mạch Rối loạn nhịp tim trên thất thoáng qua, có thể hồi phục.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Lưu ý | Nội dung:\nTác dụng lên tim mạch Rối loạn nhịp tim trên thất thoáng qua, có thể hồi phục.\nThận trọng ở bệnh nhân có bệnh tim từ trước. Tăng tỷ lệ ngất, có hoặc không có hạ huyết áp, xảy ra khi dùng dạng thuốc tiêm dung dịch sargramostim có chứa edetate dinatri (EDTA).\nPhản ứng liều đầu tiên Các triệu chứng: Suy hô hấp, thiếu oxy, đỏ bừng, hạ huyết áp, ngất và/hoặc nhịp tim nhanh sau liều đầu tiên trong mỗi chu kỳ điều trị, thường hết khi điều trị triệu chứng và thường không tái phát với các liều tiếp theo trong cùng một chu kỳ điều trị.\nHóa trị và xạ trị Những bệnh nhân trước đó đã được xạ trị trên diện rộng hoặc đã tiếp xúc với nhiều tác nhân gây độc cho tủy có thể có đáp ứng hạn chế với liệu pháp sargramostim sau ghép tuỷ xương tự thân.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Lưu ý | Nội dung:\nBệnh nhân ghép tủy xương đã được tẩy Bệnh nhân được tẩy tủy bằng hóa chất có thể không đáp ứng với sargramostim nếu các tác nhân hóa học gây ảnh hưởng nghiêm trọng tới số lượng tế bào tiền thân tạo máu; nhưng nếu quá trình tẩy vẫn bảo tồn đủ số lượng tế bào tiền thân tạo máu (> 1,2 × 10 4 / kg), sargramostim có thể có lợi cho quá trình tái tạo tủy.\nẢnh hưởng đến các tế bào ác tính Không thể loại trừ khả năng sargramostim hoạt động như một yếu tố tăng trưởng cho bất kỳ loại khối u nào, thận trọng khi sử dụng ở bất kỳ bệnh lý ác tính nào có liên quan dòng tủy. Ngừng ngay thuốc nếu phát hiện sự tiến triển của bệnh.\nTheo dõi Thực hiện xét nghiệm công thức máu toàn phần trước khi bắt đầu điều trị và thường xuyên (ví dụ, hai lần mỗi tuần) trong khi điều trị.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Lưu ý | Nội dung:\nTheo dõi Thực hiện xét nghiệm công thức máu toàn phần trước khi bắt đầu điều trị và thường xuyên (ví dụ, hai lần mỗi tuần) trong khi điều trị.\nTính sinh miễn dịch Có thể tạo ra các kháng thể kháng yếu tố kích thích bạch cầu hạt, có thể dẫn đến giảm bạch cầu do thuốc, trung hòa tác động của yếu tố kích thích bạch cầu hạt nội sinh hoặc giảm hiệu quả của sargramostim.\nNếu chuẩn bị phẫu thuật, bao gồm cả phẫu thuật nha khoa, hãy nói với bác sĩ hoặc nha sĩ rằng bạn đang sử dụng sargramostim.\nSuy gan Không cần chỉnh liều, do có nguy cơ tăng nồng độ bilirubin huyết thanh và các enzym gan, cần theo dõi chức năng gan 1 lần/tuần.\nSuy thận Không cần chỉnh liều, do có nguy cơ tăng creatinine huyết thanh nên cần theo dõi chức năng thận 1 lần/tuần.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Lưu ý | Nội dung:\nSuy thận Không cần chỉnh liều, do có nguy cơ tăng creatinine huyết thanh nên cần theo dõi chức năng thận 1 lần/tuần.\nNgười cao tuổi Kinh nghiệm sử dụng ở bệnh nhân ≥ 65 tuổi chỉ giới hạn ở những người bị bệnh bạch cầu dòng tuỷ cấp tính.\nLưu ý với trẻ em An toàn và hiệu quả chưa được thiết lập. Tuy nhiên, không có tác dụng phụ bất thường nào được báo cáo ở trẻ em từ 4 tháng đến 18 tuổi (ở liều hàng ngày 60–1000 mcg/m2 đường tĩnh mạch hoặc 4–1500 mcg/m2 tiêm dưới da).\nTránh dùng các dung dịch có chứa cồn benzyl (thuốc tiêm sargramostim, bột sargramostim pha với nước kìm khuẩn để tiêm) ở trẻ sơ sinh. Một lượng lớn rượu benzyl (ví dụ: 100–400 mg/kg mỗi ngày) có liên quan đến độc tính ở trẻ sơ sinh.\nLưu ý với phụ nữ có thai Chỉ sử dụng khi thật sự cần thiết.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Sargramostim | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Chỉ sử dụng khi thật sự cần thiết.\nLưu ý với phụ nữ cho con bú Không nên cho con bú trong khi sử dụng sargramostim và ít nhất 2 tuần sau liều cuối cùng.\nLưu ý khi lái xe và vận hành máy móc Không có báo cáo.",
+        "metadata": {
+            "name": "Sargramostim",
+            "id": "sargramostim",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/sargramostim",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    }
+]

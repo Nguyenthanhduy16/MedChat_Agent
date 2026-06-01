@@ -1,0 +1,282 @@
+[
+    {
+        "text": "Hoạt chất: Quinine | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Quinine (quinin) Loại thuốc Thuốc chống sốt rét Dạng thuốc và hàm lượng Viên nén: 300 mg (dưới dạng quinine dihydrochloride hoặc quinine hydrochloride).\nViên nén bao: 125 mg, 200 mg, 250 mg, 300 mg (dưới dạng quinine sulfate).\nViên nang: 324 mg (dưới dạng quinine sulfate).\nỐng tiêm: 300 mg/1 mL, 600 mg/2 mL (dạng quinine dihydrochloride).\nỐng tiêm quinoserum 100 mg/10 mL (quinine dihydrochloride trong dung dịch natri chloride 0,9%).\n100 mg quinine base khan tương ứng với: 122 mg quinine dihydrochloride, 122 mg quinine hydrochloride, 121 mg quinine sulfate, 122 mg quinine ethylcarbonate (là chất không đắng), 130 mg quinine hydrobromide, 169 mg quinine bisulfate.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Mô tả tổng quan | Nội dung:\nCác dạng muối quinine sulfate, hydrochloride, dihydrochloride và ethylcarbonate có hàm lượng quinine base gần bằng nhau.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Chỉ định | Nội dung:\nĐiều trị bệnh sốt rét:\nSốt rét không biến chứng do Plasmodium falciparum.\nSốt rét không biến chứng do P. vivax kháng chloroquine.\nSốt rét không biến chứng chưa xác định được loại ký sinh trùng sốt rét, hoặc hỗn hợp.\nSốt rét nặng, có biến chứng: Quinine tiêm, phối hợp với 1 số thuốc khác.\nĐiều trị bệnh Babesia.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Dược lực học | Nội dung:\nTác dụng trên ký sinh trùng sốt rét:\nQuinine có tác dụng chủ yếu diệt nhanh thể phân liệt của Plasmodium falciparum, P. vivax, P. ovale, P. malariae; ít tác dụng lên thể thoa trùng và các thể tiền hồng cầu. Thuốc có tác dụng diệt thể giao tử của P. vivax, P. malariae, không có tác dụng diệt thể giao tử của P. falciparum. Do đó không dùng quinine để phòng bệnh.\nQuinine độc và tác dụng kém hơn chloroquine trong phòng và điều trị sốt rét nhưng có giá trị đặc biệt để điều trị sốt rét nặng và sốt rét ác tính do P. falciparum kháng cloroquine hoặc do các chủng đa kháng với nhiều thuốc sốt rét khác gây ra.\nQuinine cũng có thể bị kháng đặc biệt đối với P. falciparum, khi điều trị phải dùng phối hợp với một thuốc diệt thể phân liệt ở máu có tác dụng chậm hơn như sulfadoxine hoặc tetracycline.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Dược lực học | Nội dung:\nCơ chế tác dụng của quinine trên ký sinh trùng sốt rét là ngăn cản tổng hợp acid nucleic hoặc giảm chức năng của tiêu thể. Quinine làm giảm hấp thụ oxy và chuyển hóa carbohydrate, xen vào chuỗi ADN, làm gián đoạn quá trình nhân đôi và phiên mã của ký sinh trùng.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Dược động học | Nội dung:\nHấp thu Khi uống muối quinine, ở người khỏe mạnh, 76 – 88% thuốc được hấp thu và đạt nồng độ tối đa trong máu sau 1 – 3 giờ.\nPhân bố Quinine dễ dàng khuếch tán vào các mô của thai nhi.\nChuyển hóa Quinine sulfate được chuyển hóa nhiều ở gan thành 4 chất chính, trong đó, 3-hydroxyquinine là chất chuyển hóa chính có hoạt tính kém hơn quinine sulfate.\nThải trừ Quinine bài tiết chủ yếu qua thận với tỷ lệ từ < 5 – 20% ở dạng không biến đổi. Tăng bài tiết khi nước tiểu acid. Một phần quinine bài tiết vào dịch mật, nước bọt và sữa.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Liều lượng | Nội dung:\nLiều dùng Quinine Người lớn Sốt rét thể không biến chứng:\nDùng 600 – 650 mg/lần x 3 lần/ngày, điều trị trong 7 ngày.\nDự án Quốc gia phòng chống sốt rét Việt Nam dùng viên quinine sulfate 250 mg với liều 30 mg quinine sulfate/kg/ngày, chia 3 lần, trong 7 ngày.\nĐiều trị phối hợp:\nUống quinine với liều như trên, kết hợp với:\nDoxycycline: 3 mg/kg/ngày, 1 lần/ngày, dùng trong 7 ngày (không dùng cho phụ nữ có thai).\nClindamycin: 15 mg/kg/ngày, chia 2 lần/ngày, dùng trong 7 ngày (dùng được cho phụ nữ có thai).\nHoặc quinine 650 mg/lần, 3 lần/ngày, trong 3 – 5 ngày, sau đó uống liều đơn 50 – 75 mg pyrimethamine phối hợp với 1 – 1,5 g sulfadoxine.\nSốt rét do P. falciparum nặng, ác tính hoặc có biến chứng, hoặc người bệnh không thể uống được:\nTốt nhất là tiêm truyền tĩnh mạch chậm.\nChú ý:",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Liều lượng | Nội dung:\nSốt rét do P. falciparum nặng, ác tính hoặc có biến chứng, hoặc người bệnh không thể uống được:\nTốt nhất là tiêm truyền tĩnh mạch chậm.\nChú ý:\nChuyển ngay sang đường uống khi có thể được. Khi tiêm truyền phải theo dõi tim mạch liên tục.\nNếu trước đó người bệnh chưa điều trị quinine thì truyền tĩnh mạch với liều 20 mg/kg trong 8 giờ đầu, sau đó 10 mg/kg x 3 lần/ngày đến khi người bệnh uống được.\nChuyển sang dùng quinine sulfate 30 mg/kg chia 3 lần/ngày, trong 7 ngày, nên phối hợp với doxycycline liều 3 mg/kg x 7 ngày, hoặc clindamycin liều 15 mg/kg/ngày x 7 ngày.\nNếu đã từng điều trị quinine, dùng liều 7 mg quinine dihydrochloride/kg, truyền trong 30 phút rồi chuyển sang liều duy trì 10 mg/kg trong 4 giờ, cách 8 giờ truyền một lần.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Liều lượng | Nội dung:\nHoặc dùng liều khởi đầu là 20 mg/kg (tối đa 1,4 g) tiêm truyền trong 4 giờ, 8 giờ sau truyền các liều duy trì 10 mg/kg trong 4 giờ.\nNếu thời gian kéo dài trên 48 giờ thì cần giảm 1/3 hoặc 1/2 liều.\nNếu không truyền tĩnh mạch được có thể tiêm bắp với liều 20 mg/kg, sau đó cách 8 giờ dùng một liều duy trì 10 mg/kg.\nSốt rét não:\nTruyền 20 mg/kg trong 4 giờ rồi chuyển sang liều duy trì 10 mg/kg trong 2 giờ, cách 8 giờ truyền 1 lần, trong vòng 7 ngày.\nKhi chuyển sang đường uống, dùng liều 10 mg/kg mỗi 8 giờ, trong 7 ngày.\nBệnh Babesia:\nLiều quinine (muối) đường uống 650 mg/lần x 3 lần/ngày, kết hợp với tiêm tĩnh mạch clindamycin 300 – 600 mg/lần x 4 lần/ngày hoặc uống 600 mg/lần x 3 lần/ngày, trong 7 – 10 ngày.\nTrẻ em Liều 10 mg/kg x 3 lần/ngày, tối đa 600 mg, trong 7 ngày.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Liều lượng | Nội dung:\nTrẻ em Liều 10 mg/kg x 3 lần/ngày, tối đa 600 mg, trong 7 ngày.\nHoặc dùng liều theo bảng sau (theo dự án Quốc gia phòng chống sốt rét Việt Nam):\nTuổi Liều trong 1 ngày (viên quinine sulfate 250mg) Dưới 1 tuổi 1 viên Từ 1 đến dưới 5 tuổi 1,5 viên Từ 5 đến dưới 12 tuổi 3 viên Từ 12 đến dưới 15 tuổi 5 viên Từ 15 tuổi trở lên 6 viên Trẻ em < 8 tuổi: Quinine 10 mg/kg x 3 lần/ngày x 7 ngày kết hợp với clindamycin 15 mg/kg/ngày, chia 2 lần/ngày x 7 ngày.\nTrẻ em ≥ 8 tuổi: Liều quinine 10 mg/kg x 3 lần/ngày x 7 ngày kết hợp với: Clindamycin 15 mg/kg/ngày, chia 2 lần/ngày x 7 ngày; hoặc doxycycline 2,2mg/kg x 2 lần/ngày x 7 ngày (liều tối đa 100 mg); hoặc tetracycline 25 mg/kg/ngày, chia 4 lần/ngày x 7 ngày (liều tối đa 250 mg).",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Liều lượng | Nội dung:\nUống 25 mg quinine (muối)/kg, chia 3 lần/ngày và 20 – 40 mg clindamycin/kg, chia 3 lần/ngày.\nĐối tượng khác Bệnh nhân suy thận:\nThường chỉ dùng thuốc 2 hoặc 1 lần/ngày, kể cả người bệnh thẩm tách máu, giảm liều, tăng khoảng cách như sau:\nĐộ thanh thải creatinine (mL/phút) Khoảng cách liều (giờ) 50 8\n10 – 50 8 – 12 < 10 24 Suy thận mạn nặng, không thẩm phân máu:\nLiều uống ban đầu 648 mg, sau đó cứ 12 giờ dùng 324 mg.\nThẩm phân phúc mạc:\nLiều dùng như đối với ClCr < 10 mL/phút.\nLọc máu động - tĩnh mạch liên tục hoặc thẩm phân máu:\nLiều dùng như đối với ClCr từ 10 – 50 mL/phút.\nGiảm liều tiêm duy trì tới 5 – 7 mg quinine (muối)/kg cho người bệnh suy thận nặng.\nCách dùng Dung dịch truyền chỉ pha trước khi dùng.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Liều lượng | Nội dung:\nGiảm liều tiêm duy trì tới 5 – 7 mg quinine (muối)/kg cho người bệnh suy thận nặng.\nCách dùng Dung dịch truyền chỉ pha trước khi dùng.\nVới dạng thuốc uống, có thể dùng chung với thức ăn để giảm kích ứng đường tiêu hoá.\nỞ Việt Nam, sốt rét chủ yếu do P. falciparum (khoảng 80%), một phần do P. Vivax (khoảng 20%). Khi dùng điều trị sốt rét do P. falciparum, không được dùng một thuốc sốt rét đơn thuần, phải phối hợp để hạn chế kháng thuốc và tăng hiệu lực chữa bệnh.\nQuinine thường được phối hợp với clindamycin, tetracycline hoặc doxycycline.\nNếu quên dùng một liều thuốc, hãy uống càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Quinine và xử trí Quá liều và độc tính Các triệu chứng ngộ độc cấp tính gồm buồn nôn, nôn, ù tai, nhức đầu, chóng mặt, mờ mắt, mắt đỏ, giảm thị lực, mù do giãn cứng đồng tử, sốt, lú lẫn, động kinh.\nNgộ độc mạn tính do quinine gây ra: Tán huyết nặng, hemoglobin huyết, hemoglobin niệu, nếu không chữa có thể gây suy thận và tử vong.\nCác triệu chứng nghiêm trọng khi dùng thuốc quá liều: Co giật, suy giảm ý thức, hôn mê, ức chế hô hấp, kéo dài khoảng QT, loạn nhịp thất, sốc tim, suy thận.\nCách xử lý khi quá liều Chủ yếu là điều trị triệu chứng và hỗ trợ, chú ý duy trì huyết áp, hô hấp, chức năng thận và chữa loạn nhịp tim. Các biện pháp bao gồm:\nHạn chế hấp thu: Uống than hoạt tính, liều 25 – 50 g (trong vòng 2 giờ sau khi uống thuốc), rửa dạ dày, ruột.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Quá liều và xử trí | Nội dung:\nHạn chế hấp thu: Uống than hoạt tính, liều 25 – 50 g (trong vòng 2 giờ sau khi uống thuốc), rửa dạ dày, ruột.\nTăng thải trừ: Uống than hoạt ở dạng hạt, khởi đầu uống 50 g sau đó cứ 4 giờ uống 25 g, lặp lại nhiều lần.\nPḥòng hoặc phục hồi tổn thương võng mạc bằng cách dùng thuốc giãn mạch và phong bế hạch sao.\nTrường hợp nhiễm độc tim nặng: Dùng thuốc tăng lực co cơ như isoprenaline, dopamine hoặc prenalterol.\nChữa co giật: Dùng diazepam 5 – 10 mg, trẻ em dùng 0,1 – 0,2 mg/ kg.\nĐiều trị loạn nhịp tim theo loại loạn nhịp, mức độ và tình trạng tim.\nQuên liều và xử trí Nếu quên dùng một liều thuốc, hãy uống càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và uống liều kế tiếp vào thời điểm như kế hoạch. Không dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Các thuốc kháng acid chứa nhôm, magnesi có thể làm chậm hấp thu quinine qua đường tiêu hóa, vì vậy cần uống hai loại thuốc cách xa nhau.\nCimetidine làm giảm thanh thải ở thận, tăng thời gian bán thải của quinine nên làm tăng nồng độ quinine trong huyết tương.\nRifampicin có thể làm tăng tốc độ thải trừ quinine lên 6 lần, làm giảm nồng độ quinin trong huyết tương.\nCác thuốc gây acid hóa nước tiểu có thể làm tăng thải trừ quinine vào nước tiểu.\nQuinine làm chậm hấp thu và tăng nồng độ digoxin trong huyết tương (và các glycoside tim liên quan). Quinine làm tăng nồng độ warfarin trong huyết tương (và các chất chống đông liên quan).\nQuinine tăng tác dụng của các thuốc phong bế thần kinh - cơ và đối kháng với các thuốc ức chế acetylcholinesterase.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Tương tác thuốc | Nội dung:\nQuinine tăng tác dụng của các thuốc phong bế thần kinh - cơ và đối kháng với các thuốc ức chế acetylcholinesterase.\nTăng nguy cơ loạn nhịp thất nếu dùng với halofantrine hoặc các thuốc chống loạn nhịp như amiodarone, các thuốc kháng histamin astemizole, terfenadine, cisapride và thuốc chống loạn thần pimozide.\nCó thể tăng nguy cơ co giật hoặc loạn nhịp thất nặng khi dùng quinine với mefloquine .\nTránh dùng đồng thời quinine với kháng sinh nhóm macrolide (erythromycin, troleandomycin), ritonavir, artemether, lumefantrine, conivaptan, silodosin, topotecan.\nDùng chung quinine với atorvastatin có thể tăng nguy cơ mắc bệnh về cơ hoặc tiêu cơ vân.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Tương tác thuốc | Nội dung:\nDùng chung quinine với atorvastatin có thể tăng nguy cơ mắc bệnh về cơ hoặc tiêu cơ vân.\nQuinine có thể làm tăng tác dụng của các thuốc chống tăng huyết áp, chống loạn thần (phenothiazine), carbamazepine, phenobarbital, colchicine, dapsone, dẫn chất theophylline.\nQuinine có thể làm giảm tác dụng của codeine, tramadol.\nMột số dược liệu có thể làm giảm nồng độ quinine trong máu (St John’s wort) hoặc gây hạ huyết áp quá mức (thuốc phiện California, tinh dầu tần, táo gai, cây tầm gửi, dừa cạn).\nKetoconazole làm tăng hấp thu, giảm độ thanh thải của quinine khi dùng đồng thời.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Lưu ý | Nội dung:\nLưu ý chung Phải ngừng quinine ngay khi xuất hiện triệu chứng tan huyết.\nTránh dùng khi có thai (trừ trường hợp bị sốt rét nặng, ác tính).\nThận trọng với những người có biểu hiện quá mẫn với quinine, quinidine hoặc mefloquine, đặc biệt khi có các biểu hiện ở da, phù mạch, các triệu chứng về thị giác hoặc thính giác; người bệnh có rung nhĩ - thất, loạn nhịp, bệnh tim nặng, hạ đường huyết, suy thận. Cần theo dõi và giảm liều. Tiêm tĩnh mạch hoặc truyền chậm, tiêm bắp sâu và thay đổi vị trí tiêm.\nHội chứng quinine có thể xảy ra khi sử dụng quinine. Các biểu hiện bao gồm: Đau đầu, giãn mạch, đổ mồ hôi, ù tai, buồn nôn, chóng mặt, nhìn mờ… Hầu hết các biểu hiện này sẽ mất đi khi ngừng dùng quinine.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Mức độ an toàn đối với phụ nữ có thai: loại C (theo phân loại của Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ, FDA).\nChỉ dùng quinine khi bị sốt rét nặng, ác tính khi không có thuốc nào khác thích hợp điều trị.\nỞ liều điều trị: Quinine không gây khuyết tật khi sinh nhưng làm tăng insulin, gây hạ đường huyết nặng ở người mang thai. Quinine có thể gây xuất huyết giảm tiểu cầu ở mẹ và trẻ mới sinh, có thể gây tan huyết do thiếu enzyme G6PD ở trẻ mới sinh.\nỞ liều cao: Quinine có thể gây ra các loại khuyết tật khác nhau và độc hại đối với thính giác, gây co bóp tử cung và sảy thai. Quinine có tác dụng trợ sinh ở ba tháng cuối thai kỳ.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Quinine | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Quinine bài tiết một lượng nhỏ qua sữa. Không thấy tác dụng có hại đến trẻ bú mẹ, vì vậy quinine dùng được với người cho con bú.\nLưu ý khi lái xe và vận hành máy móc Thuốc có thể làm mờ mắt, đổi màu sắc khi nhìn hoặc ù tai, có thể nguy hiểm khi lái xe hoặc điều khiển máy móc.",
+        "metadata": {
+            "name": "Quinine",
+            "id": "quinine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/quinine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

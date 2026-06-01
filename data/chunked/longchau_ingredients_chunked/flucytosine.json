@@ -1,0 +1,296 @@
+[
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Flucytosine Loại thuốc Thuốc chống nấm toàn thân.\nDạng thuốc và hàm lượng Viên nang: 250 mg; 500 mg.\nLọ truyền: 2,5 g/250 ml.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Chỉ định | Nội dung:\nFlucytosine được chỉ định để kết hợp với amphotericin B IV trong điều trị các bệnh nhiễm nấm như:\nBệnh nhiễm nấm Candida toàn thân nặng (nhiễm nấm đường tiết niệu hoặc phổi, viêm nội tâm mạc, viêm màng não và viêm nội nhãn).\nNhiễm trùng Cryptococcus nghiêm trọng, bao gồm nhiễm trùng phổi, nhiễm trùng huyết và viêm màng não do Cryptococcus neoformans gây ra.\nNhiễm nấm Aspergillus xâm lấn như viêm xương tủy, nhiễm nấm khớp.\nĐiều trị nhiễm trùng da do nấm sắc tố (Chromoblastomycosis).",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Dược lực học | Nội dung:\nFlucytosine là một chất kháng nấm có tác dụng kìm nấm hay diệt nấm nhạy cảm tùy theo nồng độ thuốc. Fucytosin được hấp thu vào trong tế bào nấm nhạy cảm thông qua tác dụng của cytosin permease đặc hiệu của nấm. Trong tế bào nấm, ﬂucytosin được chuyển thành ﬂuorouracil (5 - FU) nhờ enzym cytosin deaminase và sau đó chuyển thành 5 - ﬂuorouridin triphosphat (FUTP); FUTP sát nhập vào RNA nấm và ngăn cản tổng hợp protein. Flucytosin cũng được chuyển thành 5 - ﬂuorodeoxyuridin monophosphat. Chất này ức chế một cách không cạnh tranh thymidylat synthetase và cản trở tổng hợp DNA.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Dược lực học | Nội dung:\nFlucytosin có hoạt tính in vitro và in vivo chống một số chủng nấm Candida và Cryptococcus . Cũng có tác dụng in vitro đối với một số chủng Sporothrix schenckii, Aspergillus, cladosporium, Exophiala Phialophora, nhưng các nghiên cứu còn hạn chế.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Dược động học | Nội dung:\nHấp thu Hấp thu nhanh chóng và gần như hoàn toàn qua đường tiêu hóa; sinh khả dụng là 78 - 90%. Ở chức năng thận bình thường, nồng độ đỉnh flucytosine trong huyết thanh đạt được trong vòng 2 giờ sau một liều uống 2 g duy nhất. Thực phẩm làm giảm tỷ lệ, nhưng không giảm mức độ hấp thu.\nPhân bố Phân bố rộng rãi vào các mô và dịch cơ thể, 2,9 - 4% thuốc liên kết với protein huyết thanh. Thể tích phân bố khoảng 0,68 lít/kg ở người lớn khỏe mạnh và 0,4 - 0,7 lít/kg ở người suy thận.\nChuyển hóa Chỉ một lượng tối thiểu Flucytosine được chuyển hóa. Thuốc bị khử amin (có thể do vi khuẩn ruột) thành ﬂuorouracil.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Dược động học | Nội dung:\nChuyển hóa Chỉ một lượng tối thiểu Flucytosine được chuyển hóa. Thuốc bị khử amin (có thể do vi khuẩn ruột) thành ﬂuorouracil.\nThải trừ Hơn 90% liều uống Flucytosine thải trừ qua nước tiểu dưới dạng không đổi, phần thuốc không được hấp thu bài tiết dưới dạng không đổi qua phân. Thời gian bán thải 2,4 - 4,8 giờ ở chức năng thận bình thường.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Liều lượng | Nội dung:\nNgười lớn Liều chung Viên nang: 50 - 150 mg/kg/ngày, chia làm 4 lần, uống cách nhau 6 giờ. Dùng liều thấp hơn nếu có urê hay creatinin huyết tăng, hoặc có những dấu hiệu suy thận khác.\nTiêm truyền: 200 mg/kg/ngày, chia thành 4 liều. Ở những người bệnh đáp ứng tốt, có thể chỉ cần 100 - 150 mg/kg/ngày, chia làm 4 lần. Cần truyền trong 20 - 40 phút với dung dịch 1%. Dùng dụng cụ truyền có bộ phận lọc 15 micron. Có thể truyền trực tiếp vào tĩnh mạch, qua cathete tĩnh mạch trung tâm hay truyền qua màng bụng. Thời gian tiêm truyền thường không quá 1 tuần; trừ trường hợp viêm màng não do Cryptococcus , khi đó phải tiếp tục ít nhất trong 4 tháng.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Liều lượng | Nội dung:\nPhải điều chỉnh liều ﬂucytosin để có nồng độ thuốc thấp nhất trong huyết thanh 25 - 50 mcg/ml. Điều này đặc biệt quan trọng đối với người bị AIDS vì dễ bị nhiễm độc tủy.\nLiều dùng Flucytosine trong một số chỉ định Nhiễm Candida ở hệ thần kinh trung ương 25 mg/kg x 4 lần/ngày, phối hợp với amphotericin B IV trong vài tuần, tiếp theo là uống ﬂuconazol đơn độc. Tiếp tục điều trị chống nấm cho tới khi các dấu hiệu, triệu chứng bất thường của hệ thần kinh trung ương và X quang hết.\nViêm đường tiết niệu do Candida Điều trị viêm bàng quang có triệu chứng do Candida đã kháng ﬂuconazol: 25 mg/kg 4 lần mỗi ngày trong 7 - 10 ngày.\nViêm thận - bể thận do kháng ﬂuconazol: 25 mg/kg x 4 lần/ngày trong 2 tuần hoặc 25 mg/kg x 4 lần/ngày phối hợp với amphotericin B IV trong 7 ngày.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Liều lượng | Nội dung:\nViêm thận - bể thận do kháng ﬂuconazol: 25 mg/kg x 4 lần/ngày trong 2 tuần hoặc 25 mg/kg x 4 lần/ngày phối hợp với amphotericin B IV trong 7 ngày.\nViêm nội nhãn do nặng: 25 mg/kg x 4 lần/ngày, phối hợp với amphotericin B IV. Thời gian điều trị ít nhất 4 - 6 tuần, cần kiểm tra nhiều lần xem có hết tổn thương không.\nViêm nội tâm mạc do : 25 mg/kg x 4 lần/ngày, phối hợp với amphotericin B IV. Nếu viêm nội tâm mạc do nhạy cảm với ﬂuconazol, có thể chuyển điều trị tiếp duy nhất bằng ﬂuconazol sau khi bệnh nhân ổn định và lâm sàng không còn trong máu nữa.\nNhiễm Cryptococcus Nhiễm trùng nặng do : 100 - 150 mg/kg/ngày kết hợp với một loại thuốc kháng nấm khác.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Liều lượng | Nội dung:\nNhiễm Cryptococcus Nhiễm trùng nặng do : 100 - 150 mg/kg/ngày kết hợp với một loại thuốc kháng nấm khác.\nViêm màng não do ở người nhiễm HIV: Liệu pháp cảm ứng uống 100 mg/kg/ngày chia làm 4 lần đều nhau, phối hợp với amphotericin B IV trong ít nhất 2 tuần, cho tới khi có chứng cứ rõ ràng có cải thiện lâm sàng và cấy nước não tủy âm tính đối với nấm. Sau đó, củng cố bằng ﬂuconazol uống duy nhất trong ít nhất 8 tuần.\nở người nhiễm HIV nhưng không dung nạp được amphotericin B IV: Liệu pháp cảm ứng: Uống 100 mg/kg/ngày chia làm 4 lần đều nhau, phối hợp cùng với ﬂuconazol uống, cho trong 4 - 6, sau đó củng cố bằng ﬂuconazol duy nhất trong ít nhất 8 tuần.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Liều lượng | Nội dung:\nTrẻ em Trẻ nhỏ và trẻ em nhiễm HIV bị nhiễm toàn thân (bao gồm cả viêm não, màng não): 100 - 150 mg/kg/ngày chia làm 4 liều bằng nhau, phối hợp với amphotericin B IV. Điều trị phải được tiếp tục trong 2 - 3 tuần, sau khi chứng minh được không còn trong máu, hết các triệu chứng do nấm và không còn giảm bạch cầu trung tính.\nCryptococcosis ở thiếu niên, trẻ em nhiễm HIV: Liều tương tự người lớn.\nở thiếu niên nhiễm HIV nhưng không dung nạp được amphotericin B tĩnh mạch: Liều tương tự người lớn.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Liều lượng | Nội dung:\nở thiếu niên nhiễm HIV nhưng không dung nạp được amphotericin B tĩnh mạch: Liều tương tự người lớn.\nNhiễm lan tỏa hệ thần kinh trung ương ở trẻ em: Liều cảm ứng uống 100 mg/kg/ngày chia làm 4 lần, phối hợp cùng với amphotericin B IV trong ít nhất 2 tuần, sau đó củng cố bằng ﬂuconazol uống duy nhất trong ít nhất 8 tuần. Đối với trẻ em không nhiễm HIV và không ghép cơ quan, liệu pháp cảm ứng phải tiếp tục ít nhất trong 4 tuần (6 tuần đối với người có biến chứng thần kinh) trước khi bắt đầu liệu pháp củng cố.\nlan tỏa (không vào hệ thần kinh trung ương) hoặc nhiễm phổi nặng ở trẻ nhỏ và trẻ em nhiễm HIV: 100 mg/kg/ngày chia làm 4 lần, cùng với amphotericin B IV. Thời gian điều trị phụ thuộc vào đáp ứng, vị trí và mức độ nặng.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Liều lượng | Nội dung:\nĐối tượng khác Suy chức năng thận Liều tùy thuộc độ thanh thải creatinin:\nTừ 20 - 40 ml/phút: 50 mg/kg, 12 giờ một lần.\nTừ 10 - 20 ml/phút: 50 mg/kg, 24 giờ một lần.\nDưới 10 ml/phút: Liều độc nhất khởi đầu là 50 mg/kg.\nNhững liều tiếp theo phải tính toán tùy theo kết quả theo dõi thường xuyên nồng độ thuốc trong huyết thanh; không được vượt quá 80 mcg/ml. Thông thường nồng độ thuốc trong huyết thanh 25 - 50 mcg/ml là có tác dụng. Thời gian điều trị nên xác định cho từng người.\nNgười bệnh chạy thận nhân tạo cách 48 - 72 giờ/lần, có thể cho 1 liều 20 – 50 mg/kg sau mỗi lần chạy thận nhân tạo. Trường hợp viêm màng não do nên điều trị kéo dài ít nhất 4 tháng.\nNgười cao tuổi Liều giống như đối với người lớn; cần chú ý đặc biệt đến chức năng thận.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Liều lượng | Nội dung:\nNgười cao tuổi Liều giống như đối với người lớn; cần chú ý đặc biệt đến chức năng thận.\nNếu quên dùng một liều thuốc Flucytosine, dùng liều đó ngay khi nhớ ra. Bỏ qua liều đã quên nếu gần đến thời gian cho liều dự kiến ​​tiếp theo của bạn. Không dùng thêm thuốc để tạo nên liều đã quên.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Flucytosine và xử trí Quá liều và độc tính Quá liều có thể gây những phản ứng không mong muốn trên lâm sàng. Nồng độ thuốc trong máu vượt quá 100 mcg/ml trong thời gian dài có thể gây tăng độc tính, đặc biệt là với đường tiêu hóa (tiêu chảy, buồn nôn và nôn), máu (giảm bạch cầu, giảm tiểu cầu) và gan (viêm gan).\nCách xử lý khi quá liều Flucytosine Trường hợp quá liều nên rửa dạ dày ngay hoặc dùng thuốc gây nôn. Duy trì bù dịch thích hợp, nếu cần thiết truyền theo đường tĩnh mạch. Cần thường xuyên theo dõi cẩn thận các chỉ số về huyết học, chức năng gan và thận. Mọi bất thường xảy ra ơ những người bệnh này đều phải có biện pháp điều trị thích hợp. Thẩm phân máu làm giảm nồng độ ﬂucytosin trong máu ơ những người bệnh vô niệu.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Quá liều và xử trí | Nội dung:\nQuên liều và xử trí Nếu quên dùng một liều thuốc Flucytosine, dùng liều đó ngay khi nhớ ra. Bỏ qua liều đã quên nếu gần đến thời gian cho liều dự kiến ​​tiếp theo của bạn. Không dùng thêm thuốc để tạo nên liều đã quên.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Tương tác thuốc | Nội dung:\nTương tác Flucytosine với các thuốc khác Cytosin arabinosid (cytarabin) là một thuốc chống ung thư gây mất tác dụng chống nấm của ﬂucytosin do cơ chế ức chế cạnh tranh.\nThuốc ức chế tủy (zidovudine) có thể tăng nguy cơ nhiễm độc tủy xương.\nCác thuốc làm suy giảm chức năng lọc cầu thận có thể kéo dài thời gian bán thải của ﬂucytosin.\nAmphotericin B có thể tăng nguy cơ ngộ độc flucytosine, đồng thời tác dụng hiệp đồng chống nấm với ﬂucytosin.\nTương kỵ thuốc Không được cho thêm hoặc trộn bất cứ chất nào vào dịch truyền ﬂucytosin. Dịch truyền ﬂucytosin có thể dùng đồng thời với các dịch truyền thông thường khác như dịch truyền muối, glucose hay glucose/muối.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Lưu ý | Nội dung:\nLưu ý chung khi dùng Flucytosine Nên giám sát nồng độ ﬂucytosin huyết thanh và điều chỉnh liều để nồng độ thuốc trong huyết thanh dưới 100 mcg/ml.\nPhải hết sức thận trọng khi dùng ﬂucytosin cho người suy giảm chức năng thận vì thuốc bài xuất chủ yếu qua thận và thương tổn thận có thể dẫn đến tích lũy thuốc. Cần điều chỉnh liều cho người suy thận.\nKhông nên cho người suy thận dùng ﬂucytosin nếu không có phương tiện để theo dõi nồng độ thuốc trong máu.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Lưu ý | Nội dung:\nKhông nên cho người suy thận dùng ﬂucytosin nếu không có phương tiện để theo dõi nồng độ thuốc trong máu.\nThiếu máu, giảm bạch cầu, giảm bạch cầu, giảm tiểu cầu, tăng bạch cầu ái toan, mất bạch cầu hạt và thiếu máu bất sản đã được báo cáo. Chỉ định phải rất thận trọng đối với người suy tủy. Người bệnh có thể dễ bị suy tủy hơn nếu mắc bệnh về máu, đang điều trị bằng tia xạ hay các thuốc ức chế tủy xương, có tiền sử điều trị từ trước bằng các thuốc đó hoặc tia xạ.\nTrước và trong quá trình điều trị, cần tiến hành làm công thức máu và các xét nghiệm chức năng gan, thận và chất điện giải (vì có thể gây hạ kali huyết). Ở người suy thận, cần xét nghiệm chức năng gan và thận và công thức máu hàng tuần.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Lưu ý | Nội dung:\nKhi tính lượng dịch và chất điện giải cho người suy thận, suy tim hoặc mất cân bằng điện giải, phải khấu trừ thể tích và hàm lượng natri của dịch truyền ﬂucytosin.\nPhát ban, ngứa, mày đay, hoại tử biểu bì nhiễm độc (hội chứng Lyell) và nhạy cảm với ánh sáng.\nLưu ý với phụ nữ có thai Thuốc có khả năng gây quái thai trên chuột nhắt và chuột cống ở liều bằng 0,27 lần liều tối đa dùng cho người. Chưa có những nghiên cứu đầy đủ về sử dụng ﬂucytosin ở người mang thai. Thuốc chỉ được sử dụng trong thời kỳ mang thai nếu lợi ích trị liệu vượt trội so với khả năng gây hại cho thai.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Flucytosine | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Chưa có thông tin về dùng ﬂucytosin trong thời gian cho con bú và về số lượng thuốc bài tiết qua sữa. Tuy nhiên do khả năng có thể gây ra những ảnh hưởng không mong muốn cho trẻ đang bú mẹ, không nên cho con bú trong khi dùng ﬂucytosin.\nLưu ý khi lái xe và vận hành máy móc Không có thông tin.",
+        "metadata": {
+            "name": "Flucytosine",
+            "id": "flucytosine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/flucytosine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

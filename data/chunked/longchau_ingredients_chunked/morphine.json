@@ -1,0 +1,338 @@
+[
+    {
+        "text": "Hoạt chất: Morphine | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Morphine Sulfate Loại thuốc Thuốc giảm đau gây nghiện, opioid.\nDạng thuốc và hàm lượng Thuốc uống (Morphine sulfate) dạng viên nang giải phóng chậm chứa chuỗi hạt hoặc chứa vi cầu (pellet)/ viên nén/ viên bao phim:\n30 mg (27 mg giải phóng chậm và 3 mg giải phóng tức thời)/ 24 giờ 60 mg (54 mg giải phóng chậm và 6 mg giải phóng tức thời)/ 24 giờ 90 mg (81 mg giải phóng chậm và 9 mg giải phóng tức thời)/24 giờ 120 mg (108 mg giải phóng chậm và 12 mg giải phóng tức thời)/ 24 giờ.\nDung dịch: 10 mg/5 ml; 20 mg/5 ml; 100 mg/5 ml.\nThuốc tiêm (Morphine sulfate):\nThuốc tiêm bắp thịt, tĩnh mạch, dưới da: 0,5 mg/ml; 1 mg/ml; 2 mg/ml; 4 mg/ml; 5 mg/ml; 8 mg/ml; 10 mg/ml; 15 mg/ml.\nThuốc đạn: 5 mg; 10 mg; 20 mg; 30 mg.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Mô tả tổng quan | Nội dung:\nThuốc đạn: 5 mg; 10 mg; 20 mg; 30 mg.\nDung dịch treo: Dạng liposom giải phóng chậm (không có chất bảo quản) để tiêm ngoài màng cứng: 10 mg/ml; 15 mg/ml; 20 mg/ml.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Chỉ định | Nội dung:\nMorphine chỉ định dùng trong các trường hợp sau:\nĐau nhiều hoặc đau không đáp ứng với các thuốc giảm đau khác: Đau sau chấn thương, đau sau phẫu thuật, đau ở thời kỳ cuối của bệnh, đau do ung thư, cơn đau gan, đau thận (nhưng Morphine có thể làm tăng co thắt), đau khi chuyển dạ, trừ trường hợp nghi đẻ non.\nPhối hợp khi gây mê và tiền mê.\nĐau do nhồi máu cơ tim cấp.\nPhù phổi cấp do suy thất trái.\nHo dai dẳng ở giai đoạn cuối của ung thư phổi .",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Dược lực học | Nội dung:\nMorphine tác dụng chủ yếu trên hệ thần kinh trung ương và trên cơ trơn qua thụ thể muy ở sừng sau tủy sống và ở liều cao có thể qua các thụ thể delta và kappa.\nTác dụng giảm đau của Morphine là do làm thay đổi cảm nhận đau và một phần do làm tăng ngưỡng đau.\nHoạt tính giảm đau qua nhiều trung gian là do tác dụng khác nhau trên hệ thần kinh trung ương. Morphine ức chế hô hấp là do ức chế tác dụng kích thích của khí carbonic (CO2) trên trung tâm hô hấp ở hành não.\nMorphine có thể trực tiếp gây giải phóng histamin, do đó làm giãn mạch ngoại vi đột ngột, như ở da, thậm chí gây co thắt phế quản.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Dược lực học | Nội dung:\nMorphine có thể trực tiếp gây giải phóng histamin, do đó làm giãn mạch ngoại vi đột ngột, như ở da, thậm chí gây co thắt phế quản.\nMorphine gây nghiện rất nghiêm trọng. Nghiện có thể phát sinh ngay sau 1 tuần tiêm lặp lại liều điều trị. Sự quen thuốc cũng phát triển, người bệnh đau nhiều, cần điều trị lâu dài, thường cần liều tăng dần mới khống chế được đau.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Dược động học | Nội dung:\nHấp thu Morphine được hấp thu dễ dàng qua đường tiêu hóa, chủ yếu ở tá tràng; hấp thu qua niêm mạc trực tràng cũng khá, do đó có dạng thuốc đạn đặt hậu môn.\nSinh khả dụng khi uống là 17 - 33% (do tác dụng chuyển hóa bước đầu).\nThức ăn làm tăng mức độ hấp thu Morphine dạng thông thường, làm giảm tốc độ hấp thu Morphine dạng giải phóng chậm.\nTác dụng giảm đau tối đa đạt được trong vòng 60 phút; tác dụng giảm đau xuất hiện 20 - 60 phút sau khi đặt trực tràng.\nMorphine được hấp thu nhanh sau khi tiêm dưới da hoặc tiêm bắp.\nPhân bố Thể tích phân bố sau khi tiêm tĩnh mạch là 1 - 4,7 lít/kg; tỷ lệ gắn vào protein là 36%, tỷ lệ gắn vào mô cơ là 54%.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Dược động học | Nội dung:\nPhân bố Thể tích phân bố sau khi tiêm tĩnh mạch là 1 - 4,7 lít/kg; tỷ lệ gắn vào protein là 36%, tỷ lệ gắn vào mô cơ là 54%.\nMorphine có thể thâm nhập tốt vào tủy sống sau khi tiêm ngoài màng cứng hoặc tiêm vào khoang dưới màng nhện. Morphine được phân bố ở khắp các mô nhưng chủ yếu ở thận, gan, phổi, lách; một ít ở não và ở cơ.\nChuyển hóa Phần lớn liều Morphine được liên hợp với Acid Glucuronic tại gan và ruột non, tạo thành Morphine 3-glucuronid và Morphine 6-glucuronid. Một số chất chuyển hóa khác là Codein, Normorphine, Morphine Ethereal Sulfat. Thuốc có thể qua tuần hoàn gan - ruột.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Dược động học | Nội dung:\nThải trừ Thời gian bán thải trong huyết tương của Morphine vào khoảng 2 giờ, của Morphine 3-glucuronid là 2,4 - 6,7 giờ. Có tới 10% liều được đào thải dưới dạng các chất liên hợp qua mật rồi qua phân. Lượng còn lại được đào thải qua nước tiểu, chủ yếu dưới dạng các chất liên hợp. Khoảng 90% Morphine toàn phần được đào thải trong 24 giờ.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nLiều dùng Người lớn Các liều lượng dưới đây chỉ mang tính hướng dẫn, không phải là liều áp dụng nhất thiết cho mọi trường hợp. Liều lượng và khoảng cách giữa các liều phải căn cứ theo từng trường hợp cụ thể.\nLiều dùng cho giảm đau do nhồi huyết cấp cơ tim: 8 - 15 mg tiêm tĩnh mạch hoặc dưới da hoặc tiêp bắp, nếu đau nặng thì cứ sau 3 - 4 giờ lại dùng một liều thấp hơn.\nLiều dùng cho bệnh nhân thở máy ở khoa cấp cứu hồi sức: Truyền tĩnh mạch liên tục 0,07 - 0,5 mg/kg/giờ; hoặc tiêm tĩnh mạch 0,01 - 0,15 mg/kg cứ 1 - 2 giờ tiêm tĩnh mạch 1 lần.\nNếu dùng trong gây mê: Tiêm 10 mg tĩnh mạch chậm, 4 giờ một lần. Liều thường dùng là 5 - 15 mg (liều một ngày là 12 - 120 mg).\nLiều dùng trong gây mê trong mổ tim hở: 0,5 - 3 mg/kg tiêm tĩnh mạch.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nLiều dùng trong gây mê trong mổ tim hở: 0,5 - 3 mg/kg tiêm tĩnh mạch.\nLiều dùng trong giảm đau trong sản khoa (tiêm ngoài màng cứng, thuốc không có chất bảo quản): 5 mg tiêm vào vùng thắt lưng, tăng theo nấc 1 - 2 mg mỗi lần theo khoảng thời gian thích hợp giữa các lần. Tối đa 10 mg/ 24 giờ.\nLiều dùng trong giảm đau trong sản khoa: 10 mg tiêm tĩnh mạch chậm, 4 giờ một lần. Liều thường dùng 12 - 120 mg/ngày.\nLiều dùng trong giảm đau mạn tính (viên giải phóng tức thì): 10 - 30 mg, uống 4 giờ một lần.\nLiều dùng trong giảm đau mạn tính (thuốc đạn): 10 - 20 mg đặt trực tràng, 4 giờ một lần.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nLiều dùng trong giảm đau mạn tính (thuốc đạn): 10 - 20 mg đặt trực tràng, 4 giờ một lần.\nTiêm tĩnh mạch: Liều ban đầu 2 - 10 mg/70 kg thể trọng, tiêm cách quãng: 5 - 10 mg tiêm bắp hoặc dưới da, 4 giờ một lần, truyền tĩnh mạch liên tục: 15 mg hoặc hơn; sau đó 0,8 mg/giờ đến 144 mg/giờ qua bơm truyền tĩnh mạch.\nTiêm ngoài màng cứng: 5 mg tiêm vào vùng thắt lưng, có thể tăng lên mỗi lần 1- 2 mg theo khoảng cách thích hợp nếu cần. Tối đa 10 mg/24 giờ. Tiêm ngoài màng cứng, truyền liên tục, thuốc không có chất bảo quản: 2 - 4 mg/24 giờ, truyền vào vùng thắt lưng, có thể cần liều bổ sung 1 - 2 mg.\nLiều dùng trong giảm đau mạn tính (giảm đau có kiểm soát): Tiêm tĩnh mạch 1 lần 1 mg, tăng liều mỗi lần 0,2 - 3 mg trong 6 phút.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nLiều dùng trong giảm đau mạn tính (giảm đau có kiểm soát): Tiêm tĩnh mạch 1 lần 1 mg, tăng liều mỗi lần 0,2 - 3 mg trong 6 phút.\nTiêm dưới khoang màng nhện, thuốc không có chất bảo quản): 0,2 - 1 mg vào vùng thắt lưng. Không nên nhắc lại. Truyền ngoài màng cứng, bệnh nhân chưa dùng opioid): Vi truyền liên tục dung dịch đậm đặc (10 và 25 mg/ml) 3,5 - 7,5 mg/ngày ngoài màng cứng.\nTruyền ngoài màng cứng, bệnh nhân dung nạp opioid): Vi truyền liên tục dung dịch đậm đặc (10 và 25 mg/ml) 4,5 - 10 mg/ngày. Truyền tủy sống, bệnh nhân chưa dùng opioid): Vi truyền liên tục dung dịch đậm đặc (10 và 25 mg/ml) 0,2 -1 mg/ngày.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nLiều dùng trong giảm đau vừa đến nặng mạn tính: Liều tùy trường hợp cụ thể, có xét đến trị liệu đau đã dùng. Không nên ngừng thuốc đột ngột. Trường hợp bệnh nhân đau vừa đến nặng: Uống 10 - 30 mg thuốc giải phóng tức thời, 4 giờ một lần tùy theo trường hợp cụ thể.\nĐặt thuốc đạn 10 - 20 mg, 4 giờ một lần.\nTiêm tĩnh mạch (liều ban đầu) 2 - 10 mg/70 kg thể trọng.\nTiêm bắp hoặc tiêm dưới da 5 - 10 mg, 4 giờ một lần nếu cần.\nTiêm ngoài màng cứng thuốc không có chất bảo quản: 5 mg vào vùng thắt lưng; có thể tăng theo từng nấc 1 - 2 mg. Tối đa 10 mg/24 giờ.\nĐau vừa đến nặng (truyền liên tục ngoài màng cứng) 2 - 4 mg/24 giờ vào vùng thắt lưng, có thể bổ sung thêm liều 1 - 2 mg.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nĐau vừa đến nặng (truyền liên tục ngoài màng cứng) 2 - 4 mg/24 giờ vào vùng thắt lưng, có thể bổ sung thêm liều 1 - 2 mg.\nĐau vừa đến nặng (giảm đau có kiểm soát) tiêm tĩnh mạch một lần 1 mg sau đó tăng mỗi nấc 0,2 - 3 mg, thời gian tiêm 6 phút.\nĐau vừa đến nặng (tiêm dưới khoang màng nhện thuốc không có chất bảo quản): 0,2 - 1 mg tiêm dưới khoang màng nhện vùng thắt lưng. Không nên tiêm nhắc lại.\nĐau sau phẫu thuật: Uống 10 - 30 mg thuốc giải phóng tức thời, 4 giờ một lần. Đặt thuốc đạn 10 - 20 mg, 4 giờ một lần.\nTiêm bắp hoặc dưới da 5 - 10 mg, 4 giờ một lần. Tiêm tĩnh mạch liều ban đầu 2 - 10 mg/70 kg thể trọng.\nTiêm ngoài màng cứng thuốc không có chất bảo quản: 4 mg vào vùng thắt lưng, có thể tăng theo nấc 1 - 2 mg theo các khoảng cách thích hợp nếu cần. Tối đa 10 mg/24 giờ.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nTruyền liên tục ngoài màng cứng vùng thắt lưng thuốc không có chất bảo quản: 2 - 4 mg/24 giờ, có thể phải dùng các liều bổ sung 1 - 2 mg nếu cần.\nTiêm dưới khoang màng nhện thuốc không có chất bảo quản: 0,2 - 1 mg vào vùng thắt lưng. Không nên tiêm nhắc lại. Giảm đau có kiểm soát): Tiêm tĩnh mạch liều 1 mg, liều sau tăng mỗi nấc 0,2 - 3 mg; tiêm trong 6 phút.\nTiền mê: Tiêm tĩnh mạch thật chậm 5 - 15 mg; liều thường dùng 12 mg/ngày - 120 mg/ngày.\nPhù phổi cấp: Tiêm tĩnh mạch chậm 10 mg, 4 giờ một lần; liều thường dùng 5 - 15 mg (liều mỗi ngày 12 - 120 mg/ngày) Phù phổi cấp: 5 - 20 mg tiêm bắp hoặc tiêm dưới da, 4 giờ một lần tùy theo trường hợp cụ thể.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 6
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nTrẻ em Liều lượng dưới đây chỉ mang tính hướng dẫn, không phải là liều nhất thiết dùng cho mọi trường hợp. Liều lượng và khoảng cách giữa các liều phải căn cứ theo từng trường hợp cụ thể.\nGiảm đau ở bệnh nhi thở máy ở khoa cấp cứu hồi sức: Truyền liên tục 0,01 - 0,03 mg/kg/giờ.\nĐau mạn tính: 0,1 - 0,2 mg/kg tiêm dưới da. Tối đa 15 mg/lần. Đau mạn tính: 0,05 - 0,1 mg/kg tiêm tĩnh mạch. Tối đa 10 mg/lần. Đau vừa hoặc đau nặng: 0,1 - 0,2 mg/kg tiêm dưới da, tối đa 15 mg/lần.\nĐau vừa hoặc đau nặng: 0,05 - 0,1 mg/kg tiêm tĩnh mạch hoặc dưới da. Tối đa 10 mg/lần.\nĐau vừa hoặc đau nặng (sơ sinh): 0,1 mg/kg tiêm tĩnh mạch hoặc dưới da, 4 - 6 giờ một lần.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 7
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nĐau vừa hoặc đau nặng (sơ sinh): 0,1 mg/kg tiêm tĩnh mạch hoặc dưới da, 4 - 6 giờ một lần.\nĐau sau mổ: 0,1 - 0,2 mg/kg tiêm dưới da, 4 giờ một lần. Tối đa 15 mg/lần hoặc 0,05 - 0,1 mg/kg tiêm tĩnh mạch chậm. Tối đa 10 mg/lần. Trẻ sơ sinh: 0,1 mg/kg tiêm tĩnh mạch hoặc dưới da 4 - 6 giờ một lần.\nTiền mê: 0,05 - 0,1 mg/kg tiêm tĩnh mạch thật chậm. Tối đa 10 mg/lần.\nĐối tượng khác Bệnh nhân suy thận:\nClcr 10 - 50 ml/phút: Dùng 75% liều bình thường.\nClcr < 10 ml/phút: Dùng 50% liều bình thường.\nBệnh nhân suy gan: Thận trọng khi dùng. Phải giãn cách gấp rưỡi hoặc gấp đôi thời gian giữa các liều so với người không bị suy gan.\nNgười cao tuổi: Bên giảm liều khởi đầu dùng liều Morphine thấp hơn.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 8
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Liều lượng | Nội dung:\nNgười cao tuổi: Bên giảm liều khởi đầu dùng liều Morphine thấp hơn.\nCách dùng Thuốc uống: Với thuốc viên (viên nang hoặc viên nén) nên nuốt cả viên, không nhai, không bẻ hoặc nghiền. Có thể uống lúc no và lúc đói. Nếu dùng thuốc uống, nên đong thuốc bằng bơm tiêm có vạch chỉ thể tích.\nBao giờ cũng phải dùng Morphine với liều thấp nhất có tác dụng và ít lặp lại nhất để tránh nghiện thuốc và nhờn thuốc Thuốc tiêm: Khi tiêm Morphine tĩnh mạch, tiêm ngoài màng cứng, tiêm dưới khoang màng nhện cần phải có sẵn thuốc kháng opiat, các phương tiện hỗ trợ hô hấp, oxygen. Dung dịch truyền liên tục tiêm tĩnh mạch có nồng độ 0,1 - 1 mg/ml trong dung môi Dextrose 5%.\nThuốc chỉ được sử dụng dưới sự theo dõi của nhân viên y tế. Tuân thủ theo hướng dẫn điều trị.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 9
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Morphine và xử trí Quá liều và độc tính Các dấu hiệu của quá liều Morphine bao gồm đồng tử phù nề, ức chế hô hấp (có khả năng dẫn đến suy hô hấp tử vong), hít phải viêm phổi và hạ huyết áp. Suy tuần hoàn và hôn mê sâu có thể phát triển trong những trường hợp nghiêm trọng và tử vong có thể xảy ra sau đó. Các trường hợp ít nghiêm trọng hơn có thể biểu hiện bằng buồn nôn, nôn, run, khó thở, hạ thân nhiệt, hạ huyết áp, lú lẫn và dùng thuốc an thần. Tiêu cơ vân tiến triển thành suy thận cũng có thể là hậu quả của việc dùng quá liều.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Quá liều và xử trí | Nội dung:\nCách xử lý khi quá liều Điều quan trọng là duy trì và hỗ trợ hô hấp và tuần hoàn. Thuốc naloxone đối kháng opioid cụ thể nên được sử dụng để đảo ngược tình trạng hôn mê và phục hồi hô hấp tự phát. 400 microgam naloxone nên được tiêm tĩnh mạch, lặp lại cách nhau 2-3 phút khi cần thiết cho đến liều tối đa 10 mg.\nQuên liều và xử trí Thuốc chỉ được sử dụng dưới sự theo dõi của nhân viên y tế. Tuân thủ theo hướng dẫn điều trị.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Tương tác thuốc | Nội dung:\nTương tác thuốc Cấm phối hợp với thuốc ức chế monoaminoxidase, vì nếu phối hợp có thể gây trụy tim mạch, tăng huyết áp, tăng thân nhiệt, dẫn đến hôn mê và tử vong. Morphine chỉ được dùng sau khi đã ngừng thuốc ức chế monoaminoxidase ít nhất 15 ngày.\nCác chất vừa chủ vận vừa đối kháng Morphine (như Buprenorphin, Nalbuphin, Pentazocin) làm giảm tác dụng giảm đau của Morphine do chẹn cạnh tranh với thụ thể.\nRượu làm tăng tác dụng an thần của Morphine.\nCác dẫn chất khác của Morphine, các thuốc chống trầm cảm cấu trúc 3 vòng (amitriptylin, clomipramin), các kháng histamin H1 có tác dụng an thần, các Barbiturat, Benzodiazepin, thuốc liệt thần (Neuroleptic), Clonidin cùng dẫn chất, làm tăng tác dụng ức chế thần kinh trung ương của Morphine.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Tương tác thuốc | Nội dung:\nTương kỵ với thực phẩm Nếu uống viên thuốc giải phóng chậm thì không được uống rượu hoặc các thứ nước uống/thuốc có rượu.\nTương kỵ Thuốc tiêm Morphine sulfat không tương thích về mặt vật lý với Aciclovir Natri, Aminophylline, Amobarbital Natri, Cefepime Hydrochloride, Chlorothiazide Natri, Floxacillin Natri, Furosemide, Gallium Nitrate, Heparin Natri, Meperidine Hydrochloride, Meperidine Natri, Methicillin Natri, Minocycline Hydrochloride Natri, Pentobarbarbital Natri, Pentobarbarbital Natri, Pentobarbarbital Natri, Pentobarbarbital Natri Phenytoin Natri, Sargramostim, Natri Bicarbonat, Natri Thiopental.\nKhông tương thích hóa lý (hình thành kết tủa) đã được chứng minh giữa các dung dịch Morphine Sulphate và 5- fluorouracil.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Lưu ý | Nội dung:\nLưu ý chung Morphine phải dùng với liều nhỏ nhất có tác dụng và càng ít thường xuyên nếu có thể, để tránh nghiện. Cho thuốc kéo dài sẽ gây nghiện. Ngừng thuốc đột ngột sau khi dùng thuốc một đợt lâu, sẽ xuất hiện hội chứng cai thuốc.\nNgười cao tuổi, người suy gan, suy thận, giảm năng tuyến giáp, suy thượng thận, sốc, người rối loạn tiết niệu - tiền liệt (nguy cơ bí đái), hen, tăng áp lực nội sọ (chấn thương đầu), bệnh nhược cơ.\nThuốc làm giảm sự tỉnh táo, vì vậy không nên lái xe hoặc vận hành máy.\nThuốc gây phản ứng dương tính khi xét nghiệm doping trong thể thao. Để giảm đau trong sản khoa, phải điều chỉnh liều để tránh ức chế hô hấp cho trẻ sơ sinh.\nLưu ý với phụ nữ có thai Do thuốc qua được nhau thai và tác động vào trẻ. Không được dùng Morphine cho người mẹ 3 - 4 giờ trước khi đẻ.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Morphine | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Do thuốc qua được nhau thai và tác động vào trẻ. Không được dùng Morphine cho người mẹ 3 - 4 giờ trước khi đẻ.\nLưu ý với phụ nữ cho con bú Một lượng nhỏ Morphine được bài tiết vào sữa mẹ. Do đó, nên ngừng cho con bú, nếu mẹ dùng Morphine.",
+        "metadata": {
+            "name": "Morphine",
+            "id": "morphine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/morphine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

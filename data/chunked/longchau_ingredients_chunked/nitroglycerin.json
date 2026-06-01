@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Glyceryl trinitrate (Nitroglycerin) Loại thuốc Thuốc giãn mạch Dạng thuốc và hàm lượng Viên đặt dưới lưỡi: 0,3 mg, 0,4 mg, 0,6 mg.\nViên tác dụng kéo dài: 1 mg, 2 mg, 3 mg, 5 mg.\nNang tác dụng kéo dài: 2,5 mg, 6,5 mg, 9,0 mg.\nKhí dung xịt định liều (vào lưỡi): 200 liều/bình, 0,4 mg/liều xịt.\nThuốc mỡ bôi ngoài da: 2%.\nMiếng thuốc dán: 0,1 mg/giờ, 0,2 mg/giờ, 0,3 mg/giờ, 0,4 mg/giờ, 0,6 mg/giờ, 0,8 mg/giờ.\nDung dịch tiêm IV: 0,5 mg/ml x 5 ml, 1 mg/ml x 10 ml, 5 mg/ml x 5 ml và 10 ml.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Chỉ định | Nội dung:\nThuốc Nitroglycerin được chỉ định:\nPhòng và điều trị cơn đau thắt ngực .\nĐiều trị suy tim sung huyết (phối hợp với các thuốc khác).\nNitroglycerin còn được dùng trong nhồi máu cơ tim cấp.\nTăng huyết áp kịch phát trong phẫu thuật (đặc biệt trong phẫu thuật tim mạch) dùng dạng truyền tĩnh mạch.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Dược lực học | Nội dung:\nGlyceryl trinitrate (nitroglycerin) là một nitrate hữu cơ, khi vào trong cơ thể được chuyển hóa thành gốc oxyd nitric (NO) nhờ glutathion-S-reductase và cysteine, NO kết hợp với nhóm thiol thành nitrosothiol (R-SNO), chất này hoạt hóa guanylate cyclase để chuyển guanosin triphosphate (GTP) thành guanosin 3’5’ monophosphate vòng (GMPc). GMPc làm cho myosin trong các sợi cơ thành mạch không được hoạt hóa, không có khả năng kết hợp với actin nên làm giãn mạch.\nThuốc tác động chủ yếu trên hệ tĩnh mạch, với liều cao làm giãn các động mạch và tiểu động mạch. Giãn hệ tĩnh mạch làm cho ứ đọng máu ở ngoại vi và trong các phủ tạng, giảm lượng máu về tim (giảm tiền gánh), hậu quả là giảm áp lực trong các buồng tim.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Dược lực học | Nội dung:\nGiãn nhẹ các tiểu động mạch dẫn đến giảm sức cản ngoại vi và áp lực thất trái trong thời gian tâm thu, hậu quả là làm giảm nhu cầu oxygen trong cơ tim (giảm hậu gánh). Liều cao làm giảm huyết áp nhất là huyết áp tâm thu, tuy không nhiều nhưng có thể gây phản xạ giao cảm làm mạch hơi nhanh và tăng sức co bóp cơ tim. Các nitrate còn có tác dụng ức chế kết tập tiểu cầu.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Dược động học | Nội dung:\nHấp thu Nitroglycerin ít có hiệu lực khi uống do bị thủy phân ở dạ dày và bị thoái giáng mạnh khi qua gan. Cho ngậm dưới lưỡi, thuốc được hấp thu nhanh chóng và hoàn toàn, các chuyển hóa của thuốc trong huyết tương và trong hồng cầu không nhiều nên cho phép thuốc vào được trong các tế bào cơ trơn thành mạch và làm giãn mạch, thuốc bắt đầu có trong huyết tương sau 30 giây, đạt mức tối đa sau 2 phút, thời gian bán hủy huyết tương là 3 - 4 phút. Như vậy tác dụng của glyceryl trinitrate ngắn, bắt đầu sau 0,5 - 2 phút, kéo dài 30 phút.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Dược động học | Nội dung:\nPhân bố Glycerin trinitrate phân bố rộng trong cơ thể, ở người lớn nam giới, thể tích phân bố biểu kiến là 200 lít. Trên chuột, thuốc phân bố nhiều ở gan, thận, tiếp theo là tim, phổi, lách, thận. Hiện chưa có thông tin thuốc phân bố trong sữa. Ở nồng độ 50 - 500 nanogam/ml thuốc gắn 60% với protein huyết tương.\nChuyển hóa Glyceryl trinitrate được chuyển hóa bằng cách thủy phân thành dinitrate và mononitrate.\nThải trừ Tốc độ thải trừ của thuốc là 1 lít/kg/phút, chủ yếu qua đường nước tiểu.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Liều lượng | Nội dung:\nNgười lớn Điều trị cắt cơn đau thắt ngực:\nNgậm dưới lưỡii một viên nitroglycerin 0,5 mg (thường từ 0,3 - 0,6 mg), cứ sau 5 phút lại ngậm 1 viên cho đến hết cơn đau, tối đa không quá 3 lần trong 15 phút, nếu không đỡ phải đi khám. Có thể dùng dạng khí dung xịt lưỡi, mỗi lần xịt 0,4 mg, xịt 1 - 2 lần vào dưới lưỡi, ngậm miệng, không hít. Nếu quá 20 phút không cắt được cơn đau thì phải liên hệ y tế ngay. Trong ngày có thể dùng lại nhiều lần nếu cơn đau lại tái diễn và người bệnh không bị đau đầu , hạ huyết áp.\nPhòng cơn đau thắt ngực:\nUống viên nang giải phóng chậm 2,5 - 6,5 mg, 3-4 lần/ngày. Có thể dùng miếng thuốc dán ở da ngực trái 5 - 10 mg hoặc bôi thuốc mỡ 2% ở da vùng ngực, đùi hoặc lưng, liều dùng do thầy thuốc chỉ định.\nĐiều trị suy tim sung huyết phối hợp với các thuốc khác:",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Liều lượng | Nội dung:\nĐiều trị suy tim sung huyết phối hợp với các thuốc khác:\nTrong phù phổi cấp tính nên dùng viên ngậm dưới lưỡi hoặc thuốc xịt để có tác dụng nhanh; trong suy tim mạn tính nên dùng dạng thuốc giải phóng chậm 2,5 - 6,5 mg, 3-4 lần/ngày.\nĐiều trị nhồi máu cơ tim cấp:\nBệnh nhân nhồi máu cơ tim cấp có đau thắt ngực kéo dài hoặc tăng huyết áp hoặc phù phổi cấp, nitroglycerin truyền tĩnh mạch được sử dụng trong vòng 24 - 48 giờ đầu với liều bắt đầu từ 12,5 – 25 microgam/phút, duy trì 10 - 20 microgam/phút (không được để huyết áp tâm thu < 90 mmHg và tần số tim > 110 lần/phút).\nĐiều trị tăng huyết áp:\nTruyền tĩnh mạch liều 5 - 100 microgam/phút. Khi thấy có đáp ứng thì giảm liều và tăng khoảng cách truyền.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Liều lượng | Nội dung:\nĐiều trị tăng huyết áp:\nTruyền tĩnh mạch liều 5 - 100 microgam/phút. Khi thấy có đáp ứng thì giảm liều và tăng khoảng cách truyền.\nNếu quên dùng một liều thuốc, hãy dùng càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch.\nKhông dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Nitroglycerin và xử trí Quá liều và độc tính Nitroglycerin dùng quá liều có thể gây nên hạ huyết áp nghiêm trọng kèm theo trụy tim mạch, ngất, đau đầu dữ dội, chóng mặt, rối loạn thị giác, tăng áp lực nội sọ, buồn nôn và nôn, đau quặn bụng, tiêu chảy , khó thở, methemoglobin huyết, bại liệt , hôn mê.\nCách xử lý khi quá liều Cần để bệnh nhân ở tư thế nằm, nâng cao 2 chân, nhằm mục đích cải thiện lượng máu trở về từ tĩnh mạch. Phải truyền dịch và phải giữ cho đường thở được thông thoáng. Không nên dùng những chất co mạch vì có hại nhiều hơn lợi.\nKhi methemoglobin huyết xuất hiện, cần xử trí bằng tiêm dung dịch xanh methylen.\nPhải thực hiện rửa dạ dày sớm nếu thuốc được dùng qua đường tiêu hóa. Nếu uống lượng lớn thuốc, có thể dùng than hoạt trong vòng 1 giờ.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Quá liều và xử trí | Nội dung:\nPhải thực hiện rửa dạ dày sớm nếu thuốc được dùng qua đường tiêu hóa. Nếu uống lượng lớn thuốc, có thể dùng than hoạt trong vòng 1 giờ.\nQuên liều Nếu quên dùng một liều thuốc, hãy dùng càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch.\nKhông dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Các chất ức chế phosphodiesterase loại 5 (ví dụ như sildenafil, vardenafil và tadalafil) đã được chứng minh là làm tăng tác dụng hạ huyết áp của nitrate, và do đó, chống chỉ định dùng chung với glyceryl trinitrate.\nĐiều trị bằng các thuốc khác có tác dụng hạ huyết áp (ví dụ như thuốc giãn mạch, thuốc hạ huyết áp, thuốc chẹn beta, thuốc chẹn kênh canxi và thuốc an thần, thuốc chống trầm cảm ba vòng và sapropterin) có thể làm tăng tác dụng hạ huyết áp của glyceryl trinitrate. Ngoài các tác nhân này, nguy cơ hạ huyết áp và ngất khi sử dụng glyceryl trinitrate có thể tăng lên do rượu.\nN-acetylcysteine ​​có thể làm tăng tác dụng giãn mạch của glyceryl trinitrate.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Tương tác thuốc | Nội dung:\nN-acetylcysteine ​​có thể làm tăng tác dụng giãn mạch của glyceryl trinitrate.\nKhả năng dung nạp với tác dụng của glyceryl trinitrate nên được xem xét khi sử dụng chung với các chế phẩm nitrate tác dụng kéo dài. Có bằng chứng cho thấy nitrate toàn thân có thể ảnh hưởng đến tác dụng chống đông máu của heparin. Nên theo dõi sớm và thường xuyên việc chống đông máu khi sử dụng kết hợp nitrate toàn thân và heparin.\nCác thuốc gây khô miệng (ví dụ như thuốc kháng cholinergic, kháng muscarin, thuốc chống trầm cảm ba vòng) làm giảm hiệu quả của nitrate ngậm dưới lưỡi.\nTác dụng hạ huyết áp tăng lên với apomorphine ngậm dưới lưỡi có thể xảy ra do dùng đồng thời với glyceryl trinitrate.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Tương tác thuốc | Nội dung:\nTác dụng hạ huyết áp tăng lên với apomorphine ngậm dưới lưỡi có thể xảy ra do dùng đồng thời với glyceryl trinitrate.\nAlkaloid ergot có thể chống lại sự giãn mạch vành của nitrate. Alkaloid ergot có thể gây đau thắt ngực và glyceryl trinitrate có thể làm giảm chuyển hóa qua gan lần đầu của dihydroergotamine.\nTương kỵ thuốc Có báo cáo glycerin trinitrate tương kỵ với phenytoin, alteplase và levoﬂoxacin. Glycerin trinitrate tương kỵ với đồ đựng bằng PVC.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Lưu ý | Nội dung:\nLưu ý chung Khi dùng thuốc, phải tăng liều từ từ để tránh nguy cơ hạ huyết áp thế đứng và đau đầu ở một số bệnh nhân, chóng mặt, choáng váng hoặc ngất xỉu có thể xảy ra, đặc biệt là khi bạn đứng dậy nhanh chóng từ tư thế nằm hoặc ngồi nên ngồi hoặc nằm sau khi dùng thuốc.\nThuốc này có thể gây đau đầu. Những cơn đau đầu này là dấu hiệu cho thấy thuốc đang phát huy tác dụng. Đừng không ngừng sử dụng thuốc hoặc thay đổi thời gian sử dụng để tránh những cơn đau đầu.\nChóng mặt, choáng váng hoặc ngất xỉu cũng dễ xảy ra hơn nếu bạn uống rượu, đứng lâu, tập thể dục hoặc khi thời tiết nóng.\nKhi dùng liều cao, không nên giảm thuốc đột ngột.\nThận trọng khi dùng cho người bệnh suy gan, suy thận nặng, suy tuyến giáp, suy dinh dưỡng. Phải bỏ miếng thuốc dán đi trước khi đánh sốc điện tim hoặc chụp MRI.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Lưu ý | Nội dung:\nGlyceryl trinitrate có thể làm trầm trọng thêm tình trạng giảm oxy máu ở bệnh nhân bị bệnh phổi hoặc rối loạn nhịp tim. Hạ huyết áp động mạch với nhịp tim chậm có thể xảy ra ở bệnh nhân nhồi máu cơ tim .\nGlyceryl trinitrate nên được sử dụng thận trọng cho bệnh nhân bị bệnh mạch máu não.\nPhản ứng da nghiêm trọng có thể xảy ra. Kiểm tra với bác sĩ của bạn ngay lập tức nếu bạn có vết nứt trên da, cảm giác nóng, mất nhiệt từ cơ thể, phát ban, da đỏ, sưng, đỏ mặt, cổ, cánh tay và ngực trên hoặc da có vảy trong khi bạn đang sử dụng thuốc này.\nLưu ý với phụ nữ có thai Kinh nghiệm lâm sàng về sử dụng glyceryl trinitrate trong điều trị những người mang thai còn hạn chế, nhất là vào 3 tháng đầu của thời kỳ thai nghén.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nitroglycerin | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Không rõ glyceryl trinitrate hoặc các chất chuyển hóa của nó có được bài tiết vào sữa mẹ hay không. Không thể loại trừ rủi ro đối với trẻ đang bú. Phải đưa ra quyết định ngưng cho con bú hoặc ngưng điều trị glyceryl trinitrate sau khi cân nhắc lợi ích của việc cho con bú đối với trẻ và lợi ích của điều trị đối với người phụ nữ.\nLưu ý khi lái xe và vận hành máy móc Do glyceryl trinitrate có thể gây chóng mặt nên bệnh nhân cần đảm bảo không bị ảnh hưởng trước khi lái xe hoặc vận hành máy móc.",
+        "metadata": {
+            "name": "Nitroglycerin",
+            "id": "nitroglycerin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nitroglycerin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

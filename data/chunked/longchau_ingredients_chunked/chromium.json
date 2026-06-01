@@ -1,0 +1,226 @@
+[
+    {
+        "text": "Hoạt chất: Chromium | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Chromium Loại thuốc Vitamin và khoáng chất.\nDạng thuốc và hàm lượng Viên nén: 150mcg, 200mcg, 500mcg.\nViên nang: 200mcg, 100mcg.\nViên nén tác dụng kéo dài: 200mcg.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Chỉ định | Nội dung:\nĐược chỉ định để sử dụng như một chất bổ sung cho các dung dịch tiêm tĩnh mạch được cung cấp cho tổng dinh dưỡng qua đường tĩnh mạch (TPN), để duy trì nồng độ crôm trong huyết thanh và ngăn ngừa sự suy giảm các kho dự trữ nội sinh và các triệu chứng thiếu hụt sau đó. Bổ sung khoáng chất, đặc biệt là bệnh tiểu đường và giảm cân.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Dược lực học | Nội dung:\nCrom là một chất dinh dưỡng thiết yếu tham gia vào quá trình chuyển hóa glucose, insulin và lipid máu. Vai trò của nó trong việc tăng cường các dòng tín hiệu insulin đã được liên quan đến trong một số nghiên cứu. Chromium điều chỉnh quá trình truyền tín hiệu insulin do insulin kích thích bằng cách ảnh hưởng đến các phân tử tác động ở hạ lưu của thụ thể insulin (IR). Con đường tín hiệu qua trung gian IR bao gồm quá trình phoshoryl hóa nhiều vùng nội bào và các kinase protein, và các phân tử tác động xuôi dòng.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Dược lực học | Nội dung:\nSau khi được kích hoạt bởi các phối tử, tiểu đơn vị β nội bào của IR autophosphorylat hóa và kích hoạt miền tyrosine kinase của IR, tiếp theo là hoạt hóa và phosphoryl hóa các protein điều hòa và các chất hiệu ứng tín hiệu bao gồm phosphatidylinositol 2-kinase (PI3K). PI3K kích hoạt tiếp tục phản ứng xuôi dòng để kích hoạt protein kinase B (Akt) để cuối cùng thúc đẩy sự chuyển vị của các tế bào vận chuyển glucose-4 (GLUT4) từ tế bào chất đến bề mặt tế bào và điều chỉnh sự hấp thu glucose. Chromium tăng cường hoạt động kinase của thụ thể insulin β và tăng hoạt động của các chất tác động hạ lưu, pI3-kinase và Akt.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Dược lực học | Nội dung:\nTrong điều kiện kháng insulin, crom cũng thúc đẩy sự chuyển vị của chất vận chuyển GLUT-4 độc lập với hoạt động của IR, IRS-1, PI3-kinase, hoặc Akt; crom làm trung gian cho sự tràn cholesterol ra khỏi màng thông qua việc tăng tính lưu động của màng bằng cách giảm cholesterol màng và điều hòa protein liên kết yếu tố điều hòa sterol. Kết quả là, các chất vận chuyển GLUT-4 nội bào được kích thích để chuyển vị trí từ nội bào sang màng sinh chất, dẫn đến tăng cường hấp thu glucose trong tế bào cơ.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Dược lực học | Nội dung:\nChromium làm giảm hoạt tính của PTP-1B trong ống nghiệm, là một chất điều chỉnh tiêu cực tín hiệu insulin. Nó cũng làm giảm căng thẳng ER được quan sát là làm tăng khả năng ức chế tín hiệu insulin. Căng thẳng ER được cho là kích hoạt kinase c-Jun N-terminal (JNK), sau đó gây ra quá trình phosphoryl hóa serine của IRS và sai lệch tín hiệu insulin 3 . Sự điều hòa thoáng qua của AMPK bởi crom cũng dẫn đến tăng hấp thu glucose.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Dược động học | Nội dung:\nHấp thu Các hợp chất của crom đều được hấp thụ bởi phổi và đường tiêu hóa. Sự hấp thụ qua đường miệng của các hợp chất crom ở người có thể nằm trong khoảng từ 0,5% đến 10%, với crom hóa trị sáu (VI) dễ dàng hấp thụ hơn so với dạng hóa trị ba (III). Sự hấp thụ crom từ đường ruột thấp, dao động từ 0,4% đến 2,5% so với lượng tiêu thụ. Vitamin C và vitamin B niacin được cho là có tác dụng tăng cường sự hấp thụ crom.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Dược động học | Nội dung:\nHầu hết Cr (VI) hóa trị sáu trải qua quá trình khử một phần trong dạ dày thành Cr (III) khi hấp thụ, đây là một hoạt động chủ yếu qua trung gian của các nhóm sulfhydryl của acid amin. Cr (VI) dễ dàng xuyên qua màng tế bào và crôm có thể được tìm thấy trong cả hồng cầu và huyết tương sau khi hấp thụ Cr (IV) qua đường tiêu hóa. Trong khi đó, sự hiện diện của crôm chỉ giới hạn trong huyết tương vì Cr (III) thể hiện khả năng thâm nhập màng tế bào kém.\nSau khi được vận chuyển qua màng tế bào, Cr (VI) nhanh chóng bị khử thành Cr (III), sau đó liên kết với các đại phân tử hoặc liên hợp với protein. Cr (III) có thể liên kết với transferrin hoặc các protein huyết tương khác, hoặc dưới dạng phức hợp, chẳng hạn như yếu tố dung nạp glucose (GTF).",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Dược động học | Nội dung:\nPhân bố Crom được hấp thụ được phân phối đến tất cả các mô của cơ thể và sự phân bố của nó trong cơ thể phụ thuộc vào loài, tuổi và dạng hóa học. Cr (III) sau khi uống hoặc tiêm các hợp chất khác nhau có thể được các mô hấp thụ và tích tụ trong gan, thận, lá lách, mô mềm và xương. Trong máu, 95% crom (III) liên kết với các protein có khối lượng phân tử lớn, chẳng hạn như transferrin, trong khi một tỷ lệ nhỏ liên kết với các oligopeptit có khối lượng phân tử thấp. Crom huyết thanh liên kết với transferrin trong nhãn phân đoạn beta globulin.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Dược động học | Nội dung:\nChuyển hóa Quá trình chuyển hóa Cr (VI) bao gồm quá trình khử bởi các phân tử nhỏ và hệ thống enzym để tạo ra Cr (III) và các chất trung gian phản ứng. Trong quá trình này, các gốc tự do có thể được tạo ra, được cho là gây ra sự phá hủy các thành phần tế bào và gây ra độc tính của crom. Các chất chuyển hóa liên kết với các thành phần cấu tạo tế bào. Thời gian bán thải của crom hóa trị là 15 đến 41 giờ.\nThải trừ Crom hấp thụ được thải trừ chủ yếu qua nước tiểu, chiếm 80% tổng lượng crom bài tiết ra ngoài; một lượng nhỏ bị mất trong tóc, mồ hôi và mật. Crom được bài tiết chủ yếu qua nước tiểu qua quá trình lọc ở cầu thận hoặc liên kết với chất vận chuyển hữu cơ trọng lượng phân tử thấp.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Liều lượng | Nội dung:\nNgười lớn Giá trị được chấp nhận hiện tại đối với khẩu phần crom là 25mcg/ngày đối với phụ nữ và 35mcg/ngày đối với nam giới.\nTrẻ em Chromium có thể an toàn khi dùng đường uống với lượng không vượt quá mức AI.\nĐối với những trẻ 0-6 tháng tuổi là 0,2mcg; đối với trẻ 7-12 tháng tuổi là 5,5mcg; đối với những trẻ 1-3 tuổi là 11mcg; đối với những trẻ 4-8 tuổi là 15mcg.\nĐối với nam từ 9-13 tuổi là 25mcg; đối với nam 14-18 tuổi là 35mcg.\nĐối với nữ từ 9-13 tuổi là 21mcg; đối với nữ 14-18 tuổi là 24mcg.\nDùng crôm với lượng trên mức AI có thể an toàn cho hầu hết trẻ em.\nUống liều đã quên ngay khi nhớ. Nếu gần đến giờ uống liều kế tiếp, bỏ qua liều quên và uống thuốc theo liều khuyến cáo kế tiếp. Không uống liều gấp đôi để bù cho liều đã quên.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Không có thông tin về trường hợp quá liều.\nCách xử lý khi quá liều Liên hệ trung tâm y tế gần nhất để được xử trí kịp thời.\nQuên liều và xử trí Uống liều đã quên ngay khi nhớ. Nếu gần đến giờ uống liều kế tiếp, bỏ qua liều quên và uống thuốc theo liều khuyến cáo kế tiếp. Không uống liều gấp đôi để bù cho liều đã quên.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Insulin: Chromium có thể làm tăng hiệu quả hoạt động của insulin. Dùng crom cùng với insulin có thể khiến lượng đường trong máu của giảm xuống rất thấp. Theo dõi chặt chẽ lượng đường trong máu trong khi dùng thuốc. Liều lượng insulin của bạn có thể cần phải thay đổi trong khi dùng thuốc.\nLevothyroxin: Dùng crom với levothyroxine có thể làm giảm lượng levothyroxine mà cơ thể hấp thụ. Điều này có thể làm cho levothyroxine kém hiệu quả hơn. Để giúp tránh tương tác này, nên dùng levothyroxine 30 phút trước hoặc 3-4 giờ sau khi dùng crom.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Tương tác thuốc | Nội dung:\nThuốc trị đái tháo đường: Chromium có thể làm giảm lượng đường trong máu. Dùng crom cùng với thuốc điều trị tiểu đường có thể khiến lượng đường trong máu giảm xuống rất thấp. Theo dõi chặt chẽ lượng đường trong máu trong khi dùng thuốc.\nNSAIDs: NSAID có thể làm tăng nồng độ crom trong cơ thể và tăng nguy cơ tác dụng phụ. Tránh dùng các chất bổ sung crom và NSAID cùng một lúc.\nAspirin: Aspirin có thể làm tăng lượng crôm mà cơ thể hấp thụ. Dùng aspirin với crom có ​​thể làm tăng tác dụng và tác dụng phụ của crom.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Lưu ý | Nội dung:\nLưu ý chung Các tình trạng hành vi hoặc tâm thần như trầm cảm , lo lắng hoặc tâm thần phân liệt: Chromium có thể ảnh hưởng đến hóa học của não và có thể làm cho các tình trạng hành vi hoặc tâm thần tồi tệ hơn.\nChất bổ sung crôm có thể gây phản ứng dị ứng ở những người bị dị ứng tiếp xúc với crôm hoặc da. Các triệu chứng bao gồm đỏ, sưng và đóng vảy da.\nBệnh thận: Chất bổ sung crom có thể gây hại cho thận. Không bổ sung crom nếu bị bệnh thận.\nBệnh gan: Chất bổ sung crom có thể gây tổn thương gan. Không bổ sung crom nếu bị bệnh gan.\nLưu ý với phụ nữ có thai Chromium có thể an toàn khi dùng bằng đường uống với lượng không vượt quá mức hấp thụ đầy đủ (AI). AI cho những người 14-18 tuổi là 28mcg mỗi ngày. Đối với những người 19-50 tuổi là 30mcg mỗi ngày.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Chromium | Phần: Lưu ý | Nội dung:\nChromium có thể an toàn để sử dụng với lượng cao hơn mức AI khi đang mang thai. Nhưng không dùng chất bổ sung crom trong thời kỳ mang thai trừ khi được bác sĩ khuyên sử dụng.\nLưu ý với phụ nữ cho con bú Chromium có thể an toàn khi dùng bằng đường uống với lượng không vượt quá mức AI. AI cho những người 14-18 tuổi là 44mcg mỗi ngày. Đối với những người 19 - 50 tuổi, nó là 45mcg mỗi ngày. Không có đủ thông tin đáng tin cậy để biết liệu dùng lượng crom cao hơn có an toàn khi cho con bú hay không. Chỉ sử dụng khi được khuyến cáo.\nLưu ý khi lái xe và vận hành máy móc Không có thông tin.",
+        "metadata": {
+            "name": "Chromium",
+            "id": "chromium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/chromium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

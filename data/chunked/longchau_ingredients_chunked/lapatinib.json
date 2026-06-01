@@ -1,0 +1,338 @@
+[
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Lapatinib.\nLoại thuốc Thuốc chống ung thư.\nDạng thuốc và hàm lượng Viên nén bao phim: 250 mg.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Chỉ định | Nội dung:\nLapatinib kết hợp với capecitabine điều trị bệnh nhân bị ung thư vú tiến triển hoặc di căn, với khối u có bộc lộ quá mức HER2/neu (ErbB2) và đã được nhận phác đồ điều trị gồm cả trastuzumab trước đó.\nLapatinib kết hợp với trastuzumab điều trị bệnh nhân bị ung thư vú di căn với khối u có bộc lộ quá mức HER2/neu (ErbB2) và bệnh tiến triển khi đã được điều trị bằng trastuzumab và hóa trị liệu.\nLapatinib kết hợp với chất ức chế aromatase (letrozole) điều trị ung thư vú di căn có thụ thể nội tiết dương tính ở phụ nữ sau mãn kinh và không có dự định được điều trị bằng hóa trị liệu.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Dược lực học | Nội dung:\nLapatinib là một chất ức chế 4 - anilinoquinazoline kinase mới với cơ chế tác dụng độc đáo, vì lapatinib là chất ức chế mạnh, có hồi phục và chọn lọc vùng tyrosine kinase nội bào của cả hai thụ thể ErbB1 và ErbB2 (các giá trị KPi app được ước tính là 3 nm và 13 nm tương ứng) với tốc độ tách ra khỏi thụ thể chậm (thời gian bán thải lớn hơn hoặc bằng 300 phút). Tốc độ phân tách này được thấy là chậm hơn các chất ức chế 4 - anilinoquinazoline kinase khác đã nghiên cứu. Lapatinib ức chế tăng trưởng tế bào khối u do ErbB điều khiển trên in vitro và ở các loại mô hình động vật khác.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Dược lực học | Nội dung:\nNgoài tác động của dạng đơn trị liệu, lapatinib cũng chứng minh được hiệu quả trong một nghiên cứu trên in vitro phối hợp với 5 - FU (chất chuyển hóa có hoạt tính của capecitabine) trong thử nghiệm điều trị bến dòng tế bào ung thư.\nDùng kết hợp lapatinib và trastuzumab có thể bổ sung cơ chế tác dụng cho nhau cũng như các cơ chế đề kháng có thể không trùng lắp. Tác dụng ức chế tăng trưởng của lapatinib trên các dòng tế bào được điều trị với trastuzumab đã được đánh giả. Lapatinib duy trì được hoạt tính quan trọng chống lại các dòng tế bào ung thư vú bộc lộ quá mức HER2 được lựa chọn để phát triển trong thời gian dài ở môi trường thử nghiệm in vitro có chứa trastuzumab và lapatinib có tác dụng hiệp lực khi phối hợp với trastuzumab trên các dòng tế bào này.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Dược động học | Nội dung:\nHấp thu:\nHấp thu của lapatinib sau khi uống là không hoàn toàn và dao động (xấp xỉ khoảng 50 đến 100% hệ số thay đổi trong AUC). Các nồng độ trong huyết thanh xuất hiện sau một trung vị thời gian trễ là 0,25 giờ (khoảng 0 đến 1,5 giờ). Các nồng độ đỉnh trong huyết tương (Cmax) của lapatinib đạt được xấp xỉ khoảng 4 giờ sau khi dùng thuốc.\nPhân bố:\nLapatinib gắn kết mạnh (trên 99%) với albumin và alpha - 1 acid glycoprotein. Các nghiên cứu trên in vitro chỉ ra rằng lapatinib là cơ chất cho các chất vận chuyển BCRP (ABCG2) và p - glycoprotein (ABCB1).\nChuyển hóa:",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Dược động học | Nội dung:\nChuyển hóa:\nLapatinib được chuyển hóa mạnh, chủ yếu bởi CYP3A4 và CYP3A5, và một ít từ CYP2C19 và CYP2C8 thành các chất chuyển hóa bị oxy hóa khác nhau, không một chất nào trong đó được tìm thấy trong phân nhiều hơn 14% liều hoặc 10% nồng độ lapatinib trong huyết tương.\nThải trừ:",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Dược động học | Nội dung:\nThải trừ:\nThời gian bán thải của lapatinib sau khi dùng liều đơn sẽ tăng lên khi tăng liều. Tuy nhiên, liều dùng hàng ngày của lapatinib đạt được trạng thái ổn định trong 6 - 7 ngày cho thấy thời gian bán thải hiệu quả là 24 giờ. Lapatinib được thải trừ chủ yếu qua chuyển hóa bởi CYP3A4/5. Đường thải trừ chính của lapatinib và các chất chuyển hóa của nó là qua phân, dưới 2% liều dùng (dưới dạng lapatinib và các chất chuyển hóa) được bài tiết qua nước tiểu. Lapatinib được tìm thấy trong phân chiếm khoảng trung vị 27% (khoảng 3 đến 67%) của một liều uống.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Liều lượng | Nội dung:\nNgười lớn Lapatinib kết hợp với capecitabine điều trị bệnh nhân bị ung thư vú tiến triển hoặc di căn, với khối u có bộc lộ quá mức HER2/neu (ErbB2) và đã được nhận phác đồ điều trị gồm cả trastuzumab trước đó:\nLiều khuyến cáo của lapatinib là 1.250 mg (tương đương 5 viên) một lần/ngày, dùng liên tục khi kết hợp với capecitabine.\nLapatinib kết hợp với trastuzumab điều trị bệnh nhân bị ung thư vú di căn với khối u có bộc lộ quá mức HER2/neu (ErbB2) và bệnh tiến triển khi đã được điều trị bằng trastuzumab và hóa trị liệu:\nLiều khuyến cáo của lapatinib là 1.000 mg (tương đương 4 viên) x 1 lần/ngày, dùng liên tục khi kết hợp với trastuzumab.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Liều lượng | Nội dung:\nLiều khuyến cáo của lapatinib là 1.000 mg (tương đương 4 viên) x 1 lần/ngày, dùng liên tục khi kết hợp với trastuzumab.\nLapatinib kết hợp với chất ức chế aromatase (letrozole) điều trị ung thư vú di căn có thụ thể nội tiết dương tính ở phụ nữ sau mãn kinh và không có dự định được điều trị bằng hóa trị liệu:\nLiều khuyến cáo của lapatinib là 1.500 mg (tương đương 6 viên) x 1 lần/ngày, dùng liên tục khi kết hợp với chất ức chế aromatase.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Liều lượng | Nội dung:\nTrì hoãn liều và giảm liều (tất cả các chỉ định) Các biến cố trên tim: Nên ngừng sử dụng lapatinib ở những bệnh nhân có các triệu chứng đi kèm với giảm LVEF độ 3 hoặc cao hơn theo Tiêu chuẩn Thuật ngữ phổ biến của Viện Ung thư Quốc gia về các tác dụng không mong muốn (NCI CTCAE - national cancer institute common terminology criteria for adverse events) hoặc nếu giá trị LVEF của họ tụt xuống dưới mức thấp của giới hạn cơ bản/quy ước bình thường. Có thể bắt đầu dùng lại lapatinib tại một liều thấp hơn (giảm từ 1.000 mg/ngày xuống 750 mg/ngày, từ 1.250 mg/ngày xuống 1.000 mg/ngày hoặc từ 1.500 mg/ngày xuống 1.250 mg/ngày) sau một khoảng thời gian tối thiểu 2 tuần và nếu giá trị LVEF trở lại bình thường và bệnh nhân không có triệu chứng.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Liều lượng | Nội dung:\nBệnh phổi mô kẽ/viêm: Nên ngừng điều trị lapatinib ở những bệnh nhân có các triệu chứng phổi gợi ý/chỉ điểm cho bệnh phổi mô kẽ/viêm phổi độ 3 hoặc cao hơn theo NCI CTCAE.\nTiêu chảy: Nên ngừng sử dụng lapatinib ở bệnh nhân tiêu chảy độ 3 theo NCI CTCAE hoặc độ 1 hoặc 2 với các biểu hiện phức tạp (đau quặn bụng mức độ vừa đến nặng, buồn nôn hoặc nôn nhiều hơn hoặc tương đương độ 2 theo NCI CTCAE, giảm khả năng hoạt động, sốt, nhiễm trùng huyết, giảm bạch cầu trung tính, máu tươi trong phân hoặc mắt nước). Có thể dùng lại lapatinib ở liều thấp hơn (giảm từ 1.000 mg/ngày xuống 750 mg/ngày, từ 1.250 mg/ngày xuống 1.000 mg/ngày hoặc từ 1.500 mg/ngày xuống 1.250 mg/ngày) khi tiêu chảy giảm xuống độ 1 hoặc thấp hơn. Nên ngừng dùng lapatinib vĩnh viễn ở bệnh nhân tiêu chảy độ 4 theo NCI CTCAE.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Liều lượng | Nội dung:\nĐộc gan: Nếu thay đổi chức năng gan nghiêm trọng xảy ra, ngừng vĩnh viễn lapatinib, bắt đầu lại ở những bệnh nhân này.\nNhững độc tính khác: Có thể cân nhắc ngừng hoặc dùng gián đoạn liều điều trị của lapatinib khi bệnh nhân có biểu hiện độc tính cao hơn hoặc bằng độ 2 theo NCI CTCAE. Có thể bắt đầu sử dụng lại ở mức liều chuẩn 1.000 mg/ngay, 1.250 mg/ngày, hoặc 1.500 mg/ngày khí biểu hiện độc tính được cải thiện về độ 1 hoặc thấp hơn. Nếu độc tính tái xuất hiện, thì nên bắt đầu điều trị lại bằng lapatinib ở một liều thấp hơn (giảm từ 1.000 mg/ngày xuống 750 mg/ngày, từ 1.250 mg/ngày xuống 1.000 mg/ngày hoặc từ 1.500 mg/ngày xuống 1.250 mg/ngày).",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Liều lượng | Nội dung:\nCác tương tác với CYP3A4 Lapatinib phối hợp với letrozole: khi sử dụng đồng thời với chất ức chế CYP3A4 mạnh, liều dùng lapatinib 500 mg x 1 lần/ngày. Liều nên điều chỉnh dần dần từ 1,5 g x 1 lần/ngày đến 5,5 g x 1 lần/ngày.\nLapatinib phối hợp với capecitabine: khi sử dụng đồng thời với chất ức chế CYP3A4 mạnh, liều lapatinib 500 mg x 1 lần/ngày. Liều nên điều chỉnh dần dần từ 1,25 g x 1 lần/ngày đến 4,5 g x 1 lần/ngày.\nĐối tượng khác Suy thận:\nChưa cần điều chỉnh liều lapatinib.\nSuy gan:\nNên giảm liều lapatinib cho bệnh nhân suy gan nặng (Child - Pugh Nhóm C).",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Các triệu chứng quan sát thấy bao gồm các biến có liên quan đến lapatinib đã biết (xem tác dụng phụ) và trong một số trường hợp đau da đầu, nhịp nhanh xoang (với điện tâm đồ khác bình thường) và/hoặc viêm niêm mạc.\nCách xử lý khi quá liều Lapatinib bài tiết không đáng kể qua thận và gắn kết mạnh với protein huyết tương, do vậy thẩm tách máu không được mong đợi là biện pháp hữu hiệu để làm tăng thải trừ lapatinib.\nNên có biện pháp điều trị thêm theo dấu hiệu lâm sàng hoặc theo khuyến cáo của trung tâm chống độc quốc gia, nếu có.\nQuên liều và xử trí",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Lapatinib được chuyển hóa chủ yếu bởi CYP3A. Do vậy, các chất ức chế hoặc cảm ứng các enzyme này có thể ảnh hưởng đến dược động học của lapatinib.\nNên thận trọng khi sử dụng lapatinib đồng thời với các chất được biết ức chế CYP3A4 (ví dụ ketoconazole , itraconazole hoặc nước bưởi).\nNên thận trọng khi sử dụng lapatinib đồng thời với các chất được biết cảm ứng CYP3A4 (ví dụ rifampin , carbamazepine, hoặc phenytoin).\nĐiều trị trước đó với chất ức chế bơm proton (esomeprazole) làm giảm phơi nhiễm lapatinib trung bình 27%.\nDùng đồng thời lapatinib với midazolam dùng đường uống làm tăng khoảng 45% AUC của midazolam. Cần thận trọng khi dùng lapatinib đồng thời với các thuốc dùng đường uống có cửa sổ điều trị hẹp và là cơ chất của CYP3A4.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Tương tác thuốc | Nội dung:\nCần thận trọng khi dùng lapatinib đồng thời với các thuốc có cửa sổ điều trị hẹp và là cơ chất của CYP2C8.\nUống lapatinib đồng thời với paclitaxel dùng đường tĩnh mạch làm tăng phơi nhiễm của paclitaxel khoảng 23%.\nUống đồng thời lapatinib với docetaxel dùng đường tĩnh mạch không ảnh hưởng đáng kể đến AUC hay Cmax của cả hai hoạt chất. Tuy nhiên, khả năng xảy ra giảm bạch cầu trung tính do docetaxel lại tăng lên.\nirinotecan làm tăng khoảng 40% AUC của SN - 38, chất chuyển hóa có hoạt tính của irinotecan.\nLapatinib là cơ chất cho protein vận chuyển Pgp và protein kháng ung thư vú (BCRP). Các chất ức chế và cảm ứng các protein này có thể làm thay đổi phơi nhiễm và/hoặc phân bố của lapatinib.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Tương tác thuốc | Nội dung:\nLapatinib ức chế protein vận chuyển Pgp trên in vitro ở những nồng độ tương quan trên lâm sàng. Dùng đồng thời lapatinib với digoxin uống làm tăng khoảng 98% AUC của digoxin. Nên thận trọng khi dùng lapatinib đồng thời với các thuốc là cơ chất của P - gp có cửa sổ điều trị hẹp.\nLapatinib ức chế protein vận chuyển BCRP và OATP1B1 trên in vitro. Chưa đánh giá được sự liên quan lâm sàng của tác dụng này. Không thể loại trừ được rằng lapatinib sẽ ảnh hưởng đến dược động học của các cơ chất của BCRP (ví dụ topotecan) và OATP1B1 (ví dụ rosuvastatin).\nTương tác với thực phẩm Sinh khả dụng của lapatinib bị ảnh hưởng bởi thức ăn do đó nên uống lapatinib ít nhất 1 giờ trước khi ăn hoặc ít nhất 1 giờ sau khi ăn.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Lưu ý | Nội dung:\nLưu ý chung Độc tính trên tim Đã có báo cáo về giảm phân suất tống máu thất trái (LVEF) liên quan đến lapatinib. Cần thận trọng nếu sử dụng lapatinib cho những bệnh nhân bị các tình trạng có thể làm suy giảm chức năng thất trái. Nên đánh giá LVEF ở tất cả các bệnh nhân trước khi bắt đầu điều trị với lapatinib để đảm bảo rằng bệnh nhân có một giá trị LVEF ban đầu nằm trong giới hạn bình thường quy ước. Cần tiếp tục đánh giá LVEF trong suốt quá trình điều trị với lapatinib để đảm báo rằng LVEF không giảm xuống một giới hạn không chấp nhận được. Trong một số trường hợp, có thể giảm mạnh LVEF và dẫn đến suy tim. Đã có báo cáo các trường hợp tử vong, chưa chắc chắn về nguyên nhân tử vong.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Lưu ý | Nội dung:\nMột tỷ lệ nhỏ có tăng khoảng QTc phụ thuộc nồng độ đã quan sát thấy thử nghiệm lâm sàng. Thận trọng khi dùng lapatinib trên bệnh nhân trong tình huống có thể gây kéo dài khoảng QT (bao gồm hạ kali máu, hạ magnesi máu, hội chứng QT dài bẩm sinh, hoặc phối hợp với các thuốc khác được biết là có gây kéo dài khoảng QT). Hạ kali máu hoặc hạ magnesi máu cần được điều chỉnh trước khi điều trị. Nên cân nhắc đo khoảng QT trên điện tâm đồ trước khi bắt đầu và trong quá trình điều trị bằng lapatinib.\nBệnh phổi mô kẽ và viêm phổi:",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Lưu ý | Nội dung:\nBệnh phổi mô kẽ và viêm phổi:\nLapatinib có liên quan đến các báo cáo về bệnh phổi mô kẽ và viêm phổi. Bệnh nhân nên được theo dõi các triệu chứng tại phổi bộc lộ bệnh phổi mô kẽ/viêm phổi. Bệnh nhân nên được theo dõi sát các triệu chứng của nhiễm độc phổi ( khó thở , ho, sốt) và ngừng điều trị nếu bệnh nhân có các triệu chứng NCI CTCAE độ 3 hoặc nặng hơn. Nhiễm độc phổi có thể nặng và dẫn đến suy hô hấp. Đã có trường hợp tử vong được báo cáo, nguyên nhân tử vong chưa xác định.\nĐộc tính trên gan:\nĐã quan sát thấy độc tính trên gan (ALT hoặc AST lớn hơn 3 lần giới hạn trên của mức bình thường và bilirubin toàn phần lớn hơn 1,5 lần giới hạn trên của mức bình thường).",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Lưu ý | Nội dung:\nNên theo dõi các xét nghiệm kiểm tra chức năng gan (transaminase, bilirubin và alkaline phosphatase) trước khi bắt đầu điều trị, mỗi 4 đến 6 tuần trong suốt quá trình điều trị, và theo biểu hiện lâm sàng. Nếu có thay đổi chức năng gan nghiêm trọng, nên ngừng sử dụng lapatinib và không nên điều trị lại cho bệnh nhân bằng lapatinib.\nTiêu chảy:\nĐã có báo cáo về tiêu chảy, bao gồm cả tiêu chảy nặng khi điều trị với lapatinib. Tiêu chảy thường xảy ra sớm khi điều trị với lapatinib, hầu như phân nửa số bệnh nhân này bị tiêu chảy lần đầu trong vòng 6 ngày.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Lưu ý | Nội dung:\nTiêu chảy thường kéo dài 4 - 5 ngày. Tiêu chảy do lapatinib thường là cấp độ nhẹ, dưới 10% số bệnh nhân bị tiêu chảy nặng độ 3 và dưới 1% số bệnh nhân bị tiêu chảy nặng độ 4 theo NCI CTCAE. Nên hướng dẫn bệnh nhân báo cáo ngay khi bất kỳ sự thay đổi nào ở đường ruột. Khuyến cáo nên nhanh chóng điều trị tiêu chảy với các thuốc chống tiêu chảy như loperamide sau lần đầu tiên đi tiêu phân không thành khuôn. Các trường hợp tiêu chảy nặng có thể yêu cầu phải sử dụng các dung dịch và chất điện giải uống hoặc truyền tĩnh mạch, sử dụng thuốc kháng sinh như fluoroquinolone (đặc biệt nếu tiêu chảy dai dẳng trên 24 giờ, có sốt, hoặc giảm bạch cầu trung tính độ 3 hoặc 4) và gián đoạn hoặc ngừng điều trị với lapatinib.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Chưa biết ảnh hưởng của lapatinib lên thai kỳ ở người. Chỉ nên sử dụng lapatinib trong khi mang thai nếu lợi ích mong đợi vượt trội nguy cơ có thể gặp phải đối với phôi thai. Nên khuyên các phụ nữ có khả năng mang thai sử dụng các biện pháp tránh thai thích hợp và tránh mang thai trong khi đang điều trị với lapatinib.\nLưu ý với phụ nữ cho con bú Chưa biết liệu lapatinib có được bài tiết vào sữa mẹ hay không. Do có rất nhiều thuốc được bài tiết vào sữa mẹ và do tiềm năng xảy ra các tác dụng không mong muốn của lapatinib cho trẻ bú mẹ, khuyến cáo nên dừng cho con bú ở những phụ nữ đang điều trị với lapatinib.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 5
+        }
+    },
+    {
+        "text": "Hoạt chất: Lapatinib | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe & vận hành máy móc Không có nghiên cứu đánh giá ảnh hưởng của lapatinib lên khả năng lái xe hoặc vận hành máy móc. Không thể dự đoán được ảnh hưởng bất lợi lên các hoạt động này từ dược lý học của lapatinib.",
+        "metadata": {
+            "name": "Lapatinib",
+            "id": "lapatinib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/lapatinib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 6
+        }
+    }
+]

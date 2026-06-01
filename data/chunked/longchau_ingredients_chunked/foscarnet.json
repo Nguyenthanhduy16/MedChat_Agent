@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Foscarnet Sodium (Foscarnet Natri) Loại thuốc Kháng virus (toàn thân) Dạng thuốc và hàm lượng Lọ 250 ml và 500 ml để tiêm truyền, chứa Natri Foscarnet Hexahydrat 24 mg/ml.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Chỉ định | Nội dung:\nFoscarnet Sodium được chỉ định điều trị trong các trường hợp sau:\nViêm võng mạc do CMV (Cytomegalovirus) ở người bị AIDS.\nDự phòng bệnh CMV ở người nhiễm HIV.\nDự phòng nhiễm khuẩn cơ hội gồm có bệnh CMV ở người cấy tế bào gốc huyết học cùng loài hay tự thân khi không dung nạp được ganciclovir hoặc khi nghi ngờ CMV kháng ganciclovir.\nĐiều trị nhiễm virus Herpes simplex (HSV-1 và HSV-2) (như ở miệng-mặt, sinh dục, ngón tay-chân) kháng acyclovir ở người suy giảm miễn dịch (như bị AIDS).\nVaricella - zoster (viruszone) kháng acyclovir ở người bị AIDS .",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Dược lực học | Nội dung:\nFoscarnet Natri có tác dụng kháng virus nhờ ức chế chọn lọc ở vị trí gắn pyrophosphat trên polymerase DNA đặc hiệu của virus ở nồng độ khôngtác động đến polymerase DNA tế bào người.\nFoscarnet Natri không cần phải hoạt hóa (phosphoryl hóa) bằng thymidin kinase (TK) hoặc các kinase khác, do đó có hoạt tính in vitro chống lại chủng đột biến HSV thiếu thymidin kinase (TK) và chủng đột biến CMV UL97.\nNhư vậy, chủng HSV kháng acyclovir hoặc chủng CMV kháng ganciclovir có thể nhạy cảm với Foscarnet Natri.\nPhổ tác dụng: Nghiên cứu in vitro chothấy Foscarnet natri có tác dụng chống HIV, HBV, virus influenza (chủng A victoria và B Hongkong) và tất cả 5 loại virus herpes ở người (HSV-1, HSV-2, CMV, varicella zoster virus, Epstein-Barr virus).",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Dược động học | Nội dung:\nHấp thu Thuốc hấp thu kém qua đường uống. Hấp thu qua đường uống không đủ để ức chế sao chép HIV hoặc điều trị nhiễm CMV ở người bị AIDS Phân bố Gắn vào protein: 14 - 17%; vào xương: 3 - 8%.\nChưa xác định được mức tích lũy ở xương. Foscarnet qua hàng rào máu - não với lượng thay đổi.\nNồng độ thuốc trong dịch não tủy dao động từ 13% đến 103% nồng độ thuốc trong huyết tương. Thể tích phân bố: 0,3 - 0,74 lít/kg.\nChuyển hóa và thải trừ Tốc độ thanh thải ở thận: 5,6 - 6,4 lít/giờ.\nThuốc đào thải hầu như hoàn toàn dưới dạng không đổi qua lọc cầu thận. Bài tiết qua thận: 73% - 94%.\nNửa đời thải trừ: Foscarnet thải trừ qua 3 pha.\nNửa đời phân bố ban đầu dao động từ 0,14 - 16,7 giờ, điều này phản ánh sự phân bố Foscarnet vào xương.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Dược động học | Nội dung:\nNửa đời phân bố ban đầu dao động từ 0,14 - 16,7 giờ, điều này phản ánh sự phân bố Foscarnet vào xương.\nNửa đời cuối phản ánh giải phóng chậm Foscarnet từ xương dao động từ 18 - 196 giờ. Thuốc không tích lũy.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Liều lượng | Nội dung:\nLiều dùng Foscarnet Viêm võng mạc do CMV ở người lớn bị AIDS, chức năng thận bình thường (Clcr ít nhất bằng 1,6 ml/phút/kg).\nLiệu pháp cảm ứng ban đầu: Liều khuyến cáo Foscarnet dùng 60 mg/kg (truyền trong ít nhất 1 giờ) cách 8 giờ/lần trong 14 - 21 ngày hoặc 90 mg/kg (truyền trong 1,5 - 2 giờ) cách 12 giờ/lần trong 14 - 21 ngày.\nSau khi hoàn thành liệu pháp cảm ứng, liều duy trì thông thường tĩnh mạch (dự phòng thứ phát) ở người lớn, chức năng thận bình thường (Clcr ≥ 1,4 ml/phút/kg): 90 - 120 mg/kg (truyền trong 2 giờ) ngày 1 lần.\nĐa số dùng liều 90 mg/kg. Liều > 120 mg/kg thường tăng độc tính. Nếu viêm võng mạc lại tiến triển trong khi điều trị duy trì có thể điều trị lại với liều thông thường liệu pháp cảm ứng và liệu pháp duy trì hoặc 1 cách khác, phối hợp Foscarnet với Ganciclovir.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Liều lượng | Nội dung:\nDự phòng bệnh CMV:\nNếu Foscarnet được dùng trong biện pháp duy trì hoặc ngăn chặn (dự phòng thứ phát) ở người lớn, thiếu niên, trẻ em, liều khuyến cáo 90 - 120 mg/kg tĩnh mạchngày 1 lần.\nTrẻ em nhiễm HIV sau 1 đợt nhiễm CMV dùng liệu pháp loại trừ suốt đời.\nNhiễm virus Herpes simplex ở da - niêm mạc đã biết hoặc nghi do chủng kháng acyclovir ở người suy giảm miễn dịch:\nLiều khuyến cáo 40 mg/kg tĩnh mạch (truyền trong ít nhất 1 giờ) cách 8 hoặc 12 giờ/lần trong 2 - 3 tuần hoặc cho tới khi bệnh hết về lâm sàng.\nDữ liệu sơ bộ cho thấy foscarnet liều 60 mg/kg tĩnh mạch cách 8 hoặc 18 giờ/lần cũng có hiệu quả.\nNhiễm vius Varicella - zoster đã biết hoặc nghi ngờ do chủng kháng acyclovir ở người suy giảm miễn dịch:",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Liều lượng | Nội dung:\nNhiễm vius Varicella - zoster đã biết hoặc nghi ngờ do chủng kháng acyclovir ở người suy giảm miễn dịch:\n40 mg/kg truyền tĩnh mạch cách 8 giờ/lần trong 10 - 21 ngày hoặc cho tới khi lành da.\nLiều cao hơn (60 mg/kg tĩnh mạch cách 8 giờ/lần, 100 mg/kg cách 12 giờ/lần) cũng đã được dùng.\nĐối tượng khác Liều trong suy thận:\nỞ người bệnh có rối loạn chức năng thận, phải thay đổi liều Foscarnet tùy theo mức độ rối loạn chức năng thận.\nLiều lượng phải dựa vào Clcr đo hoặc ước lượng trên người bệnh.\nNgoài ra, có thể cần phải điều chỉnh liều lượng Foscarnet ở người lúc đầu có chức năng thận bình thường, phần lớn người bệnh có chức năng thận giảm trong quá trình điều trị.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Liều lượng | Nội dung:\nNhà sản xuất khuyến cáo không dùng Foscarnet cho người bệnh có độ thanh thải creatinin dưới 50 ml/phút hoặc nồng độ cơ sở creatinin huyết thanh vượt 2,8 mg/dl.\nCách dùng Foscarnet Tiêm truyền tĩnh mạch chậm Foscarnet có kiểm soát.\nKhông được truyền tĩnh mạch nhanh hoặc tiêm tĩnh mạch trực tiếp vì có thể dẫn đến những nồng độ Foscarnet có khả năng gây độc.\nKhông cần pha loãng dung dịch tiêm có trên thị trường (24 mg/ml) khi tiêm vào tĩnh mạch trung tâm nhưng khi tiêm vào tĩnh mạch ngoại vi, phải pha loãng dung dịch tiêm thành dung dịch 12 mg/ml với dung dịch Dextrose 5% hoặc Natri Clorid 0,9% trước khi tiêm để tránh kích ứng tại chỗ.\nĐể giảm thiểu nguy cơ quá liều, bất cứ lượng thuốc nào thừa so với liều đã tính cho người bệnh phải loại bỏ trước khi tiêm.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Liều lượng | Nội dung:\nĐể giảm thiểu nguy cơ quá liều, bất cứ lượng thuốc nào thừa so với liều đã tính cho người bệnh phải loại bỏ trước khi tiêm.\nNhà sản xuất khuyến cáo cho 750 - 1000 ml dung dịch natri clorid 0,9% hoặc dung dịch dextran 5% trước khi cho liều đầu tiên Foscarnet để gây lợi tiểu.\nVới các liều Foscarnet sau, phải cho đồng thời 750 - 1 000 ml dịch với mỗi liều Foscarnet 90 -120 mg/kg và 500 ml dịch cho đồng thời với mỗi liều Foscarnet 40 - 60 mg/kg.\nThể tích dịch có thể giảm để phù hợp với lâm sàng.\nCũng có thể tiếp nước bằng đường uống ở một số người bệnh.\nBổ sung liều ngay khi nhớ ra. Tuy nhiên, nếu thời gian giãn cách với liều tiếp theo quá ngắn thì bỏ qua liều đã quên và tiếp tục lịch dùng thuốc. Không dùng liều Foscarnet gấp đôi để bù cho liều đã bị bỏ lỡ.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Foscarnet và xử trí Quá liều và độc tính Theo một nghiên cứu quan sát một số người bệnh dùng Foscarnet quá liều.\nTất cả đều có các triệu chứng ngoại ý và đều hồi phục hoàn toàn trừ một người chết sau khi điều trị tổng liều hàng ngày 12,5 g trong 3 ngày (đáng lẽ liều dự kiến là 10,9 g).\nCó 9 người bệnh đã dùng liều trung bình gấp 4 lần liều khuyến cáo. Mô hình triệu chứng do quá liều phù hợp với các triệu chứng đã thấy trước trong liệu pháp Foscarnet.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Quá liều và xử trí | Nội dung:\nCách xử lý khi quá liều Foscarnet Không có thuốc giải độc đặc hiệu. Thẩm tách máu và tiếp nước có thể làm giảm nồng độ thuốc trong huyết tương, nhưng hiệu quả của các can thiệp này chưa được đánh giá. Ngườibệnh phải được theo dõi về các triệu chứng và dấu hiệu rối loạn chức năng thận và rối loạn điện giải. Nếu cần, phải điều trị nội khoa.\nQuên liều và xử trí Bổ sung liều ngay khi nhớ ra. Tuy nhiên, nếu thời gian giãn cách với liều tiếp theo quá ngắn thì bỏ qua liều đã quên và tiếp tục lịch dùng thuốc. Không dùng liều Foscarnet gấp đôi để bù cho liều đã bị bỏ lỡ.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Tăng nguy cơ độc thận nếu dùng đồng thời Foscarnet với Ayclovir-valacyclovir, Aminoglycoside, Amphotericin B, Cyclosporin ,\nMethotrexate Tacrolimus .\nTăng nguy cơ gây kéo dài khoảng QT nếu dùng đồng thời với Haloperidol.\nDùng đồng thời Foscarnet với Pentamidin tiêm tĩnh mạch có thể gây giảm mạnh calci huyết, giảm magnesi huyết và độc cho thận nhưng có thể phục hồi.\nDùng đồng thời Foscarnet với Xidovudin có thể gây tác dụng hiệp đồng, tăng nguy cơ thiếu máu nhưng không có chứng cứ tăng ức chế tủy xương.\nPhải thận trọng khi dùng đồng thời Foscarnet với các thuốc khác được biết có ảnh hưởng đến nồng độ calci huyết thanh.\nTránh dùng đồng thời với các thuốc sau:",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Tương tác thuốc | Nội dung:\nTránh dùng đồng thời với các thuốc sau:\nArtemether , Dronedaron, Lumefantrin, Nilotinib , Pimozid, Quinin, Quetiapin, Trabenazin, Thioridazin , Toremifen, Vandetanib, Vemurafenib, Ziprasidon.\nTương kỵ thuốc Không được pha trộn Foscarnet với bất kỳ dung dịch nào ngoài dung dịch tiêm Dextrose 5% hoặc Natri Clorid 0,9%. Foscarnet tương kỵ với dung dịch tiêm Dextrose 30%, dung dịch Ringer Lactat hoặc bất cứ dung dịch nào chứa calci. Không được trộn Foscarnet với bất cứ thuốc nào.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Lưu ý | Nội dung:\nLưu ý chung Foscarnet có độc tính cao, chỉ dùng khi tiềm năng lợi ích vượt trội nguy cơ.\nFoscarnet nên được sử dụng thận trọng cho những bệnh nhân bị giảm chức năng thận. Vì suy giảm chức năng thận có thể xảy ra bất cứ lúc nào trong khi dùngForcarnet, nên theo dõi creatinin huyết thanh thường xuyên, điều chỉnh liều lượng thích hợp theo chức năng thận. Cần duy trì đủ nước ở tất cả các bệnh nhân.\nFoscarnet có liên quan đến các trường hợp kéo dài khoảng QT và hiếm gặp hơn với các trường hợp xoắn đỉnh.\nCo giật, liên quan đến sự thay đổi khoáng chất và chất điện giải trong huyết tương, có liên quan đến việc điều trị bằng Foscarnet.\nFoscarnet được bài tiết với nồng độ cao trong nước tiểu và có thể gây kích ứng và / hoặc loét đáng kể ở bộ phận sinh dục.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Lưu ý | Nội dung:\nFoscarnet được bài tiết với nồng độ cao trong nước tiểu và có thể gây kích ứng và / hoặc loét đáng kể ở bộ phận sinh dục.\nKhi có chỉ định dùng thuốc lợi tiểu, nên dùng thiazide.\nPhát triển đề kháng: Nếu việc sử dụng Foscarnet không dẫn đến đáp ứng điều trị hoặc dẫn đến tình trạng tồi tệ hơn sau phản ứng ban đầu, điều này có thể là do sự giảm độ nhạy cảm của virus đối với Foscarnet.\nLưu ý với phụ nữ có thai Không dùng Foscarnet cho người mang thai.\nLưu ý với phụ nữ cho con bú Chưa có nghiên cứu chứng minh độc tính và an toàn của thuốc trong thời kỳ cho con bú, không nên cho con bú trong khi điều trị với Foscarnet.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Foscarnet | Phần: Lưu ý | Nội dung:\nLưu ý khi lái xe và vận hành máy móc Do tính chất của bệnh và các tác dụng không mong muốn có thể có của Foscarnet (như chóng mặt và co giật), khả năng lái xe và sử dụng máy móc có thể bị suy giảm.",
+        "metadata": {
+            "name": "Foscarnet",
+            "id": "foscarnet",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/foscarnet",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

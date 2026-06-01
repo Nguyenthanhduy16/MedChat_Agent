@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Mô tả tổng quan | Nội dung:\nRoniciclib là một loại thuốc đang được nghiên cứu với mục tiêu điều trị ung thư bằng cách ức chế các cyclin-dependent kinase (CDKs), một nhóm enzyme quan trọng điều chỉnh chu kỳ tế bào. Với khả năng can thiệp vào quá trình phân chia tế bào, Roniciclib có tiềm năng ngăn chặn sự phát triển và nhân lên của tế bào ung thư, từ đó góp phần kiểm soát tiến triển bệnh lý.\nTên thuốc gốc (hoạt chất) Roniciclib Loại thuốc Roniciclib thuộc nhóm thuốc ức chế kinase phụ thuộc cyclin (CDK inhibitors). Đây là nhóm thuốc điều trị ung thư theo cơ chế nhắm trúng đích (targeted therapy), được thiết kế để can thiệp vào các giai đoạn cụ thể của chu kỳ tế bào và từ đó hạn chế sự tăng sinh không kiểm soát của tế bào ác tính.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Mô tả tổng quan | Nội dung:\nDạng thuốc và hàm lượng Hiện tại, Roniciclib chủ yếu được điều chế dưới dạng viên nang hoặc viên nén dùng đường uống trong các thử nghiệm lâm sàng.\nLiều lượng và hàm lượng cụ thể có thể thay đổi tùy theo giai đoạn nghiên cứu hoặc phác đồ điều trị thử nghiệm, thông thường hàm lượng dao động từ 1 đến 10mg.\nCông thức hoá học của Roniciclib",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Chỉ định | Nội dung:\nMặc dù Roniciclib chưa được phê duyệt chính thức cho bất kỳ chỉ định nào bởi các cơ quan quản lý như FDA hoặc EMA, nhưng trong khuôn khổ các thử nghiệm lâm sàng, thuốc đang được nghiên cứu để điều trị các bệnh lý sau:\nUng thư phổi tế bào nhỏ (SCLC);\nUng thư vú HER2 âm tính;\nUng thư tuyến tụy;\nUng thư biểu mô tế bào gan;\nMột số bệnh lý ác tính về huyết học như bạch cầu dòng tủy.\nNgoài ra, Roniciclib cũng đang được xem xét như một liệu pháp kết hợp với các loại thuốc chống ung thư khác để tăng hiệu quả điều trị.\nRoniciclib đang được xem xét như một liệu pháp kết hợp với các loại ung thư khác",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Dược lực học | Nội dung:\nVề cơ chế tác động, Roniciclib là một chất ức chế mạnh và chọn lọc đối với một số kinase phụ thuộc cyclin (CDK), đặc biệt là CDK1, CDK2, CDK4, CDK6 và CDK9. Các CDK này là enzyme thiết yếu điều hòa tiến trình của chu kỳ tế bào từ pha G1 đến S, từ S đến G2 và từ G2 đến pha phân bào M. Trong điều kiện bình thường, sự phối hợp hoạt động giữa các CDK và cyclin đảm bảo sự phân chia tế bào có trật tự. Tuy nhiên, trong các tế bào ung thư, CDK thường bị hoạt hóa bất thường, dẫn đến sự tăng sinh mất kiểm soát. Roniciclib can thiệp vào quá trình này bằng cách ức chế hoạt động của các CDK, từ đó gây ngưng chu kỳ tế bào tại các pha quan trọng như G1 hoặc G2/M và dẫn đến chết tế bào theo chương trình (apoptosis).",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Dược lực học | Nội dung:\nRoniciclib can thiệp vào quá trình apoptosis Ngoài tác động lên CDK điều hòa chu kì tế bào, Roniciclib cũng ức chế CDK9, một enzyme quan trọng trong việc điều chỉnh phiên mã thông qua phức hợp P-TEFb. CDK9 đóng vai trò chủ chốt trong việc kiểm soát biểu hiện gen, đặc biệt là các gen liên quan đến sống sót tế bào như MCL-1 (một protein chống apoptotic). Việc ức chế CDK9 không chỉ làm chậm quá trình phiên mã mà còn dẫn đến sự giảm nhanh chóng của các protein có chu kỳ sống ngắn như MCL-1, từ đó thúc đẩy quá trình chết tế bào ung thư. Điều này mang lại lợi thế lớn trong điều trị các ung thư phụ thuộc mạnh vào con đường chống apoptotic, ví dụ như ung thư máu hay lymphoma.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Dược lực học | Nội dung:\nĐặc biệt, Roniciclib còn thể hiện khả năng ức chế chọn lọc mạnh mẽ, ít ảnh hưởng đến các tế bào bình thường không phân chia nhanh, giúp hạn chế phần nào tác dụng phụ so với các liệu pháp hóa trị truyền thống. Các thử nghiệm tiền lâm sàng và giai đoạn đầu cho thấy thuốc có hiệu quả kháng u trên nhiều dòng tế bào ung thư in vitro và trên mô hình động vật in vivo, bao gồm ung thư phổi, ung thư vú , đại trực tràng và một số bệnh lý huyết học ác tính. Sự đa dạng trong tác động sinh học khiến Roniciclib được đánh giá là một tác nhân trị liệu tiềm năng, đặc biệt khi sử dụng kết hợp với các thuốc chống ung thư khác như chất ức chế PI3K, thuốc hóa trị hoặc miễn dịch.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Dược lực học | Nội dung:\nTuy nhiên, cũng như các chất ức chế CDK khác, Roniciclib không tránh khỏi những nguy cơ liên quan đến độc tính trên tế bào tủy, gan và tim. Do đó, chiến lược điều trị thường bao gồm việc điều chỉnh liều linh hoạt, sử dụng theo chu kỳ và kết hợp với các chỉ số sinh học để cá thể hóa điều trị nhằm tối ưu hiệu quả và hạn chế tác dụng bất lợi.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Dược động học | Nội dung:\nHấp thu Roniciclib là một chất ức chế kinase phụ thuộc cyclin có khả năng hấp thu tốt khi sử dụng qua đường uống. Sinh khả dụng đường tiêu hóa của thuốc ước tính đạt khoảng 60 - 70%, điều này cho phép sử dụng thuận tiện bằng đường miệng trong các phác đồ điều trị thử nghiệm. Sau khi uống, nồng độ đỉnh trong huyết tương thường đạt được trong vòng 2 đến 4 giờ. Mức độ hấp thu tương đối ổn định dù dùng thuốc khi đói hay no, tuy nhiên để duy trì hiệu quả điều trị ổn định, bệnh nhân nên dùng thuốc vào cùng một thời điểm mỗi ngày, tốt nhất là theo khuyến cáo của bác sĩ điều trị.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Dược động học | Nội dung:\nRoniciclib có khả năng hấp thu tốt khi sử dụng qua đường uống Phân bố Sau khi được hấp thu vào tuần hoàn, Roniciclib phân bố nhanh chóng đến các mô, trong đó bao gồm cả các mô ung thư, cho thấy khả năng tiếp cận mô đích mạnh mẽ. Tỷ lệ gắn kết với protein huyết tương dao động từ 70 đến 80%, góp phần vào việc điều hòa nồng độ thuốc tự do trong huyết tương và ảnh hưởng đến thời gian tác dụng của thuốc. Roniciclib có thể vượt qua hàng rào máu não trong một số mô hình thực nghiệm, gợi mở khả năng điều trị các ung thư hệ thần kinh trung ương, mặc dù vấn đề này vẫn đang tiếp tục được nghiên cứu.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Dược động học | Nội dung:\nChuyển hóa Về mặt chuyển hóa, Roniciclib chủ yếu được chuyển hóa tại gan thông qua hệ enzyme cytochrome P450, trong đó isoenzyme CYP3A4 đóng vai trò chính. Do đó, việc phối hợp thuốc này với các chất ức chế hoặc cảm ứng mạnh CYP3A4 như ketoconazole , rifampin hoặc nước ép bưởi có thể gây biến động lớn về nồng độ huyết tương và làm thay đổi hiệu lực hoặc độc tính của thuốc. Việc theo dõi tương tác thuốc là hết sức quan trọng để tránh những hậu quả không mong muốn trong điều trị.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Dược động học | Nội dung:\nThải trừ Thuốc được thải trừ chủ yếu qua phân và nước tiểu, dưới dạng cả hợp chất gốc và các chất chuyển hóa. Thời gian bán thải trung bình của Roniciclib dao động từ 6 đến 12 giờ, tùy thuộc vào liều dùng và đặc điểm chuyển hóa cá thể của từng bệnh nhân. Do thời gian bán hủy không quá dài, Roniciclib thường được dùng theo lịch chu kỳ, ví dụ ba ngày điều trị liên tục sau đó nghỉ bốn ngày, để giảm độc tính và cho phép cơ thể phục hồi sau ức chế phân bào.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Liều lượng | Nội dung:\nLiều dùng Người lớn Trong các thử nghiệm, liều khuyến nghị dao động từ 1,5 mg đến 10 mg mỗi ngày, uống liên tục trong 3 ngày sau đó nghỉ 4 ngày trong mỗi chu kỳ 7 ngày.\nLiều có thể được điều chỉnh theo đáp ứng lâm sàng và mức độ độc tính.\nTrẻ em Hiện chưa có chỉ định hoặc khuyến cáo sử dụng Roniciclib cho trẻ em trong các thử nghiệm lâm sàng.\nDo đó, liều lượng cho trẻ em chưa được xác lập và không nên tự ý sử dụng.\nCách dùng Thuốc được dùng bằng đường uống, nuốt nguyên viên với nước lọc, không được nhai hoặc nghiền nát.\nCó thể dùng thuốc khi bụng đói hoặc no, tuy nhiên nên dùng vào cùng thời điểm mỗi ngày để duy trì nồng độ ổn định trong máu.\nNếu bạn quên một liều, hãy dùng càng sớm càng tốt.\nNếu gần đến thời điểm uống liều tiếp theo, bỏ qua liều đã quên và tiếp tục theo lịch bình thường.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Liều lượng | Nội dung:\nNếu bạn quên một liều, hãy dùng càng sớm càng tốt.\nNếu gần đến thời điểm uống liều tiếp theo, bỏ qua liều đã quên và tiếp tục theo lịch bình thường.\nKhông được dùng gấp đôi liều để bù liều đã quên.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Triệu chứng quá liều có thể bao gồm buồn nôn nặng, tiêu chảy, rối loạn tâm thần, hạ bạch cầu nghiêm trọng, độc gan hoặc rối loạn nhịp tim.\nCách xử lý khi quá liều Không có thuốc giải độc đặc hiệu cho Roniciclib. Cần hỗ trợ triệu chứng và theo dõi sát trong môi trường y tế. Sử dụng than hoạt nếu bệnh nhân đến sớm sau khi uống.\nQuên liều và xử trí Nếu bạn quên một liều, hãy dùng càng sớm càng tốt.\nNếu gần đến thời điểm uống liều tiếp theo, bỏ qua liều đã quên và tiếp tục theo lịch bình thường.\nKhông được dùng gấp đôi liều để bù liều đã quên.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Tương tác thuốc | Nội dung:\nTránh dùng đồng thời với các thuốc ức chế hoặc cảm ứng mạnh CYP3A4 (như ketoconazole, rifampin) vì có thể làm thay đổi nồng độ Roniciclib trong máu.\nSử dụng đồng thời với thuốc gây kéo dài khoảng QT như amiodarone, sotalol có thể làm tăng nguy cơ rối loạn nhịp tim.\nThức ăn nhiều chất béo không ảnh hưởng đáng kể đến sinh khả dụng của thuốc nhưng nên duy trì cách dùng ổn định (có hoặc không có thức ăn).\nThuốc không ghi nhận các tương tác với thức ăn, tuy nhiên cần dùng ở một thời gian nhất định",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Lưu ý | Nội dung:\nLưu ý chung Cần theo dõi công thức máu thường xuyên để phát hiện sớm độc tính trên tủy xương.\nTheo dõi chức năng gan định kỳ, đặc biệt khi sử dụng kéo dài.\nChú ý đến dấu hiệu nhiễm độc tim mạch, như thay đổi nhịp tim, đặc biệt khi bệnh nhân có bệnh tim nền.\nTheo dõi công thức máu thường xuyên và chức năng gan định kì khi dùng thuốc Lưu ý với phụ nữ có thai Không nên dùng Roniciclib trong thời kỳ mang thai.\nCó thể gây hại cho thai nhi do cơ chế ức chế phân bào mạnh.\nCần thực hiện xét nghiệm thai trước khi bắt đầu điều trị và sử dụng biện pháp tránh thai hiệu quả trong suốt thời gian dùng thuốc và ít nhất 1 tháng sau khi ngừng thuốc.\nLưu ý với phụ nữ cho con bú Hiện chưa rõ thuốc có bài tiết qua sữa mẹ hay không.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Roniciclib | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Hiện chưa rõ thuốc có bài tiết qua sữa mẹ hay không.\nNên ngừng cho con bú trong thời gian điều trị và tối thiểu 1 tuần sau khi dùng liều cuối.\nLưu ý khi lái xe và vận hành máy móc Thuốc có thể gây chóng mặt, mệt mỏi hoặc rối loạn thị lực nhẹ.\nNên thận trọng khi lái xe hoặc vận hành máy móc nặng, đặc biệt trong những ngày đầu điều trị.",
+        "metadata": {
+            "name": "Roniciclib",
+            "id": "roniciclib",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/roniciclib",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Cefalotin (Cephalothin) Loại thuốc Kháng sinh nhóm cephalosporin thế hệ 1.\nDạng thuốc và hàm lượng Thuốc tiêm là dạng cefalotin natri. Liều được biểu thị theo cephalothin.\n1,06g cephalothin natri tương đương với 1 g cephalothin.\n1g cephalothin natri tương ứng với 2,39 milimol natri.\nBột vô khuẩn pha tiêm: Mỗi lọ chứa cephalothin natri tương đương với 1g cephalothin và 30mg natri bicarbonat, hoặc chứa cephalothin natri tương đương với 2g cephalothin và 60mg natri bicarbonat.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Chỉ định | Nội dung:\nCefalotin được coi là thuốc lựa chọn thứ hai để điều trị các nhiễm khuẩn do vi khuẩn nhạy cảm.\nThường được dùng để điều trị thay thế penicilin, trong các nhiễm khuẩn do cầu khuẩn Gram dương và trực khuẩn Gram dương nhạy cảm, nhưng hiện nay thường được thay thế bằng các cephalosporin mới hơn.\nChỉ định trong nhiễm khuẩn huyết , viêm màng trong tim, viêm xương - tủy và các thể nhiễm khuẩn nặng khác.\nCác chỉ định khác:\nNhiễm khuẩn đường tiết niệu có biến chứng, như viêm thận - bể thận cấp và mạn tính, viêm bàng quang nặng tái phát;\nnhiễm khuẩn đường hô hấp , như viêm phổi nặng do vi khuẩn, viêm phế quản - phổi, áp xe phổi ; nhiễm khuẩn ngoại khoa, như áp-xe bụng, áp xe màng bụng, nhiễm khuẩn sau phẫu thuật; các nhiễm khuẩn khác: Viêm mủ màng phổi, nhiễm khuẩn nặng đường ruột.\nLưu ý:",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Chỉ định | Nội dung:\nLưu ý:\nCần tiến hành nuôi cấy và thử nghiệm tính nhạy cảm của vi khuẩn trước và trong khi điều trị. Cần xét nghiệm chức năng thận khi có chỉ định.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Dược lực học | Nội dung:\nCefalotin là kháng sinh nhóm cephalosporin thế hệ 1 . Cefalotin có tác dụng diệt khuẩn do ức chế tổng hợp thành tế bào vi khuẩn. Cefalotin dùng theo đường tiêm, có hoạt tính mạnh trên các cầu khuẩn Gram dương.\nThuốc có tác dụng tốt trên các trực khuẩn Gram dương và có tác dụng trung bình trên các vi khuẩn đường ruột Gram âm, nhưng nói chung Cephalothin đã được thay thế bởi các kháng sinh cefalosporin mới hơn.\nGiống như các cephalosporin khác, một vài sự kháng chéo có thể xảy ra giữa cephalothin và các penicilin kháng penicilinase.\nDo tình hình kháng kháng sinh, việc điều trị các bệnh nhiễm khuẩn phải dựa vào kháng sinh đồ của từng chủng và phải dùng phối hợp các kháng sinh để có thể ngăn cản được sự phát triển tính kháng thuốc của vi khuẩn.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Dược động học | Nội dung:\nHoạt tính diệt khuẩn của cefalotin là kết quả của sự ức chế tổng hợp thành tế bào thông qua ái lực với các protein gắn với penicillin (PBPs). Các PBP là transpeptidase rất quan trọng trong sinh tổng hợp peptidoglycan. Do đó, sự ức chế của chúng ngăn cản thành phần tế bào quan trọng này được tổng hợp đúng cách.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Liều lượng | Nội dung:\nNgười lớn Liều thông thường:\nLiều thông thường tiêm bắp hay tiêm tĩnh mạch: 500 mg đến 1g, cách nhau 4 - 6 giờ/lần tùy theo mức độ nhiễm khuẩn.\nTrường hợp nhiễm khuẩn nặng, nên dùng liều 2 g tiêm tĩnh mạch 4 lần/ngày. Nếu bệnh đe dọa gây tử vong, có thể tăng liều đến 12g/ngày (2g mỗi 4 giờ).\nDự phòng nhiễm khuẩn hoặc có tiềm năng nhiễm khuẩn trong phẫu thuật:\nLiều thông thường 1 - 2 g tiêm tĩnh mạch 30 - 60 phút trước khi phẫu thuật;\nTrong và sau phẫu thuật: 1 - 2 g mỗi 6 giờ trong 24 giờ.\nTrẻ em 80 - 160 mg/kg/ngày chia làm 3 - 4 lần. Liều tối đa 160 mg/ngày nhưng không được vượt quá 10 -12 g/ngày.\nĐiều trị xơ nang trong nhiễm khuẩn phổi gây nên bởi Staphylococcus aureus :\nLiều 25 - 50 mg/kg, cách 6 giờ một lần. Tổng liều không vượt quá liều người lớn.\nTrẻ mới sinh:",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Liều lượng | Nội dung:\nLiều 25 - 50 mg/kg, cách 6 giờ một lần. Tổng liều không vượt quá liều người lớn.\nTrẻ mới sinh:\nLiều khuyến cáo tiêm tĩnh mạch là 50 - 100 mg/kg/ ngày, chia làm 2 đến 3 lần.\nTrẻ sơ sinh:\nTiêm tĩnh mạch 25 mg/kg, cách 6 giờ một lần; cần theo dõi độc tính với thận, giảm bạch cầu trung tính, phát ban , dị ứng và thử nghiệm Coombs dương tính giả có thể xảy ra ở người bệnh.\n20 - 30 mg/kg cùng khoảng thời gian như ở người lớn. Dự phòng thường ngừng trong vòng 24 giờ sau phẫu thuật.\nĐối tượng đặc biệt Người lớn bị suy thận Cần giảm liều. Liều khởi đầu là 1 - 2g tiêm tĩnh mạch. Sau đó chỉnh liều tiếp theo (liều duy trì tối đa) tùy theo độ thanh thải creatinin của người bệnh, như sau:",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Liều lượng | Nội dung:\nHệ số thanh thải creatinin (ml/phút) Liều duy trì tối đa ở người lớn 50 - 80 2 g mỗi 6 giờ 25 - < 50 1,5 g mỗi 6 giờ 10 - < 25 1 g mỗi 6 giờ 2 - < 10 0,5 g mỗi 6 giờ < 2 500 mg mỗi 8 giờ Trẻ em suy thận vừa:\nLiều 75 - 100 % liều bình thường trong 12 giờ.\nTrẻ em đi tiểu khó:\nLiều bằng 1/2 liều bình thường trong 12 - 24 giờ.\nLiều dùng khi thẩm tách màng bụng:\nĐối với liều không liên tục: Liều khuyến cáo cho điều trị viêm màng bụng liên quan đến thẩm tách màng bụng ở người bệnh vô niệu (thể tích nước tiểu còn lại dưới 100 ml/ngày) là 15 mg/kg trong một lần thay dịch thẩm phân/ngày.\nĐối với liều liên tục: Liều nạp là 500 mg và liều duy trì là 125 mg/ lít dịch thẩm phân thay đổi.\nĐiều chỉnh liều trong thẩm tách:",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Liều lượng | Nội dung:\nĐối với liều liên tục: Liều nạp là 500 mg và liều duy trì là 125 mg/ lít dịch thẩm phân thay đổi.\nĐiều chỉnh liều trong thẩm tách:\nLiều duy trì được khuyến cáo đối với người bệnh sau thẩm tách máu, nhưng không thêm liều cho người bệnh thẩm tách màng bụng.\nThuốc được sử dụng bởi nhân viên y tế và người bệnh ít có khả năng quên liều.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Quá liều và xử trí | Nội dung:\nQuên liều Cefalotin và xử trí Thuốc được sử dụng bởi nhân viên y tế và người bệnh ít có khả năng quên liều.\nQuá liều và xử trí Quá liều và độc tính Các triệu chứng quá liều cefalotin bao gồm phản ứng quá mẫn thần kinh cơ, co giật, đặc biệt ở người suy thận.\nCách xử lý khi quá liều Nếu có co giật, ngừng ngay thuốc và có thể dùng liệu pháp chống co giật nếu có chỉ định về lâm sàng.\nBảo vệ đường hô hấp, hỗ trợ thông khí và truyền dịch.\nTheo dõi cẩn thận và duy trì trong phạm vi cho phép các dấu hiệu sinh tồn của người bệnh, các khí trong máu, các chất điện giải trong huyết thanh v.v...\nNếu gặp quá liều trầm trọng, đặc biệt ở người suy thận, có thể phối hợp thẩm tách máu và truyền máu, nếu điều trị bảo tồn bị thất bại. Tuy nhiên, chưa có dữ liệu có giá trị chứng minh cách điều trị này.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Cefalotin có thể gây trở ngại cho việc đo nồng độ creatinin theo phương pháp Jaffé và có thể cho giá trị cao giả tạo; nên nhớ điều này khi kiểm tra chức năng thận.\nCephalothin cũng cho kết quả thử nghiệm Coombs trực tiếp dương tính giả và có thể gây trở ngại cho phản ứng máu chéo.\nNước tiểu của người bệnh điều trị bằng cefalotin có thể cho phản ứng glucose dương tính giả với phản ứng khử đồng.\nDùng đồng thời với thuốc gây độc thận, như kháng sinh aminoglycosid ( gentamicin và tobramycin ) có thể làm tăng nguy cơ tổn thương thận.\nCũng có chứng cứ tăng nhiễm độc thận khi dùng với một thuốc lợi tiểu quai như furosemid , nhưng không thể hiện chắc chắn như furosemid với cefaloridin.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Tương tác thuốc | Nội dung:\nGiống như penicilin và nhiều cephalosporin khác, probenecid ức chế bài tiết cephalothin ở thận.\nCó thể có sự đối kháng giữa cephalothin và các chất kìm khuẩn.\nTương tác với thực phẩm Hàm lượng natri cần được kiểm soát ở những bệnh nhân mắc các tình trạng cần hạn chế natri, chẳng hạn như suy tim sung huyết, tăng huyết áp và phù.\nTương kỵ thuốc Cefalotin tương kỵ với aminoglycosid và nhiều chất khác. Không trộn lẫn cefalotin và aminoglycosid trong cùng lọ/túi. Tủa có thể xảy ra ở dung dịch pH dưới 5.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Lưu ý | Nội dung:\nLưu ý chung Vì đã thấy có phản ứng quá mẫn chéo (bao gồm sốc phản vệ ) giữa những người bệnh dị ứng với các kháng sinh nhóm beta-lactam, nên phải rất thận trọng và sẵn sàng điều trị sốc phản vệ khi dùng Cefalotin cho người trước đây đã bị dị ứng với penicilin.\nTuy nhiên, cephalothin phản ứng quá mẫn chéo với penicilin có tỷ lệ thấp.\nThận trọng khi dùng cefalotin cho người suy thận: Có thể phải giảm liều. Cần theo dõi chức năng thận và thời gian đông máu, nhất là trong thời gian điều trị cephalothin dài ngày và liều cao. Dùng kết hợp với gentamicin và các aminoglycosid khác có nguy cơ tăng nhiễm độc thận.\nDùng Cephalothin dài ngày có thể làm phát triển quá mức các chủng không nhạy cảm. Cần theo dõi người bệnh cẩn thận. Nếu bị bội nhiễm, phải ngừng thuốc.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Lưu ý | Nội dung:\nĐã có thông báo viêm đại tràng màng giả khi sử dụng các kháng sinh phổ rộng, vì vậy cần lưu ý đến chẩn đoán bệnh viêm đại tràng giả mạc và điều trị bằng metronidazol cho người bị tiêu chảy nặng liên quan tới sử dụng kháng sinh.\nNhững bệnh nhân điều trị đường niệu với cefolotin có thể cho phản ứng dương tính giả đối với phản ứng khử đồng của glucosa.\nLưu ý với phụ nữ có thai Cefalotin được xem là sử dụng an toàn trong khi mang thai. Tuy vậy, chưa có những nghiên cứu đầy đủ và kiểm soát chặt chẽ trên những người mang thai, nên dùng thuốc thận trọng và chỉ dùng cho người mang thai khi thật cần thiết.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Cefalotin | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Cefalotin bài tiết qua sữa mẹ ở nồng độ thấp (khoảng 7,5% liều người mẹ dùng có trong sữa). Nên thận trọng khi sử dụng cephalothin ở người cho con bú, cần quan tâm khi thấy trẻ bị tiêu chảy, tưa và nổi ban.\nLưu ý khi lái xe và vận hành máy móc Thuốc cefalotin không gây buồn ngủ, không ảnh hưởng đến hoạt động của người đang lái xe hoặc vận hành máy móc.",
+        "metadata": {
+            "name": "Cefalotin",
+            "id": "cefalotin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cefalotin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

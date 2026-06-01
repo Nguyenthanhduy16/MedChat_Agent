@@ -1,0 +1,114 @@
+[
+  {
+    "text": "Bệnh: Viêm quanh móng | Phần: Tổng quan | Nội dung:\nTổng quan chung\nViêm quanh móng là bệnh về da khá phổ biến, nguyên nhân chủ yếu là do vệ sinh vùng da xung quanh móng tay, móng chân chưa sạch sẽ. Bệnh có thể chuyển biến thành mạn tính gây ra nhiều phiền toái trong cuộc sống sinh hoạt và ảnh hưởng đến sức khỏe của người bệnh. Hơn nữa, tình trạng viêm da quanh móng còn có thể lây truyền từ người này sang người khác nếu sử dụng chung những đồ dùng cá nhân.",
+    "metadata": {
+      "name": "Viêm quanh móng",
+      "id": "vim-quanh-mng",
+      "url": "https://www.pharmacity.vn/benh/viem-quanh-mong.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm quanh móng | Phần: Triệu chứng | Nội dung:\nTriệu chứng\nNhững dấu hiệu và triệu chứng của viêm quanh móng là:\nDấu hiệu đầu tiên của bệnh viêm quanh móng là đau, đỏ, sưng vùng quanh móng. Có thể xuất hiện mụn nhọt, có mủ và viêm nhiễm quanh khu vực này.\nTrong một số trường hợp, móng tay có thể thay đổi và biến dạng.",
+    "metadata": {
+      "name": "Viêm quanh móng",
+      "id": "vim-quanh-mng",
+      "url": "https://www.pharmacity.vn/benh/viem-quanh-mong.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm quanh móng | Phần: Nguyên nhân | Nội dung:\nNguyên nhân\nViêm quanh móng xảy ra do vi khuẩn (thường là vi khuẩn Staphylococcus và Streptococcus ) hoặc nấm Candida xâm nhập vào da qua vết thương. Những vết thương này có thể xuất hiện do bệnh nhân cắn móng tay, bị xước da cạnh móng tay, mút ngón tay, vết thương bị nhiễm trùng hoặc các vật dụng từ bên ngoài như mảnh vụn gây ra. Bên cạnh đó, tiếp xúc với các hóa chất mạnh, sơn móng tay acrylic, hoặc keo sơn móng tay cũng có thể gây ra vết thương và viêm nhiễm ở móng. Trong một số ít trường hợp, tiểu đường, nhiễm nấm móng tay hoặc ngâm tay trong nước trong một thời gian dài cũng có thể gây ra viêm quanh móng.",
+    "metadata": {
+      "name": "Viêm quanh móng",
+      "id": "vim-quanh-mng",
+      "url": "https://www.pharmacity.vn/benh/viem-quanh-mong.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm quanh móng | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ\nĐây là bệnh khá phổ biến và có thể xảy ra ở bất kỳ lứa tuổi nào. Bệnh thường xuất hiện ở nữ giới nhiều hơn nam giới. Đặc biệt là những người thường để tay ẩm ướt (ví dụ như người rửa chén, pha chế).",
+    "metadata": {
+      "name": "Viêm quanh móng",
+      "id": "vim-quanh-mng",
+      "url": "https://www.pharmacity.vn/benh/viem-quanh-mong.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm quanh móng | Phần: Chẩn đoán | Nội dung:\nChẩn đoán\nBệnh có thể chẩn đoán bằng cách Hỏi bệnh sử và khám thực thể, xét nghiệm dịch mủ tìm vi khuẩn.",
+    "metadata": {
+      "name": "Viêm quanh móng",
+      "id": "vim-quanh-mng",
+      "url": "https://www.pharmacity.vn/benh/viem-quanh-mong.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm quanh móng | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa bệnh\nPhương pháp phòng bệnh là:\nKhi cắt móng chân không được cắt sâu vào vùng khóe móng.\nTránh gây chấn thương ngón chân hoặc mang giày chật.\nHạn chế các tình huống làm cho bàn chân bị ẩm ướt kéo dài như ngâm chân trong nước hoặc mang vớ ẩm…\nChà vệ sinh bàn chân hằng ngày bằng xà bông và bàn chải có lông mịn.",
+    "metadata": {
+      "name": "Viêm quanh móng",
+      "id": "vim-quanh-mng",
+      "url": "https://www.pharmacity.vn/benh/viem-quanh-mong.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm quanh móng | Phần: Cách điều trị | Nội dung:\nĐiều trị như thế nào?\nĐể được điều trị một cách hiệu quả, bạn nên đến các chuyên khoa da liễu để được chẩn đoán bệnh, nguyên nhân gây bệnh chính xác là do nấm hay vi khuẩn. Từ đó tùy vào những nguyên nhân cụ thể, các bác sĩ sẽ tư vấn và đưa ra phác đồ điều trị phù hợp cho bạn.\nNếu bị viêm quanh móng do vi khuẩn thì bệnh nhân có thể được chỉ định một số loại thuốc kháng sinh để điều trị triệu chứng viêm và sưng. Đồng thời, bệnh nhân cũng nên ngâm chân, tay bằng nước nóng để hỗ trợ điều trị bệnh hiệu quả hơn. Nếu quanh móng của bệnh nhân có nhiều mủ, các bác sĩ sẽ chỉ định hút dịch mủ.\nTrường hợp bị viêm da quanh móng do một số loại nấm thì các bác sĩ có thể kê một số loại thuốc kháng nấm. Ngoài ra, bệnh nhân có thể kết hợp sử dụng thuốc bôi để tình trạng bệnh được nhanh chóng cải thiện.",
+    "metadata": {
+      "name": "Viêm quanh móng",
+      "id": "vim-quanh-mng",
+      "url": "https://www.pharmacity.vn/benh/viem-quanh-mong.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: Viêm quanh móng | Phần: Cách điều trị | Nội dung:\nBệnh nhân không nên tự ý dùng thuốc để tránh những hậu quả nghiêm trọng. Hơn nữa, phần lớn bệnh ngoài da rất dễ tái phát và tiến triển thành mạn tính nếu không điều trị dứt điểm.",
+    "metadata": {
+      "name": "Viêm quanh móng",
+      "id": "vim-quanh-mng",
+      "url": "https://www.pharmacity.vn/benh/viem-quanh-mong.html",
+      "category": "data_benh_ve_da",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 1
+    }
+  }
+]

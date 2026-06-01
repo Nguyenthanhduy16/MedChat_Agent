@@ -1,0 +1,240 @@
+[
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Cisatracurium Loại thuốc Thuốc phong bế thần kinh cơ.\nDạng thuốc và hàm lượng Dung dịch tiêm hoặc tiêm truyền: 2mg/ml; 5mg/ml.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Chỉ định | Nội dung:\nCisatracurium được chỉ định sử dụng trong phẫu thuật, các thủ thuật khác và trong chăm sóc tích cực ở người lớn và trẻ em từ 1 tháng tuổi trở lên.\nCisatracurium có thể được sử dụng như một chất hỗ trợ cho gây mê toàn thân, hoặc an thần trong đơn vị chăm sóc đặc biệt (ICU) để giãn cơ xương và tạo điều kiện cho việc đặt nội khí quản và thở máy.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Dược lực học | Nội dung:\nCisatracurium là thuốc giãn cơ không khử cực có cấu trúc benzylisoquinolinium, thuốc có thời gian tác động trung bình.\nCisatracurium liên kết với các thụ thể cholinergic ở bản thần kinh cơ, đối kháng cạnh tranh với tác động của acetylcholine, dẫn đến ngăn chặn dẫn truyền thần kinh cơ. Tác động này dễ dàng bị đảo ngược bởi các chất ức chế cholinesterase như neostigmine hoặc edrophonium .\nCác nghiên cứu lâm sàng ở người chỉ ra rằng cisatracurium không liên quan đến việc giải phóng histamine phụ thuộc vào liều lượng ngay cả ở liều lên đến 8 lần liều hiệu quả 95% - ED 95 (liều lượng cần thiết để tạo ra 95% sự suy giảm đáp ứng giật cơ của cơ khép ngón cái dài đối với sự kích thích của dây thần kinh trụ).",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Dược lực học | Nội dung:\nED 95 của cisatracurium được ước tính là 0,05 mg/kg thể trọng ở người lớn khi gây mê bằng opioid (thiopentone/fentanyl/midazolam), nitơ oxid.\nED 95 của cisatracurium ở trẻ em khi gây mê bằng halothane là 0,04 mg/kg.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Dược động học | Nội dung:\nHấp thu Cisatracurium được dùng bằng đường tĩnh mạch nên sinh khả dụng là 100%.\nPhân bố Thể tích phân bố 121 to 161 mL/kg.\nChuyển hóa Sự chuyển hóa cisatracurium phần lớn không phụ thuộc vào chuyển hóa ở gan. Cisatracurium chuyển hóa không enzyme qua quá trình loại bỏ Hofmann (một quá trình hóa học phụ thuộc vào độ pH và nhiệt độ trong cơ thể), tạo thành laudanosine và chất chuyển hóa acrylate bậc bốn. Cả hai chất này đều không có hoạt tính phong bế dẫn truyền thần kinh cơ. Acrylate bậc bốn trải qua quá trình thủy phân bởi các esterase huyết tương không đặc hiệu để tạo thành chất chuyển hóa rượu bậc bốn. Laudanosine tiếp tục được chuyển hóa thành các chất chuyển hóa desmethyl được liên hợp với axit glucuronic và bài tiết qua nước tiểu.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Dược động học | Nội dung:\nThải trừ Sự thải trừ cisatracurium phần lớn qua gan và thận dưới dạng các chất chuyển hóa không có hoạt tính. Tốc độ thải trừ 4,7 đến 5,7 mL/phút/kg. Thời gian bán thải trung bình của Cisatracurium trung bình là 22 - 29 phút.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Liều lượng | Nội dung:\nNgười lớn Đặt nội khí quản:\nSử dụng bằng đường tiêm tĩnh mạch.\nLiều khởi đầu khuyến cáo của cisatracurium là 150 micrograms/kg (trọng lượng cơ thể). Sau đó duy trì 30 microgam/kg mỗi 20 phút.\nCách khác bằng cách truyền tĩnh mạch: ban đầu 180 microgam/kg/giờ, sau đó duy trì 60 - 120 microgam/kg/giờ, liều duy trì được dùng sau khi bệnh nhân trong trạng thái ổn định.\nTrẻ em Giãn cơ trong phẫu thuật có hoặc không có đặt nội khí quản:\nTrẻ 1 tháng - 1 tuổi:\nTiêm tĩnh mạch ban đầu 150 microgam/kg, sau đó (bằng cách tiêm tĩnh mạch) 30 microgam/kg mỗi 20 phút theo yêu cầu.\nTrẻ em 2 - 11 tuổi:\nTiêm tĩnh mạch ban đầu 150 microgam Cisatracurium/kg.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Liều lượng | Nội dung:\nTrẻ em 2 - 11 tuổi:\nTiêm tĩnh mạch ban đầu 150 microgam Cisatracurium/kg.\nNếu không đặt nội khí quản thì liều khởi đầu 80 - 100 microgam/kg, sau đó (bằng cách tiêm tĩnh mạch) 20 microgam/kg mỗi 10 phút theo yêu cầu hoặc cách khác như sau (bằng cách tiêm tĩnh mạch) ban đầu 150 microgam/kg, sau đó (bằng cách truyền tĩnh mạch) 180 microgam/kg/giờ và có thể điều chỉnh giảm xuống 60 - 120 microgam/kg/giờ tuỳ theo đáp ứng lâm sàng.\nTrẻ em 12 - 17 tuổi:\nTiêm tĩnh mạch ban đầu 150 microgam/kg, sau đó (bằng cách tiêm tĩnh mạch) 30 microgam/kg mỗi 20 phút theo yêu cầu hoặc cách khác như sau (bằng cách tiêm tĩnh mạch) ban đầu 150 microgam/kg, sau đó (bằng cách truyền tĩnh mạch) 180 microgam/kg/giờ và có thể điều chỉnh giảm xuống 60 - 120 microgam/kg/giờ tuỳ theo đáp ứng lâm sàng.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Liều lượng | Nội dung:\nLiều lượng ở trẻ cân nặng quá cao hoặc quá thấp:\nĐể tránh dùng quá liều Cisatracurium ở bệnh nhân béo phì, nên tính liều trên cơ sở cân nặng cơ thể lý tưởng.\nSuy gan Không cần thay đổi liều lượng ở bệnh nhân mắc bệnh gan giai đoạn cuối. Ở những bệnh nhân này, cisatracurium có đặc điểm dược lực học tương tự như đặc điểm được quan sát thấy ở những bệnh nhân có chức năng gan bình thường nhưng thuốc có thể khởi phát tác dụng nhanh hơn một chút.\nSuy thận Không cần thay đổi liều lượng ở bệnh nhân suy thận. Ở những bệnh nhân này, cisatracurium có đặc điểm dược lực học tương tự như đặc điểm được quan sát thấy ở những bệnh nhân có chức năng thận bình thường nhưng thuốc có thể khởi phát tác dụng chậm hơn một chút.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Liều lượng | Nội dung:\nThuốc được sử dụng bởi nhân viên y tế, bệnh nhân cần tham vấn nhân viên y tế nếu nghi ngờ thiếu liều.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Liệt cơ kéo dài và hậu quả của nó được cho là những dấu hiệu chính của quá liều với cisatracurium.\nCách xử lý khi quá liều Cisatracurium Điều cần thiết là duy trì thông khí phổi và oxy động mạch cho đến khi hô hấp hồi phục trở lại. Thuốc an thần có thể cần được sử dụng vì cisatracurium không có tác dụng suy giảm nhận thức. Sự phục hồi có thể được đẩy nhanh bằng cách sử dụng các thuốc kháng cholinesterase một khi có bằng chứng về sự phục hồi tự phát đang diễn ra.\nQuên liều và xử trí Thuốc được sử dụng bởi nhân viên y tế, bệnh nhân cần tham vấn nhân viên y tế nếu nghi ngờ thiếu liều.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Tương tác thuốc | Nội dung:\nTương tác Cisatracurium với các thuốc khác Tăng tác dụng khi sử dụng đồng thời với tác nhân gây mê như enflurane, isoflurane , halothane và ketamine , các chất giãn cơ không khử cực khác hoặc các loại thuốc khác như kháng sinh (bao gồm các aminoglycoside, polymyxin, spectinomycin, tetracyclines, lincomycin và clindamycin), thuốc chống thuốc loạn nhịp (bao gồm propranolol, thuốc chẹn kênh canxi, lignocaine, procainamide và quinidine ), thuốc lợi tiểu, (bao gồm frusemide và có thể cả thiazide, mannitol và acetazolamide), muối magiê và lithium và thuốc phong bế hạch thần kinh (trimetaphan, hexamethonium).",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Tương tác thuốc | Nội dung:\nSử dụng suxamethonium để kéo dài tác dụng của các thuốc giãn cơ không khử cực có thể dẫn đến tình trạng phong bế thần kinh cơ phức tạp và kéo dài, khó đảo ngược với các thuốc kháng cholinesterase.\nKháng sinh, thuốc chẹn β (propranolol, oxprenolol), thuốc chống loạn nhịp tim (procainamide, quinidine), thuốc chống thấp khớp (chloroquine, D-penicillamine), trimetaphan, chlorpromazine, steroid, phenytoin và lithium có thể làm trầm trọng thêm bệnh nhược cơ tiềm ẩn hoặc gây ra hội chứng nhược cơ; có thể tăng nhạy cảm với các tác nhân giãn cơ không khử cực.\nCác thuốc kháng cholinesterase (thường được sử dụng trong điều trị bệnh Alzheimer , ví dụ như donepezil) có thể làm rút ngắn thời gian và giảm mức độ phong bế thần kinh cơ của cisatracurium.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Lưu ý | Nội dung:\nLưu ý chung Cisatracurium làm tê liệt các cơ hô hấp cũng như các cơ xương khác nhưng không có ảnh hưởng đến ý thức hoặc ngưỡng đau. Cisatracurium chỉ nên được sử dụng dưới sự giám sát của bác sĩ gây mê hoặc bác sĩ lâm sàng khác, những người đã quen với việc sử dụng và tác dụng của các thuốc phong bế thần kinh cơ. Phải có các phương tiện để đặt nội khí quản, duy trì thông khí phổi và cung cấp đủ oxy cho động mạch.\nCần thận trọng khi dùng cisatracurium cho những bệnh nhân có biểu hiện quá mẫn với các thuốc phong bế thần kinh cơ khác vì tỷ lệ dị ứng chéo cao (lớn hơn 50%) giữa các thuốc phong bế thần kinh cơ đã được báo cáo.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Lưu ý | Nội dung:\nCisatracurium không có đặc tính phong bế hạch thần kinh hoặc ức chế thần kinh phế vị. Do đó, cisatracurium không có tác dụng đáng kể về mặt lâm sàng trên nhịp tim và không thể ngăn cản tác dụng làm chậm nhịp tim gây ra bởi các thuốc mê khác hoặc bởi kích thích thần kinh phế vị xảy ra trong khi phẫu thuật.\nBệnh nhân mắc bệnh nhược cơ và các bệnh thần kinh cơ khác đã cho thấy sự nhạy cảm tăng lên rất nhiều với các giãn cơ không khử cực. Liều khởi đầu không quá 0,02 mg/kg cisatracurium được khuyến cáo ở những bệnh nhân này.\nCác bất thường nghiêm trọng về acid-base hoặc điện giải trong huyết thanh có thể làm tăng hoặc giảm độ nhạy cảm của bệnh nhân với các thuốc phong bế thần kinh cơ.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Lưu ý | Nội dung:\nKhông có thông tin về việc sử dụng cisatracurium ở trẻ sơ sinh dưới một tháng tuổi vì thuốc chưa được nghiên cứu trên đối tượng bệnh nhân này.\nCisatracurium chưa được nghiên cứu ở những bệnh nhân có tiền sử tăng thân nhiệt ác tính.\nChưa có nghiên cứu nào về việc sử dụng cisatracurium ở những bệnh nhân đang phẫu thuật với tình trạng hạ thân nhiệt (25 đến 28°C).\nCisatracurium chưa được nghiên cứu ở bệnh nhân bỏng; tuy nhiên, cũng như các thuốc giãn cơ cơ không khử cực khác, khả năng tăng nhu cầu về liều lượng và rút ngắn thời gian tác dụng phải được xem xét nếu sử dụng cisatracurium trên nhóm bệnh nhân này.\nCisatracurium có tính chất nhược trương và không được dùng chung với các chế phẩm truyền máu.\nLưu ý với phụ nữ có thai Cisatracurium không nên được sử dụng trong thời kỳ mang thai.",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Cisatracurium | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Cisatracurium không nên được sử dụng trong thời kỳ mang thai.\nLưu ý với phụ nữ cho con bú Do thời gian bán hủy ngắn, thuốc sẽ không ảnh hưởng đến trẻ bú mẹ nếu người mẹ bắt đầu cho con bú trở lại sau khi hết tác dụng của thuốc. Để đề phòng, nên ngừng cho con bú trong thời gian điều trị và ít nhất 24 giờ sau khi sử dụng sản phẩm thuốc này.\nLưu ý khi lái xe và vận hành máy móc Do thuốc luôn được dùng kèm với việc gây mê toàn thân trong phẫu thuật nên nếu bệnh nhân chỉ ở trong bệnh viện một ngày, bác sĩ sẽ cho biết thời gian cần chờ đợi trước khi bệnh nhân có thể tự rời bệnh viện hoặc tự lái xe. Có thể nguy hiểm nếu lái xe quá sớm sau khi phẫu thuật",
+        "metadata": {
+            "name": "Cisatracurium",
+            "id": "cisatracurium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/cisatracurium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    }
+]

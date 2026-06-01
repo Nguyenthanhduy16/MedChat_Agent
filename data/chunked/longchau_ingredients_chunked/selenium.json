@@ -1,0 +1,226 @@
+[
+    {
+        "text": "Hoạt chất: Selenium | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Selenium Loại thuốc Bổ sung khoáng chất Dạng thuốc và hàm lượng Dung dịch tiêm truyền: 10 mcg/mL, 40 mcg/mL, 60 mcg/mL",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Chỉ định | Nội dung:\nPhòng ngừa thiếu hụt selen ở bệnh nhân được nuôi dưỡng bằng đường tĩnh mạch (TPN).\nĐiều trị tình trạng thiếu selen đã được chứng minh là không thể bù đắp bằng dinh dưỡng.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Dược lực học | Nội dung:\nSelen là một nguyên tố vi lượng thiết yếu. Ở người, các hợp chất selen là glutathione peroxidase và một protein selen P được tìm thấy trong huyết tương. Trong cả hai loại protein này, selen liên kết với protein và có mặt ở dạng axit amin selenocysteine. Các enzym phụ thuộc selen khác là thioredoxine-reductase và 5'-deiodinase xúc tác quá trình chuyển đổi từ tetraiodothyronine (T4) thành hormone tuyến giáp hoạt động triiodothyronine (T3).\nGlutathionperoxidase chứa selen là một phần của hệ thống bảo vệ chống oxy hóa của tế bào động vật có vú. Trong trường hợp có đủ lượng glutathione giảm, glutathionperoxidase sẽ chuyển đổi nhiều loại hydroperoxit thành các rượu có liên quan.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Dược lực học | Nội dung:\nMối liên quan về bệnh lý-sinh lý của các phản ứng phụ thuộc selen đã được chứng minh bằng các quan sát về sự thiếu hụt selen. Glutathionperoxidase có chứa selen ảnh hưởng đến sự chuyển hóa leucotriene, thromboxan và prostacyclin.\nThiếu hụt selen ức chế các phản ứng của hệ thống miễn dịch, đặc biệt là các phản ứng không đặc hiệu, liên kết tế bào và thể dịch. Thiếu hụt selen sẽ ảnh hưởng đến hoạt động của một số ít men gan.\nThiếu hụt selen làm tăng tổn thương gan do oxy hóa hoặc hóa học và độc tính của các kim loại nặng như quicksilver và cadmium.\nSự thiếu hụt selen có liên quan đến một dạng bệnh cơ tim lưu hành, bệnh Keshan. Nó cũng có liên quan đến bệnh Kaschin-Beck, một bệnh lý xương khớp đặc hữu gây ra biến dạng nghiêm trọng của khớp.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Dược lực học | Nội dung:\nSự thiếu hụt selen biểu hiện trên lâm sàng cũng được coi là kết quả của chế độ dinh dưỡng qua đường tĩnh mạch trong thời gian dài và chế độ ăn không cân bằng. Bệnh cơ tim và bệnh cơ được quan sát thấy thường xuyên nhất.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Dược động học | Nội dung:\nHấp thu - Phân bố Trong máu, selen chủ yếu được hồng cầu hấp thụ và bị khử thành hydro selenua bằng enzym. Hyđrô selenua đóng vai trò là nguồn selen trung tâm để bài tiết và để kết hợp cụ thể trong selenoprotein. Ở dạng khử này, selen liên kết với protein huyết tương có trong gan và các cơ quan khác. Khả dụng sinh học đường uống là 90% khi được cung cấp dưới dạng L-selenomethionine.\nSự vận chuyển thứ cấp plasmatic từ gan đến các mô đích tổng hợp glutathionperoxidase diễn ra dưới dạng selenocystein (selenoprotein P). Quá trình trao đổi chất tiếp theo của quá trình sinh tổng hợp selenoprotein hiện chỉ được biết đến ở sinh vật nhân sơ. Selenocystein sau đó được kết hợp đặc biệt vào chuỗi peptit của glutathionperoxidase.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Dược động học | Nội dung:\nChuyển hóa Các chất bổ sung selen thường có sẵn dưới dạng natri selen được chuyển hóa thành selen thông qua sự liên hợp với glutathione và quá trình khử sau đó bởi các enzym glutathione reductase hoặc giảm bằng thioredoxin reductases.\nSelenide tiếp tục được chuyển hóa thành selenocystein bởi cysteine ​​synthase và thành selenophosphate bởi selenophosphate synthase. Selen cũng được chuyển hóa dần dần thành metyl-selenol, đimetyl selenua, sau đó là trimetylselenonium.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Dược động học | Nội dung:\nSelenocysteine ​​bị phân giải thành methyl-selenol, pyruvate và amoniac bởi cysteine ​​beta lyase. Selenocystein phản ứng với oxy để tạo thành selenocysteine ​​selenoxide tự phân hủy thành axit methylselenic, pyruvate và amoniac. Axit methylselenic có thể được chuyển đổi thành methylselenol thông qua liên hợp với các nhóm thiol trên các protein như glutathione.\nThải trừ Ở người, selen được bài tiết qua phân, nước tiểu hoặc phổi, tùy thuộc vào liều lượng sử dụng. Selen chủ yếu được bài tiết qua thận dưới dạng ion trimetylselenonium. Sự bài tiết phụ thuộc vào tình trạng selen.\nSự bài tiết selen sau khi uống vào tĩnh mạch hoặc uống diễn ra trong ba giai đoạn với thời gian bán thải cuối cùng là 65 đến 116 ngày.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Liều lượng | Nội dung:\nNgười lớn Đối với người lớn ổn định về chuyển hóa dùng TPN, liều 20 đến 40 mcg / ngày.\nĐối với bệnh nhân thiếu hụt selenium do hỗ trợ TPN kéo dài: Bổ sung dinh dưỡng toàn phần qua đường tĩnh mạch: 60 đến 100 microgam mỗi ngày hoặc 100 microgam đến tối đa 400 microgam mỗi ngày trong thời gian ngắn cho đến khi bình thường hóa các giá trị xét nghiệm (hoặc trong khoảng 24 đến 31 ngày).\nTrẻ em Trẻ sơ sinh: 2 microgam / kg / ngày và trẻ nhẹ cân: 2 đến 3 microgam / kg / ngày.\nTrẻ em: 2 microgam / kg / ngày, tối đa 30 microgam mỗi ngày.\nNếu quên dùng một liều thuốc, hãy dùng càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch. Không dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Selenium và xử trí Quá liều và độc tính Độc mãn tính ở người do tiếp xúc với selen trong môi trường công nghiệp, ăn thực phẩm được trồng trên đất có nhiều selen, sử dụng nước bị nhiễm selen và sử dụng mỹ phẩm có chứa selen đã được báo cáo trong tài liệu.\nCác triệu chứng của quá liều cấp tính là: hơi thở khó chịu, mệt mỏi, buồn nôn và nôn, tiêu chảy và đau bụng. Trong trường hợp quá liều mãn tính, các tác động trên da và phần phụ của da với những thay đổi ở móng và sự phát triển của tóc cũng như các bệnh đa dây thần kinh ngoại vi đã được quan sát thấy.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Quá liều và xử trí | Nội dung:\nNgộ độc cấp tính do ăn phải một lượng lớn các hợp chất selen dẫn đến tử vong với những thay đổi về mô bệnh học bao gồm trụy mạch ngoại vi hoàn toàn, tắc nghẽn mạch máu trong, xuất huyết lan tỏa, xung huyết và phù nề phổi, niêm mạc dạ dày màu đỏ gạch, dẫn đến hôn mê và tử vong.\nCách xử lý khi quá liều Trong trường hợp quá liều, việc điều trị phải được gián đoạn và điều trị triệu chứng nếu cần thiết. Trong trường hợp quá liều cấp tính do uống một lượng lớn selen, có thể rửa dạ dày và bắt buộc bài niệu.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Quá liều và xử trí | Nội dung:\nTrong trường hợp quá liều (1.000 - 10.000 lần), có thể cố gắng loại bỏ selen bằng thẩm phân. Không có thuốc giải độc cụ thể được biết đến. Các nghiên cứu trên động vật đã chỉ ra rằng casein và dầu hạt lanh trong thức ăn, làm giảm glutathione, asen, magie sulfat và bromobenzene để có khả năng bảo vệ hạn chế.\nQuên liều và xử trí Nếu quên dùng một liều thuốc, hãy dùng càng sớm càng tốt khi nhớ ra. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch. Không dùng gấp đôi liều đã quy định.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Không có nghiên cứu tương tác nào được thực hiện.\nTương kỵ thuốc Không trộn trực tiếp thuốc tiêm axit ascorbic với các sản phẩm tiêm có chứa selen trong cùng một ống tiêm hoặc lọ, vì phụ gia này có thể gây ra sự hình thành kết tủa không hòa tan.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Lưu ý | Nội dung:\nLưu ý chung Không được tiêm thẳng mà phải pha loãng trong dung dịch để tiêm truyền. Selenium là một dung dịch giảm trương lực và chỉ nên dùng dưới dạng hỗn hợp.\nNồng độ selen trong huyết thanh phải được kiểm soát thường xuyên.\nTrong trường hợp dinh dưỡng ngoài đường tiêu hóa phức tạp và nếu cần phối hợp thuốc, cần thận trọng để tránh tương kỵ.\nSelenium có thể gây độc nếu dùng quá nhiều. Việc bổ sung dung dịch TPN với selen nên được ngừng ngay lập tức nếu xuất hiện các triệu chứng nhiễm độc. Nên xác định thường xuyên nồng độ selen trong huyết tương trong thời gian hỗ trợ TPN và theo dõi y tế chặt chẽ.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Lưu ý | Nội dung:\nSản phẩm này có chứa nhôm có thể độc hại. Nhôm có thể đạt đến mức độc hại khi dùng đường tiêm kéo dài nếu chức năng thận bị suy giảm. Trẻ sinh non có nguy cơ đặc biệt vì thận của chúng chưa trưởng thành, và chúng cần một lượng lớn các dung dịch canxi và phốt phát, có chứa nhôm.\nNghiên cứu chỉ ra rằng những bệnh nhân bị suy giảm chức năng thận, bao gồm cả trẻ sinh non, những người nhận được lượng nhôm qua đường tiêm ở mức cao hơn 4 đến 5 mcg / kg / ngày sẽ tích tụ nhôm và ảnh hưởng đến hệ thần kinh trung ương và nhiễm độc xương.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Selenium | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ có thai Không có dữ liệu về việc sử dụng Selen ở phụ nữ mang thai. Dữ liệu hạn chế được công bố từ các nghiên cứu trên động vật chỉ tiết lộ bằng chứng về độc tính đối với sinh sản ở liều độc hại đối với mẹ. Không có tác dụng phụ nào của natri selen đối với thai kỳ hoặc thai nhi, miễn là nó được sử dụng trong trường hợp đã được chứng minh là thiếu hụt selen.\nLưu ý với phụ nữ cho con bú Selen được bài tiết qua sữa mẹ, nhưng ở liều điều trị của selen không có tác dụng nào đối với trẻ sơ sinh / trẻ bú sữa mẹ. Selenium có thể được sử dụng trong thời kỳ cho con bú.\nLưu ý khi lái xe và vận hành máy móc Selenium không ảnh hưởng đến khả năng lái xe và sử dụng máy móc.",
+        "metadata": {
+            "name": "Selenium",
+            "id": "selenium",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/selenium",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

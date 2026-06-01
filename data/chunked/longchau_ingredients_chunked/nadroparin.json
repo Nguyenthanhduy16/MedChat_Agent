@@ -1,0 +1,198 @@
+[
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Nadroparin (Nadroparin calcium) Loại thuốc Chống đông máu nhóm heparin trọng lượng phân tử thấp (thuốc chống huyết khối) Dạng thuốc và hàm lượng Bơm tiêm nạp sẵn để tiêm dưới da có chứa:\n9500 IU kháng Xa/ml (1900 IU/0,2 ml, 2850 IU/0,3 ml, 3800 IU/0,4 ml, 5700 IU/0,6 ml, 7600 IU/0,8 ml, 9500 IU/1,0 ml).\n19000 IU kháng Xa/ml (11400 IU/0,6 ml, 15200 IU/0,8 ml,19000 IU/1,0 ml)",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Chỉ định | Nội dung:\nMẫn cảm với nadroparin hoặc heparin , benzyl alcohol.\nXuất huyết nặng đang hoạt động (đột quỵ do xuất huyết não, loét dạ dày - tá tràng nặng, …) Bệnh xuất huyết do giảm tiểu cầu.\nChấn thương/mổ sọ não, mắt, tai.\nTăng huyết áp nặng chưa kiểm soát được.\nViêm nội tâm mạc nhiễm khuẩn (Osler), trừ trên van nhân tạo.\nBệnh võng mạc xuất huyết hoặc do đái tháo đường.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Dược lực học | Nội dung:\nNadroparin là một heparin trọng lượng phân tử thấp, gồm một hỗn hợp không đồng nhất các mạch glycosaminoglycan polysaccarid sulfat, trong đó pentasaccarid là vị trí liên kết đặc hiệu của antithrombin III, dẫn tới ức chế mạnh yếu tố Xa.\nĐặc tính dược lý của nadroparin thường được đo gián tiếp bằng hoạt tính kháng yếu tố Xa, biểu thị bằng đơn vị quốc tế kháng yếu tố Xa (IU) hoặc đơn vị viện Choay (ICU-Institute Choay Unit).\n1 miligam nadroparin calci có hoạt tính kháng Xa khoảng 80 IU hoặc 240 ICU. Một đơn vị quốc tế (1 IU) tương đương với khoảng 3 ICU.\nNadroparin có tác dụng kháng Xa cao hơn kháng IIa (thrombin).\nTỷ lệ giữa 2 tác dụng đó nằm trong khoảng 2,5 - 4 (so với tỉ lệ bằng 1 của heparin).",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Dược lực học | Nội dung:\nNadroparin có tác dụng kháng Xa cao hơn kháng IIa (thrombin).\nTỷ lệ giữa 2 tác dụng đó nằm trong khoảng 2,5 - 4 (so với tỉ lệ bằng 1 của heparin).\nSo với heparin thông thường, nadroparin có ái lực yếu hơn heparin trên cofactor II, yếu tố tiểu cầu 4 (gây ngưng tập tiểu cầu và ức chế gắn với antithrombin III) và biểu mô thành mạch, cũng như ít ái lực với yếu tố VIIIR (yếu tố von Willebrand), dẫn tới ít ảnh hưởng tới sự ngưng tập tiểu cầu do yếu tố VIIIR. Tóm lại, nadroparin ít nguy cơ gây chảy máu hơn heparin.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Dược lực học | Nội dung:\nKhi dùng với liều điều trị, ở thời điểm có tác dụng tối đa, thời gian cephalin-kaolin (APTT) kéo dài hơn bình thường 1,4 lần. Tuy nhiên, thời gian cephalin-kaolin không thay đổi đáng kể trong khi khả năng ức chế yếu tố Xa vẫn được giữ nguyên khi dùng liều thấp hơn (liều dự phòng). Nói chung, không sử dụng APTT để theo dõi điều trị được.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Dược động học | Nội dung:\nHấp thu 89% nadroparin được hấp thu sau khi tiêm dưới da và phân bố nhanh vào cơ thể.\nNồng độ cực đại trong huyết tương đạt được sau 3 giờ.\nPhân bố Thể tích phân bố khoảng 3,59 lít.\nChuyển hóa Thuốc được chuyển hóa chính tại gan.\nThải trừ Thải trừ chủ yếu qua thận theo cơ chế không bão hòa.\nHệ số thanh thải toàn thân là 1,2 lít/giờ. Với người suy thận vừa (hệ số thanh thải creatinin từ 36 đến 43 ml/phút) và nặng (hệ số thanh thải creatinin từ 10 đến 20 ml/phút), hệ số thanh thải nadroparin huyết tương trung bình giảm lần lượt 63% và 50% so với người khỏe mạnh, trong khi hệ số thanh thải huyết tương trung bình ở bệnh nhân lọc máu giảm 67%.\nNửa đời thải trừ của nadroparin dựa trên hoạt tính kháng Xa sau khi tiêm dưới da vào khoảng 2 - 5 giờ (trung bình 3,5 giờ), không phụ thuộc liều.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Dược động học | Nội dung:\nNửa đời thải trừ của nadroparin dựa trên hoạt tính kháng Xa sau khi tiêm dưới da vào khoảng 2 - 5 giờ (trung bình 3,5 giờ), không phụ thuộc liều.\nSau khi tiêm tĩnh mạch, nửa đời thải trừ của thuốc là 2 đến 3,5 giờ (trung bình 2,5 giờ).\nĐối với suy thận vừa (Clcr 36 - 43 ml/phút) và nặng (Clcr 10 - 20 ml/phút), nửa đời thải trừ trung bình tăng lần lượt 39% và 112% so với người khỏe mạnh, trong khi nửa đời thải trừ ở bệnh nhân lọc máu tăng 65%.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Dược động học | Nội dung:\nĐối với người cao tuổi, chức năng sinh lý của thận thường giảm, đào thải thuốc sẽ chậm lại. Nhưng sự thay đổi này không ảnh hưởng đến liều dùng và số lần dùng trong điều trị dự phòng khi chức năng thận còn ở trong giới hạn cho phép. Đối với người trên 75 tuổi, nhất thiết phải đánh giá chức năng thận bằng công thức Cockcroff trước khi bắt đầu điều trị bằng một heparin có trọng lượng phân tử thấp.\nKhi dùng kèm với thuốc co mạch, nồng độ cực đại của thuốc trong huyết tương giảm đáng kể.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Liều lượng | Nội dung:\nLiều dùng Nadroparin Người lớn: Liều dùng được tính theo đơn vị (IU) kháng Xa.\nCách dùng Tiêm dưới da (trừ khi có chỉ định thẩm tách máu), không được tiêm bắp. Dùng cho người lớn.\nDự phòng bệnh huyết khối tắc tĩnh mạch trong phẫu thuật chung:\nTrường hợp có nguy cơ vừa: 2850 đv kháng Xa nadroparin calci tiêm dưới da mỗi ngày 1 lần trong ít nhất 7 ngày hoặc cho tới khi người bệnh được điều trị ngoại trú.\nMũi tiêm đầu tiên được thực hiện 2 - 4 giờ trước khi phẫu thuật.\nTrường hợp có nguy cơ cao (phẫu thuật khớp háng, đầu gối):\nLiều được điều chỉnh theo cân nặng. Liều thông thường: 38 đv/kg 12 giờ trước khi phẫu thuật; sau đó liều được tăng lên khoảng 50% tới 57 đv/kg/ngày. Tổng thời gian điều trị phải ít nhất 10 ngày.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Liều lượng | Nội dung:\nCần xét nghiệm anti Xa (4 - 6 giờ sau tiêm dưới da) và duy trì từ 0,5 - 2 ICU/ml.\nĐiều trị huyết khối tắc mạch sâu: Nadroparin calci tiêm dưới da liều 85 đv/kg cách 12 giờ/1 lần cho tới 10 ngày, hoặc liều 171 đv/kg tiêm mỗi ngày 1 lần.\nĐiều trị hội chứng vành cấp (đau thắt ngực không ổn định và nhồi máu cơ tim không có sóng Q): Tiêm tĩnh mạch liều ban đầu 86 đv/kg, tiếp theo là tiêm dưới da 86 đv/kg sau mỗi 12 giờ cho tới khoảng 6 ngày. Phải phối hợp với aspirin liều thấp.\nDự phòng đông máu trong thẩm phân máu kéo dài dưới 4 giờ:\nLiều thông thường là 2850 đv cho người bệnh cân nặng dưới 50 kg, 3800 đv cho người cân nặng từ 50 - 69 kg, và 5700 đv cho người cân nặng từ 70 kg trở lên.\nPhải giảm liều đối với người bệnh có nguy cơ xuất huyết (giảm một nửa liều).\nChưa có báo cáo.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Quá liều và xử trí | Nội dung:\nQuá liều và xử trí Quá liều và độc tính Quá liều nadroparin calci do ngẫu nhiên có thể dẫn đến xuất huyết.\nCách xử lý khi quá liều Nadroparin Trường hợp quá liều nhiều phải ngừng dùng thuốc ngay, ít nhất là ngừng tạm thời.\nTrong trường hợp rất nặng phải dùng protamin do tác dụng chống đông máu của nadroparin bị protamin ức chế. Tiêm tĩnh mạch chậm protamin sulfat với liều (mg) bằng liều nadroparin (mg) đã dùng.\nTruyền liều thứ 2, 0,5 mg protamin cho mỗi mg nadroparin, nếu 2 - 4 giờ sau khi truyền liều thứ nhất APTT vẫn kéo dài. Hoạt tính kháng Xa không bao giờ bị trung hòa hoàn toàn.\nQuên liều và xử trí Chưa có báo cáo.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác:\nTránh dùng cùng các thuốc có thể gây tăng kali huyết như thuốc lợi tiểu giữ kali, muối kali, thuốc ức chế enzym chuyển, thuốc ức chế angiotensin II, thuốc chống viêm không steroid, ciclosporin ,\ntrimethoprim , tacrolimus ...\nKhông nên cho dùng cùng dextran 40 vì tăng nguy cơ chảy máu do dextran 40 ức chế chức năng tiểu cầu.\nThận trọng khi cho dùng cùng thuốc uống chống đông máu, thuốc chống ngưng tập tiểu cầu, thuốc làm tan cục máu đông.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Lưu ý | Nội dung:\nLưu ý chung khi dùng Nadroparin Theo dõi chảy máu và những tai biến về huyết học.\nThận trọng khi dùng cho người bệnh dưới 40kg, người cao tuổi, bị suy thận, suy gan, có tiền sử loét đường tiêu hóa, đang trong kỳ hậu phẫu thần kinh.\nTheo dõi về chức năng thận, thử nghiệm hóa sinh và huyết học hoạt tính kháng Xa. Nếu số tiểu cầu giảm 30 - 50% thì phải ngừng thuốc ngay.\nPhải ngừng thuốc ít nhất 12 giờ nếu cần phải gây tê tủy sống.\nCần cân nhắc sử dụng thuốc cho bệnh nhân có chỉ định phẫu thuật khớp gối.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Nadroparin | Phần: Lưu ý | Nội dung:\nPhải ngừng thuốc ít nhất 12 giờ nếu cần phải gây tê tủy sống.\nCần cân nhắc sử dụng thuốc cho bệnh nhân có chỉ định phẫu thuật khớp gối.\nThuốc có thể gây tăng nồng độ kali huyết Lưu ý với phụ nữ có thai Hiện nay, không có đủ thông tin lâm sàng về tính an toàn của thuốc và vì vậy không nên cho dùng trong thời kỳ mang thai Lưu ý với phụ nữ cho con bú Việc hấp thu thuốc ở đường tiêu hóa của trẻ sơ sinh không chắc xảy ra. Việc dùng nadroparin trên người mẹ cho con bú không phải là chống chỉ định Lưu ý khi lái xe và vận hành máy móc Cần thận trọng khi sử dụng cho các đối tượng lái xe và vận hành máy móc.",
+        "metadata": {
+            "name": "Nadroparin",
+            "id": "nadroparin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/nadroparin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    }
+]

@@ -1,0 +1,254 @@
+[
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Linagliptin Loại thuốc Thuốc điều trị đái tháo đường; nhóm chất ức chế dipeptidyl peptidase-4 (DPP-4) Dạng thuốc và hàm lượng Viên nén bao phim 5 mg Viên nén bao phim dạng phối hợp:\nLinagliptin 2,5 mg phối hợp với metformin hydrocloride 500 mg;\nLinagliptin 2,5 mg phối hợp với metformin hydrocloride 850 mg;\nLinagliptin 2,5 mg phối hợp với metformin hydrocloride 1000 mg;\nLinagliptin 10 mg phối hợp với empagliflozin 5 mg;\nLinagliptin 25 mg phối hợp với empagliflozin 5 mg.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Chỉ định | Nội dung:\nDùng đơn trị liệu để kiểm soát đái tháo đường type 2 (không phụ thuộc insulin) ở người trưởng thành cùng với chế độ ăn và luyện tập.\nKết hợp với các sản phẩm thuốc khác để điều trị bệnh đái tháo đường, bao gồm cả insulin, khi những sản phẩm này không mang lại hiệu quả kiểm soát đường huyết đầy đủ:\nPhối hợp với metformin khi chế độ ăn và vận động cùng với metformin đơn trị liệu không kiểm soát tốt đường huyết.\nPhối hợp với pioglitazone hoặc sulfonylurea khi phác đồ đơn trị liệu không kiểm soát tốt đường huyết.\nmetformin + sulfonylurea (phác đồ điều trị ba thuốc) khi phác đồ hai thuốc không ty, kiểm soát tốt đường huyết.\nPhối hợp với insulin dùng cùng hoặc không cùng với metformin, khi phác đồ có insulin này kết hợp với chế độ ăn và vận động không kiểm soát tốt đường huyết.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Dược lực học | Nội dung:\nLinagliptin là một chất ức chế cạnh tranh DPP-4 (dipeptidyl peptidase 4,) liên kết chọn lọc với DPP-4 và thể hiện tính chọn lọc > 10.000 lần so với hoạt động DPP-8 hoặc DPP-9, DPP-4 (dipeptidyl peptidase 4,) là một loại enzym có liên quan đến việc bất hoạt kích thích tố incretin GLP-1 và GIP (peptit giống glucagon1, polypeptit insulinotropic phụ thuộc vào glucose).\nCả hai kích thích tố incretin đều tham gia vào quá trình điều hòa sinh lý của cân bằng nội môi glucose. GLP-1 và GIP được tiết ra ở mức cơ bản thấp trong suốt cả ngày và mức độ tăng lên ngay sau khi ăn.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Dược lực học | Nội dung:\nGLP-1 và GIP làm tăng sinh tổng hợp insulin và bài tiết từ các tế bào beta tuyến tụy khi có mức đường huyết bình thường và tăng cao. Hơn nữa GLP-1 cũng làm giảm sự bài tiết glucagon từ các tế bào alpha của tuyến tụy, dẫn đến giảm sản lượng glucose ở gan.\nCác hormone này nhanh chóng bị phân hủy bởi enzyme DPP-4. Việc ức chế enzym này làm chậm quá trình phân hủy GLP-1 và GIP.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Dược động học | Nội dung:\nHấp thu Nồng độ đỉnh trong huyết tương thường đạt được trong vòng 1,5 giờ. Sinh khả dụng tuyệt đối qua đường uống khoảng 30%.\nDùng đồng thời bữa ăn giàu chất béo với linagliptin kéo dài thời gian đạt C max thêm 2 giờ và hạ C max 15% nhưng không quan sát thấy ảnh hưởng đến AUC 0-72h.\nKhông có tác dụng lâm sàng liên quan đến những thay đổi C max và T max được mong đợi; do đó linagliptin có thể được dùng cùng hoặc không với thức ăn.\nPhân bố Linagliptin liên kết với protein phụ thuộc vào nồng độ, giảm từ khoảng 99% ở 1 nmol/l xuống 75-89% ở ≥30 nmol/l, phản ánh độ bão hòa của liên kết với DPP-4 khi nồng độ linagliptin tăng lên.\nỞ nồng độ cao, nơi DPP-4 bão hòa hoàn toàn, 70-80% linagliptin liên kết với các protein huyết tương khác với DPP-4, do đó 30-20% không liên kết trong huyết tương.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Dược động học | Nội dung:\nChuyển hóa Linagliptin chuyển hóa qua gan cytochrom P450 3A4.\nThải trừ 84,7% linagliptin được thải trừ qua phân và 5,4% được thải trừ qua nước tiểu. Thời gian bán hủy cuối cùng của linagliptin là 155 giờ.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Liều lượng | Nội dung:\nNgười lớn Linagliptin đơn trị liệu: 5mg x 1 lần/ngày. Dùng một lần mỗi ngày vào buổi sáng không phụ thuộc vào bữa ăn.\nLiệu pháp kết hợp với sulfonylurea: 5mg x 1 lần/ngày; cần giảm liều lượng sulfonylurea khi dùng đồng thời để giảm nguy cơ hạ đường huyết.\nLiệu pháp kết hợp cố định linagliptin / empagliflozin: Liều khởi đầu 5mg linagliptin và 10mg empagliflozin mỗi ngày một lần vào buổi sáng. Nếu dung nạp tốt, có thể tăng liều lên 5mg linagliptin và 25mg empagliflozin một lần mỗi ngày. Dùng một lần mỗi ngày vào buổi sáng không phụ thuộc vào bữa ăn.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Liều lượng | Nội dung:\nLiệu pháp kết hợp cố định linagliptin / metformin hydrochloride dạng bào chế phóng thích tức thời hoặc dạng bào chế phóng thích có kiểm soát: Cá nhân hóa liều lượng dựa trên hiệu quả và khả năng dung nạp của bệnh nhân. Liều tối đa hàng ngày là 5mg linagliptin và 2g metformin hydrochloride.\nĐối với bệnh nhân hiện không dùng metformin hydrochloride, liều ban đầu nên là 5mg linagliptin và 1g metformin hydrochloride được chia làm 2 lần mỗi ngày trong bữa ăn (khi dùng dưới dạng phối hợp cố định chứa metformin hydrochloride giải phóng tức thì). Hoặc một lần mỗi ngày trong bữa ăn (khi dùng dưới dạng phối hợp cố định chứa metformin hydrochloride dạng phóng thích kéo dài).",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Liều lượng | Nội dung:\nĐối với bệnh nhân hiện đang dùng metformin hydrochloride: liều ban đầu nên là 5 mg linagliptin và tổng liều metformin hydrochloride hàng ngày tương tự như liều lượng hiện có của bệnh nhân, được chia làm 2 lần (khi dùng dưới dạng phối hợp cố định chứa metformin hydrochloride giải phóng tức thì) hoặc một lần mỗi ngày (khi dùng dưới dạng phối hợp cố định chứa metformin hydrochloride dạng phóng thích kéo dài).\nBệnh nhân hiện đang dùng linagliptin và metformin hydrochloride: Liều khởi đầu được khuyến nghị của viên phối hợp cố định chứa metformin hydrochloride phóng thích tức thời là tổng liều hàng ngày của mỗi thành phần được chia làm 2 lần.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Liều lượng | Nội dung:\nBệnh nhân hiện đang dùng linagliptin và metformin hydrochloride hoặc viên phối hợp cố định linagliptin và metformin hydrochloride giải phóng tức thời: Liều ban đầu được khuyến nghị của viên phối hợp cố định chứa metformin hydrochloride dạng phóng thích kéo dài là 5mg linagliptin và tổng liều metformin hydrochloride hàng ngày tương tự như liều hiện có của bệnh nhân, sử dụng một lần mỗi ngày.\nTrẻ em Tính an toàn và hiệu quả của linagliptin ở trẻ em và thanh thiếu niên vẫn chưa được thiết lập.\nĐối tượng khác Suy thận: Không cần chỉnh liều ở bệnh nhân suy thận.\nSuy gan: Không cần chỉnh liều ở bệnh nhân suy gan.\nNgười cao tuổi: Không cần thiết phải chỉnh liều.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Liều lượng | Nội dung:\nSuy gan: Không cần chỉnh liều ở bệnh nhân suy gan.\nNgười cao tuổi: Không cần thiết phải chỉnh liều.\nNếu bỏ lỡ một liều linagliptin (đơn trị hoặc kết hợp cố định với empagliflozin hoặc metformin hydrochloride giải phóng tức thì hoặc kéo dài), không được tăng gấp đôi liều tiếp theo để thay thế liều đã quên.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 4
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Quá liều và xử trí | Nội dung:\nQuá liều Linagliptin và xử trí Quá liều và độc tính Trong các thử nghiệm lâm sàng có đối chứng ở những đối tượng khỏe mạnh, các liều đơn lên đến 600 mg linagliptin (tương đương với 120 lần liều khuyến cáo) thường được dung nạp tốt. Không có kinh nghiệm về liều trên 600 mg ở người.\nCách xử lý khi quá liều Trong trường hợp quá liều, sử dụng các biện pháp hỗ trợ và nâng đỡ thông thường, theo dõi lâm sàng và tiến hành các biện pháp lâm sàng nếu cần thiết.\nQuên liều và xử trí Nếu bỏ lỡ một liều linagliptin (đơn trị hoặc kết hợp cố định với empagliflozin hoặc metformin hydrochloride giải phóng tức thì hoặc kéo dài), không được tăng gấp đôi liều tiếp theo để thay thế liều đã quên.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Tương tác thuốc | Nội dung:\nTương tác với các thuốc khác Tránh dùng đồng thời với các chất ức chế CYP3A4 (atazanavir, clarithromycin, indinavir , itraconazol, ketoconazol , nefazodon, nelfinavir, ritonavir, saquinavir , telithromycin) và linagliptin vì gây tăng nồng đột thuốc trong huyết tương gây độc tính.\nSử dụng chung chất cảm ứng p-gp mạnh làm giảm nồng độ linagliptin trong huyết tương, giảm hiệu quả điều trị.\nSử dụng chung chất cảm ứng CYP3A4 mạnh làm giảm nồng độ linagliptin trong huyết tương, giảm hiệu quả điều trị.\nTương tác với thực phẩm Sử dụng chung với rượu sẽ làm tăng tác dụng và độc tính.\nBữa ăn giàu chất béo làm giảm nồng độ đỉnh trong huyết tương 15% và tăng AUC lên 4%; không có liên quan về mặt lâm sàng.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Lưu ý | Nội dung:\nLưu ý chung Khi linagliptin được sử dụng kết hợp cố định với các thuốc khác, cần thông báo cho bệnh nhân những thông tin thận trọng quan trọng về (các) tác nhân dùng đồng thời.\nLinagliptin không nên được sử dụng cho bệnh nhân tiểu đường type 1 hoặc để điều trị nhiễm toan ceton do tiểu đường.\nThận trọng khi sử dụng linagliptin kết hợp với sulphonylurea và / hoặc insulin, có nguy cơ gây hạ đường huyết quá mức. Có thể xem xét giảm liều sulphonylurea hoặc insulin.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Lưu ý | Nội dung:\nSử dụng các chất ức chế DPP-4 có liên quan đến nguy cơ phát triển viêm tụy cấp tính.Bệnh nhân cần được thông báo về các triệu chứng đặc trưng của viêm tụy cấp; đau bụng dữ dội, dai dẳng. Nếu nghi ngờ viêm tụy, nên ngừng sử dụng linagliptin; nếu viêm tụy cấp được xác nhận, không nên bắt đầu lại linagliptin. Cần thận trọng đối với những bệnh nhân có tiền sử viêm tụy.\nBọng nước dạng pemphigus đã được quan sát thấy ở những bệnh nhân dùng linagliptin. Nếu nghi ngờ pemphigoid bóng nước, nên ngừng sử dụng.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Lưu ý | Nội dung:\nBọng nước dạng pemphigus đã được quan sát thấy ở những bệnh nhân dùng linagliptin. Nếu nghi ngờ pemphigoid bóng nước, nên ngừng sử dụng.\nCó thể tăng nguy cơ suy tim, đặc biệt ở những bệnh nhân có tiền sử suy tim hoặc suy thận. Cân nhắc những rủi ro tiềm ẩn và lợi ích của liệu pháp linagliptin trước khi sử dụng cho những bệnh nhân có nguy cơ suy tim. Theo dõi bệnh nhân về các biểu hiện của suy tim. Nếu suy tim phát triển, hãy tiến hành đánh giá và xử trí thích hợp và cân nhắc việc ngừng sử dụng linagliptin.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Lưu ý | Nội dung:\nĐau khớp nghiêm trọng, gây tàn phế được báo cáo ở những bệnh nhân dùng thuốc ức chế DPP-4 (ví dụ: alogliptin, linagliptin, saxagliptin, sitagliptin). Các triệu chứng chấm dứt khi ngừng sử dụng chất ức chế DPP-4; các triệu chứng tái phát ở một số bệnh nhân khi dùng lại cùng một chất ức chế DPP-4 khác.\nLưu ý với phụ nữ có thai Việc sử dụng linagliptin chưa được nghiên cứu ở phụ nữ có thai. Tốt nhất là tránh sử dụng linagliptin trong thời kỳ mang thai.\nLưu ý với phụ nữ cho con bú Không nên dùng thuốc cho người cho con bú trừ khi đã cân nhắc kỹ giữa lợi ích và nguy cơ.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Linagliptin | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Không nên dùng thuốc cho người cho con bú trừ khi đã cân nhắc kỹ giữa lợi ích và nguy cơ.\nLưu ý khi lái xe và vận hành máy móc Linagliptin không có hoặc ảnh hưởng không đáng kể đến khả năng lái xe và sử dụng máy móc. Tuy nhiên, bệnh nhân nên được cảnh báo về nguy cơ hạ đường huyết, đặc biệt khi kết hợp với sulphonylurea và / hoặc insulin.",
+        "metadata": {
+            "name": "Linagliptin",
+            "id": "linagliptin",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/linagliptin",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 4
+        }
+    }
+]

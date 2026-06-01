@@ -1,0 +1,198 @@
+[
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Mô tả tổng quan | Nội dung:\nTên thuốc gốc (Hoạt chất) Clofarabine Loại thuốc Thuốc chống ung thư loại chống chuyển hóa.\nDạng thuốc và hàm lượng Dung dịch tiêm truyền 1mg/ml.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "describe",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Chỉ định | Nội dung:\nClofarabine được chỉ định trong điều trị bệnh bạch cầu nguyên bào lympho cấp tính đã tái phát hoặc khó điều trị sau ít nhất hai phác đồ trước đó và không có lựa chọn điều trị nào khác được dự đoán là sẽ dẫn đến đáp ứng lâu dài. Được chỉ định để điều trị bệnh nhi từ 1 đến 21 tuổi.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "indication",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Dược lực học | Nội dung:\nClofarabine là một chất chống chuyển hóa nucleoside purine. Hoạt động ức chế khối u của nó được cho là do 3 cơ chế:\nỨc chế DNA polymerase α dẫn đến chấm dứt sự kéo dài chuỗi DNA và/hoặc tổng hợp/sửa chữa DNA.\nỨc chế Ribonucleotide reductase với việc giảm deoxynucleotide triphosphate (dNTP) của tế bào.\nSự phá vỡ tính toàn vẹn của màng ty thể với sự giải phóng cytochrome C và các yếu tố proapoptotic khác dẫn đến chết tế bào theo chương trình ngay cả trong các tế bào lympho không phân chia.\nClofarabine ngăn chặn tế bào tạo ra DNA và RNA bằng cách can thiệp vào quá trình tổng hợp axit nucleic, do đó ngăn chặn sự phát triển của tế bào ung thư. Vì sự phát triển của các tế bào cơ thể bình thường cũng có thể bị ảnh hưởng bởi clofarabine, các tác dụng không mong muốn khác cũng xảy ra.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacodynamics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Dược động học | Nội dung:\nHấp thu thuốc Thể tích phân bố giảm dần khi tăng tuổi, dựa trên mô phỏng dược động học: Thể tích phân bố 5,8 L/kg (3 tuổi); 3,1 L/kg (30 tuổi); 2,7 L/kg (82 tuổi).\nPhân bố thuốc Thuốc Clofarabine gắn vào huyết tương 47%, chủ yếu với albumin.\nChuyển hóa thuốc Chuyển hóa bên trong tế bào bởi deoxycytidine kinase và mono-và diphosphokinase thành chất chuyển hóa có hoạt tính clofarabine 5′-triphosphate; chuyển hóa ở gan hạn chế (0,2%).\nThải trừ Clofarabine được thải trừ qua sự kết hợp bài tiết qua thận và ngoài thận. Sau 24 giờ, khoảng 60% liều dùng được đào thải qua nước tiểu.\nThời gian bán thải của trẻ em và thanh thiếu niên từ 2 đến 19 tuổi là 5,2 giờ; người lớn là 7 giờ; có thể kéo dài ở người cao tuổi và bệnh nhân suy thận.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "pharmacokinetics",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Liều lượng | Nội dung:\nLiều dùng Clofarabine Người lớn 18 đến dưới 22 tuổi: Liều 52 mg/m 2\n(truyền qua đường tĩnh mạch trong 1 - 2 giờ) mỗi ngày trong 5 ngày liên tục của chu kỳ 28 ngày, lặp lại sau mỗi 2 đến 6 tuần.\nChưa xác định được tính an toàn và hiệu quả ở người lớn > 21 tuổi.\nTrẻ em Trẻ em ≥ 1 tuổi và thanh thiếu niên:\nLiều khuyến cáo trong đơn trị liệu là 52 mg/m diện tích bề mặt cơ thể, truyền tĩnh mạch trong 2 giờ mỗi ngày trong 5 ngày liên tục của chu kỳ 28 ngày, lặp lại sau mỗi 2 đến 6 tuần. Diện tích bề mặt cơ thể phải được tính bằng chiều cao và cân nặng thực tế của bệnh nhân trước khi bắt đầu mỗi chu kỳ.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Liều lượng | Nội dung:\nCác chu kỳ điều trị nên được lặp lại sau mỗi 2 đến 6 tuần (kể từ ngày bắt đầu của chu kỳ trước) sau khi phục hồi khả năng tạo máu bình thường (tức là số lượng bạch cầu trung tính tuyệt đối ≥ 0,75 × 109/L) và trở lại chức năng cơ quan ban đầu. Có thể đảm bảo giảm 25% liều ở những bệnh nhân gặp độc tính đáng kể.\nĐa số bệnh nhân đáp ứng với clofarabine đạt được đáp ứng sau 1 hoặc 2 chu kỳ điều trị. Do đó, lợi ích và nguy cơ tiềm ẩn liên quan đến việc tiếp tục điều trị ở những bệnh nhân không có cải thiện về huyết học và/hoặc lâm sàng sau 2 chu kỳ điều trị nên được bác sĩ điều trị đánh giá.\nTrẻ em cân nặng < 20 kg:\nThời gian truyền cân nhắc > 2 giờ để giúp giảm các triệu chứng lo lắng và cáu kỉnh, và để tránh nồng độ tối đa của clofarabine cao quá mức.\nTrẻ em < 1 tuổi:",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Liều lượng | Nội dung:\nTrẻ em < 1 tuổi:\nKhông có dữ liệu về dược động học, tính an toàn hoặc hiệu quả của clofarabine ở trẻ sơ sinh. Do đó, khuyến cáo về liều lượng an toàn và hiệu quả cho bệnh nhân < 1 tuổi vẫn chưa được thiết lập.\nĐối tượng khác Bệnh nhân suy thận:\nChống chỉ định dùng clofarabine ở bệnh nhân suy thận nặng và nên thận trọng khi dùng cho bệnh nhân suy thận nhẹ đến trung bình.\nBệnh nhân suy thận trung bình (độ thanh thải creatinin 30 - < 60 ml/phút) cần giảm 50% liều.\nBệnh nhân suy gan:\nKhông có báo cáo ở bệnh nhân suy gan (bilirubin huyết thanh > 1,5 lần giới hạn trên cộng với AST và ALT > 5 lần giới hạn trên) và bởi vì gan là cơ quan đích tích lũy chất độc. Do đó, clofarabine chống chỉ định ở bệnh nhân suy gan nặng và nên dùng thận trọng cho bệnh nhân suy gan nhẹ đến trung bình.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 2
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Liều lượng | Nội dung:\nCách dùng thuốc Clofarabine Liệu pháp phải được bắt đầu và giám sát bởi bác sĩ chuyên khoa điều trị bệnh nhân mắc bệnh bạch cầu cấp tính. Liều khuyến cáo nên được sử dụng bằng cách truyền tĩnh mạch. Không được trộn lẫn hoặc dùng đồng thời clofarabine trong cùng một đường truyền tĩnh mạch với các sản phẩm thuốc khác.\nThuốc được thực hiện bởi nhân viên y tế nên ít có khả năng quên liều.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "dosage",
+            "chunk_index": 3
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Quá liều và xử trí | Nội dung:\nQuên liều và xử trí Thuốc được thực hiện bởi nhân viên y tế nên ít có khả năng quên liều.\nQuá liều và xử trí Quá liều và độc tính Không có trường hợp quá liều đã được báo cáo. Tuy nhiên, các triệu chứng quá liều có thể xảy ra bao gồm buồn nôn, nôn, tiêu chảy và ức chế tủy xương nghiêm trọng.\nCho đến nay, liều cao nhất hàng ngày được sử dụng ở người là 70 mg/m2 trong 5 ngày liên tục (2 lần liều cho bệnh nhi mắc bạch cầu nguyên bào lympho cấp tính). Các độc tính quan sát được ở những bệnh nhân này bao gồm nôn mửa, tăng bilirubin trong máu, tăng nồng độ transaminase và phát ban dạng sẩn.\nCách xử lý khi quá liều Clofarabine Chưa có phương pháp giải độc đặc hiệu trong trường hợp quá liều. Nên ngừng điều trị ngay lập tức, theo dõi cẩn thận và bắt đầu các biện pháp hỗ trợ thích hợp.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "overdose",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Tương tác thuốc | Nội dung:\nTương tác Clofarabine với các thuốc khác Clofarabine không được chuyển hóa qua hệ thống enzym cytochrom P450 (CYP). Do đó, nó không có khả năng tương tác với các hoạt chất ức chế hoặc cảm ứng enzym cytochrom P450.\nClofarabine được thải trừ chủ yếu qua thận. Do đó, nên đặc biệt tránh sử dụng đồng thời các sản phẩm thuốc có liên quan đến độc tính trên thận và những thuốc thải trừ qua đường bài tiết qua ống thận như: NSAIDs, amphotericin B, methotrexate , aminosides, organoplatines, foscarnet, pentamidine , ciclosporin, tacrolimus , acyclovir và valganciclovir trong thời gian dùng clofarabine 5 ngày.\nTránh sử dụng đồng thời các sản phẩm thuốc có liên quan đến độc tính trên gan nếu có thể.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Tương tác thuốc | Nội dung:\nTránh sử dụng đồng thời các sản phẩm thuốc có liên quan đến độc tính trên gan nếu có thể.\nBệnh nhân dùng các sản phẩm thuốc được biết là có ảnh hưởng đến huyết áp hoặc chức năng tim nên được theo dõi chặt chẽ trong quá trình điều trị bằng clofarabine.\nTương tác với thực phẩm Clofarabine có thể gây ra các vấn đề về gan khi sử dụng chung thực phẩm có chứa ethanol có thể làm tăng nguy cơ đó. Tránh hoặc hạn chế sử dụng rượu khi đang điều trị bằng clofarabine.\nTương kỵ thuốc Không được trộn lẫn hoặc dùng đồng thời clofarabine trong cùng một đường truyền tĩnh mạch với các sản phẩm thuốc khác.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "interaction",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Lưu ý | Nội dung:\nLưu ý chung khi dùng Clofarabine Clofarabine pha dung dịch tiêm truyền là một chất chống ung thư mạnh có khả năng gây ra các phản ứng có hại liên quan hoặc không liên quan đến huyết học.\nCác thông số sau nên được theo dõi chặt chẽ ở những bệnh nhân đang điều trị bằng Clofarabine: Nên xét nghiệm công thức máu toàn bộ và đếm số lượng tiểu cầu đều đặn và thường xuyên hơn ở những bệnh nhân giảm tế bào máu.\nChức năng thận, gan trước, trong và khi sau liệu pháp điều trị tích cực. Nên ngừng dùng clofarabine ngay lập tức nếu thấy tăng đáng kể creatinin, men gan và/hoặc bilirubin.\nTình trạng hô hấp, huyết áp, cân bằng thể dịch và cân nặng trong suốt và ngay sau thời gian dùng clofarabine 5 ngày.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 0
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Lưu ý | Nội dung:\nTình trạng hô hấp, huyết áp, cân bằng thể dịch và cân nặng trong suốt và ngay sau thời gian dùng clofarabine 5 ngày.\nHội chứng Stevens-Johnson (SJS) và hoại tử biểu bì nhiễm độc (TEN), bao gồm cả các trường hợp tử vong, đã được báo cáo. Phải ngừng dùng clofarabine đối với trường hợp phát ban tróc vảy hoặc bóng nước, hoặc nếu nghi ngờ mắc bệnh SJS hoặc TEN.\nLưu ý với phụ nữ có thai Không có báo cáo về việc sử dụng clofarabine ở phụ nữ có thai.\nClofarabine có thể gây dị tật bẩm sinh nghiêm trọng khi dùng trong thời kỳ mang thai. Vì vậy, không nên dùng clofarabine để tiêm truyền trong thời kỳ mang thai, đặc biệt là không dùng trong ba tháng đầu, trừ khi thật sự cần thiết (khi lợi ích cho người mẹ lớn hơn nguy cơ cho thai nhi).",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 1
+        }
+    },
+    {
+        "text": "Hoạt chất: Clofarabine | Phần: Lưu ý | Nội dung:\nLưu ý với phụ nữ cho con bú Chưa có nghiên cứu về clofarabine hoặc các chất chuyển hóa có được bài tiết vào sữa mẹ hay không. Tuy nhiên, do khả năng xảy ra các phản ứng có hại nghiêm trọng ở trẻ bú mẹ, nên ngừng cho con bú trước, trong và sau khi điều trị bằng clofarabine.\nLưu ý khi lái xe và vận hành máy móc Không có nghiên cứu nào về ảnh hưởng của clofarabine đối với khả năng lái xe và sử dụng máy móc. Tuy nhiên, bệnh nhân nên được khuyến cáo rằng họ có thể gặp các tác dụng không mong muốn như chóng mặt, choáng váng hoặc ngất xỉu trong quá trình điều trị và không được lái xe hoặc vận hành máy móc.",
+        "metadata": {
+            "name": "Clofarabine",
+            "id": "clofarabine",
+            "url": "https://nhathuoclongchau.com.vn/thanh-phan/clofarabine",
+            "category": "Dược chất LC",
+            "type": "Dược chất",
+            "source": "Dược chất Long Châu",
+            "original_lang": "vietnamese",
+            "field": "careful",
+            "chunk_index": 2
+        }
+    }
+]

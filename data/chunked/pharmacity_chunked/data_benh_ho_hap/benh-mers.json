@@ -1,0 +1,156 @@
+[
+  {
+    "text": "Bệnh: MERS | Phần: Tổng quan | Nội dung:\nTổng quan chung\nMERS (hay Hội chứng hô hấp Trung Đông) là bệnh nhiễm trùng phổi do virus corona gây ra. Bệnh lần đầu tiên xuất hiện tại Ả Rập Xê Út vào năm 2012 và gây ra hơn 1600 trường hợp với 36% tỷ lệ tử vong.\nBệnh MERS bùng phát gần đây nhất là ở Hàn Quốc vào năm 2015 với 180 ca bệnh và hơn 35 trường hợp tử vong. Trong khi tình trạng nguy hiểm này đang giết chết 36% người bị nhiễm virus, các nhà khoa học lại nói rằng không có gì phải lo ngại. Nhiễm trùng có thể lây lan nếu có tiếp xúc gần với nguồn bệnh.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "overview",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Triệu chứng | Nội dung:\nTriệu chứng\nPhổ lâm sàng của bệnh do MERS-CoV dao động từ không có triệu chứng hoặc chỉ có vấn đề về hô hấp nhẹ, đến bệnh hô hấp cấp tính nặng, và cuối cùng là tử vong.\nMột biểu hiện điển hình của bệnh MERS là sốt, ho và khó thở.\nViêm phổi là một tình trạng phổ biến, nhưng không phải bệnh nhân nào cũng gặp phải.\nCác triệu chứng tiêu hóa, ví dụ như tiêu chảy, cũng đã được báo cáo.\nBệnh nặng có thể gây suy hô hấp khiến bệnh nhân cần phải thở máy và được hỗ trợ trong phòng chăm sóc đặc biệt.\nNhiều khả năng virus sẽ gây bệnh nặng hơn cho người già, người có hệ miễn dịch yếu và những người mắc các bệnh mãn tính như: thận, ung thư, phổi và tiểu đường.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Triệu chứng | Nội dung:\nKhoảng 35% bệnh nhân mắc bệnh do MERS CoV đã tử vong, nhưng con số người chết thực sự có thể chưa được thống kê đầy đủ. Nguyên nhân là vì các trường hợp MERS nhẹ thường không được nhận biết trong giai đoạn đầu, cho đến khi dịch bệnh bùng phát và được chú ý.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "symptoms",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Nguyên nhân | Nội dung:\nNguyên nhân\nBệnh MERS gây ra bởi virus MERS-CoV ở động vật. Tương tự như SARS (hội chứng hô hấp cấp tính nặng), bệnh MERS không có vắc xin phòng ngừa. Virus này lây từ động vật sang người hoặc từ người sang người do tiếp xúc. Lạc đà được cho là vật chủ có chứa lượng lớn virus MERS-CoV. MERS không giống với bệnh cúm hoặc cảm lạnh thường không lây lan, bệnh này lan truyền từ người bị nhiễm sang người sống chung hay những người trực tiếp chăm sóc người bệnh.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "causes",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Đối tượng nguy cơ | Nội dung:\nĐối tượng nguy cơ\nHầu hết các độ tuổi đều có khả năng nhiễm MERS-CoV. Tuy nhiên, theo ghi nhận hầu hết các trường hợp mắc là người già, nam giới; những người có bệnh bệnh mãn tính kèm theo thường có nguy cơ cao hơn.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "risk_groups",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Chẩn đoán | Nội dung:\nChẩn đoán\nChẩn đoán qua triệu chứng lâm sàng (theo hướng dẫn của Bộ Y tế):\nTriệu chứng khởi phát thường gặp là sốt, ho, ớn lạnh đau họng, đau cơ, nhức mỏi xương khớp. Sau đó bệnh nhân xuất hiện khó thở và tiến triển nhanh tới viêm phổi.\nKhoảng 1/3 số bệnh nhân có các triệu chứng tiêu hóa như nôn và tiêu chảy.\nMột nửa số bệnh nhân tiến triển nhanh thành viêm phổi và 10% sẽ tiến triển thành hội chứng suy hô hấp cấp tính (ARDS).\nKết quả chụp X-quang ngực có hình ảnh phù hợp với viêm phổi do virus và ARDS.\nXét nghiệm công thức máu thường thấy giảm bạch cầu, đặc biệt là giảm bạch cầu lympho.\nCa bệnh nghi ngờ:\nDi chuyển tới vùng dịch tễ hoặc sống trong vùng dịch tễ có người mắc MERS-CoV khoảng 10 ngày trước khi xuất hiện triệu chứng.\nCó tiếp xúc gần với những ca bệnh xác định/có thể",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Chẩn đoán | Nội dung:\nCó tiếp xúc gần với những ca bệnh xác định/có thể\nBệnh nhân có biểu hiện nhiễm trùng đường hô cấp cấp, gồm sốt trên 38 độ C, ho, khó thở, có tổn thương nhu mô phổi, viêm phổi hoặc hội chứng suy hô hấp cấp tiến triển (ARDS) dựa trên lâm sàng hoặc hình ảnh chụp X-quang.\nKhông lý giải được bằng các bệnh nhiễm trùng hoặc căn nguyên khác, bao gồm tất cả các trường hợp có chỉ định xét nghiệm để chẩn đoán viêm phổi cộng đồng.\nCa bệnh có thể:\nNgười tiếp xúc trực tiếp với ca bệnh đã được chẩn đoán xác định bằng xét nghiệm, bao gồm những người chăm sóc bệnh nhân; nhân viên y tế hoặc các thành viên trong gia đình; những người sống chung với bệnh nhân hoặc đến thăm bệnh nhân trong thời gian có biểu hiện bệnh.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Chẩn đoán | Nội dung:\nBệnh nhân có các dấu hiệu lâm sàng, XQ hoặc xét nghiệm giải phẫu bệnh của bệnh lý nhu mô phổi (ví dụ như viêm phổi hoặc ARDS) phù hợp với định nghĩa về ca bệnh ở trên, nhưng không được khẳng định bằng xét nghiệm bởi vì: không lấy được mẫu bệnh phẩm, hoặc không làm được xét nghiệm để chẩn đoán căn nguyên nhiễm trùng hô hấp khác.\nKhông lý giải được do các nhiễm trùng khác hoặc căn nguyên khác.\nCa bệnh xác định:\nLà ca bệnh có biểu hiện lâm sàng như đã nêu trên và được khẳng định bằng xét nghiệm PCR dương tính với virus corona mới.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Chẩn đoán | Nội dung:\nCa bệnh xác định:\nLà ca bệnh có biểu hiện lâm sàng như đã nêu trên và được khẳng định bằng xét nghiệm PCR dương tính với virus corona mới.\nKỹ thuật xác định Virus Corona là kỹ thuật Real time RT – PCR với bệnh phẩm là dịch đường hô hấp, đờm, dịch nội khí quản được lấy theo đúng quy trình và bảo quản trong môi trường phù hợp. Lưu ý: Đối với các trường hợp đầu tiên nghi nhiễm vi rút corona mới, các đơn vị cần lưu mẫu và chuyển mẫu đến các cơ sở xét nghiệm được Bộ Y tế cho phép khẳng định.\nChẩn đoán phân biệt:\nBệnh cảnh lâm sàng do Mers-CoV gây ra gồm nhiều triệu chứng khác nhau, nhưng chủ yếu là suy hô hấp cấp và suy thận cấp, vì vậy cần phải phân biệt với các trường hợp sau:\nCúm nặng (cúm A/H1N1 hoặc A/H5N1…..).\nViêm phổi không điển hình.\nNhiễm trùng huyết gây suy thận và suy hô hấp.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "diagnosis_methods",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Phòng ngừa | Nội dung:\nPhòng ngừa bệnh\nMột số biện pháp phòng bệnh Mers như: Rửa tay thường xuyên bằng xà bông và nước trong 20 giây, và giúp cho các con/em nhỏ cũng làm như vậy. Nếu không có sản xà bông và nước, hãy dùng thuốc rửa tay có chất cồn.\nChe mũi và miệng lại bằng khăn giấy khi ho hoặc hắt hơi và vứt khăn này vào sọt rác. Nếu quý vị không có khăn giấy, hãy ho hoặc hắt hơi vào cánh tay trên của mình.\nTránh tiếp xúc gần gũi (hôn, dùng chung ly tách, hoặc dùng chung đồ dùng ăn uống, v.v.) với người bệnh.\nTránh chạm vào mắt, mũi và miệng của mình bằng tay chưa rửa sạch.\nChùi sạch và khử trùng thường xuyên các bề mặt chạm vào, như đồ chơi và tay nấm cửa ra vào.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "prevention",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Bệnh: MERS | Phần: Cách điều trị | Nội dung:\nĐiều trị như thế nào?\nĐiều trị MERS là hỗ trợ. Để giúp ngăn ngừa lây lan từ các trường hợp nghi nhiễm, các chuyên gia chăm sóc sức khỏe cần phải sử dụng các biện pháp phòng ngừa tiêu chuẩn, tiếp xúc và theo đường không khí.\nKhông có vắc xin.",
+    "metadata": {
+      "name": "MERS",
+      "id": "mers",
+      "url": "https://www.pharmacity.vn/benh/benh-mers.html",
+      "category": "data_benh_ho_hap",
+      "type": "bệnh",
+      "source": "Pharmacity",
+      "original_lang": "vietnamese",
+      "field": "treatment_options",
+      "chunk_index": 0
+    }
+  }
+]
