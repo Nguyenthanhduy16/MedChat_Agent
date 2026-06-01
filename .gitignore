@@ -45,3 +45,11 @@ share/python-wheels/
 *.swo
 
 .gitignore
+.claude
+.gemini
+AGENTS.md
+pytest.ini
+.gitignore
+.mcp.json
+docs
+tests
