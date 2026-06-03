@@ -6,6 +6,7 @@ from qdrant_client.http.models import FieldCondition, Filter, Fusion, FusionQuer
 from core.models import EvidenceItem, RetrievalPlan
 from core.sparse_vectors import build_sparse_vector
 from core.text import accent_fold
+from core.config import get_settings
 
 
 logger = logging.getLogger(__name__)
@@ -13,8 +14,9 @@ logger = logging.getLogger(__name__)
 
 FIELD_ALIASES = {
     "interaction": ["interaction", "tuong_tac_thuoc"],
-    "contraindication": ["contraindication", "chong_chi_dinh"],
-    "warning": ["warning", "canh_bao", "than_trong"],
+    "contraindication": ["contraindication", "chong_chi_dinh", "careful"],
+    "warning": ["warning", "canh_bao", "than_trong", "careful"],
+    "careful": ["careful", "warning", "canh_bao", "than_trong"],
     "dosage": ["dosage", "lieu_luong_va_cach_dung", "cach_dung"],
     "pregnancy_lactation": ["pregnancy_lactation", "phu_nu_co_thai_va_cho_con_bu"],
     "indication": ["indication", "cong_dung", "chi_dinh"],
@@ -108,9 +110,13 @@ class QdrantRetriever:
             required_entities=plan.entities.get("drugs", []),
         )
         reranked = await self._apply_reranker(plan, ranked)
+        settings = get_settings()
+        top_k = settings.local_top_k_per_intent
+        final_ranked = reranked[:top_k]
         logger.info(
-            "retrieval.qdrant ranked_count=%s top=%s",
+            "retrieval.qdrant ranked_count=%s returned_count=%s top=%s",
             len(reranked),
+            len(final_ranked),
             [
                 {
                     "title": item.title,
@@ -119,10 +125,10 @@ class QdrantRetriever:
                     "sparse_score": item.metadata.get("sparse_score"),
                     "reranker_score": item.metadata.get("reranker_score"),
                 }
-                for item in reranked[:3]
+                for item in final_ranked[:3]
             ],
         )
-        return reranked
+        return final_ranked
 
     async def _query_points(
         self,
@@ -164,11 +170,16 @@ class QdrantRetriever:
         candidates = items[: self.reranker_top_k]
         query_text = " ".join(_query_terms(plan))
         passages = [item.text for item in candidates]
-        scores = await self.reranker.score(
-            query_text,
-            passages,
-            timeout_seconds=self.reranker_timeout_seconds,
-        )
+        try:
+            scores = await self.reranker.score(
+                query_text,
+                passages,
+                timeout_seconds=self.reranker_timeout_seconds,
+            )
+        except (TimeoutError, Exception) as exc:
+            logger.warning("retrieval.reranker skipped (fallback to base ranking): %s", exc)
+            return items
+
         for item, score in zip(candidates, scores, strict=True):
             item.metadata["reranker_score"] = float(score)
         return rerank_evidence(

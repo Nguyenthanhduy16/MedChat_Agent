@@ -1,6 +1,9 @@
 import asyncio
+import logging
 import os
 from typing import Protocol
+
+logger = logging.getLogger(__name__)
 
 import httpx
 from openai import AsyncOpenAI
@@ -64,10 +67,17 @@ class FakeEmbeddingModel:
 
 class FlagEmbeddingRerankerModel:
     def __init__(self, model: str, use_fp16: bool = True) -> None:
+        import torch
         from FlagEmbedding import FlagReranker
 
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        logger.info("reranker.init model=%s device=%s fp16=%s", model, device, use_fp16)
         self.model = model
-        self.reranker = FlagReranker(model, use_fp16=use_fp16)
+        try:
+            self.reranker = FlagReranker(model, use_fp16=use_fp16, device=device)
+        except TypeError:
+            self.reranker = FlagReranker(model, use_fp16=use_fp16)
+        ensure_prepare_for_model_compat(getattr(self.reranker, "tokenizer", None))
 
     async def score(
         self,
@@ -155,9 +165,15 @@ class OpenAIEmbeddingModel:
 
 class SentenceTransformerEmbeddingModel:
     def __init__(self, model: str) -> None:
+        import torch
         from sentence_transformers import SentenceTransformer
 
-        self.model = SentenceTransformer(model)
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        logger.info("embedding.init model=%s device=%s", model, device)
+        try:
+            self.model = SentenceTransformer(model, device=device)
+        except TypeError:
+            self.model = SentenceTransformer(model)
 
     async def embed(
         self,
@@ -178,6 +194,53 @@ def _e5_prefix(input_type: str) -> str:
     if input_type == "passage":
         return "passage"
     return "query"
+
+
+def ensure_prepare_for_model_compat(tokenizer) -> None:
+    if tokenizer is None or hasattr(tokenizer, "prepare_for_model"):
+        return
+
+    def prepare_for_model(
+        ids,
+        pair_ids=None,
+        truncation=False,
+        max_length=None,
+        padding=False,
+        **kwargs,
+    ):
+        first = list(ids)
+        second = list(pair_ids or [])
+        pair_mode = pair_ids is not None
+        special_count = 4 if pair_mode else 2
+        if max_length is not None:
+            available = max(max_length - special_count, 0)
+            if truncation == "only_second" and pair_mode:
+                second = second[: max(available - len(first), 0)]
+            elif pair_mode:
+                first = first[:available]
+                second = second[: max(available - len(first), 0)]
+            else:
+                first = first[:available]
+
+        cls_token_id = getattr(tokenizer, "cls_token_id", None)
+        sep_token_id = getattr(tokenizer, "sep_token_id", None)
+        if cls_token_id is None or sep_token_id is None:
+            raise AttributeError("Tokenizer lacks prepare_for_model and special token ids for compatibility shim.")
+
+        if pair_mode:
+            input_ids = [cls_token_id] + first + [sep_token_id, sep_token_id] + second + [sep_token_id]
+        else:
+            input_ids = [cls_token_id] + first + [sep_token_id]
+
+        attention_mask = [1] * len(input_ids)
+        if padding == "max_length" and max_length is not None:
+            pad_token_id = getattr(tokenizer, "pad_token_id", 0)
+            pad_len = max(max_length - len(input_ids), 0)
+            input_ids = input_ids + [pad_token_id] * pad_len
+            attention_mask = attention_mask + [0] * pad_len
+        return {"input_ids": input_ids, "attention_mask": attention_mask}
+
+    tokenizer.prepare_for_model = prepare_for_model
 
 
 def _gemini_payload(messages: list[dict[str, str]]) -> dict:

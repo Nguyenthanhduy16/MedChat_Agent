@@ -18,6 +18,7 @@ from core.llm import (
     SentenceTransformerEmbeddingModel,
 )
 from core.retrieval import QdrantRetriever
+from core.router_classifier import LLMRouterClassifier
 from core.web_sources import HTTPJSONSearchProvider, TavilySearchProvider, WebSourceClient
 
 logger = logging.getLogger(__name__)
@@ -30,6 +31,14 @@ def get_chat_service() -> ChatService:
     """Singleton: chỉ khởi tạo ChatService (bao gồm load model embedding) một lần duy nhất."""
     settings = get_settings()
     chat_model = _build_chat_model(settings)
+    router_classifier = (
+        LLMRouterClassifier(
+            chat_model,
+            confidence_threshold=settings.llm_router_confidence_threshold,
+        )
+        if settings.llm_router_enabled
+        else None
+    )
 
     qdrant_client = AsyncQdrantClient(
         url=settings.qdrant_url,
@@ -56,6 +65,7 @@ def get_chat_service() -> ChatService:
             reranker_timeout_seconds=settings.reranker_timeout_seconds,
         ),
         web_client=WebSourceClient(settings.whitelist_domains, search_provider=search_provider),
+        router_classifier=router_classifier,
     )
 
 

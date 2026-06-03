@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field, field_validator
 
 
 RiskLevel = Literal["low", "medium", "high", "urgent"]
-EvidenceStatus = Literal["sufficient", "partial", "insufficient", "conflicting"]
+EvidenceStatus = Literal["complete", "usable_partial", "weak_partial", "insufficient", "conflicting", "sufficient", "partial"]
 Confidence = Literal["high", "medium", "low"]
 Audience = Literal["general", "professional"]
 PregnancyStatus = Literal["unknown", "not_pregnant", "pregnant", "planning_pregnancy"]

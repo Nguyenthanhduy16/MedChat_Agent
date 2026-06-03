@@ -17,6 +17,35 @@ KNOWN_DRUGS = (
     "azithromycin",
 )
 
+KNOWN_PRODUCTS = {
+    "melatonin nature s bounty": "Melatonin Nature's Bounty",
+    "melatonin nature's bounty": "Melatonin Nature's Bounty",
+    "melatonin": "Melatonin",
+    "men vi sinh": "men vi sinh",
+}
+
+KNOWN_DRUG_CLASSES = {
+    "thuoc chong tram cam": "thuoc chong tram cam",
+}
+
+KNOWN_CONDITIONS = {
+    "suy than": "suy than",
+}
+
+INTENT_ORDER = (
+    "interaction",
+    "contraindication",
+    "dosage",
+    "pregnancy_lactation",
+    "symptom_triage",
+    "disease_context",
+    "pediatric_elderly",
+    "indication",
+    "drug_identity",
+    "general_health",
+    "unsupported",
+)
+
 HEALTH_SCOPE_TERMS = (
     "dau",
     "sot",
@@ -38,6 +67,12 @@ HEALTH_SCOPE_TERMS = (
     "tre em",
     "nguoi gia",
     "suy than",
+    "tieu chay",
+    "mat ngu",
+    "ngu",
+    "men vi sinh",
+    "tram cam",
+    "khoc da de",
     "ung thu",
     "hoi chung",
     "roi loan",
@@ -68,6 +103,9 @@ SYMPTOM_TERMS = (
     "chay mau",
     "kho tho",
     "sot",
+    "tieu chay",
+    "khoc da de",
+    "mat ngu",
 )
 
 BODY_PART_TERMS = (
@@ -118,6 +156,30 @@ def _extract_drugs(message: str) -> list[str]:
     return list(dict.fromkeys(drugs))
 
 
+def _extract_taxonomy_terms(message: str, taxonomy: dict[str, str]) -> list[str]:
+    folded = accent_fold(message)
+    matches: list[str] = []
+    for term, canonical in sorted(taxonomy.items(), key=lambda item: len(item[0]), reverse=True):
+        if re.search(rf"(?<!\w){re.escape(term)}(?!\w)", folded):
+            if not any(term in accent_fold(match) for match in matches):
+                matches.append(canonical)
+    return matches
+
+
+def _extract_clinical_qualifiers(message: str) -> list[str]:
+    normalized = normalize_text(message)
+    folded = accent_fold(message)
+    qualifiers: list[str] = []
+    clcr = re.search(r"\bclcr\s*(<)?\s*(\d+)\s*ml\s*phut\b", normalized, flags=re.IGNORECASE)
+    if clcr:
+        operator = " <" if clcr.group(1) else ""
+        qualifiers.append(f"Clcr{operator} {clcr.group(2)} ml phut")
+    age = re.search(r"\b\d+\s*thang\s*tuoi\b", folded)
+    if age:
+        qualifiers.append(age.group(0).replace("  ", " "))
+    return qualifiers
+
+
 def _extract_active_ingredient(message: str) -> str | None:
     normalized = normalize_text(message)
     match = re.search(
@@ -163,16 +225,32 @@ def route_question(request: ChatRequest) -> RouterDecision:
     intents: list[str] = []
     risk = RiskLevel.LOW
     drugs = _extract_drugs(request.message)
-    conditions = _extract_conditions(request.message)
+    products = _extract_taxonomy_terms(request.message, KNOWN_PRODUCTS)
+    drug_classes = _extract_taxonomy_terms(request.message, KNOWN_DRUG_CLASSES)
+    known_conditions = _extract_taxonomy_terms(request.message, KNOWN_CONDITIONS)
+    conditions = [
+        condition
+        for condition in _extract_conditions(request.message)
+        if not _overlaps_known_condition(condition, known_conditions)
+    ]
+    conditions = list(dict.fromkeys(known_conditions + conditions))
+    clinical_qualifiers = _extract_clinical_qualifiers(request.message)
     symptoms = _extract_terms(folded, SYMPTOM_TERMS)
     body_parts = _extract_terms(folded, BODY_PART_TERMS)
+    medication_entities = drugs + products + drug_classes
 
-    if any(term in folded for term in ("tuong tac", "uong chung", "dung chung")) or len(drugs) >= 2:
+    if (
+        any(term in folded for term in ("tuong tac", "uong chung", "dung chung", "dung them"))
+        or len(drugs) >= 2
+        or (products and drug_classes)
+    ):
         intents.extend(["interaction", "contraindication"])
         risk = RiskLevel.HIGH
-    if any(term in folded for term in ("lieu", "cach dung", "qua lieu", "quen lieu")):
+    if any(term in folded for term in ("lieu", "cach dung", "qua lieu", "quen lieu", "uong nhu the nao", "dung nhu the nao")):
         intents.append("dosage")
         risk = RiskLevel.HIGH if "qua lieu" in folded else max_risk(risk, RiskLevel.MEDIUM)
+    if any(term in folded for term in ("khong nen dung", "ai khong nen dung", "chong chi dinh")):
+        intents.append("contraindication")
     if any(term in folded for term in ("mang thai", "cho con bu", "thai")):
         intents.append("pregnancy_lactation")
         risk = RiskLevel.HIGH
@@ -180,20 +258,23 @@ def route_question(request: ChatRequest) -> RouterDecision:
         intents.extend(["symptom_triage", "disease_context"])
     if conditions:
         intents.append("disease_context")
-    if any(term in folded for term in ("tre em", "nguoi gia", "suy than")):
-        intents.append("pediatric_elderly" if "tre em" in folded or "nguoi gia" in folded else "disease_context")
+    if any(term in folded for term in ("tre em", "nguoi gia", "suy than")) or any("thang tuoi" in item for item in clinical_qualifiers):
+        intents.append("pediatric_elderly" if "tre em" in folded or "nguoi gia" in folded or any("thang tuoi" in item for item in clinical_qualifiers) else "disease_context")
         risk = RiskLevel.HIGH
-    if any(term in folded for term in ("dung de lam gi", "cong dung", "chi dinh")):
+    if any(term in folded for term in ("dung de lam gi", "cong dung", "chi dinh", "co nen dung", "ho tro khong")):
         intents.append("indication")
+    if products and any(term in folded for term in ("co nen dung", "uong nhu the nao", "dung nhu the nao")):
+        if "dosage" not in intents and any(term in folded for term in ("uong", "dung")):
+            intents.append("dosage")
     if not intents:
-        if drugs:
+        if medication_entities:
             intents.append("drug_identity")
         elif _is_health_scope(folded):
             intents.append("general_health")
         else:
             intents.append("unsupported")
 
-    deduped = list(dict.fromkeys(intents))
+    deduped = _ordered_unique_intents(intents)
     return RouterDecision(
         intents=deduped,
         risk_level=risk,
@@ -201,12 +282,25 @@ def route_question(request: ChatRequest) -> RouterDecision:
         needs_context=risk == RiskLevel.HIGH,
         entities={
             "drugs": drugs,
+            "products": products,
+            "drug_classes": drug_classes,
             "ingredients": [],
             "conditions": conditions,
+            "clinical_qualifiers": clinical_qualifiers,
             "symptoms": symptoms,
             "body_parts": body_parts,
         },
     )
+
+
+def _ordered_unique_intents(intents: list[str]) -> list[str]:
+    deduped = set(intents)
+    return [intent for intent in INTENT_ORDER if intent in deduped]
+
+
+def _overlaps_known_condition(condition: str, known_conditions: list[str]) -> bool:
+    folded = accent_fold(condition)
+    return any(accent_fold(known) in folded for known in known_conditions)
 
 
 def _is_health_scope(folded_message: str) -> bool:
@@ -269,14 +363,17 @@ def build_retrieval_plan(decision: RouterDecision) -> RetrievalPlan:
         if intent == "interaction":
             fields.extend(["interaction", "warning"])
         elif intent == "contraindication":
-            fields.extend(["contraindication", "warning"])
+            fields.extend(["contraindication", "warning", "careful"])
         elif intent == "pregnancy_lactation":
             fields.extend(["pregnancy_lactation", "warning"])
         elif intent in {"dosage", "indication"}:
             fields.append(intent)
     query_entities = (
         decision.entities.get("drugs", [])
+        + decision.entities.get("products", [])
+        + decision.entities.get("drug_classes", [])
         + decision.entities.get("conditions", [])
+        + decision.entities.get("clinical_qualifiers", [])
         + decision.entities.get("symptoms", [])
         + decision.entities.get("body_parts", [])
     )

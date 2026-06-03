@@ -11,6 +11,9 @@ class Settings(BaseSettings):
     chat_model: str = "gpt-4.1-mini"
     gemini_api_key: str | None = None
     gemini_model: str = "gemini-2.5-flash"
+    llm_router_enabled: bool = True
+    llm_router_confidence_threshold: float = 0.6
+    llm_router_timeout_seconds: float = 8.0
     embedding_model: str = "intfloat/multilingual-e5-base"
     reranker_model: str | None = None
     reranker_top_k: int = 10
