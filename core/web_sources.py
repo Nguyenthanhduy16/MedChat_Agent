@@ -1,11 +1,14 @@
 from dataclasses import dataclass
 from html.parser import HTMLParser
+import logging
 from typing import Any, Protocol
 from urllib.parse import urlparse
 
 import httpx
 
 from core.models import RetrievalPlan
+
+logger = logging.getLogger(__name__)
 
 
 class DomainNotAllowedError(ValueError):
@@ -328,7 +331,9 @@ class WebSourceClient:
         seen_urls: set[str] = set()
         try:
             results = await self.search_provider.search(query_text, timeout_seconds=timeout_seconds)
-        except Exception:
+            logger.info("web.search_open query=%r results_count=%s", query_text[:80], len(results))
+        except Exception as exc:
+            logger.warning("web.search_open failed query=%r error=%s", query_text[:80], exc)
             return []
 
         for result in results:
@@ -338,10 +343,12 @@ class WebSourceClient:
                 continue
             try:
                 source = await self.fetch_url(result.url, timeout_seconds=timeout_seconds, web_mode="open")
-            except Exception:
+            except Exception as exc:
+                logger.warning("web.fetch_url failed url=%r error=%s", result.url, exc)
                 continue
             seen_urls.add(source.url)
             sources.append(source)
+        logger.info("web.retrieve_open fetched_count=%s", len(sources))
         return sources
 
 

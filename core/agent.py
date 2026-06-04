@@ -94,7 +94,6 @@ SYMPTOM_TERMS = (
     "dau",
     "sung",
     "nhay cam",
-    "do",
     "nong",
     "te",
     "yeu",
@@ -261,7 +260,7 @@ def route_question(request: ChatRequest) -> RouterDecision:
     if any(term in folded for term in ("tre em", "nguoi gia", "suy than")) or any("thang tuoi" in item for item in clinical_qualifiers):
         intents.append("pediatric_elderly" if "tre em" in folded or "nguoi gia" in folded or any("thang tuoi" in item for item in clinical_qualifiers) else "disease_context")
         risk = RiskLevel.HIGH
-    if any(term in folded for term in ("dung de lam gi", "cong dung", "chi dinh", "co nen dung", "ho tro khong")):
+    if _contains_indication_request(folded):
         intents.append("indication")
     if products and any(term in folded for term in ("co nen dung", "uong nhu the nao", "dung nhu the nao")):
         if "dosage" not in intents and any(term in folded for term in ("uong", "dung")):
@@ -308,6 +307,15 @@ def _is_health_scope(folded_message: str) -> bool:
         re.search(rf"(?<!\w){re.escape(term)}(?!\w)", folded_message)
         for term in HEALTH_SCOPE_TERMS
     )
+
+
+def _contains_indication_request(folded_message: str) -> bool:
+    if any(
+        term in folded_message
+        for term in ("dung de lam gi", "cong dung", "co nen dung", "ho tro khong")
+    ):
+        return True
+    return re.search(r"(?<!chong )chi dinh", folded_message) is not None
 
 
 def _extract_conditions(message: str) -> list[str]:

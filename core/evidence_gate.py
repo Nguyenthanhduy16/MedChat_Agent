@@ -1,8 +1,24 @@
 """Evidence Coverage Gate."""
 
 from dataclasses import dataclass
+import re
+
 from core.models import EvidenceItem, EvidenceStatus, MergedEntities, RiskLevel
 from core.text import accent_fold
+
+ENTITY_TOKEN_STOPWORDS = {
+    "thuoc",
+    "nho",
+    "mat",
+    "dung",
+    "dich",
+    "vien",
+    "siro",
+    "chai",
+    "hop",
+    "duoc",
+}
+
 
 @dataclass
 class EvidenceCoverage:
@@ -29,14 +45,13 @@ def assess_coverage(
             warnings=["empty"],
         )
 
-    all_text = " ".join(
-        item.text for items in facet_results.values() for item in items
-    )
+    all_items = [item for items in facet_results.values() for item in items]
+    all_text = " ".join(_evidence_search_text(item) for item in all_items)
     folded_text = accent_fold(all_text)
     
     missing_required = [
         entity for entity in merged_entities.required 
-        if accent_fold(entity) not in folded_text
+        if not _entity_covered(entity, folded_text)
     ]
     
     if missing_required:
@@ -88,4 +103,44 @@ def assess_coverage(
         per_facet_coverage=per_facet_coverage,
         gaps=gaps,
         warnings=warnings
+    )
+
+
+def _evidence_search_text(item: EvidenceItem) -> str:
+    metadata_name = item.metadata.get("name", "")
+    return " ".join(str(part) for part in (item.title, metadata_name, item.text) if part)
+
+
+def _entity_covered(entity: str, folded_text: str) -> bool:
+    folded_entity = accent_fold(entity)
+    if not folded_entity:
+        return True
+    if folded_entity in folded_text:
+        return True
+
+    tokens = [
+        token
+        for token in folded_entity.split()
+        if _is_distinctive_entity_token(token)
+    ]
+    if not tokens:
+        return False
+
+    matches = sum(
+        1
+        for token in tokens
+        if re.search(rf"(?<![a-z0-9]){re.escape(token)}(?![a-z0-9])", folded_text)
+    )
+    if len(tokens) == 1:
+        return matches == 1
+    if len(tokens) == 2:
+        return matches == 2
+    return matches >= 2
+
+
+def _is_distinctive_entity_token(token: str) -> bool:
+    return (
+        len(token) >= 3
+        and token not in ENTITY_TOKEN_STOPWORDS
+        and not token.isdigit()
     )

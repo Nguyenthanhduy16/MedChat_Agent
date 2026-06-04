@@ -101,15 +101,16 @@ class ChatService:
             return self._build_unsupported_response(decision)
 
         # 4. Entity Resolution & Merging
-        resolved = await resolve_entities(decision.entities)
+        resolved = await resolve_entities(decision.entities, message=request.message)
+        _enrich_decision_entities(decision, resolved)
         merged_entities = merge_entities(resolved, decision.entities)
 
         # 5. Query Planning
-        query_plan = plan_query_facets(decision)
+        query_plan = plan_query_facets(decision, normalized)
         plan = combined_retrieval_plan(query_plan, decision)
         
         facet_plans = [retrieval_plan_for_facet(facet, decision) for facet in query_plan.facets]
-        facet_query_texts = [_build_hybrid_query(request.message, facet_plan) for facet_plan in facet_plans]
+        facet_query_texts = [_build_hybrid_query("", facet_plan) for facet_plan in facet_plans]
         
         logger.info(
             "chat.retrieval_plan facets=%s",
@@ -163,41 +164,41 @@ class ChatService:
         web_warnings: list[str] = []
         if should_try_web:
             logger.info("chat.web_retrieval start reason=%s", web_reason)
-            try:
-                # Use the combined plan for web search for simplicity, 
-                # or we could do per-facet web search.
-                query_text = _build_hybrid_query(request.message, plan)
-                web_sources = await self.web_client.retrieve(
-                    plan,
-                    query_text=query_text,
-                    timeout_seconds=self.settings.web_fetch_timeout_seconds,
-                    max_sources=min(
-                        request.retrieval_options.max_sources,
-                        self.settings.max_web_urls_per_request,
-                    ),
-                    web_mode=request.retrieval_options.web_mode,
-                )
-                if web_sources:
-                    web_items = _web_sources_to_evidence_items(web_sources, plan)
-                    # Assign web items to the first missing facet, or a generic 'web' facet
-                    if query_plan.facets:
-                        facet_id = query_plan.facets[0].intent
-                        for item in web_items:
-                            item.facet_id = facet_id
-                        facet_results.setdefault(facet_id, []).extend(web_items)
-                        
-                    # Re-assess coverage
-                    all_local_items.extend(web_items)
-                    coverage = assess_coverage(
-                        facet_results,
-                        merged_entities,
-                        decision.risk_level,
-                        decision.classification_uncertain,
+            for facet, facet_plan in _facets_for_web_fallback(
+                query_plan.facets,
+                facet_plans,
+                coverage,
+                force_web=request.retrieval_options.force_web,
+            ):
+                try:
+                    query_text = _build_hybrid_query("", facet_plan)
+                    web_sources = await self.web_client.retrieve(
+                        facet_plan,
+                        query_text=query_text,
+                        timeout_seconds=self.settings.web_fetch_timeout_seconds,
+                        max_sources=min(
+                            request.retrieval_options.max_sources,
+                            self.settings.max_web_urls_per_request,
+                        ),
+                        web_mode=request.retrieval_options.web_mode,
                     )
-                    logger.info("chat.evidence combined_status=%s", coverage.status.value)
-            except Exception as exc:
-                web_warnings.append(f"Web evidence retrieval failed: {exc}")
-                logger.warning("chat.web_retrieval failed error=%s", exc)
+                    if web_sources:
+                        web_items = _web_sources_to_evidence_items(web_sources, facet_plan)
+                        for item in web_items:
+                            item.facet_id = facet.intent
+                        facet_results.setdefault(facet.intent, []).extend(web_items)
+                        all_local_items.extend(web_items)
+                except Exception as exc:
+                    web_warnings.append(f"Web evidence retrieval failed for {facet.intent}: {exc}")
+                    logger.warning("chat.web_retrieval failed facet=%s error=%s", facet.intent, exc)
+
+            coverage = assess_coverage(
+                facet_results,
+                merged_entities,
+                decision.risk_level,
+                decision.classification_uncertain,
+            )
+            logger.info("chat.evidence combined_status=%s", coverage.status.value)
 
         if web_warnings:
             coverage.warnings.extend(web_warnings)
@@ -321,6 +322,68 @@ class ChatService:
 def _build_hybrid_query(message: str, plan) -> str:
     parts = [message.strip(), " ".join(query for query in plan.queries if query).strip()]
     return " ".join(part for part in parts if part).strip() or message
+
+
+def _build_prompt(question: str, evidence_items, citations) -> list[dict[str, str]]:
+    system = (
+        "You are a pharmacy safety assistant. For symptom triage questions, discuss "
+        "possible causes, do not diagnose, and recommend professional evaluation when appropriate."
+    )
+    return [
+        {"role": "system", "content": system},
+        {"role": "user", "content": question},
+    ]
+
+
+def _facets_for_web_fallback(facets, facet_plans, coverage, force_web: bool):
+    facet_pairs = list(zip(facets, facet_plans, strict=True))
+    if force_web or not coverage.per_facet_coverage:
+        return facet_pairs
+
+    missing = [
+        pair for pair in facet_pairs
+        if coverage.per_facet_coverage.get(pair[0].intent) == "missing"
+    ]
+    if missing:
+        return missing
+
+    partial = [
+        pair for pair in facet_pairs
+        if coverage.per_facet_coverage.get(pair[0].intent) == "partial"
+    ]
+    if partial:
+        return partial
+
+    if coverage.status in {EvidenceStatus.INSUFFICIENT, EvidenceStatus.WEAK_PARTIAL, EvidenceStatus.USABLE_PARTIAL}:
+        return facet_pairs
+
+    return []
+
+
+def _enrich_decision_entities(decision: RouterDecision, resolved_entities) -> None:
+    category_by_type = {
+        "drug": "drugs",
+        "drugs": "drugs",
+        "product": "products",
+        "products": "products",
+        "drug_class": "drug_classes",
+        "drug_classes": "drug_classes",
+        "condition": "conditions",
+        "conditions": "conditions",
+        "symptom": "symptoms",
+        "symptoms": "symptoms",
+        "clinical_qualifier": "clinical_qualifiers",
+    }
+    trusted_sources = {"corpus_message", "corpus_exact", "corpus_alias", "pattern"}
+    for entity in resolved_entities:
+        if entity.confidence < 0.8 or entity.source not in trusted_sources:
+            continue
+        category = category_by_type.get(entity.type)
+        if category is None:
+            continue
+        values = decision.entities.setdefault(category, [])
+        if entity.canonical not in values:
+            values.append(entity.canonical)
 
 
 def _web_sources_to_evidence_items(sources: list[WebFetchedSource], plan) -> list[EvidenceItem]:

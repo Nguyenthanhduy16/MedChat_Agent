@@ -42,14 +42,13 @@ class Settings(BaseSettings):
     ingestion_batch_size: int = 64
     whitelist_domains: list[str] = Field(
         default_factory=lambda: [
-            "moh.gov.vn",
-            "who.int",
-            "fda.gov",
-            "accessdata.fda.gov",
-            "dailymed.nlm.nih.gov",
-            "ema.europa.eu",
-            "medicines.org.uk",
-            "pubmed.ncbi.nlm.nih.gov",
+            "thuocbietduoc.com.vn",
+            "duocdienvietnam.com",
+            "vinmec.com",
+            "tudu.com.vn",
+            "nhathuoclongchau.com.vn",
+            "pharmacity.vn",
+            "nhathuocankhang.com",
         ]
     )
 

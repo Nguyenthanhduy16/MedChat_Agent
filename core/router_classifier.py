@@ -2,13 +2,56 @@
 
 import json
 import logging
+from typing import Literal
 
 from backend.api.schemas import ChatRequest
 from core.models import RouterDecision, RiskLevel
 from core.input_normalizer import NormalizedInput
 from core.llm import ChatModel
+from pydantic import BaseModel, ConfigDict, Field, ValidationError
 
 logger = logging.getLogger(__name__)
+
+
+AllowedIntent = Literal[
+    "dosage",
+    "interaction",
+    "contraindication",
+    "pregnancy_lactation",
+    "disease_context",
+    "symptom_triage",
+    "pediatric_elderly",
+    "indication",
+    "drug_identity",
+    "general_health",
+    "unsupported",
+]
+
+RouterAudience = Literal["adult", "pediatric", "elderly", "general", "professional"]
+
+
+class RouterEntitiesPayload(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+
+    drugs: list[str] = Field(default_factory=list)
+    products: list[str] = Field(default_factory=list)
+    drug_classes: list[str] = Field(default_factory=list)
+    conditions: list[str] = Field(default_factory=list)
+    symptoms: list[str] = Field(default_factory=list)
+    clinical_qualifiers: list[str] = Field(default_factory=list)
+    body_parts: list[str] = Field(default_factory=list)
+
+
+class RouterClassifierPayload(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+
+    intents: list[AllowedIntent] = Field(min_length=1)
+    risk_level: RiskLevel
+    audience: RouterAudience
+    needs_context: bool
+    entities: RouterEntitiesPayload
+    confidence: float = Field(ge=0.0, le=1.0)
+
 
 class LLMRouterClassifier:
     def __init__(self, chat_model: ChatModel, confidence_threshold: float = 0.6) -> None:
@@ -27,21 +70,34 @@ class LLMRouterClassifier:
             raw = await self.chat_model.generate(messages, timeout_seconds=timeout_seconds)
             json_str = self._extract_json_object(raw)
             payload = json.loads(json_str)
+            validated = RouterClassifierPayload.model_validate(payload)
             
-            is_uncertain = payload.get("confidence", 0.5) < self.confidence_threshold
+            if validated.confidence < self.confidence_threshold:
+                logger.warning(
+                    "router.llm fallback reason=low_confidence confidence=%s threshold=%s",
+                    validated.confidence,
+                    self.confidence_threshold,
+                )
+                return self._fallback(fallback_decision)
             
             return RouterDecision(
-                intents=payload.get("intents", fallback_decision.intents),
-                risk_level=RiskLevel(payload.get("risk_level", fallback_decision.risk_level.value)),
-                audience=payload.get("audience", fallback_decision.audience),
-                needs_context=payload.get("needs_context", False),
-                entities=payload.get("entities", fallback_decision.entities),
-                classification_uncertain=is_uncertain,
+                intents=list(validated.intents),
+                risk_level=validated.risk_level,
+                audience=validated.audience,
+                needs_context=validated.needs_context,
+                entities=validated.entities.model_dump(),
+                classification_uncertain=False,
             )
+        except ValidationError as exc:
+            logger.warning("router.llm fallback reason=schema_validation_failed errors=%s", exc.errors())
+            return self._fallback(fallback_decision)
         except Exception as exc:
             logger.warning("router.llm fallback reason=%s", exc)
-            fallback_decision.classification_uncertain = True
-            return fallback_decision
+            return self._fallback(fallback_decision)
+
+    def _fallback(self, fallback_decision: RouterDecision) -> RouterDecision:
+        fallback_decision.classification_uncertain = True
+        return fallback_decision
 
     def _extract_json_object(self, raw: str) -> str:
         text = raw.strip()

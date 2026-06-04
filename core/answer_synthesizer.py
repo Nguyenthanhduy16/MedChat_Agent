@@ -4,6 +4,15 @@ from core.models import EvidenceItem, EvidenceStatus
 from core.query_planner import QueryFacet
 from core.evidence_gate import EvidenceCoverage
 
+
+def _has_web_evidence(facet_evidence: dict[str, list[EvidenceItem]]) -> bool:
+    """Return True if any evidence item comes from a web source."""
+    return any(
+        item.trust_tier == "web_whitelisted" or (item.id or "").startswith("web:")
+        for items in facet_evidence.values()
+        for item in items
+    )
+
 def build_prompt(
     original_question: str,
     facets: list[QueryFacet],
@@ -25,17 +34,29 @@ def build_prompt(
             marker = f"S{index}"
             if marker not in citation_lookup:
                 continue
-            block += f"[{marker}] {item.title} ({item.source}, {item.trust_tier}): {item.text}\n"
-            
+            is_web = item.trust_tier == "web_whitelisted" or (item.id or "").startswith("web:")
+            source_tag = "[WEB]" if is_web else "[LOCAL]"
+            block += f"[{marker}]{source_tag} {item.title} ({item.source}, {item.trust_tier}): {item.text}\n"
+
         evidence_blocks.append(block)
+
+    has_web = _has_web_evidence(facet_evidence)
+    web_notice = (
+        "\n- IMPORTANT: Some evidence is tagged [WEB]. "
+        "For any claim sourced from [WEB] evidence, you MUST add a clear disclosure in Vietnamese "
+        "at the end of that sentence or paragraph, for example: "
+        "'(Thông tin này được tổng hợp từ nguồn trên Internet, chưa được kiểm chứng lâm sàng.)'"
+        "\n- Clearly separate web-sourced information from local database information in your answer."
+    ) if has_web else ""
 
     system = (
         "You are a pharmacy safety assistant. Answer in Vietnamese, be concise, "
         "use only the supplied evidence, cite claims with source markers like [S1], "
         "and advise professional care for high-risk medication questions.\n\n"
-        "RULES FOR CITAIONS:\n"
+        "RULES FOR CITATIONS:\n"
         "- Do not make medical claims without citing the evidence [S#].\n"
         "- If combining facts, cite both [S1][S2].\n"
+        f"{web_notice}"
     )
     
     if coverage.status == EvidenceStatus.COMPLETE:

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from core.models import RetrievalPlan, RouterDecision
+from core.models import NormalizedInput, RetrievalPlan, RouterDecision
 from core.text import accent_fold
 
 
@@ -78,12 +78,29 @@ INTENT_EXPANSIONS: dict[str, list[str]] = {
 }
 
 
-def plan_query_facets(decision: RouterDecision) -> QueryPlan:
-    entities = _query_entities(decision)
+INTENT_PART_MARKERS: dict[str, tuple[str, ...]] = {
+    "interaction": ("tuong tac", "dung chung", "uong chung", "ket hop", "phoi hop"),
+    "contraindication": ("chong chi dinh", "khong nen", "khong dung", "co the dung", "ai khong nen"),
+    "dosage": ("lieu", "lieu dung", "lieu luong", "dieu chinh", "cach dung", "uong nhu the nao", "dose"),
+    "pregnancy_lactation": ("mang thai", "cho con bu", "thai", "breastfeeding", "pregnancy"),
+    "disease_context": ("benh", "suy than", "suy gan", "clcr", "gfr", "tinh trang"),
+    "symptom_triage": ("trieu chung", "bieu hien", "bi dau", "sung", "nguyen nhan"),
+    "pediatric_elderly": ("tre em", "tre nho", "thang tuoi", "nguoi gia", "elderly", "pediatric"),
+    "indication": ("dung de lam gi", "cong dung", "chi dinh", "dieu tri"),
+    "drug_identity": ("thuoc gi", "hoat chat", "thong tin ve", "la gi"),
+    "general_health": ("nen lam gi", "suc khoe", "phong ngua"),
+}
+
+
+def plan_query_facets(decision: RouterDecision, normalized: NormalizedInput | None = None) -> QueryPlan:
     facets = [
         QueryFacet(
             intent=intent,
-            query=_facet_query(intent, entities),
+            query=_facet_query(
+                intent,
+                _entities_for_facet(intent, decision, normalized),
+                _question_parts_for_intent(intent, normalized),
+            ),
             required_entities=_required_entities_for_intent(intent, decision),
             preferred_fields=INTENT_FIELDS.get(intent, []),
         )
@@ -156,7 +173,81 @@ def _required_entities_for_intent(intent: str, decision: RouterDecision) -> list
     return list(dict.fromkeys(medication_entities + clinical_entities))
 
 
-def _facet_query(intent: str, entities: list[str]) -> str:
+def _question_parts_for_intent(intent: str, normalized: NormalizedInput | None) -> list[str]:
+    if normalized is None:
+        return []
+
+    matched = [
+        part
+        for part in normalized.question_parts
+        if _part_matches_intent(part, intent)
+    ]
+    if matched:
+        return matched
+    return normalized.question_parts
+
+
+def _entities_for_facet(
+    intent: str,
+    decision: RouterDecision,
+    normalized: NormalizedInput | None,
+) -> list[str]:
+    entities = decision.entities
+    medications = list(
+        dict.fromkeys(
+            entities.get("drugs", [])
+            + entities.get("products", [])
+            + entities.get("drug_classes", [])
+        )
+    )
+    contextual_medications = _contextual_medications(medications, normalized)
+    clinical = entities.get("conditions", []) + entities.get("clinical_qualifiers", [])
+
+    if intent == "interaction":
+        return list(dict.fromkeys(medications))
+    if intent in {"dosage", "contraindication", "pregnancy_lactation"}:
+        return list(dict.fromkeys(contextual_medications + clinical))
+    if intent in {"disease_context", "symptom_triage", "pediatric_elderly"}:
+        return list(
+            dict.fromkeys(
+                contextual_medications
+                + clinical
+                + entities.get("symptoms", [])
+                + entities.get("body_parts", [])
+            )
+        )
+    return _query_entities(decision)
+
+
+def _contextual_medications(medications: list[str], normalized: NormalizedInput | None) -> list[str]:
+    if normalized is None:
+        return medications
+
+    result: list[str] = []
+    for medication in medications:
+        containing_parts = [
+            part
+            for part in normalized.question_parts
+            if _contains_entity(part, medication)
+        ]
+        if containing_parts and all(_part_matches_intent(part, "interaction") for part in containing_parts):
+            continue
+        result.append(medication)
+    return result or medications
+
+
+def _part_matches_intent(part: str, intent: str) -> bool:
+    folded = accent_fold(part)
+    return any(marker in folded for marker in INTENT_PART_MARKERS.get(intent, ()))
+
+
+def _contains_entity(part: str, entity: str) -> bool:
+    folded_part = accent_fold(part)
+    folded_entity = accent_fold(entity)
+    return bool(folded_entity and folded_entity in folded_part)
+
+
+def _facet_query(intent: str, entities: list[str], question_parts: list[str] | None = None) -> str:
     """Build query string for one retrieval facet.
 
     Strategy:
@@ -168,7 +259,8 @@ def _facet_query(intent: str, entities: list[str]) -> str:
     """
     expansion = INTENT_EXPANSIONS.get(intent, [])
     parts = list(dict.fromkeys(
-        [accent_fold(e) for e in entities]
+        [accent_fold(part) for part in (question_parts or [])]
+        + [accent_fold(e) for e in entities]
         + expansion
     ))
     return " ".join(parts).strip()
