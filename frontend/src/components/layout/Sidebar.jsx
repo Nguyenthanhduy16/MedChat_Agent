@@ -109,6 +109,7 @@ export default function Sidebar({ onNewChat, onSelectSession, currentSessionId, 
       {/* Header: Logo and Toggle */}
       <div className="px-3 pt-3 pb-1 flex items-center justify-between">
         <div className="flex items-center gap-2 pl-2 mt-1">
+          <img src="/logo.png" alt="MedAgent" className="w-7 h-7 object-cover rounded-md" />
           <span className="text-[17px] font-bold text-text-primary tracking-tight">MedChat</span>
         </div>
         <button 

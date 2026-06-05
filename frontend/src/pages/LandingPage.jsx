@@ -22,8 +22,8 @@ export default function LandingPage({ onStartChat, onShowAuth }) {
       {/* ========== NAV BAR ========== */}
       <header className="h-14 bg-surface border-b border-border flex items-center px-8 sticky top-0 z-50">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-white text-sm font-bold">M</span>
+          <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden bg-white">
+            <img src="/logo.png" alt="MedAgent" className="w-full h-full object-cover" />
           </div>
           <span className="text-lg font-bold text-primary tracking-tight">
             MedAgent
@@ -313,8 +313,8 @@ export default function LandingPage({ onStartChat, onShowAuth }) {
       <footer className="border-t border-border bg-surface-muted py-6">
         <div className="max-w-7xl mx-auto px-8 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-primary rounded-md flex items-center justify-center">
-              <span className="text-white text-[10px] font-bold">M</span>
+            <div className="w-6 h-6 rounded-md flex items-center justify-center overflow-hidden bg-white">
+              <img src="/logo.png" alt="MedAgent" className="w-full h-full object-cover" />
             </div>
             <span className="text-sm font-semibold text-text-primary">
               MedAgent

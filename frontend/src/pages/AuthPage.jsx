@@ -213,8 +213,8 @@ export default function AuthPage({ onAuthenticated, onClose }) {
 
         {/* Logo */}
         <div className="relative flex items-center gap-3">
-          <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm">
-            <span className="text-white text-base font-bold">M</span>
+          <div className="w-10 h-10 rounded-xl flex items-center justify-center backdrop-blur-sm overflow-hidden bg-white">
+            <img src="/logo.png" alt="MedAgent" className="w-full h-full object-cover" />
           </div>
           <span className="text-white text-xl font-bold tracking-tight">MedAgent</span>
         </div>
@@ -257,8 +257,8 @@ export default function AuthPage({ onAuthenticated, onClose }) {
 
           {/* Mobile logo */}
           <div className="flex lg:hidden items-center gap-2 mb-8">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white text-sm font-bold">M</span>
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden bg-white">
+              <img src="/logo.png" alt="MedAgent" className="w-full h-full object-cover" />
             </div>
             <span className="text-lg font-bold text-primary">MedAgent</span>
           </div>

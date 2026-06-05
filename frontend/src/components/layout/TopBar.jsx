@@ -11,8 +11,8 @@ export default function TopBar() {
     <header className="h-[var(--height-topbar)] bg-surface border-b border-border flex items-center px-6 gap-6 sticky top-0 z-50">
       {/* Brand */}
       <div className="flex items-center gap-2 shrink-0">
-        <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-          <span className="text-white text-sm font-bold">M</span>
+        <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden bg-white">
+          <img src="/logo.png" alt="MedAgent" className="w-full h-full object-cover" />
         </div>
         <span className="text-lg font-bold text-primary tracking-tight">
           MedAgent
