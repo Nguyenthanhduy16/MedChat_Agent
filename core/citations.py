@@ -15,7 +15,7 @@ def format_citations(
         seen_keys.add(dedupe_key)
         citations.append(
             {
-                "id": f"S{len(citations) + 1}",
+                "id": f"{len(citations) + 1}",
                 "doc_id": dedupe_key,
                 "title": item.title,
                 "url": item.url,

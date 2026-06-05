@@ -8,6 +8,7 @@ class Settings(BaseSettings):
 
     app_name: str = "MedChat Pharmacy Agent"
     openai_api_key: str | None = None
+    openai_base_url: str | None = None
     chat_model: str = "gpt-4.1-mini"
     gemini_api_key: str | None = None
     gemini_model: str = "gemini-2.5-flash"

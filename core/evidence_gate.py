@@ -97,7 +97,7 @@ def assess_coverage(
             
     if classification_uncertain and status == EvidenceStatus.COMPLETE:
         status = EvidenceStatus.USABLE_PARTIAL
-        warnings.append("classification_uncertain")
+        warnings.append("Chủ đề của câu hỏi không hoàn toàn rõ ràng, câu trả lời có thể chỉ mang tính tương đối.")
 
     return EvidenceCoverage(
         status=status,

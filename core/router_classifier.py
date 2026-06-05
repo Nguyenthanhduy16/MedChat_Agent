@@ -118,7 +118,9 @@ class LLMRouterClassifier:
             "  \"entities\": {\"drugs\": [], \"products\": [], \"drug_classes\": [], \"conditions\": [], \"symptoms\": [], \"clinical_qualifiers\": [], \"body_parts\": []},\n"
             "  \"confidence\": float\n"
             "}\n"
-            "IMPORTANT: Extract entities EXACTLY as they appear in the original user query. DO NOT translate them to English. Keep them in Vietnamese.\n"
+            "IMPORTANT INSTRUCTIONS:\n"
+            "1. Extract entities EXACTLY as they appear in the original user query. DO NOT translate them to English. Keep them in Vietnamese.\n"
+            "2. If the query is completely unrelated to pharmacy, medicine, health, or diseases (e.g., math, programming, general chit-chat), you MUST return [\"unsupported\"] for intents.\n"
             "Be precise. Do not add explanations."
         )
         user = f"Question: {normalized.original}\nAudience preference: {request.preferences.audience}"

@@ -1,4 +1,5 @@
 import asyncio
+import json
 import logging
 
 from backend.api.schemas import ChatRequest, ChatResponse, Citation
@@ -260,7 +261,7 @@ class ChatService:
 
         return ChatResponse(
             answer=answer,
-            safety_notice="Thong tin nay khong thay the tu van truc tiep cua nhan vien y te.",
+            safety_notice="Thông tin này không thay thế tư vấn trực tiếp của nhân viên y tế.",
             citations=[Citation(**citation) for citation in citations],
             intents=decision.intents,
             risk_level=decision.risk_level.value,
@@ -270,13 +271,211 @@ class ChatService:
             requires_professional_advice=decision.risk_level in {RiskLevel.HIGH, RiskLevel.URGENT},
         )
 
+    async def chat_stream(self, request: ChatRequest):
+        def event(event_type: str, **payload) -> str:
+            return f"data: {json.dumps({'type': event_type, **payload}, ensure_ascii=False)}\n\n"
+
+        def yield_trace(step: str, message: str) -> str:
+            return event("trace", step=step, message=message)
+
+        logger.info("chat_stream.start message_len=%s", len(request.message))
+        
+        yield yield_trace("safety", "Đang kiểm tra an toàn...")
+        precheck = safety_precheck(request.message)
+        if precheck.should_short_circuit:
+            answer, notice = urgent_response()
+            yield event("token", text=answer)
+            yield event("done", response={"answer": answer, "safety_notice": notice, "citations": [], "intents": ["emergency"], "risk_level": RiskLevel.URGENT.value, "evidence_status": EvidenceStatus.PARTIAL.value, "warnings": precheck.warnings, "confidence": "medium", "requires_professional_advice": True})
+            return
+
+        normalized = normalize_input(request.message)
+        
+        yield yield_trace("routing", "Đang phân tích câu hỏi...")
+        fallback_decision = route_question(request)
+        if self.router_classifier is not None and self.settings.llm_router_enabled:
+            decision = await self.router_classifier.classify(
+                request,
+                normalized=normalized,
+                fallback_decision=fallback_decision,
+                timeout_seconds=self.settings.llm_router_timeout_seconds,
+            )
+        else:
+            decision = fallback_decision
+            decision.classification_uncertain = False
+            
+        logger.info(
+            "chat.route intents=%s risk=%s entities=%s needs_context=%s uncertain=%s",
+            decision.intents,
+            decision.risk_level.value,
+            decision.entities,
+            decision.needs_context,
+            decision.classification_uncertain,
+        )
+            
+        if "unsupported" in decision.intents:
+            response = self._build_unsupported_response(decision)
+            yield event("token", text=response.answer)
+            yield event("done", response=response.model_dump())
+            return
+
+        yield yield_trace("entities", "Đang nhận diện thực thể y tế...")
+        resolved = await resolve_entities(decision.entities, message=request.message)
+        _enrich_decision_entities(decision, resolved)
+        merged_entities = merge_entities(resolved, decision.entities)
+
+        query_plan = plan_query_facets(decision, normalized)
+        plan = combined_retrieval_plan(query_plan, decision)
+        
+        facet_plans = [retrieval_plan_for_facet(facet, decision) for facet in query_plan.facets]
+        facet_query_texts = [_build_hybrid_query("", facet_plan) for facet_plan in facet_plans]
+        
+        yield yield_trace("local_retrieval", "Đang tìm kiếm thông tin cục bộ...")
+        query_vectors = (
+            await self.embedding_model.embed(
+                facet_query_texts,
+                timeout_seconds=self.settings.embedding_timeout_seconds,
+            )
+            if facet_query_texts
+            else []
+        )
+        
+        facet_results: dict[str, list[EvidenceItem]] = {}
+        if request.retrieval_options.qdrant_search:
+            for facet_plan, query_vector, facet in zip(facet_plans, query_vectors, query_plan.facets, strict=True):
+                items = await self.retriever.retrieve(
+                    facet_plan,
+                    query_vector,
+                    timeout_seconds=self.settings.qdrant_query_timeout_seconds,
+                )
+                for item in items:
+                    item.facet_id = facet.intent
+                facet_results[facet.intent] = items
+
+        all_local_items = [item for items in facet_results.values() for item in items]
+
+        coverage = assess_coverage(
+            facet_results,
+            merged_entities,
+            decision.risk_level,
+            decision.classification_uncertain,
+        )
+
+        should_try_web, web_reason = self._should_try_web(request, coverage)
+        web_warnings: list[str] = []
+        if should_try_web:
+            yield yield_trace("web_retrieval", "Đang tìm kiếm thêm thông tin trên Web...")
+            for facet, facet_plan in _facets_for_web_fallback(
+                query_plan.facets,
+                facet_plans,
+                coverage,
+                force_web=request.retrieval_options.force_web,
+            ):
+                try:
+                    query_text = _build_hybrid_query("", facet_plan)
+                    web_sources = await self.web_client.retrieve(
+                        facet_plan,
+                        query_text=query_text,
+                        timeout_seconds=self.settings.web_fetch_timeout_seconds,
+                        max_sources=min(
+                            request.retrieval_options.max_sources,
+                            self.settings.max_web_urls_per_request,
+                        ),
+                        web_mode=request.retrieval_options.web_mode,
+                    )
+                    if web_sources:
+                        web_items = _web_sources_to_evidence_items(web_sources, facet_plan)
+                        for item in web_items:
+                            item.facet_id = facet.intent
+                        facet_results.setdefault(facet.intent, []).extend(web_items)
+                        all_local_items.extend(web_items)
+                except Exception as exc:
+                    web_warnings.append(f"Web evidence retrieval failed for {facet.intent}: {exc}")
+
+            coverage = assess_coverage(
+                facet_results,
+                merged_entities,
+                decision.risk_level,
+                decision.classification_uncertain,
+            )
+
+        if web_warnings:
+            coverage.warnings.extend(web_warnings)
+
+        unique_items = []
+        seen_ids = set()
+        for items in facet_results.values():
+            for item in items:
+                if item.id not in seen_ids:
+                    seen_ids.add(item.id)
+                    unique_items.append(item)
+
+        citations = format_citations(unique_items, limit=self.settings.final_citations_max)
+        
+        yield event("citations", data=citations)
+
+        if coverage.status == EvidenceStatus.INSUFFICIENT:
+            response = self._insufficient_evidence_response(request, decision, coverage)
+            yield event("token", text=response.answer)
+            yield event("done", response=response.model_dump())
+            return
+
+        yield yield_trace("synthesis", "Đang tổng hợp câu trả lời...")
+        messages = build_prompt(
+            request.message,
+            query_plan.facets,
+            facet_results,
+            coverage,
+            citations
+        )
+        
+        full_answer = ""
+        async for chunk in self.chat_model.stream(
+            messages,
+            timeout_seconds=self.settings.llm_timeout_seconds,
+        ):
+            full_answer += chunk
+            yield event("token", text=chunk)
+            
+        if citations and not has_required_citations(full_answer, citations):
+            missing_citation = f" [{citations[0]['id']}]"
+            full_answer += missing_citation
+            yield event("token", text=missing_citation)
+
+        yield yield_trace("verification", "Đang kiểm tra chất lượng câu trả lời...")
+        verify_result = verify_answer(full_answer, coverage, decision.risk_level, citations)
+        if not verify_result.passed:
+            if "Missing high-risk advice" in verify_result.failures[0]:
+                notice = "\n\n(Lưu ý: Bạn nên tham khảo ý kiến bác sĩ hoặc dược sĩ trước khi quyết định.)"
+                full_answer += notice
+                yield event("token", text=notice)
+
+        confidence_val = "high"
+        if coverage.status in {EvidenceStatus.WEAK_PARTIAL, EvidenceStatus.CONFLICTING}:
+            confidence_val = "low"
+        elif coverage.status == EvidenceStatus.USABLE_PARTIAL:
+            confidence_val = "medium"
+
+        final_response = ChatResponse(
+            answer=full_answer,
+            safety_notice="Thông tin này không thay thế tư vấn trực tiếp của nhân viên y tế.",
+            citations=[Citation(**citation) for citation in citations],
+            intents=decision.intents,
+            risk_level=decision.risk_level.value,
+            evidence_status=coverage.status.value,
+            warnings=coverage.warnings,
+            confidence=confidence_val,
+            requires_professional_advice=decision.risk_level in {RiskLevel.HIGH, RiskLevel.URGENT},
+        )
+        
+        yield event("done", response=final_response.model_dump())
+
     def _build_unsupported_response(self, decision: RouterDecision) -> ChatResponse:
         return ChatResponse(
             answer=(
-                "Cau hoi nay nam ngoai pham vi duoc/y te cua he thong, "
-                "nen toi khong co nguon phu hop de tra loi."
+                "Câu hỏi này nằm ngoài phạm vi dược/y tế của hệ thống, "
+                "nên tôi không có nguồn phù hợp để trả lời."
             ),
-            safety_notice="He thong chi cung cap thong tin tham khao trong pham vi duoc va y te.",
+            safety_notice="Hệ thống chỉ cung cấp thông tin tham khảo trong phạm vi dược và y tế.",
             citations=[],
             intents=decision.intents,
             risk_level=decision.risk_level.value,
@@ -290,14 +489,14 @@ class ChatService:
         reason_text = " ".join(coverage.gaps)
         
         answer = (
-            "Toi chua du bang chung dang tin cay de tra loi an toan cho cau hoi nay. "
-            "Bang chung hien co thieu sot nhung phan quan trong so voi yeu cau cua ban.\n"
-            "Vui long cung cap them thong tin hoac hoi truc tiep nhan vien y te."
+            "Tôi chưa đủ bằng chứng đáng tin cậy để trả lời an toàn cho câu hỏi này. "
+            "Bằng chứng hiện có thiếu sót những phần quan trọng so với yêu cầu của bạn.\n"
+            "Vui lòng cung cấp thêm thông tin hoặc hỏi trực tiếp nhân viên y tế."
         )
         logger.info("chat.evidence_gate blocked message_len=%s gaps=%s", len(request.message), reason_text)
         return ChatResponse(
             answer=answer,
-            safety_notice="Thong tin nay khong thay the tu van truc tiep cua nhan vien y te.",
+            safety_notice="Thông tin này không thay thế tư vấn trực tiếp của nhân viên y tế.",
             citations=[],
             intents=decision.intents,
             risk_level=decision.risk_level.value,

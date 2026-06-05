@@ -52,11 +52,11 @@ def build_prompt(
 
     system = (
         "You are a pharmacy safety assistant. Answer in Vietnamese, be concise, "
-        "use only the supplied evidence, cite claims with source markers like [S1], "
+        "use only the supplied evidence, cite claims with source markers like [1], "
         "and advise professional care for high-risk medication questions.\n\n"
         "RULES FOR CITATIONS:\n"
-        "- Do not make medical claims without citing the evidence [S#].\n"
-        "- If combining facts, cite both [S1][S2].\n"
+        "- Do not make medical claims without citing the evidence [#].\n"
+        "- If combining facts, cite both [1][2].\n"
         f"{web_notice}"
     )
     

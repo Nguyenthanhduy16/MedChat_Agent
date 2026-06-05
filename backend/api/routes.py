@@ -4,6 +4,7 @@ import logging
 import traceback
 
 from fastapi import APIRouter, HTTPException
+from fastapi.responses import StreamingResponse
 from qdrant_client import AsyncQdrantClient
 
 from backend.api.schemas import ChatRequest, ChatResponse, IngestResponse, SourceStatusResponse
@@ -71,7 +72,11 @@ def get_chat_service() -> ChatService:
 
 def _build_chat_model(settings: Settings):
     openai_model = (
-        OpenAIChatModel(api_key=settings.openai_api_key, model=settings.chat_model)
+        OpenAIChatModel(
+            api_key=settings.openai_api_key, 
+            model=settings.chat_model,
+            base_url=settings.openai_base_url,
+        )
         if settings.openai_api_key
         else None
     )
@@ -112,6 +117,32 @@ async def chat(request: ChatRequest) -> ChatResponse:
     except Exception as exc:
         logger.error("Chat endpoint error:\n%s", traceback.format_exc())
         raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+
+@router.post("/chat/stream")
+async def chat_stream_endpoint(request: ChatRequest):
+    async def event_generator():
+        import json
+        yield (
+            "data: "
+            + json.dumps(
+                {
+                    "type": "trace",
+                    "step": "connect",
+                    "message": "Đang kết nối tới máy chủ...",
+                },
+                ensure_ascii=False,
+            )
+            + "\n\n"
+        )
+        try:
+            async for event in get_chat_service().chat_stream(request):
+                yield event
+        except Exception as exc:
+            logger.error("Chat stream endpoint error:\n%s", traceback.format_exc())
+            yield f"data: {json.dumps({'type': 'error', 'message': str(exc)}, ensure_ascii=False)}\n\n"
+
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
 
 
 @router.post("/ingest", response_model=IngestResponse)

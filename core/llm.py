@@ -18,6 +18,9 @@ class ChatModel(Protocol):
     async def generate(self, messages: list[dict[str, str]], timeout_seconds: float) -> str:
         raise NotImplementedError
 
+    async def stream(self, messages: list[dict[str, str]], timeout_seconds: float):
+        raise NotImplementedError
+
 
 class EmbeddingModel(Protocol):
     async def embed(
@@ -45,6 +48,11 @@ class FakeChatModel:
 
     async def generate(self, messages: list[dict[str, str]], timeout_seconds: float) -> str:
         return self.answer
+
+    async def stream(self, messages: list[dict[str, str]], timeout_seconds: float):
+        words = self.answer.split(" ")
+        for i, word in enumerate(words):
+            yield word + (" " if i < len(words) - 1 else "")
 
 
 class FakeEmbeddingModel:
@@ -104,10 +112,27 @@ class FallbackChatModel:
         except Exception:
             return await self.secondary.generate(messages, timeout_seconds)
 
+    async def stream(self, messages: list[dict[str, str]], timeout_seconds: float):
+        try:
+            generator = self.primary.stream(messages, timeout_seconds)
+            try:
+                first_chunk = await generator.__anext__()
+            except StopAsyncIteration:
+                return
+            yield first_chunk
+            async for chunk in generator:
+                yield chunk
+        except Exception:
+            async for chunk in self.secondary.stream(messages, timeout_seconds):
+                yield chunk
+
 
 class OpenAIChatModel:
-    def __init__(self, api_key: str, model: str) -> None:
-        self.client = AsyncOpenAI(api_key=api_key, http_client=httpx.AsyncClient())
+    def __init__(self, api_key: str, model: str, base_url: str | None = None) -> None:
+        kwargs = {"api_key": api_key, "http_client": httpx.AsyncClient()}
+        if base_url:
+            kwargs["base_url"] = base_url
+        self.client = AsyncOpenAI(**kwargs)
         self.model = model
 
     async def generate(self, messages: list[dict[str, str]], timeout_seconds: float) -> str:
@@ -115,9 +140,22 @@ class OpenAIChatModel:
             model=self.model,
             messages=messages,
             timeout=timeout_seconds,
+            max_tokens=1500,
         )
         content = response.choices[0].message.content
         return content or ""
+
+    async def stream(self, messages: list[dict[str, str]], timeout_seconds: float):
+        response = await self.client.chat.completions.create(
+            model=self.model,
+            messages=messages,
+            timeout=timeout_seconds,
+            max_tokens=1500,
+            stream=True,
+        )
+        async for chunk in response:
+            if chunk.choices and chunk.choices[0].delta.content:
+                yield chunk.choices[0].delta.content
 
 
 class GeminiChatModel:
@@ -142,6 +180,31 @@ class GeminiChatModel:
         payload = response.json()
         parts = payload["candidates"][0]["content"].get("parts", [])
         return "".join(str(part.get("text", "")) for part in parts)
+
+    async def stream(self, messages: list[dict[str, str]], timeout_seconds: float):
+        import json
+        async with self.http_client.stream(
+            "POST",
+            f"/v1beta/models/{self.model}:streamGenerateContent?alt=sse",
+            params={"key": self.api_key},
+            json=_gemini_payload(messages),
+            timeout=timeout_seconds,
+        ) as response:
+            response.raise_for_status()
+            async for line in response.aiter_lines():
+                if line.startswith("data: "):
+                    data_str = line[len("data: "):]
+                    if data_str == "[DONE]":
+                        break
+                    try:
+                        data = json.loads(data_str)
+                        if "candidates" in data and data["candidates"]:
+                            parts = data["candidates"][0].get("content", {}).get("parts", [])
+                            for part in parts:
+                                if "text" in part:
+                                    yield part["text"]
+                    except json.JSONDecodeError:
+                        pass
 
 
 class OpenAIEmbeddingModel:
