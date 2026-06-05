@@ -16,6 +16,7 @@ def format_citations(
         citations.append(
             {
                 "id": f"S{len(citations) + 1}",
+                "doc_id": dedupe_key,
                 "title": item.title,
                 "url": item.url,
                 "source": item.source,

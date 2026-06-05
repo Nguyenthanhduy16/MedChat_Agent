@@ -53,6 +53,7 @@ class ChatRequest(BaseModel):
 
 class Citation(BaseModel):
     id: str
+    doc_id: str | None = None
     title: str
     url: str | None = None
     source: str

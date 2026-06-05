@@ -6,18 +6,19 @@ import re
 from core.models import EvidenceItem, EvidenceStatus, MergedEntities, RiskLevel
 from core.text import accent_fold
 
-ENTITY_TOKEN_STOPWORDS = {
-    "thuoc",
-    "nho",
-    "mat",
-    "dung",
-    "dich",
-    "vien",
-    "siro",
-    "chai",
-    "hop",
-    "duoc",
-}
+STOP_PHRASES = [
+    "thuoc nho mat", "thuoc nho mui", "thuoc boi", "thuoc uong", "thuoc tiem", "thuoc xit", 
+    "thuoc", "vien nen", "vien nang", "vien sui", "dung dich", "hon dich", "siro", 
+    "tuyp", "chai", "hop", "vi", "ong", "tpcn", "thuc pham chuc nang"
+]
+STOP_PHRASE_PATTERN = re.compile(r"\b(" + "|".join(STOP_PHRASES) + r")\b", flags=re.IGNORECASE)
+
+ENTITY_TOKEN_STOP_PATTERNS = (
+    re.compile(r"^\d+(?:\.\d+)?(?:mg|mcg|g|kg|ml|l|iu|ui|%)$"),
+    re.compile(r"^\d+x\d+$"),
+    re.compile(r"^\d+(?:v|vien|goi|ong|lo|chai|hop)$"),
+    re.compile(r"^(?:mg|mcg|g|kg|ml|l|iu|ui)$"),
+)
 
 
 @dataclass
@@ -118,9 +119,12 @@ def _entity_covered(entity: str, folded_text: str) -> bool:
     if folded_entity in folded_text:
         return True
 
+    # Loai bo cac cum tu rac truoc khi tach tu
+    cleaned_entity = STOP_PHRASE_PATTERN.sub(" ", folded_entity)
+
     tokens = [
         token
-        for token in folded_entity.split()
+        for token in cleaned_entity.split()
         if _is_distinctive_entity_token(token)
     ]
     if not tokens:
@@ -139,8 +143,11 @@ def _entity_covered(entity: str, folded_text: str) -> bool:
 
 
 def _is_distinctive_entity_token(token: str) -> bool:
-    return (
-        len(token) >= 3
-        and token not in ENTITY_TOKEN_STOPWORDS
-        and not token.isdigit()
-    )
+    # Cho phep giu lai cac token ngan (C, A, B1) hoac so (500)
+    # chi bo qua cac ky tu don le khong phai chu/so
+    if len(token) == 1 and not token.isalnum():
+        return False
+    # Bo qua cac token la lieu luong/nong do de evidence gate khong bi reject oan
+    if any(pattern.match(token) for pattern in ENTITY_TOKEN_STOP_PATTERNS):
+        return False
+    return True

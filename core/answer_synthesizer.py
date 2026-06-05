@@ -21,7 +21,7 @@ def build_prompt(
     citations: list[dict[str, str | None]],
 ) -> list[dict[str, str]]:
     
-    citation_lookup = {str(c["id"]): c for c in citations}
+    item_to_citation = {c.get("doc_id", ""): c["id"] for c in citations}
     evidence_blocks: list[str] = []
     
     for facet in facets:
@@ -30,9 +30,10 @@ def build_prompt(
             continue
             
         block = f"--- Evidence for: {facet.intent} ---\n"
-        for index, item in enumerate(items, start=1):
-            marker = f"S{index}"
-            if marker not in citation_lookup:
+        for item in items:
+            dedupe_key = item.url if item.url else item.id
+            marker = item_to_citation.get(dedupe_key)
+            if not marker:
                 continue
             is_web = item.trust_tier == "web_whitelisted" or (item.id or "").startswith("web:")
             source_tag = "[WEB]" if is_web else "[LOCAL]"

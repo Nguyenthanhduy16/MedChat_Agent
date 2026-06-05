@@ -21,6 +21,12 @@ def main() -> None:
         check_compatibility=False,
         timeout=settings.qdrant_upsert_timeout_seconds,
     )
+
+    from core.idf_builder import build_idf_weights
+    from core.sparse_vectors import _IDF_FILE
+    print(f"Building Global IDF from {args.path}...")
+    build_idf_weights(Path(args.path), _IDF_FILE)
+    print("IDF build complete.")
     report = asyncio.run(
         ingest_directory_async(
             Path(args.path),

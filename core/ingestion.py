@@ -5,7 +5,7 @@ from typing import Any
 from uuid import NAMESPACE_URL, uuid5
 from datetime import UTC, datetime
 
-from qdrant_client.http.models import Distance, PayloadSchemaType, PointStruct, SparseVectorParams, VectorParams
+from qdrant_client.http.models import Distance, Modifier, PayloadSchemaType, PointStruct, SparseVectorParams, VectorParams
 
 from core.config import Settings, get_settings
 from core.llm import EmbeddingModel
@@ -252,7 +252,7 @@ async def _ensure_collection(qdrant_client: Any, settings: Settings) -> None:
                 "dense": VectorParams(size=settings.qdrant_vector_size, distance=Distance.COSINE),
             },
             sparse_vectors_config={
-                "sparse": SparseVectorParams(),
+                "sparse": SparseVectorParams(modifier=Modifier.IDF),
             },
         )
     await _ensure_payload_indexes(qdrant_client, settings)
