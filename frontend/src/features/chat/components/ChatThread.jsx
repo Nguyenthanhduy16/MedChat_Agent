@@ -8,7 +8,7 @@ import WelcomeScreen from './WelcomeScreen';
 import { useChat } from '../hooks/useChat';
 import { hasActiveAssistantTrace } from '../utils/messageState';
 
-export default function ChatThread({ messages, isLoading, error, sendMessage, onRetry, onRequireAuth }) {
+export default function ChatThread({ messages, isLoading, error, sendMessage, onRetry, onRequireAuth, onShowSources }) {
   const scrollRef = useRef(null);
   const hasTraceStatus = hasActiveAssistantTrace(messages);
 
@@ -41,7 +41,7 @@ export default function ChatThread({ messages, isLoading, error, sendMessage, on
                   </div>
                 );
               }
-              return <MessageBubble key={msg.id} message={msg} onRetry={onRetry} />;
+              return <MessageBubble key={msg.id} message={msg} onRetry={onRetry} onShowSources={onShowSources} />;
             })}
             
             {/* Loading Indicator */}

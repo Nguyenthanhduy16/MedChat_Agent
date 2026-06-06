@@ -51,7 +51,9 @@ export function useChat() {
         
         botResponse = {
           answer: "Đây là câu trả lời mẫu từ MedAgent Mock API.",
-          sources: "MedAgent Knowledge Base",
+          sources: [
+            { id: 1, title: 'MedAgent Knowledge Base', url: 'https://medagent.vn/kb' }
+          ],
           is_image: false,
           image: null
         };
@@ -83,7 +85,7 @@ export function useChat() {
           role: 'assistant',
           timestamp: getCurrentTime(),
           content: '',
-          sources: '',
+          sources: [],
           trace_status: 'Đang kết nối tới máy chủ...',
         };
         
@@ -99,17 +101,13 @@ export function useChat() {
                 } else if (data.type === 'token') {
                   return { ...msg, content: msg.content + data.text };
                 } else if (data.type === 'citations') {
-                  const citationText = Array.isArray(data.data) && data.data.length > 0
-                    ? data.data
-                        .map((citation) => `[${citation.id}] ${citation.title}${citation.url ? ` - ${citation.url}` : ''}`)
-                        .join('\n\n')
-                    : '';
-                  return { ...msg, sources: citationText };
+                  return { ...msg, sources: data.data || [] };
                 } else if (data.type === 'done') {
                   const noticeText = [data.response.safety_notice, ...(data.response.warnings || [])]
                     .filter(Boolean)
                     .join('\n');
-                  const finalContent = noticeText ? `${msg.content}\n\n${noticeText}` : msg.content;
+                  const finalAnswer = data.response.answer || msg.content;
+                  const finalContent = noticeText ? `${finalAnswer}\n\n${noticeText}` : finalAnswer;
                   return { ...msg, content: finalContent, trace_status: null };
                 } else if (data.type === 'error') {
                   return { ...msg, content: `Lỗi kết nối: ${data.message}`, isError: true, trace_status: null };

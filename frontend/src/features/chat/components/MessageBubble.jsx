@@ -1,13 +1,14 @@
 import { useState } from 'react';
-import { Bot, Quote, Copy, Check } from 'lucide-react';
+import { Bot, Quote, Copy, Check, ThumbsUp, ThumbsDown, Share, RefreshCw, Volume2, Square } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { cn } from '../../../utils/cn';
 
-export default function MessageBubble({ message, onRetry }) {
+export default function MessageBubble({ message, onRetry, onShowSources }) {
   const isUser = message.role === 'user';
   const isError = message.isError;
   const [copied, setCopied] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
 
   if (!isUser && !message.content && !message.trace_status && !isError) {
     return null;
@@ -17,6 +18,31 @@ export default function MessageBubble({ message, onRetry }) {
     navigator.clipboard.writeText(message.content);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleSpeak = () => {
+    if (!('speechSynthesis' in window)) {
+      alert('Trình duyệt của bạn không hỗ trợ tính năng đọc văn bản.');
+      return;
+    }
+
+    if (isSpeaking) {
+      window.speechSynthesis.cancel();
+      setIsSpeaking(false);
+    } else {
+      // Dọn dẹp hàng đợi trước khi đọc mới
+      window.speechSynthesis.cancel();
+      
+      const utterance = new SpeechSynthesisUtterance(message.content);
+      utterance.lang = 'vi-VN';
+      utterance.rate = 1.0;
+      
+      utterance.onend = () => setIsSpeaking(false);
+      utterance.onerror = () => setIsSpeaking(false);
+      
+      setIsSpeaking(true);
+      window.speechSynthesis.speak(utterance);
+    }
   };
 
   return (
@@ -61,15 +87,53 @@ export default function MessageBubble({ message, onRetry }) {
                     : 'bg-surface border border-border text-text-primary rounded-2xl shadow-sm'
               )}
             >
-              {/* Copy Button (only for assistant) */}
+              {/* Action Buttons (only for assistant) */}
               {!isUser && !isError && (
-                <button
-                  onClick={handleCopy}
-                  className="absolute -bottom-8 left-0 opacity-0 group-hover/msg:opacity-100 p-1.5 rounded-md text-text-muted hover:text-text-primary hover:bg-surface-hover transition-all z-10 flex items-center gap-1"
-                  title="Sao chép"
-                >
-                  {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
-                </button>
+                <div className="absolute -bottom-9 left-0 opacity-0 group-hover/msg:opacity-100 flex items-center gap-1 z-10">
+                  <button
+                    onClick={handleCopy}
+                    className="p-1.5 rounded-md text-text-muted hover:text-text-primary hover:bg-surface-hover transition-all flex items-center gap-1"
+                    title="Sao chép"
+                  >
+                    {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
+                  </button>
+                  <button className="p-1.5 rounded-md text-text-muted hover:text-text-primary hover:bg-surface-hover transition-all" title="Tốt">
+                    <ThumbsUp className="w-4 h-4" />
+                  </button>
+                  <button className="p-1.5 rounded-md text-text-muted hover:text-text-primary hover:bg-surface-hover transition-all" title="Chưa tốt">
+                    <ThumbsDown className="w-4 h-4" />
+                  </button>
+                  <button className="p-1.5 rounded-md text-text-muted hover:text-text-primary hover:bg-surface-hover transition-all" title="Chia sẻ">
+                    <Share className="w-4 h-4" />
+                  </button>
+                  <button className="p-1.5 rounded-md text-text-muted hover:text-text-primary hover:bg-surface-hover transition-all" title="Tạo lại" onClick={onRetry}>
+                    <RefreshCw className="w-4 h-4" />
+                  </button>
+                  <button 
+                    onClick={handleSpeak}
+                    className={cn(
+                      "p-1.5 rounded-md transition-all",
+                      isSpeaking 
+                        ? "text-primary bg-primary/10 hover:bg-primary/20" 
+                        : "text-text-muted hover:text-text-primary hover:bg-surface-hover"
+                    )} 
+                    title={isSpeaking ? "Dừng đọc" : "Đọc văn bản"}
+                  >
+                    {isSpeaking ? <Square className="w-4 h-4 fill-current" /> : <Volume2 className="w-4 h-4" />}
+                  </button>
+                  {message.sources && message.sources.length > 0 && (
+                    <button
+                      onClick={() => onShowSources(message.sources)}
+                      className="px-2 py-1 rounded-full text-text-muted hover:text-primary hover:bg-primary/5 border border-transparent hover:border-primary/20 transition-all flex items-center gap-1.5"
+                      title="Xem nguồn trích dẫn"
+                    >
+                      <div className="flex items-center justify-center w-[18px] h-[18px] rounded-full bg-blue-100 text-blue-700 text-[9px] font-black tracking-tighter">
+                        FR
+                      </div>
+                      <span className="text-[12px] font-bold">Nguồn</span>
+                    </button>
+                  )}
+                </div>
               )}
 
               {isUser ? (
@@ -104,18 +168,6 @@ export default function MessageBubble({ message, onRetry }) {
                 </div>
               )}
 
-              {/* Sources Section */}
-              {!isUser && message.sources && (
-                <div className="mt-3 pt-3 border-t border-border/50">
-                  <div className="flex items-center gap-1.5 mb-1 text-[10px] font-bold text-text-muted uppercase tracking-wider">
-                    <Quote className="w-3 h-3" />
-                    Nguồn trích dẫn
-                  </div>
-                  <p className="whitespace-pre-wrap text-[11px] text-text-secondary leading-relaxed italic">
-                    {message.sources}
-                  </p>
-                </div>
-              )}
             </div>
 
             {/* Timestamp */}

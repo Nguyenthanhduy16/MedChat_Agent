@@ -10,6 +10,7 @@ import SettingsModal from '../features/chat/components/SettingsModal';
 import { ArrowLeft, LogIn, X } from 'lucide-react';
 import { cn } from '../utils/cn';
 import { useChat } from '../features/chat/hooks/useChat';
+import SourcesSidebar from '../features/chat/components/SourcesSidebar';
 
 function LoginPromptModal({ onClose, onShowAuth }) {
   return (
@@ -59,6 +60,7 @@ export default function ChatPage({ onShowAuth }) {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [showLoginPrompt, setShowLoginPrompt] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [activeSources, setActiveSources] = useState(null);
 
   const {
     messages,
@@ -144,8 +146,16 @@ export default function ChatPage({ onShowAuth }) {
             sendMessage={sendMessage}
             onRetry={retry}
             onRequireAuth={undefined} // user ? undefined : handleRequireAuth
+            onShowSources={setActiveSources}
           />
         </main>
+        
+        {/* Right Sidebar for Sources */}
+        <SourcesSidebar 
+          sources={activeSources} 
+          isOpen={!!activeSources} 
+          onClose={() => setActiveSources(null)} 
+        />
       </div>
 
       <SettingsModal isOpen={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} />

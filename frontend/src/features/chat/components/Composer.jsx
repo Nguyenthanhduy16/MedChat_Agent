@@ -189,161 +189,166 @@ export default function Composer({ onSend, disabled, onRequireAuth }) {
             </div>
           )}
 
-          <div className="flex items-end px-2 py-2">
-            {/* Left Actions */}
-            <div className="relative" ref={plusMenuRef}>
-              <input 
-                type="file" 
-                multiple
-                ref={fileInputRef}
-                onChange={handleFileChange}
-                className="hidden" 
-                accept="image/*,application/pdf,.doc,.docx,.txt"
+          <div className="flex flex-col p-2">
+            {/* Input */}
+            <div className="px-2 pt-1 pb-1">
+              <textarea
+                ref={textareaRef}
+                rows={1}
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                onKeyDown={handleKeyDown}
+                disabled={disabled}
+                placeholder={disabled ? "MedAgent đang xử lý..." : "Hỏi về triệu chứng, thuốc hoặc vấn đề sức khỏe..."}
+                className="w-full bg-transparent py-1 text-[15px] text-text-primary placeholder:text-text-muted focus:outline-none disabled:opacity-50 resize-none overflow-y-auto leading-relaxed"
+                style={{ maxHeight: '400px' }}
               />
-              <button
-                type="button"
-                onClick={() => setShowPlusMenu(p => !p)}
-                className="w-10 h-10 flex items-center justify-center rounded-full text-text-muted transition-colors shrink-0 group"
-                title="Thêm tệp và nhiều tính năng khác /"
-              >
-                <div className={`w-8 h-8 rounded-full border flex items-center justify-center transition-colors ${showPlusMenu ? 'bg-surface border-border' : 'border-transparent group-hover:bg-surface group-hover:border-border'}`}>
-                  <Plus className="w-5 h-5 text-text-primary" />
-                </div>
-              </button>
-
-              {/* Plus Menu */}
-              {showPlusMenu && (
-                <div className="absolute bottom-full left-0 mb-2 w-64 bg-white border border-border shadow-panel rounded-2xl py-2 overflow-hidden z-50">
-                  <button 
-                    type="button"
-                    onClick={() => { fileInputRef.current?.click(); setShowPlusMenu(false); }}
-                    className="w-full flex items-center gap-3 px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
-                  >
-                    <Paperclip className="w-5 h-5 text-text-secondary" />
-                    <span>Tải lên ảnh & tệp</span>
-                  </button>
-                  <button 
-                    type="button"
-                    className="w-full flex items-center justify-between px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
-                  >
-                    <div className="flex items-center gap-3">
-                      <FileText className="w-5 h-5 text-text-secondary" />
-                      <span>Các tệp gần đây</span>
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-text-muted" />
-                  </button>
-                  
-                  <div className="h-px bg-border my-1.5 mx-4"></div>
-                  
-                  <button 
-                    type="button"
-                    className="w-full flex items-center gap-3 px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
-                  >
-                    <ImageIcon className="w-5 h-5 text-text-secondary" />
-                    <span>Tạo hình ảnh</span>
-                  </button>
-                  <button 
-                    type="button"
-                    className="w-full flex items-center gap-3 px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
-                  >
-                    <Telescope className="w-5 h-5 text-text-secondary" />
-                    <span>Nghiên cứu chuyên sâu</span>
-                  </button>
-                  <button 
-                    type="button"
-                    className="w-full flex items-center gap-3 px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
-                  >
-                    <Globe className="w-5 h-5 text-text-secondary" />
-                    <span>Tìm kiếm trên mạng</span>
-                  </button>
-                  <button 
-                    type="button"
-                    className="w-full flex items-center justify-between px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary mt-1"
-                  >
-                    <div className="flex items-center gap-3">
-                      <MoreHorizontal className="w-5 h-5 text-text-secondary" />
-                      <span>Thêm</span>
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-text-muted" />
-                  </button>
-                </div>
-              )}
             </div>
 
-            {/* Input */}
-            <textarea
-              ref={textareaRef}
-              rows={1}
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              onKeyDown={handleKeyDown}
-              disabled={disabled}
-              placeholder={disabled ? "MedAgent đang xử lý..." : "Hỏi về triệu chứng, thuốc hoặc vấn đề sức khỏe..."}
-              className="flex-1 bg-transparent px-3 py-2 text-sm text-text-primary placeholder:text-text-muted focus:outline-none disabled:opacity-50 min-w-0 resize-none overflow-y-auto"
-              style={{ maxHeight: '200px' }}
-            />
+            {/* Actions Row */}
+            <div className="flex items-center justify-between mt-1 px-1">
+              {/* Left Actions */}
+              <div className="flex items-center">
+                <div className="relative" ref={plusMenuRef}>
+                  <input 
+                    type="file" 
+                    multiple
+                    ref={fileInputRef}
+                    onChange={handleFileChange}
+                    className="hidden" 
+                    accept="image/*,application/pdf,.doc,.docx,.txt"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowPlusMenu(p => !p)}
+                    className="w-9 h-9 flex items-center justify-center rounded-full text-text-muted transition-colors shrink-0 group hover:bg-surface-hover"
+                    title="Thêm tệp và nhiều tính năng khác /"
+                  >
+                    <Plus className="w-5 h-5 text-text-primary" />
+                  </button>
 
-            {/* Right Actions */}
-            <div className="flex items-center gap-1 pr-1 shrink-0">
-              {/* Mode Selector */}
-              <div className="relative" ref={menuRef}>
-                <button
-                  type="button"
-                  onClick={() => setShowModeMenu(m => !m)}
-                  className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-muted hover:bg-surface-hover transition-colors text-[13px] font-medium text-text-primary mr-1"
-                >
-                  {mode === 'instant' ? 'Instant' : 'Lâu hơn'}
-                  <ChevronDown className="w-3.5 h-3.5" />
-                </button>
-                
-                {showModeMenu && (
-                  <div className="absolute bottom-full right-0 mb-2 w-48 bg-white border border-border shadow-panel rounded-2xl py-2 overflow-hidden z-50">
-                    <div className="px-4 py-2 mb-1">
-                      <span className="text-[13px] font-medium text-text-muted">Mới nhất • 5.5</span>
+                  {/* Plus Menu */}
+                  {showPlusMenu && (
+                    <div className="absolute bottom-full left-0 mb-2 w-64 bg-white border border-border shadow-panel rounded-2xl py-2 overflow-hidden z-50">
+                      <button 
+                        type="button"
+                        onClick={() => { fileInputRef.current?.click(); setShowPlusMenu(false); }}
+                        className="w-full flex items-center gap-3 px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
+                      >
+                        <Paperclip className="w-5 h-5 text-text-secondary" />
+                        <span>Tải lên ảnh & tệp</span>
+                      </button>
+                      <button 
+                        type="button"
+                        className="w-full flex items-center justify-between px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
+                      >
+                        <div className="flex items-center gap-3">
+                          <FileText className="w-5 h-5 text-text-secondary" />
+                          <span>Các tệp gần đây</span>
+                        </div>
+                        <ChevronRight className="w-4 h-4 text-text-muted" />
+                      </button>
+                      
+                      <div className="h-px bg-border my-1.5 mx-4"></div>
+                      
+                      <button 
+                        type="button"
+                        className="w-full flex items-center gap-3 px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
+                      >
+                        <ImageIcon className="w-5 h-5 text-text-secondary" />
+                        <span>Tạo hình ảnh</span>
+                      </button>
+                      <button 
+                        type="button"
+                        className="w-full flex items-center gap-3 px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
+                      >
+                        <Telescope className="w-5 h-5 text-text-secondary" />
+                        <span>Nghiên cứu chuyên sâu</span>
+                      </button>
+                      <button 
+                        type="button"
+                        className="w-full flex items-center gap-3 px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
+                      >
+                        <Globe className="w-5 h-5 text-text-secondary" />
+                        <span>Tìm kiếm trên mạng</span>
+                      </button>
+                      <button 
+                        type="button"
+                        className="w-full flex items-center justify-between px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary mt-1"
+                      >
+                        <div className="flex items-center gap-3">
+                          <MoreHorizontal className="w-5 h-5 text-text-secondary" />
+                          <span>Thêm</span>
+                        </div>
+                        <ChevronRight className="w-4 h-4 text-text-muted" />
+                      </button>
                     </div>
-                    <button 
-                      type="button"
-                      onClick={() => { setMode('instant'); setShowModeMenu(false); }}
-                      className="w-full flex items-center justify-between px-4 py-2.5 text-sm text-left hover:bg-surface-hover transition-colors"
-                    >
-                      <span className={mode === 'instant' ? 'text-text-primary' : 'text-text-secondary'}>Instant</span>
-                    </button>
-                    <button 
-                      type="button"
-                      onClick={() => { setMode('thinking'); setShowModeMenu(false); }}
-                      className="w-full flex items-center justify-between px-4 py-2.5 text-sm text-left hover:bg-surface-hover transition-colors"
-                    >
-                      <span className={mode === 'thinking' ? 'text-text-primary' : 'text-text-secondary'}>
-                        Thinking <span className="text-text-muted ml-0.5">• Lâu hơn</span>
-                      </span>
-                    </button>
-                    <div className="h-px bg-border my-1.5 mx-4"></div>
-                    <button type="button" className="w-full flex items-center px-4 py-2 text-sm text-left hover:bg-surface-hover transition-colors text-text-primary">
-                      Định cấu hình...
-                    </button>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
 
-              <button
-                type="button"
-                onClick={toggleRecording}
-                className={`w-9 h-9 hidden sm:flex items-center justify-center rounded-full transition-colors ${
-                  isRecording 
-                    ? 'text-danger bg-danger/10 hover:bg-danger/20' 
-                    : 'text-text-muted hover:bg-surface-hover hover:text-text-primary'
-                }`}
-                title={isRecording ? "Dừng ghi âm" : "Nhập bằng giọng nói"}
-              >
-                <Mic className={`w-5 h-5 ${isRecording ? 'animate-pulse' : ''}`} />
-              </button>
-              <button
-                type="submit"
-                disabled={(!message.trim() && attachedFiles.length === 0) || disabled}
-                className="w-9 h-9 flex items-center justify-center rounded-full transition-all disabled:opacity-50 disabled:bg-surface-muted disabled:text-text-muted bg-primary text-white hover:bg-primary-dark"
-              >
-                <Send className="w-4 h-4 ml-0.5" />
-              </button>
+              {/* Right Actions */}
+              <div className="flex items-center gap-1 shrink-0">
+                {/* Mode Selector */}
+                <div className="relative" ref={menuRef}>
+                  <button
+                    type="button"
+                    onClick={() => setShowModeMenu(m => !m)}
+                    className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-muted hover:bg-surface-hover transition-colors text-[13px] font-medium text-text-primary mr-1"
+                  >
+                    {mode === 'instant' ? 'Instant' : 'Lâu hơn'}
+                    <ChevronDown className="w-3.5 h-3.5" />
+                  </button>
+                  
+                  {showModeMenu && (
+                    <div className="absolute bottom-full right-0 mb-2 w-48 bg-white border border-border shadow-panel rounded-2xl py-2 overflow-hidden z-50">
+                      <div className="px-4 py-2 mb-1">
+                        <span className="text-[13px] font-medium text-text-muted">Mới nhất • 5.5</span>
+                      </div>
+                      <button 
+                        type="button"
+                        onClick={() => { setMode('instant'); setShowModeMenu(false); }}
+                        className="w-full flex items-center justify-between px-4 py-2.5 text-sm text-left hover:bg-surface-hover transition-colors"
+                      >
+                        <span className={mode === 'instant' ? 'text-text-primary' : 'text-text-secondary'}>Instant</span>
+                      </button>
+                      <button 
+                        type="button"
+                        onClick={() => { setMode('thinking'); setShowModeMenu(false); }}
+                        className="w-full flex items-center justify-between px-4 py-2.5 text-sm text-left hover:bg-surface-hover transition-colors"
+                      >
+                        <span className={mode === 'thinking' ? 'text-text-primary' : 'text-text-secondary'}>
+                          Thinking <span className="text-text-muted ml-0.5">• Lâu hơn</span>
+                        </span>
+                      </button>
+                      <div className="h-px bg-border my-1.5 mx-4"></div>
+                      <button type="button" className="w-full flex items-center px-4 py-2 text-sm text-left hover:bg-surface-hover transition-colors text-text-primary">
+                        Định cấu hình...
+                      </button>
+                    </div>
+                  )}
+                </div>
+
+                <button
+                  type="button"
+                  onClick={toggleRecording}
+                  className={`w-9 h-9 hidden sm:flex items-center justify-center rounded-full transition-colors ${
+                    isRecording 
+                      ? 'text-danger bg-danger/10 hover:bg-danger/20' 
+                      : 'text-text-muted hover:bg-surface-hover hover:text-text-primary'
+                  }`}
+                  title={isRecording ? "Dừng ghi âm" : "Nhập bằng giọng nói"}
+                >
+                  <Mic className={`w-5 h-5 ${isRecording ? 'animate-pulse' : ''}`} />
+                </button>
+                <button
+                  type="submit"
+                  disabled={(!message.trim() && attachedFiles.length === 0) || disabled}
+                  className="w-9 h-9 flex items-center justify-center rounded-full transition-all disabled:opacity-50 disabled:bg-surface-muted disabled:text-text-muted bg-primary text-white hover:bg-primary-dark"
+                >
+                  <Send className="w-4 h-4 ml-0.5" />
+                </button>
+              </div>
             </div>
           </div>
         </form>
