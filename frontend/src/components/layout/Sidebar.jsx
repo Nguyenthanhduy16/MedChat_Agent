@@ -11,6 +11,7 @@ import {
   Search,
   Trash2,
   Hexagon,
+  User,
 } from 'lucide-react';
 import { cn } from '../../utils/cn';
 import { useLanguage } from '../../context/LanguageContext';
@@ -97,8 +98,22 @@ export default function Sidebar({ onNewChat, onSelectSession, currentSessionId, 
 
         <div className="flex-1"></div>
 
-        <button onClick={onOpenSettings} className="w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border shadow-sm mb-2 hover:bg-surface-hover text-text-primary">
+        <button onClick={onOpenSettings} className="w-10 h-10 flex items-center justify-center rounded-lg hover:bg-surface transition-colors mb-2 text-text-secondary hover:text-text-primary" title="Cài đặt">
           <Settings className="w-5 h-5" />
+        </button>
+
+        <button 
+          onClick={user ? undefined : onShowAuth}
+          className="w-10 h-10 flex items-center justify-center rounded-full bg-surface border border-border shadow-sm hover:bg-surface-hover transition-colors text-text-secondary overflow-hidden shrink-0 mt-2"
+          title={user ? "Hồ sơ của bạn" : "Đăng nhập"}
+        >
+          {user ? (
+            <div className="w-full h-full bg-primary flex items-center justify-center text-[13px] font-semibold text-white">
+              {user.name ? user.name.split(' ').filter(Boolean).slice(0, 2).map(w => w[0].toUpperCase()).join('') : <User className="w-5 h-5" />}
+            </div>
+          ) : (
+            <User className="w-5 h-5" />
+          )}
         </button>
       </aside>
     );

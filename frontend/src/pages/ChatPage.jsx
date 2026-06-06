@@ -53,7 +53,7 @@ function LoginPromptModal({ onClose, onShowAuth }) {
   );
 }
 
-export default function ChatPage({ onBack, onShowAuth }) {
+export default function ChatPage({ onShowAuth }) {
   const { t } = useLanguage();
   const { user } = useAuth();
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
