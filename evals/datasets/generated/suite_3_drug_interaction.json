@@ -1,0 +1,1279 @@
+[
+  {
+    "user_input": "Abacavir có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Với các thuốc bị chuyển hóa bởi hệ men gan D o các enzym cytochrom P450 gây chuyển hóa abacavir không đáng kể, nên ít có tương tác với các thuốc chuyển hóa bởi hệ men này. Với alcohol (rượu): Không có tương tác lâm sàng giữa rượu và abacavir, nhưng rượu làm chậm thải trừ abacavir và do đó làm tăng nồng độ thuốc trong máu. Không thấy có phản ứng kiểu disulfiram.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Với các thuốc bị chuyển hóa bởi hệ men gan D o các enzym cytochrom P450 gây chuyển hóa abacavir không đáng kể, nên ít có tương tác với các thuốc chuyển hóa bởi hệ men này. Với alcohol (rượu): Không có tương tác lâm sàng giữa rượu và abacavir, nhưng rượu làm chậm thải trừ abacavir và do đó làm tăng nồng độ thuốc trong máu. Không thấy có phản ứng kiểu disulfiram."
+    ],
+    "rubric": {
+      "case_id": "S3-001",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Abacavir"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abacavir.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Abacavir; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Abatacept có thể dùng chung với Hydroxychloroquine không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Có ít kinh nghiệm về việc sử dụng abatacept kết hợp với chất ức chế TNF. Trong các thử nghiệm lâm sàng, bệnh nhân được điều trị đồng thời với abatacept và chất ức chế TNF bị nhiễm trùng nhiều hơn và nghiêm trọng hơn so với bệnh nhân chỉ điều trị bằng thuốc ức chế TNF. Do đó, điều trị đồng thời với abatacept và chất ức chế TNF không được khuyến cáo. Không có vấn đề an toàn lớn nào được xác định khi sử dụng abatacept kết hợp với sulfasalazine , hydroxychloroquine hoặc leflunomide .",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Có ít kinh nghiệm về việc sử dụng abatacept kết hợp với chất ức chế TNF. Trong các thử nghiệm lâm sàng, bệnh nhân được điều trị đồng thời với abatacept và chất ức chế TNF bị nhiễm trùng nhiều hơn và nghiêm trọng hơn so với bệnh nhân chỉ điều trị bằng thuốc ức chế TNF. Do đó, điều trị đồng thời với abatacept và chất ức chế TNF không được khuyến cáo. Không có vấn đề an toàn lớn nào được xác định khi sử dụng abatacept kết hợp với sulfasalazine , hydroxychloroquine hoặc leflunomide ."
+    ],
+    "rubric": {
+      "case_id": "S3-002",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Abatacept",
+        "Hydroxychloroquine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abatacept.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Abatacept; Hydroxychloroquine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Abciximab có thể dùng chung với Dipyridamole không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Sử dụng đồng thời abciximab với thuốc chống đông máu đường uống, dipyridamole , NSAIDs, ticlopidine, làm tăng nguy cơ chảy máu, cần thận trọng khi phối hợp. Heparin, Thuốc làm tan huyết khối (ví dụ: reteplase) làm xuất huyết nhiều, cần theo dõi aPTT hoặc ACT trong khi điều trị. Chống chỉ định khi dùng chung abciximab với dextran . Tương kỵ thuốc Không thấy có sự tương kỵ với các thuốc tim mạch thường dùng. Tuy nhiên, dùng abciximab trong đường tiêm tĩnh mạch riêng biệt bất cứ khi nào có thể; không trộn lẫn với các loại thuốc khác.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Sử dụng đồng thời abciximab với thuốc chống đông máu đường uống, dipyridamole , NSAIDs, ticlopidine, làm tăng nguy cơ chảy máu, cần thận trọng khi phối hợp. Heparin, Thuốc làm tan huyết khối (ví dụ: reteplase) làm xuất huyết nhiều, cần theo dõi aPTT hoặc ACT trong khi điều trị. Chống chỉ định khi dùng chung abciximab với dextran . Tương kỵ thuốc Không thấy có sự tương kỵ với các thuốc tim mạch thường dùng. Tuy nhiên, dùng abciximab trong đường tiêm tĩnh mạch riêng biệt bất cứ khi nào có thể; không trộn lẫn với các loại thuốc khác."
+    ],
+    "rubric": {
+      "case_id": "S3-003",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Abciximab",
+        "Dipyridamole"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abciximab.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Abciximab; Dipyridamole; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Abiraterone có thể dùng chung với Dextromethorphan không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Không dùng abiraterone với thuốc thioridazine. Abiraterone có thể tương tác với các thuốc sau: Một số thuốc điều trị co giật như carbamazepine, phenobarbital, phenytoin; Dextromethorphan; Pioglitazone; Rifabutin; Rifampin; Rifapentine. Đây là một số loại thuốc tương tác thường gặp, không bao gồm tất cả các loại thuốc. Hãy nói với bác sĩ của bạn danh sách tất cả các loại thuốc hoặc thảo dược mà bạn đang sử dụng. Cũng nên nói với bác sĩ nếu bạn có hút thuốc lá, uống rượu bia hoặc sử dụng ma túy. Một số loại có thể tương tác với thuốc của bạn. Không dùng abiraterone với thuốc thioridazine",
+    "reference_contexts": [
+      "Không dùng abiraterone với thuốc thioridazine. Abiraterone có thể tương tác với các thuốc sau: Một số thuốc điều trị co giật như carbamazepine, phenobarbital, phenytoin; Dextromethorphan; Pioglitazone; Rifabutin; Rifampin; Rifapentine. Đây là một số loại thuốc tương tác thường gặp, không bao gồm tất cả các loại thuốc. Hãy nói với bác sĩ của bạn danh sách tất cả các loại thuốc hoặc thảo dược mà bạn đang sử dụng. Cũng nên nói với bác sĩ nếu bạn có hút thuốc lá, uống rượu bia hoặc sử dụng ma túy. Một số loại có thể tương tác với thuốc của bạn. Không dùng abiraterone với thuốc thioridazine"
+    ],
+    "rubric": {
+      "case_id": "S3-004",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Abiraterone",
+        "Dextromethorphan"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abiraterone.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Abiraterone; Dextromethorphan; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acamprosate có thể dùng chung với Meprobamate không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác Acamprosate với các thuốc khác Acamprosate không ức chế các isoenzyme CYP 1A2, 2C9, 2C19, 2D6, 2E1 hoặc 3A4. Uống đồng thời rượu và Acamprosate không ảnh hưởng đến dược động học của rượu hoặc Acamprosate. Trong các thử nghiệm lâm sàng, thuốc Acamprosate đã được sử dụng một cách an toàn khi kết hợp với thuốc chống trầm cảm , thuốc giải lo âu, thuốc ngủ và thuốc an thần, và thuốc giảm đau không opioid. Không có thay đổi về tần suất của các phản ứng có hại về lâm sàng hoặc sinh học khi Acamprosate được sử dụng đồng thời với Disulfiram, Oxazepam , Tetrabamate hoặc Meprobamate. Các nghiên cứu dược động học đã được hoàn thành và không có tương tác giữa Acamprosate và Diazepam , Imipramine . Không có thông tin về việc sử dụng đồng thời Acamprosate với thuốc lợi tiểu.",
+    "reference_contexts": [
+      "Tương tác Acamprosate với các thuốc khác Acamprosate không ức chế các isoenzyme CYP 1A2, 2C9, 2C19, 2D6, 2E1 hoặc 3A4. Uống đồng thời rượu và Acamprosate không ảnh hưởng đến dược động học của rượu hoặc Acamprosate. Trong các thử nghiệm lâm sàng, thuốc Acamprosate đã được sử dụng một cách an toàn khi kết hợp với thuốc chống trầm cảm , thuốc giải lo âu, thuốc ngủ và thuốc an thần, và thuốc giảm đau không opioid. Không có thay đổi về tần suất của các phản ứng có hại về lâm sàng hoặc sinh học khi Acamprosate được sử dụng đồng thời với Disulfiram, Oxazepam , Tetrabamate hoặc Meprobamate. Các nghiên cứu dược động học đã được hoàn thành và không có tương tác giữa Acamprosate và Diazepam , Imipramine . Không có thông tin về việc sử dụng đồng thời Acamprosate với thuốc lợi tiểu."
+    ],
+    "rubric": {
+      "case_id": "S3-005",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Acamprosate",
+        "Meprobamate"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acamprosate.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acamprosate; Meprobamate; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acarbose có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Acarbose có thể cản trở hấp thu hoặc chuyển hóa sắt. Vì cơ chế tác dụng của acarbose và của các thuốc chống đái tháo đường nhóm sulfonylurê hoặc biguanid khác nhau, nên tác dụng của chúng đối với kiểm soát glucose máu có tính chất cộng khi dùng phối hợp. Cần tránh dùng đồng thời với các thuốc kháng acid, cholestyramin, các chất hấp phụ ở ruột và các enzym tiêu hóa, vì có thể làm giảm tác dụng của acarbose. Neomycin làm tăng tác dụng giảm glucose huyết của acarbose. Acarbose làm giảm tác dụng của digoxin do ức chế hấp thu digoxin. Tương tác với thực phẩm Trong khi điều trị bằng acarbose, thức ăn chứa đường saccharose (đường trắng) thường gây khó chịu ở bụng hoặc có khi ỉa chảy, vì hydrat carbon tăng lên men ở đại tràng.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Acarbose có thể cản trở hấp thu hoặc chuyển hóa sắt. Vì cơ chế tác dụng của acarbose và của các thuốc chống đái tháo đường nhóm sulfonylurê hoặc biguanid khác nhau, nên tác dụng của chúng đối với kiểm soát glucose máu có tính chất cộng khi dùng phối hợp. Cần tránh dùng đồng thời với các thuốc kháng acid, cholestyramin, các chất hấp phụ ở ruột và các enzym tiêu hóa, vì có thể làm giảm tác dụng của acarbose. Neomycin làm tăng tác dụng giảm glucose huyết của acarbose. Acarbose làm giảm tác dụng của digoxin do ức chế hấp thu digoxin. Tương tác với thực phẩm Trong khi điều trị bằng acarbose, thức ăn chứa đường saccharose (đường trắng) thường gây khó chịu ở bụng hoặc có khi ỉa chảy, vì hydrat carbon tăng lên men ở đại tràng."
+    ],
+    "rubric": {
+      "case_id": "S3-006",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acarbose"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acarbose.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acarbose; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acebutolol có thể dùng chung với Disopyramide không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Acebutolol có thể có tác dụng cộng hưởng khi dùng phối hợp với các thuốc hủy catecholamine như reserpine , gây ra nhịp chậm, tụt huyết áp. Không nên sử dụng đồng thời hoặc trong vòng vài ngày khi điều trị với verapamil. Thận trọng đặc biệt khi dùng Acebutolol cùng với bất kỳ thuốc nào trong nhóm chẹn kênh calci, đặc biệt là diltiazem. Thuốc chống loạn nhịp tim nhóm I (disopyramide) và amiodarone làm tăng thời gian dẫn truyền nhĩ và gây ra tác dụng ức chế co cơ khi dùng đồng thời. Ở những bệnh nhân đái tháo đường không ổn định và phụ thuộc insulin, có thể cần phải giảm liều các thuốc điều trị đái tháo đường. Tuy nhiên thuốc chẹn beta cũng có thể làm giảm hiệu quả của glibenclamid. Các thuốc chẹn beta làm mờ dấu hiệu của tụt đường huyết.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Acebutolol có thể có tác dụng cộng hưởng khi dùng phối hợp với các thuốc hủy catecholamine như reserpine , gây ra nhịp chậm, tụt huyết áp. Không nên sử dụng đồng thời hoặc trong vòng vài ngày khi điều trị với verapamil. Thận trọng đặc biệt khi dùng Acebutolol cùng với bất kỳ thuốc nào trong nhóm chẹn kênh calci, đặc biệt là diltiazem. Thuốc chống loạn nhịp tim nhóm I (disopyramide) và amiodarone làm tăng thời gian dẫn truyền nhĩ và gây ra tác dụng ức chế co cơ khi dùng đồng thời. Ở những bệnh nhân đái tháo đường không ổn định và phụ thuộc insulin, có thể cần phải giảm liều các thuốc điều trị đái tháo đường. Tuy nhiên thuốc chẹn beta cũng có thể làm giảm hiệu quả của glibenclamid. Các thuốc chẹn beta làm mờ dấu hiệu của tụt đường huyết."
+    ],
+    "rubric": {
+      "case_id": "S3-007",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Acebutolol",
+        "Disopyramide"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acebutolol.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acebutolol; Disopyramide; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Aceclofenac có thể dùng chung với Methotrexate không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Ảnh hưởng của aceclofenac với những thuốc khác: Sử dụng đồng thời hai hoặc nhiều NSAID (bao gồm cả aspirin) có thể làm tăng nguy cơ tác dụng phụ không mong muốn. Thuốc hạ áp: Làm giảm tác dụng hạ áp. Thuốc lợi tiểu: Giảm tác dụng lợi tiểu, tăng độc tính trên thận. Khi sử dụng đồng thời với thuốc lợi tiểu tiết kiệm kali, cần theo dõi kali trong huyết thanh. Lithium, digoxin: Tăng nồng độ trong huyết tương của lithium, digoxin. Methotrexate: Tăng nồng độ trong huyết tương của methotrexate, dẫn đến tăng độc tính khi phối hợp với NSAID trong vòng 24 giờ sau khi uống methotrexate. Mifepristone: NSAID có thể làm giảm tác dụng của mifepristone. Vì vậy, không nên sử dụng NSAID trong 8-12 ngày sau khi dùng mifepristone.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Ảnh hưởng của aceclofenac với những thuốc khác: Sử dụng đồng thời hai hoặc nhiều NSAID (bao gồm cả aspirin) có thể làm tăng nguy cơ tác dụng phụ không mong muốn. Thuốc hạ áp: Làm giảm tác dụng hạ áp. Thuốc lợi tiểu: Giảm tác dụng lợi tiểu, tăng độc tính trên thận. Khi sử dụng đồng thời với thuốc lợi tiểu tiết kiệm kali, cần theo dõi kali trong huyết thanh. Lithium, digoxin: Tăng nồng độ trong huyết tương của lithium, digoxin. Methotrexate: Tăng nồng độ trong huyết tương của methotrexate, dẫn đến tăng độc tính khi phối hợp với NSAID trong vòng 24 giờ sau khi uống methotrexate. Mifepristone: NSAID có thể làm giảm tác dụng của mifepristone. Vì vậy, không nên sử dụng NSAID trong 8-12 ngày sau khi dùng mifepristone."
+    ],
+    "rubric": {
+      "case_id": "S3-008",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Aceclofenac",
+        "Methotrexate"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/aceclofenac.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Aceclofenac; Methotrexate; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acemetacin có thể dùng chung với Mifepristone không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Các thuốc kháng viêm không steroid: Tránh sử dụng đồng thời vì làm tăng nguy cơ tác dụng phụ. Thuốc trị tăng huyết áp: Dùng chung làm giảm tác dụng trị tăng huyết áp. Thuốc lợi tiểu, thuốc ức chế men chuyển/chẹn thụ thể angiostensin II, tacrolimus., cyclosporin: Dùng chung làm tăng nguy cơ độc thận. Tăng kali máu khi dùng đồng thời với thuốc lợi tiểu tiết kiệm kali, thuốc tác động trên hệ angiostensin. Digoxin, glycosid tim: Có thể làm trầm trọng thêm tình trạng suy tim, giảm độ lọc cầu thận và tăng nồng độ glycosid trong huyết tương. Giảm thải trừ 1 số thuốc: Lithium, methotrexat, kháng sinh penicillin, phenytoin khi dùng đồng thời. Mifepristone : Không nên sử dụng trong 8-12 ngày sau khi dùng mifepristone vì giảm tác dụng của mifepristone.",
+    "reference_contexts": [
+      "Các thuốc kháng viêm không steroid: Tránh sử dụng đồng thời vì làm tăng nguy cơ tác dụng phụ. Thuốc trị tăng huyết áp: Dùng chung làm giảm tác dụng trị tăng huyết áp. Thuốc lợi tiểu, thuốc ức chế men chuyển/chẹn thụ thể angiostensin II, tacrolimus., cyclosporin: Dùng chung làm tăng nguy cơ độc thận. Tăng kali máu khi dùng đồng thời với thuốc lợi tiểu tiết kiệm kali, thuốc tác động trên hệ angiostensin. Digoxin, glycosid tim: Có thể làm trầm trọng thêm tình trạng suy tim, giảm độ lọc cầu thận và tăng nồng độ glycosid trong huyết tương. Giảm thải trừ 1 số thuốc: Lithium, methotrexat, kháng sinh penicillin, phenytoin khi dùng đồng thời. Mifepristone : Không nên sử dụng trong 8-12 ngày sau khi dùng mifepristone vì giảm tác dụng của mifepristone."
+    ],
+    "rubric": {
+      "case_id": "S3-009",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Acemetacin",
+        "Mifepristone"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acemetacin.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acemetacin; Mifepristone; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acenocoumarol có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Chống chỉ định phối hợp: Aspirin (nhất là với liều cao trên 3 g/ngày): Tăng tác dụng chống đông máu và nguy cơ chảy máu. Miconazol: Xuất huyết bất ngờ, có thể nặng. Phenylbutazon, các thuốc NSAID nhóm pyrazol: Làm tăng tác dụng chống đông máu và kích ứng niêm mạc đường tiêu hóa. Không nên phối hợp: Aspirin với liều dưới 3 g/ngày. Thuốc NSAID, kể cả loại ức chế chọn lọc COX-2. Cloramphenicol, diflunisal : Tăng tác dụng của thuốc uống chống đông. Nếu không thể tránh phối hợp thì phải kiểm tra INR thường xuyên hơn, hiệu chỉnh liều trong và sau 8 ngày ngừng cloramphenicol. Thận trọng khi phối hợp:",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Chống chỉ định phối hợp: Aspirin (nhất là với liều cao trên 3 g/ngày): Tăng tác dụng chống đông máu và nguy cơ chảy máu. Miconazol: Xuất huyết bất ngờ, có thể nặng. Phenylbutazon, các thuốc NSAID nhóm pyrazol: Làm tăng tác dụng chống đông máu và kích ứng niêm mạc đường tiêu hóa. Không nên phối hợp: Aspirin với liều dưới 3 g/ngày. Thuốc NSAID, kể cả loại ức chế chọn lọc COX-2. Cloramphenicol, diflunisal : Tăng tác dụng của thuốc uống chống đông. Nếu không thể tránh phối hợp thì phải kiểm tra INR thường xuyên hơn, hiệu chỉnh liều trong và sau 8 ngày ngừng cloramphenicol. Thận trọng khi phối hợp:"
+    ],
+    "rubric": {
+      "case_id": "S3-010",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acenocoumarol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acenocoumarol.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acenocoumarol; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acetaminophen có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Uống dài ngày liều cao paracetamol làm tăng nhẹ tác dụng chống đông của coumarin và dẫn chất indandion. Dùng đồng thời phenothiazin và paracetamol có khả năng gây hạ thân nhiệt nghiêm trọng. Uống rượu quá nhiều và dài ngày có thể làm tăng nguy cơ gây độc cho gan của paracetamol. Thuốc chống co giật (gồm phenytoin , barbiturat, carbamazepin ) gây cảm ứng enzym ở microsom gan, có thể làm tăng tính độc hại gan của paracetamol do tăng chuyển hóa thuốc thành những chất độc hại với gan. Ngoài ra, dùng đồng thời isoniazid với paracetamol cũng có thể dẫn đến tăng nguy cơ độc tính với gan. Probenecid có thể làm giảm đào thải paracetamol và làm tăng T1/2 trong huyết tương của paracetamol. Isoniazid và các thuốc chống lao làm tăng độc tính của paracetamol đối với gan.",
+    "reference_contexts": [
+      "Uống dài ngày liều cao paracetamol làm tăng nhẹ tác dụng chống đông của coumarin và dẫn chất indandion. Dùng đồng thời phenothiazin và paracetamol có khả năng gây hạ thân nhiệt nghiêm trọng. Uống rượu quá nhiều và dài ngày có thể làm tăng nguy cơ gây độc cho gan của paracetamol. Thuốc chống co giật (gồm phenytoin , barbiturat, carbamazepin ) gây cảm ứng enzym ở microsom gan, có thể làm tăng tính độc hại gan của paracetamol do tăng chuyển hóa thuốc thành những chất độc hại với gan. Ngoài ra, dùng đồng thời isoniazid với paracetamol cũng có thể dẫn đến tăng nguy cơ độc tính với gan. Probenecid có thể làm giảm đào thải paracetamol và làm tăng T1/2 trong huyết tương của paracetamol. Isoniazid và các thuốc chống lao làm tăng độc tính của paracetamol đối với gan."
+    ],
+    "rubric": {
+      "case_id": "S3-011",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acetaminophen"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophen.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acetaminophen; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acétaminophène có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Uống dài ngày liều cao paracetamol làm tăng nhẹ tác dụng chống đông của coumarin và dẫn chất indandion. Dùng đồng thời phenothiazin và paracetamol có khả năng gây hạ thân nhiệt nghiêm trọng. Uống rượu quá nhiều và dài ngày có thể làm tăng nguy cơ gây độc cho gan của paracetamol. Thuốc chống co giật (gồm phenytoin , barbiturat, carbamazepin ) gây cảm ứng enzym ở microsom gan, có thể làm tăng tính độc hại gan của paracetamol do tăng chuyển hóa thuốc thành những chất độc hại với gan. Ngoài ra, dùng đồng thời isoniazid với paracetamol cũng có thể dẫn đến tăng nguy cơ độc tính với gan. Probenecid có thể làm giảm đào thải paracetamol và làm tăng T1/2 trong huyết tương của paracetamol. Isoniazid và các thuốc chống lao làm tăng độc tính của paracetamol đối với gan.",
+    "reference_contexts": [
+      "Uống dài ngày liều cao paracetamol làm tăng nhẹ tác dụng chống đông của coumarin và dẫn chất indandion. Dùng đồng thời phenothiazin và paracetamol có khả năng gây hạ thân nhiệt nghiêm trọng. Uống rượu quá nhiều và dài ngày có thể làm tăng nguy cơ gây độc cho gan của paracetamol. Thuốc chống co giật (gồm phenytoin , barbiturat, carbamazepin ) gây cảm ứng enzym ở microsom gan, có thể làm tăng tính độc hại gan của paracetamol do tăng chuyển hóa thuốc thành những chất độc hại với gan. Ngoài ra, dùng đồng thời isoniazid với paracetamol cũng có thể dẫn đến tăng nguy cơ độc tính với gan. Probenecid có thể làm giảm đào thải paracetamol và làm tăng T1/2 trong huyết tương của paracetamol. Isoniazid và các thuốc chống lao làm tăng độc tính của paracetamol đối với gan."
+    ],
+    "rubric": {
+      "case_id": "S3-012",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acétaminophène"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophene.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acétaminophène; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acetazolamide có thể dùng chung với Amphotericin B không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Sử dụng đồng thời acetazolamide với các thuốc lợi tiểu, corticosteroid (glucocorticoid, mineralocorticoid), corticotrophin và amphotericin B làm tăng thải trừ kali, từ đó có thể gây hạ kali huyết nặng. Tác dụng điều trị và/hoặc tác dụng không mong muốn của amphetamin, chất kháng tiết acetyl cholin, mecamylamin , quinidin, thuốc chống trầm cảm ba vòng có thể tăng lên hoặc kéo dài khi sử dụng đồng thời với acetazolamide do acetazolamide gây kiềm hóa nước tiểu làm giảm thải trừ các thuốc trên. Ngược lại, nước tiểu kiềm làm tăng tốc độ thải trừ các acid yếu (phenobarbital và salicylat) làm hiệu quả các thuốc này giảm đi.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Sử dụng đồng thời acetazolamide với các thuốc lợi tiểu, corticosteroid (glucocorticoid, mineralocorticoid), corticotrophin và amphotericin B làm tăng thải trừ kali, từ đó có thể gây hạ kali huyết nặng. Tác dụng điều trị và/hoặc tác dụng không mong muốn của amphetamin, chất kháng tiết acetyl cholin, mecamylamin , quinidin, thuốc chống trầm cảm ba vòng có thể tăng lên hoặc kéo dài khi sử dụng đồng thời với acetazolamide do acetazolamide gây kiềm hóa nước tiểu làm giảm thải trừ các thuốc trên. Ngược lại, nước tiểu kiềm làm tăng tốc độ thải trừ các acid yếu (phenobarbital và salicylat) làm hiệu quả các thuốc này giảm đi."
+    ],
+    "rubric": {
+      "case_id": "S3-013",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Acetazolamide",
+        "Amphotericin B"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetazolamide.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acetazolamide; Amphotericin B; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acetic acid có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Chưa phát hiện tương tác giữa Acetic Acid với các thuốc khác.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Chưa phát hiện tương tác giữa Acetic Acid với các thuốc khác."
+    ],
+    "rubric": {
+      "case_id": "S3-014",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acetic acid"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetic-acid.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acetic acid; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acetohydroxamic acid có thể dùng chung với Alemtuzumab không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Acetohydroxamic acid tạo phức chelat các kim loại nặng, đặc biệt là sắt, từ đó làm giảm sự hấp thu của cả 2 thuốc nếu sử dụng đồng thời. Vì vậy, khi có chỉ định dùng sắt ở bệnh nhân đang điều trị với Acetohydroxamic acid, thì sắt tiêm bắp nên được lựa chọn hơn là sắt đường uống. Sử dụng Alemtuzumab, Ocrelizumab , Omacetaxine, Cladribine , Ustekinumab với các thuốc ức chế tủy khác như Acetohydroxamic acid có thể làm tăng nguy cơ nhiễm trùng. Tương tác với thực phẩm Acetohydroxamic acid kết hợp với các đồ uống có cồn như rượu, bia có thể dẫn đến phát ban.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Acetohydroxamic acid tạo phức chelat các kim loại nặng, đặc biệt là sắt, từ đó làm giảm sự hấp thu của cả 2 thuốc nếu sử dụng đồng thời. Vì vậy, khi có chỉ định dùng sắt ở bệnh nhân đang điều trị với Acetohydroxamic acid, thì sắt tiêm bắp nên được lựa chọn hơn là sắt đường uống. Sử dụng Alemtuzumab, Ocrelizumab , Omacetaxine, Cladribine , Ustekinumab với các thuốc ức chế tủy khác như Acetohydroxamic acid có thể làm tăng nguy cơ nhiễm trùng. Tương tác với thực phẩm Acetohydroxamic acid kết hợp với các đồ uống có cồn như rượu, bia có thể dẫn đến phát ban."
+    ],
+    "rubric": {
+      "case_id": "S3-015",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Acetohydroxamic acid",
+        "Alemtuzumab"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetohydroxamic-acid.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acetohydroxamic acid; Alemtuzumab; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acetylcholine có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Mặc dù các nghiên cứu lâm sàng với acetylcholine chloride và các nghiên cứu trên động vật với acetylcholine hoặc carbachol cho thấy không có tác động và không có cơ sở dược lý nào được biết về sự tương tác, nhưng đã có báo cáo rằng acetylcholine và carbachol không có hiệu quả khi sử dụng cho những người bệnh được điều trị bằng thuốc chống viêm không steroid tại chỗ.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Mặc dù các nghiên cứu lâm sàng với acetylcholine chloride và các nghiên cứu trên động vật với acetylcholine hoặc carbachol cho thấy không có tác động và không có cơ sở dược lý nào được biết về sự tương tác, nhưng đã có báo cáo rằng acetylcholine và carbachol không có hiệu quả khi sử dụng cho những người bệnh được điều trị bằng thuốc chống viêm không steroid tại chỗ."
+    ],
+    "rubric": {
+      "case_id": "S3-016",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acetylcholine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetylcholine.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acetylcholine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acetylcysteine có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Acetylcystein là một chất khử nên tương kỵ hóa học với các chất oxy hóa. Không được dùng đồng thời các thuốc ho khác hoặc bất cứ thuốc nào làm giảm bài tiết phế quản trong thời gian điều trị bằng acetylcystein. Than hoạt có thể làm giảm tác dụng của acetylcystein. Tương kỵ thuốc Acetylcystein phản ứng với một số kim loại, đặc biệt sắt, niken, đồng và với cao su. Cần tránh thuốc tiếp xúc với các chất đó. Không được dùng các máy phun mù có các thành phần bằng kim loại hoặc cao su. Không nên trộn bột pha dung dịch uống với các sản phẩm thuốc khác.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Acetylcystein là một chất khử nên tương kỵ hóa học với các chất oxy hóa. Không được dùng đồng thời các thuốc ho khác hoặc bất cứ thuốc nào làm giảm bài tiết phế quản trong thời gian điều trị bằng acetylcystein. Than hoạt có thể làm giảm tác dụng của acetylcystein. Tương kỵ thuốc Acetylcystein phản ứng với một số kim loại, đặc biệt sắt, niken, đồng và với cao su. Cần tránh thuốc tiếp xúc với các chất đó. Không được dùng các máy phun mù có các thành phần bằng kim loại hoặc cao su. Không nên trộn bột pha dung dịch uống với các sản phẩm thuốc khác."
+    ],
+    "rubric": {
+      "case_id": "S3-017",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acetylcysteine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetylcysteine.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acetylcysteine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acetylleucine có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Acetylleucine tương tác với các thuốc khác Chưa có báo cáo nhưng để tránh các tương tác thuốc có thể xảy ra, hãy thông báo với bác sĩ nếu bạn đang dùng bất kỳ loại thuốc nào khác để được tư vấn.",
+    "reference_contexts": [
+      "Acetylleucine tương tác với các thuốc khác Chưa có báo cáo nhưng để tránh các tương tác thuốc có thể xảy ra, hãy thông báo với bác sĩ nếu bạn đang dùng bất kỳ loại thuốc nào khác để được tư vấn."
+    ],
+    "rubric": {
+      "case_id": "S3-018",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acetylleucine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetylleucine.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acetylleucine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acetylsalicylic acid có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Nồng độ salicylat trong huyết tương ít bị ảnh hưởng bởi các thuốc khác, nhưng việc dùng đồng thời với aspirin làm giảm nồng độ của indomethacin, naproxen , và fenoprofen. Tương tác của aspirin với warfarin làm tăng nguy cơ chảy máu, và với methotrexat , thuốc hạ glucose máu sulphonylurê, phenytoin, acid valproic làm tăng nồng độ thuốc này trong huyết thanh và tăng độc tính. Tương tác khác của aspirin gồm sự đối kháng với natri niệu do spironolacton và sự phong bế vận chuyển tích cực của penicilin từ dịch não - tủy vào máu. Aspirin làm giảm tác dụng các thuốc acid uric niệu như probenecid và sulphinpyrazol.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Nồng độ salicylat trong huyết tương ít bị ảnh hưởng bởi các thuốc khác, nhưng việc dùng đồng thời với aspirin làm giảm nồng độ của indomethacin, naproxen , và fenoprofen. Tương tác của aspirin với warfarin làm tăng nguy cơ chảy máu, và với methotrexat , thuốc hạ glucose máu sulphonylurê, phenytoin, acid valproic làm tăng nồng độ thuốc này trong huyết thanh và tăng độc tính. Tương tác khác của aspirin gồm sự đối kháng với natri niệu do spironolacton và sự phong bế vận chuyển tích cực của penicilin từ dịch não - tủy vào máu. Aspirin làm giảm tác dụng các thuốc acid uric niệu như probenecid và sulphinpyrazol."
+    ],
+    "rubric": {
+      "case_id": "S3-019",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acetylsalicylic acid"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetylsalicylic-acid.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acetylsalicylic acid; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acitretin có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Acitretin làm giảm chuyển hóa cyclosporin và các chất chuyển hóa của thuốc này qua hệ thống cytochrom P450. Acitretin có thể làm tăng thải trừ glucose, cần điều chỉnh liều của glyburid. Các thuốc gây độc với gan, đặc biệt là methotrexat : Làm tăng độc tính với gan. Acitretin có thể đẩy hydantoin ra khỏi liên kết protein huyết tương làm tăng tỷ lệ thuốc ở dạng tự do. Acitretin làm giảm hiệu quả thuốc tránh thai có progestin, thuốc tránh thai đường uống chứa estrogen. Các dẫn chất retinoid khác dùng đường toàn thân (etretinat, isotretionin , tretionin ) hoặc ngoài da (adapalen, tretionin), vitamin A: Gây các triệu chứng quá liều vitamin A. Tetracyclin dùng đường uống: Tăng áp lực nội sọ.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Acitretin làm giảm chuyển hóa cyclosporin và các chất chuyển hóa của thuốc này qua hệ thống cytochrom P450. Acitretin có thể làm tăng thải trừ glucose, cần điều chỉnh liều của glyburid. Các thuốc gây độc với gan, đặc biệt là methotrexat : Làm tăng độc tính với gan. Acitretin có thể đẩy hydantoin ra khỏi liên kết protein huyết tương làm tăng tỷ lệ thuốc ở dạng tự do. Acitretin làm giảm hiệu quả thuốc tránh thai có progestin, thuốc tránh thai đường uống chứa estrogen. Các dẫn chất retinoid khác dùng đường toàn thân (etretinat, isotretionin , tretionin ) hoặc ngoài da (adapalen, tretionin), vitamin A: Gây các triệu chứng quá liều vitamin A. Tetracyclin dùng đường uống: Tăng áp lực nội sọ."
+    ],
+    "rubric": {
+      "case_id": "S3-020",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Acitretin"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acitretin.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acitretin; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acrivastine có thể dùng chung với Erythromycin không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Thuốc ức chế thần kinh. Không có dữ liệu để chứng minh sự tương tác giữa acrivastine và ketoconazole, erythromycin. Tuy nhiên, do sự tương tác đã biết giữa các hợp chất này và các thuốc kháng histamine không gây ngủ khác, nên thận trọng khi dùng chung với acrivastine. Tương tác với thực phẩm Rượu: Tăng các tác dụng phụ như chóng mặt, buồn ngủ, lú lẫn và khó tập trung, có thể bị suy giảm khả năng suy nghĩ, phán đoán và phối hợp vận động. Thận trọng khi dùng chung với nước ép bưởi.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Thuốc ức chế thần kinh. Không có dữ liệu để chứng minh sự tương tác giữa acrivastine và ketoconazole, erythromycin. Tuy nhiên, do sự tương tác đã biết giữa các hợp chất này và các thuốc kháng histamine không gây ngủ khác, nên thận trọng khi dùng chung với acrivastine. Tương tác với thực phẩm Rượu: Tăng các tác dụng phụ như chóng mặt, buồn ngủ, lú lẫn và khó tập trung, có thể bị suy giảm khả năng suy nghĩ, phán đoán và phối hợp vận động. Thận trọng khi dùng chung với nước ép bưởi."
+    ],
+    "rubric": {
+      "case_id": "S3-021",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Acrivastine",
+        "Erythromycin"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acrivastine.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acrivastine; Erythromycin; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Activated charcoal có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Than hoạt làm giảm hấp thu của nhiều thuốc từ đường tiêu hóa và do vậy tránh dùng đồng thời thuốc điều trị đường uống. Trong xử lý ngộ độc cấp, nên dùng các thuốc phối hợp theo đường tiêm. Than hoạt làm giảm tác dụng của các thuốc gây nôn. Nếu có chỉ định, phải gây nôn trước khi dùng than hoạt. Tương tác với thực phẩm Dùng cùng hoặc không cùng với thức ăn. Cho một liều than hoạt tính cao hơn nếu nó được dùng sau một bữa ăn lớn.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Than hoạt làm giảm hấp thu của nhiều thuốc từ đường tiêu hóa và do vậy tránh dùng đồng thời thuốc điều trị đường uống. Trong xử lý ngộ độc cấp, nên dùng các thuốc phối hợp theo đường tiêm. Than hoạt làm giảm tác dụng của các thuốc gây nôn. Nếu có chỉ định, phải gây nôn trước khi dùng than hoạt. Tương tác với thực phẩm Dùng cùng hoặc không cùng với thức ăn. Cho một liều than hoạt tính cao hơn nếu nó được dùng sau một bữa ăn lớn."
+    ],
+    "rubric": {
+      "case_id": "S3-022",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Activated charcoal"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/activated-charcoal.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Activated charcoal; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Acyclovir có thể dùng chung với Amphotericin B không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Probenecid làm tăng nửa đời trong huyết tương và AUC của Acyclovir, làm giảm thải trừ qua nước tiểu và độ thanh thải của Acyclovir. Dùng đồng thời zidovudin và Acyclovir có thể gây trạng thái ngủ lịm và lơ mơ. Cần theo dõi sát người bệnh khi phối hợp. Interferon làm tăng tác dụng chống virus HSV-1 in vitro của acyclovir . Tuy nhiên tương tác trên lâm sàng vẫn chưa rõ. Amphotericin B và Ketoconazol làm tăng hiệu lực chống virus của Acyclovir. Dùng Acyclovir tiêm phải thận trọng với người bệnh đã dùng Methotrexat vào ống tủy sống. Tương kỵ thuốc Tương kỵ với các chế phẩm của máu và dung dịch chứa protein. Acyclovir tương kỵ với Foscarnet .",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Probenecid làm tăng nửa đời trong huyết tương và AUC của Acyclovir, làm giảm thải trừ qua nước tiểu và độ thanh thải của Acyclovir. Dùng đồng thời zidovudin và Acyclovir có thể gây trạng thái ngủ lịm và lơ mơ. Cần theo dõi sát người bệnh khi phối hợp. Interferon làm tăng tác dụng chống virus HSV-1 in vitro của acyclovir . Tuy nhiên tương tác trên lâm sàng vẫn chưa rõ. Amphotericin B và Ketoconazol làm tăng hiệu lực chống virus của Acyclovir. Dùng Acyclovir tiêm phải thận trọng với người bệnh đã dùng Methotrexat vào ống tủy sống. Tương kỵ thuốc Tương kỵ với các chế phẩm của máu và dung dịch chứa protein. Acyclovir tương kỵ với Foscarnet ."
+    ],
+    "rubric": {
+      "case_id": "S3-023",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Acyclovir",
+        "Amphotericin B"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acyclovir.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Acyclovir; Amphotericin B; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Adalimumab có thể dùng chung với Methotrexate không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Sự hình thành kháng thể thấp hơn khi dùng adalimumab cùng với methotrexate so với việc sử dụng đơn trị liệu. Sử dụng adalimumab mà không có methotrexat dẫn đến tăng hình thành kháng thể, tăng độ thanh thải và giảm hiệu quả của adalimumab. Không khuyến cáo kết hợp adalimumab và anakinra. Không khuyến cáo kết hợp adalimumab và abatacept. Bệnh nhân có thể được tiêm vắc xin bất hoạt, tránh vắc xin sống khi sử dụng thuốc.",
+    "reference_contexts": [
+      "Sự hình thành kháng thể thấp hơn khi dùng adalimumab cùng với methotrexate so với việc sử dụng đơn trị liệu. Sử dụng adalimumab mà không có methotrexat dẫn đến tăng hình thành kháng thể, tăng độ thanh thải và giảm hiệu quả của adalimumab. Không khuyến cáo kết hợp adalimumab và anakinra. Không khuyến cáo kết hợp adalimumab và abatacept. Bệnh nhân có thể được tiêm vắc xin bất hoạt, tránh vắc xin sống khi sử dụng thuốc."
+    ],
+    "rubric": {
+      "case_id": "S3-024",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Adalimumab",
+        "Methotrexate"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/adalimumab.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Adalimumab; Methotrexate; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Adamantane có thể dùng chung với Haloperidol không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Adamantane có thể tương tác với các nhóm thuốc sau: Thuốc lợi tiểu nhóm thiazid: Tăng nồng độ amantadine, tăng nguy cơ ngộ độc. Thuốc chống loạn thần (như haloperidol): Tăng nguy cơ tác dụng phụ thần kinh. Thuốc kháng cholinergic: Tăng hiệu ứng phụ như khô miệng, bí tiểu. Rượu và thuốc an thần: Tăng buồn ngủ và rối loạn tâm thần. Thuốc có thể tương tác với rượu bia nếu sử dụng chung",
+    "reference_contexts": [
+      "Adamantane có thể tương tác với các nhóm thuốc sau: Thuốc lợi tiểu nhóm thiazid: Tăng nồng độ amantadine, tăng nguy cơ ngộ độc. Thuốc chống loạn thần (như haloperidol): Tăng nguy cơ tác dụng phụ thần kinh. Thuốc kháng cholinergic: Tăng hiệu ứng phụ như khô miệng, bí tiểu. Rượu và thuốc an thần: Tăng buồn ngủ và rối loạn tâm thần. Thuốc có thể tương tác với rượu bia nếu sử dụng chung"
+    ],
+    "rubric": {
+      "case_id": "S3-025",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Adamantane",
+        "Haloperidol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/adamantane.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Adamantane; Haloperidol; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Adapalene có thể dùng chung với Benzoyl peroxide không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Không có tương tác nào được biết đến với các loại thuốc khác khi được sử dụng đồng thời với adapalene. Tuy nhiên, không nên sử dụng đồng thời adapalene hoặc các loại thuốc khác có phương thức hoạt động tương tự với adapalene. Điều trị kháng acid ngoài da như dung dịch erythromycin (tối đa 4%) hoặc clindamycin phosphat (1% làm nền) hoặc gel gốc nước benzoyl peroxide lên đến 10% có thể được sử dụng vào buổi sáng khi adapalene được sử dụng vào ban đêm. Tránh trường hợp hai thuốc tương kỵ với nhau, và không đạt được mục tiêu điều trị như mong muốn.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Không có tương tác nào được biết đến với các loại thuốc khác khi được sử dụng đồng thời với adapalene. Tuy nhiên, không nên sử dụng đồng thời adapalene hoặc các loại thuốc khác có phương thức hoạt động tương tự với adapalene. Điều trị kháng acid ngoài da như dung dịch erythromycin (tối đa 4%) hoặc clindamycin phosphat (1% làm nền) hoặc gel gốc nước benzoyl peroxide lên đến 10% có thể được sử dụng vào buổi sáng khi adapalene được sử dụng vào ban đêm. Tránh trường hợp hai thuốc tương kỵ với nhau, và không đạt được mục tiêu điều trị như mong muốn."
+    ],
+    "rubric": {
+      "case_id": "S3-026",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Adapalene",
+        "Benzoyl peroxide"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/adapalene.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Adapalene; Benzoyl peroxide; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Adefovir có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Sử dụng đồng thời với các thuốc làm giảm chức năng thận hoặc cạnh tranh bài tiết tích cực ở ống thận có thể làm tăng nồng độ trong huyết thanh của adefovir và / hoặc thuốc kia. Sử dụng chung với aminoglycoside, vancomycin làm tăng nguy cơ nhiễm độc thận. Sử dụng chung với các thuốc ức chế miễn dịch (cyclosporin, tacrolimus) làm tăng nguy cơ nhiễm độc thận. Ibuprofen làm tăng sinh khả dụng đường uống của adefovir, dẫn đến tăng nồng độ adefovir trong huyết tương và AUC.",
+    "reference_contexts": [
+      "Sử dụng đồng thời với các thuốc làm giảm chức năng thận hoặc cạnh tranh bài tiết tích cực ở ống thận có thể làm tăng nồng độ trong huyết thanh của adefovir và / hoặc thuốc kia. Sử dụng chung với aminoglycoside, vancomycin làm tăng nguy cơ nhiễm độc thận. Sử dụng chung với các thuốc ức chế miễn dịch (cyclosporin, tacrolimus) làm tăng nguy cơ nhiễm độc thận. Ibuprofen làm tăng sinh khả dụng đường uống của adefovir, dẫn đến tăng nồng độ adefovir trong huyết tương và AUC."
+    ],
+    "rubric": {
+      "case_id": "S3-027",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Adefovir"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/adefovir.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Adefovir; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Ademetionine có thể dùng chung với Dextromethorphan không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Ademetionine làm tăng một chất hóa học trong não gọi là serotonin, phối hợp với một số loại thuốc điều trị trầm cảm cũng có tác dụng gây tăng serotonin (như Fluoxetine, Paroxetine , Sertraline Amitriptyline , Clomipramine, Imipramine hoặc các thuốc ức chế MAO như phenelzine tranylcypromine …) có thể dẫn đến sự tăng quá nhiều và gây ra các tác dụng phụ nghiêm trọng bao gồm các vấn đề về tim, run và lo lắng. Dextromethorphan Meperidine Pentazocine , Tramadol cũng gây tương tác với Ademetionine theo cơ chế tương tự. Ademetionine có thể thay đổi levodopa về mặt hóa học trong cơ thể, gây giảm hiệu quả của levodopa làm cho các triệu chứng bệnh Parkinson tồi tệ hơn. Thận trọng khi sử dụng Ademetionine kết hợp với những thuốc không kê đơn có chứa tryptopha.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Ademetionine làm tăng một chất hóa học trong não gọi là serotonin, phối hợp với một số loại thuốc điều trị trầm cảm cũng có tác dụng gây tăng serotonin (như Fluoxetine, Paroxetine , Sertraline Amitriptyline , Clomipramine, Imipramine hoặc các thuốc ức chế MAO như phenelzine tranylcypromine …) có thể dẫn đến sự tăng quá nhiều và gây ra các tác dụng phụ nghiêm trọng bao gồm các vấn đề về tim, run và lo lắng. Dextromethorphan Meperidine Pentazocine , Tramadol cũng gây tương tác với Ademetionine theo cơ chế tương tự. Ademetionine có thể thay đổi levodopa về mặt hóa học trong cơ thể, gây giảm hiệu quả của levodopa làm cho các triệu chứng bệnh Parkinson tồi tệ hơn. Thận trọng khi sử dụng Ademetionine kết hợp với những thuốc không kê đơn có chứa tryptopha."
+    ],
+    "rubric": {
+      "case_id": "S3-028",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Ademetionine",
+        "Dextromethorphan"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/ademetionine.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Ademetionine; Dextromethorphan; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Adenosine có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Thận trọng khi dùng đồng thời với các thuốc cũng có tác động làm chậm dẫn truyền nhĩ thất như digoxin hay verapamil vì có thể gây suy tâm thu hoặc rung thất, tuy hiếm gặp. Các thuốc khác cũng có tác động trên tim như chẹn beta-adrenergic, chẹn kênh calci, ức chế men chuyển dạng angiotensin, quinidin nên được lưu ý khi dùng đồng thời với adenosine vì có tác dụng hiệp đồng trên nút xoang và nút nhĩ thất. Dipyridamol phong bế adenosine vào tế bào, nên làm tăng tác dụng của adenosine. Nếu cần phối hợp phải giảm liều adenosine.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Thận trọng khi dùng đồng thời với các thuốc cũng có tác động làm chậm dẫn truyền nhĩ thất như digoxin hay verapamil vì có thể gây suy tâm thu hoặc rung thất, tuy hiếm gặp. Các thuốc khác cũng có tác động trên tim như chẹn beta-adrenergic, chẹn kênh calci, ức chế men chuyển dạng angiotensin, quinidin nên được lưu ý khi dùng đồng thời với adenosine vì có tác dụng hiệp đồng trên nút xoang và nút nhĩ thất. Dipyridamol phong bế adenosine vào tế bào, nên làm tăng tác dụng của adenosine. Nếu cần phối hợp phải giảm liều adenosine."
+    ],
+    "rubric": {
+      "case_id": "S3-029",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Adenosine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/adenosine.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Adenosine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Adrenaline có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Thuốc chen beta: Tác dụng làm tăng huyết áp của adrenaline tăng lên một cách đáng kể ở người bệnh dùng thuốc chẹn beta không chọn lọc như propranolol . Không được dùng thuốc ức chế beta không chọn lọc (như propranolol) cho người bị hen, vì có thể gây ra co thắt phế quản. Thuốc ức chế mono amino oxydase (MAO): Tác dụng làm tăng huyết áp của adrenaline có thể không thay đôi hoặc chỉ thay đôi ít ở người bệnh có dùng thuốc ức chế MAO. Thuốc gây mê: Người bệnh bị gây mê bằng các thuốc mê bay hơi (cyclopropan, enﬂuran, halothan , isoﬂuran, ﬂuroxen, methoxyﬂuran, diethyl ether) có nguy cơ bị loạn nhịp tim nếu dùng adrenaline, trừ khi với liều rất nhỏ. Alkaloid của Rauwolfa: Khi có các alkaloid của Rauwolfa, thì tác dụng tăng huyết áp của adrenaline hơi tăng lên.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Thuốc chen beta: Tác dụng làm tăng huyết áp của adrenaline tăng lên một cách đáng kể ở người bệnh dùng thuốc chẹn beta không chọn lọc như propranolol . Không được dùng thuốc ức chế beta không chọn lọc (như propranolol) cho người bị hen, vì có thể gây ra co thắt phế quản. Thuốc ức chế mono amino oxydase (MAO): Tác dụng làm tăng huyết áp của adrenaline có thể không thay đôi hoặc chỉ thay đôi ít ở người bệnh có dùng thuốc ức chế MAO. Thuốc gây mê: Người bệnh bị gây mê bằng các thuốc mê bay hơi (cyclopropan, enﬂuran, halothan , isoﬂuran, ﬂuroxen, methoxyﬂuran, diethyl ether) có nguy cơ bị loạn nhịp tim nếu dùng adrenaline, trừ khi với liều rất nhỏ. Alkaloid của Rauwolfa: Khi có các alkaloid của Rauwolfa, thì tác dụng tăng huyết áp của adrenaline hơi tăng lên."
+    ],
+    "rubric": {
+      "case_id": "S3-030",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Adrenaline"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/adrenaline.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Adrenaline; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Afatinib có thể dùng chung với Carbamazepine không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Ảnh hưởng của các thuốc ức chế P-gp và các thuốc ức chế protein kháng thuốc trong ung thư vú (BCRP) đối với Afatinib: Afatinib là cơ chất của các protein vận chuyển P-gp và BCRP. Việc dùng đồng thời thuốc ức chế mạnh P-gp/BCRP như ritonavir có thể làm tăng nồng độ và sinh khả dụng của Afatinib, vì vậy cần dùng cách xa ít nhất 6 - 12 giờ. Ảnh hưởng của các thuốc cảm ứng P-gp đối với Afatinib: Các thuốc có khả năng cảm ứng mạnh P-gp, chẳng hạn như Rifampicin, Carbamazepine, Phenytoin, Phenobarbital hoặc thảo dược St. John’s wort (Hypericum perforatum), có thể làm giảm nồng độ Afatinib trong huyết tương, dẫn đến giảm hiệu quả điều trị.",
+    "reference_contexts": [
+      "Ảnh hưởng của các thuốc ức chế P-gp và các thuốc ức chế protein kháng thuốc trong ung thư vú (BCRP) đối với Afatinib: Afatinib là cơ chất của các protein vận chuyển P-gp và BCRP. Việc dùng đồng thời thuốc ức chế mạnh P-gp/BCRP như ritonavir có thể làm tăng nồng độ và sinh khả dụng của Afatinib, vì vậy cần dùng cách xa ít nhất 6 - 12 giờ. Ảnh hưởng của các thuốc cảm ứng P-gp đối với Afatinib: Các thuốc có khả năng cảm ứng mạnh P-gp, chẳng hạn như Rifampicin, Carbamazepine, Phenytoin, Phenobarbital hoặc thảo dược St. John’s wort (Hypericum perforatum), có thể làm giảm nồng độ Afatinib trong huyết tương, dẫn đến giảm hiệu quả điều trị."
+    ],
+    "rubric": {
+      "case_id": "S3-031",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Afatinib",
+        "Carbamazepine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/afatinib.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Afatinib; Carbamazepine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Agalsidase beta có thể dùng chung với Chloroquine không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Không có nghiên cứu tương tác và không có nghiên cứu chuyển hóa in vitro nào được thực hiện. Agalsidase beta không tương tác với các thuốc chuyển hóa qua trung gian cytochrome P450. Theo lý thuyết, không nên dùng Agalsidase cùng với Chloroquine , Amiodarone , Benoquin hoặc Gentamycin do có nguy cơ ức chế hoạt tính α - galactosidase A trong tế bào. Tương kỵ thuốc Không được trộn sản phẩm thuốc này với các sản phẩm thuốc khác trong cùng một dịch truyền.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Không có nghiên cứu tương tác và không có nghiên cứu chuyển hóa in vitro nào được thực hiện. Agalsidase beta không tương tác với các thuốc chuyển hóa qua trung gian cytochrome P450. Theo lý thuyết, không nên dùng Agalsidase cùng với Chloroquine , Amiodarone , Benoquin hoặc Gentamycin do có nguy cơ ức chế hoạt tính α - galactosidase A trong tế bào. Tương kỵ thuốc Không được trộn sản phẩm thuốc này với các sản phẩm thuốc khác trong cùng một dịch truyền."
+    ],
+    "rubric": {
+      "case_id": "S3-032",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Agalsidase beta",
+        "Chloroquine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/agalsidase-beta.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Agalsidase beta; Chloroquine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Ajmaline có thể dùng chung với Carbamazepine không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Khi kết hợp ajmaline với các thuốc chống loạn nhịp tim, thuốc chẹn thụ thể β hoặc thuốc đối kháng calci, sẽ xảy ra một tác dụng ức chế trên dẫn truyền AV, dẫn truyền nhĩ thất, dẫn truyền trong não thất và lực co bóp. Nên tránh kết hợp ajmaline với thuốc chống loạn nhịp có tác dụng tương tự (Loại Ia và Ic Vaughan Williams). Ajmaline tăng cường rối loạn dẫn truyền liên quan đến glycoside (phụ thuộc vào liều lượng). Sử dụng đồng thời ajmaline và quinidine làm tăng nồng độ ajmaline trong huyết tương và tăng tác dụng lên hệ thống His-Purkinje. Sử dụng đồng thời các chất cảm ứng enzym (như rifampicin , phenobarbital, phenytoin , carbamazepine) làm tăng tốc độ chuyển hoá ajmaline trong gan và do đó làm giảm đáng kể nồng độ ajmaline trong huyết tương.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Khi kết hợp ajmaline với các thuốc chống loạn nhịp tim, thuốc chẹn thụ thể β hoặc thuốc đối kháng calci, sẽ xảy ra một tác dụng ức chế trên dẫn truyền AV, dẫn truyền nhĩ thất, dẫn truyền trong não thất và lực co bóp. Nên tránh kết hợp ajmaline với thuốc chống loạn nhịp có tác dụng tương tự (Loại Ia và Ic Vaughan Williams). Ajmaline tăng cường rối loạn dẫn truyền liên quan đến glycoside (phụ thuộc vào liều lượng). Sử dụng đồng thời ajmaline và quinidine làm tăng nồng độ ajmaline trong huyết tương và tăng tác dụng lên hệ thống His-Purkinje. Sử dụng đồng thời các chất cảm ứng enzym (như rifampicin , phenobarbital, phenytoin , carbamazepine) làm tăng tốc độ chuyển hoá ajmaline trong gan và do đó làm giảm đáng kể nồng độ ajmaline trong huyết tương."
+    ],
+    "rubric": {
+      "case_id": "S3-033",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Ajmaline",
+        "Carbamazepine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/ajmaline.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Ajmaline; Carbamazepine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Albendazole có thể dùng chung với Praziquantel không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Nồng độ của chất có hoạt tính albendazole sulfoxid trong huyết tương tăng hơn khoảng 50% khi dùng phối hợp thêm dexamethason. Praziquantel (40 mg/kg) làm tăng nồng độ trung bình trong huyết tương và diện tích dưới đường cong của albendazole sulfoxid khoảng 50% so với dùng albendazole đơn độc (400 mg). Nồng độ albendazole sulfoxid trong mật và trong dịch nang sán tăng lên khoảng 2 lần ở người bị bệnh nang sán khi dùng phối hợp với cimetidin (10 mg/kg/ngày) so với dùng albendazole đơn độc (20 mg/kg/ngày). Dược động học của theophylin không thay đổi sau khi uống 1 liều albendazole 400 mg. Tương tác với thực phẩm Thức ăn, đặc biệt là thức ăn béo, làm tăng sinh khả dụng.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Nồng độ của chất có hoạt tính albendazole sulfoxid trong huyết tương tăng hơn khoảng 50% khi dùng phối hợp thêm dexamethason. Praziquantel (40 mg/kg) làm tăng nồng độ trung bình trong huyết tương và diện tích dưới đường cong của albendazole sulfoxid khoảng 50% so với dùng albendazole đơn độc (400 mg). Nồng độ albendazole sulfoxid trong mật và trong dịch nang sán tăng lên khoảng 2 lần ở người bị bệnh nang sán khi dùng phối hợp với cimetidin (10 mg/kg/ngày) so với dùng albendazole đơn độc (20 mg/kg/ngày). Dược động học của theophylin không thay đổi sau khi uống 1 liều albendazole 400 mg. Tương tác với thực phẩm Thức ăn, đặc biệt là thức ăn béo, làm tăng sinh khả dụng."
+    ],
+    "rubric": {
+      "case_id": "S3-034",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Albendazole",
+        "Praziquantel"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/albendazole.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Albendazole; Praziquantel; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alclometasone có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Không có dữ liệu nào báo cáo.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Không có dữ liệu nào báo cáo."
+    ],
+    "rubric": {
+      "case_id": "S3-035",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Alclometasone"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alclometasone.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alclometasone; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Aldesleukin có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Corticosteroid làm giảm độc tính của aldesleukin nhưng không nên dùng vì có thể giảm hiệu lực của lymphokin. Aldesleukin có thể ảnh hưởng đến thần kinh trung ương, tương tác thuốc có thể xảy ra nếu sử dụng đồng thời với các thuốc hướng thần (ví dụ thuốc ngủ, thuốc giảm đau, chống nôn, thuốc an thần). Các thuốc chẹn beta và các thuốc chống tăng huyết áp có thể làm hạ huyết áp trầm trọng thêm khi dùng cùng với aldesleukin. Tương tác muộn với thuốc cản quang có iod gây các phản ứng cấp sốt, rét run, buồn nôn, nôn, ngứa, nổi ban, tiêu chảy , hạ huyết áp , phù, thiểu niệu, có thể gặp trong vòng 1 - 4 giờ sau khi dùng thuốc cản quang có iod.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Corticosteroid làm giảm độc tính của aldesleukin nhưng không nên dùng vì có thể giảm hiệu lực của lymphokin. Aldesleukin có thể ảnh hưởng đến thần kinh trung ương, tương tác thuốc có thể xảy ra nếu sử dụng đồng thời với các thuốc hướng thần (ví dụ thuốc ngủ, thuốc giảm đau, chống nôn, thuốc an thần). Các thuốc chẹn beta và các thuốc chống tăng huyết áp có thể làm hạ huyết áp trầm trọng thêm khi dùng cùng với aldesleukin. Tương tác muộn với thuốc cản quang có iod gây các phản ứng cấp sốt, rét run, buồn nôn, nôn, ngứa, nổi ban, tiêu chảy , hạ huyết áp , phù, thiểu niệu, có thể gặp trong vòng 1 - 4 giờ sau khi dùng thuốc cản quang có iod."
+    ],
+    "rubric": {
+      "case_id": "S3-036",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Aldesleukin"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/aldesleukin.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Aldesleukin; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alectinib có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Chất ức chế CYP3A4 mạnh: Nên tránh sử dụng đồng thời các chất ức chế CYP3A4 mạnh với Alectinib, vì có thể làm tăng nồng độ Alectinib trong huyết tương, từ đó làm gia tăng nguy cơ và mức độ nghiêm trọng của các tác dụng không mong muốn. Chất cảm ứng CYP3A4 mạnh: Tránh dùng đồng thời các chất cảm ứng CYP3A4 mạnh với Alectinib, do có thể làm giảm nồng độ thuốc trong máu, dẫn đến giảm hiệu quả điều trị.",
+    "reference_contexts": [
+      "Chất ức chế CYP3A4 mạnh: Nên tránh sử dụng đồng thời các chất ức chế CYP3A4 mạnh với Alectinib, vì có thể làm tăng nồng độ Alectinib trong huyết tương, từ đó làm gia tăng nguy cơ và mức độ nghiêm trọng của các tác dụng không mong muốn. Chất cảm ứng CYP3A4 mạnh: Tránh dùng đồng thời các chất cảm ứng CYP3A4 mạnh với Alectinib, do có thể làm giảm nồng độ thuốc trong máu, dẫn đến giảm hiệu quả điều trị."
+    ],
+    "rubric": {
+      "case_id": "S3-037",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Alectinib"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alectinib.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alectinib; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alefacept có thể dùng chung với Carbamazepine không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác Alefacept với các thuốc khác Không có nghiên cứu chính thức về tương tác thuốc cho đến nay. Không nên sử dụng đồng thời với các thuốc ức chế miễn dịch khác vì nguy cơ ức chế miễn dịch quá mức như: abatacept, adalimumab , aldesleukin, alemtuzumab , altretamine, amsacrine, baricitinib , cisplatin… Hiệu quả điều trị của globulin miễn dịch bệnh than ở người có thể bị giảm khi sử dụng kết hợp với alefacept. Nguy cơ hoặc mức độ nghiêm trọng của các tác dụng ngoại ý có thể tăng lên khi alefacept được kết hợp với các thuốc chống động kinh như carbamazepine, phenytoin. Không tiêm vắc xin (vi rút sống) khi đang sử dụng thuốc. Tương tác với thực phẩm Chưa có thông tin. Tương kỵ Không nên được trộn lẫn với bất kỳ loại thuốc nào khác.",
+    "reference_contexts": [
+      "Tương tác Alefacept với các thuốc khác Không có nghiên cứu chính thức về tương tác thuốc cho đến nay. Không nên sử dụng đồng thời với các thuốc ức chế miễn dịch khác vì nguy cơ ức chế miễn dịch quá mức như: abatacept, adalimumab , aldesleukin, alemtuzumab , altretamine, amsacrine, baricitinib , cisplatin… Hiệu quả điều trị của globulin miễn dịch bệnh than ở người có thể bị giảm khi sử dụng kết hợp với alefacept. Nguy cơ hoặc mức độ nghiêm trọng của các tác dụng ngoại ý có thể tăng lên khi alefacept được kết hợp với các thuốc chống động kinh như carbamazepine, phenytoin. Không tiêm vắc xin (vi rút sống) khi đang sử dụng thuốc. Tương tác với thực phẩm Chưa có thông tin. Tương kỵ Không nên được trộn lẫn với bất kỳ loại thuốc nào khác."
+    ],
+    "rubric": {
+      "case_id": "S3-038",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Alefacept",
+        "Carbamazepine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/Alefacept.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alefacept; Carbamazepine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alemtuzumab có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Không có nghiên cứu về tương tác thuốc nào được thực hiện với Alemtuzumab dùng ở liều khuyến cáo trên bệnh nhân đa xơ cứng. Tương kỵ thuốc Alemtuzumab chỉ được pha loãng với dung dịch natri clorid 0,9% hoặc dung dịch glucose 5% để tiêm truyền, không được pha với những dung dịch khác.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Không có nghiên cứu về tương tác thuốc nào được thực hiện với Alemtuzumab dùng ở liều khuyến cáo trên bệnh nhân đa xơ cứng. Tương kỵ thuốc Alemtuzumab chỉ được pha loãng với dung dịch natri clorid 0,9% hoặc dung dịch glucose 5% để tiêm truyền, không được pha với những dung dịch khác."
+    ],
+    "rubric": {
+      "case_id": "S3-039",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Alemtuzumab"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alemtuzumab.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alemtuzumab; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alendronic acid có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Estrogen : An toàn và hiệu quả của việc sử dụng đồng thời liệu pháp thay thế hormon và Alendronic acid cho phụ nữ sau mãn kinh chưa được xác định, vì vậy khuyến cáo không nên dùng đồng thời. Các chất bổ sung calci, magnesi hoặc các thuốc chứa nhôm (chống acid) : Có thể làm giảm hấp thu Alendronic acid. Vì vậy người bệnh phải chờ ít nhất nửa giờ sau khi uống Alendronic acid mới dùng bất kỳ thuốc nào khác. Ranitidin tiêm tĩnh mạch làm tăng sinh khả dụng Alendronic acid đường uống. Thuốc chống viêm không steroid (NSAID) : Dùng phối hợp với Alendronic acid có thể tăng nguy cơ loét dạ dày, nên phải thận trọng khi phối hợp. Sắt : Thuốc uống có sắt làm giảm hấp thu Alendronic acid. Kháng sinh aminoglycosid : Tăng nguy cơ giảm calci huyết nếu được dùng đồng thời.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Estrogen : An toàn và hiệu quả của việc sử dụng đồng thời liệu pháp thay thế hormon và Alendronic acid cho phụ nữ sau mãn kinh chưa được xác định, vì vậy khuyến cáo không nên dùng đồng thời. Các chất bổ sung calci, magnesi hoặc các thuốc chứa nhôm (chống acid) : Có thể làm giảm hấp thu Alendronic acid. Vì vậy người bệnh phải chờ ít nhất nửa giờ sau khi uống Alendronic acid mới dùng bất kỳ thuốc nào khác. Ranitidin tiêm tĩnh mạch làm tăng sinh khả dụng Alendronic acid đường uống. Thuốc chống viêm không steroid (NSAID) : Dùng phối hợp với Alendronic acid có thể tăng nguy cơ loét dạ dày, nên phải thận trọng khi phối hợp. Sắt : Thuốc uống có sắt làm giảm hấp thu Alendronic acid. Kháng sinh aminoglycosid : Tăng nguy cơ giảm calci huyết nếu được dùng đồng thời."
+    ],
+    "rubric": {
+      "case_id": "S3-040",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Alendronic acid"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alendronic-acid.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alendronic acid; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alfacalcidol có thể dùng chung với Carbamazepine không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Sử dụng đồng thời alfacalcidol với thuốc lợi tiểu thiazide hoặc các chế phẩm chứa canxi có thể làm tăng nguy cơ tăng canxi huyết. Cần theo dõi nồng độ canxi huyết. Sử dụng đồng thời alfacalcidol với các chế phẩm chứa vitamin D khác có thể làm tăng nguy cơ tăng canxi huyết. Nên tránh sử dụng nhiều chất tương tự vitamin D. Thuốc chống co giật (ví dụ như barbiturat, phenytoin , carbamazepine hoặc primidone ) có tác dụng cảm ứng enzym dẫn đến tăng chuyển hóa alfacalcidol khi dùng chung. Bệnh nhân đang dùng thuốc chống co giật có thể yêu cầu liều alfacalcidol lớn hơn. Alfacalcidol có thể tăng cường hấp thu các thuốc kháng axit chứa magiê, làm tăng nguy cơ tăng magiê huyết.",
+    "reference_contexts": [
+      "Sử dụng đồng thời alfacalcidol với thuốc lợi tiểu thiazide hoặc các chế phẩm chứa canxi có thể làm tăng nguy cơ tăng canxi huyết. Cần theo dõi nồng độ canxi huyết. Sử dụng đồng thời alfacalcidol với các chế phẩm chứa vitamin D khác có thể làm tăng nguy cơ tăng canxi huyết. Nên tránh sử dụng nhiều chất tương tự vitamin D. Thuốc chống co giật (ví dụ như barbiturat, phenytoin , carbamazepine hoặc primidone ) có tác dụng cảm ứng enzym dẫn đến tăng chuyển hóa alfacalcidol khi dùng chung. Bệnh nhân đang dùng thuốc chống co giật có thể yêu cầu liều alfacalcidol lớn hơn. Alfacalcidol có thể tăng cường hấp thu các thuốc kháng axit chứa magiê, làm tăng nguy cơ tăng magiê huyết."
+    ],
+    "rubric": {
+      "case_id": "S3-041",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Alfacalcidol",
+        "Carbamazepine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alfacalcidol.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alfacalcidol; Carbamazepine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alfentanil có thể dùng chung với Benzodiazepine không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Ảnh hưởng của alfentanil đối với các loại thuốc khác: Nên giảm liều các thuốc ức chế thần kinh trung ương khác chẳng hạn như benzodiazepine khi dùng đồng thời với alfentanil, có thể làm tăng nguy cơ suy hô hấp. Khi kết hợp với alfentanil, nồng độ propofol trong máu cao hơn 17% so với khi không dùng alfentanil. Thuốc ức chế Cytochrome P450 3A4 (CYP3A4) Chuyển hóa của alfentanil bị giảm bởi fluconazole, voriconazole , erythromycin, diltiazem và cimetidine (các chất ức chế enzym cytochrom P450 3A4 đã biết). Điều này có thể làm tăng nguy cơ suy hô hấp kéo dài. Chất ức chế monoamine oxidase (IMAO): Thường được khuyến cáo ngừng thuốc ức chế IMAO hai tuần trước khi tiến hành bất kỳ thủ thuật phẫu thuật hoặc gây mê nào.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Ảnh hưởng của alfentanil đối với các loại thuốc khác: Nên giảm liều các thuốc ức chế thần kinh trung ương khác chẳng hạn như benzodiazepine khi dùng đồng thời với alfentanil, có thể làm tăng nguy cơ suy hô hấp. Khi kết hợp với alfentanil, nồng độ propofol trong máu cao hơn 17% so với khi không dùng alfentanil. Thuốc ức chế Cytochrome P450 3A4 (CYP3A4) Chuyển hóa của alfentanil bị giảm bởi fluconazole, voriconazole , erythromycin, diltiazem và cimetidine (các chất ức chế enzym cytochrom P450 3A4 đã biết). Điều này có thể làm tăng nguy cơ suy hô hấp kéo dài. Chất ức chế monoamine oxidase (IMAO): Thường được khuyến cáo ngừng thuốc ức chế IMAO hai tuần trước khi tiến hành bất kỳ thủ thuật phẫu thuật hoặc gây mê nào."
+    ],
+    "rubric": {
+      "case_id": "S3-042",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Alfentanil",
+        "Benzodiazepine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alfentanil.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alfentanil; Benzodiazepine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alfuzosin có thể dùng chung với Itraconazole không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Không phối hợp alfuzosin với các thuốc chống tăng huyết áp nhóm chẹn thụ thể alpha khác như prazosin, terazosin vì có thể gây hạ huyết áp tư thế đứng rất nặng. Thận trọng khi phối hợp alfuzosin với các thuốc chống tăng huyết áp khác vì làm tăng nguy cơ hạ huyết áp quá mức. Các thuốc ức chế hoạt tính của isoenzyme CYP3A4 như ketoconazole, itraconazole, ritonavir có thể làm tăng nồng độ của alfuzosin trong máu. Atenolol khi dùng đồng thời với alfuzosin có thể làm tăng nồng độ trong huyết tương của cả hai thuốc. Diltiazem khi dùng đồng thời với alfuzosin có thể làm tăng nồng độ trong huyết tương của cả hai thuốc. Cimetidine có thể làm tăng nồng độ trong huyết tương của alfuzosin.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Không phối hợp alfuzosin với các thuốc chống tăng huyết áp nhóm chẹn thụ thể alpha khác như prazosin, terazosin vì có thể gây hạ huyết áp tư thế đứng rất nặng. Thận trọng khi phối hợp alfuzosin với các thuốc chống tăng huyết áp khác vì làm tăng nguy cơ hạ huyết áp quá mức. Các thuốc ức chế hoạt tính của isoenzyme CYP3A4 như ketoconazole, itraconazole, ritonavir có thể làm tăng nồng độ của alfuzosin trong máu. Atenolol khi dùng đồng thời với alfuzosin có thể làm tăng nồng độ trong huyết tương của cả hai thuốc. Diltiazem khi dùng đồng thời với alfuzosin có thể làm tăng nồng độ trong huyết tương của cả hai thuốc. Cimetidine có thể làm tăng nồng độ trong huyết tương của alfuzosin."
+    ],
+    "rubric": {
+      "case_id": "S3-043",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Alfuzosin",
+        "Itraconazole"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alfuzosin.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alfuzosin; Itraconazole; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alginic acid có thể dùng chung với Penicillamine không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Cần uống cách xa 2 giờ với các thuốc, đặc biệt là tetracycline , digoxine, fluoroquinolone, muối sắt, ketoconazole , thuốc an thần kinh, hormone tuyến giáp, penicillamine , thuốc chẹn beta, glucocorticoid, chloroquine và biphosphonates và estramustine .",
+    "reference_contexts": [
+      "Cần uống cách xa 2 giờ với các thuốc, đặc biệt là tetracycline , digoxine, fluoroquinolone, muối sắt, ketoconazole , thuốc an thần kinh, hormone tuyến giáp, penicillamine , thuốc chẹn beta, glucocorticoid, chloroquine và biphosphonates và estramustine ."
+    ],
+    "rubric": {
+      "case_id": "S3-044",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Alginic acid",
+        "Penicillamine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alginic-acid.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alginic acid; Penicillamine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alglucerase có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Không có thông tin. Tương tác với thực phẩm",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Không có thông tin. Tương tác với thực phẩm"
+    ],
+    "rubric": {
+      "case_id": "S3-045",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Alglucerase"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alglucerase.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alglucerase; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alglucosidase alfa có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Không có nghiên cứu tương tác nào được thực hiện. Bởi vì thuốc là một protein người tái tổ hợp nên alglucosidase alfa không cho các tương tác thuốc qua trung gian cytochrome P450.",
+    "reference_contexts": [
+      "Không có nghiên cứu tương tác nào được thực hiện. Bởi vì thuốc là một protein người tái tổ hợp nên alglucosidase alfa không cho các tương tác thuốc qua trung gian cytochrome P450."
+    ],
+    "rubric": {
+      "case_id": "S3-046",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Alglucosidase alfa"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alglucosidase-alfa.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alglucosidase alfa; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alimemazine có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Tác dụng ức chế thần kinh trung ương của alimemazine tăng lên khi dùng chung với các thuốc ngủ barbituric và các thuốc an thần khác. Ức chế hô hấp cũng đã xảy ra khi dùng phối hợp các thuốc này. Tác dụng hạ huyết áp của các thuốc chống tăng huyết áp, đặc biệt là các thuốc chẹn thụ thể alpha - adrenergic tăng lên khi dùng phối hợp với các dẫn chất phenothiazin. Tác dụng kháng cholinergic của các phenothiazin tăng lên khi phối hợp với các thuốc kháng cholinergic khác, dẫn tới táo bón, say nóng... Các thuốc kháng cholinergic có thể làm giảm tác dụng chống loạn thần của các phenothiazin. Các phenothiazin đối kháng với tác dụng trị liệu của amphetamin, levodopa, clonidin, guanethidin, epinephrin.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Tác dụng ức chế thần kinh trung ương của alimemazine tăng lên khi dùng chung với các thuốc ngủ barbituric và các thuốc an thần khác. Ức chế hô hấp cũng đã xảy ra khi dùng phối hợp các thuốc này. Tác dụng hạ huyết áp của các thuốc chống tăng huyết áp, đặc biệt là các thuốc chẹn thụ thể alpha - adrenergic tăng lên khi dùng phối hợp với các dẫn chất phenothiazin. Tác dụng kháng cholinergic của các phenothiazin tăng lên khi phối hợp với các thuốc kháng cholinergic khác, dẫn tới táo bón, say nóng... Các thuốc kháng cholinergic có thể làm giảm tác dụng chống loạn thần của các phenothiazin. Các phenothiazin đối kháng với tác dụng trị liệu của amphetamin, levodopa, clonidin, guanethidin, epinephrin."
+    ],
+    "rubric": {
+      "case_id": "S3-047",
+      "suite": "suite_3_drug_interaction",
+      "category": "interaction_screening",
+      "difficulty": "hard",
+      "entities": [
+        "Alimemazine"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alimemazine.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alimemazine; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Aliskiren có thể dùng chung với Itraconazole không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Cyclosporine , itraconazole : Tránh dùng chung với aliskiren do làm tăng đáng kể nồng độ aliskiren trong máu. Thuốc chống viêm không steroid (NSAID) bao gồm thuốc ức chế cyclooxygenase-2 chọn lọc (thuốc ức chế COX-2): Ở những bệnh nhân cao tuổi, suy giảm thể tích (bao gồm cả những người đang điều trị bằng thuốc lợi tiểu) hoặc bị tổn thương chức năng thận, dùng chung với NSAID, bao gồm thuốc ức chế COX-2 với các tác nhân ảnh hưởng đến hệ renin-angiotensin-aldosterone, bao gồm cả aliskiren, có thể làm suy giảm chức năng thận, bao gồm cả suy thận cấp tính . Những tác động này thường có thể hồi phục. Theo dõi chức năng thận định kỳ ở những bệnh nhân đang điều trị bằng aliskiren và NSAID. Tác dụng hạ huyết áp của aliskiren có thể bị giảm bởi NSAID.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Cyclosporine , itraconazole : Tránh dùng chung với aliskiren do làm tăng đáng kể nồng độ aliskiren trong máu. Thuốc chống viêm không steroid (NSAID) bao gồm thuốc ức chế cyclooxygenase-2 chọn lọc (thuốc ức chế COX-2): Ở những bệnh nhân cao tuổi, suy giảm thể tích (bao gồm cả những người đang điều trị bằng thuốc lợi tiểu) hoặc bị tổn thương chức năng thận, dùng chung với NSAID, bao gồm thuốc ức chế COX-2 với các tác nhân ảnh hưởng đến hệ renin-angiotensin-aldosterone, bao gồm cả aliskiren, có thể làm suy giảm chức năng thận, bao gồm cả suy thận cấp tính . Những tác động này thường có thể hồi phục. Theo dõi chức năng thận định kỳ ở những bệnh nhân đang điều trị bằng aliskiren và NSAID. Tác dụng hạ huyết áp của aliskiren có thể bị giảm bởi NSAID."
+    ],
+    "rubric": {
+      "case_id": "S3-048",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Aliskiren",
+        "Itraconazole"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/aliskiren.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Aliskiren; Itraconazole; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Alitretinoin có thể dùng chung với Rosiglitazone không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Sử dụng đồng thời với các chất ức chế CYP3A4 như ketoconazole làm tăng nồng độ Alitretinoin trong huyết tương và do đó cần xem xét giảm liều xuống 10 mg. Cần xem xét giảm liều xuống 10 mg khi Alitretinoin được dùng đồng thời với các chất ức chế CYP2C9 mạnh (Fluconazole, Miconazole , Oxandrolone ) hoặc các chất ức chế CYP2C8 mạnh ( Gemfibrozil ). Alitretinoin không khuyến cáo dùng đồng thời với Amiodaron (chuyển hóa qua CYP2C8 với thời gian bán hủy dài và chỉ số điều trị hẹp). Thận trọng khi sử dụng Alitretinoin với các thuốc chuyển hóa qua CYP2C8 ( Paclitaxel Rosiglitazone Repaglinide Giảm < 25% nồng độ Simvastatin và Axit Simvastatin trong huyết tương khi dùng đồng thời với Alitretinoin.",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Sử dụng đồng thời với các chất ức chế CYP3A4 như ketoconazole làm tăng nồng độ Alitretinoin trong huyết tương và do đó cần xem xét giảm liều xuống 10 mg. Cần xem xét giảm liều xuống 10 mg khi Alitretinoin được dùng đồng thời với các chất ức chế CYP2C9 mạnh (Fluconazole, Miconazole , Oxandrolone ) hoặc các chất ức chế CYP2C8 mạnh ( Gemfibrozil ). Alitretinoin không khuyến cáo dùng đồng thời với Amiodaron (chuyển hóa qua CYP2C8 với thời gian bán hủy dài và chỉ số điều trị hẹp). Thận trọng khi sử dụng Alitretinoin với các thuốc chuyển hóa qua CYP2C8 ( Paclitaxel Rosiglitazone Repaglinide Giảm < 25% nồng độ Simvastatin và Axit Simvastatin trong huyết tương khi dùng đồng thời với Alitretinoin."
+    ],
+    "rubric": {
+      "case_id": "S3-049",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Alitretinoin",
+        "Rosiglitazone"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/alitretinoin.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Alitretinoin; Rosiglitazone; interaction",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Allantoin có thể dùng chung với Asparaginase Escherichia coli không? Có nguy cơ tương tác gì?",
+    "reference": "Tương tác: Tương tác với các thuốc khác Tương tác thuốc có thể ảnh hưởng đến hoạt động của thuốc hoặc gây ra các tác dụng phụ. Nên báo cho bác sĩ hoặc dược sĩ danh sách những thuốc và các thực phẩm chức năng bạn đang sử dụng. Không nên dùng hay tăng giảm liều lượng của thuốc mà không có sự hướng dẫn của bác sĩ. Hiệu quả của Allantoin tăng lên khi sử dụng chung với: Asparaginase Erwinia chrysanthemi, asparaginase Escherichia coli, beclomethasone dipropionate, carbamazepine, ciclesonide, enzalutamide, fluticasone furoate, fluticasone propionate, fosphenytoin, furosemide, heparin , levothyroxine, liothyronine, meprednisone.…. Hiệu quả của Allantoin giảm xuống khi sử dụng chung với: Clofibrate, estrogen, danazol , dantrolene, diamorphine, diethylstilbestrol , estradiol, floxuridine, fluorouracil….",
+    "reference_contexts": [
+      "Tương tác với các thuốc khác Tương tác thuốc có thể ảnh hưởng đến hoạt động của thuốc hoặc gây ra các tác dụng phụ. Nên báo cho bác sĩ hoặc dược sĩ danh sách những thuốc và các thực phẩm chức năng bạn đang sử dụng. Không nên dùng hay tăng giảm liều lượng của thuốc mà không có sự hướng dẫn của bác sĩ. Hiệu quả của Allantoin tăng lên khi sử dụng chung với: Asparaginase Erwinia chrysanthemi, asparaginase Escherichia coli, beclomethasone dipropionate, carbamazepine, ciclesonide, enzalutamide, fluticasone furoate, fluticasone propionate, fosphenytoin, furosemide, heparin , levothyroxine, liothyronine, meprednisone.…. Hiệu quả của Allantoin giảm xuống khi sử dụng chung với: Clofibrate, estrogen, danazol , dantrolene, diamorphine, diethylstilbestrol , estradiol, floxuridine, fluorouracil…."
+    ],
+    "rubric": {
+      "case_id": "S3-050",
+      "suite": "suite_3_drug_interaction",
+      "category": "specific_drug_interaction",
+      "difficulty": "hard",
+      "entities": [
+        "Allantoin",
+        "Asparaginase Escherichia coli"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/allantoin.json"
+      ],
+      "source_fields": [
+        "interaction"
+      ],
+      "expected_behavior": "warn_about_interaction",
+      "expected_keywords": "Allantoin; Asparaginase Escherichia coli; interaction",
+      "requires_professional_advice": true
+    }
+  }
+]

@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     openai_api_key: str | None = None
     openai_base_url: str | None = None
     chat_model: str = "gpt-4.1-mini"
+    router_model: str | None = None
     gemini_api_key: str | None = None
     gemini_model: str = "gemini-2.5-flash"
     llm_router_enabled: bool = True
@@ -43,9 +44,10 @@ class Settings(BaseSettings):
     ingestion_batch_size: int = 64
     whitelist_domains: list[str] = Field(
         default_factory=lambda: [
+            "vinmec.com",
+            "suckhoedoisong.vn",
             "thuocbietduoc.com.vn",
             "duocdienvietnam.com",
-            "vinmec.com",
             "tudu.com.vn",
             "nhathuoclongchau.com.vn",
             "pharmacity.vn",

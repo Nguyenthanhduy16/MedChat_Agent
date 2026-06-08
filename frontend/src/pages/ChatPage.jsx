@@ -68,6 +68,7 @@ export default function ChatPage({ onShowAuth }) {
     error,
     currentSessionId,
     sendMessage,
+    stopMessage,
     newConversation,
     loadHistory,
     retry
@@ -144,6 +145,7 @@ export default function ChatPage({ onShowAuth }) {
             isLoading={isLoading}
             error={error}
             sendMessage={sendMessage}
+            stopMessage={stopMessage}
             onRetry={retry}
             onRequireAuth={undefined} // user ? undefined : handleRequireAuth
             onShowSources={setActiveSources}

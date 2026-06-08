@@ -1,0 +1,1352 @@
+[
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Bàn chân khoèo là gì?, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Bàn chân khoèo có những triệu chứng rõ ràng mà các bậc cha mẹ có thể dễ dàng nhận biết ngay từ khi trẻ mới sinh ra. Các triệu chứng bao gồm: Bàn chân bị xoay vào trong: Bàn chân của trẻ sẽ quay vào trong và hướng xuống dưới, trông như bị bẻ cong. Gân Achilles bị căng: Gân này ở phía sau gót chân sẽ bị căng và co ngắn lại. Cổ chân biến dạng: Phần cổ chân của trẻ sẽ có hiện tượng bị biến dạng, không thẳng hàng với cẳng chân. Độ cứng của khớp cổ chân: Khớp cổ chân bị cứng, khó cử động hoặc không thể cử động theo hướng bình thường. Định hướng xử trí: Phòng ngừa bệnh Hiện tại, không có phương pháp phòng ngừa cụ thể nào cho bàn chân khoèo do nguyên nhân gây bệnh chưa được xác định rõ ràng. Tuy nhiên, các biện pháp sau có thể giúp giảm nguy cơ hoặc hỗ trợ phát hiện sớm: Khám thai định kỳ: Việc khám thai định kỳ giúp theo dõi sự phát triển của thai nhi và phát hiện sớm các dị tật nếu có. Duy trì sức khỏe mẹ bầu: Chế độ ăn uống lành mạnh, tránh tiếp xúc với các hóa chất độc hại và tuân thủ hướng dẫn của bác sĩ trong suốt thai kỳ là rất quan trọng. Không hút thuốc và tránh khói thuốc. Không uống rượu. Không dùng thuốc khi chưa có chỉ định của bác sĩ",
+    "reference_contexts": [
+      "Triệu chứng Bàn chân khoèo có những triệu chứng rõ ràng mà các bậc cha mẹ có thể dễ dàng nhận biết ngay từ khi trẻ mới sinh ra. Các triệu chứng bao gồm: Bàn chân bị xoay vào trong: Bàn chân của trẻ sẽ quay vào trong và hướng xuống dưới, trông như bị bẻ cong. Gân Achilles bị căng: Gân này ở phía sau gót chân sẽ bị căng và co ngắn lại. Cổ chân biến dạng: Phần cổ chân của trẻ sẽ có hiện tượng bị biến dạng, không thẳng hàng với cẳng chân. Độ cứng của khớp cổ chân: Khớp cổ chân bị cứng, khó cử động hoặc không thể cử động theo hướng bình thường.",
+      "Phòng ngừa bệnh Hiện tại, không có phương pháp phòng ngừa cụ thể nào cho bàn chân khoèo do nguyên nhân gây bệnh chưa được xác định rõ ràng. Tuy nhiên, các biện pháp sau có thể giúp giảm nguy cơ hoặc hỗ trợ phát hiện sớm: Khám thai định kỳ: Việc khám thai định kỳ giúp theo dõi sự phát triển của thai nhi và phát hiện sớm các dị tật nếu có. Duy trì sức khỏe mẹ bầu: Chế độ ăn uống lành mạnh, tránh tiếp xúc với các hóa chất độc hại và tuân thủ hướng dẫn của bác sĩ trong suốt thai kỳ là rất quan trọng. Không hút thuốc và tránh khói thuốc. Không uống rượu. Không dùng thuốc khi chưa có chỉ định của bác sĩ"
+    ],
+    "rubric": {
+      "case_id": "S4-001",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Bàn chân khoèo là gì?"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/ban-chan-khoeo.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Bàn chân khoèo là gì?; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Bệnh khớp do thần kinh, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Khi gặp phải bệnh khớp do thần kinh, người bệnh thường chưa có dấu hiệu rõ rệt, chỉ đến khi bệnh tiến triển năng, người bệnh mới gặp phải triệu chứng như: Mất các phản xạ bảo vệ nhưng trương lực cơ vẫn bình thường. Sưng và đau ở khớp mà không rõ nguyên nhân. Khớp nóng, đỏ và mềm khi chạm vào. Khả năng vận động của khớp bị hạn chế. Biến dạng khớp, xương. Khớp bị lỏng lẻo hoặc không ổn định. Khớp thoái hóa thứ phát suy yếu phì đại. Người bệnh mất cảm giác tại các khớp tổn thương như đau hay nóng lạnh. Mọc gai xương, sụn khớp bị bào mòn. Định hướng xử trí: Phòng ngừa bệnh Phòng ngừa bệnh khớp do thần kinh đòi hỏi một sự kết hợp giữa chăm sóc sức khỏe tổng thể và các biện pháp cụ thể nhằm vào sự linh hoạt và bảo vệ của các khớp. Dưới đây là một số gợi ý phòng ngừa: Duy trì cân nặng lành mạnh: Cân nặng thừa có thể tăng áp lực lên các khớp, đặc biệt là khớp gối và khớp háng. Duy trì cân nặng lành mạnh thông qua chế độ ăn uống cân đối và việc tập thể dục đều đặn có thể giảm nguy cơ mắc bệnh khớp. Kiểm soát đường huyết: Đối với bệnh nhân tiểu đường, duy trì mức đường huyết ổn định là cực kỳ quan trọng. Kiểm tra chân thường xuyên: Đối với những người có nguy cơ, kiểm tra chân hàng ngày để phát hiện sớm các tổn thương. Sử dụng giày dép phù hợp: Giày dép nên có đệm tốt, vừa vặn và bảo vệ chân.",
+    "reference_contexts": [
+      "Triệu chứng Khi gặp phải bệnh khớp do thần kinh, người bệnh thường chưa có dấu hiệu rõ rệt, chỉ đến khi bệnh tiến triển năng, người bệnh mới gặp phải triệu chứng như: Mất các phản xạ bảo vệ nhưng trương lực cơ vẫn bình thường. Sưng và đau ở khớp mà không rõ nguyên nhân. Khớp nóng, đỏ và mềm khi chạm vào. Khả năng vận động của khớp bị hạn chế. Biến dạng khớp, xương. Khớp bị lỏng lẻo hoặc không ổn định. Khớp thoái hóa thứ phát suy yếu phì đại. Người bệnh mất cảm giác tại các khớp tổn thương như đau hay nóng lạnh. Mọc gai xương, sụn khớp bị bào mòn.",
+      "Phòng ngừa bệnh Phòng ngừa bệnh khớp do thần kinh đòi hỏi một sự kết hợp giữa chăm sóc sức khỏe tổng thể và các biện pháp cụ thể nhằm vào sự linh hoạt và bảo vệ của các khớp. Dưới đây là một số gợi ý phòng ngừa: Duy trì cân nặng lành mạnh: Cân nặng thừa có thể tăng áp lực lên các khớp, đặc biệt là khớp gối và khớp háng. Duy trì cân nặng lành mạnh thông qua chế độ ăn uống cân đối và việc tập thể dục đều đặn có thể giảm nguy cơ mắc bệnh khớp. Kiểm soát đường huyết: Đối với bệnh nhân tiểu đường, duy trì mức đường huyết ổn định là cực kỳ quan trọng. Kiểm tra chân thường xuyên: Đối với những người có nguy cơ, kiểm tra chân hàng ngày để phát hiện sớm các tổn thương. Sử dụng giày dép phù hợp: Giày dép nên có đệm tốt, vừa vặn và bảo vệ chân."
+    ],
+    "rubric": {
+      "case_id": "S4-002",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Bệnh khớp do thần kinh"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/benh-khop-do-than-kinh.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Bệnh khớp do thần kinh; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Bệnh Osgood-Schlatter, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng chung điển hình của bệnh Osgood-Schlatter là đau nhức và sưng ở vùng cẳng chân ngay bên dưới đầu gối và có thể gặp ở một hoặc hai chân. Cơn đau tăng khi thực hiện vận động đầu gối mạnh hoặc vận động đè ép lên lồi củ dưới đầu gối. Nếu bệnh ở mức độ nhẹ thì các triệu chứng sẽ giảm dần trong vòng 6 tuần và những cơn đau sẽ chấm dứt khi trẻ ngừng tăng trưởng, các mảnh xương vỡ liền lại với nhau. Định hướng xử trí: Phòng ngừa bệnh Osgood-Schlatter là vấn đề thường gặp phải ở trẻ trong độ tuổi trưởng thành. Để hạn chế nguy cơ/ ngăn chặn sự phát triển của viêm củ lồi trước xương chày ở trẻ, ba mẹ lưu ý: Nếu trẻ thừa cân, béo phì, ba mẹ khuyến khích trẻ vận động hợp lý để hạn chế áp lực từ cơ thể lên đầu gối. Không để trẻ vận động quá mạnh. Khởi động kỹ trước khi hoạt động hay chơi thể thao. Giãn cơ: Thực hiện các bài tập giãn cơ gân kheo và cơ đùi trước khi tham gia thể thao. Sử dụng thiết bị bảo vệ: Mang đai gối hoặc băng đầu gối để giảm áp lực lên vùng gân bánh chè. Trẻ bị viêm củ lồi trước xương chè cần được: Cố định vùng thương tổn Nghỉ ngơi hợp lý Tập luyện các bài tập vật lý để cải thiện hệ cơ xương khớp Uống thuốc đúng giờ theo đúng chỉ định của bác sĩ. Cố định vùng thương tổn Nghỉ ngơi hợp lý",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng chung điển hình của bệnh Osgood-Schlatter là đau nhức và sưng ở vùng cẳng chân ngay bên dưới đầu gối và có thể gặp ở một hoặc hai chân. Cơn đau tăng khi thực hiện vận động đầu gối mạnh hoặc vận động đè ép lên lồi củ dưới đầu gối. Nếu bệnh ở mức độ nhẹ thì các triệu chứng sẽ giảm dần trong vòng 6 tuần và những cơn đau sẽ chấm dứt khi trẻ ngừng tăng trưởng, các mảnh xương vỡ liền lại với nhau.",
+      "Phòng ngừa bệnh Osgood-Schlatter là vấn đề thường gặp phải ở trẻ trong độ tuổi trưởng thành. Để hạn chế nguy cơ/ ngăn chặn sự phát triển của viêm củ lồi trước xương chày ở trẻ, ba mẹ lưu ý: Nếu trẻ thừa cân, béo phì, ba mẹ khuyến khích trẻ vận động hợp lý để hạn chế áp lực từ cơ thể lên đầu gối. Không để trẻ vận động quá mạnh. Khởi động kỹ trước khi hoạt động hay chơi thể thao. Giãn cơ: Thực hiện các bài tập giãn cơ gân kheo và cơ đùi trước khi tham gia thể thao. Sử dụng thiết bị bảo vệ: Mang đai gối hoặc băng đầu gối để giảm áp lực lên vùng gân bánh chè. Trẻ bị viêm củ lồi trước xương chè cần được: Cố định vùng thương tổn Nghỉ ngơi hợp lý Tập luyện các bài tập vật lý để cải thiện hệ cơ xương khớp Uống thuốc đúng giờ theo đúng chỉ định của bác sĩ. Cố định vùng thương tổn Nghỉ ngơi hợp lý"
+    ],
+    "rubric": {
+      "case_id": "S4-003",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Bệnh Osgood-Schlatter"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/benh-osgood-schlatter.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Bệnh Osgood-Schlatter; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Bệnh xương Köhler, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Các triệu chứng thường gặp của bệnh xương Köhler bao gồm: Đau ở bàn chân: Đau thường xuất hiện ở phần trên của bàn chân, gần vùng mắt cá. Sưng và nhạy cảm: Khu vực bị ảnh hưởng có thể sưng và nhạy cảm khi chạm vào. Đi khập khiễng: Trẻ thường đi khập khiễng do đau và khó chịu. Giảm khả năng chịu lực: Trẻ gặp khó khăn trong việc đứng và đi lại Các triệu chứng có thể dần dần phát triển và trầm trọng hơn trong vài tuần hoặc vài tháng. Định hướng xử trí: Phòng ngừa bệnh Để giảm nguy cơ bị hoại tử vô mạch, người bệnh nên: Không uống rượu: Uống nhiều rượu bia là một yếu tố nguy cơ hàng đầu đối với hoại tử vô mạch. Duy trì lượng cholesterol máu thấp: Mỡ máu là chất phổ biến nhất ngăn chặn nguồn cung cấp máu cho xương. Sử dụng steroid cẩn thận: Bác sĩ sẽ theo dõi người bệnh khi đang dùng những loại thuốc này. Hãy cho họ biết nếu bạn đã sử dụng chúng trước đây. Dùng steroid nhiều lần có thể làm tổn thương xương trầm trọng hơn. Không hút thuốc: Hút thuốc làm tăng nguy cơ bị hoại tử vô mạch.",
+    "reference_contexts": [
+      "Triệu chứng Các triệu chứng thường gặp của bệnh xương Köhler bao gồm: Đau ở bàn chân: Đau thường xuất hiện ở phần trên của bàn chân, gần vùng mắt cá. Sưng và nhạy cảm: Khu vực bị ảnh hưởng có thể sưng và nhạy cảm khi chạm vào. Đi khập khiễng: Trẻ thường đi khập khiễng do đau và khó chịu. Giảm khả năng chịu lực: Trẻ gặp khó khăn trong việc đứng và đi lại Các triệu chứng có thể dần dần phát triển và trầm trọng hơn trong vài tuần hoặc vài tháng.",
+      "Phòng ngừa bệnh Để giảm nguy cơ bị hoại tử vô mạch, người bệnh nên: Không uống rượu: Uống nhiều rượu bia là một yếu tố nguy cơ hàng đầu đối với hoại tử vô mạch. Duy trì lượng cholesterol máu thấp: Mỡ máu là chất phổ biến nhất ngăn chặn nguồn cung cấp máu cho xương. Sử dụng steroid cẩn thận: Bác sĩ sẽ theo dõi người bệnh khi đang dùng những loại thuốc này. Hãy cho họ biết nếu bạn đã sử dụng chúng trước đây. Dùng steroid nhiều lần có thể làm tổn thương xương trầm trọng hơn. Không hút thuốc: Hút thuốc làm tăng nguy cơ bị hoại tử vô mạch."
+    ],
+    "rubric": {
+      "case_id": "S4-004",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Bệnh xương Köhler"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/benh-xuong-kohler.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Bệnh xương Köhler; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Bong gân cổ chân, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Khi bị bong gân cổ chân, bạn có thể nhận thấy một số biểu hiện như: Bầm tím và sưng tại vị trí mắt cá chân, tùy vào mức độ bong gân mà có thể sưng đến mức nếu dùng ngón tay ấn vào sẽ để lại vết lõm tại vị trí đó. Sau khi bị bong gân, phần khớp cổ chân xuất hiện cơn đau nhói từ âm ỉ đến dữ dội, mức độ đau tăng dần khi phải di chuyển. Trường hợp chấn thương nặng, người bệnh có thể nghe thấy tiếng “rắc”, sau đó mất cơ năng cổ chân giống gãy xương. Định hướng xử trí: Phòng ngừa bệnh Tình trạng bong gân ở cổ chân có thể được phòng ngừa hiệu quả thông qua một số biện pháp như: Khởi động trước khi tập thể dục hoặc chơi thể thao. Cẩn thận khi chạy bộ, đi bộ hoặc vận động trên các bề mặt không bằng phẳng. Sử dụng nẹp hoặc băng để hỗ trợ vùng cổ chân nếu từng bị thương trước đó Mang giày vừa vặn với chân và phù hợp với từng hoạt động (đá bóng, đi bộ, chạy bộ…). Hạn chế đi giày cao gót. Tăng cường luyện tập để duy trì sức mạnh và tính linh hoạt của cơ bắp.",
+    "reference_contexts": [
+      "Triệu chứng Khi bị bong gân cổ chân, bạn có thể nhận thấy một số biểu hiện như: Bầm tím và sưng tại vị trí mắt cá chân, tùy vào mức độ bong gân mà có thể sưng đến mức nếu dùng ngón tay ấn vào sẽ để lại vết lõm tại vị trí đó. Sau khi bị bong gân, phần khớp cổ chân xuất hiện cơn đau nhói từ âm ỉ đến dữ dội, mức độ đau tăng dần khi phải di chuyển. Trường hợp chấn thương nặng, người bệnh có thể nghe thấy tiếng “rắc”, sau đó mất cơ năng cổ chân giống gãy xương.",
+      "Phòng ngừa bệnh Tình trạng bong gân ở cổ chân có thể được phòng ngừa hiệu quả thông qua một số biện pháp như: Khởi động trước khi tập thể dục hoặc chơi thể thao. Cẩn thận khi chạy bộ, đi bộ hoặc vận động trên các bề mặt không bằng phẳng. Sử dụng nẹp hoặc băng để hỗ trợ vùng cổ chân nếu từng bị thương trước đó Mang giày vừa vặn với chân và phù hợp với từng hoạt động (đá bóng, đi bộ, chạy bộ…). Hạn chế đi giày cao gót. Tăng cường luyện tập để duy trì sức mạnh và tính linh hoạt của cơ bắp."
+    ],
+    "rubric": {
+      "case_id": "S4-005",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Bong gân cổ chân"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/bong-gan-co-chan.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Bong gân cổ chân; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Bướu hoạt dịch cổ tay, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng bướu hoạt dịch cổ tay Triệu chứng của bướu hoạt dịch cổ tay bao gồm: Khối u xuất hiện ở cổ tay: Một hoặc nhiều khối u mềm, có thể nhìn thấy rõ dưới da. Đau đớn: Đau ở vùng cổ tay, đặc biệt khi cử động hoặc áp lực lên khối u. Hạn chế vận động: Khó khăn trong việc cử động cổ tay hoặc cầm nắm đồ vật. Sưng và cứng cổ tay: Sưng quanh khớp cổ tay, cảm giác cứng và không linh hoạt. Kích thước bướu không phải là yếu tố gây ra triệu chứng đau của bệnh nhân, vì có những bướu tuy nhỏ không nổi lên da nhưng lại gây đau nhiều hơn các bướu lớn. Những tình huống này thường khó khăn để chẩn đoán và dễ nhầm với một viêm khớp dẫn đến điều trị sai hướng. Định hướng xử trí: Phòng ngừa bệnh Phương pháp dự phòng bướu hoạt dịch cổ tay Để giảm nguy cơ mắc bướu hoạt dịch cổ tay, bạn cần lưu ý những vấn đề sau: Hạn chế chấn thương vùng cổ tay bằng cách khởi động kỹ trước khi chơi, dùng băng chun hoặc bó cổ tay trong khi chơi thể thao Tập các bài tập vận động cổ tay nhẹ nhàng, giúp tăng cường sức mạnh và sự linh hoạt của khớp. Thực hiện các bài tập giãn cơ: Giúp tăng cường độ linh hoạt và sức mạnh của cơ và khớp. Sử dụng thiết bị hỗ trợ: Như băng đai cổ tay khi tham gia các hoạt động có nguy cơ cao. Nghỉ ngơi khi cổ tay bị đau nhức, tránh vận động quá mức. Giữ cổ tay ở vị trí trung hòa khi làm việc hoặc sử dụng các thiết bị điện tử. Ăn uống khoa học, đầy đủ chất dinh dưỡng và duy trì mức cân nặng ổn định.",
+    "reference_contexts": [
+      "Triệu chứng bướu hoạt dịch cổ tay Triệu chứng của bướu hoạt dịch cổ tay bao gồm: Khối u xuất hiện ở cổ tay: Một hoặc nhiều khối u mềm, có thể nhìn thấy rõ dưới da. Đau đớn: Đau ở vùng cổ tay, đặc biệt khi cử động hoặc áp lực lên khối u. Hạn chế vận động: Khó khăn trong việc cử động cổ tay hoặc cầm nắm đồ vật. Sưng và cứng cổ tay: Sưng quanh khớp cổ tay, cảm giác cứng và không linh hoạt. Kích thước bướu không phải là yếu tố gây ra triệu chứng đau của bệnh nhân, vì có những bướu tuy nhỏ không nổi lên da nhưng lại gây đau nhiều hơn các bướu lớn. Những tình huống này thường khó khăn để chẩn đoán và dễ nhầm với một viêm khớp dẫn đến điều trị sai hướng.",
+      "Phòng ngừa bệnh Phương pháp dự phòng bướu hoạt dịch cổ tay Để giảm nguy cơ mắc bướu hoạt dịch cổ tay, bạn cần lưu ý những vấn đề sau: Hạn chế chấn thương vùng cổ tay bằng cách khởi động kỹ trước khi chơi, dùng băng chun hoặc bó cổ tay trong khi chơi thể thao Tập các bài tập vận động cổ tay nhẹ nhàng, giúp tăng cường sức mạnh và sự linh hoạt của khớp. Thực hiện các bài tập giãn cơ: Giúp tăng cường độ linh hoạt và sức mạnh của cơ và khớp. Sử dụng thiết bị hỗ trợ: Như băng đai cổ tay khi tham gia các hoạt động có nguy cơ cao. Nghỉ ngơi khi cổ tay bị đau nhức, tránh vận động quá mức. Giữ cổ tay ở vị trí trung hòa khi làm việc hoặc sử dụng các thiết bị điện tử. Ăn uống khoa học, đầy đủ chất dinh dưỡng và duy trì mức cân nặng ổn định."
+    ],
+    "rubric": {
+      "case_id": "S4-006",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Bướu hoạt dịch cổ tay"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/buou-hoat-dich-co-tay.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Bướu hoạt dịch cổ tay; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Chấn thương cột sống, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Các triệu chứng chấn thương cột sống thắt lưng phụ thuộc vào mức độ tổn thương, loại chấn thương và vị trí của tổn thương. Báo cho nhân viên chăm sóc y tế ngay lập tức nếu sau chấn thương bạn nhận thấy một trong các vấn đề sau đây: Mất cảm giác: Mất cảm giác ở một hoặc nhiều phần của cơ thể dưới mức độ tổn thương. Mất chức năng vận động: Giảm hoặc mất khả năng vận động ở các cơ dưới mức độ tổn thương. Đau hoặc cảm giác khó chịu: Đau dữ dội hoặc cảm giác khó chịu ở vùng cột sống hoặc các chi, cổ. Mất kiểm soát bàng quang và ruột: Khó kiểm soát tiểu tiện và đại tiện. Thay đổi cảm giác: Cảm giác tê, ngứa râm ran, hoặc nhạy cảm quá mức ở các vùng dưới mức độ tổn thương. Khó thở: Nếu chấn thương xảy ra ở vùng cổ, có thể gây khó thở hoặc mất chức năng hô hấp. Định hướng xử trí: Phòng ngừa bệnh Do chấn thương cột sống thường do các sự kiện không thể đoán trước, nên điều tốt nhất bạn có thể làm là giảm thiểu rủi ro. Một số biện pháp giảm thiểu rủi ro bao gồm: Phòng ngừa chấn thương cột sống bao gồm: An toàn giao thông: Luôn thắt dây an toàn khi lái xe, tuân thủ luật giao thông, và không lái xe khi say rượu. Sử dụng thiết bị bảo hộ: Đội mũ bảo hiểm khi đi xe máy, xe đạp, và sử dụng thiết bị bảo hộ trong các môn thể thao. Thực hiện đúng kỹ thuật: Trong các hoạt động thể thao và lao động để giảm nguy cơ chấn thương. Tập luyện thể dục đều đặn: Giữ cho cơ bắp và xương chắc khỏe, cải thiện sự linh hoạt và cân bằng. Kiểm tra sức khỏe định kỳ: Đặc biệt là ở người cao tuổi và những người có bệnh lý nền để phát hiện sớm và điều trị các vấn đề về cột sống.",
+    "reference_contexts": [
+      "Triệu chứng Các triệu chứng chấn thương cột sống thắt lưng phụ thuộc vào mức độ tổn thương, loại chấn thương và vị trí của tổn thương. Báo cho nhân viên chăm sóc y tế ngay lập tức nếu sau chấn thương bạn nhận thấy một trong các vấn đề sau đây: Mất cảm giác: Mất cảm giác ở một hoặc nhiều phần của cơ thể dưới mức độ tổn thương. Mất chức năng vận động: Giảm hoặc mất khả năng vận động ở các cơ dưới mức độ tổn thương. Đau hoặc cảm giác khó chịu: Đau dữ dội hoặc cảm giác khó chịu ở vùng cột sống hoặc các chi, cổ. Mất kiểm soát bàng quang và ruột: Khó kiểm soát tiểu tiện và đại tiện. Thay đổi cảm giác: Cảm giác tê, ngứa râm ran, hoặc nhạy cảm quá mức ở các vùng dưới mức độ tổn thương. Khó thở: Nếu chấn thương xảy ra ở vùng cổ, có thể gây khó thở hoặc mất chức năng hô hấp.",
+      "Phòng ngừa bệnh Do chấn thương cột sống thường do các sự kiện không thể đoán trước, nên điều tốt nhất bạn có thể làm là giảm thiểu rủi ro. Một số biện pháp giảm thiểu rủi ro bao gồm: Phòng ngừa chấn thương cột sống bao gồm: An toàn giao thông: Luôn thắt dây an toàn khi lái xe, tuân thủ luật giao thông, và không lái xe khi say rượu. Sử dụng thiết bị bảo hộ: Đội mũ bảo hiểm khi đi xe máy, xe đạp, và sử dụng thiết bị bảo hộ trong các môn thể thao. Thực hiện đúng kỹ thuật: Trong các hoạt động thể thao và lao động để giảm nguy cơ chấn thương. Tập luyện thể dục đều đặn: Giữ cho cơ bắp và xương chắc khỏe, cải thiện sự linh hoạt và cân bằng. Kiểm tra sức khỏe định kỳ: Đặc biệt là ở người cao tuổi và những người có bệnh lý nền để phát hiện sớm và điều trị các vấn đề về cột sống."
+    ],
+    "rubric": {
+      "case_id": "S4-007",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Chấn thương cột sống"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/chan-thuong-cot-song.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Chấn thương cột sống; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Chứng dính liền khớp sọ sớm là gì?, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng của dính khớp sọ sớm có thể bao gồm: Biến dạng hộp sọ: Hộp sọ có hình dạng bất thường như đầu hình thuyền, đầu hình tam giác, đầu méo, đầu dẹt hoặc đầu nhỏ. Gờ xương nhô cao: Có một gờ xương nhô cao dọc theo đường khớp. Mắt lồi: Hai cung mày phát triển không đều, mắt bị lồi ra trước. Đau đầu và tăng áp lực nội sọ: Trẻ có thể bị đau đầu, buồn nôn, nôn và các triệu chứng tăng áp lực nội sọ khác. Chậm phát triển: Trong một số trường hợp, trẻ có thể gặp vấn đề về phát triển tâm thần và vận động. Định hướng xử trí: Phòng ngừa bệnh Hiện tại, không có biện pháp phòng ngừa cụ thể cho dính khớp sọ sớm. Tuy nhiên, một số biện pháp sau có thể giúp giảm nguy cơ: Khám thai định kỳ: Phát hiện sớm các bất thường trong thai kỳ. Chăm sóc sức khỏe tốt: Đảm bảo sức khỏe tổng thể của mẹ bầu để giảm nguy cơ các dị tật bẩm sinh. Tư vấn di truyền: Đối với những gia đình có tiền sử bệnh lý, tư vấn di truyền có thể giúp xác định nguy cơ và lựa chọn biện pháp can thiệp kịp thời.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng của dính khớp sọ sớm có thể bao gồm: Biến dạng hộp sọ: Hộp sọ có hình dạng bất thường như đầu hình thuyền, đầu hình tam giác, đầu méo, đầu dẹt hoặc đầu nhỏ. Gờ xương nhô cao: Có một gờ xương nhô cao dọc theo đường khớp. Mắt lồi: Hai cung mày phát triển không đều, mắt bị lồi ra trước. Đau đầu và tăng áp lực nội sọ: Trẻ có thể bị đau đầu, buồn nôn, nôn và các triệu chứng tăng áp lực nội sọ khác. Chậm phát triển: Trong một số trường hợp, trẻ có thể gặp vấn đề về phát triển tâm thần và vận động.",
+      "Phòng ngừa bệnh Hiện tại, không có biện pháp phòng ngừa cụ thể cho dính khớp sọ sớm. Tuy nhiên, một số biện pháp sau có thể giúp giảm nguy cơ: Khám thai định kỳ: Phát hiện sớm các bất thường trong thai kỳ. Chăm sóc sức khỏe tốt: Đảm bảo sức khỏe tổng thể của mẹ bầu để giảm nguy cơ các dị tật bẩm sinh. Tư vấn di truyền: Đối với những gia đình có tiền sử bệnh lý, tư vấn di truyền có thể giúp xác định nguy cơ và lựa chọn biện pháp can thiệp kịp thời."
+    ],
+    "rubric": {
+      "case_id": "S4-008",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Chứng dính liền khớp sọ sớm là gì?"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/chung-dinh-lien-khop-so-som.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Chứng dính liền khớp sọ sớm là gì?; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Chuột rút co cứng, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Các triệu chứng của chuột rút co cứng có thể bao gồm: Đau dữ dội: Cảm giác đau đớn và căng thẳng trong cơ bắp bị ảnh hưởng. Đau có thể kéo dài từ vài giây đến vài phút. Cứng cơ: Cơ bắp bị co rút sẽ cảm thấy cứng và khó cử động. Cảm giác cứng có thể kéo dài ngay cả sau khi cơn chuột rút đã qua. Sưng hoặc nhức: Một số người có thể cảm thấy sưng hoặc nhức nhẹ sau cơn chuột rút. Cảm giác nóng hoặc lạnh: Cảm giác nóng hoặc lạnh tại khu vực cơ bắp bị ảnh hưởng có thể xuất hiện. Định hướng xử trí: Phòng ngừa bệnh Để phòng ngừa chuột rút co cứng, bạn có thể thực hiện các biện pháp sau: Uống đủ nước: Đảm bảo cơ thể được cung cấp đủ nước và các khoáng chất cần thiết bằng cách uống nhiều nước và bổ sung điện giải nếu cần. Tập thể dục đúng cách: Tập thể dục đều đặn và khởi động trước khi tập để làm nóng cơ bắp, giúp giảm nguy cơ chuột rút. Đảm bảo chế độ ăn uống hợp lý: Ăn đủ thực phẩm giàu kali, canxi và magiê để hỗ trợ sức khỏe cơ bắp. Thực hiện các bài tập giãn cơ: Thực hiện các bài tập giãn cơ nhẹ nhàng để cải thiện tính linh hoạt và giảm nguy cơ chuột rút. Thay đổi tư thế thường xuyên: Nếu bạn phải ngồi hoặc đứng lâu, hãy thay đổi tư thế thường xuyên và thực hiện các bài tập nhẹ để giảm căng thẳng cơ bắp.",
+    "reference_contexts": [
+      "Triệu chứng Các triệu chứng của chuột rút co cứng có thể bao gồm: Đau dữ dội: Cảm giác đau đớn và căng thẳng trong cơ bắp bị ảnh hưởng. Đau có thể kéo dài từ vài giây đến vài phút. Cứng cơ: Cơ bắp bị co rút sẽ cảm thấy cứng và khó cử động. Cảm giác cứng có thể kéo dài ngay cả sau khi cơn chuột rút đã qua. Sưng hoặc nhức: Một số người có thể cảm thấy sưng hoặc nhức nhẹ sau cơn chuột rút. Cảm giác nóng hoặc lạnh: Cảm giác nóng hoặc lạnh tại khu vực cơ bắp bị ảnh hưởng có thể xuất hiện.",
+      "Phòng ngừa bệnh Để phòng ngừa chuột rút co cứng, bạn có thể thực hiện các biện pháp sau: Uống đủ nước: Đảm bảo cơ thể được cung cấp đủ nước và các khoáng chất cần thiết bằng cách uống nhiều nước và bổ sung điện giải nếu cần. Tập thể dục đúng cách: Tập thể dục đều đặn và khởi động trước khi tập để làm nóng cơ bắp, giúp giảm nguy cơ chuột rút. Đảm bảo chế độ ăn uống hợp lý: Ăn đủ thực phẩm giàu kali, canxi và magiê để hỗ trợ sức khỏe cơ bắp. Thực hiện các bài tập giãn cơ: Thực hiện các bài tập giãn cơ nhẹ nhàng để cải thiện tính linh hoạt và giảm nguy cơ chuột rút. Thay đổi tư thế thường xuyên: Nếu bạn phải ngồi hoặc đứng lâu, hãy thay đổi tư thế thường xuyên và thực hiện các bài tập nhẹ để giảm căng thẳng cơ bắp."
+    ],
+    "rubric": {
+      "case_id": "S4-009",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Chuột rút co cứng"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/chuot-rut-co-cung.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Chuột rút co cứng; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Co rút Dupuytren, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Bệnh tiến triển rất chậm trong nhiều tháng nhiều năm. Co thắt dupuytren có thể xảy ra ở cả hai tay, tuy nhiên một tay thường bị ảnh hưởng nghiêm trọng hơn. Trong đó tay phải thường bị hơn tay trái. Những biểu hiện của bệnh bao gồm: Các Nốt Lồi Trên Lòng Bàn Tay: Xuất hiện những nốt hoặc khối u nhỏ ở lòng bàn tay, gần các ngón tay. Những nốt này có thể cứng và không đau. Co Rút Ngón Tay: Các ngón tay có xu hướng bị kéo vào trong lòng bàn tay, làm giảm khả năng duỗi thẳng hoàn toàn. Hạn Chế Vận Động Tay: Khả năng cầm nắm và thực hiện các hoạt động thường ngày bị ảnh hưởng do sự co rút của các ngón tay. Đau Nhức và Cảm Giác Căng Kéo: Trong giai đoạn đầu, có thể bạn không cảm thấy đau, nhưng khi bệnh tiến triển, bạn có thể cảm thấy căng kéo hoặc không thoải mái. Định hướng xử trí: Phòng ngừa bệnh Bạn sẽ có thể kiểm soát bệnh này nếu áp dụng các biện pháp sau: Tránh nắm chặt tay vào các công cụ bằng cách cách nhiệt đường ống hoặc đệm băng; Sử dụng găng tay với lớp đệm lớn trong công việc phải nắm vật nặng.",
+    "reference_contexts": [
+      "Triệu chứng Bệnh tiến triển rất chậm trong nhiều tháng nhiều năm. Co thắt dupuytren có thể xảy ra ở cả hai tay, tuy nhiên một tay thường bị ảnh hưởng nghiêm trọng hơn. Trong đó tay phải thường bị hơn tay trái. Những biểu hiện của bệnh bao gồm: Các Nốt Lồi Trên Lòng Bàn Tay: Xuất hiện những nốt hoặc khối u nhỏ ở lòng bàn tay, gần các ngón tay. Những nốt này có thể cứng và không đau. Co Rút Ngón Tay: Các ngón tay có xu hướng bị kéo vào trong lòng bàn tay, làm giảm khả năng duỗi thẳng hoàn toàn. Hạn Chế Vận Động Tay: Khả năng cầm nắm và thực hiện các hoạt động thường ngày bị ảnh hưởng do sự co rút của các ngón tay. Đau Nhức và Cảm Giác Căng Kéo: Trong giai đoạn đầu, có thể bạn không cảm thấy đau, nhưng khi bệnh tiến triển, bạn có thể cảm thấy căng kéo hoặc không thoải mái.",
+      "Phòng ngừa bệnh Bạn sẽ có thể kiểm soát bệnh này nếu áp dụng các biện pháp sau: Tránh nắm chặt tay vào các công cụ bằng cách cách nhiệt đường ống hoặc đệm băng; Sử dụng găng tay với lớp đệm lớn trong công việc phải nắm vật nặng."
+    ],
+    "rubric": {
+      "case_id": "S4-010",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Co rút Dupuytren"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/co-rut-dupuytren.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Co rút Dupuytren; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Còi xương, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng của còi xương có thể bao gồm: Biểu hiện chung Yếu cơ, nhức mỏi: Trẻ thường xuyên quấy khóc, cáu kỉnh, dễ bị kích thích, lười vận động, mệt mỏi. Rối loạn giấc ngủ: Khó ngủ, ngủ không ngon giấc, ngủ nhiều nhưng không sâu. Ra mồ hôi trộm nhiều: Đặc biệt là đầu, nhất là vào ban đêm. Chậm phát triển chiều cao: Trẻ thấp hơn so với chuẩn phát triển, tăng trưởng chiều cao chậm. Thóp chậm liền: Ở trẻ nhỏ, thóp (vùng mềm trên đầu) thường liền trong 18 tháng đầu đời. Tuy nhiên, trẻ còi xương có thể thóp chậm liền hơn hoặc thóp không liền hoàn toàn. Biểu hiện theo hệ cơ quan Hệ xương: Xương mềm, dễ gãy: Trẻ dễ bị gãy xương do va đập nhẹ, có thể dẫn đến biến dạng xương (chân vòng kiềng, gù, vẹo cột sống…). Răng mọc chậm, mọc lệch, dễ sâu răng. Định hướng xử trí: Phòng ngừa bệnh Để phòng ngừa còi xương, bạn có thể thực hiện các biện pháp sau: Cung cấp đủ vitamin D và canxi: Đảm bảo chế độ ăn uống bao gồm thực phẩm giàu vitamin D và canxi như sữa, các sản phẩm từ sữa, cá béo và các loại thực phẩm bổ sung. Tiếp xúc với ánh sáng mặt trời: Cố gắng tiếp xúc với ánh sáng mặt trời hàng ngày để giúp cơ thể tổng hợp vitamin D. Điều này đặc biệt quan trọng ở những người sống ở khu vực có ít ánh sáng mặt trời. Sử dụng thực phẩm bổ sung: Trong một số trường hợp, bác sĩ có thể khuyên dùng các viên vitamin D hoặc canxi để đảm bảo cung cấp đủ dưỡng chất cần thiết. Theo dõi sức khỏe định kỳ: Đối với những người có nguy cơ cao, việc theo dõi sức khỏe định kỳ và kiểm tra mức độ vitamin D có thể giúp phát hiện sớm các vấn đề và điều chỉnh chế độ ăn uống kịp thời.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng của còi xương có thể bao gồm: Biểu hiện chung Yếu cơ, nhức mỏi: Trẻ thường xuyên quấy khóc, cáu kỉnh, dễ bị kích thích, lười vận động, mệt mỏi. Rối loạn giấc ngủ: Khó ngủ, ngủ không ngon giấc, ngủ nhiều nhưng không sâu. Ra mồ hôi trộm nhiều: Đặc biệt là đầu, nhất là vào ban đêm. Chậm phát triển chiều cao: Trẻ thấp hơn so với chuẩn phát triển, tăng trưởng chiều cao chậm. Thóp chậm liền: Ở trẻ nhỏ, thóp (vùng mềm trên đầu) thường liền trong 18 tháng đầu đời. Tuy nhiên, trẻ còi xương có thể thóp chậm liền hơn hoặc thóp không liền hoàn toàn. Biểu hiện theo hệ cơ quan Hệ xương: Xương mềm, dễ gãy: Trẻ dễ bị gãy xương do va đập nhẹ, có thể dẫn đến biến dạng xương (chân vòng kiềng, gù, vẹo cột sống…). Răng mọc chậm, mọc lệch, dễ sâu răng.",
+      "Phòng ngừa bệnh Để phòng ngừa còi xương, bạn có thể thực hiện các biện pháp sau: Cung cấp đủ vitamin D và canxi: Đảm bảo chế độ ăn uống bao gồm thực phẩm giàu vitamin D và canxi như sữa, các sản phẩm từ sữa, cá béo và các loại thực phẩm bổ sung. Tiếp xúc với ánh sáng mặt trời: Cố gắng tiếp xúc với ánh sáng mặt trời hàng ngày để giúp cơ thể tổng hợp vitamin D. Điều này đặc biệt quan trọng ở những người sống ở khu vực có ít ánh sáng mặt trời. Sử dụng thực phẩm bổ sung: Trong một số trường hợp, bác sĩ có thể khuyên dùng các viên vitamin D hoặc canxi để đảm bảo cung cấp đủ dưỡng chất cần thiết. Theo dõi sức khỏe định kỳ: Đối với những người có nguy cơ cao, việc theo dõi sức khỏe định kỳ và kiểm tra mức độ vitamin D có thể giúp phát hiện sớm các vấn đề và điều chỉnh chế độ ăn uống kịp thời."
+    ],
+    "rubric": {
+      "case_id": "S4-011",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Còi xương"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/coi-xuong.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Còi xương; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Cơn đau quặn thận, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Các triệu chứng thường kèm với đau quặn thận Tiểu gắt buốt. Nước tiểu có máu. Nước tiểu đục. Đi tiểu lắt nhắt. Tiểu gấp. Tiểu ít hay bí tiểu. Sốt. Lạnh run… Định hướng xử trí: Phòng ngừa bệnh Hiện chưa có cách phòng ngừa cơn đau quặn thận hữu hiệu. chúng ta có thể áp dụng một số phương pháp để phòng ngừa sỏi đường tiết niệu tránh cơn đau quặn thận do sỏi như: Uống đủ nước mỗi ngày. Lượng nước nên uống mỗi ngày là 2 – 2,5 lít tùy theo nhu cầu hoạt động thể chất. Ăn nhiều rau, hoa quả tăng cường chất xơ, vitamin, giảm ăn thịt. Hạn chế đồ ăn nhiều muối, đường, dầu mỡ, tránh tiêu thụ quá nhiều cafein (trà, cafe…). Hạn chế uống rượu, bia, không sử dụng các sản phẩm từ thuốc lá. Tuyệt đối không tự ý sử dụng các loại thuốc khi không có hướng dẫn của bác sĩ. Duy trì cân nặng hợp lý. Tập thể dục thể thao phù hợp với sức khỏe.",
+    "reference_contexts": [
+      "Triệu chứng Các triệu chứng thường kèm với đau quặn thận Tiểu gắt buốt. Nước tiểu có máu. Nước tiểu đục. Đi tiểu lắt nhắt. Tiểu gấp. Tiểu ít hay bí tiểu. Sốt. Lạnh run…",
+      "Phòng ngừa bệnh Hiện chưa có cách phòng ngừa cơn đau quặn thận hữu hiệu. chúng ta có thể áp dụng một số phương pháp để phòng ngừa sỏi đường tiết niệu tránh cơn đau quặn thận do sỏi như: Uống đủ nước mỗi ngày. Lượng nước nên uống mỗi ngày là 2 – 2,5 lít tùy theo nhu cầu hoạt động thể chất. Ăn nhiều rau, hoa quả tăng cường chất xơ, vitamin, giảm ăn thịt. Hạn chế đồ ăn nhiều muối, đường, dầu mỡ, tránh tiêu thụ quá nhiều cafein (trà, cafe…). Hạn chế uống rượu, bia, không sử dụng các sản phẩm từ thuốc lá. Tuyệt đối không tự ý sử dụng các loại thuốc khi không có hướng dẫn của bác sĩ. Duy trì cân nặng hợp lý. Tập thể dục thể thao phù hợp với sức khỏe."
+    ],
+    "rubric": {
+      "case_id": "S4-012",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Cơn đau quặn thận"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/con-dau-quan-than.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Cơn đau quặn thận; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Cơn đau thắt ngực, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng đau thắt ngực Cơn đau thắt ngực thường kéo dài từ 3-5 phút và có các đặc điểm: Bệnh nhân có cảm giác bị bóp nghẹt, ép chặt vùng ngực, rát bỏng phía sau xương ức. Đau lan lên vai, cằm, cánh tay, và lan xuống vùng thượng vị. Xuất hiện có tính quy luật, liên quan đến gắng sức, xúc cảm mạnh, gặp lạnh, sau bữa ăn thịnh soạn, hút thuốc lá. Giảm khi hết tác nhân gây gắng sức hoặc khi dùng nitroglycerin. Định hướng xử trí: Phòng ngừa bệnh đau thắt ngực Một số biện pháp phòng ngừa bao gồm: Ngừng hút thuốc lá và tránh hút thuốc thụ động. Hạn chế sử dụng các chất kích thích như rượu, bia, cà phê. Xây dựng chế độ ăn nhiều rau xanh và trái cây tươi. Hạn chế thực phẩm giàu chất béo. Giảm muối, giảm đường. Tập luyện thể dục mỗi ngày. Duy trì cân nặng khỏe mạnh. Theo dõi và kiểm soát tốt huyết áp, đường huyết, mỡ máu. Tránh lo lắng, căng thẳng, nghỉ ngơi điều độ, ngủ đủ giấc.",
+    "reference_contexts": [
+      "Triệu chứng đau thắt ngực Cơn đau thắt ngực thường kéo dài từ 3-5 phút và có các đặc điểm: Bệnh nhân có cảm giác bị bóp nghẹt, ép chặt vùng ngực, rát bỏng phía sau xương ức. Đau lan lên vai, cằm, cánh tay, và lan xuống vùng thượng vị. Xuất hiện có tính quy luật, liên quan đến gắng sức, xúc cảm mạnh, gặp lạnh, sau bữa ăn thịnh soạn, hút thuốc lá. Giảm khi hết tác nhân gây gắng sức hoặc khi dùng nitroglycerin.",
+      "Phòng ngừa bệnh đau thắt ngực Một số biện pháp phòng ngừa bao gồm: Ngừng hút thuốc lá và tránh hút thuốc thụ động. Hạn chế sử dụng các chất kích thích như rượu, bia, cà phê. Xây dựng chế độ ăn nhiều rau xanh và trái cây tươi. Hạn chế thực phẩm giàu chất béo. Giảm muối, giảm đường. Tập luyện thể dục mỗi ngày. Duy trì cân nặng khỏe mạnh. Theo dõi và kiểm soát tốt huyết áp, đường huyết, mỡ máu. Tránh lo lắng, căng thẳng, nghỉ ngơi điều độ, ngủ đủ giấc."
+    ],
+    "rubric": {
+      "case_id": "S4-013",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Cơn đau thắt ngực"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/con-dau-that-nguc.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Cơn đau thắt ngực; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Cong vẹo cột sống, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng cong vẹo cột sống Người lớn bị vẹo cột sống vô căn có nhiều triệu chứng hơn thanh thiếu niên vì nguyên nhân do thoái hóa đĩa đệm gây thoát vị làm chèn ép các rễ thần kinh. Một số bệnh nhân có khuynh hướng cúi về phía trước để cố gắng mở rộng không gian cho các lỗ sống. Chính vì tư thế này sẽ làm mất đi đường cong tự nhiên; đồng thời, người bệnh cũng phải điều chỉnh cân bằng lại bằng cách uốn cong vùng hông và đầu gối để cố gắng duy trì tư thế thẳng đứng. Theo đó, bệnh nhân tuổi trưởng thành bị vẹo cột sống có nhiều biểu hiện khác nhau và có thể dẫn đến mất dần chức năng vận động của cơ thể: Đau lưng: Đau lưng dưới hoặc giữa lưng, có thể lan xuống chân. Không cân đối: Vai hoặc hông không đều nhau, một bên cao hơn bên kia. Định hướng xử trí: Phòng ngừa bệnh Chúng ta hoàn toàn có thể phòng ngừa bệnh cong vẹo cột sống bằng cách thay đổi hành động và thói quen hàng ngày. Các biện pháp phòng ngừa bệnh cong vẹo cột sống bao gồm: Ngồi học hoặc ngồi làm việc đúng tư thế, Ngồi thẳng lưng, không cúi đầu quá thấp, không vẹo sang trái hoặc sang phải khi đang ngồi học Đảm bảo bàn ghế và môi trường làm việc/học tập thoải mái, không gây căng thẳng cho cột sống Với trẻ em, cần đảm bảo đeo cặp trên hai vai để phân bố trọng lượng đồ đạc đồng đều Lao động và tập luyện vừa sức, cân đối để tăng cường sức khỏe và sự linh hoạt của cột sống Thực hiện các bài tập giãn cơ và tập luyện thể dục định kỳ để duy trì sự linh hoạt và sức mạnh của cột sống",
+    "reference_contexts": [
+      "Triệu chứng cong vẹo cột sống Người lớn bị vẹo cột sống vô căn có nhiều triệu chứng hơn thanh thiếu niên vì nguyên nhân do thoái hóa đĩa đệm gây thoát vị làm chèn ép các rễ thần kinh. Một số bệnh nhân có khuynh hướng cúi về phía trước để cố gắng mở rộng không gian cho các lỗ sống. Chính vì tư thế này sẽ làm mất đi đường cong tự nhiên; đồng thời, người bệnh cũng phải điều chỉnh cân bằng lại bằng cách uốn cong vùng hông và đầu gối để cố gắng duy trì tư thế thẳng đứng. Theo đó, bệnh nhân tuổi trưởng thành bị vẹo cột sống có nhiều biểu hiện khác nhau và có thể dẫn đến mất dần chức năng vận động của cơ thể: Đau lưng: Đau lưng dưới hoặc giữa lưng, có thể lan xuống chân. Không cân đối: Vai hoặc hông không đều nhau, một bên cao hơn bên kia.",
+      "Phòng ngừa bệnh Chúng ta hoàn toàn có thể phòng ngừa bệnh cong vẹo cột sống bằng cách thay đổi hành động và thói quen hàng ngày. Các biện pháp phòng ngừa bệnh cong vẹo cột sống bao gồm: Ngồi học hoặc ngồi làm việc đúng tư thế, Ngồi thẳng lưng, không cúi đầu quá thấp, không vẹo sang trái hoặc sang phải khi đang ngồi học Đảm bảo bàn ghế và môi trường làm việc/học tập thoải mái, không gây căng thẳng cho cột sống Với trẻ em, cần đảm bảo đeo cặp trên hai vai để phân bố trọng lượng đồ đạc đồng đều Lao động và tập luyện vừa sức, cân đối để tăng cường sức khỏe và sự linh hoạt của cột sống Thực hiện các bài tập giãn cơ và tập luyện thể dục định kỳ để duy trì sự linh hoạt và sức mạnh của cột sống"
+    ],
+    "rubric": {
+      "case_id": "S4-014",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Cong vẹo cột sống"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/cong-veo-cot-song.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Cong vẹo cột sống; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Cứng đa khớp bẩm sinh, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Dấu hiệu đặc trưng của bệnh là một số khớp bị cứng, biến dạng, co quắp, không cử động được hoặc cử động hạn chế. Sự hạn chế vận động của khớp bắt nguồn từ sự giảm vận động của bào thai trong thai kỳ. Khớp hạn chế hoặc không cử động sẽ dẫn tới sự suy yếu cơ bắp. Cơ bắp teo dần sẽ lại ảnh hưởng trở lại sự vận động của khớp. Các khớp hay bị tổn thương là bàn tay, cổ tay, bàn chân, cổ chân… Phần cột sống lưng ít bị ảnh hưởng. Triệu chứng của cứng đa khớp bẩm sinh rất đa dạng, phụ thuộc vào mức độ và vị trí của các khớp bị ảnh hưởng. Một số dấu hiệu phổ biến bao gồm: Khớp bị cứng và hạn chế vận động: Các khớp bị cứng và khó di chuyển, thường có hình dáng bất thường. Cơ bắp phát triển kém: Cơ bắp ở vùng bị ảnh hưởng thường yếu hoặc không phát triển bình thường. Định hướng xử trí: Phòng ngừa bệnh Hiện tại, không có cách phòng ngừa hoàn toàn cho cứng đa khớp bẩm sinh, nhưng một số biện pháp có thể giảm nguy cơ: Theo dõi thai kỳ chặt chẽ: Bà mẹ mang thai nên thường xuyên kiểm tra sức khỏe thai nhi, đặc biệt là lượng nước ối. Tránh các yếu tố nguy cơ: Tránh tiếp xúc với các tác nhân độc hại, kiểm soát tốt các bệnh lý trong thai kỳ. Tư vấn di truyền: Đối với các gia đình có lịch sử bệnh AMC hoặc các rối loạn di truyền, tư vấn di truyền có thể giúp hiểu rõ nguy cơ và các biện pháp phòng ngừa.",
+    "reference_contexts": [
+      "Triệu chứng Dấu hiệu đặc trưng của bệnh là một số khớp bị cứng, biến dạng, co quắp, không cử động được hoặc cử động hạn chế. Sự hạn chế vận động của khớp bắt nguồn từ sự giảm vận động của bào thai trong thai kỳ. Khớp hạn chế hoặc không cử động sẽ dẫn tới sự suy yếu cơ bắp. Cơ bắp teo dần sẽ lại ảnh hưởng trở lại sự vận động của khớp. Các khớp hay bị tổn thương là bàn tay, cổ tay, bàn chân, cổ chân… Phần cột sống lưng ít bị ảnh hưởng. Triệu chứng của cứng đa khớp bẩm sinh rất đa dạng, phụ thuộc vào mức độ và vị trí của các khớp bị ảnh hưởng. Một số dấu hiệu phổ biến bao gồm: Khớp bị cứng và hạn chế vận động: Các khớp bị cứng và khó di chuyển, thường có hình dáng bất thường. Cơ bắp phát triển kém: Cơ bắp ở vùng bị ảnh hưởng thường yếu hoặc không phát triển bình thường.",
+      "Phòng ngừa bệnh Hiện tại, không có cách phòng ngừa hoàn toàn cho cứng đa khớp bẩm sinh, nhưng một số biện pháp có thể giảm nguy cơ: Theo dõi thai kỳ chặt chẽ: Bà mẹ mang thai nên thường xuyên kiểm tra sức khỏe thai nhi, đặc biệt là lượng nước ối. Tránh các yếu tố nguy cơ: Tránh tiếp xúc với các tác nhân độc hại, kiểm soát tốt các bệnh lý trong thai kỳ. Tư vấn di truyền: Đối với các gia đình có lịch sử bệnh AMC hoặc các rối loạn di truyền, tư vấn di truyền có thể giúp hiểu rõ nguy cơ và các biện pháp phòng ngừa."
+    ],
+    "rubric": {
+      "case_id": "S4-015",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Cứng đa khớp bẩm sinh"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/cung-da-khop-bam-sinh.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Cứng đa khớp bẩm sinh; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Cứng khớp, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Cứng khớp là hiện tượng các khớp xơ cứng khiến người bệnh khó cử động. Các khớp gối, bàn tay, ngón tay, khớp cổ bị cứng, làm việc co duỗi tay chân, cúi người, xoay cổ khó khăn, phải xoa bóp một hồi mới có thể chuyển động được. Đây là biểu hiện điển hình nhất của cứng khớp. Thường vào những thời điểm sau ngủ dậy buổi sáng hoặc đầu giờ chiều, triệu chứng bệnh cứng khớp sẽ xuất hiện. Người bệnh không thể lập tức đứng dậy ngay vì khớp không thể co duỗi bình thường. Phải ngồi nghỉ ngơi và xoa nắn khớp một hồi khoảng 15 – 20 phút khớp mới có thể giãn ra bình thường. Định hướng xử trí: Phòng ngừa bệnh Hiện tượng này có thể được phòng tránh khi người bệnh thực hiện một chế độ sinh hoạt, ăn uống và nghỉ ngơi thích hợp. Một số thói quen tốt nên được duy trì hàng ngày để phòng ngừa, đó là: Tập thể dục đều đặn, thường xuyên: Việc tập các bài thể dục như đi bộ, yoga, aerobic,… rất tốt cho xương khớp, giúp chúng trở nên dẻo dai hơn. Tuy nhiên, việc tập luyện cần được thực hiện đúng cách để phòng ngừa nguy cơ chấn thương. Tăng cường các loại thực phẩm giàu vitamin D, canxi, collagen cho cơ thể hàng ngày để cung cấp thêm năng lượng cho khung xương, khớp. Có thể bổ sung thêm sữa cho cơ thể, đặc biệt đối với những người cao tuổi, mới ốm dậy.",
+    "reference_contexts": [
+      "Triệu chứng Cứng khớp là hiện tượng các khớp xơ cứng khiến người bệnh khó cử động. Các khớp gối, bàn tay, ngón tay, khớp cổ bị cứng, làm việc co duỗi tay chân, cúi người, xoay cổ khó khăn, phải xoa bóp một hồi mới có thể chuyển động được. Đây là biểu hiện điển hình nhất của cứng khớp. Thường vào những thời điểm sau ngủ dậy buổi sáng hoặc đầu giờ chiều, triệu chứng bệnh cứng khớp sẽ xuất hiện. Người bệnh không thể lập tức đứng dậy ngay vì khớp không thể co duỗi bình thường. Phải ngồi nghỉ ngơi và xoa nắn khớp một hồi khoảng 15 – 20 phút khớp mới có thể giãn ra bình thường.",
+      "Phòng ngừa bệnh Hiện tượng này có thể được phòng tránh khi người bệnh thực hiện một chế độ sinh hoạt, ăn uống và nghỉ ngơi thích hợp. Một số thói quen tốt nên được duy trì hàng ngày để phòng ngừa, đó là: Tập thể dục đều đặn, thường xuyên: Việc tập các bài thể dục như đi bộ, yoga, aerobic,… rất tốt cho xương khớp, giúp chúng trở nên dẻo dai hơn. Tuy nhiên, việc tập luyện cần được thực hiện đúng cách để phòng ngừa nguy cơ chấn thương. Tăng cường các loại thực phẩm giàu vitamin D, canxi, collagen cho cơ thể hàng ngày để cung cấp thêm năng lượng cho khung xương, khớp. Có thể bổ sung thêm sữa cho cơ thể, đặc biệt đối với những người cao tuổi, mới ốm dậy."
+    ],
+    "rubric": {
+      "case_id": "S4-016",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Cứng khớp"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/cung-khop.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Cứng khớp; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau bả vai, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng đau bả vai Người bệnh đau bả vai sẽ tùy thuộc nguyên nhân sẽ xuất hiện những triệu chứng khác nhau như: Đau nhức dữ dội tại vùng bả vai, có thể lan sang những bộ phận khác như cổ, cánh tay, cẳng tay, bàn tay. Sưng và bầm tím tại vùng bả vai, quanh khớp hoặc cánh tay. Chấn thương, biến dạng khớp vai và cánh tay. Cơn đau vai thường xuất hiện vào ban đêm hay khi nghỉ ngơi, nghiêm trọng hơn khi hoạt động. Người bệnh cảm thấy khó khăn khi nâng cánh tay, xoay vai và khi thực hiện những hoạt động khác. Sưng nóng đỏ tại vùng bả vai, có thể kèm theo sốt hay các dấu hiệu nhiễm trùng. Một số trường hợp có thể xuất hiện những triệu chứng bất thường như đau bụng, khó thở và tăng nhịp tim khi cơn đau xuất hiện. Định hướng xử trí: Phòng ngừa đau bả vai Các biện pháp dưới đây có thể giúp phòng ngừa những cơn đau nhức bả vai trong quá trình sinh hoạt và lao động của bạn, cụ thể: Khởi động kỹ trước khi vào bài tập chính hoặc trước khi chơi thể thao, vận động mạnh. Hạn chế vận động khớp vai ở cường độ cao trong thời gian dài để tránh gây chấn thương hoặc tổn thương những bộ phận như cơ, dây chằng, sụn khớp. Sau khi chơi thể thao, làm việc hoặc vận động nhiều, bạn nên dành thời gian nghỉ ngơi để cơ thể phục hồi, lấy lại sự dẻo dai và linh hoạt. Tăng cường luyện tập những bài kéo giãn cơ xương, giúp tăng cường độ dẻo dai cho khớp, sức mạnh của cơ bắp cũng như những bộ phận khác trên cơ thể.",
+    "reference_contexts": [
+      "Triệu chứng đau bả vai Người bệnh đau bả vai sẽ tùy thuộc nguyên nhân sẽ xuất hiện những triệu chứng khác nhau như: Đau nhức dữ dội tại vùng bả vai, có thể lan sang những bộ phận khác như cổ, cánh tay, cẳng tay, bàn tay. Sưng và bầm tím tại vùng bả vai, quanh khớp hoặc cánh tay. Chấn thương, biến dạng khớp vai và cánh tay. Cơn đau vai thường xuất hiện vào ban đêm hay khi nghỉ ngơi, nghiêm trọng hơn khi hoạt động. Người bệnh cảm thấy khó khăn khi nâng cánh tay, xoay vai và khi thực hiện những hoạt động khác. Sưng nóng đỏ tại vùng bả vai, có thể kèm theo sốt hay các dấu hiệu nhiễm trùng. Một số trường hợp có thể xuất hiện những triệu chứng bất thường như đau bụng, khó thở và tăng nhịp tim khi cơn đau xuất hiện.",
+      "Phòng ngừa đau bả vai Các biện pháp dưới đây có thể giúp phòng ngừa những cơn đau nhức bả vai trong quá trình sinh hoạt và lao động của bạn, cụ thể: Khởi động kỹ trước khi vào bài tập chính hoặc trước khi chơi thể thao, vận động mạnh. Hạn chế vận động khớp vai ở cường độ cao trong thời gian dài để tránh gây chấn thương hoặc tổn thương những bộ phận như cơ, dây chằng, sụn khớp. Sau khi chơi thể thao, làm việc hoặc vận động nhiều, bạn nên dành thời gian nghỉ ngơi để cơ thể phục hồi, lấy lại sự dẻo dai và linh hoạt. Tăng cường luyện tập những bài kéo giãn cơ xương, giúp tăng cường độ dẻo dai cho khớp, sức mạnh của cơ bắp cũng như những bộ phận khác trên cơ thể."
+    ],
+    "rubric": {
+      "case_id": "S4-017",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau bả vai"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-ba-vai.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau bả vai; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau bàn chân, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng của đau bàn chân rất đa dạng và phụ thuộc vào nguyên nhân gây ra. Một số triệu chứng phổ biến bao gồm: Đau nhức: Cảm giác đau có thể xuất hiện ở bất kỳ phần nào của bàn chân, từ ngón chân, gót chân, đến lòng bàn chân. Sưng: Khu vực bị đau có thể sưng lên, đặc biệt là sau khi vận động hoặc chấn thương. Cảm giác nóng rát: Đau bàn chân đôi khi đi kèm với cảm giác nóng rát hoặc đỏ. Cứng và căng cơ: Cơ bàn chân có thể trở nên cứng và căng, đặc biệt vào buổi sáng hoặc sau khi ngồi lâu. Chuột rút: Co thắt cơ hoặc chuột rút thường xảy ra ở bàn chân, gây đau đột ngột và mạnh. Yếu cơ: Cảm giác yếu hoặc mất sức ở bàn chân, làm cho việc di chuyển trở nên khó khăn. Định hướng xử trí: Phòng ngừa bệnh Để phòng ngừa đau bàn chân, bạn có thể thực hiện các biện pháp sau: Tập thể dục thường xuyên: Các bài tập tăng cường sức mạnh và linh hoạt cho bàn chân giúp giảm nguy cơ đau bàn chân. Bài tập như đi bộ, bơi lội, hoặc yoga rất tốt cho sức khỏe cơ bàn chân. Kiểm soát cân nặng: Duy trì cân nặng hợp lý để giảm áp lực lên các cơ và khớp. Giảm cân giúp giảm nguy cơ mắc các bệnh lý liên quan đến cơ và khớp. Điều chỉnh tư thế làm việc: Đảm bảo tư thế ngồi và đứng hợp lý để giảm căng thẳng lên bàn chân. Sử dụng ghế có hỗ trợ lưng và điều chỉnh độ cao của ghế và bàn làm việc để tránh căng thẳng không cần thiết.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng của đau bàn chân rất đa dạng và phụ thuộc vào nguyên nhân gây ra. Một số triệu chứng phổ biến bao gồm: Đau nhức: Cảm giác đau có thể xuất hiện ở bất kỳ phần nào của bàn chân, từ ngón chân, gót chân, đến lòng bàn chân. Sưng: Khu vực bị đau có thể sưng lên, đặc biệt là sau khi vận động hoặc chấn thương. Cảm giác nóng rát: Đau bàn chân đôi khi đi kèm với cảm giác nóng rát hoặc đỏ. Cứng và căng cơ: Cơ bàn chân có thể trở nên cứng và căng, đặc biệt vào buổi sáng hoặc sau khi ngồi lâu. Chuột rút: Co thắt cơ hoặc chuột rút thường xảy ra ở bàn chân, gây đau đột ngột và mạnh. Yếu cơ: Cảm giác yếu hoặc mất sức ở bàn chân, làm cho việc di chuyển trở nên khó khăn.",
+      "Phòng ngừa bệnh Để phòng ngừa đau bàn chân, bạn có thể thực hiện các biện pháp sau: Tập thể dục thường xuyên: Các bài tập tăng cường sức mạnh và linh hoạt cho bàn chân giúp giảm nguy cơ đau bàn chân. Bài tập như đi bộ, bơi lội, hoặc yoga rất tốt cho sức khỏe cơ bàn chân. Kiểm soát cân nặng: Duy trì cân nặng hợp lý để giảm áp lực lên các cơ và khớp. Giảm cân giúp giảm nguy cơ mắc các bệnh lý liên quan đến cơ và khớp. Điều chỉnh tư thế làm việc: Đảm bảo tư thế ngồi và đứng hợp lý để giảm căng thẳng lên bàn chân. Sử dụng ghế có hỗ trợ lưng và điều chỉnh độ cao của ghế và bàn làm việc để tránh căng thẳng không cần thiết."
+    ],
+    "rubric": {
+      "case_id": "S4-018",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau bàn chân"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-ban-chan.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau bàn chân; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau bắp chân, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng của đau bắp chân có thể rất đa dạng và phụ thuộc vào nguyên nhân gây ra. Một số triệu chứng phổ biến bao gồm: Đau nhức: Cảm giác đau có thể xuất hiện ở bất kỳ phần nào của bắp chân, từ vùng cơ chính đến gân và dây chằng. Sưng: Khu vực bị đau có thể sưng lên, đặc biệt là sau khi vận động hoặc chấn thương. Cảm giác nóng rát: Đau bắp chân đôi khi đi kèm với cảm giác nóng rát hoặc đỏ. Cứng và căng cơ: Cơ bắp chân có thể trở nên cứng và căng, đặc biệt vào buổi sáng hoặc sau khi ngồi lâu. Chuột rút: Co thắt cơ hoặc chuột rút thường xảy ra ở bắp chân, gây đau đột ngột và mạnh. Yếu cơ: Cảm giác yếu hoặc mất sức ở bắp chân, làm cho việc di chuyển trở nên khó khăn. Định hướng xử trí: Phòng ngừa bệnh Để phòng ngừa đau bắp chân, bạn có thể thực hiện các biện pháp sau: Tập thể dục thường xuyên: Các bài tập tăng cường sức mạnh và linh hoạt cho bắp chân giúp giảm nguy cơ đau bắp chân. Bài tập như đi bộ, bơi lội, hoặc yoga rất tốt cho sức khỏe cơ bắp chân. Kiểm soát cân nặng: Duy trì cân nặng hợp lý để giảm áp lực lên các cơ và khớp. Giảm cân giúp giảm nguy cơ mắc các bệnh lý liên quan đến cơ và khớp. Điều chỉnh tư thế làm việc: Đảm bảo tư thế ngồi và đứng hợp lý để giảm căng thẳng lên bắp chân. Sử dụng ghế có hỗ trợ lưng và điều chỉnh độ cao của ghế và bàn làm việc để tránh căng thẳng không cần thiết.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng của đau bắp chân có thể rất đa dạng và phụ thuộc vào nguyên nhân gây ra. Một số triệu chứng phổ biến bao gồm: Đau nhức: Cảm giác đau có thể xuất hiện ở bất kỳ phần nào của bắp chân, từ vùng cơ chính đến gân và dây chằng. Sưng: Khu vực bị đau có thể sưng lên, đặc biệt là sau khi vận động hoặc chấn thương. Cảm giác nóng rát: Đau bắp chân đôi khi đi kèm với cảm giác nóng rát hoặc đỏ. Cứng và căng cơ: Cơ bắp chân có thể trở nên cứng và căng, đặc biệt vào buổi sáng hoặc sau khi ngồi lâu. Chuột rút: Co thắt cơ hoặc chuột rút thường xảy ra ở bắp chân, gây đau đột ngột và mạnh. Yếu cơ: Cảm giác yếu hoặc mất sức ở bắp chân, làm cho việc di chuyển trở nên khó khăn.",
+      "Phòng ngừa bệnh Để phòng ngừa đau bắp chân, bạn có thể thực hiện các biện pháp sau: Tập thể dục thường xuyên: Các bài tập tăng cường sức mạnh và linh hoạt cho bắp chân giúp giảm nguy cơ đau bắp chân. Bài tập như đi bộ, bơi lội, hoặc yoga rất tốt cho sức khỏe cơ bắp chân. Kiểm soát cân nặng: Duy trì cân nặng hợp lý để giảm áp lực lên các cơ và khớp. Giảm cân giúp giảm nguy cơ mắc các bệnh lý liên quan đến cơ và khớp. Điều chỉnh tư thế làm việc: Đảm bảo tư thế ngồi và đứng hợp lý để giảm căng thẳng lên bắp chân. Sử dụng ghế có hỗ trợ lưng và điều chỉnh độ cao của ghế và bàn làm việc để tránh căng thẳng không cần thiết."
+    ],
+    "rubric": {
+      "case_id": "S4-019",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau bắp chân"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-bap-chan.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau bắp chân; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau cách hồi, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Mức độ đau và cảm giác khó chịu cách hồi của mỗi người không giống nhau, người đau ít, người đau nhiều, có người chỉ cảm giác chân mỏi nhiều khi đi lại một quãng đường ngắn. Người bệnh có thể đau hông, đùi, cẳng chân hoặc bàn chân, đau riêng rẽ hoặc phối hợp tùy thuộc vào vị trí động mạch bị hẹp. Nếu lòng mạch hẹp nhiều và tuần hoàn bàng hệ (mạch máu tham gia vào cấp máu cho phần sau động mạch bị hẹp) ít hoặc không có, người bệnh đau cả khi nghỉ ngơi, chân có thể bị hoại tử, đôi khi phải cắt cụt để bảo toàn tính mạng, nặng hơn nữa người bệnh có thể tử vong. Định hướng xử trí: Phòng ngừa bệnh Thay đổi lối sống là một trong những yếu tố quan trọng không những trong điều trị mà còn trong phòng ngừa bệnh: Không hút thuốc tránh nguy cơ và làm nặng thêm bệnh động mạch ngoại vi, tránh hít phải khói thuốc tự động. Luyện tập: nhiều người lo lắng về việc tập luyện có gây ra đau cách hồi hay không. Trên thực tế, luyện tập đúng cách giúp cơ sử dụng oxy hiệu quả hơn, tăng khoảng cách đi bộ mà không đau. Kiểm soát tốt mức cholesterol trong máu và huyết áp. Ngoài việc dùng thuốc điều chỉnh mỡ trong máu theo đơn của bác sĩ, thực hiện chế độ ăn ít chất béo, đặc biệt là chất béo bão hòa (chất béo động vật, phủ tạng động vật, đồ ăn chiên, rán xào, đồ ăn chế biến sẵn, lòng đỏ trứng,..); tăng cường hoa quả, rau xanh. Kiểm soát tốt mức đường trong máu (nếu có đái tháo đường).",
+    "reference_contexts": [
+      "Triệu chứng Mức độ đau và cảm giác khó chịu cách hồi của mỗi người không giống nhau, người đau ít, người đau nhiều, có người chỉ cảm giác chân mỏi nhiều khi đi lại một quãng đường ngắn. Người bệnh có thể đau hông, đùi, cẳng chân hoặc bàn chân, đau riêng rẽ hoặc phối hợp tùy thuộc vào vị trí động mạch bị hẹp. Nếu lòng mạch hẹp nhiều và tuần hoàn bàng hệ (mạch máu tham gia vào cấp máu cho phần sau động mạch bị hẹp) ít hoặc không có, người bệnh đau cả khi nghỉ ngơi, chân có thể bị hoại tử, đôi khi phải cắt cụt để bảo toàn tính mạng, nặng hơn nữa người bệnh có thể tử vong.",
+      "Phòng ngừa bệnh Thay đổi lối sống là một trong những yếu tố quan trọng không những trong điều trị mà còn trong phòng ngừa bệnh: Không hút thuốc tránh nguy cơ và làm nặng thêm bệnh động mạch ngoại vi, tránh hít phải khói thuốc tự động. Luyện tập: nhiều người lo lắng về việc tập luyện có gây ra đau cách hồi hay không. Trên thực tế, luyện tập đúng cách giúp cơ sử dụng oxy hiệu quả hơn, tăng khoảng cách đi bộ mà không đau. Kiểm soát tốt mức cholesterol trong máu và huyết áp. Ngoài việc dùng thuốc điều chỉnh mỡ trong máu theo đơn của bác sĩ, thực hiện chế độ ăn ít chất béo, đặc biệt là chất béo bão hòa (chất béo động vật, phủ tạng động vật, đồ ăn chiên, rán xào, đồ ăn chế biến sẵn, lòng đỏ trứng,..); tăng cường hoa quả, rau xanh. Kiểm soát tốt mức đường trong máu (nếu có đái tháo đường)."
+    ],
+    "rubric": {
+      "case_id": "S4-020",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau cách hồi"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-cach-hoi.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau cách hồi; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau chân, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng của đau chân rất đa dạng và có thể thay đổi tùy theo nguyên nhân gây ra. Một số triệu chứng phổ biến bao gồm: Đau nhức hoặc đau buốt: Cảm giác đau có thể xuất hiện ở bất kỳ phần nào của chân, từ đùi, đầu gối, bắp chân đến bàn chân. Đau có thể âm ỉ hoặc nhói lên từng cơn. Sưng: Sưng có thể xuất hiện tại khu vực bị chấn thương hoặc viêm nhiễm. Tê bì hoặc mất cảm giác: Cảm giác tê hoặc mất cảm giác có thể xảy ra do tổn thương thần kinh. Chuột rút: Co thắt cơ và chuột rút thường xảy ra ở bắp chân, đặc biệt vào ban đêm. Đỏ hoặc nóng rát: Da tại khu vực bị đau có thể trở nên đỏ hoặc nóng rát do viêm. Yếu cơ: Cảm giác yếu hoặc mất sức ở chân có thể khiến việc di chuyển trở nên khó khăn. Định hướng xử trí: Phòng ngừa bệnh Để phòng ngừa đau chân, bạn có thể thực hiện các biện pháp sau: Tập thể dục thường xuyên: Các bài tập tăng cường sức mạnh và linh hoạt cho chân giúp giảm nguy cơ đau chân. Kiểm soát cân nặng: Duy trì cân nặng hợp lý để giảm áp lực lên các khớp và cơ. Điều chỉnh tư thế làm việc: Đảm bảo tư thế ngồi và đứng hợp lý để giảm căng thẳng lên chân. Mang giày dép phù hợp: Sử dụng giày dép thoải mái và phù hợp với kích thước chân để hỗ trợ tốt hơn cho chân. Nghỉ ngơi đúng cách: Tránh các hoạt động gây căng thẳng cho chân và đảm bảo có thời gian nghỉ ngơi đầy đủ.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng của đau chân rất đa dạng và có thể thay đổi tùy theo nguyên nhân gây ra. Một số triệu chứng phổ biến bao gồm: Đau nhức hoặc đau buốt: Cảm giác đau có thể xuất hiện ở bất kỳ phần nào của chân, từ đùi, đầu gối, bắp chân đến bàn chân. Đau có thể âm ỉ hoặc nhói lên từng cơn. Sưng: Sưng có thể xuất hiện tại khu vực bị chấn thương hoặc viêm nhiễm. Tê bì hoặc mất cảm giác: Cảm giác tê hoặc mất cảm giác có thể xảy ra do tổn thương thần kinh. Chuột rút: Co thắt cơ và chuột rút thường xảy ra ở bắp chân, đặc biệt vào ban đêm. Đỏ hoặc nóng rát: Da tại khu vực bị đau có thể trở nên đỏ hoặc nóng rát do viêm. Yếu cơ: Cảm giác yếu hoặc mất sức ở chân có thể khiến việc di chuyển trở nên khó khăn.",
+      "Phòng ngừa bệnh Để phòng ngừa đau chân, bạn có thể thực hiện các biện pháp sau: Tập thể dục thường xuyên: Các bài tập tăng cường sức mạnh và linh hoạt cho chân giúp giảm nguy cơ đau chân. Kiểm soát cân nặng: Duy trì cân nặng hợp lý để giảm áp lực lên các khớp và cơ. Điều chỉnh tư thế làm việc: Đảm bảo tư thế ngồi và đứng hợp lý để giảm căng thẳng lên chân. Mang giày dép phù hợp: Sử dụng giày dép thoải mái và phù hợp với kích thước chân để hỗ trợ tốt hơn cho chân. Nghỉ ngơi đúng cách: Tránh các hoạt động gây căng thẳng cho chân và đảm bảo có thời gian nghỉ ngơi đầy đủ."
+    ],
+    "rubric": {
+      "case_id": "S4-021",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau chân"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-chan.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau chân; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau cổ, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Đau và đau nhức là các triệu chứng cơ bị tổn thương và bạn có thể cảm nhận điều này khi di chuyển hoặc nghỉ ngơi. Khi cơ bị tổn thương, tình trạng viêm có thể gây ra đau và sưng. Bạn có thể cảm thấy đau nhức khi di chuyển hoặc chạm vào cơ. Ngay cả khi nghỉ ngơi, hoặc khi hoạt động mà bị tổn thương, bạn có thể bị đau cơ. Đau cơ có thể ở mức độ nhẹ, gần như không khiến bạn khó chịu – hoặc ở mức độ nghiêm trọng khiến bạn hoàn toàn không thể sử dụng cơ. Định hướng xử trí: Phòng ngừa bệnh Để trở nên khỏe mạnh và sung sức hơn, bạn sẽ luôn phải chịu một giai đoạn đau cơ. Tuy nhiên, để giảm đau cơ đến tối thiểu, bạn có thể chú ý đến các việc sau: Khởi động. Các nghiên cứu đã chỉ ra rằng căng cơ trước khi bạn tập thể dục có thể không có lợi cho cơ bắp bằng việc khởi động. Khởi động chính là hoạt động mà bạn muốn luyện tập nhưng được thực hiện ở một cường độ thấp hơn, như chạy bộ chậm, nhảy dây, hoặc nâng tạ nhẹ. Điều này giúp cơ bắp sẵn sàng hoạt động bằng cách từ từ tăng lưu lượng máu đến cung cấp cho cơ bắp.",
+    "reference_contexts": [
+      "Triệu chứng Đau và đau nhức là các triệu chứng cơ bị tổn thương và bạn có thể cảm nhận điều này khi di chuyển hoặc nghỉ ngơi. Khi cơ bị tổn thương, tình trạng viêm có thể gây ra đau và sưng. Bạn có thể cảm thấy đau nhức khi di chuyển hoặc chạm vào cơ. Ngay cả khi nghỉ ngơi, hoặc khi hoạt động mà bị tổn thương, bạn có thể bị đau cơ. Đau cơ có thể ở mức độ nhẹ, gần như không khiến bạn khó chịu – hoặc ở mức độ nghiêm trọng khiến bạn hoàn toàn không thể sử dụng cơ.",
+      "Phòng ngừa bệnh Để trở nên khỏe mạnh và sung sức hơn, bạn sẽ luôn phải chịu một giai đoạn đau cơ. Tuy nhiên, để giảm đau cơ đến tối thiểu, bạn có thể chú ý đến các việc sau: Khởi động. Các nghiên cứu đã chỉ ra rằng căng cơ trước khi bạn tập thể dục có thể không có lợi cho cơ bắp bằng việc khởi động. Khởi động chính là hoạt động mà bạn muốn luyện tập nhưng được thực hiện ở một cường độ thấp hơn, như chạy bộ chậm, nhảy dây, hoặc nâng tạ nhẹ. Điều này giúp cơ bắp sẵn sàng hoạt động bằng cách từ từ tăng lưu lượng máu đến cung cấp cho cơ bắp."
+    ],
+    "rubric": {
+      "case_id": "S4-022",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau cổ"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-co-2.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau cổ; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau cơ mông, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng đau cơ mông Đau vùng mông được mô tả bởi nhiều cách, như cảm giác nặng nề, tê bì, nóng rát, đau nhói. Tùy vào nguyên nhân, đau cơ mông có thể xuất hiện đột ngột và biến mất tương đối nhanh, như vết bầm tím do những chấn thương nhẹ. Đau mông cũng có thể tiến triển dần theo thời gian và xuất hiện ngắt quãng, như với trường hợp của đau thần kinh tọa. Bạn cần gọi hỗ trợ y tế khẩn cấp nếu có cơn đau đột ngột, dữ dội ở mông, hông hay lưng, mất khả năng đi lại, hoặc biến dạng khớp háng. Tùy theo nhiều nguyên nhân khác nhau mà đau cơ mông còn kèm theo các triệu chứng khác như: Bầm tím, căng cơ; Giới hạn vận động khớp háng và vùng lưng; Đi khập khiễng; Đau vùng thắt lưng; Yếu cơ hoặc tê bì; Cảm giác đau, cứng khớp háng, vùng chân và bẹn; Phù vùng mông; Định hướng xử trí: Phòng ngừa bệnh đau cơ mông Để phòng tránh đau cơ mông, bạn nên phòng ngừa từ bệnh lý ban đầu bằng cách: Thường xuyên tập thể dục để tăng cường sức khỏe toàn thân, giúp săn chắc cơ bắp và giảm nguy cơ bị thương Làm nóng cơ thể trước khi tập luyện để hạn chế căng cơ Đừng cố gắng chịu đựng các cơn đau Tránh các áp lực quá lớn lên hông gây nên hội chứng cơ mông sâu",
+    "reference_contexts": [
+      "Triệu chứng đau cơ mông Đau vùng mông được mô tả bởi nhiều cách, như cảm giác nặng nề, tê bì, nóng rát, đau nhói. Tùy vào nguyên nhân, đau cơ mông có thể xuất hiện đột ngột và biến mất tương đối nhanh, như vết bầm tím do những chấn thương nhẹ. Đau mông cũng có thể tiến triển dần theo thời gian và xuất hiện ngắt quãng, như với trường hợp của đau thần kinh tọa. Bạn cần gọi hỗ trợ y tế khẩn cấp nếu có cơn đau đột ngột, dữ dội ở mông, hông hay lưng, mất khả năng đi lại, hoặc biến dạng khớp háng. Tùy theo nhiều nguyên nhân khác nhau mà đau cơ mông còn kèm theo các triệu chứng khác như: Bầm tím, căng cơ; Giới hạn vận động khớp háng và vùng lưng; Đi khập khiễng; Đau vùng thắt lưng; Yếu cơ hoặc tê bì; Cảm giác đau, cứng khớp háng, vùng chân và bẹn; Phù vùng mông;",
+      "Phòng ngừa bệnh đau cơ mông Để phòng tránh đau cơ mông, bạn nên phòng ngừa từ bệnh lý ban đầu bằng cách: Thường xuyên tập thể dục để tăng cường sức khỏe toàn thân, giúp săn chắc cơ bắp và giảm nguy cơ bị thương Làm nóng cơ thể trước khi tập luyện để hạn chế căng cơ Đừng cố gắng chịu đựng các cơn đau Tránh các áp lực quá lớn lên hông gây nên hội chứng cơ mông sâu"
+    ],
+    "rubric": {
+      "case_id": "S4-023",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau cơ mông"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-co-mong.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau cơ mông; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau cổ tay sau sinh, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng thường gặp Cơn đau bắt đầu từ từ, âm ỉ và tăng dần theo theo thời gian. Cơn đau có thể xuất hiện đột ngột và nghiêm trọng. Người bệnh đau nhiều hơn khi di chuyển ngón tay cái hay cổ tay. Cảm giác đau có thể lan rộng lên cánh tay. Một số trường hợp cơn đau có thể chỉ xuất hiện ở một phía cổ tay và ngón cái. Đôi khi triệu chứng tê bì, châm chích xuất hiện ở một số ngón tay hoặc cả bàn tay. Cơn đau giảm khi cổ tay nghỉ ngơi đúng cách và không lặp lại các động tác gây đau. Định hướng xử trí: Phòng ngừa bệnh Để ngăn ngừa hội chứng đau cổ tay sau sinh, mẹ bỉm nên có chế độ ăn uống lành mạnh, hợp lý và duy trì cân nặng ổn định. Hạn chế ăn muối, chất béo và đường. Nên ăn nhiều trái cây, uống nhiều nước, ăn nhiều rau củ mỗi ngày. Tăng cường bổ sung các thực phẩm giàu vitamin B6 như bơ, tỏi, vừng, hạt hướng dương, thịt nạc, rau có màu xanh đậm, cá thu, cá ngừ, cá hồi … nhằm tăng cường sức khỏe hệ thần kinh. Luôn giữ cổ tay ở tư thế thư giãn ở mức trung bình. Khi hoạt động sử dụng nhiều đến bàn tay, nên nghỉ ngơi thường xuyên từng thời gian ngắn.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng thường gặp Cơn đau bắt đầu từ từ, âm ỉ và tăng dần theo theo thời gian. Cơn đau có thể xuất hiện đột ngột và nghiêm trọng. Người bệnh đau nhiều hơn khi di chuyển ngón tay cái hay cổ tay. Cảm giác đau có thể lan rộng lên cánh tay. Một số trường hợp cơn đau có thể chỉ xuất hiện ở một phía cổ tay và ngón cái. Đôi khi triệu chứng tê bì, châm chích xuất hiện ở một số ngón tay hoặc cả bàn tay. Cơn đau giảm khi cổ tay nghỉ ngơi đúng cách và không lặp lại các động tác gây đau.",
+      "Phòng ngừa bệnh Để ngăn ngừa hội chứng đau cổ tay sau sinh, mẹ bỉm nên có chế độ ăn uống lành mạnh, hợp lý và duy trì cân nặng ổn định. Hạn chế ăn muối, chất béo và đường. Nên ăn nhiều trái cây, uống nhiều nước, ăn nhiều rau củ mỗi ngày. Tăng cường bổ sung các thực phẩm giàu vitamin B6 như bơ, tỏi, vừng, hạt hướng dương, thịt nạc, rau có màu xanh đậm, cá thu, cá ngừ, cá hồi … nhằm tăng cường sức khỏe hệ thần kinh. Luôn giữ cổ tay ở tư thế thư giãn ở mức trung bình. Khi hoạt động sử dụng nhiều đến bàn tay, nên nghỉ ngơi thường xuyên từng thời gian ngắn."
+    ],
+    "rubric": {
+      "case_id": "S4-024",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau cổ tay sau sinh"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-co-tay-sau-sinh.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau cổ tay sau sinh; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau cổ tay, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng của đau cổ tay có thể khác nhau tùy thuộc vào nguyên nhân và mức độ nghiêm trọng của tình trạng. Một số triệu chứng phổ biến bao gồm: Đau nhức hoặc đau buốt ở cổ tay, đặc biệt khi vận động. Sưng, tấy đỏ, hoặc nóng rát ở khu vực cổ tay. Cảm giác yếu hoặc mất cảm giác ở bàn tay và ngón tay. Khó khăn trong việc cầm nắm hoặc thực hiện các động tác yêu cầu sự khéo léo của bàn tay. Đau lan xuống bàn tay hoặc lên cánh tay. Định hướng xử trí: Phòng ngừa bệnh Để phòng ngừa đau cổ tay, bạn có thể thực hiện các biện pháp sau: Điều chỉnh tư thế làm việc: Đảm bảo tư thế ngồi và cách sắp xếp bàn làm việc hợp lý để giảm áp lực lên cổ tay. Tập thể dục thường xuyên: Tập các bài tập giãn cơ và tăng cường sức mạnh cho cổ tay và cánh tay. Sử dụng thiết bị hỗ trợ: Sử dụng bàn phím và chuột công thái học, và các thiết bị hỗ trợ khác để giảm căng thẳng lên cổ tay. Thay đổi thói quen sinh hoạt: Tránh các động tác lặp đi lặp lại liên tục và nghỉ ngơi thường xuyên để giảm áp lực lên cổ tay. Mang băng bảo vệ: Khi tham gia các hoạt động thể thao hoặc công việc có nguy cơ chấn thương, hãy sử dụng băng bảo vệ để bảo vệ cổ tay.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng của đau cổ tay có thể khác nhau tùy thuộc vào nguyên nhân và mức độ nghiêm trọng của tình trạng. Một số triệu chứng phổ biến bao gồm: Đau nhức hoặc đau buốt ở cổ tay, đặc biệt khi vận động. Sưng, tấy đỏ, hoặc nóng rát ở khu vực cổ tay. Cảm giác yếu hoặc mất cảm giác ở bàn tay và ngón tay. Khó khăn trong việc cầm nắm hoặc thực hiện các động tác yêu cầu sự khéo léo của bàn tay. Đau lan xuống bàn tay hoặc lên cánh tay.",
+      "Phòng ngừa bệnh Để phòng ngừa đau cổ tay, bạn có thể thực hiện các biện pháp sau: Điều chỉnh tư thế làm việc: Đảm bảo tư thế ngồi và cách sắp xếp bàn làm việc hợp lý để giảm áp lực lên cổ tay. Tập thể dục thường xuyên: Tập các bài tập giãn cơ và tăng cường sức mạnh cho cổ tay và cánh tay. Sử dụng thiết bị hỗ trợ: Sử dụng bàn phím và chuột công thái học, và các thiết bị hỗ trợ khác để giảm căng thẳng lên cổ tay. Thay đổi thói quen sinh hoạt: Tránh các động tác lặp đi lặp lại liên tục và nghỉ ngơi thường xuyên để giảm áp lực lên cổ tay. Mang băng bảo vệ: Khi tham gia các hoạt động thể thao hoặc công việc có nguy cơ chấn thương, hãy sử dụng băng bảo vệ để bảo vệ cổ tay."
+    ],
+    "rubric": {
+      "case_id": "S4-025",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau cổ tay"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-co-tay.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau cổ tay; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau cổ vai gáy, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng đau cổ vai gáy Triệu chứng đau mỏi vai gáy thường mang tính cơ học, điển hình phải kể đến gồm: Cảm giác khó chịu hoặc đau nhức nhẹ, có thể khu trú tại một điểm giữa cổ và vai hoặc lan tỏa khắp một vùng rộng hơn trên vai và/hoặc trên cổ. Cơn đau nhói có thể xuất hiện rồi biến mất, có thể lan xuống vai hoặc cánh tay, bàn tay. Cảm giác cứng vùng cổ vai gáy. Phạm vi c huyển động ở cổ và vai, khả năng quay đầu hoặc nhấc cánh tay bị hạn chế. Cảm giác đau ở cổ hoặc vai trở nên trầm trọng hơn khi ấn vào. Cảm giác ngứa ran, tê lan dần xuống va i, cánh tay và/hoặc bàn tay ( đau mỏi vai gáy tê bì chân tay). Định hướng xử trí: Phòng ngừa đau cổ vai gáy Cần xây dựng chế độ tập luyện thể dục thể thao thường xuyên với các bài tập phù hợp. Cần xây dựng chế độ làm việc, nghỉ ngơi phù hợp. Khi ngồi làm việc, học tập lâu cần xen kẽ vận động, nghỉ giải lao. Rèn luyện tư thế ngồi làm việc, học tập luôn giữ thẳng cổ, tránh cúi gập cổ quá lâu hoặc ngồi sai tư thế. Cần xây dựng chế độ ăn uống dinh dưỡng, lành mạnh, bổ sung các dưỡng chất cần thiết cho cơ thể ví dụ như canxi, kali, vitamin nhóm B, C, E,…",
+    "reference_contexts": [
+      "Triệu chứng đau cổ vai gáy Triệu chứng đau mỏi vai gáy thường mang tính cơ học, điển hình phải kể đến gồm: Cảm giác khó chịu hoặc đau nhức nhẹ, có thể khu trú tại một điểm giữa cổ và vai hoặc lan tỏa khắp một vùng rộng hơn trên vai và/hoặc trên cổ. Cơn đau nhói có thể xuất hiện rồi biến mất, có thể lan xuống vai hoặc cánh tay, bàn tay. Cảm giác cứng vùng cổ vai gáy. Phạm vi c huyển động ở cổ và vai, khả năng quay đầu hoặc nhấc cánh tay bị hạn chế. Cảm giác đau ở cổ hoặc vai trở nên trầm trọng hơn khi ấn vào. Cảm giác ngứa ran, tê lan dần xuống va i, cánh tay và/hoặc bàn tay ( đau mỏi vai gáy tê bì chân tay).",
+      "Phòng ngừa đau cổ vai gáy Cần xây dựng chế độ tập luyện thể dục thể thao thường xuyên với các bài tập phù hợp. Cần xây dựng chế độ làm việc, nghỉ ngơi phù hợp. Khi ngồi làm việc, học tập lâu cần xen kẽ vận động, nghỉ giải lao. Rèn luyện tư thế ngồi làm việc, học tập luôn giữ thẳng cổ, tránh cúi gập cổ quá lâu hoặc ngồi sai tư thế. Cần xây dựng chế độ ăn uống dinh dưỡng, lành mạnh, bổ sung các dưỡng chất cần thiết cho cơ thể ví dụ như canxi, kali, vitamin nhóm B, C, E,…"
+    ],
+    "rubric": {
+      "case_id": "S4-026",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau cổ vai gáy"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-co-vai-gay.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau cổ vai gáy; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau cơ xương khớp, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Những triệu chứng cho biết bạn đang mắc bệnh đau cơ xương khớp Đau cơ xương khớp có thể gặp ở một số vị trí trên cơ thể như: đau mỏi cổ, đau vùng vai gáy, đau ở thắt lưng, đau vùng gót chân, đau ở các khớp,… Triệu chứng đau cơ xương khớp bao gồm: Xuất hiện cảm giác đau nhức và mỏi. Cứng khớp. Sưng đỏ. Nóng ran ở các khớp xương. Khớp phát ra âm thanh khi di chuyển. Định hướng xử trí: Cách phòng ngừa đau nhức cơ xương khớp Để phòng ngừa đau nhức cơ xương khớp, chúng ta cần: Kiểm soát cân nặng ở mức phù hợp Tránh bê vác các vật quá nặng, vượt quá sức của bản thân. Tránh ngồi quá lâu một tư thế, hoặc ngồi sai tư thế khi làm việc. Đối với nữ, nên hạn chế đi giày cao gót, vì điều này làm tăng sức ép lên đầu gối và gót chân, gây ảnh hưởng xấu đến xương khớp. Xây dựng chế độ ăn uống khoa học, tránh xa các đồ ăn nhiều đạm, chất kích thích, đồ ăn nhanh, … Tập luyện các môn thể thao vừa sức để tăng sức dẻo dai và linh hoạt của xương khớp. Nên giữ ấm cơ thể khi thời tiết thay đổi, nhất là những người đã từng mắc các bệnh cơ xương khớp trước đó.",
+    "reference_contexts": [
+      "Những triệu chứng cho biết bạn đang mắc bệnh đau cơ xương khớp Đau cơ xương khớp có thể gặp ở một số vị trí trên cơ thể như: đau mỏi cổ, đau vùng vai gáy, đau ở thắt lưng, đau vùng gót chân, đau ở các khớp,… Triệu chứng đau cơ xương khớp bao gồm: Xuất hiện cảm giác đau nhức và mỏi. Cứng khớp. Sưng đỏ. Nóng ran ở các khớp xương. Khớp phát ra âm thanh khi di chuyển.",
+      "Cách phòng ngừa đau nhức cơ xương khớp Để phòng ngừa đau nhức cơ xương khớp, chúng ta cần: Kiểm soát cân nặng ở mức phù hợp Tránh bê vác các vật quá nặng, vượt quá sức của bản thân. Tránh ngồi quá lâu một tư thế, hoặc ngồi sai tư thế khi làm việc. Đối với nữ, nên hạn chế đi giày cao gót, vì điều này làm tăng sức ép lên đầu gối và gót chân, gây ảnh hưởng xấu đến xương khớp. Xây dựng chế độ ăn uống khoa học, tránh xa các đồ ăn nhiều đạm, chất kích thích, đồ ăn nhanh, … Tập luyện các môn thể thao vừa sức để tăng sức dẻo dai và linh hoạt của xương khớp. Nên giữ ấm cơ thể khi thời tiết thay đổi, nhất là những người đã từng mắc các bệnh cơ xương khớp trước đó."
+    ],
+    "rubric": {
+      "case_id": "S4-027",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau cơ xương khớp"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-co-xuong-khop.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau cơ xương khớp; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau cột sống, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng chính của các bệnh lý này là đau lưng. Cơn đau thường khu trú tại một vị trí trên cột sống hay đôi khi còn lan dọc lưng, xuống tận mông và chân. Cơn đau thường biến mất nếu được nghỉ ngơi hay điều chỉnh tư thế đúng cách mà không cần phải điều trị gì. Tuy nhiên, nếu người bệnh vừa có cơn đau trên lưng vừa kèm theo các đặc điểm sau thì nên đi khám bác sĩ: Sụt cân; Sốt; Có khối viêm hoặc sưng ở lưng; Đau lưng dai dẳng, không cải thiện cả khi nghỉ ngơi; Đau xuống chân; Đau đến dưới đầu gối; Sau khi bị chấn thương; Tiêu tiểu không tự chủ; Bí đại, tiểu tiện; Tê bì hay mất cảm giác; Yếu chân khi đi lại Định hướng xử trí: Phòng ngừa bệnh Để hạn chế nguy cơ đau cột sống, điều cần thiết là: Chế độ dinh dưỡng, tập luyện, sinh hoạt hợp lý Tránh mang vác nặng, cần mang vác đúng tư thế Công việc văn phòng, không ngồi một tư thế quá lâu Hạn chế rượu bia, chất gây nghiện, thuốc lá…Đau cột sống là bệnh thường gặp, có thể gây ra nhiều phiền toái trong quá trình sinh hoạt, làm việc của bệnh nhân, cần được điều trị đúng cách và dứt điểm để cải thiện và nâng cao chất lượng sống.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng chính của các bệnh lý này là đau lưng. Cơn đau thường khu trú tại một vị trí trên cột sống hay đôi khi còn lan dọc lưng, xuống tận mông và chân. Cơn đau thường biến mất nếu được nghỉ ngơi hay điều chỉnh tư thế đúng cách mà không cần phải điều trị gì. Tuy nhiên, nếu người bệnh vừa có cơn đau trên lưng vừa kèm theo các đặc điểm sau thì nên đi khám bác sĩ: Sụt cân; Sốt; Có khối viêm hoặc sưng ở lưng; Đau lưng dai dẳng, không cải thiện cả khi nghỉ ngơi; Đau xuống chân; Đau đến dưới đầu gối; Sau khi bị chấn thương; Tiêu tiểu không tự chủ; Bí đại, tiểu tiện; Tê bì hay mất cảm giác; Yếu chân khi đi lại",
+      "Phòng ngừa bệnh Để hạn chế nguy cơ đau cột sống, điều cần thiết là: Chế độ dinh dưỡng, tập luyện, sinh hoạt hợp lý Tránh mang vác nặng, cần mang vác đúng tư thế Công việc văn phòng, không ngồi một tư thế quá lâu Hạn chế rượu bia, chất gây nghiện, thuốc lá…Đau cột sống là bệnh thường gặp, có thể gây ra nhiều phiền toái trong quá trình sinh hoạt, làm việc của bệnh nhân, cần được điều trị đúng cách và dứt điểm để cải thiện và nâng cao chất lượng sống."
+    ],
+    "rubric": {
+      "case_id": "S4-028",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau cột sống"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-cot-song.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau cột sống; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau đầu gối, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Các vị trí và mức độ nghiêm trọng của cơn đau đầu gối có thể khác nhau, tùy thuộc vào nguyên nhân như đã nói ở trên. Các dấu hiệu và triệu chứng đau đầu gối đôi khi đi kèm bao gồm: Đau nhức khớp gối (khi nghỉ hoặc khi vận động): Đau đầu gối có thể là cảm giác đau nhói, đau nhức, đau nhấn vào hoặc đau cấp tính. Đau có thể diễn ra trong một hoặc cả hai đầu gối. Sưng khớp: Khu vực xung quanh đầu gối có thể bị sưng, làm cho đầu gối trở nên phình lên hoặc có một bướu nổi lên. Cứng khớp hoặc không thể duỗi thẳng đầu gối: Đau đầu gối có thể gây ra khó khăn trong việc cử động đầu gối hoặc làm giảm phạm vi chuyển động của đầu gối. Nóng và đỏ vùng đầu gối Người bị đau đầu gối có thể gặp khó khăn khi đi bộ, leo cầu thang, ngồi xổm hoặc thực hiện các hoạt động hàng ngày khác. Định hướng xử trí: Phòng ngừa bệnh Để hạn chế nguy cơ bị đau khớp gối, bạn có thể áp dụng một số biện pháp dưới đây: Có chế độ ăn uống hợp lý, tăng cường chất dinh dưỡng lành mạnh để tăng cường sức khỏe hệ sống xương khớp. Thường xuyên vận động và tập thể dục ít nhất 30 phút mỗi ngày, 4-5 lần/tuần. Nên tập các môn thể thao nhẹ nhàng, phù hợp với sức khỏe. Điều này sẽ ngăn chặn tình trạng thừa cân gây tăng áp lực lên khớp gối. Hạn chế đi giày cao gót, nên chọn các loại giày thể thao, giày chạy bộ bảo vệ chân. Giảm cân, duy trì trọng lượng hợp lý để giảm áp lực lên đầu gối. Tránh bê vác nặng, vận động và làm việc quá sức. Hạn chế vận động quá sức, thể thao cường độ cao. Chỉ rèn luyện thể lực phù hợp với thể trạng, khởi động kỹ trước khi tập. Sử dụng đồ bảo hộ phù hợp khi chơi thể thao, lao động nặng.",
+    "reference_contexts": [
+      "Triệu chứng Các vị trí và mức độ nghiêm trọng của cơn đau đầu gối có thể khác nhau, tùy thuộc vào nguyên nhân như đã nói ở trên. Các dấu hiệu và triệu chứng đau đầu gối đôi khi đi kèm bao gồm: Đau nhức khớp gối (khi nghỉ hoặc khi vận động): Đau đầu gối có thể là cảm giác đau nhói, đau nhức, đau nhấn vào hoặc đau cấp tính. Đau có thể diễn ra trong một hoặc cả hai đầu gối. Sưng khớp: Khu vực xung quanh đầu gối có thể bị sưng, làm cho đầu gối trở nên phình lên hoặc có một bướu nổi lên. Cứng khớp hoặc không thể duỗi thẳng đầu gối: Đau đầu gối có thể gây ra khó khăn trong việc cử động đầu gối hoặc làm giảm phạm vi chuyển động của đầu gối. Nóng và đỏ vùng đầu gối Người bị đau đầu gối có thể gặp khó khăn khi đi bộ, leo cầu thang, ngồi xổm hoặc thực hiện các hoạt động hàng ngày khác.",
+      "Phòng ngừa bệnh Để hạn chế nguy cơ bị đau khớp gối, bạn có thể áp dụng một số biện pháp dưới đây: Có chế độ ăn uống hợp lý, tăng cường chất dinh dưỡng lành mạnh để tăng cường sức khỏe hệ sống xương khớp. Thường xuyên vận động và tập thể dục ít nhất 30 phút mỗi ngày, 4-5 lần/tuần. Nên tập các môn thể thao nhẹ nhàng, phù hợp với sức khỏe. Điều này sẽ ngăn chặn tình trạng thừa cân gây tăng áp lực lên khớp gối. Hạn chế đi giày cao gót, nên chọn các loại giày thể thao, giày chạy bộ bảo vệ chân. Giảm cân, duy trì trọng lượng hợp lý để giảm áp lực lên đầu gối. Tránh bê vác nặng, vận động và làm việc quá sức. Hạn chế vận động quá sức, thể thao cường độ cao. Chỉ rèn luyện thể lực phù hợp với thể trạng, khởi động kỹ trước khi tập. Sử dụng đồ bảo hộ phù hợp khi chơi thể thao, lao động nặng."
+    ],
+    "rubric": {
+      "case_id": "S4-029",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau đầu gối"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-dau-goi.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau đầu gối; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau đùi dị cảm, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng đau đùi dị cảm Khi dây thần kinh bì đùi ngoài bị chèn ép, bạn sẽ có một số triệu chứng mà thường được gọi là dị cảm, gồm: Đau nhói, cảm giác châm chích và tê ở má ngoài của đùi Đau nóng rát trên bề mặt da má ngoài đùi Cơn đau đùi có thể lan xuống phía ngoài đầu gối, cơn đau ở vùng háng có khi lan xuống mông Những triệu chứng này thường xảy ra ở một bên cơ thể và có thể cảm nhận rõ rệt hơn sau khi đi, đứng trong thời gian dài hay chạm, ma sát nhẹ vào đùi. Định hướng xử trí: Phòng ngừa đau đùi dị cảm Không có cách nào giúp phòng ngừa hoàn toàn tình trạng này xuất hiện nhưng bạn có thể giảm bớt nguy cơ gặp phải chúng bằng cách: Giảm cân Mặc quần áo rộng rãi Tránh đeo các đai nặng quanh hông.",
+    "reference_contexts": [
+      "Triệu chứng đau đùi dị cảm Khi dây thần kinh bì đùi ngoài bị chèn ép, bạn sẽ có một số triệu chứng mà thường được gọi là dị cảm, gồm: Đau nhói, cảm giác châm chích và tê ở má ngoài của đùi Đau nóng rát trên bề mặt da má ngoài đùi Cơn đau đùi có thể lan xuống phía ngoài đầu gối, cơn đau ở vùng háng có khi lan xuống mông Những triệu chứng này thường xảy ra ở một bên cơ thể và có thể cảm nhận rõ rệt hơn sau khi đi, đứng trong thời gian dài hay chạm, ma sát nhẹ vào đùi.",
+      "Phòng ngừa đau đùi dị cảm Không có cách nào giúp phòng ngừa hoàn toàn tình trạng này xuất hiện nhưng bạn có thể giảm bớt nguy cơ gặp phải chúng bằng cách: Giảm cân Mặc quần áo rộng rãi Tránh đeo các đai nặng quanh hông."
+    ],
+    "rubric": {
+      "case_id": "S4-030",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau đùi dị cảm"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-dui-di-cam.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau đùi dị cảm; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau gót chân, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng đau gót chân Triệu chứng của đau gót chân có thể rất đa dạng, bao gồm: Đau nhói hoặc đau âm ỉ: Cảm giác đau có thể xuất hiện đột ngột hoặc dần dần, thường là ở vùng gót chân. Cứng gót chân: Đặc biệt là vào buổi sáng khi mới ngủ dậy, gót chân có thể cảm thấy cứng và đau. Sưng: Khu vực gót chân có thể sưng lên, đặc biệt sau khi hoạt động nhiều. Đỏ hoặc ấm: Vùng gót chân có thể trở nên đỏ hoặc ấm do viêm nhiễm. Khó khăn khi đi lại: Đau gót chân có thể làm cho việc di chuyển trở nên khó khăn và gây đau khi bước chân. Định hướng xử trí: Phòng ngừa bệnh Để phòng ngừa đau gót chân, bạn có thể thực hiện các biện pháp sau: Duy trì cân nặng hợp lý: Giảm cân để giảm áp lực lên gót chân và các khớp. Chọn giày dép phù hợp: Mang giày có đệm tốt và hỗ trợ vòm chân để giảm áp lực lên gót chân. Tập thể dục đều đặn: Tăng cường sức mạnh cơ bắp và linh hoạt cho bàn chân và gót chân. Tránh hoạt động quá mức: Hạn chế các hoạt động gây căng thẳng cho gót chân và nghỉ ngơi khi cần thiết. Sử dụng đế giày hỗ trợ: Sử dụng đế giày có độ nâng hoặc đệm để giảm áp lực lên gót chân. Thực hiện bài tập kéo dãn: Thực hiện các bài tập kéo dãn cơ bắp chân và gân gót chân để cải thiện sự linh hoạt và giảm nguy cơ chấn thương.",
+    "reference_contexts": [
+      "Triệu chứng đau gót chân Triệu chứng của đau gót chân có thể rất đa dạng, bao gồm: Đau nhói hoặc đau âm ỉ: Cảm giác đau có thể xuất hiện đột ngột hoặc dần dần, thường là ở vùng gót chân. Cứng gót chân: Đặc biệt là vào buổi sáng khi mới ngủ dậy, gót chân có thể cảm thấy cứng và đau. Sưng: Khu vực gót chân có thể sưng lên, đặc biệt sau khi hoạt động nhiều. Đỏ hoặc ấm: Vùng gót chân có thể trở nên đỏ hoặc ấm do viêm nhiễm. Khó khăn khi đi lại: Đau gót chân có thể làm cho việc di chuyển trở nên khó khăn và gây đau khi bước chân.",
+      "Phòng ngừa bệnh Để phòng ngừa đau gót chân, bạn có thể thực hiện các biện pháp sau: Duy trì cân nặng hợp lý: Giảm cân để giảm áp lực lên gót chân và các khớp. Chọn giày dép phù hợp: Mang giày có đệm tốt và hỗ trợ vòm chân để giảm áp lực lên gót chân. Tập thể dục đều đặn: Tăng cường sức mạnh cơ bắp và linh hoạt cho bàn chân và gót chân. Tránh hoạt động quá mức: Hạn chế các hoạt động gây căng thẳng cho gót chân và nghỉ ngơi khi cần thiết. Sử dụng đế giày hỗ trợ: Sử dụng đế giày có độ nâng hoặc đệm để giảm áp lực lên gót chân. Thực hiện bài tập kéo dãn: Thực hiện các bài tập kéo dãn cơ bắp chân và gân gót chân để cải thiện sự linh hoạt và giảm nguy cơ chấn thương."
+    ],
+    "rubric": {
+      "case_id": "S4-031",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau gót chân"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-got-chan.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau gót chân; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau Khớp Khuỷu Tay, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng đau khớp khuỷu tay có thể khác nhau tùy theo nguyên nhân và cấp độ nghiêm trọng của bệnh. Dưới đây là một số triệu chứng chính của bệnh đau khớp khuỷu tay: Đau khớp: Đau thường xuất hiện trong khuỷu tay và có thể là đau nhức hoặc đau dữ dội. Đau nhức có thể gia tăng khi thực hiện các hoạt động đòi hỏi sử dụng khớp khuỷu tay hoặc trong giai đoạn sáng sớm sau khi ngủ. Sưng và viêm: Khớp khuỷu tay có thể sưng và viêm, gây ra sự phình to và đỏ hơn so với bình thường. Viêm có thể là dấu hiệu của quá trình viêm nhiễm hoặc viêm khớp. Hạn chế chức năng: Bệnh đau khớp khuỷu tay có thể làm giảm khả năng di chuyển và linh hoạt của khớp. Người bệnh có thể gặp khó khăn trong việc cầm nắm vật, uốn cong hoặc duỗi thẳng khuỷu tay và thực hiện các hoạt động hàng ngày. Định hướng xử trí: Phòng ngừa bệnh Một số cách dưới đây có thể giúp bạn giảm nguy cơ mắc bệnh viêm khớp khuỷu tay, cụ thể: Cân bằng thời gian giữa vận động, làm việc và nghỉ ngơi; tránh tình trạng vận động và làm việc gắng sức. Hạn chế chấn thương bằng cách thận trọng khi sinh hoạt và chơi thể thao. Khởi động kỹ trước khi làm việc nặng hay chơi thể thao. Tránh lặp đi lặp lại một động tác tăng áp lực lên khuỷu tay. Điều trị chấn thương dứt điểm. Dành 30-60 phút mỗi ngày để vận động cơ thể như tập yoga, thái cực quyền, bơi lội… Chế độ ăn uống lành mạnh và cân bằng: Bạn nên đảm bảo bổ sung đầy đủ những nhóm chất như vitamin, khoáng chất, chất béo, tinh bột và protein. Điều này sẽ giúp duy trì khung xương và mô chắc khỏe, giảm nguy cơ viêm khớp khuỷu tay.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng đau khớp khuỷu tay có thể khác nhau tùy theo nguyên nhân và cấp độ nghiêm trọng của bệnh. Dưới đây là một số triệu chứng chính của bệnh đau khớp khuỷu tay: Đau khớp: Đau thường xuất hiện trong khuỷu tay và có thể là đau nhức hoặc đau dữ dội. Đau nhức có thể gia tăng khi thực hiện các hoạt động đòi hỏi sử dụng khớp khuỷu tay hoặc trong giai đoạn sáng sớm sau khi ngủ. Sưng và viêm: Khớp khuỷu tay có thể sưng và viêm, gây ra sự phình to và đỏ hơn so với bình thường. Viêm có thể là dấu hiệu của quá trình viêm nhiễm hoặc viêm khớp. Hạn chế chức năng: Bệnh đau khớp khuỷu tay có thể làm giảm khả năng di chuyển và linh hoạt của khớp. Người bệnh có thể gặp khó khăn trong việc cầm nắm vật, uốn cong hoặc duỗi thẳng khuỷu tay và thực hiện các hoạt động hàng ngày.",
+      "Phòng ngừa bệnh Một số cách dưới đây có thể giúp bạn giảm nguy cơ mắc bệnh viêm khớp khuỷu tay, cụ thể: Cân bằng thời gian giữa vận động, làm việc và nghỉ ngơi; tránh tình trạng vận động và làm việc gắng sức. Hạn chế chấn thương bằng cách thận trọng khi sinh hoạt và chơi thể thao. Khởi động kỹ trước khi làm việc nặng hay chơi thể thao. Tránh lặp đi lặp lại một động tác tăng áp lực lên khuỷu tay. Điều trị chấn thương dứt điểm. Dành 30-60 phút mỗi ngày để vận động cơ thể như tập yoga, thái cực quyền, bơi lội… Chế độ ăn uống lành mạnh và cân bằng: Bạn nên đảm bảo bổ sung đầy đủ những nhóm chất như vitamin, khoáng chất, chất béo, tinh bột và protein. Điều này sẽ giúp duy trì khung xương và mô chắc khỏe, giảm nguy cơ viêm khớp khuỷu tay."
+    ],
+    "rubric": {
+      "case_id": "S4-032",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau Khớp Khuỷu Tay"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-khop-khuyu-tay.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau Khớp Khuỷu Tay; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau khớp, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Khi bị đau nhức xương khớp toàn thân, người bệnh sẽ cảm thấy đau mỏi xương, cơ, khớp và gân. Cơn đau nhức càng đau hơn mỗi khi vận động hoặc chạm vào vị trí đó. Thông thường, bệnh nhân sẽ cảm nhận rõ cơn đau ở các vị trí như: bắp tay, chân, tay, cổ chân hoặc tay, cổ, vai, hoặc lưng… Định hướng xử trí: Phòng ngừa bệnh Đau khớp là căn bệnh phổ biến nhưng có thể phòng tránh được nhờ tuân thủ các lưu ý sau: Tập thể dục thường xuyên Quản lý cân nặng phù hợp với chiều cao Có thể sử dụng châm cứu giảm đau cho viêm khớp Có chế độ ăn uống lành mạnh Bổ sung các dưỡng chất tốt cho xương khớp bằng cả thức ăn lẫn thực phẩm chức năng",
+    "reference_contexts": [
+      "Triệu chứng Khi bị đau nhức xương khớp toàn thân, người bệnh sẽ cảm thấy đau mỏi xương, cơ, khớp và gân. Cơn đau nhức càng đau hơn mỗi khi vận động hoặc chạm vào vị trí đó. Thông thường, bệnh nhân sẽ cảm nhận rõ cơn đau ở các vị trí như: bắp tay, chân, tay, cổ chân hoặc tay, cổ, vai, hoặc lưng…",
+      "Phòng ngừa bệnh Đau khớp là căn bệnh phổ biến nhưng có thể phòng tránh được nhờ tuân thủ các lưu ý sau: Tập thể dục thường xuyên Quản lý cân nặng phù hợp với chiều cao Có thể sử dụng châm cứu giảm đau cho viêm khớp Có chế độ ăn uống lành mạnh Bổ sung các dưỡng chất tốt cho xương khớp bằng cả thức ăn lẫn thực phẩm chức năng"
+    ],
+    "rubric": {
+      "case_id": "S4-033",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau khớp"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-khop.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau khớp; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau lưng dưới, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Các dấu hiệu đau lưng dưới có thể bắt đầu đột ngột rồi tự hết hoặc dần dần trở nên nghiêm trọng hơn theo thời gian. Một số triệu chứng đau lưng dưới thường gặp có thể kể đến như: Xuất hiện cơn đau mỏi lưng dưới âm ỉ. Đau nhói, có cảm giác nóng rát từ thắt lưng di chuyển xuống mặt sau của đùi. Đôi khi lan xuống cẳng chân hoặc bàn chân, có thể bao gồm tê hoặc ngứa ran. Cơ thắt cơ và căng tức ở vùng thắt lưng, xương chậu và hông. Khi ngồi hoặc đứng lâu, cơn đau thắt lưng dưới càng dữ dội hơn. Khó đứng thẳng hoặc đi bộ, thay đổi các tư thế khi đi đứng, ngồi hay nằm. Định hướng xử trí: Phòng ngừa bệnh Mọi người ở mọi lứa tuổi đều có nguy cơ bị đau lưng dưới, nên lưu ý cách thức đề phòng là điều quan trọng cần biết: Điều chỉnh đúng tư thế khi bê vật nặng như: mở rộng hai chân, ngồi xổm xuống ôm sát đồ vật vào bụng, hít chặt căng cứng cơ bụng trước khi nâng vật lên từ từ. Nên giữ lưng thẳng chứ không nên khom còn lưng. Cần bố trí thời gian nghỉ ngơi và làm việc khoa học: Nên xen kẽ các khoảng thời gian nghỉ ngắn 10 phút để đứng lên đi lại, vận động nhẹ, thay đổi tư thế sau thời gian ngồi làm việc quá lâu trên 1h. Ăn uống khoa học, hạn chế tăng cân béo phì quá cỡ gây gánh nặng lên hệ xương và cột sống Bổ sung các chất vi lượng cần thiết như canxi, magie, kali cho thực đơn bữa ăn hàng ngày.",
+    "reference_contexts": [
+      "Triệu chứng Các dấu hiệu đau lưng dưới có thể bắt đầu đột ngột rồi tự hết hoặc dần dần trở nên nghiêm trọng hơn theo thời gian. Một số triệu chứng đau lưng dưới thường gặp có thể kể đến như: Xuất hiện cơn đau mỏi lưng dưới âm ỉ. Đau nhói, có cảm giác nóng rát từ thắt lưng di chuyển xuống mặt sau của đùi. Đôi khi lan xuống cẳng chân hoặc bàn chân, có thể bao gồm tê hoặc ngứa ran. Cơ thắt cơ và căng tức ở vùng thắt lưng, xương chậu và hông. Khi ngồi hoặc đứng lâu, cơn đau thắt lưng dưới càng dữ dội hơn. Khó đứng thẳng hoặc đi bộ, thay đổi các tư thế khi đi đứng, ngồi hay nằm.",
+      "Phòng ngừa bệnh Mọi người ở mọi lứa tuổi đều có nguy cơ bị đau lưng dưới, nên lưu ý cách thức đề phòng là điều quan trọng cần biết: Điều chỉnh đúng tư thế khi bê vật nặng như: mở rộng hai chân, ngồi xổm xuống ôm sát đồ vật vào bụng, hít chặt căng cứng cơ bụng trước khi nâng vật lên từ từ. Nên giữ lưng thẳng chứ không nên khom còn lưng. Cần bố trí thời gian nghỉ ngơi và làm việc khoa học: Nên xen kẽ các khoảng thời gian nghỉ ngắn 10 phút để đứng lên đi lại, vận động nhẹ, thay đổi tư thế sau thời gian ngồi làm việc quá lâu trên 1h. Ăn uống khoa học, hạn chế tăng cân béo phì quá cỡ gây gánh nặng lên hệ xương và cột sống Bổ sung các chất vi lượng cần thiết như canxi, magie, kali cho thực đơn bữa ăn hàng ngày."
+    ],
+    "rubric": {
+      "case_id": "S4-034",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau lưng dưới"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-lung-duoi.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau lưng dưới; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau lưng trên, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng bệnh Tùy theo nguyên nhân gây bệnh, người bệnh sẽ có triệu chứng đau lưng trên khác nhau. Những triệu chứng đau lưng mà người bệnh có thể gặp phải như: Đau nhói vùng lưng trên: Người bệnh cảm thấy đau nhói ở lưng trên như bị dao đâm hay bị siết chặt. Khu vực đau nhức tương đối tập trung, không lan rộng sang những vùng xung quanh, chỉ xuất hiện ở một vị trí nhất định. Đau âm ỉ: Những cơn đau âm ỉ khiến người bệnh bị đau đớn, khó chịu. Cơn đau này không chỉ xảy ra ở một khu vực mà còn có khả năng lan sang những nơi lân cận như cổ, thắt lưng và vai. Định hướng xử trí: Phòng ngừa đau lưng trên Để ngăn ngừa nguy cơ đau lưng trên, người bệnh nên lưu ý một số điều dưới đây: Khi nâng đồ vật nặng, bạn cần mở rộng hai chân, ngồi xổm xuống ở tư thế gập khớp gối và khớp háng, không cúi gập cột sống, dùng tay di chuyển đồ vật sát bụng đồng thời căng cơ bụng, từ từ đứng dậy và nâng đồ vật lên. Lưu ý luôn giữ thẳng lưng. Sắp xếp thời gian nghỉ ngơi và làm việc hợp lý, hạn chế tình trạng căng thẳng, stress liên tục. Người làm văn phòng nên chọn ghế ngồi có độ cao phù hợp (đảm bảo hai bàn chân chạm sát vào sàn). Sau mỗi 1 giờ ngồi làm việc, bạn nên đứng lên vận động, thực hiện những động tác thư giãn cho lưng trong khoảng 15 phút trước khi quay trở lại làm việc.",
+    "reference_contexts": [
+      "Triệu chứng bệnh Tùy theo nguyên nhân gây bệnh, người bệnh sẽ có triệu chứng đau lưng trên khác nhau. Những triệu chứng đau lưng mà người bệnh có thể gặp phải như: Đau nhói vùng lưng trên: Người bệnh cảm thấy đau nhói ở lưng trên như bị dao đâm hay bị siết chặt. Khu vực đau nhức tương đối tập trung, không lan rộng sang những vùng xung quanh, chỉ xuất hiện ở một vị trí nhất định. Đau âm ỉ: Những cơn đau âm ỉ khiến người bệnh bị đau đớn, khó chịu. Cơn đau này không chỉ xảy ra ở một khu vực mà còn có khả năng lan sang những nơi lân cận như cổ, thắt lưng và vai.",
+      "Phòng ngừa đau lưng trên Để ngăn ngừa nguy cơ đau lưng trên, người bệnh nên lưu ý một số điều dưới đây: Khi nâng đồ vật nặng, bạn cần mở rộng hai chân, ngồi xổm xuống ở tư thế gập khớp gối và khớp háng, không cúi gập cột sống, dùng tay di chuyển đồ vật sát bụng đồng thời căng cơ bụng, từ từ đứng dậy và nâng đồ vật lên. Lưu ý luôn giữ thẳng lưng. Sắp xếp thời gian nghỉ ngơi và làm việc hợp lý, hạn chế tình trạng căng thẳng, stress liên tục. Người làm văn phòng nên chọn ghế ngồi có độ cao phù hợp (đảm bảo hai bàn chân chạm sát vào sàn). Sau mỗi 1 giờ ngồi làm việc, bạn nên đứng lên vận động, thực hiện những động tác thư giãn cho lưng trong khoảng 15 phút trước khi quay trở lại làm việc."
+    ],
+    "rubric": {
+      "case_id": "S4-035",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau lưng trên"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-lung-tren.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau lưng trên; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau lưng, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng khi bị đau lưng Khi bị đau lưng cấp, người bệnh sẽ gặp phải những triệu chứng như: Đau nhói đột ngột hoặc đau nhức âm ỉ ở lưng, có thể ở vùng lưng trên hoặc lưng dưới. Đau đột ngột hay đau nghiêm trọng sau khi nâng vác vật nặng, ngồi lâu một chỗ hay nằm bất động trên giường. Đau lưng khu trú hay đau dọc cột sống, đau lan rộng từ lưng sang hông, xuống mông và các chi. Cơn đau khiến người bệnh gặp nhiều khó khăn khi đứng thẳng trong lúc di chuyển, xoay hay vặn mình đột ngột, có tai nạn hay chấn thương. Cơn đau có thể giảm dần khi nghỉ ngơi. Một số cơn đau có thể trở nặng vào buổi sáng kèm theo tình trạng cứng vùng lưng. Ngoài ra, tùy theo nguyên nhân gây đau và mức độ nghiêm trọng, các triệu chứng đi kèm có thể xuất hiện như: Định hướng xử trí: Phòng ngừa bệnh Khi nâng vác vật nặng: Bắt đầu ở tư thế ngồi xổm, giữ thẳng lưng và ngẩng đầu lên. Khi đứng dậy, hãy dùng chân trụ để nâng vật, lưng vẫn luôn giữ thẳng. Duy trì cân nặng hợp lý: Kiểm soát tốt cân nặng sẽ giúp giảm áp lực đáng kể lên cột sống, hạn chế tổn thương tiến triển (nếu có). Chế độ ăn uống: Chế độ ăn uống đầy đủ canxi và vitamin D sẽ tốt cho cơ, xương, khớp. Chế độ ăn uống lành mạnh tránh tình trạng thừa cân, béo phì, gây áp lực lớn lên cột sống. Chọn nệm ngủ: Đảm bảo nâng đỡ tốt cột sống, đặc biệt vùng vai và mông trong khi ngủ, cột sống phải được giữ thẳng. Nệm phải có độ mềm vừa phải, không quá cứng hoặc quá mềm.",
+    "reference_contexts": [
+      "Triệu chứng khi bị đau lưng Khi bị đau lưng cấp, người bệnh sẽ gặp phải những triệu chứng như: Đau nhói đột ngột hoặc đau nhức âm ỉ ở lưng, có thể ở vùng lưng trên hoặc lưng dưới. Đau đột ngột hay đau nghiêm trọng sau khi nâng vác vật nặng, ngồi lâu một chỗ hay nằm bất động trên giường. Đau lưng khu trú hay đau dọc cột sống, đau lan rộng từ lưng sang hông, xuống mông và các chi. Cơn đau khiến người bệnh gặp nhiều khó khăn khi đứng thẳng trong lúc di chuyển, xoay hay vặn mình đột ngột, có tai nạn hay chấn thương. Cơn đau có thể giảm dần khi nghỉ ngơi. Một số cơn đau có thể trở nặng vào buổi sáng kèm theo tình trạng cứng vùng lưng. Ngoài ra, tùy theo nguyên nhân gây đau và mức độ nghiêm trọng, các triệu chứng đi kèm có thể xuất hiện như:",
+      "Phòng ngừa bệnh Khi nâng vác vật nặng: Bắt đầu ở tư thế ngồi xổm, giữ thẳng lưng và ngẩng đầu lên. Khi đứng dậy, hãy dùng chân trụ để nâng vật, lưng vẫn luôn giữ thẳng. Duy trì cân nặng hợp lý: Kiểm soát tốt cân nặng sẽ giúp giảm áp lực đáng kể lên cột sống, hạn chế tổn thương tiến triển (nếu có). Chế độ ăn uống: Chế độ ăn uống đầy đủ canxi và vitamin D sẽ tốt cho cơ, xương, khớp. Chế độ ăn uống lành mạnh tránh tình trạng thừa cân, béo phì, gây áp lực lớn lên cột sống. Chọn nệm ngủ: Đảm bảo nâng đỡ tốt cột sống, đặc biệt vùng vai và mông trong khi ngủ, cột sống phải được giữ thẳng. Nệm phải có độ mềm vừa phải, không quá cứng hoặc quá mềm."
+    ],
+    "rubric": {
+      "case_id": "S4-036",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau lưng"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-lung.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau lưng; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau mắt cá chân, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng của đau mắt cá chân có thể bao gồm: Đau nhức hoặc đau âm ỉ: Cảm giác đau có thể xảy ra liên tục hoặc theo cơn. Sưng: Mắt cá chân có thể bị sưng lên, gây cảm giác khó chịu và hạn chế cử động. Tê bì hoặc ngứa ran: Cảm giác tê bì hoặc ngứa ran có thể xảy ra ở mắt cá chân hoặc các khu vực lân cận. Cứng khớp: Mắt cá chân có thể cảm thấy cứng và khó cử động, đặc biệt vào buổi sáng. Đỏ hoặc ấm: Da xung quanh mắt cá chân có thể đỏ hoặc ấm do viêm nhiễm. Khó khăn khi đi lại: Đau mắt cá chân có thể làm cho việc di chuyển trở nên khó khăn và gây đau khi bước chân. Định hướng xử trí: Phòng ngừa bệnh Để phòng ngừa đau mắt cá chân, bạn có thể thực hiện các biện pháp sau: Duy trì cân nặng hợp lý: Giảm cân để giảm áp lực lên mắt cá chân và các khớp. Chọn giày dép phù hợp: Mang giày có đệm tốt và hỗ trợ vòm chân để giảm áp lực lên mắt cá chân. Tập thể dục đều đặn: Tăng cường sức mạnh cơ bắp và linh hoạt cho mắt cá chân và chân. Tránh hoạt động quá mức: Hạn chế các hoạt động gây căng thẳng cho mắt cá chân và nghỉ ngơi khi cần thiết. Sử dụng đế giày hỗ trợ: Sử dụng đế giày có độ nâng hoặc đệm để giảm áp lực lên mắt cá chân. Thực hiện bài tập kéo dãn: Thực hiện các bài tập kéo dãn cơ bắp chân và gân mắt cá chân để cải thiện sự linh hoạt và giảm nguy cơ chấn thương.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng của đau mắt cá chân có thể bao gồm: Đau nhức hoặc đau âm ỉ: Cảm giác đau có thể xảy ra liên tục hoặc theo cơn. Sưng: Mắt cá chân có thể bị sưng lên, gây cảm giác khó chịu và hạn chế cử động. Tê bì hoặc ngứa ran: Cảm giác tê bì hoặc ngứa ran có thể xảy ra ở mắt cá chân hoặc các khu vực lân cận. Cứng khớp: Mắt cá chân có thể cảm thấy cứng và khó cử động, đặc biệt vào buổi sáng. Đỏ hoặc ấm: Da xung quanh mắt cá chân có thể đỏ hoặc ấm do viêm nhiễm. Khó khăn khi đi lại: Đau mắt cá chân có thể làm cho việc di chuyển trở nên khó khăn và gây đau khi bước chân.",
+      "Phòng ngừa bệnh Để phòng ngừa đau mắt cá chân, bạn có thể thực hiện các biện pháp sau: Duy trì cân nặng hợp lý: Giảm cân để giảm áp lực lên mắt cá chân và các khớp. Chọn giày dép phù hợp: Mang giày có đệm tốt và hỗ trợ vòm chân để giảm áp lực lên mắt cá chân. Tập thể dục đều đặn: Tăng cường sức mạnh cơ bắp và linh hoạt cho mắt cá chân và chân. Tránh hoạt động quá mức: Hạn chế các hoạt động gây căng thẳng cho mắt cá chân và nghỉ ngơi khi cần thiết. Sử dụng đế giày hỗ trợ: Sử dụng đế giày có độ nâng hoặc đệm để giảm áp lực lên mắt cá chân. Thực hiện bài tập kéo dãn: Thực hiện các bài tập kéo dãn cơ bắp chân và gân mắt cá chân để cải thiện sự linh hoạt và giảm nguy cơ chấn thương."
+    ],
+    "rubric": {
+      "case_id": "S4-037",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau mắt cá chân"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-mat-ca-chan.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau mắt cá chân; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau ngón tay, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng đau ngón tay có thể bao gồm: Đau nhức hoặc đau âm ỉ: Cảm giác đau có thể xảy ra liên tục hoặc theo cơn. Sưng: Ngón tay có thể bị sưng lên, gây cảm giác khó chịu và hạn chế cử động. Tê bì hoặc ngứa ran: Cảm giác tê bì hoặc ngứa ran có thể xảy ra ở ngón tay hoặc các khu vực lân cận. Cứng ngón tay: Ngón tay có thể cảm thấy cứng và khó cử động, đặc biệt vào buổi sáng. Đỏ hoặc ấm: Da xung quanh ngón tay có thể đỏ hoặc ấm do viêm nhiễm. Hạn chế cử động: Khó khăn khi thực hiện các hoạt động cần sự linh hoạt của ngón tay, như cầm nắm hoặc gõ phím. Định hướng xử trí: Phòng ngừa bệnh Để phòng ngừa đau ngón tay, bạn có thể thực hiện các biện pháp sau: Chọn tư thế và kỹ thuật làm việc đúng cách: Sử dụng thiết bị hỗ trợ và điều chỉnh tư thế khi làm việc với máy tính hoặc thiết bị điện tử. Nghỉ ngơi và giảm căng thẳng: Đảm bảo nghỉ ngơi đầy đủ và giảm áp lực lên ngón tay bằng cách thay đổi hoạt động và thực hiện các bài tập giãn cơ. Sử dụng bảo hộ: Mang găng tay hoặc thiết bị bảo hộ khi làm việc với các công cụ hoặc máy móc để tránh chấn thương. Duy trì sức khỏe khớp: Ăn uống lành mạnh và thực hiện các bài tập thể dục để duy trì sức khỏe của các khớp và cơ bắp. Điều trị kịp thời các bệnh lý: Quản lý và điều trị sớm các bệnh lý khớp hoặc bệnh lý tự miễn để giảm nguy cơ đau ngón tay.",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng đau ngón tay có thể bao gồm: Đau nhức hoặc đau âm ỉ: Cảm giác đau có thể xảy ra liên tục hoặc theo cơn. Sưng: Ngón tay có thể bị sưng lên, gây cảm giác khó chịu và hạn chế cử động. Tê bì hoặc ngứa ran: Cảm giác tê bì hoặc ngứa ran có thể xảy ra ở ngón tay hoặc các khu vực lân cận. Cứng ngón tay: Ngón tay có thể cảm thấy cứng và khó cử động, đặc biệt vào buổi sáng. Đỏ hoặc ấm: Da xung quanh ngón tay có thể đỏ hoặc ấm do viêm nhiễm. Hạn chế cử động: Khó khăn khi thực hiện các hoạt động cần sự linh hoạt của ngón tay, như cầm nắm hoặc gõ phím.",
+      "Phòng ngừa bệnh Để phòng ngừa đau ngón tay, bạn có thể thực hiện các biện pháp sau: Chọn tư thế và kỹ thuật làm việc đúng cách: Sử dụng thiết bị hỗ trợ và điều chỉnh tư thế khi làm việc với máy tính hoặc thiết bị điện tử. Nghỉ ngơi và giảm căng thẳng: Đảm bảo nghỉ ngơi đầy đủ và giảm áp lực lên ngón tay bằng cách thay đổi hoạt động và thực hiện các bài tập giãn cơ. Sử dụng bảo hộ: Mang găng tay hoặc thiết bị bảo hộ khi làm việc với các công cụ hoặc máy móc để tránh chấn thương. Duy trì sức khỏe khớp: Ăn uống lành mạnh và thực hiện các bài tập thể dục để duy trì sức khỏe của các khớp và cơ bắp. Điều trị kịp thời các bệnh lý: Quản lý và điều trị sớm các bệnh lý khớp hoặc bệnh lý tự miễn để giảm nguy cơ đau ngón tay."
+    ],
+    "rubric": {
+      "case_id": "S4-038",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau ngón tay"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-ngon-tay.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau ngón tay; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau thắt lưng, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Đau thắt lưng có thể biểu hiện ở mỗi người một cách khác nhau, tùy thuộc vào nguyên nhân và mức độ của tình trạng này. Dưới đây là một số triệu chứng thường gặp: Đau mỏi vùng lưng: Một trong những triệu chứng phổ biến nhất của đau thắt lưng là đau mỏi vùng lưng, thường tập trung ở khu vực thắt lưng và có thể kéo dài hoặc xuất hiện theo từng cơn. Đau có thể xảy ra đột ngột và với cường độ cao, thường xảy ra sau một hoạt động nào đó. Đau nhức khi vận động: Triệu chứng đau thắt lưng thường gia tăng khi người bệnh vận động nặng, đặc biệt là khi nâng vật nặng hoặc hoạt động với cường độ cao. Đau khi thay đổi tư thế: Người bị đau thắt lưng cũng có thể bị đau khi thay đổi tư thế vận động đứng hoặc ngồi. Chẹp lưng, khom người, hoặc nghiêng người có thể là biểu hiện của tình trạng này. Định hướng xử trí: Phòng ngừa bệnh Để ngăn ngừa đau thắt lưng bạn có thể tham khảo một vài điều dưới đây: Khi nâng đồ vật, cần dang rộng 2 chân; ngồi xổm xuống ở tư thế gập khớp gối và khớp háng, cột sống không cúi gập; sau đó dùng tay bê đồ vật vào sát bụng đồng thời căng cơ bụng; từ từ đứng dậy và nâng đồ vật lên. Phân bổ thời gian nghỉ ngơi và làm việc hợp lý, tránh căng thẳng hoặc stress liên tục. Những người làm công việc văn phòng cần chọn ghế ngồi có chiều cao phù hợp (đảm bảo hai bàn chân thoải mái chạm sát vào sàn), cứ sau 1 – 2 giờ nên đứng lên vận động, thực hiện vài động tác nhẹ nhàng để cột sống thắt lưng được thư giãn. Mỗi người nên dành ít nhất 30 phút mỗi ngày để luyện tập thể dục thể thao. Kiểm soát cân nặng của mình để tránh bị thừa cân, tạo nên áp lực cho cột sống lưng.",
+    "reference_contexts": [
+      "Triệu chứng Đau thắt lưng có thể biểu hiện ở mỗi người một cách khác nhau, tùy thuộc vào nguyên nhân và mức độ của tình trạng này. Dưới đây là một số triệu chứng thường gặp: Đau mỏi vùng lưng: Một trong những triệu chứng phổ biến nhất của đau thắt lưng là đau mỏi vùng lưng, thường tập trung ở khu vực thắt lưng và có thể kéo dài hoặc xuất hiện theo từng cơn. Đau có thể xảy ra đột ngột và với cường độ cao, thường xảy ra sau một hoạt động nào đó. Đau nhức khi vận động: Triệu chứng đau thắt lưng thường gia tăng khi người bệnh vận động nặng, đặc biệt là khi nâng vật nặng hoặc hoạt động với cường độ cao. Đau khi thay đổi tư thế: Người bị đau thắt lưng cũng có thể bị đau khi thay đổi tư thế vận động đứng hoặc ngồi. Chẹp lưng, khom người, hoặc nghiêng người có thể là biểu hiện của tình trạng này.",
+      "Phòng ngừa bệnh Để ngăn ngừa đau thắt lưng bạn có thể tham khảo một vài điều dưới đây: Khi nâng đồ vật, cần dang rộng 2 chân; ngồi xổm xuống ở tư thế gập khớp gối và khớp háng, cột sống không cúi gập; sau đó dùng tay bê đồ vật vào sát bụng đồng thời căng cơ bụng; từ từ đứng dậy và nâng đồ vật lên. Phân bổ thời gian nghỉ ngơi và làm việc hợp lý, tránh căng thẳng hoặc stress liên tục. Những người làm công việc văn phòng cần chọn ghế ngồi có chiều cao phù hợp (đảm bảo hai bàn chân thoải mái chạm sát vào sàn), cứ sau 1 – 2 giờ nên đứng lên vận động, thực hiện vài động tác nhẹ nhàng để cột sống thắt lưng được thư giãn. Mỗi người nên dành ít nhất 30 phút mỗi ngày để luyện tập thể dục thể thao. Kiểm soát cân nặng của mình để tránh bị thừa cân, tạo nên áp lực cho cột sống lưng."
+    ],
+    "rubric": {
+      "case_id": "S4-039",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau thắt lưng"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-that-lung.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau thắt lưng; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau vùng thắt lưng, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Đau thắt lưng hay hội chứng đau cột sống thắt lưng mô tả những cơn đau ở vị trí ⅓ dưới lưng nằm giữa 2 gai mào chậu, ở chính giữa cột sống thắt lưng hay ở 2 bên cột sống thắt lưng với biểu hiện như sau: Mọi cử động hắt hơi, ho hoặc thay đổi tư thế đều dẫn đến cơn đau. Mức độ đau tăng dần khi vận động nhiều hoặc khi thay đổi thời tiết. Cơn đau có thể dữ dội trong thời gian ngắn hoặc kéo dài vài ngày, vài tuần. Ngoài cảm giác đau, người bệnh còn có triệu chứng nhức buốt vùng thắt lưng. Viêm hoặc sưng ở lưng, sốt. Đau tê lan xuống hông, xuống chân. Tiểu tiện không tự chủ. Định hướng xử trí: Phòng ngừa bệnh Để không bị cơn đau thắt lưng dưới “hành hạ”, mỗi người, kể cả người trẻ nên tự học cho mình cách phòng ngừa đau thắt lưng dưới, cụ thể: Ngồi đúng tư thế, nên dùng loại ghế thích hợp cho công việc hoặc phù hợp với tư thế ngồi của lưng, khớp, có thể kê thêm gối phía sau để dựa cho thoải mái. Hãy ngồi ở tư thế sao cho đầu gối ngang bằng với mức hông. Không nên ngồi ở cùng một vị trí trong một khoảng thời gian dài. Nên đứng dậy, đi lại và vận động các cơ để thư giãn. Thường xuyên thay đổi tư thế làm việc, thực hiện những động tác vươn vai giữa giờ là phương pháp thư giãn, luyện tập có tác dụng tích cực trong việc phòng ngừa đau thắt lưng. Tránh thay đổi tư thế đột ngột, nên thực hiện từ từ.",
+    "reference_contexts": [
+      "Triệu chứng Đau thắt lưng hay hội chứng đau cột sống thắt lưng mô tả những cơn đau ở vị trí ⅓ dưới lưng nằm giữa 2 gai mào chậu, ở chính giữa cột sống thắt lưng hay ở 2 bên cột sống thắt lưng với biểu hiện như sau: Mọi cử động hắt hơi, ho hoặc thay đổi tư thế đều dẫn đến cơn đau. Mức độ đau tăng dần khi vận động nhiều hoặc khi thay đổi thời tiết. Cơn đau có thể dữ dội trong thời gian ngắn hoặc kéo dài vài ngày, vài tuần. Ngoài cảm giác đau, người bệnh còn có triệu chứng nhức buốt vùng thắt lưng. Viêm hoặc sưng ở lưng, sốt. Đau tê lan xuống hông, xuống chân. Tiểu tiện không tự chủ.",
+      "Phòng ngừa bệnh Để không bị cơn đau thắt lưng dưới “hành hạ”, mỗi người, kể cả người trẻ nên tự học cho mình cách phòng ngừa đau thắt lưng dưới, cụ thể: Ngồi đúng tư thế, nên dùng loại ghế thích hợp cho công việc hoặc phù hợp với tư thế ngồi của lưng, khớp, có thể kê thêm gối phía sau để dựa cho thoải mái. Hãy ngồi ở tư thế sao cho đầu gối ngang bằng với mức hông. Không nên ngồi ở cùng một vị trí trong một khoảng thời gian dài. Nên đứng dậy, đi lại và vận động các cơ để thư giãn. Thường xuyên thay đổi tư thế làm việc, thực hiện những động tác vươn vai giữa giờ là phương pháp thư giãn, luyện tập có tác dụng tích cực trong việc phòng ngừa đau thắt lưng. Tránh thay đổi tư thế đột ngột, nên thực hiện từ từ."
+    ],
+    "rubric": {
+      "case_id": "S4-040",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau vùng thắt lưng"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-vung-that-lung.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau vùng thắt lưng; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau xương chậu, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng đau xương chậu Thông thường, cơn đau xảy ra ở phần thấp nhất của bụng, giữa xương hông. Cơn đau có thể buốt nhói, liên tục, hoặc giống như chuột rút (như triệu chứng chuột rút trong chu kỳ kinh nguyệt) và đôi khi còn tăng dần cường độ đau hoặc xảy ra theo từng đợt. Bạn có thể bị đau đột ngột và dữ dội, hoặc đau âm ỉ nhưng liên tục, hoặc cả hai. Thông thường, cơn đau thường xuất hiện theo chu kỳ, xảy ra cùng với chu kỳ kinh nguyệt hoặc trong quá trình rụng trứng. Vùng xương chậu có thể cảm thấy đau khi chạm vào. Cơn đau có thể kèm theo sốt, buồn nôn, hoặc nôn mửa. Nếu đột nhiên xuất hiện một cơn đau vùng chậu nghiêm trọng, bạn có thể cần đến sự trợ giúp y tế hoặc cấp cứu. Hãy đảm bảo bác sĩ sẽ kiểm tra và khám vùng chậu của bạn. Định hướng xử trí: Phòng ngừa đau xương chậu Không phải lúc nào cũng đề phòng được tình trạng đau xương chậu. Việc quan trọng là bạn không thể tự chẩn đoán nguyên nhân gây đau xương chậu của mình, nên cần thiết nhận biết sớm các triệu chứng và đến gặp bác sĩ để được chẩn đoán và điều trị phù hợp, tránh các biến chứng nguy hiểm. Một vài nguyên nhân có thể đề phòng được như bệnh lây nhiễm qua đường tình dục, hãy thực hiện quan hệ tình dục an toàn bằng cách sử dụng bao cao su để phòng ngừa bệnh lậu và chlamydia.",
+    "reference_contexts": [
+      "Triệu chứng đau xương chậu Thông thường, cơn đau xảy ra ở phần thấp nhất của bụng, giữa xương hông. Cơn đau có thể buốt nhói, liên tục, hoặc giống như chuột rút (như triệu chứng chuột rút trong chu kỳ kinh nguyệt) và đôi khi còn tăng dần cường độ đau hoặc xảy ra theo từng đợt. Bạn có thể bị đau đột ngột và dữ dội, hoặc đau âm ỉ nhưng liên tục, hoặc cả hai. Thông thường, cơn đau thường xuất hiện theo chu kỳ, xảy ra cùng với chu kỳ kinh nguyệt hoặc trong quá trình rụng trứng. Vùng xương chậu có thể cảm thấy đau khi chạm vào. Cơn đau có thể kèm theo sốt, buồn nôn, hoặc nôn mửa. Nếu đột nhiên xuất hiện một cơn đau vùng chậu nghiêm trọng, bạn có thể cần đến sự trợ giúp y tế hoặc cấp cứu. Hãy đảm bảo bác sĩ sẽ kiểm tra và khám vùng chậu của bạn.",
+      "Phòng ngừa đau xương chậu Không phải lúc nào cũng đề phòng được tình trạng đau xương chậu. Việc quan trọng là bạn không thể tự chẩn đoán nguyên nhân gây đau xương chậu của mình, nên cần thiết nhận biết sớm các triệu chứng và đến gặp bác sĩ để được chẩn đoán và điều trị phù hợp, tránh các biến chứng nguy hiểm. Một vài nguyên nhân có thể đề phòng được như bệnh lây nhiễm qua đường tình dục, hãy thực hiện quan hệ tình dục an toàn bằng cách sử dụng bao cao su để phòng ngừa bệnh lậu và chlamydia."
+    ],
+    "rubric": {
+      "case_id": "S4-041",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau xương chậu"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-xuong-chau.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau xương chậu; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Đau xương cụt, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng đau xương cụt Chuyên gia cho biết, đau xương cụt là triệu chứng không quá nguy hiểm và có thể cải thiện chỉ trong vài tuần hoặc vài tháng. Nhưng nếu tình trạng đau nhức diễn ra kéo dài sẽ gây ảnh hưởng nghiêm trọng đến chất lượng cuộc sống hàng ngày. Dưới đây là một số dấu hiệu nhận biết tình trạng đau xương cụt bạn có thể tham khảo: Xuất hiện cơn đau nhức hoặc đau nhói ở vùng xương gần mông hoặc hông. Cơn đau có tính chất âm ỉ hoặc đau nhói như điện giật, đau nhói thường xảy ra khi có va chạm hoặc khi vận động Cơn đau nhức tại xương cụt sẽ trở nên nặng hơn khi người bệnh thực hiện một số vận động như ngồi xuống, đứng lên, đi đại tiện, quan hệ tình dục,… Nếu bạn nghỉ ngơi, cơn đau sẽ thuyên giảm đáng kể. Định hướng xử trí: Để phòng ngừa đau xương cụt, bạn cần lưu ý: Nên vận động thường xuyên. Đặc biệt nếu là dân văn phòng, bạn cần có thời gian nghỉ ngơi để tránh tạo áp lực cho xương cụt. Giữ cân nặng ở mức ổn định, tránh tăng cân quá mức. Đến gặp bác sĩ ngay để kiểm tra nếu bản thân vừa bị chấn thương. Bổ sung những thực phẩm tốt cho xương để hạn chế tình trạng thoái hóa xương khớp. Đau xương cụt có thể là tình trạng thoáng qua, có thể tự khỏi nhưng cũng có nguy cơ xuất hiện dai dẳng, khiến người bệnh thường xuyên bị cơn đau hành hạ. Vì thế để tránh tình trạng ngày càng trầm trọng hơn, người bệnh nên đến các cơ sở y tế càng sớm càng tốt khi cảm thấy đau vùng mông gần xương cụt.",
+    "reference_contexts": [
+      "Triệu chứng đau xương cụt Chuyên gia cho biết, đau xương cụt là triệu chứng không quá nguy hiểm và có thể cải thiện chỉ trong vài tuần hoặc vài tháng. Nhưng nếu tình trạng đau nhức diễn ra kéo dài sẽ gây ảnh hưởng nghiêm trọng đến chất lượng cuộc sống hàng ngày. Dưới đây là một số dấu hiệu nhận biết tình trạng đau xương cụt bạn có thể tham khảo: Xuất hiện cơn đau nhức hoặc đau nhói ở vùng xương gần mông hoặc hông. Cơn đau có tính chất âm ỉ hoặc đau nhói như điện giật, đau nhói thường xảy ra khi có va chạm hoặc khi vận động Cơn đau nhức tại xương cụt sẽ trở nên nặng hơn khi người bệnh thực hiện một số vận động như ngồi xuống, đứng lên, đi đại tiện, quan hệ tình dục,… Nếu bạn nghỉ ngơi, cơn đau sẽ thuyên giảm đáng kể.",
+      "Để phòng ngừa đau xương cụt, bạn cần lưu ý: Nên vận động thường xuyên. Đặc biệt nếu là dân văn phòng, bạn cần có thời gian nghỉ ngơi để tránh tạo áp lực cho xương cụt. Giữ cân nặng ở mức ổn định, tránh tăng cân quá mức. Đến gặp bác sĩ ngay để kiểm tra nếu bản thân vừa bị chấn thương. Bổ sung những thực phẩm tốt cho xương để hạn chế tình trạng thoái hóa xương khớp. Đau xương cụt có thể là tình trạng thoáng qua, có thể tự khỏi nhưng cũng có nguy cơ xuất hiện dai dẳng, khiến người bệnh thường xuyên bị cơn đau hành hạ. Vì thế để tránh tình trạng ngày càng trầm trọng hơn, người bệnh nên đến các cơ sở y tế càng sớm càng tốt khi cảm thấy đau vùng mông gần xương cụt."
+    ],
+    "rubric": {
+      "case_id": "S4-042",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau xương cụt"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-xuong-cut.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau xương cụt; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đau xương khớp là gì? Những điều cần biết về đau xương khớp, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Đau nhức xương khớp là cảm giác đau nhức, khó chịu phát sinh từ bất kỳ khớp xương nào trên cơ thể. Ngoài những cơn đau, người bệnh còn có thể thấy khớp sưng tấy, nóng, đỏ khiến cho việc cử động, đi lại, làm việc trở nên khó khăn. Đau nhức xương khớp có thể chỉ ảnh hưởng đến một khớp hoặc nhiều khớp cùng một lúc. Vị trí đau và mức độ cơn đau sẽ phụ thuộc vào nguyên nhân bệnh lý mà người bệnh gặp phải. Các khớp thường bị đau nhức là những khớp động và bán động có phạm vi chuyển động rộng và tần suất cử động liên tục như: khớp vai, khớp gối, khớp háng, khớp cổ tay, khớp ngón tay và ngón chân, cột sống. Định hướng xử trí: Phòng ngừa bệnh Để không tạo điều kiện cho các bệnh nguy hiểm về xương khớp phát triển, mỗi người dù già hay trẻ cũng nên có ý thức về việc phòng bệnh, bởi phòng bệnh vẫn hơn chữa bệnh. Luyện tập thể dục, hoạt động chân tay liên tục giúp cơ bắp và xương khỏe mạnh hơn: Đi bơi, đạp xe đạp, đi bộ, dưỡng sinh… Tập tư thế tốt nhất cho các khớp xương chính là đứng thẳng, tránh nằm lâu, leo cầu thang, ngồi lâu, đứng lâu một chỗ gây ứ trệ tuần hoàn máu và cứng khớp. Ngồi làm việc phải giữ thẳng lưng, không ngồi xổm… Bên cạnh đó, bạn hãy hạn chế luyện tập cường độ mạnh, tránh tăng cân nhiều với tốc độ nhanh và luôn biết tận dụng vitamin D trong nắng sớm. Có chế độ ăn, uống bổ sung canxi và vitamin D phù hợp.",
+    "reference_contexts": [
+      "Triệu chứng Đau nhức xương khớp là cảm giác đau nhức, khó chịu phát sinh từ bất kỳ khớp xương nào trên cơ thể. Ngoài những cơn đau, người bệnh còn có thể thấy khớp sưng tấy, nóng, đỏ khiến cho việc cử động, đi lại, làm việc trở nên khó khăn. Đau nhức xương khớp có thể chỉ ảnh hưởng đến một khớp hoặc nhiều khớp cùng một lúc. Vị trí đau và mức độ cơn đau sẽ phụ thuộc vào nguyên nhân bệnh lý mà người bệnh gặp phải. Các khớp thường bị đau nhức là những khớp động và bán động có phạm vi chuyển động rộng và tần suất cử động liên tục như: khớp vai, khớp gối, khớp háng, khớp cổ tay, khớp ngón tay và ngón chân, cột sống.",
+      "Phòng ngừa bệnh Để không tạo điều kiện cho các bệnh nguy hiểm về xương khớp phát triển, mỗi người dù già hay trẻ cũng nên có ý thức về việc phòng bệnh, bởi phòng bệnh vẫn hơn chữa bệnh. Luyện tập thể dục, hoạt động chân tay liên tục giúp cơ bắp và xương khỏe mạnh hơn: Đi bơi, đạp xe đạp, đi bộ, dưỡng sinh… Tập tư thế tốt nhất cho các khớp xương chính là đứng thẳng, tránh nằm lâu, leo cầu thang, ngồi lâu, đứng lâu một chỗ gây ứ trệ tuần hoàn máu và cứng khớp. Ngồi làm việc phải giữ thẳng lưng, không ngồi xổm… Bên cạnh đó, bạn hãy hạn chế luyện tập cường độ mạnh, tránh tăng cân nhiều với tốc độ nhanh và luôn biết tận dụng vitamin D trong nắng sớm. Có chế độ ăn, uống bổ sung canxi và vitamin D phù hợp."
+    ],
+    "rubric": {
+      "case_id": "S4-043",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đau xương khớp là gì? Những điều cần biết về đau xương khớp"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dau-xuong-khop.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đau xương khớp là gì? Những điều cần biết về đau xương khớp; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Dị cảm, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Các triệu chứng dị cảm hoặc dây thần kinh bị chèn ép bao gồm: Ngứa ran hoặc cảm giác “kim châm” Đau hoặc nóng rát Tê hoặc cảm giác kém ở khu vực bị ảnh hưởng Cảm thấy khu vực bị ảnh hưởng mất cảm giác Châm chích hoặc cảm giác ngứa Da nóng hoặc lạnh. Định hướng xử trí: Phòng ngừa bệnh Nếu công việc của bạn là những việc chủ yếu phải sử dụng tay chân và lập đi lập lại thì cứ sau mỗi tiếng đồng hồ, bạn nên nghỉ ngơi khoảng từ 5 đến 10 phút bằng cách co duỗi chân tay hoặc đi bộ. Nếu công việc yêu cầu bạn phải đứng thì cũng sau 1 tiếng, bạn nên đi bộ hoặc co duỗi chân tay trong vài phút vì ngoài. Nếu nghiện thuốc lá thì bạn cần tập thói quen kéo dài thời gian hút giữa điếu thuốc này và điếu kia rồi tiến tới bỏ hẳn. Hạn chế tối đa uống rượu, bia, duy trì chế độ ăn lành mạnh, ăn uống đúng giờ. Tăng cường các thực phẩm chứa vitamin và khoáng chất có trong thịt, cá, các loại ngũ cốc, trái cây, rau xanh,… Hạn chế sử dụng các loại thức ăn nhiều dầu mỡ hoặc quá ngọt, quá mặn…",
+    "reference_contexts": [
+      "Triệu chứng Các triệu chứng dị cảm hoặc dây thần kinh bị chèn ép bao gồm: Ngứa ran hoặc cảm giác “kim châm” Đau hoặc nóng rát Tê hoặc cảm giác kém ở khu vực bị ảnh hưởng Cảm thấy khu vực bị ảnh hưởng mất cảm giác Châm chích hoặc cảm giác ngứa Da nóng hoặc lạnh.",
+      "Phòng ngừa bệnh Nếu công việc của bạn là những việc chủ yếu phải sử dụng tay chân và lập đi lập lại thì cứ sau mỗi tiếng đồng hồ, bạn nên nghỉ ngơi khoảng từ 5 đến 10 phút bằng cách co duỗi chân tay hoặc đi bộ. Nếu công việc yêu cầu bạn phải đứng thì cũng sau 1 tiếng, bạn nên đi bộ hoặc co duỗi chân tay trong vài phút vì ngoài. Nếu nghiện thuốc lá thì bạn cần tập thói quen kéo dài thời gian hút giữa điếu thuốc này và điếu kia rồi tiến tới bỏ hẳn. Hạn chế tối đa uống rượu, bia, duy trì chế độ ăn lành mạnh, ăn uống đúng giờ. Tăng cường các thực phẩm chứa vitamin và khoáng chất có trong thịt, cá, các loại ngũ cốc, trái cây, rau xanh,… Hạn chế sử dụng các loại thức ăn nhiều dầu mỡ hoặc quá ngọt, quá mặn…"
+    ],
+    "rubric": {
+      "case_id": "S4-044",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Dị cảm"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/di-cam.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Dị cảm; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đĩa đệm mất nước, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng bệnh Ở thời điểm mới khởi phát, triệu chứng có thể là một vài cơn đau nhẹ âm ỉ, không đau nhói nên nhiều người bệnh thường chủ quan không thăm khám. Theo thời gian, khi đĩa đệm bị mỏng dần, người bệnh sẽ bị cứng ở lưng, gây nhiều khó khăn khi vận động. Tới giai đoạn đĩa đệm quá mỏng, xương sẽ chèn ép lên những dây thần kinh, gây đau ở lưng và cổ, thậm chí có thể đau xuống tay, chân và bàn chân. Phần lớn người bệnh mất nước đĩa đệm sẽ có các triệu chứng như: Đau âm ỉ hoặc dữ dội tại vùng cột sống cổ hoặc cột sống lưng. Đau tăng khi cử động như cúi người, đứng lên ngồi xuống…; khi di chuyển mạnh hay lan tới những bộ phận khác như tay, vai, hông, mông, bắp đùi. Suy yếu cơ, bị ngứa ran và tê tứ chi. Định hướng xử trí: Phòng ngừa đĩa đệm mất nước Các biện pháp phòng ngừa thoát vị đĩa đệm có thể thực hiện như sau: Tập luyện thể dục thể thao bằng các môn thể thao vừa sức, tăng độ dẻo dai của các cơ cạnh cột sống như bơi lội, đạp xe đạp. Điều này có thể giúp làm ổn định cột sống, giảm nguy cơ tổn thương đĩa đệm Không mang vác, vận động quá sức hoặc sai tư thế Duy trì cân nặng phù hợp với chiều cao, tránh duy trì áp lực quá nặng lên cột sống.",
+    "reference_contexts": [
+      "Triệu chứng bệnh Ở thời điểm mới khởi phát, triệu chứng có thể là một vài cơn đau nhẹ âm ỉ, không đau nhói nên nhiều người bệnh thường chủ quan không thăm khám. Theo thời gian, khi đĩa đệm bị mỏng dần, người bệnh sẽ bị cứng ở lưng, gây nhiều khó khăn khi vận động. Tới giai đoạn đĩa đệm quá mỏng, xương sẽ chèn ép lên những dây thần kinh, gây đau ở lưng và cổ, thậm chí có thể đau xuống tay, chân và bàn chân. Phần lớn người bệnh mất nước đĩa đệm sẽ có các triệu chứng như: Đau âm ỉ hoặc dữ dội tại vùng cột sống cổ hoặc cột sống lưng. Đau tăng khi cử động như cúi người, đứng lên ngồi xuống…; khi di chuyển mạnh hay lan tới những bộ phận khác như tay, vai, hông, mông, bắp đùi. Suy yếu cơ, bị ngứa ran và tê tứ chi.",
+      "Phòng ngừa đĩa đệm mất nước Các biện pháp phòng ngừa thoát vị đĩa đệm có thể thực hiện như sau: Tập luyện thể dục thể thao bằng các môn thể thao vừa sức, tăng độ dẻo dai của các cơ cạnh cột sống như bơi lội, đạp xe đạp. Điều này có thể giúp làm ổn định cột sống, giảm nguy cơ tổn thương đĩa đệm Không mang vác, vận động quá sức hoặc sai tư thế Duy trì cân nặng phù hợp với chiều cao, tránh duy trì áp lực quá nặng lên cột sống."
+    ],
+    "rubric": {
+      "case_id": "S4-045",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đĩa đệm mất nước"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dia-dem-mat-nuoc.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đĩa đệm mất nước; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Hội chứng đường hầm cổ tay, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng lâm sàng của hội chứng ống cổ tay Rối loạn cảm giác: tê, dị cảm, đau buốt như kim châm hoặc rát bỏng vùng da từ ống cổ tay đến ngón cái, ngón trỏ, ngón giữa và nửa ngón nhẫn, chủ yếu về đêm. Đôi lúc đau lan lên cẳng tay, cánh tay và vai. Rối loạn vận động: xuất hiện khi bệnh đã nặng. Biểu hiện mất gấp ngón cái ngón trỏ và ngón giữa, người bệnh không thực hiện được động tác đối chiếu ngón cái với các ngón khác, muộn hơn có thể thấy teo cơ mô cái. Định hướng xử trí: Phòng ngừa bệnh Mặc dù không có cách nào để phòng chống hội chứng đường hầm cổ tay, tuy nhiên sau đây là những phương pháp giúp bạn phần nào hạn chế được nguy cơ mắc hội chứng này: Khi thực hiện các động tác lặp đi lặp lại như viết chữ, đánh máy quá lâu, bạn nên nghỉ giải lao một vài phút để tay được nghỉ ngơi Không nên làm các động tác gập tay, bẻ cổ tay quá mức, hãy để cổ tay thả lỏng một cách thoải mái và tự nhiên nhất. Duy trì tư thế đúng, đặc biệt tránh tình trạng vai đẩy về phía trước, cổ và cơ vai rụt lại gây chèn ép dây thần kinh ở cổ, điều này sẽ làm ảnh hưởng đến cổ tay và ngón tay. Khám sức khỏe định kỳ và điều trị kịp thời các bệnh nền có thể gây ra hội chứng đường hầm cổ tay",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng lâm sàng của hội chứng ống cổ tay Rối loạn cảm giác: tê, dị cảm, đau buốt như kim châm hoặc rát bỏng vùng da từ ống cổ tay đến ngón cái, ngón trỏ, ngón giữa và nửa ngón nhẫn, chủ yếu về đêm. Đôi lúc đau lan lên cẳng tay, cánh tay và vai. Rối loạn vận động: xuất hiện khi bệnh đã nặng. Biểu hiện mất gấp ngón cái ngón trỏ và ngón giữa, người bệnh không thực hiện được động tác đối chiếu ngón cái với các ngón khác, muộn hơn có thể thấy teo cơ mô cái.",
+      "Phòng ngừa bệnh Mặc dù không có cách nào để phòng chống hội chứng đường hầm cổ tay, tuy nhiên sau đây là những phương pháp giúp bạn phần nào hạn chế được nguy cơ mắc hội chứng này: Khi thực hiện các động tác lặp đi lặp lại như viết chữ, đánh máy quá lâu, bạn nên nghỉ giải lao một vài phút để tay được nghỉ ngơi Không nên làm các động tác gập tay, bẻ cổ tay quá mức, hãy để cổ tay thả lỏng một cách thoải mái và tự nhiên nhất. Duy trì tư thế đúng, đặc biệt tránh tình trạng vai đẩy về phía trước, cổ và cơ vai rụt lại gây chèn ép dây thần kinh ở cổ, điều này sẽ làm ảnh hưởng đến cổ tay và ngón tay. Khám sức khỏe định kỳ và điều trị kịp thời các bệnh nền có thể gây ra hội chứng đường hầm cổ tay"
+    ],
+    "rubric": {
+      "case_id": "S4-046",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Hội chứng đường hầm cổ tay"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/duong-ham-co-tay.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Hội chứng đường hầm cổ tay; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Đứt dây chằng, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng đứt dây chằng Khi dây chằng bị đứt, bạn có thể gặp các triệu chứng sau: Âm thanh tương tự tiếng nứt hoặc tiếng nổ nhỏ; Bầm tím, sưng và đau, đặc biệt khi có áp lực lên khớp; Vết lõm ở khớp nơi dây chằng bị rách; Co thắt cơ; Khả năng vận động suy giảm, dẫn đến tình trạng khớp lỏng lẻo hoặc không thể cử động như bình thường. Định hướng xử trí: Phòng ngừa đứt dây chằng Để phòng ngừa chấn thương bạn cần lưu ý: Khởi động đúng cách trước khi chơi thể thao để làm nóng cơ bắp, các khớp cũng như tăng lưu thông máu, giúp hạn chế chấn thương. Ngừng tập luyện nếu bạn thấy cơ thể mệt mỏi: Cảm giác uể oải rã rời chính là cách cơ bắp “phản ứng” lại vì phải hoạt động quá sức. Do đó, chỉ khi nào bạn hoàn toàn khỏe khoắn và sẵn sàng cho buổi tập luyện thì hãy ra sân.",
+    "reference_contexts": [
+      "Triệu chứng đứt dây chằng Khi dây chằng bị đứt, bạn có thể gặp các triệu chứng sau: Âm thanh tương tự tiếng nứt hoặc tiếng nổ nhỏ; Bầm tím, sưng và đau, đặc biệt khi có áp lực lên khớp; Vết lõm ở khớp nơi dây chằng bị rách; Co thắt cơ; Khả năng vận động suy giảm, dẫn đến tình trạng khớp lỏng lẻo hoặc không thể cử động như bình thường.",
+      "Phòng ngừa đứt dây chằng Để phòng ngừa chấn thương bạn cần lưu ý: Khởi động đúng cách trước khi chơi thể thao để làm nóng cơ bắp, các khớp cũng như tăng lưu thông máu, giúp hạn chế chấn thương. Ngừng tập luyện nếu bạn thấy cơ thể mệt mỏi: Cảm giác uể oải rã rời chính là cách cơ bắp “phản ứng” lại vì phải hoạt động quá sức. Do đó, chỉ khi nào bạn hoàn toàn khỏe khoắn và sẵn sàng cho buổi tập luyện thì hãy ra sân."
+    ],
+    "rubric": {
+      "case_id": "S4-047",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Đứt dây chằng"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/dut-day-chang.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Đứt dây chằng; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Gai cột sống, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng Các triệu chứng gai cột sống biểu hiện rõ nét nhất là khi xương cột sống bắt đầu gây chèn ép lên dây thần kinh cột sống. Các triệu chứng của gai cột sống có thể khác nhau tùy thuộc vào vị trí và mức độ nghiêm trọng của bệnh. Một số triệu chứng thường gặp bao gồm: Đau nhức: Đau là triệu chứng phổ biến nhất, có thể xuất hiện ở cổ, lưng hoặc vùng thắt lưng. Cơn đau có thể tăng lên khi vận động và giảm khi nghỉ ngơi. Tê bì: Cảm giác tê bì hoặc mất cảm giác ở các chi, do gai xương chèn ép lên dây thần kinh. Giảm linh hoạt: Khả năng di chuyển của cột sống bị hạn chế, gây khó khăn trong các hoạt động hàng ngày như cúi, ngửa, xoay người. Yếu cơ: Gai xương có thể chèn ép lên các dây thần kinh, gây ra yếu cơ ở tay hoặc chân. Định hướng xử trí: Phòng ngừa bệnh Mặc dù bệnh gai cột sống không chữa khỏi hoàn toàn được, tuy nhiên chúng ta vẫn có thể phòng bệnh một cách hiệu quả hoặc để tình trạng không tăng nặng thêm. Muốn phòng bệnh cần lưu ý: Hạn chế làm việc quá sức: Với những người thường xuyên phải làm việc nặng như khuân vác, phụ hồ,… cần phải vận động đúng tư thế và hạn chế làm việc nặng để tránh nguy cơ bị gai cột sống. Đặc biệt, đối với các chị em dân văn phòng nên tránh ngồi yên một chỗ, cần vận động liên tục, không cúi quá thấp xuống mặt bàn khiến lưng bị gù. Duy trì cân nặng hợp lý: Giúp giảm trọng lượng cơ thể từ đó giảm áp lực lên cột sống.",
+    "reference_contexts": [
+      "Triệu chứng Các triệu chứng gai cột sống biểu hiện rõ nét nhất là khi xương cột sống bắt đầu gây chèn ép lên dây thần kinh cột sống. Các triệu chứng của gai cột sống có thể khác nhau tùy thuộc vào vị trí và mức độ nghiêm trọng của bệnh. Một số triệu chứng thường gặp bao gồm: Đau nhức: Đau là triệu chứng phổ biến nhất, có thể xuất hiện ở cổ, lưng hoặc vùng thắt lưng. Cơn đau có thể tăng lên khi vận động và giảm khi nghỉ ngơi. Tê bì: Cảm giác tê bì hoặc mất cảm giác ở các chi, do gai xương chèn ép lên dây thần kinh. Giảm linh hoạt: Khả năng di chuyển của cột sống bị hạn chế, gây khó khăn trong các hoạt động hàng ngày như cúi, ngửa, xoay người. Yếu cơ: Gai xương có thể chèn ép lên các dây thần kinh, gây ra yếu cơ ở tay hoặc chân.",
+      "Phòng ngừa bệnh Mặc dù bệnh gai cột sống không chữa khỏi hoàn toàn được, tuy nhiên chúng ta vẫn có thể phòng bệnh một cách hiệu quả hoặc để tình trạng không tăng nặng thêm. Muốn phòng bệnh cần lưu ý: Hạn chế làm việc quá sức: Với những người thường xuyên phải làm việc nặng như khuân vác, phụ hồ,… cần phải vận động đúng tư thế và hạn chế làm việc nặng để tránh nguy cơ bị gai cột sống. Đặc biệt, đối với các chị em dân văn phòng nên tránh ngồi yên một chỗ, cần vận động liên tục, không cúi quá thấp xuống mặt bàn khiến lưng bị gù. Duy trì cân nặng hợp lý: Giúp giảm trọng lượng cơ thể từ đó giảm áp lực lên cột sống."
+    ],
+    "rubric": {
+      "case_id": "S4-048",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Gai cột sống"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/gai-cot-song.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Gai cột sống; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Tôi có dấu hiệu nghi liên quan đến Gai khớp gối, nên xử trí ban đầu như thế nào?",
+    "reference": "Triệu chứng: Triệu chứng Triệu chứng của gai xương khớp gối có thể biến đổi tùy thuộc vào mức độ phát triển của gai. Dưới đây là một số biểu hiện phổ biến: Đau khi vận động: Đau và nhức đầu gối là triệu chứng thường gặp ở những người có vấn để về khớp gối, trong đó có sự xuất hiện của gai xương. Cơn đau thường trở nặng khi người bệnh thực hiện các động tác tăng áp lực lên đầu gối, như ngồi xổm, đứng lâu, co và duỗi chân, hay lên xuống cầu thang. Để giảm triệu chứng này, có thể áp dụng biện pháp chườm lạnh và duy trì thói quen vận động cản đối. Sưng vùng đầu gối: Khi các gai xương hình thành nhiều và phát triển lớn sẽ dẫn đến tình trạng tràn dịch khớp gối. Từ đó khiến khớp gối bị sưng tấy, phù nề gây khó khăn trong việc di chuyển, vận động của người bệnh. Định hướng xử trí: Phòng ngừa bệnh Thoái hóa khớp gối là bệnh lý mạn tính không thể ngăn chặn hoàn toàn, mà một khi khớp gối bị thoái hóa, nguy cơ mọc gai xương là rất khó tránh khỏi. Nhưng người bệnh có thể hạn chế sự phát triển của gai xương bằng cách tuân theo một lối sống khoa học: Duy trì cân nặng lý tưởng, hợp lý (BMI < 23): Trọng lượng cơ thể dư thừa sẽ gây thêm áp lực lên đầu gối, góp phần làm mòn sụn. Không nên ngồi quá lâu một chỗ hoặc giữ tư thế ngồi đúng để tránh chèn ép nhiều lên khớp gối Tập thể dục đều đặn với cường độ hợp lý để gia tăng sức khỏe cho khớp đầu gối Khởi động thật kỹ và đúng cách trước khi tập luyện cũng như tránh các chấn thương ảnh hưởng đến khớp gối như gãy xương, trật khớp hay giãn dây chằng gối…",
+    "reference_contexts": [
+      "Triệu chứng Triệu chứng của gai xương khớp gối có thể biến đổi tùy thuộc vào mức độ phát triển của gai. Dưới đây là một số biểu hiện phổ biến: Đau khi vận động: Đau và nhức đầu gối là triệu chứng thường gặp ở những người có vấn để về khớp gối, trong đó có sự xuất hiện của gai xương. Cơn đau thường trở nặng khi người bệnh thực hiện các động tác tăng áp lực lên đầu gối, như ngồi xổm, đứng lâu, co và duỗi chân, hay lên xuống cầu thang. Để giảm triệu chứng này, có thể áp dụng biện pháp chườm lạnh và duy trì thói quen vận động cản đối. Sưng vùng đầu gối: Khi các gai xương hình thành nhiều và phát triển lớn sẽ dẫn đến tình trạng tràn dịch khớp gối. Từ đó khiến khớp gối bị sưng tấy, phù nề gây khó khăn trong việc di chuyển, vận động của người bệnh.",
+      "Phòng ngừa bệnh Thoái hóa khớp gối là bệnh lý mạn tính không thể ngăn chặn hoàn toàn, mà một khi khớp gối bị thoái hóa, nguy cơ mọc gai xương là rất khó tránh khỏi. Nhưng người bệnh có thể hạn chế sự phát triển của gai xương bằng cách tuân theo một lối sống khoa học: Duy trì cân nặng lý tưởng, hợp lý (BMI < 23): Trọng lượng cơ thể dư thừa sẽ gây thêm áp lực lên đầu gối, góp phần làm mòn sụn. Không nên ngồi quá lâu một chỗ hoặc giữ tư thế ngồi đúng để tránh chèn ép nhiều lên khớp gối Tập thể dục đều đặn với cường độ hợp lý để gia tăng sức khỏe cho khớp đầu gối Khởi động thật kỹ và đúng cách trước khi tập luyện cũng như tránh các chấn thương ảnh hưởng đến khớp gối như gãy xương, trật khớp hay giãn dây chằng gối…"
+    ],
+    "rubric": {
+      "case_id": "S4-049",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Gai khớp gối"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/gai-khop-goi.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Gai khớp gối; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  },
+  {
+    "user_input": "Khi gặp triệu chứng của Gai xương, lúc nào nên đi khám và cần làm gì trước?",
+    "reference": "Triệu chứng: Triệu chứng gai xương Ở giai đoạn đầu, mấu gai mới hình thành và không gây ra bất kỳ triệu chứng nào nên chỉ được phát hiện một cách tình cờ khi thực hiện các xét nghiệm hình ảnh để chẩn đoán căn bệnh khác. Một số bệnh nhân bị gai xương có thể nhận thấy các dấu hiệu sau: Đau ở vị trí có mấu xương do gai xương ma sát với phần mềm xung quanh. Người bệnh có thể bị đau nhói, đau âm ỉ hay đau dữ dội. Cảm giác đau tăng mạnh khi vận động và giảm khi nghỉ ngơi. Có cảm giác tê, yếu ở khu vực bị ảnh hưởng. Gai xương có thể chèn ép vào dây thần kinh gây đau nhiều, tê, ngứa ran, yếu liệt các chi hoặc đi lại vận động khó khăn. Định hướng xử trí: Phòng ngừa bệnh gai xương Để giảm thiểu cơn đau và các triệu chứng khó chịu liên quan đến gai xương, người bệnh cần lưu ý: Dành nhiều thời gian nghỉ ngơi trong những ngày bị đau nặng Tránh thực hiện các hoạt động thể chất tác động quá mạnh lên vùng có gai xương Giảm cân có thể giúp giải phóng áp lực cho xương khớp, cột sống và dây thần kinh, đồng thời xoa dịu cơn đau nhờ vào việc giảm áp lực ma sát giữa gai xương với phần mềm xung quanh. Vì vậy, các bệnh nhân đang thừa cân, béo phì nên có kế hoạch giảm cân càng sớm càng tốt. Tuy nhiên, cần có phương pháp giảm cân khoa học, tránh nhịn ăn khiến cơ thể bị thiếu dưỡng chất và làm xương khớp suy yếu. Ngừng hút thuốc lá và kiêng uống các chất kích thích như bia, rượu, cà phê",
+    "reference_contexts": [
+      "Triệu chứng gai xương Ở giai đoạn đầu, mấu gai mới hình thành và không gây ra bất kỳ triệu chứng nào nên chỉ được phát hiện một cách tình cờ khi thực hiện các xét nghiệm hình ảnh để chẩn đoán căn bệnh khác. Một số bệnh nhân bị gai xương có thể nhận thấy các dấu hiệu sau: Đau ở vị trí có mấu xương do gai xương ma sát với phần mềm xung quanh. Người bệnh có thể bị đau nhói, đau âm ỉ hay đau dữ dội. Cảm giác đau tăng mạnh khi vận động và giảm khi nghỉ ngơi. Có cảm giác tê, yếu ở khu vực bị ảnh hưởng. Gai xương có thể chèn ép vào dây thần kinh gây đau nhiều, tê, ngứa ran, yếu liệt các chi hoặc đi lại vận động khó khăn.",
+      "Phòng ngừa bệnh gai xương Để giảm thiểu cơn đau và các triệu chứng khó chịu liên quan đến gai xương, người bệnh cần lưu ý: Dành nhiều thời gian nghỉ ngơi trong những ngày bị đau nặng Tránh thực hiện các hoạt động thể chất tác động quá mạnh lên vùng có gai xương Giảm cân có thể giúp giải phóng áp lực cho xương khớp, cột sống và dây thần kinh, đồng thời xoa dịu cơn đau nhờ vào việc giảm áp lực ma sát giữa gai xương với phần mềm xung quanh. Vì vậy, các bệnh nhân đang thừa cân, béo phì nên có kế hoạch giảm cân càng sớm càng tốt. Tuy nhiên, cần có phương pháp giảm cân khoa học, tránh nhịn ăn khiến cơ thể bị thiếu dưỡng chất và làm xương khớp suy yếu. Ngừng hút thuốc lá và kiêng uống các chất kích thích như bia, rượu, cà phê"
+    ],
+    "rubric": {
+      "case_id": "S4-050",
+      "suite": "suite_4_symptom_triage",
+      "category": "symptom_initial_guidance",
+      "difficulty": "medium",
+      "entities": [
+        "Gai xương"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/gai-xuong.json"
+      ],
+      "source_fields": [
+        "symptoms",
+        "treatment"
+      ],
+      "expected_behavior": "triage_without_diagnosis",
+      "expected_keywords": "Gai xương; symptoms; treatment",
+      "requires_professional_advice": true
+    }
+  }
+]

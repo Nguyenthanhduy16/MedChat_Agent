@@ -8,7 +8,7 @@ import WelcomeScreen from './WelcomeScreen';
 import { useChat } from '../hooks/useChat';
 import { hasActiveAssistantTrace } from '../utils/messageState';
 
-export default function ChatThread({ messages, isLoading, error, sendMessage, onRetry, onRequireAuth, onShowSources }) {
+export default function ChatThread({ messages, isLoading, error, sendMessage, stopMessage, onRetry, onRequireAuth, onShowSources }) {
   const scrollRef = useRef(null);
   const hasTraceStatus = hasActiveAssistantTrace(messages);
 
@@ -51,7 +51,7 @@ export default function ChatThread({ messages, isLoading, error, sendMessage, on
       </div>
 
       {/* Composer */}
-      <Composer onSend={sendMessage} disabled={isLoading} onRequireAuth={onRequireAuth} />
+      <Composer onSend={sendMessage} onStop={stopMessage} disabled={isLoading} onRequireAuth={onRequireAuth} />
     </div>
   );
 }

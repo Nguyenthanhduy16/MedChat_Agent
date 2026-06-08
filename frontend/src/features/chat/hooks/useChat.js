@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { chatApi } from '../services/chatApi';
 import { useToast } from '../../../context/ToastContext';
@@ -17,6 +17,16 @@ export function useChat() {
   const [error, setError] = useState(null);
   const [currentSessionId, setCurrentSessionId] = useState(() => uuidv4());
 
+  const abortControllerRef = useRef(null);
+
+  const stopMessage = useCallback(() => {
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+      abortControllerRef.current = null;
+      setIsLoading(false);
+    }
+  }, []);
+
   // Lấy thời gian hiện tại định dạng HH:MM AM/PM
   const getCurrentTime = () => {
     return new Date().toLocaleTimeString('en-US', {
@@ -26,7 +36,7 @@ export function useChat() {
     });
   };
 
-  const sendMessage = useCallback(async (content) => {
+  const sendMessage = useCallback(async (content, mode, files, webSearchMode) => {
     if (!content.trim()) return;
     console.log('useChat: sendMessage called with:', content);
 
@@ -41,6 +51,9 @@ export function useChat() {
     setMessages((prev) => [...prev, userMessage]);
     setIsLoading(true);
     setError(null);
+    abortControllerRef.current = new AbortController();
+    
+    const botResponseId = uuidv4();
 
     try {
       let botResponse;
@@ -68,7 +81,7 @@ export function useChat() {
         }
 
         const responseData = {
-          id: uuidv4(),
+          id: botResponseId,
           role: 'assistant',
           timestamp: getCurrentTime(),
           content: botResponse.answer,
@@ -79,7 +92,6 @@ export function useChat() {
 
       } else {
         // GỌI API THẬT
-        const botResponseId = uuidv4();
         const initialResponseData = {
           id: botResponseId,
           role: 'assistant',
@@ -91,7 +103,7 @@ export function useChat() {
         
         setMessages((prev) => [...prev, initialResponseData]);
 
-        await chatApi.streamChat(currentSessionId, content, (data) => {
+        await chatApi.streamChat(currentSessionId, content, { forceWeb: webSearchMode }, (data) => {
           setIsLoading(false);
           setMessages((prev) => {
             return prev.map(msg => {
@@ -105,6 +117,7 @@ export function useChat() {
                 } else if (data.type === 'done') {
                   const noticeText = [data.response.safety_notice, ...(data.response.warnings || [])]
                     .filter(Boolean)
+                    .map(text => `**${text}**`)
                     .join('\n');
                   const finalAnswer = data.response.answer || msg.content;
                   const finalContent = noticeText ? `${finalAnswer}\n\n${noticeText}` : finalAnswer;
@@ -116,9 +129,19 @@ export function useChat() {
               return msg;
             });
           });
-        });
+        }, abortControllerRef.current.signal);
       }
     } catch (err) {
+      if (err.name === 'AbortError') {
+        console.log('Stream aborted by user');
+        setMessages((prev) => prev.map(msg => {
+          if (msg.id === botResponseId) {
+            return { ...msg, trace_status: 'Đã dừng kết nối.' };
+          }
+          return msg;
+        }));
+        return;
+      }
       console.error('SendMessage Error:', err);
       setError(err.message || 'Có lỗi xảy ra khi gửi tin nhắn.');
       addToast(err.message || 'Lỗi gửi tin nhắn', 'error');
@@ -185,6 +208,7 @@ export function useChat() {
     error,
     currentSessionId,
     sendMessage,
+    stopMessage,
     newConversation,
     loadHistory,
     retry,

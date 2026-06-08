@@ -72,12 +72,27 @@ class ChatService:
                 requires_professional_advice=True,
             )
 
+        identity_match = _is_greeting_or_identity(request.message)
+        if identity_match:
+            answer = "Mình là MedAgent - Trợ lý Chatbot AI hỗ trợ thông tin y tế và dược phẩm. Mình có thể giúp bạn tra cứu thông tin thuốc, liều dùng, tác dụng phụ và tư vấn sức khỏe cơ bản. Bạn cần mình giúp gì hôm nay?"
+            return ChatResponse(
+                answer=answer,
+                safety_notice="Thông tin này không thay thế tư vấn trực tiếp của nhân viên y tế.",
+                citations=[],
+                intents=["greeting"],
+                risk_level=RiskLevel.LOW.value,
+                evidence_status=EvidenceStatus.PARTIAL.value,
+                warnings=[],
+                confidence="high",
+                requires_professional_advice=False,
+            )
+
         # 2. Input Normalization
         normalized = normalize_input(request.message)
         
         # 3. Routing & Classification
         fallback_decision = route_question(request)
-        if self.router_classifier is not None and self.settings.llm_router_enabled:
+        if self.router_classifier is not None and self.settings.llm_router_enabled and not request.retrieval_options.force_web:
             decision = await self.router_classifier.classify(
                 request,
                 normalized=normalized,
@@ -165,14 +180,17 @@ class ChatService:
         web_warnings: list[str] = []
         if should_try_web:
             logger.info("chat.web_retrieval start reason=%s", web_reason)
+            open_search_done = False
             for facet, facet_plan in _facets_for_web_fallback(
                 query_plan.facets,
                 facet_plans,
                 coverage,
                 force_web=request.retrieval_options.force_web,
             ):
+                if request.retrieval_options.web_mode == "open" and open_search_done:
+                    continue
                 try:
-                    query_text = _build_hybrid_query("", facet_plan)
+                    query_text = request.message
                     web_sources = await self.web_client.retrieve(
                         facet_plan,
                         query_text=query_text,
@@ -189,6 +207,9 @@ class ChatService:
                             item.facet_id = facet.intent
                         facet_results.setdefault(facet.intent, []).extend(web_items)
                         all_local_items.extend(web_items)
+                        
+                    if request.retrieval_options.web_mode == "open":
+                        open_search_done = True
                 except Exception as exc:
                     web_warnings.append(f"Web evidence retrieval failed for {facet.intent}: {exc}")
                     logger.warning("chat.web_retrieval failed facet=%s error=%s", facet.intent, exc)
@@ -288,11 +309,19 @@ class ChatService:
             yield event("done", response={"answer": answer, "safety_notice": notice, "citations": [], "intents": ["emergency"], "risk_level": RiskLevel.URGENT.value, "evidence_status": EvidenceStatus.PARTIAL.value, "warnings": precheck.warnings, "confidence": "medium", "requires_professional_advice": True})
             return
 
+        identity_match = _is_greeting_or_identity(request.message)
+        if identity_match:
+            answer = "Mình là MedAgent - Trợ lý ảo hỗ trợ thông tin y tế và dược phẩm. Mình có thể giúp bạn tra cứu thông tin thuốc, liều dùng, tác dụng phụ và tư vấn sức khỏe cơ bản. Bạn cần mình giúp gì hôm nay?"
+            yield event("token", text=answer)
+            notice = "Thông tin này không thay thế tư vấn trực tiếp của nhân viên y tế."
+            yield event("done", response={"answer": answer, "safety_notice": notice, "citations": [], "intents": ["greeting"], "risk_level": RiskLevel.LOW.value, "evidence_status": EvidenceStatus.PARTIAL.value, "warnings": [], "confidence": "high", "requires_professional_advice": False})
+            return
+
         normalized = normalize_input(request.message)
         
         yield yield_trace("routing", "Đang phân tích câu hỏi...")
         fallback_decision = route_question(request)
-        if self.router_classifier is not None and self.settings.llm_router_enabled:
+        if self.router_classifier is not None and self.settings.llm_router_enabled and not request.retrieval_options.force_web:
             decision = await self.router_classifier.classify(
                 request,
                 normalized=normalized,
@@ -364,14 +393,17 @@ class ChatService:
         web_warnings: list[str] = []
         if should_try_web:
             yield yield_trace("web_retrieval", "Đang tìm kiếm thêm thông tin trên Web...")
+            open_search_done = False
             for facet, facet_plan in _facets_for_web_fallback(
                 query_plan.facets,
                 facet_plans,
                 coverage,
                 force_web=request.retrieval_options.force_web,
             ):
+                if request.retrieval_options.web_mode == "open" and open_search_done:
+                    continue
                 try:
-                    query_text = _build_hybrid_query("", facet_plan)
+                    query_text = request.message
                     web_sources = await self.web_client.retrieve(
                         facet_plan,
                         query_text=query_text,
@@ -388,6 +420,9 @@ class ChatService:
                             item.facet_id = facet.intent
                         facet_results.setdefault(facet.intent, []).extend(web_items)
                         all_local_items.extend(web_items)
+                        
+                    if request.retrieval_options.web_mode == "open":
+                        open_search_done = True
                 except Exception as exc:
                     web_warnings.append(f"Web evidence retrieval failed for {facet.intent}: {exc}")
 
@@ -480,7 +515,7 @@ class ChatService:
             intents=decision.intents,
             risk_level=decision.risk_level.value,
             evidence_status=EvidenceStatus.INSUFFICIENT.value,
-            warnings=["Question is outside the configured pharmacy and health scope."],
+            warnings=[],
             confidence="low",
             requires_professional_advice=False,
         )
@@ -607,3 +642,16 @@ def _web_sources_to_evidence_items(sources: list[WebFetchedSource], plan) -> lis
             )
         )
     return items
+
+
+def _is_greeting_or_identity(message: str) -> bool:
+    import re
+    from core.text import accent_fold
+    folded = accent_fold(message).lower().strip()
+    folded = re.sub(r'[^\w\s]', '', folded).strip()
+    greetings = {
+        "chao", "xin chao", "hello", "hi", "chao ban", "alo",
+        "ban la ai", "may la ai", "ban ten gi", "ban ten la gi", "cau la ai",
+        "ban co the lam gi", "ban giup duoc gi", "ban lam duoc gi"
+    }
+    return folded in greetings

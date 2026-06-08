@@ -64,15 +64,21 @@ export default function MessageBubble({ message, onRetry, onShowSources }) {
 
       <div className={cn('max-w-[85%] space-y-1 group/msg', isUser && 'items-end ml-auto')}>
         {/* Tracing Status */}
-        {!isUser && message.trace_status && (
-          <div className="flex items-center gap-2 mb-2 ml-1 text-primary text-xs font-medium animate-pulse">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-            </span>
-            {message.trace_status}
-          </div>
-        )}
+        {!isUser && message.trace_status && (() => {
+          const isStopped = message.trace_status === 'Đã dừng kết nối.';
+          const colorClass = isStopped ? 'text-danger' : 'text-primary';
+          const bgClass = isStopped ? 'bg-danger' : 'bg-primary';
+          
+          return (
+            <div className={cn("flex items-center gap-2 mb-2 ml-1 text-xs font-medium", colorClass, !isStopped && "animate-pulse")}>
+              <span className="relative flex h-2 w-2">
+                {!isStopped && <span className={cn("animate-ping absolute inline-flex h-full w-full rounded-full opacity-75", bgClass)}></span>}
+                <span className={cn("relative inline-flex rounded-full h-2 w-2", bgClass)}></span>
+              </span>
+              {message.trace_status}
+            </div>
+          );
+        })()}
 
         {/* Bubble */}
         {(message.content || isError) && (

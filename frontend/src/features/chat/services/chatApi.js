@@ -30,7 +30,7 @@ export const chatApi = {
   /**
    * Streaming chat endpoint
    */
-  streamChat: async (sessionId, message, onChunk) => {
+  streamChat: async (sessionId, message, options, onChunk, signal) => {
     const baseUrl = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
     const response = await fetch(`${baseUrl}/chat/stream`, {
       method: 'POST',
@@ -39,8 +39,10 @@ export const chatApi = {
       },
       body: JSON.stringify({
         conversation_id: sessionId,
-        message: message
+        message: message,
+        retrieval_options: options?.forceWeb ? { force_web: true, web_mode: 'open', qdrant_search: false } : undefined
       }),
+      signal: signal,
     });
 
     if (!response.ok) {

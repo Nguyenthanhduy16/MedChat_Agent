@@ -1,11 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
-import { Send, Monitor, Paperclip, Mic, ChevronDown, X, File, Image as ImageIcon, Plus, FileText, ChevronRight, Telescope, Globe, MoreHorizontal } from 'lucide-react';
+import { Send, Monitor, Paperclip, Mic, ChevronDown, X, File, Image as ImageIcon, Plus, FileText, ChevronRight, Telescope, Globe, MoreHorizontal, Square } from 'lucide-react';
 
-export default function Composer({ onSend, disabled, onRequireAuth }) {
+export default function Composer({ onSend, onStop, disabled, onRequireAuth }) {
   const [message, setMessage] = useState('');
   const [mode, setMode] = useState('thinking'); // 'instant' or 'thinking'
   const [showModeMenu, setShowModeMenu] = useState(false);
   const [showPlusMenu, setShowPlusMenu] = useState(false);
+  const [webSearchMode, setWebSearchMode] = useState(false);
   const [isRecording, setIsRecording] = useState(false);
   const [attachedFiles, setAttachedFiles] = useState([]);
   
@@ -137,8 +138,9 @@ export default function Composer({ onSend, disabled, onRequireAuth }) {
     }
 
     // Pass the mode and files to onSend
-    onSend?.(message.trim(), mode, attachedFiles.map(f => f.file));
+    onSend?.(message.trim(), mode, attachedFiles.map(f => f.file), webSearchMode);
     setMessage('');
+    setWebSearchMode(false);
     
     // Clean up files
     attachedFiles.forEach(f => {
@@ -199,7 +201,7 @@ export default function Composer({ onSend, disabled, onRequireAuth }) {
                 onChange={(e) => setMessage(e.target.value)}
                 onKeyDown={handleKeyDown}
                 disabled={disabled}
-                placeholder={disabled ? "MedAgent đang xử lý..." : "Hỏi về triệu chứng, thuốc hoặc vấn đề sức khỏe..."}
+                placeholder={disabled ? "MedAgent đang xử lý..." : (webSearchMode ? "Tìm kiếm web" : "Hỏi về triệu chứng, thuốc hoặc vấn đề sức khỏe...")}
                 className="w-full bg-transparent py-1 text-[15px] text-text-primary placeholder:text-text-muted focus:outline-none disabled:opacity-50 resize-none overflow-y-auto leading-relaxed"
                 style={{ maxHeight: '400px' }}
               />
@@ -208,7 +210,7 @@ export default function Composer({ onSend, disabled, onRequireAuth }) {
             {/* Actions Row */}
             <div className="flex items-center justify-between mt-1 px-1">
               {/* Left Actions */}
-              <div className="flex items-center">
+              <div className="flex items-center gap-2">
                 <div className="relative" ref={plusMenuRef}>
                   <input 
                     type="file" 
@@ -267,6 +269,7 @@ export default function Composer({ onSend, disabled, onRequireAuth }) {
                       </button>
                       <button 
                         type="button"
+                        onClick={() => { setWebSearchMode(true); setShowPlusMenu(false); }}
                         className="w-full flex items-center gap-3 px-4 py-2.5 text-[15px] text-left hover:bg-surface-hover transition-colors text-text-primary"
                       >
                         <Globe className="w-5 h-5 text-text-secondary" />
@@ -285,6 +288,19 @@ export default function Composer({ onSend, disabled, onRequireAuth }) {
                     </div>
                   )}
                 </div>
+
+                {/* Web Search Mode Indicator */}
+                {webSearchMode && (
+                  <button
+                    type="button"
+                    onClick={() => setWebSearchMode(false)}
+                    className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 hover:bg-blue-100 rounded-full text-blue-600 transition-colors"
+                  >
+                    <Globe className="w-4 h-4" />
+                    <span className="text-[13px] font-medium">Tìm kiếm</span>
+                    <X className="w-3 h-3 ml-1 opacity-60 hover:opacity-100" />
+                  </button>
+                )}
               </div>
 
               {/* Right Actions */}
@@ -341,13 +357,24 @@ export default function Composer({ onSend, disabled, onRequireAuth }) {
                 >
                   <Mic className={`w-5 h-5 ${isRecording ? 'animate-pulse' : ''}`} />
                 </button>
-                <button
-                  type="submit"
-                  disabled={(!message.trim() && attachedFiles.length === 0) || disabled}
-                  className="w-9 h-9 flex items-center justify-center rounded-full transition-all disabled:opacity-50 disabled:bg-surface-muted disabled:text-text-muted bg-primary text-white hover:bg-primary-dark"
-                >
-                  <Send className="w-4 h-4 ml-0.5" />
-                </button>
+                {disabled ? (
+                  <button
+                    type="button"
+                    onClick={onStop}
+                    className="w-9 h-9 flex items-center justify-center rounded-full transition-all bg-surface-muted hover:bg-surface-hover hover:text-text-primary text-text-primary"
+                    title="Dừng xử lý"
+                  >
+                    <Square className="w-4 h-4 fill-current" />
+                  </button>
+                ) : (
+                  <button
+                    type="submit"
+                    disabled={(!message.trim() && attachedFiles.length === 0)}
+                    className="w-9 h-9 flex items-center justify-center rounded-full transition-all disabled:opacity-50 disabled:bg-surface-muted disabled:text-text-muted bg-primary text-white hover:bg-primary-dark"
+                  >
+                    <Send className="w-4 h-4 ml-0.5" />
+                  </button>
+                )}
               </div>
             </div>
           </div>

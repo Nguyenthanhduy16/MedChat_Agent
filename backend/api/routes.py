@@ -32,9 +32,11 @@ def get_chat_service() -> ChatService:
     """Singleton: chỉ khởi tạo ChatService (bao gồm load model embedding) một lần duy nhất."""
     settings = get_settings()
     chat_model = _build_chat_model(settings)
+    router_model = _build_chat_model(settings, model_override=settings.router_model) if settings.router_model else chat_model
+    
     router_classifier = (
         LLMRouterClassifier(
-            chat_model,
+            router_model,
             confidence_threshold=settings.llm_router_confidence_threshold,
         )
         if settings.llm_router_enabled
@@ -70,11 +72,12 @@ def get_chat_service() -> ChatService:
     )
 
 
-def _build_chat_model(settings: Settings):
+def _build_chat_model(settings: Settings, model_override: str | None = None):
+    target_model = model_override or settings.chat_model
     openai_model = (
         OpenAIChatModel(
             api_key=settings.openai_api_key, 
-            model=settings.chat_model,
+            model=target_model,
             base_url=settings.openai_base_url,
         )
         if settings.openai_api_key

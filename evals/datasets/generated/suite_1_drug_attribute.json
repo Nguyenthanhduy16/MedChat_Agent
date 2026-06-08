@@ -1,0 +1,1226 @@
+[
+  {
+    "user_input": "Abacavir được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi. Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác. Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng. Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng). Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin.",
+    "reference_contexts": [
+      "Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi. Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác. Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng. Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng). Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin."
+    ],
+    "rubric": {
+      "case_id": "S1-001",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Abacavir"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abacavir.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abacavir; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Abacavir như thế nào?",
+    "reference": "Liều dùng/cách dùng: Người lớn Điều trị nhiễm HIV Liều Abacavir thường dùng là 600mg, dùng một lần mỗi ngày, hoặc 300mg/lần, hai lần mỗi ngày. Dự phòng sau khi phơi nhiễm (không phải do nghề nghiệp) Dùng 600mg abacavir một lần mỗi ngày, hoặc 300mg abacavir/lần, hai lần mỗi ngày, kết hợp với ít nhất 2 thuốc kháng retrovirus khác. Trẻ em Trẻ trên 3 tháng tuổi đến 12 tuổi: 8mg/kg/lần, 2 lần mỗi ngày cách nhau 12 giờ, tối đa là 600mg/ngày. Trẻ cân nặng ≥ 14kg - 21kg: Có thể dùng dạng viên nén, mỗi lần uống 150mg (nửa viên 300mg), 2 lần/ngày. Trẻ cân nặng > 21kg - dưới 30kg: Uống 150mg (nửa viên 300mg) vào buổi sáng và 300mg (1 viên) vào buổi tối. Với trẻ cân nặng ≥ 30kg: Uống 300mg/lần, 2 lần mỗi ngày. Trẻ > 16 tuổi có thể dùng liều như người lớn.",
+    "reference_contexts": [
+      "Người lớn Điều trị nhiễm HIV Liều Abacavir thường dùng là 600mg, dùng một lần mỗi ngày, hoặc 300mg/lần, hai lần mỗi ngày. Dự phòng sau khi phơi nhiễm (không phải do nghề nghiệp) Dùng 600mg abacavir một lần mỗi ngày, hoặc 300mg abacavir/lần, hai lần mỗi ngày, kết hợp với ít nhất 2 thuốc kháng retrovirus khác. Trẻ em Trẻ trên 3 tháng tuổi đến 12 tuổi: 8mg/kg/lần, 2 lần mỗi ngày cách nhau 12 giờ, tối đa là 600mg/ngày. Trẻ cân nặng ≥ 14kg - 21kg: Có thể dùng dạng viên nén, mỗi lần uống 150mg (nửa viên 300mg), 2 lần/ngày. Trẻ cân nặng > 21kg - dưới 30kg: Uống 150mg (nửa viên 300mg) vào buổi sáng và 300mg (1 viên) vào buổi tối. Với trẻ cân nặng ≥ 30kg: Uống 300mg/lần, 2 lần mỗi ngày. Trẻ > 16 tuổi có thể dùng liều như người lớn."
+    ],
+    "rubric": {
+      "case_id": "S1-002",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Abacavir"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abacavir.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abacavir; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Abacavir cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Phải rất thận trọng khi dùng abacavir, nhất là trong 6 tuần đầu, vì nguy cơ phản ứng quá mẫn (4%), đôi khi gây tử vong. Phát hiện phản ứng quá mẫn thường rất khó vì dễ lẫn với một bệnh toàn thân. Phải ngừng ngay abacavir nếu có các triệu chứng quá mẫn và không bao giờ được dùng lại. Người bệnh phải được theo dõi cẩn thận trong 2 tháng đầu điều trị, vì phản ứng quá mẫn có thể xảy ra bất cứ lúc nào. Người bệnh bắt đầu điều trị lại sau khi ngừng thuốc cũng có nguy cơ, kể cả trước đó không có triệu chứng quá mẫn. Do đó, cần khuyên người bệnh phải uống thuốc đều, không được ngắt quãng.",
+    "reference_contexts": [
+      "Lưu ý chung Phải rất thận trọng khi dùng abacavir, nhất là trong 6 tuần đầu, vì nguy cơ phản ứng quá mẫn (4%), đôi khi gây tử vong. Phát hiện phản ứng quá mẫn thường rất khó vì dễ lẫn với một bệnh toàn thân. Phải ngừng ngay abacavir nếu có các triệu chứng quá mẫn và không bao giờ được dùng lại. Người bệnh phải được theo dõi cẩn thận trong 2 tháng đầu điều trị, vì phản ứng quá mẫn có thể xảy ra bất cứ lúc nào. Người bệnh bắt đầu điều trị lại sau khi ngừng thuốc cũng có nguy cơ, kể cả trước đó không có triệu chứng quá mẫn. Do đó, cần khuyên người bệnh phải uống thuốc đều, không được ngắt quãng."
+    ],
+    "rubric": {
+      "case_id": "S1-003",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Abacavir"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abacavir.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abacavir; careful"
+    }
+  },
+  {
+    "user_input": "Abacavir có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi. Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác. Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng. Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng). Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin. Liều dùng/cách dùng: Người lớn Điều trị nhiễm HIV Liều Abacavir thường dùng là 600mg, dùng một lần mỗi ngày, hoặc 300mg/lần, hai lần mỗi ngày. Dự phòng sau khi phơi nhiễm (không phải do nghề nghiệp) Dùng 600mg abacavir một lần mỗi ngày, hoặc 300mg abacavir/lần, hai lần mỗi ngày, kết hợp với ít nhất 2 thuốc kháng retrovirus khác. Trẻ em Trẻ trên 3 tháng tuổi đến 12 tuổi: 8mg/kg/lần, 2 lần mỗi ngày cách nhau 12 giờ, tối đa là 600mg/ngày. Trẻ cân nặng ≥ 14kg - 21kg: Có thể dùng dạng viên nén, mỗi lần uống 150mg (nửa viên 300mg), 2 lần/ngày. Trẻ cân nặng > 21kg - dưới 30kg: Uống 150mg (nửa viên 300mg) vào buổi sáng và 300mg (1 viên) vào buổi tối. Với trẻ cân nặng ≥ 30kg: Uống 300mg/lần, 2 lần mỗi ngày. Trẻ > 16 tuổi có thể dùng liều như người lớn.",
+    "reference_contexts": [
+      "Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi. Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác. Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng. Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng). Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin.",
+      "Người lớn Điều trị nhiễm HIV Liều Abacavir thường dùng là 600mg, dùng một lần mỗi ngày, hoặc 300mg/lần, hai lần mỗi ngày. Dự phòng sau khi phơi nhiễm (không phải do nghề nghiệp) Dùng 600mg abacavir một lần mỗi ngày, hoặc 300mg abacavir/lần, hai lần mỗi ngày, kết hợp với ít nhất 2 thuốc kháng retrovirus khác. Trẻ em Trẻ trên 3 tháng tuổi đến 12 tuổi: 8mg/kg/lần, 2 lần mỗi ngày cách nhau 12 giờ, tối đa là 600mg/ngày. Trẻ cân nặng ≥ 14kg - 21kg: Có thể dùng dạng viên nén, mỗi lần uống 150mg (nửa viên 300mg), 2 lần/ngày. Trẻ cân nặng > 21kg - dưới 30kg: Uống 150mg (nửa viên 300mg) vào buổi sáng và 300mg (1 viên) vào buổi tối. Với trẻ cân nặng ≥ 30kg: Uống 300mg/lần, 2 lần mỗi ngày. Trẻ > 16 tuổi có thể dùng liều như người lớn."
+    ],
+    "rubric": {
+      "case_id": "S1-004",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Abacavir"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abacavir.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abacavir; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Abatacept được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Viêm khớp dạng thấp : Abatacept phối hợp với methotrexate điều trị viêm khớp dạng thấp mức độ trung bình đến nặng (RA) ở những bệnh nhân đáp ứng không đầy đủ với thuốc chống thấp khớp tác dụng chậm (DMARDs) bao gồm: methotrexate (MTX), thuốc ức chế hoại tử khối u alpha (TNF). Abatacept phối hợp với methotrexate điều trị bệnh tiến triển nhanh ở bệnh nhân bị viêm khớp dạng thấp chưa được điều trị bằng methotrexate trước đó. Viêm khớp vảy nến: Abatacept phối hợp với methotrexate điều trị viêm khớp vảy nến đang hoạt động (PsA) ở những bệnh nhân đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó. Viêm khớp tự phát thiếu niên: Abatacept phối hợp với methotrexate điều trị viêm khớp tự phát thiếu niên (pJIA) ở những bệnh nhi từ 2 tuổi trở lên đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó.",
+    "reference_contexts": [
+      "Viêm khớp dạng thấp : Abatacept phối hợp với methotrexate điều trị viêm khớp dạng thấp mức độ trung bình đến nặng (RA) ở những bệnh nhân đáp ứng không đầy đủ với thuốc chống thấp khớp tác dụng chậm (DMARDs) bao gồm: methotrexate (MTX), thuốc ức chế hoại tử khối u alpha (TNF). Abatacept phối hợp với methotrexate điều trị bệnh tiến triển nhanh ở bệnh nhân bị viêm khớp dạng thấp chưa được điều trị bằng methotrexate trước đó. Viêm khớp vảy nến: Abatacept phối hợp với methotrexate điều trị viêm khớp vảy nến đang hoạt động (PsA) ở những bệnh nhân đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó. Viêm khớp tự phát thiếu niên: Abatacept phối hợp với methotrexate điều trị viêm khớp tự phát thiếu niên (pJIA) ở những bệnh nhi từ 2 tuổi trở lên đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó."
+    ],
+    "rubric": {
+      "case_id": "S1-005",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Abatacept"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abatacept.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abatacept; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Abatacept như thế nào?",
+    "reference": "Liều dùng/cách dùng: Người lớn Viêm khớp dạng thấp Đường tiêm SC: Liều 125 mg/tuần bất kể cân nặng. Nếu bệnh nhân sử dụng liều nạp abatacept IV trước khi dùng SC, liều abatacept SC đầu tiên nên được dùng trong vòng một ngày sau khi truyền IV, sau đó là tiêm SC 125 mg abatacept/tuần. Đường tiêm IV: Thuốc được truyền tĩnh mạch trong 30 phút. Cân nặng < 60 kg: 500 mg lúc 0, 2 và 4 tuần, sau đó 4 tuần một lần. Cân nặng 60 - 100 kg: 750 mg vào lúc 0, 2 và 4 tuần, sau đó cứ 4 tuần một lần. Cân nặng > 100 kg: 1 g vào lúc 0, 2 và 4 tuần, sau đó cứ 4 tuần một lần. Bệnh nhân chuyển từ liệu pháp tiêm IV abatacept sang tiêm SC nên dùng liều tiêm SC đầu tiên thay vì liều tiêm tĩnh mạch tiếp theo theo lịch trình.",
+    "reference_contexts": [
+      "Người lớn Viêm khớp dạng thấp Đường tiêm SC: Liều 125 mg/tuần bất kể cân nặng. Nếu bệnh nhân sử dụng liều nạp abatacept IV trước khi dùng SC, liều abatacept SC đầu tiên nên được dùng trong vòng một ngày sau khi truyền IV, sau đó là tiêm SC 125 mg abatacept/tuần. Đường tiêm IV: Thuốc được truyền tĩnh mạch trong 30 phút. Cân nặng < 60 kg: 500 mg lúc 0, 2 và 4 tuần, sau đó 4 tuần một lần. Cân nặng 60 - 100 kg: 750 mg vào lúc 0, 2 và 4 tuần, sau đó cứ 4 tuần một lần. Cân nặng > 100 kg: 1 g vào lúc 0, 2 và 4 tuần, sau đó cứ 4 tuần một lần. Bệnh nhân chuyển từ liệu pháp tiêm IV abatacept sang tiêm SC nên dùng liều tiêm SC đầu tiên thay vì liều tiêm tĩnh mạch tiếp theo theo lịch trình."
+    ],
+    "rubric": {
+      "case_id": "S1-006",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Abatacept"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abatacept.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abatacept; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Abatacept cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Abatacept không được khuyến cáo sử dụng kết hợp với các chất ức chế TNF. Khi chuyển từ liệu pháp ức chế TNF sang điều trị với abatacept, bệnh nhân cần được theo dõi các dấu hiệu nhiễm trùng. Các phản ứng dị ứng đã được báo cáo khi sử dụng abatacept trong các thử nghiệm lâm sàng. Sốc phản vệ hoặc phản ứng phản vệ có thể xảy ra sau lần truyền đầu tiên và có thể đe dọa tính mạng. Abatacept có thể ảnh hưởng đến khả năng bảo vệ của vật chủ chống lại các bệnh nhiễm khuẩn và khối u ác tính, đồng thời ảnh hưởng đến phản ứng tạo miễn dịch sau tiêm chủng. Sử dụng đồng thời abatacept với các chất ức chế miễn dịch hoặc điều hòa miễn dịch có thể làm tăng tác dụng của abatacept trên hệ thống miễn dịch.",
+    "reference_contexts": [
+      "Lưu ý chung Abatacept không được khuyến cáo sử dụng kết hợp với các chất ức chế TNF. Khi chuyển từ liệu pháp ức chế TNF sang điều trị với abatacept, bệnh nhân cần được theo dõi các dấu hiệu nhiễm trùng. Các phản ứng dị ứng đã được báo cáo khi sử dụng abatacept trong các thử nghiệm lâm sàng. Sốc phản vệ hoặc phản ứng phản vệ có thể xảy ra sau lần truyền đầu tiên và có thể đe dọa tính mạng. Abatacept có thể ảnh hưởng đến khả năng bảo vệ của vật chủ chống lại các bệnh nhiễm khuẩn và khối u ác tính, đồng thời ảnh hưởng đến phản ứng tạo miễn dịch sau tiêm chủng. Sử dụng đồng thời abatacept với các chất ức chế miễn dịch hoặc điều hòa miễn dịch có thể làm tăng tác dụng của abatacept trên hệ thống miễn dịch."
+    ],
+    "rubric": {
+      "case_id": "S1-007",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Abatacept"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abatacept.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abatacept; careful"
+    }
+  },
+  {
+    "user_input": "Abatacept có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Viêm khớp dạng thấp : Abatacept phối hợp với methotrexate điều trị viêm khớp dạng thấp mức độ trung bình đến nặng (RA) ở những bệnh nhân đáp ứng không đầy đủ với thuốc chống thấp khớp tác dụng chậm (DMARDs) bao gồm: methotrexate (MTX), thuốc ức chế hoại tử khối u alpha (TNF). Abatacept phối hợp với methotrexate điều trị bệnh tiến triển nhanh ở bệnh nhân bị viêm khớp dạng thấp chưa được điều trị bằng methotrexate trước đó. Viêm khớp vảy nến: Abatacept phối hợp với methotrexate điều trị viêm khớp vảy nến đang hoạt động (PsA) ở những bệnh nhân đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó. Viêm khớp tự phát thiếu niên: Abatacept phối hợp với methotrexate điều trị viêm khớp tự phát thiếu niên (pJIA) ở những bệnh nhi từ 2 tuổi trở lên đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó. Liều dùng/cách dùng: Người lớn Viêm khớp dạng thấp Đường tiêm SC: Liều 125 mg/tuần bất kể cân nặng. Nếu bệnh nhân sử dụng liều nạp abatacept IV trước khi dùng SC, liều abatacept SC đầu tiên nên được dùng trong vòng một ngày sau khi truyền IV, sau đó là tiêm SC 125 mg abatacept/tuần. Đường tiêm IV: Thuốc được truyền tĩnh mạch trong 30 phút. Cân nặng < 60 kg: 500 mg lúc 0, 2 và 4 tuần, sau đó 4 tuần một lần. Cân nặng 60 - 100 kg: 750 mg vào lúc 0, 2 và 4 tuần, sau đó cứ 4 tuần một lần. Cân nặng > 100 kg: 1 g vào lúc 0, 2 và 4 tuần, sau đó cứ 4 tuần một lần. Bệnh nhân chuyển từ liệu pháp tiêm IV abatacept sang tiêm SC nên dùng liều tiêm SC đầu tiên thay vì liều tiêm tĩnh mạch tiếp theo theo lịch trình.",
+    "reference_contexts": [
+      "Viêm khớp dạng thấp : Abatacept phối hợp với methotrexate điều trị viêm khớp dạng thấp mức độ trung bình đến nặng (RA) ở những bệnh nhân đáp ứng không đầy đủ với thuốc chống thấp khớp tác dụng chậm (DMARDs) bao gồm: methotrexate (MTX), thuốc ức chế hoại tử khối u alpha (TNF). Abatacept phối hợp với methotrexate điều trị bệnh tiến triển nhanh ở bệnh nhân bị viêm khớp dạng thấp chưa được điều trị bằng methotrexate trước đó. Viêm khớp vảy nến: Abatacept phối hợp với methotrexate điều trị viêm khớp vảy nến đang hoạt động (PsA) ở những bệnh nhân đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó. Viêm khớp tự phát thiếu niên: Abatacept phối hợp với methotrexate điều trị viêm khớp tự phát thiếu niên (pJIA) ở những bệnh nhi từ 2 tuổi trở lên đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó.",
+      "Người lớn Viêm khớp dạng thấp Đường tiêm SC: Liều 125 mg/tuần bất kể cân nặng. Nếu bệnh nhân sử dụng liều nạp abatacept IV trước khi dùng SC, liều abatacept SC đầu tiên nên được dùng trong vòng một ngày sau khi truyền IV, sau đó là tiêm SC 125 mg abatacept/tuần. Đường tiêm IV: Thuốc được truyền tĩnh mạch trong 30 phút. Cân nặng < 60 kg: 500 mg lúc 0, 2 và 4 tuần, sau đó 4 tuần một lần. Cân nặng 60 - 100 kg: 750 mg vào lúc 0, 2 và 4 tuần, sau đó cứ 4 tuần một lần. Cân nặng > 100 kg: 1 g vào lúc 0, 2 và 4 tuần, sau đó cứ 4 tuần một lần. Bệnh nhân chuyển từ liệu pháp tiêm IV abatacept sang tiêm SC nên dùng liều tiêm SC đầu tiên thay vì liều tiêm tĩnh mạch tiếp theo theo lịch trình."
+    ],
+    "rubric": {
+      "case_id": "S1-008",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Abatacept"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abatacept.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abatacept; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Abciximab được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Abciximab bổ trợ cho can thiệp mạch vành qua da (PCI) để phòng ngừa biến chứng thiếu máu cục bộ. Hỗ trợ điều trị chống đông máu (heparin không phân đoạn, heparin trọng lượng phân tử thấp), aspirin và thuốc đối kháng thụ thể P2Y12 của adenosine diphosphate (ADP) trên tiểu cầu (clopidogrel, prasugrel , ticagrelor) để ngăn ngừa cấp tính biến chứng thiếu máu cục bộ ở bệnh nhân đang trải qua PCI hoặc ở những bệnh nhân bị hội chứng mạch vành cấp không ST chênh lên (NSTE ACS). Bệnh nhân đau thắt ngực không ổn định không đáp ứng với điều trị nội khoa thông thường khi can thiệp mạch vành qua da được lên kế hoạch trong vòng 24 giờ.",
+    "reference_contexts": [
+      "Abciximab bổ trợ cho can thiệp mạch vành qua da (PCI) để phòng ngừa biến chứng thiếu máu cục bộ. Hỗ trợ điều trị chống đông máu (heparin không phân đoạn, heparin trọng lượng phân tử thấp), aspirin và thuốc đối kháng thụ thể P2Y12 của adenosine diphosphate (ADP) trên tiểu cầu (clopidogrel, prasugrel , ticagrelor) để ngăn ngừa cấp tính biến chứng thiếu máu cục bộ ở bệnh nhân đang trải qua PCI hoặc ở những bệnh nhân bị hội chứng mạch vành cấp không ST chênh lên (NSTE ACS). Bệnh nhân đau thắt ngực không ổn định không đáp ứng với điều trị nội khoa thông thường khi can thiệp mạch vành qua da được lên kế hoạch trong vòng 24 giờ."
+    ],
+    "rubric": {
+      "case_id": "S1-009",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Abciximab"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abciximab.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abciximab; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Abciximab như thế nào?",
+    "reference": "Liều dùng/cách dùng: Liều lượng Abciximab Người lớn: Biến chứng thiếu máu cục bộ cấp tính của PCI IV Bệnh nhân đang điều trị PCI: 0,25 mg/kg bằng cách tiêm IV 10–60 phút trước PCI, sau đó truyền IV 0,125 mcg/kg mỗi phút (tối đa 10 mcg/phút) trong 12 giờ. Bệnh nhân dự kiến ​​được PCI trong vòng 24 giờ: 0,25 mg/kg bằng cách tiêm IV, tiếp theo là truyền IV 10 mcg/phút trong 18–24 giờ, kết thúc 1 giờ sau thủ thuật. Cách dùng Abciximab Sử dụng bằng cách tiêm IV sau đó truyền IV bằng thiết bị tiêm truyền có kiểm soát. Không lắc lọ. Lọc tiêm khi pha loãng, trước khi tiêm IV, hoặc trong khi truyền IV bằng cách sử dụng bộ lọc vô trùng, không gây dị ứng, gắn kết với protein thấp (0,2 hoặc 5 µm). Đối với tiêm IV, rút ​​liều lượng thích hợp vào ống tiêm và lọc tiêm trước khi dùng. Bỏ phần không sử dụng.",
+    "reference_contexts": [
+      "Liều lượng Abciximab Người lớn: Biến chứng thiếu máu cục bộ cấp tính của PCI IV Bệnh nhân đang điều trị PCI: 0,25 mg/kg bằng cách tiêm IV 10–60 phút trước PCI, sau đó truyền IV 0,125 mcg/kg mỗi phút (tối đa 10 mcg/phút) trong 12 giờ. Bệnh nhân dự kiến ​​được PCI trong vòng 24 giờ: 0,25 mg/kg bằng cách tiêm IV, tiếp theo là truyền IV 10 mcg/phút trong 18–24 giờ, kết thúc 1 giờ sau thủ thuật. Cách dùng Abciximab Sử dụng bằng cách tiêm IV sau đó truyền IV bằng thiết bị tiêm truyền có kiểm soát. Không lắc lọ. Lọc tiêm khi pha loãng, trước khi tiêm IV, hoặc trong khi truyền IV bằng cách sử dụng bộ lọc vô trùng, không gây dị ứng, gắn kết với protein thấp (0,2 hoặc 5 µm). Đối với tiêm IV, rút ​​liều lượng thích hợp vào ống tiêm và lọc tiêm trước khi dùng. Bỏ phần không sử dụng."
+    ],
+    "rubric": {
+      "case_id": "S1-010",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Abciximab"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abciximab.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abciximab; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Abciximab cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Giảm tiểu cầu Theo dõi số lượng tiểu cầu trước, trong và sau khi điều trị. Giảm số lượng tiểu cầu cấp tính cần được phân biệt giữa giảm tiểu cầu thực sự và giảm tiểu cầu giả. Nếu xuất hiện tình trạng giảm tiểu cầu, nên ngừng điều trị ngay lập tức và theo dõi và điều trị tình trạng giảm tiểu cầu. Nguy cơ chảy máu nhiều (ví dụ, xuất huyết nội sọ, chảy máu đường tiết niệu hoặc đường tiêu hóa, chảy máu tại vị trí tiếp cận động mạch) và chảy máu nhẹ (ví dụ, tiểu máu đại thể tự phát, nôn mửa tự phát); có thể cần truyền máu hoặc tiểu cầu. Xuất huyết phế nang phổi hiếm khi được báo cáo.",
+    "reference_contexts": [
+      "Lưu ý chung Giảm tiểu cầu Theo dõi số lượng tiểu cầu trước, trong và sau khi điều trị. Giảm số lượng tiểu cầu cấp tính cần được phân biệt giữa giảm tiểu cầu thực sự và giảm tiểu cầu giả. Nếu xuất hiện tình trạng giảm tiểu cầu, nên ngừng điều trị ngay lập tức và theo dõi và điều trị tình trạng giảm tiểu cầu. Nguy cơ chảy máu nhiều (ví dụ, xuất huyết nội sọ, chảy máu đường tiết niệu hoặc đường tiêu hóa, chảy máu tại vị trí tiếp cận động mạch) và chảy máu nhẹ (ví dụ, tiểu máu đại thể tự phát, nôn mửa tự phát); có thể cần truyền máu hoặc tiểu cầu. Xuất huyết phế nang phổi hiếm khi được báo cáo."
+    ],
+    "rubric": {
+      "case_id": "S1-011",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Abciximab"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abciximab.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abciximab; careful"
+    }
+  },
+  {
+    "user_input": "Abciximab có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Abciximab bổ trợ cho can thiệp mạch vành qua da (PCI) để phòng ngừa biến chứng thiếu máu cục bộ. Hỗ trợ điều trị chống đông máu (heparin không phân đoạn, heparin trọng lượng phân tử thấp), aspirin và thuốc đối kháng thụ thể P2Y12 của adenosine diphosphate (ADP) trên tiểu cầu (clopidogrel, prasugrel , ticagrelor) để ngăn ngừa cấp tính biến chứng thiếu máu cục bộ ở bệnh nhân đang trải qua PCI hoặc ở những bệnh nhân bị hội chứng mạch vành cấp không ST chênh lên (NSTE ACS). Bệnh nhân đau thắt ngực không ổn định không đáp ứng với điều trị nội khoa thông thường khi can thiệp mạch vành qua da được lên kế hoạch trong vòng 24 giờ. Liều dùng/cách dùng: Liều lượng Abciximab Người lớn: Biến chứng thiếu máu cục bộ cấp tính của PCI IV Bệnh nhân đang điều trị PCI: 0,25 mg/kg bằng cách tiêm IV 10–60 phút trước PCI, sau đó truyền IV 0,125 mcg/kg mỗi phút (tối đa 10 mcg/phút) trong 12 giờ. Bệnh nhân dự kiến ​​được PCI trong vòng 24 giờ: 0,25 mg/kg bằng cách tiêm IV, tiếp theo là truyền IV 10 mcg/phút trong 18–24 giờ, kết thúc 1 giờ sau thủ thuật. Cách dùng Abciximab Sử dụng bằng cách tiêm IV sau đó truyền IV bằng thiết bị tiêm truyền có kiểm soát. Không lắc lọ. Lọc tiêm khi pha loãng, trước khi tiêm IV, hoặc trong khi truyền IV bằng cách sử dụng bộ lọc vô trùng, không gây dị ứng, gắn kết với protein thấp (0,2 hoặc 5 µm). Đối với tiêm IV, rút ​​liều lượng thích hợp vào ống tiêm và lọc tiêm trước khi dùng. Bỏ phần không sử dụng.",
+    "reference_contexts": [
+      "Abciximab bổ trợ cho can thiệp mạch vành qua da (PCI) để phòng ngừa biến chứng thiếu máu cục bộ. Hỗ trợ điều trị chống đông máu (heparin không phân đoạn, heparin trọng lượng phân tử thấp), aspirin và thuốc đối kháng thụ thể P2Y12 của adenosine diphosphate (ADP) trên tiểu cầu (clopidogrel, prasugrel , ticagrelor) để ngăn ngừa cấp tính biến chứng thiếu máu cục bộ ở bệnh nhân đang trải qua PCI hoặc ở những bệnh nhân bị hội chứng mạch vành cấp không ST chênh lên (NSTE ACS). Bệnh nhân đau thắt ngực không ổn định không đáp ứng với điều trị nội khoa thông thường khi can thiệp mạch vành qua da được lên kế hoạch trong vòng 24 giờ.",
+      "Liều lượng Abciximab Người lớn: Biến chứng thiếu máu cục bộ cấp tính của PCI IV Bệnh nhân đang điều trị PCI: 0,25 mg/kg bằng cách tiêm IV 10–60 phút trước PCI, sau đó truyền IV 0,125 mcg/kg mỗi phút (tối đa 10 mcg/phút) trong 12 giờ. Bệnh nhân dự kiến ​​được PCI trong vòng 24 giờ: 0,25 mg/kg bằng cách tiêm IV, tiếp theo là truyền IV 10 mcg/phút trong 18–24 giờ, kết thúc 1 giờ sau thủ thuật. Cách dùng Abciximab Sử dụng bằng cách tiêm IV sau đó truyền IV bằng thiết bị tiêm truyền có kiểm soát. Không lắc lọ. Lọc tiêm khi pha loãng, trước khi tiêm IV, hoặc trong khi truyền IV bằng cách sử dụng bộ lọc vô trùng, không gây dị ứng, gắn kết với protein thấp (0,2 hoặc 5 µm). Đối với tiêm IV, rút ​​liều lượng thích hợp vào ống tiêm và lọc tiêm trước khi dùng. Bỏ phần không sử dụng."
+    ],
+    "rubric": {
+      "case_id": "S1-012",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Abciximab"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abciximab.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abciximab; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Abiraterone được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Abiraterone được chỉ định để điều trị ung thư tuyến tiền liệt di căn kháng cắt tinh hoàn (mCRPC) kết hợp với methylprednisolone hoặc prednisone. Ở châu Âu và Canada, thuốc này cũng được sử dụng cho người bệnh mCRPC không có triệu chứng hoặc có triệu chứng nhẹ sau khi thất bại với liệu pháp ức chế androgen và hóa trị chưa được chỉ định lâm sàng. Ở châu Âu, thuốc được dùng cho người bệnh có bệnh tiến triển trong hoặc sau phác đồ hóa trị dựa trên docetaxel. Ở Canada, thuốc được dùng cho người bệnh đã điều trị hóa trị chứa docetaxel trước đó sau khi thất bại với liệu pháp ức chế androgen.",
+    "reference_contexts": [
+      "Abiraterone được chỉ định để điều trị ung thư tuyến tiền liệt di căn kháng cắt tinh hoàn (mCRPC) kết hợp với methylprednisolone hoặc prednisone. Ở châu Âu và Canada, thuốc này cũng được sử dụng cho người bệnh mCRPC không có triệu chứng hoặc có triệu chứng nhẹ sau khi thất bại với liệu pháp ức chế androgen và hóa trị chưa được chỉ định lâm sàng. Ở châu Âu, thuốc được dùng cho người bệnh có bệnh tiến triển trong hoặc sau phác đồ hóa trị dựa trên docetaxel. Ở Canada, thuốc được dùng cho người bệnh đã điều trị hóa trị chứa docetaxel trước đó sau khi thất bại với liệu pháp ức chế androgen."
+    ],
+    "rubric": {
+      "case_id": "S1-013",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Abiraterone"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abiraterone.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abiraterone; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Abiraterone như thế nào?",
+    "reference": "Liều dùng/cách dùng: Liều dùng Liều lượng abiraterone sẽ khác nhau đối với từng người bệnh. Hãy tuân theo chỉ dẫn của bác sĩ hoặc hướng dẫn trên nhãn thuốc. Thông tin sau đây chỉ bao gồm liều lượng trung bình của thuốc này. Nếu liều lượng của bạn khác, đừng thay đổi trừ khi bác sĩ bảo bạn làm như vậy. Lượng thuốc bạn dùng tùy thuộc vào hàm lượng của thuốc. Ngoài ra, số liều bạn dùng mỗi ngày, khoảng thời gian giữa các liều và thời gian bạn dùng thuốc tùy thuộc vào vấn đề sức khỏe mà bạn đang dùng thuốc để điều trị. Người lớn Đối với ung thư tuyến tiền liệt kháng cắt tinh hoàn: 1000mg (hai viên 500mg hoặc bốn viên 250mg) một lần một ngày, uống cùng với 5mg prednisone uống 2 lần một ngày. Đối với ung thư tuyến tiền liệt nhạy cảm với cắt tinh hoàn có nguy cơ cao:",
+    "reference_contexts": [
+      "Liều dùng Liều lượng abiraterone sẽ khác nhau đối với từng người bệnh. Hãy tuân theo chỉ dẫn của bác sĩ hoặc hướng dẫn trên nhãn thuốc. Thông tin sau đây chỉ bao gồm liều lượng trung bình của thuốc này. Nếu liều lượng của bạn khác, đừng thay đổi trừ khi bác sĩ bảo bạn làm như vậy. Lượng thuốc bạn dùng tùy thuộc vào hàm lượng của thuốc. Ngoài ra, số liều bạn dùng mỗi ngày, khoảng thời gian giữa các liều và thời gian bạn dùng thuốc tùy thuộc vào vấn đề sức khỏe mà bạn đang dùng thuốc để điều trị. Người lớn Đối với ung thư tuyến tiền liệt kháng cắt tinh hoàn: 1000mg (hai viên 500mg hoặc bốn viên 250mg) một lần một ngày, uống cùng với 5mg prednisone uống 2 lần một ngày. Đối với ung thư tuyến tiền liệt nhạy cảm với cắt tinh hoàn có nguy cơ cao:"
+    ],
+    "rubric": {
+      "case_id": "S1-014",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Abiraterone"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abiraterone.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abiraterone; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Abiraterone cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Do cơ chế tác động của abiraterone là ức chế sản xuất androgen, các lưu ý đặc biệt liên quan đến phụ nữ có thai và cho con bú là vô cùng quan trọng, mặc dù đối tượng sử dụng chính không phải là phụ nữ. Người bệnh cần được thông báo rõ ràng rằng thuốc này chỉ dành cho nam giới. Lưu ý với phụ nữ có thai Abiraterone chống chỉ định tuyệt đối cho phụ nữ có thai hoặc phụ nữ có khả năng mang thai. Các nghiên cứu trên động vật đã cho thấy abiraterone gây ra các tác động bất lợi đối với thai nhi. Thuốc có thể gây ra dị tật bẩm sinh nghiêm trọng và các vấn đề khác trong quá trình phát triển của thai nhi do tác động lên quá trình sản xuất hormon.",
+    "reference_contexts": [
+      "Lưu ý chung Do cơ chế tác động của abiraterone là ức chế sản xuất androgen, các lưu ý đặc biệt liên quan đến phụ nữ có thai và cho con bú là vô cùng quan trọng, mặc dù đối tượng sử dụng chính không phải là phụ nữ. Người bệnh cần được thông báo rõ ràng rằng thuốc này chỉ dành cho nam giới. Lưu ý với phụ nữ có thai Abiraterone chống chỉ định tuyệt đối cho phụ nữ có thai hoặc phụ nữ có khả năng mang thai. Các nghiên cứu trên động vật đã cho thấy abiraterone gây ra các tác động bất lợi đối với thai nhi. Thuốc có thể gây ra dị tật bẩm sinh nghiêm trọng và các vấn đề khác trong quá trình phát triển của thai nhi do tác động lên quá trình sản xuất hormon."
+    ],
+    "rubric": {
+      "case_id": "S1-015",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Abiraterone"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abiraterone.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abiraterone; careful"
+    }
+  },
+  {
+    "user_input": "Abiraterone có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Abiraterone được chỉ định để điều trị ung thư tuyến tiền liệt di căn kháng cắt tinh hoàn (mCRPC) kết hợp với methylprednisolone hoặc prednisone. Ở châu Âu và Canada, thuốc này cũng được sử dụng cho người bệnh mCRPC không có triệu chứng hoặc có triệu chứng nhẹ sau khi thất bại với liệu pháp ức chế androgen và hóa trị chưa được chỉ định lâm sàng. Ở châu Âu, thuốc được dùng cho người bệnh có bệnh tiến triển trong hoặc sau phác đồ hóa trị dựa trên docetaxel. Ở Canada, thuốc được dùng cho người bệnh đã điều trị hóa trị chứa docetaxel trước đó sau khi thất bại với liệu pháp ức chế androgen. Liều dùng/cách dùng: Liều dùng Liều lượng abiraterone sẽ khác nhau đối với từng người bệnh. Hãy tuân theo chỉ dẫn của bác sĩ hoặc hướng dẫn trên nhãn thuốc. Thông tin sau đây chỉ bao gồm liều lượng trung bình của thuốc này. Nếu liều lượng của bạn khác, đừng thay đổi trừ khi bác sĩ bảo bạn làm như vậy. Lượng thuốc bạn dùng tùy thuộc vào hàm lượng của thuốc. Ngoài ra, số liều bạn dùng mỗi ngày, khoảng thời gian giữa các liều và thời gian bạn dùng thuốc tùy thuộc vào vấn đề sức khỏe mà bạn đang dùng thuốc để điều trị. Người lớn Đối với ung thư tuyến tiền liệt kháng cắt tinh hoàn: 1000mg (hai viên 500mg hoặc bốn viên 250mg) một lần một ngày, uống cùng với 5mg prednisone uống 2 lần một ngày. Đối với ung thư tuyến tiền liệt nhạy cảm với cắt tinh hoàn có nguy cơ cao:",
+    "reference_contexts": [
+      "Abiraterone được chỉ định để điều trị ung thư tuyến tiền liệt di căn kháng cắt tinh hoàn (mCRPC) kết hợp với methylprednisolone hoặc prednisone. Ở châu Âu và Canada, thuốc này cũng được sử dụng cho người bệnh mCRPC không có triệu chứng hoặc có triệu chứng nhẹ sau khi thất bại với liệu pháp ức chế androgen và hóa trị chưa được chỉ định lâm sàng. Ở châu Âu, thuốc được dùng cho người bệnh có bệnh tiến triển trong hoặc sau phác đồ hóa trị dựa trên docetaxel. Ở Canada, thuốc được dùng cho người bệnh đã điều trị hóa trị chứa docetaxel trước đó sau khi thất bại với liệu pháp ức chế androgen.",
+      "Liều dùng Liều lượng abiraterone sẽ khác nhau đối với từng người bệnh. Hãy tuân theo chỉ dẫn của bác sĩ hoặc hướng dẫn trên nhãn thuốc. Thông tin sau đây chỉ bao gồm liều lượng trung bình của thuốc này. Nếu liều lượng của bạn khác, đừng thay đổi trừ khi bác sĩ bảo bạn làm như vậy. Lượng thuốc bạn dùng tùy thuộc vào hàm lượng của thuốc. Ngoài ra, số liều bạn dùng mỗi ngày, khoảng thời gian giữa các liều và thời gian bạn dùng thuốc tùy thuộc vào vấn đề sức khỏe mà bạn đang dùng thuốc để điều trị. Người lớn Đối với ung thư tuyến tiền liệt kháng cắt tinh hoàn: 1000mg (hai viên 500mg hoặc bốn viên 250mg) một lần một ngày, uống cùng với 5mg prednisone uống 2 lần một ngày. Đối với ung thư tuyến tiền liệt nhạy cảm với cắt tinh hoàn có nguy cơ cao:"
+    ],
+    "rubric": {
+      "case_id": "S1-016",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Abiraterone"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abiraterone.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Abiraterone; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Acamprosate được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Thuốc Acamprosate được sử dụng để cai nghiện rượu. Thuốc nên được sử dụng theo phác đồ điều trị bao gồm cả tư vấn và hỗ trợ tâm lý.",
+    "reference_contexts": [
+      "Thuốc Acamprosate được sử dụng để cai nghiện rượu. Thuốc nên được sử dụng theo phác đồ điều trị bao gồm cả tư vấn và hỗ trợ tâm lý."
+    ],
+    "rubric": {
+      "case_id": "S1-017",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Acamprosate"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acamprosate.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acamprosate; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Acamprosate như thế nào?",
+    "reference": "Liều dùng/cách dùng: Liều dùng cho người lớn Người lớn từ 18 – 65 tuổi: 2 viên/lần x 3 lần/ngày trong bữa ăn (2 viên sáng, trưa, tối) ở đối tượng cân nặng từ 60kg trở lên. Đối tượng cân nặng dưới 60kg, ngày uống 4 viên chia làm ba lần trong bữa ăn (2 viên vào buổi sáng, 1 viên vào buổi trưa và 1 viên vào buổi tối). Thời gian điều trị khuyến nghị là một năm. Điều trị bằng acamprosate nên được bắt đầu càng sớm càng tốt sau thời gian ngừng thuốc và nên duy trì nếu bệnh nhân tái phát. Đối với bệnh nhân suy thận mức độ trung bình (độ thanh thải creatinin 30-50 mL/phút), liều khởi đầu là một viên nén 333 mg, uống ba lần mỗi ngày Cách dùng Acamprosate Uống nguyên viên, không nhai, không nghiền viên thuốc.",
+    "reference_contexts": [
+      "Liều dùng cho người lớn Người lớn từ 18 – 65 tuổi: 2 viên/lần x 3 lần/ngày trong bữa ăn (2 viên sáng, trưa, tối) ở đối tượng cân nặng từ 60kg trở lên. Đối tượng cân nặng dưới 60kg, ngày uống 4 viên chia làm ba lần trong bữa ăn (2 viên vào buổi sáng, 1 viên vào buổi trưa và 1 viên vào buổi tối). Thời gian điều trị khuyến nghị là một năm. Điều trị bằng acamprosate nên được bắt đầu càng sớm càng tốt sau thời gian ngừng thuốc và nên duy trì nếu bệnh nhân tái phát. Đối với bệnh nhân suy thận mức độ trung bình (độ thanh thải creatinin 30-50 mL/phút), liều khởi đầu là một viên nén 333 mg, uống ba lần mỗi ngày Cách dùng Acamprosate Uống nguyên viên, không nhai, không nghiền viên thuốc."
+    ],
+    "rubric": {
+      "case_id": "S1-018",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Acamprosate"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acamprosate.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acamprosate; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Acamprosate cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Do mối liên quan giữa nghiện rượu, trầm cảm và tự tử được công nhận và phức tạp, nên các bệnh nhân nghiện rượu, bao gồm cả những người được điều trị bằng Acamprosate, nên được theo dõi các triệu chứng. Tính an toàn và hiệu quả của acamprosate chưa được thiết lập ở những bệnh nhân dưới 18 tuổi hoặc trên 65 tuổi. Do đó, Acamprosate không được khuyến cáo sử dụng cho những bệnh nhân trong độ tuổi này. Tính an toàn và hiệu quả của Acamprosate chưa được xác định ở bệnh nhân suy gan nặng (Phân loại Childs-Pugh C). Acamprosate không ngăn được tác hại của việc lạm dụng rượu liên tục. Lạm dụng rượu liên tục làm mất đi lợi ích điều trị, do đó việc điều trị bằng Acamprosate chỉ nên được bắt đầu sau khi bệnh nhân đã kiêng rượu.",
+    "reference_contexts": [
+      "Lưu ý chung Do mối liên quan giữa nghiện rượu, trầm cảm và tự tử được công nhận và phức tạp, nên các bệnh nhân nghiện rượu, bao gồm cả những người được điều trị bằng Acamprosate, nên được theo dõi các triệu chứng. Tính an toàn và hiệu quả của acamprosate chưa được thiết lập ở những bệnh nhân dưới 18 tuổi hoặc trên 65 tuổi. Do đó, Acamprosate không được khuyến cáo sử dụng cho những bệnh nhân trong độ tuổi này. Tính an toàn và hiệu quả của Acamprosate chưa được xác định ở bệnh nhân suy gan nặng (Phân loại Childs-Pugh C). Acamprosate không ngăn được tác hại của việc lạm dụng rượu liên tục. Lạm dụng rượu liên tục làm mất đi lợi ích điều trị, do đó việc điều trị bằng Acamprosate chỉ nên được bắt đầu sau khi bệnh nhân đã kiêng rượu."
+    ],
+    "rubric": {
+      "case_id": "S1-019",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Acamprosate"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acamprosate.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acamprosate; careful"
+    }
+  },
+  {
+    "user_input": "Acamprosate có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Thuốc Acamprosate được sử dụng để cai nghiện rượu. Thuốc nên được sử dụng theo phác đồ điều trị bao gồm cả tư vấn và hỗ trợ tâm lý. Liều dùng/cách dùng: Liều dùng cho người lớn Người lớn từ 18 – 65 tuổi: 2 viên/lần x 3 lần/ngày trong bữa ăn (2 viên sáng, trưa, tối) ở đối tượng cân nặng từ 60kg trở lên. Đối tượng cân nặng dưới 60kg, ngày uống 4 viên chia làm ba lần trong bữa ăn (2 viên vào buổi sáng, 1 viên vào buổi trưa và 1 viên vào buổi tối). Thời gian điều trị khuyến nghị là một năm. Điều trị bằng acamprosate nên được bắt đầu càng sớm càng tốt sau thời gian ngừng thuốc và nên duy trì nếu bệnh nhân tái phát. Đối với bệnh nhân suy thận mức độ trung bình (độ thanh thải creatinin 30-50 mL/phút), liều khởi đầu là một viên nén 333 mg, uống ba lần mỗi ngày Cách dùng Acamprosate Uống nguyên viên, không nhai, không nghiền viên thuốc.",
+    "reference_contexts": [
+      "Thuốc Acamprosate được sử dụng để cai nghiện rượu. Thuốc nên được sử dụng theo phác đồ điều trị bao gồm cả tư vấn và hỗ trợ tâm lý.",
+      "Liều dùng cho người lớn Người lớn từ 18 – 65 tuổi: 2 viên/lần x 3 lần/ngày trong bữa ăn (2 viên sáng, trưa, tối) ở đối tượng cân nặng từ 60kg trở lên. Đối tượng cân nặng dưới 60kg, ngày uống 4 viên chia làm ba lần trong bữa ăn (2 viên vào buổi sáng, 1 viên vào buổi trưa và 1 viên vào buổi tối). Thời gian điều trị khuyến nghị là một năm. Điều trị bằng acamprosate nên được bắt đầu càng sớm càng tốt sau thời gian ngừng thuốc và nên duy trì nếu bệnh nhân tái phát. Đối với bệnh nhân suy thận mức độ trung bình (độ thanh thải creatinin 30-50 mL/phút), liều khởi đầu là một viên nén 333 mg, uống ba lần mỗi ngày Cách dùng Acamprosate Uống nguyên viên, không nhai, không nghiền viên thuốc."
+    ],
+    "rubric": {
+      "case_id": "S1-020",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Acamprosate"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acamprosate.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acamprosate; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Acarbose được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Đơn trị liệu: Như một thuốc phụ trợ chế độ ăn và tập luyện để điều trị đái tháo đường type 2 (không phụ thuộc insulin) ở người tăng glucose máu (đặc biệt tăng glucose máu sau khi ăn) không kiểm soát được chỉ bằng chế độ ăn và tập luyện. Thuốc có thể phối hợp với các nhóm thuốc khác (sulfonylurê hoặc biguanid hoặc insulin) với chế độ ăn và tập luyện để đạt được mục tiêu điều trị đái tháo đường type 2.",
+    "reference_contexts": [
+      "Đơn trị liệu: Như một thuốc phụ trợ chế độ ăn và tập luyện để điều trị đái tháo đường type 2 (không phụ thuộc insulin) ở người tăng glucose máu (đặc biệt tăng glucose máu sau khi ăn) không kiểm soát được chỉ bằng chế độ ăn và tập luyện. Thuốc có thể phối hợp với các nhóm thuốc khác (sulfonylurê hoặc biguanid hoặc insulin) với chế độ ăn và tập luyện để đạt được mục tiêu điều trị đái tháo đường type 2."
+    ],
+    "rubric": {
+      "case_id": "S1-021",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Acarbose"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acarbose.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acarbose; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Acarbose như thế nào?",
+    "reference": "Liều dùng/cách dùng: Liều dùng Người lớn Liều ban đầu: 25 mg/lần, 3 lần/ngày cùng với miếng ăn đầu tiên của mỗi bữa chính. Nhưng để giảm bớt các triệu chứng về tiêu hóa, có thể bắt đầu 25 mg uống một lần mỗi ngày, rồi tăng dần liều cho tới 25 mg/lần, uống 3 lần/ngày, nếu dung nạp được. Liều duy trì: Khi đã đạt được liều 25 mg/lần, ngày uống 3 lần, thì cứ cách 4 - 8 tuần lại điều chỉnh liều, dựa theo nồng độ glucose huyết 1 giờ sau bữa ăn và khả năng dung nạp thuốc. Liều duy trì thường dao động từ 50 -100 mg/lần, ngày uống 3 lần.",
+    "reference_contexts": [
+      "Liều dùng Người lớn Liều ban đầu: 25 mg/lần, 3 lần/ngày cùng với miếng ăn đầu tiên của mỗi bữa chính. Nhưng để giảm bớt các triệu chứng về tiêu hóa, có thể bắt đầu 25 mg uống một lần mỗi ngày, rồi tăng dần liều cho tới 25 mg/lần, uống 3 lần/ngày, nếu dung nạp được. Liều duy trì: Khi đã đạt được liều 25 mg/lần, ngày uống 3 lần, thì cứ cách 4 - 8 tuần lại điều chỉnh liều, dựa theo nồng độ glucose huyết 1 giờ sau bữa ăn và khả năng dung nạp thuốc. Liều duy trì thường dao động từ 50 -100 mg/lần, ngày uống 3 lần."
+    ],
+    "rubric": {
+      "case_id": "S1-022",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Acarbose"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acarbose.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acarbose; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Acarbose cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Vì có những trường hợp tăng enzym gan nên cần theo dõi transaminase gan trong quá trình điều trị bằng acarbose. Có thể xảy ra hạ glucose máu khi dùng acarbose đồng thời với một thuốc chống đái tháo đường sulfonylurê và/hoặc insulin. Khi điều trị hạ glucose máu, phải dùng glucose uống (dextrose) mà không dùng sucrose (đường trắng) vì hấp thu glucose không bị ức chế bởi acarbose. Acarbose không có tác dụng khi dùng đơn độc ở những người bệnh đái tháo đường có biến chứng nhiễm toan, tăng ceton hoặc hôn mê; hoặc khi bị một stress (như sốt cao, chấn thương, phẫu thuật...), ở những trường hợp này, phải dùng insulin. Lưu ý với phụ nữ có thai Chưa xác định được độ an toàn ở người mang thai. Nên dùng insulin trong thời kỳ mang thai để duy trì glucose máu càng gần bình thường càng tốt.",
+    "reference_contexts": [
+      "Lưu ý chung Vì có những trường hợp tăng enzym gan nên cần theo dõi transaminase gan trong quá trình điều trị bằng acarbose. Có thể xảy ra hạ glucose máu khi dùng acarbose đồng thời với một thuốc chống đái tháo đường sulfonylurê và/hoặc insulin. Khi điều trị hạ glucose máu, phải dùng glucose uống (dextrose) mà không dùng sucrose (đường trắng) vì hấp thu glucose không bị ức chế bởi acarbose. Acarbose không có tác dụng khi dùng đơn độc ở những người bệnh đái tháo đường có biến chứng nhiễm toan, tăng ceton hoặc hôn mê; hoặc khi bị một stress (như sốt cao, chấn thương, phẫu thuật...), ở những trường hợp này, phải dùng insulin. Lưu ý với phụ nữ có thai Chưa xác định được độ an toàn ở người mang thai. Nên dùng insulin trong thời kỳ mang thai để duy trì glucose máu càng gần bình thường càng tốt."
+    ],
+    "rubric": {
+      "case_id": "S1-023",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Acarbose"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acarbose.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acarbose; careful"
+    }
+  },
+  {
+    "user_input": "Acarbose có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Đơn trị liệu: Như một thuốc phụ trợ chế độ ăn và tập luyện để điều trị đái tháo đường type 2 (không phụ thuộc insulin) ở người tăng glucose máu (đặc biệt tăng glucose máu sau khi ăn) không kiểm soát được chỉ bằng chế độ ăn và tập luyện. Thuốc có thể phối hợp với các nhóm thuốc khác (sulfonylurê hoặc biguanid hoặc insulin) với chế độ ăn và tập luyện để đạt được mục tiêu điều trị đái tháo đường type 2. Liều dùng/cách dùng: Liều dùng Người lớn Liều ban đầu: 25 mg/lần, 3 lần/ngày cùng với miếng ăn đầu tiên của mỗi bữa chính. Nhưng để giảm bớt các triệu chứng về tiêu hóa, có thể bắt đầu 25 mg uống một lần mỗi ngày, rồi tăng dần liều cho tới 25 mg/lần, uống 3 lần/ngày, nếu dung nạp được. Liều duy trì: Khi đã đạt được liều 25 mg/lần, ngày uống 3 lần, thì cứ cách 4 - 8 tuần lại điều chỉnh liều, dựa theo nồng độ glucose huyết 1 giờ sau bữa ăn và khả năng dung nạp thuốc. Liều duy trì thường dao động từ 50 -100 mg/lần, ngày uống 3 lần.",
+    "reference_contexts": [
+      "Đơn trị liệu: Như một thuốc phụ trợ chế độ ăn và tập luyện để điều trị đái tháo đường type 2 (không phụ thuộc insulin) ở người tăng glucose máu (đặc biệt tăng glucose máu sau khi ăn) không kiểm soát được chỉ bằng chế độ ăn và tập luyện. Thuốc có thể phối hợp với các nhóm thuốc khác (sulfonylurê hoặc biguanid hoặc insulin) với chế độ ăn và tập luyện để đạt được mục tiêu điều trị đái tháo đường type 2.",
+      "Liều dùng Người lớn Liều ban đầu: 25 mg/lần, 3 lần/ngày cùng với miếng ăn đầu tiên của mỗi bữa chính. Nhưng để giảm bớt các triệu chứng về tiêu hóa, có thể bắt đầu 25 mg uống một lần mỗi ngày, rồi tăng dần liều cho tới 25 mg/lần, uống 3 lần/ngày, nếu dung nạp được. Liều duy trì: Khi đã đạt được liều 25 mg/lần, ngày uống 3 lần, thì cứ cách 4 - 8 tuần lại điều chỉnh liều, dựa theo nồng độ glucose huyết 1 giờ sau bữa ăn và khả năng dung nạp thuốc. Liều duy trì thường dao động từ 50 -100 mg/lần, ngày uống 3 lần."
+    ],
+    "rubric": {
+      "case_id": "S1-024",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Acarbose"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acarbose.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acarbose; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Acebutolol được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Tăng huyết áp : Dùng đơn độc hoặc phối hợp với các thuốc chống tăng huyết áp nhóm khác. Acebutolol là một trong một số các thuốc chống tăng huyết áp được ưa dùng để điều trị ban đầu tăng huyết áp ở người suy tim, sau nhồi máu cơ tim, bệnh mạch vành có nguy cơ cao và/hoặc đái tháo đường, suy thận mạn . Loạn nhịp thất : Acebutolol điều trị và dự phòng tái phát các ngoại tâm thu thất bao gồm các loại ngoại tâm thu đơn dạng và đa dạng, và/hoặc ngoại tâm thu ghép và các phức hợp R-trên-T. Ở người bị loạn nhịp tim tiên phát hoặc thứ phát sau các bệnh tim như bệnh động mạch vành, nhồi máu cơ tim, bệnh van tim. Loạn nhịp trên thất : Cũng đã được chỉ định, nhưng chưa được đánh giá đầy đủ.",
+    "reference_contexts": [
+      "Tăng huyết áp : Dùng đơn độc hoặc phối hợp với các thuốc chống tăng huyết áp nhóm khác. Acebutolol là một trong một số các thuốc chống tăng huyết áp được ưa dùng để điều trị ban đầu tăng huyết áp ở người suy tim, sau nhồi máu cơ tim, bệnh mạch vành có nguy cơ cao và/hoặc đái tháo đường, suy thận mạn . Loạn nhịp thất : Acebutolol điều trị và dự phòng tái phát các ngoại tâm thu thất bao gồm các loại ngoại tâm thu đơn dạng và đa dạng, và/hoặc ngoại tâm thu ghép và các phức hợp R-trên-T. Ở người bị loạn nhịp tim tiên phát hoặc thứ phát sau các bệnh tim như bệnh động mạch vành, nhồi máu cơ tim, bệnh van tim. Loạn nhịp trên thất : Cũng đã được chỉ định, nhưng chưa được đánh giá đầy đủ."
+    ],
+    "rubric": {
+      "case_id": "S1-025",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Acebutolol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acebutolol.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acebutolol; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Acebutolol như thế nào?",
+    "reference": "Liều dùng/cách dùng: Người lớn Tăng huyết áp : Liều uống khởi đầu 400 mg một lần/ngày hoặc 200 mg x 2 lần/ngày. Nếu chưa kiểm soát sau 2 tuần, tăng 400 mg x 2 lần/ngày. Trong trường hợp nặng, có thể tăng liều tối đa 1,2 g/ngày, chia thành nhiều liều nhỏ. Ðau thắt ngực: Liều uống khởi đầu 400 mg/lần/ngày hoặc 200 mg x 2 lần/ngày. Trong trường hợp nặng, dùng 300 mg x 3 lần/ngày. Tổng liều tối đa 1,2 g/ngày nếu cần thiết. Khi giảm liều phải giảm dần như khi tăng liều. Loạn nhịp: Liều uống khởi đầu là 200 mg x 2 lần/ngày, hiệu chỉnh tăng dần theo đáp ứng, lên đến 1,2 g/ngày. Chia liều nhỏ sẽ kiểm soát bệnh tốt hơn dùng đơn liều trong ngày. Trẻ em Độ an toàn và hiệu quả của thuốc Acebutolol trên trẻ em chưa được thiết lập.",
+    "reference_contexts": [
+      "Người lớn Tăng huyết áp : Liều uống khởi đầu 400 mg một lần/ngày hoặc 200 mg x 2 lần/ngày. Nếu chưa kiểm soát sau 2 tuần, tăng 400 mg x 2 lần/ngày. Trong trường hợp nặng, có thể tăng liều tối đa 1,2 g/ngày, chia thành nhiều liều nhỏ. Ðau thắt ngực: Liều uống khởi đầu 400 mg/lần/ngày hoặc 200 mg x 2 lần/ngày. Trong trường hợp nặng, dùng 300 mg x 3 lần/ngày. Tổng liều tối đa 1,2 g/ngày nếu cần thiết. Khi giảm liều phải giảm dần như khi tăng liều. Loạn nhịp: Liều uống khởi đầu là 200 mg x 2 lần/ngày, hiệu chỉnh tăng dần theo đáp ứng, lên đến 1,2 g/ngày. Chia liều nhỏ sẽ kiểm soát bệnh tốt hơn dùng đơn liều trong ngày. Trẻ em Độ an toàn và hiệu quả của thuốc Acebutolol trên trẻ em chưa được thiết lập."
+    ],
+    "rubric": {
+      "case_id": "S1-026",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Acebutolol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acebutolol.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acebutolol; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Acebutolol cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Thận trọng trên bệnh nhân suy gan , rất thận trọng khi bệnh nhân đau thắt ngực kiểu Prinzmetal. Suy thận: Cần thận trọng khi sử dụng Acebutolol liều cao trên bệnh nhân suy thận nặng để tránh tích lũy thuốc. Bệnh lý co thắt phế quản: Không nên sử dụng các thuốc chẹn beta giao cảm cho người có bệnh lý co thắt phế quản. Lưu ý do tác dụng chẹn chọn lọc beta 1 không hoàn toàn và phụ thuộc liều, nếu bắt buộc phải sử dụng acebutolol trên bệnh nhân có bệnh lý co thắt phế quản, cần bắt đầu với liều thấp, chia nhỏ liều và chuẩn bị sẵn các thuốc giãn phế quản để xử trí khi cần thiết. Suy tim:",
+    "reference_contexts": [
+      "Lưu ý chung Thận trọng trên bệnh nhân suy gan , rất thận trọng khi bệnh nhân đau thắt ngực kiểu Prinzmetal. Suy thận: Cần thận trọng khi sử dụng Acebutolol liều cao trên bệnh nhân suy thận nặng để tránh tích lũy thuốc. Bệnh lý co thắt phế quản: Không nên sử dụng các thuốc chẹn beta giao cảm cho người có bệnh lý co thắt phế quản. Lưu ý do tác dụng chẹn chọn lọc beta 1 không hoàn toàn và phụ thuộc liều, nếu bắt buộc phải sử dụng acebutolol trên bệnh nhân có bệnh lý co thắt phế quản, cần bắt đầu với liều thấp, chia nhỏ liều và chuẩn bị sẵn các thuốc giãn phế quản để xử trí khi cần thiết. Suy tim:"
+    ],
+    "rubric": {
+      "case_id": "S1-027",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Acebutolol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acebutolol.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acebutolol; careful"
+    }
+  },
+  {
+    "user_input": "Acebutolol có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Tăng huyết áp : Dùng đơn độc hoặc phối hợp với các thuốc chống tăng huyết áp nhóm khác. Acebutolol là một trong một số các thuốc chống tăng huyết áp được ưa dùng để điều trị ban đầu tăng huyết áp ở người suy tim, sau nhồi máu cơ tim, bệnh mạch vành có nguy cơ cao và/hoặc đái tháo đường, suy thận mạn . Loạn nhịp thất : Acebutolol điều trị và dự phòng tái phát các ngoại tâm thu thất bao gồm các loại ngoại tâm thu đơn dạng và đa dạng, và/hoặc ngoại tâm thu ghép và các phức hợp R-trên-T. Ở người bị loạn nhịp tim tiên phát hoặc thứ phát sau các bệnh tim như bệnh động mạch vành, nhồi máu cơ tim, bệnh van tim. Loạn nhịp trên thất : Cũng đã được chỉ định, nhưng chưa được đánh giá đầy đủ. Liều dùng/cách dùng: Người lớn Tăng huyết áp : Liều uống khởi đầu 400 mg một lần/ngày hoặc 200 mg x 2 lần/ngày. Nếu chưa kiểm soát sau 2 tuần, tăng 400 mg x 2 lần/ngày. Trong trường hợp nặng, có thể tăng liều tối đa 1,2 g/ngày, chia thành nhiều liều nhỏ. Ðau thắt ngực: Liều uống khởi đầu 400 mg/lần/ngày hoặc 200 mg x 2 lần/ngày. Trong trường hợp nặng, dùng 300 mg x 3 lần/ngày. Tổng liều tối đa 1,2 g/ngày nếu cần thiết. Khi giảm liều phải giảm dần như khi tăng liều. Loạn nhịp: Liều uống khởi đầu là 200 mg x 2 lần/ngày, hiệu chỉnh tăng dần theo đáp ứng, lên đến 1,2 g/ngày. Chia liều nhỏ sẽ kiểm soát bệnh tốt hơn dùng đơn liều trong ngày. Trẻ em Độ an toàn và hiệu quả của thuốc Acebutolol trên trẻ em chưa được thiết lập.",
+    "reference_contexts": [
+      "Tăng huyết áp : Dùng đơn độc hoặc phối hợp với các thuốc chống tăng huyết áp nhóm khác. Acebutolol là một trong một số các thuốc chống tăng huyết áp được ưa dùng để điều trị ban đầu tăng huyết áp ở người suy tim, sau nhồi máu cơ tim, bệnh mạch vành có nguy cơ cao và/hoặc đái tháo đường, suy thận mạn . Loạn nhịp thất : Acebutolol điều trị và dự phòng tái phát các ngoại tâm thu thất bao gồm các loại ngoại tâm thu đơn dạng và đa dạng, và/hoặc ngoại tâm thu ghép và các phức hợp R-trên-T. Ở người bị loạn nhịp tim tiên phát hoặc thứ phát sau các bệnh tim như bệnh động mạch vành, nhồi máu cơ tim, bệnh van tim. Loạn nhịp trên thất : Cũng đã được chỉ định, nhưng chưa được đánh giá đầy đủ.",
+      "Người lớn Tăng huyết áp : Liều uống khởi đầu 400 mg một lần/ngày hoặc 200 mg x 2 lần/ngày. Nếu chưa kiểm soát sau 2 tuần, tăng 400 mg x 2 lần/ngày. Trong trường hợp nặng, có thể tăng liều tối đa 1,2 g/ngày, chia thành nhiều liều nhỏ. Ðau thắt ngực: Liều uống khởi đầu 400 mg/lần/ngày hoặc 200 mg x 2 lần/ngày. Trong trường hợp nặng, dùng 300 mg x 3 lần/ngày. Tổng liều tối đa 1,2 g/ngày nếu cần thiết. Khi giảm liều phải giảm dần như khi tăng liều. Loạn nhịp: Liều uống khởi đầu là 200 mg x 2 lần/ngày, hiệu chỉnh tăng dần theo đáp ứng, lên đến 1,2 g/ngày. Chia liều nhỏ sẽ kiểm soát bệnh tốt hơn dùng đơn liều trong ngày. Trẻ em Độ an toàn và hiệu quả của thuốc Acebutolol trên trẻ em chưa được thiết lập."
+    ],
+    "rubric": {
+      "case_id": "S1-028",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Acebutolol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acebutolol.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acebutolol; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Aceclofenac được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Giảm đau và viêm trong viêm xương khớp, viêm khớp dạng thấp và viêm cột sống dính khớp.",
+    "reference_contexts": [
+      "Giảm đau và viêm trong viêm xương khớp, viêm khớp dạng thấp và viêm cột sống dính khớp."
+    ],
+    "rubric": {
+      "case_id": "S1-029",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Aceclofenac"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/aceclofenac.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Aceclofenac; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Aceclofenac như thế nào?",
+    "reference": "Liều dùng/cách dùng: Liều dùng Aceclofenac Người lớn Liều lượng: 100 mg/lần x 2 lần/ngày, uống vào buổi sáng và buổi tối. Trẻ em Không khuyến cáo chỉ định cho trẻ em dưới 18 tuổi. Người cao tuổi Không cần chỉnh liều. Suy thận Không cần chỉnh liều cho bệnh nhân suy thận nhẹ. Suy gan Liều lượng: 100 mg/ngày. Cách dùng Uống nguyên viên thuốc với một cốc nước. Không nghiền nát hoặc nhai viên thuốc. Nên uống thuốc cùng thức ăn hoặc ngay sau khi ăn.",
+    "reference_contexts": [
+      "Liều dùng Aceclofenac Người lớn Liều lượng: 100 mg/lần x 2 lần/ngày, uống vào buổi sáng và buổi tối. Trẻ em Không khuyến cáo chỉ định cho trẻ em dưới 18 tuổi. Người cao tuổi Không cần chỉnh liều. Suy thận Không cần chỉnh liều cho bệnh nhân suy thận nhẹ. Suy gan Liều lượng: 100 mg/ngày. Cách dùng Uống nguyên viên thuốc với một cốc nước. Không nghiền nát hoặc nhai viên thuốc. Nên uống thuốc cùng thức ăn hoặc ngay sau khi ăn."
+    ],
+    "rubric": {
+      "case_id": "S1-030",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Aceclofenac"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/aceclofenac.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Aceclofenac; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Aceclofenac cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Tránh sử dụng đồng thời aceclofenac với NSAID kể cả các thuốc ức chế chọn lọc cyclooxygenase - 2. Người cao tuổi thường bị suy giảm chức năng đa cơ quan (thận, tim, gan), đồng mắc nhiều bệnh và dùng đồng thời nhiều thuốc (kể cả thực phẩm chức năng và thuốc dược liệu). Vì vậy, nguy cơ gặp các phản ứng có hại cũng như mức độ nghiêm trọng khi dùng NSAID cũng cao hơn các nhóm khác, đặc biệt là xuất huyết tiêu hóa và thủng dạ dày có thể dẫn đến tử vong. Aceclofenac có thể gây co thắt phế quản ở những bệnh nhân đang mắc hoặc có tiền sử hen phế quản.",
+    "reference_contexts": [
+      "Lưu ý chung Tránh sử dụng đồng thời aceclofenac với NSAID kể cả các thuốc ức chế chọn lọc cyclooxygenase - 2. Người cao tuổi thường bị suy giảm chức năng đa cơ quan (thận, tim, gan), đồng mắc nhiều bệnh và dùng đồng thời nhiều thuốc (kể cả thực phẩm chức năng và thuốc dược liệu). Vì vậy, nguy cơ gặp các phản ứng có hại cũng như mức độ nghiêm trọng khi dùng NSAID cũng cao hơn các nhóm khác, đặc biệt là xuất huyết tiêu hóa và thủng dạ dày có thể dẫn đến tử vong. Aceclofenac có thể gây co thắt phế quản ở những bệnh nhân đang mắc hoặc có tiền sử hen phế quản."
+    ],
+    "rubric": {
+      "case_id": "S1-031",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Aceclofenac"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/aceclofenac.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Aceclofenac; careful"
+    }
+  },
+  {
+    "user_input": "Aceclofenac có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Giảm đau và viêm trong viêm xương khớp, viêm khớp dạng thấp và viêm cột sống dính khớp. Liều dùng/cách dùng: Liều dùng Aceclofenac Người lớn Liều lượng: 100 mg/lần x 2 lần/ngày, uống vào buổi sáng và buổi tối. Trẻ em Không khuyến cáo chỉ định cho trẻ em dưới 18 tuổi. Người cao tuổi Không cần chỉnh liều. Suy thận Không cần chỉnh liều cho bệnh nhân suy thận nhẹ. Suy gan Liều lượng: 100 mg/ngày. Cách dùng Uống nguyên viên thuốc với một cốc nước. Không nghiền nát hoặc nhai viên thuốc. Nên uống thuốc cùng thức ăn hoặc ngay sau khi ăn.",
+    "reference_contexts": [
+      "Giảm đau và viêm trong viêm xương khớp, viêm khớp dạng thấp và viêm cột sống dính khớp.",
+      "Liều dùng Aceclofenac Người lớn Liều lượng: 100 mg/lần x 2 lần/ngày, uống vào buổi sáng và buổi tối. Trẻ em Không khuyến cáo chỉ định cho trẻ em dưới 18 tuổi. Người cao tuổi Không cần chỉnh liều. Suy thận Không cần chỉnh liều cho bệnh nhân suy thận nhẹ. Suy gan Liều lượng: 100 mg/ngày. Cách dùng Uống nguyên viên thuốc với một cốc nước. Không nghiền nát hoặc nhai viên thuốc. Nên uống thuốc cùng thức ăn hoặc ngay sau khi ăn."
+    ],
+    "rubric": {
+      "case_id": "S1-032",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Aceclofenac"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/aceclofenac.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Aceclofenac; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Acemetacin được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Viêm khớp dạng thấp , viêm xương khớp, đau thắt lưng, đau và viêm sau phẫu thuật. Viêm cột sống dính khớp .",
+    "reference_contexts": [
+      "Viêm khớp dạng thấp , viêm xương khớp, đau thắt lưng, đau và viêm sau phẫu thuật. Viêm cột sống dính khớp ."
+    ],
+    "rubric": {
+      "case_id": "S1-033",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Acemetacin"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acemetacin.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acemetacin; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Acemetacin như thế nào?",
+    "reference": "Liều dùng/cách dùng: Liều dùng Acemetacin Người lớn Dạng phóng thích tức thời: Liều khởi đầu: 120 mg/ngày chia làm nhiều lần, có thể tăng lên 180 mg/ngày chia làm nhiều lần, tùy theo đáp ứng. Dạng phóng thích chậm: Dùng 1- 2 viên tùy theo đáp ứng. Thời gian điều trị không được quá 7 ngày, trừ trường hợp viêm khớp dạng thấp, bệnh nhân có thể cần dùng trong khoảng thời gian dài Giảm đau trong cơn gout cấp: 180 mg/ngày, cho đến khi hết các triệu chứng. Liều cao hơn: khởi đầu 120 mg, sau đó dùng 60 mg mỗi 6 giờ có thể được chỉ định trong trường hợp bệnh nhân không có tổn thương đường tiêu hóa từ trước. Liều tối đa là 300 mg trong 24 giờ. Đối tượng khác Người cao tuổi: Có nguy cơ bị các hậu quả nghiêm trọng của các phản ứng có hại, đặc biệt là trên đường tiêu hóa.",
+    "reference_contexts": [
+      "Liều dùng Acemetacin Người lớn Dạng phóng thích tức thời: Liều khởi đầu: 120 mg/ngày chia làm nhiều lần, có thể tăng lên 180 mg/ngày chia làm nhiều lần, tùy theo đáp ứng. Dạng phóng thích chậm: Dùng 1- 2 viên tùy theo đáp ứng. Thời gian điều trị không được quá 7 ngày, trừ trường hợp viêm khớp dạng thấp, bệnh nhân có thể cần dùng trong khoảng thời gian dài Giảm đau trong cơn gout cấp: 180 mg/ngày, cho đến khi hết các triệu chứng. Liều cao hơn: khởi đầu 120 mg, sau đó dùng 60 mg mỗi 6 giờ có thể được chỉ định trong trường hợp bệnh nhân không có tổn thương đường tiêu hóa từ trước. Liều tối đa là 300 mg trong 24 giờ. Đối tượng khác Người cao tuổi: Có nguy cơ bị các hậu quả nghiêm trọng của các phản ứng có hại, đặc biệt là trên đường tiêu hóa."
+    ],
+    "rubric": {
+      "case_id": "S1-034",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Acemetacin"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acemetacin.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acemetacin; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Acemetacin cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Sử dụng liều thấp nhất có hiệu quả trong thời gian ngắn nhất để kiểm soát các triệu chứng nhằm giảm thiểu tác dụng phụ. Nên tránh sử dụng acemetacin đồng thời với NSAIDS kể cả các chất ức chế chọn lọc cyclooxygenase-2. Người cao tuổi Người cao tuổi có tần suất gia tăng các phản ứng có hại với NSAID, đặc biệt là xuất huyết tiêu hóa và thủng dạ dày có thể gây tử vong. Rối loạn hô hấp Cần thận trọng nếu dùng Acemetacin cho bệnh nhân bị hen hoặc có tiền sử hen phế quản vì NSAID gây co thắt phế quản ở những bệnh nhân này. Những bệnh nhân bị hen phế quản, sưng niêm mạc mũi hoặc bệnh hô hấp mạn tính có nguy cơ đặc biệt bị phản ứng quá mẫn với triệu chứng như tái phát cơn hen, phù khu trú da hay niêm mạc, nổi mề đay.",
+    "reference_contexts": [
+      "Lưu ý chung Sử dụng liều thấp nhất có hiệu quả trong thời gian ngắn nhất để kiểm soát các triệu chứng nhằm giảm thiểu tác dụng phụ. Nên tránh sử dụng acemetacin đồng thời với NSAIDS kể cả các chất ức chế chọn lọc cyclooxygenase-2. Người cao tuổi Người cao tuổi có tần suất gia tăng các phản ứng có hại với NSAID, đặc biệt là xuất huyết tiêu hóa và thủng dạ dày có thể gây tử vong. Rối loạn hô hấp Cần thận trọng nếu dùng Acemetacin cho bệnh nhân bị hen hoặc có tiền sử hen phế quản vì NSAID gây co thắt phế quản ở những bệnh nhân này. Những bệnh nhân bị hen phế quản, sưng niêm mạc mũi hoặc bệnh hô hấp mạn tính có nguy cơ đặc biệt bị phản ứng quá mẫn với triệu chứng như tái phát cơn hen, phù khu trú da hay niêm mạc, nổi mề đay."
+    ],
+    "rubric": {
+      "case_id": "S1-035",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Acemetacin"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acemetacin.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acemetacin; careful"
+    }
+  },
+  {
+    "user_input": "Acemetacin có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Viêm khớp dạng thấp , viêm xương khớp, đau thắt lưng, đau và viêm sau phẫu thuật. Viêm cột sống dính khớp . Liều dùng/cách dùng: Liều dùng Acemetacin Người lớn Dạng phóng thích tức thời: Liều khởi đầu: 120 mg/ngày chia làm nhiều lần, có thể tăng lên 180 mg/ngày chia làm nhiều lần, tùy theo đáp ứng. Dạng phóng thích chậm: Dùng 1- 2 viên tùy theo đáp ứng. Thời gian điều trị không được quá 7 ngày, trừ trường hợp viêm khớp dạng thấp, bệnh nhân có thể cần dùng trong khoảng thời gian dài Giảm đau trong cơn gout cấp: 180 mg/ngày, cho đến khi hết các triệu chứng. Liều cao hơn: khởi đầu 120 mg, sau đó dùng 60 mg mỗi 6 giờ có thể được chỉ định trong trường hợp bệnh nhân không có tổn thương đường tiêu hóa từ trước. Liều tối đa là 300 mg trong 24 giờ. Đối tượng khác Người cao tuổi: Có nguy cơ bị các hậu quả nghiêm trọng của các phản ứng có hại, đặc biệt là trên đường tiêu hóa.",
+    "reference_contexts": [
+      "Viêm khớp dạng thấp , viêm xương khớp, đau thắt lưng, đau và viêm sau phẫu thuật. Viêm cột sống dính khớp .",
+      "Liều dùng Acemetacin Người lớn Dạng phóng thích tức thời: Liều khởi đầu: 120 mg/ngày chia làm nhiều lần, có thể tăng lên 180 mg/ngày chia làm nhiều lần, tùy theo đáp ứng. Dạng phóng thích chậm: Dùng 1- 2 viên tùy theo đáp ứng. Thời gian điều trị không được quá 7 ngày, trừ trường hợp viêm khớp dạng thấp, bệnh nhân có thể cần dùng trong khoảng thời gian dài Giảm đau trong cơn gout cấp: 180 mg/ngày, cho đến khi hết các triệu chứng. Liều cao hơn: khởi đầu 120 mg, sau đó dùng 60 mg mỗi 6 giờ có thể được chỉ định trong trường hợp bệnh nhân không có tổn thương đường tiêu hóa từ trước. Liều tối đa là 300 mg trong 24 giờ. Đối tượng khác Người cao tuổi: Có nguy cơ bị các hậu quả nghiêm trọng của các phản ứng có hại, đặc biệt là trên đường tiêu hóa."
+    ],
+    "rubric": {
+      "case_id": "S1-036",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Acemetacin"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acemetacin.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acemetacin; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Acenocoumarol được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Thuốc Acenocoumarol chỉ định điều trị trong các trường hợp sau: Bệnh tim gây tắc mạch: Dự phòng biến chứng huyết khối tắc mạch do rung nhĩ, bệnh van hai lá, van nhân tạo. Nhồi máu cơ tim : Dự phòng biến chứng huyết khối tắc mạch trong nhồi máu cơ tim biến chứng như huyết khối trên thành tim, rối loạn chức năng thất trái nặng, loạn động thất trái gây tắc mạch khi điều trị tiếp thay cho heparin. Dự phòng tái phát nhồi máu cơ tim khi không dùng được aspirin. Điều trị huyết khối tĩnh mạch sâu, nghẽn mạch phổi và dự phòng tái phát khi thay thế tiếp cho heparin. Dự phòng huyết khối tĩnh mạch, nghẽn mạch phổi trong phẫu thuật khớp háng. Dự phòng huyết khối trong ống thông.",
+    "reference_contexts": [
+      "Thuốc Acenocoumarol chỉ định điều trị trong các trường hợp sau: Bệnh tim gây tắc mạch: Dự phòng biến chứng huyết khối tắc mạch do rung nhĩ, bệnh van hai lá, van nhân tạo. Nhồi máu cơ tim : Dự phòng biến chứng huyết khối tắc mạch trong nhồi máu cơ tim biến chứng như huyết khối trên thành tim, rối loạn chức năng thất trái nặng, loạn động thất trái gây tắc mạch khi điều trị tiếp thay cho heparin. Dự phòng tái phát nhồi máu cơ tim khi không dùng được aspirin. Điều trị huyết khối tĩnh mạch sâu, nghẽn mạch phổi và dự phòng tái phát khi thay thế tiếp cho heparin. Dự phòng huyết khối tĩnh mạch, nghẽn mạch phổi trong phẫu thuật khớp háng. Dự phòng huyết khối trong ống thông."
+    ],
+    "rubric": {
+      "case_id": "S1-037",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Acenocoumarol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acenocoumarol.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acenocoumarol; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Acenocoumarol như thế nào?",
+    "reference": "Liều dùng/cách dùng: Người lớn Cần điều chỉnh liều nhằm đạt mục đích ngăn cản cơ chế đông máu tới mức không xảy ra huyết khối nhưng tránh được chảy máu tự phát. Liều dùng tuỳ thuộc vào đáp ứng điều trị của từng người. Liều thông thường: Trong ngày đầu là 4 mg/ngày, ngày thứ 2 là 4 - 8 mg/ngày. Liều duy trì từ 1 - 8 mg/ngày tùy đáp ứng sinh học. Việc điều chỉnh thường tiến hành từng nấc 1 mg. Acenocoumarol thường được uống một lần vào cùng một thời điểm mỗi ngày. Cần theo dõi thường xuyên INR ở bệnh nhân sử dụng Acenocoumarol. Lần kiểm tra đầu tiên tiến hành 48 giờ ± 12 giờ sau lần uống thuốc kháng vitamin K đầu tiên để phát hiện sự tăng nhạy cảm của cá nhân.",
+    "reference_contexts": [
+      "Người lớn Cần điều chỉnh liều nhằm đạt mục đích ngăn cản cơ chế đông máu tới mức không xảy ra huyết khối nhưng tránh được chảy máu tự phát. Liều dùng tuỳ thuộc vào đáp ứng điều trị của từng người. Liều thông thường: Trong ngày đầu là 4 mg/ngày, ngày thứ 2 là 4 - 8 mg/ngày. Liều duy trì từ 1 - 8 mg/ngày tùy đáp ứng sinh học. Việc điều chỉnh thường tiến hành từng nấc 1 mg. Acenocoumarol thường được uống một lần vào cùng một thời điểm mỗi ngày. Cần theo dõi thường xuyên INR ở bệnh nhân sử dụng Acenocoumarol. Lần kiểm tra đầu tiên tiến hành 48 giờ ± 12 giờ sau lần uống thuốc kháng vitamin K đầu tiên để phát hiện sự tăng nhạy cảm của cá nhân."
+    ],
+    "rubric": {
+      "case_id": "S1-038",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Acenocoumarol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acenocoumarol.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acenocoumarol; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Acenocoumarol cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Phải lưu ý đến khả năng nhận thức của người bệnh trong quá trình điều trị (nguy cơ uống thuốc nhầm). Hướng dẫn cẩn thận để họ tuân thủ chỉ định chính xác, hiểu rõ nguy cơ và thái độ xử lý, nhất là với người cao tuổi. Phải nhấn mạnh việc uống thuốc đều hàng ngày vào cùng một thời điểm. Phải xét nghiệm kiểm tra tỷ số chuẩn hóa quốc tế (INR) định kỳ và tại cùng một nơi. Trường hợp can thiệp ngoại khoa, phải xem xét kỹ để điều chỉnh hoặc tạm ngừng dùng thuốc chống đông (căn cứ vào nguy cơ huyết khối của người bệnh và nguy cơ chảy máu liên quan đến từng loại phẫu thuật). Theo dõi cẩn thận và điều chỉnh liều cho phù hợp ở người suy thận vừa và nhẹ hoặc hạ protein máu.",
+    "reference_contexts": [
+      "Lưu ý chung Phải lưu ý đến khả năng nhận thức của người bệnh trong quá trình điều trị (nguy cơ uống thuốc nhầm). Hướng dẫn cẩn thận để họ tuân thủ chỉ định chính xác, hiểu rõ nguy cơ và thái độ xử lý, nhất là với người cao tuổi. Phải nhấn mạnh việc uống thuốc đều hàng ngày vào cùng một thời điểm. Phải xét nghiệm kiểm tra tỷ số chuẩn hóa quốc tế (INR) định kỳ và tại cùng một nơi. Trường hợp can thiệp ngoại khoa, phải xem xét kỹ để điều chỉnh hoặc tạm ngừng dùng thuốc chống đông (căn cứ vào nguy cơ huyết khối của người bệnh và nguy cơ chảy máu liên quan đến từng loại phẫu thuật). Theo dõi cẩn thận và điều chỉnh liều cho phù hợp ở người suy thận vừa và nhẹ hoặc hạ protein máu."
+    ],
+    "rubric": {
+      "case_id": "S1-039",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Acenocoumarol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acenocoumarol.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acenocoumarol; careful"
+    }
+  },
+  {
+    "user_input": "Acenocoumarol có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Thuốc Acenocoumarol chỉ định điều trị trong các trường hợp sau: Bệnh tim gây tắc mạch: Dự phòng biến chứng huyết khối tắc mạch do rung nhĩ, bệnh van hai lá, van nhân tạo. Nhồi máu cơ tim : Dự phòng biến chứng huyết khối tắc mạch trong nhồi máu cơ tim biến chứng như huyết khối trên thành tim, rối loạn chức năng thất trái nặng, loạn động thất trái gây tắc mạch khi điều trị tiếp thay cho heparin. Dự phòng tái phát nhồi máu cơ tim khi không dùng được aspirin. Điều trị huyết khối tĩnh mạch sâu, nghẽn mạch phổi và dự phòng tái phát khi thay thế tiếp cho heparin. Dự phòng huyết khối tĩnh mạch, nghẽn mạch phổi trong phẫu thuật khớp háng. Dự phòng huyết khối trong ống thông. Liều dùng/cách dùng: Người lớn Cần điều chỉnh liều nhằm đạt mục đích ngăn cản cơ chế đông máu tới mức không xảy ra huyết khối nhưng tránh được chảy máu tự phát. Liều dùng tuỳ thuộc vào đáp ứng điều trị của từng người. Liều thông thường: Trong ngày đầu là 4 mg/ngày, ngày thứ 2 là 4 - 8 mg/ngày. Liều duy trì từ 1 - 8 mg/ngày tùy đáp ứng sinh học. Việc điều chỉnh thường tiến hành từng nấc 1 mg. Acenocoumarol thường được uống một lần vào cùng một thời điểm mỗi ngày. Cần theo dõi thường xuyên INR ở bệnh nhân sử dụng Acenocoumarol. Lần kiểm tra đầu tiên tiến hành 48 giờ ± 12 giờ sau lần uống thuốc kháng vitamin K đầu tiên để phát hiện sự tăng nhạy cảm của cá nhân.",
+    "reference_contexts": [
+      "Thuốc Acenocoumarol chỉ định điều trị trong các trường hợp sau: Bệnh tim gây tắc mạch: Dự phòng biến chứng huyết khối tắc mạch do rung nhĩ, bệnh van hai lá, van nhân tạo. Nhồi máu cơ tim : Dự phòng biến chứng huyết khối tắc mạch trong nhồi máu cơ tim biến chứng như huyết khối trên thành tim, rối loạn chức năng thất trái nặng, loạn động thất trái gây tắc mạch khi điều trị tiếp thay cho heparin. Dự phòng tái phát nhồi máu cơ tim khi không dùng được aspirin. Điều trị huyết khối tĩnh mạch sâu, nghẽn mạch phổi và dự phòng tái phát khi thay thế tiếp cho heparin. Dự phòng huyết khối tĩnh mạch, nghẽn mạch phổi trong phẫu thuật khớp háng. Dự phòng huyết khối trong ống thông.",
+      "Người lớn Cần điều chỉnh liều nhằm đạt mục đích ngăn cản cơ chế đông máu tới mức không xảy ra huyết khối nhưng tránh được chảy máu tự phát. Liều dùng tuỳ thuộc vào đáp ứng điều trị của từng người. Liều thông thường: Trong ngày đầu là 4 mg/ngày, ngày thứ 2 là 4 - 8 mg/ngày. Liều duy trì từ 1 - 8 mg/ngày tùy đáp ứng sinh học. Việc điều chỉnh thường tiến hành từng nấc 1 mg. Acenocoumarol thường được uống một lần vào cùng một thời điểm mỗi ngày. Cần theo dõi thường xuyên INR ở bệnh nhân sử dụng Acenocoumarol. Lần kiểm tra đầu tiên tiến hành 48 giờ ± 12 giờ sau lần uống thuốc kháng vitamin K đầu tiên để phát hiện sự tăng nhạy cảm của cá nhân."
+    ],
+    "rubric": {
+      "case_id": "S1-040",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Acenocoumarol"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acenocoumarol.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acenocoumarol; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Acetaminophen được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Paracetamol được dùng rộng rãi trong điều trị các chứng đau và sốt từ nhẹ đến vừa.",
+    "reference_contexts": [
+      "Paracetamol được dùng rộng rãi trong điều trị các chứng đau và sốt từ nhẹ đến vừa."
+    ],
+    "rubric": {
+      "case_id": "S1-041",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Acetaminophen"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophen.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acetaminophen; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Acetaminophen như thế nào?",
+    "reference": "Liều dùng/cách dùng: Người lớn Liều uống thường dùng là 0,5 - 1 g/lần, 4 - 6 giờ một lần; tối đa là 4 g/ngày. Đặt trực tràng: 0,5 - 1 g/lần, 4 - 6 giờ một lần, tối đa 4 lần/ngày. Truyền tĩnh mạch trong 15 phút, liều được tính theo cân nặng như sau: Trên 50 kg: Liều một lần là 1 g, cứ cách 4 - 6 giờ truyền một lần, liều tối đa là 4 g/ngày. Dưới 50 kg: Liều một lần là 15 mg/kg, cứ cách 4 - 6 giờ truyền một lần; tối đa là 60 mg/kg/ngày. Không được vượt quá liều tối đa 3 g/ngày ở bệnh nhân nghiện rượu, suy dinh dưỡng mạn, bị mất nước. Trẻ em Đau, sốt: Uống Sơ sinh 28 - 32 tuần chỉnh theo tuổi thai: 20 mg/kg một liều duy nhất; sau đó nếu cần, 10 - 15 mg/kg, cách 8 - 12 giờ, tối đa 30 mg/kg/ngày chia làm nhiều liều nhỏ.",
+    "reference_contexts": [
+      "Người lớn Liều uống thường dùng là 0,5 - 1 g/lần, 4 - 6 giờ một lần; tối đa là 4 g/ngày. Đặt trực tràng: 0,5 - 1 g/lần, 4 - 6 giờ một lần, tối đa 4 lần/ngày. Truyền tĩnh mạch trong 15 phút, liều được tính theo cân nặng như sau: Trên 50 kg: Liều một lần là 1 g, cứ cách 4 - 6 giờ truyền một lần, liều tối đa là 4 g/ngày. Dưới 50 kg: Liều một lần là 15 mg/kg, cứ cách 4 - 6 giờ truyền một lần; tối đa là 60 mg/kg/ngày. Không được vượt quá liều tối đa 3 g/ngày ở bệnh nhân nghiện rượu, suy dinh dưỡng mạn, bị mất nước. Trẻ em Đau, sốt: Uống Sơ sinh 28 - 32 tuần chỉnh theo tuổi thai: 20 mg/kg một liều duy nhất; sau đó nếu cần, 10 - 15 mg/kg, cách 8 - 12 giờ, tối đa 30 mg/kg/ngày chia làm nhiều liều nhỏ."
+    ],
+    "rubric": {
+      "case_id": "S1-042",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Acetaminophen"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophen.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acetaminophen; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Acetaminophen cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Dùng quá liều paracetamol là nguyên nhân chính gây suy gan cấp. Dùng nhiều chế phẩm chứa paracetamol (acetaminophen) đồng thời có thể dẫn đến hậu quả có hại (như quá liều paracetamol). Phản ứng da nghiêm trọng, có khả năng gây tử vong bao gồm hội chứng Stevens-Johnson, hoại tử biểu bì nhiễm độc (TEN), hội chứng ngoại ban mụn mủ toàn thân (AGEP: Acute generalized exanthematous), hội chứng Lyell tuy hiếm nhưng đã xảy ra với paracetamol, thường không phụ thuộc vào tác dụng của các thuốc khác.",
+    "reference_contexts": [
+      "Lưu ý chung Dùng quá liều paracetamol là nguyên nhân chính gây suy gan cấp. Dùng nhiều chế phẩm chứa paracetamol (acetaminophen) đồng thời có thể dẫn đến hậu quả có hại (như quá liều paracetamol). Phản ứng da nghiêm trọng, có khả năng gây tử vong bao gồm hội chứng Stevens-Johnson, hoại tử biểu bì nhiễm độc (TEN), hội chứng ngoại ban mụn mủ toàn thân (AGEP: Acute generalized exanthematous), hội chứng Lyell tuy hiếm nhưng đã xảy ra với paracetamol, thường không phụ thuộc vào tác dụng của các thuốc khác."
+    ],
+    "rubric": {
+      "case_id": "S1-043",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Acetaminophen"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophen.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acetaminophen; careful"
+    }
+  },
+  {
+    "user_input": "Acetaminophen có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Paracetamol được dùng rộng rãi trong điều trị các chứng đau và sốt từ nhẹ đến vừa. Liều dùng/cách dùng: Người lớn Liều uống thường dùng là 0,5 - 1 g/lần, 4 - 6 giờ một lần; tối đa là 4 g/ngày. Đặt trực tràng: 0,5 - 1 g/lần, 4 - 6 giờ một lần, tối đa 4 lần/ngày. Truyền tĩnh mạch trong 15 phút, liều được tính theo cân nặng như sau: Trên 50 kg: Liều một lần là 1 g, cứ cách 4 - 6 giờ truyền một lần, liều tối đa là 4 g/ngày. Dưới 50 kg: Liều một lần là 15 mg/kg, cứ cách 4 - 6 giờ truyền một lần; tối đa là 60 mg/kg/ngày. Không được vượt quá liều tối đa 3 g/ngày ở bệnh nhân nghiện rượu, suy dinh dưỡng mạn, bị mất nước. Trẻ em Đau, sốt: Uống Sơ sinh 28 - 32 tuần chỉnh theo tuổi thai: 20 mg/kg một liều duy nhất; sau đó nếu cần, 10 - 15 mg/kg, cách 8 - 12 giờ, tối đa 30 mg/kg/ngày chia làm nhiều liều nhỏ.",
+    "reference_contexts": [
+      "Paracetamol được dùng rộng rãi trong điều trị các chứng đau và sốt từ nhẹ đến vừa.",
+      "Người lớn Liều uống thường dùng là 0,5 - 1 g/lần, 4 - 6 giờ một lần; tối đa là 4 g/ngày. Đặt trực tràng: 0,5 - 1 g/lần, 4 - 6 giờ một lần, tối đa 4 lần/ngày. Truyền tĩnh mạch trong 15 phút, liều được tính theo cân nặng như sau: Trên 50 kg: Liều một lần là 1 g, cứ cách 4 - 6 giờ truyền một lần, liều tối đa là 4 g/ngày. Dưới 50 kg: Liều một lần là 15 mg/kg, cứ cách 4 - 6 giờ truyền một lần; tối đa là 60 mg/kg/ngày. Không được vượt quá liều tối đa 3 g/ngày ở bệnh nhân nghiện rượu, suy dinh dưỡng mạn, bị mất nước. Trẻ em Đau, sốt: Uống Sơ sinh 28 - 32 tuần chỉnh theo tuổi thai: 20 mg/kg một liều duy nhất; sau đó nếu cần, 10 - 15 mg/kg, cách 8 - 12 giờ, tối đa 30 mg/kg/ngày chia làm nhiều liều nhỏ."
+    ],
+    "rubric": {
+      "case_id": "S1-044",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Acetaminophen"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophen.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acetaminophen; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Acétaminophène được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Paracetamol được dùng rộng rãi trong điều trị các chứng đau và sốt từ nhẹ đến vừa.",
+    "reference_contexts": [
+      "Paracetamol được dùng rộng rãi trong điều trị các chứng đau và sốt từ nhẹ đến vừa."
+    ],
+    "rubric": {
+      "case_id": "S1-045",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Acétaminophène"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophene.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acétaminophène; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Acétaminophène như thế nào?",
+    "reference": "Liều dùng/cách dùng: Người lớn Liều uống thường dùng là 0,5 - 1 g/lần, 4 - 6 giờ một lần; tối đa là 4 g/ngày. Đặt trực tràng: 0,5 - 1 g/lần, 4 - 6 giờ một lần, tối đa 4 lần/ngày. Truyền tĩnh mạch trong 15 phút, liều được tính theo cân nặng như sau: Trên 50 kg: Liều một lần là 1 g, cứ cách 4 - 6 giờ truyền một lần, liều tối đa là 4 g/ngày. Dưới 50 kg: Liều một lần là 15 mg/kg, cứ cách 4 - 6 giờ truyền một lần; tối đa là 60 mg/kg/ngày. Không được vượt quá liều tối đa 3 g/ngày ở bệnh nhân nghiện rượu, suy dinh dưỡng mạn, bị mất nước. Trẻ em Đau, sốt: Uống Sơ sinh 28 - 32 tuần chỉnh theo tuổi thai: 20 mg/kg một liều duy nhất; sau đó nếu cần, 10 - 15 mg/kg, cách 8 - 12 giờ, tối đa 30 mg/kg/ngày chia làm nhiều liều nhỏ.",
+    "reference_contexts": [
+      "Người lớn Liều uống thường dùng là 0,5 - 1 g/lần, 4 - 6 giờ một lần; tối đa là 4 g/ngày. Đặt trực tràng: 0,5 - 1 g/lần, 4 - 6 giờ một lần, tối đa 4 lần/ngày. Truyền tĩnh mạch trong 15 phút, liều được tính theo cân nặng như sau: Trên 50 kg: Liều một lần là 1 g, cứ cách 4 - 6 giờ truyền một lần, liều tối đa là 4 g/ngày. Dưới 50 kg: Liều một lần là 15 mg/kg, cứ cách 4 - 6 giờ truyền một lần; tối đa là 60 mg/kg/ngày. Không được vượt quá liều tối đa 3 g/ngày ở bệnh nhân nghiện rượu, suy dinh dưỡng mạn, bị mất nước. Trẻ em Đau, sốt: Uống Sơ sinh 28 - 32 tuần chỉnh theo tuổi thai: 20 mg/kg một liều duy nhất; sau đó nếu cần, 10 - 15 mg/kg, cách 8 - 12 giờ, tối đa 30 mg/kg/ngày chia làm nhiều liều nhỏ."
+    ],
+    "rubric": {
+      "case_id": "S1-046",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Acétaminophène"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophene.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acétaminophène; dosage"
+    }
+  },
+  {
+    "user_input": "Khi dùng Acétaminophène cần lưu ý những điểm an toàn nào?",
+    "reference": "Thận trọng/lưu ý: Lưu ý chung Dùng quá liều paracetamol là nguyên nhân chính gây suy gan cấp. Dùng nhiều chế phẩm chứa paracetamol (acetaminophen) đồng thời có thể dẫn đến hậu quả có hại (như quá liều paracetamol). Phản ứng da nghiêm trọng, có khả năng gây tử vong bao gồm hội chứng Stevens-Johnson, hoại tử biểu bì nhiễm độc (TEN), hội chứng ngoại ban mụn mủ toàn thân (AGEP: Acute generalized exanthematous), hội chứng Lyell tuy hiếm nhưng đã xảy ra với paracetamol, thường không phụ thuộc vào tác dụng của các thuốc khác.",
+    "reference_contexts": [
+      "Lưu ý chung Dùng quá liều paracetamol là nguyên nhân chính gây suy gan cấp. Dùng nhiều chế phẩm chứa paracetamol (acetaminophen) đồng thời có thể dẫn đến hậu quả có hại (như quá liều paracetamol). Phản ứng da nghiêm trọng, có khả năng gây tử vong bao gồm hội chứng Stevens-Johnson, hoại tử biểu bì nhiễm độc (TEN), hội chứng ngoại ban mụn mủ toàn thân (AGEP: Acute generalized exanthematous), hội chứng Lyell tuy hiếm nhưng đã xảy ra với paracetamol, thường không phụ thuộc vào tác dụng của các thuốc khác."
+    ],
+    "rubric": {
+      "case_id": "S1-047",
+      "suite": "suite_1_drug_attribute",
+      "category": "careful",
+      "difficulty": "medium",
+      "entities": [
+        "Acétaminophène"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophene.json"
+      ],
+      "source_fields": [
+        "careful"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acétaminophène; careful"
+    }
+  },
+  {
+    "user_input": "Acétaminophène có công dụng gì và cần lưu ý gì khi sử dụng?",
+    "reference": "Chỉ định/công dụng: Paracetamol được dùng rộng rãi trong điều trị các chứng đau và sốt từ nhẹ đến vừa. Liều dùng/cách dùng: Người lớn Liều uống thường dùng là 0,5 - 1 g/lần, 4 - 6 giờ một lần; tối đa là 4 g/ngày. Đặt trực tràng: 0,5 - 1 g/lần, 4 - 6 giờ một lần, tối đa 4 lần/ngày. Truyền tĩnh mạch trong 15 phút, liều được tính theo cân nặng như sau: Trên 50 kg: Liều một lần là 1 g, cứ cách 4 - 6 giờ truyền một lần, liều tối đa là 4 g/ngày. Dưới 50 kg: Liều một lần là 15 mg/kg, cứ cách 4 - 6 giờ truyền một lần; tối đa là 60 mg/kg/ngày. Không được vượt quá liều tối đa 3 g/ngày ở bệnh nhân nghiện rượu, suy dinh dưỡng mạn, bị mất nước. Trẻ em Đau, sốt: Uống Sơ sinh 28 - 32 tuần chỉnh theo tuổi thai: 20 mg/kg một liều duy nhất; sau đó nếu cần, 10 - 15 mg/kg, cách 8 - 12 giờ, tối đa 30 mg/kg/ngày chia làm nhiều liều nhỏ.",
+    "reference_contexts": [
+      "Paracetamol được dùng rộng rãi trong điều trị các chứng đau và sốt từ nhẹ đến vừa.",
+      "Người lớn Liều uống thường dùng là 0,5 - 1 g/lần, 4 - 6 giờ một lần; tối đa là 4 g/ngày. Đặt trực tràng: 0,5 - 1 g/lần, 4 - 6 giờ một lần, tối đa 4 lần/ngày. Truyền tĩnh mạch trong 15 phút, liều được tính theo cân nặng như sau: Trên 50 kg: Liều một lần là 1 g, cứ cách 4 - 6 giờ truyền một lần, liều tối đa là 4 g/ngày. Dưới 50 kg: Liều một lần là 15 mg/kg, cứ cách 4 - 6 giờ truyền một lần; tối đa là 60 mg/kg/ngày. Không được vượt quá liều tối đa 3 g/ngày ở bệnh nhân nghiện rượu, suy dinh dưỡng mạn, bị mất nước. Trẻ em Đau, sốt: Uống Sơ sinh 28 - 32 tuần chỉnh theo tuổi thai: 20 mg/kg một liều duy nhất; sau đó nếu cần, 10 - 15 mg/kg, cách 8 - 12 giờ, tối đa 30 mg/kg/ngày chia làm nhiều liều nhỏ."
+    ],
+    "rubric": {
+      "case_id": "S1-048",
+      "suite": "suite_1_drug_attribute",
+      "category": "combined_attributes",
+      "difficulty": "medium",
+      "entities": [
+        "Acétaminophène"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetaminophene.json"
+      ],
+      "source_fields": [
+        "indication",
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acétaminophène; indication; dosage"
+    }
+  },
+  {
+    "user_input": "Acetazolamide được dùng để làm gì?",
+    "reference": "Chỉ định/công dụng: Glôcôm góc mở (không sung huyết, đơn thuần mạn tính) điều trị ngắn ngày cùng các thuốc co đồng tử trước khi phẫu thuật. Glôcôm góc đóng cấp (góc hẹp, tắc). Glôcôm trẻ em hoặc glôcôm thứ phát do đục thủy tinh thể hoặc tiêu thể thủy tinh. Kết hợp với các thuốc khác để điều trị động kinh cơn nhỏ chủ yếu ở trẻ em và người trẻ tuổi. Điều trị phù do suy tim sung huyết hoặc do dùng thuốc. Phòng và làm thuyên giảm các triệu chứng ( đau đầu , mệt mỏi, mất ngủ, buồn nôn, lơ mơ) đi kèm với chứng say núi (say độ cao).",
+    "reference_contexts": [
+      "Glôcôm góc mở (không sung huyết, đơn thuần mạn tính) điều trị ngắn ngày cùng các thuốc co đồng tử trước khi phẫu thuật. Glôcôm góc đóng cấp (góc hẹp, tắc). Glôcôm trẻ em hoặc glôcôm thứ phát do đục thủy tinh thể hoặc tiêu thể thủy tinh. Kết hợp với các thuốc khác để điều trị động kinh cơn nhỏ chủ yếu ở trẻ em và người trẻ tuổi. Điều trị phù do suy tim sung huyết hoặc do dùng thuốc. Phòng và làm thuyên giảm các triệu chứng ( đau đầu , mệt mỏi, mất ngủ, buồn nôn, lơ mơ) đi kèm với chứng say núi (say độ cao)."
+    ],
+    "rubric": {
+      "case_id": "S1-049",
+      "suite": "suite_1_drug_attribute",
+      "category": "indication",
+      "difficulty": "easy",
+      "entities": [
+        "Acetazolamide"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetazolamide.json"
+      ],
+      "source_fields": [
+        "indication"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acetazolamide; indication"
+    }
+  },
+  {
+    "user_input": "Liều dùng hoặc cách dùng Acetazolamide như thế nào?",
+    "reference": "Liều dùng/cách dùng: Cách dùng Uống thuốc cùng thức ăn để giảm các kích ứng đường tiêu hóa, viên nén có thể được bẻ hoặc nghiền trong sirô sôcôla hoặc dâu để che dấu vị đắng của thuốc. Bột pha tiêm được pha với ít nhất 5 ml nước cất pha tiêm để được dung dịch có nồng độ tối đa 100 mg/ml, tốc độ tiêm truyền tối đa 500 mg/phút. Chủ yếu tiêm tĩnh mạch vì tiêm bắp gây đau do pH kiềm. Người lớn Glôcôm góc mở: Lần đầu tiên uống 250 mg/lần, ngày uống từ 1 - 4 lần. Liều duy trì tùy theo đáp ứng của người bệnh, thường liều thấp hơn là đủ. Khi không uống được, tiêm tương đương với liều uống được khuyến cáo. Glôcôm thứ phát và trước phẫu thuật glôcôm góc đóng thứ phát: Uống hoặc tiêm tĩnh mạch 250 mg/lần, 4 giờ/lần. Có thể dùng liệu pháp ngắn ngày 250 mg/lần, 2 lần/ngày.",
+    "reference_contexts": [
+      "Cách dùng Uống thuốc cùng thức ăn để giảm các kích ứng đường tiêu hóa, viên nén có thể được bẻ hoặc nghiền trong sirô sôcôla hoặc dâu để che dấu vị đắng của thuốc. Bột pha tiêm được pha với ít nhất 5 ml nước cất pha tiêm để được dung dịch có nồng độ tối đa 100 mg/ml, tốc độ tiêm truyền tối đa 500 mg/phút. Chủ yếu tiêm tĩnh mạch vì tiêm bắp gây đau do pH kiềm. Người lớn Glôcôm góc mở: Lần đầu tiên uống 250 mg/lần, ngày uống từ 1 - 4 lần. Liều duy trì tùy theo đáp ứng của người bệnh, thường liều thấp hơn là đủ. Khi không uống được, tiêm tương đương với liều uống được khuyến cáo. Glôcôm thứ phát và trước phẫu thuật glôcôm góc đóng thứ phát: Uống hoặc tiêm tĩnh mạch 250 mg/lần, 4 giờ/lần. Có thể dùng liệu pháp ngắn ngày 250 mg/lần, 2 lần/ngày."
+    ],
+    "rubric": {
+      "case_id": "S1-050",
+      "suite": "suite_1_drug_attribute",
+      "category": "dosage",
+      "difficulty": "easy",
+      "entities": [
+        "Acetazolamide"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/acetazolamide.json"
+      ],
+      "source_fields": [
+        "dosage"
+      ],
+      "expected_behavior": "answer_with_citations",
+      "expected_keywords": "Acetazolamide; dosage"
+    }
+  }
+]
