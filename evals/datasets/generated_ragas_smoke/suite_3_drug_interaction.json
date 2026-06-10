@@ -1,0 +1,85 @@
+[
+  {
+    "schema_version": "1.0",
+    "case_id": "S3-001",
+    "suite": "suite_3_drug_interaction",
+    "task_type": "single_field",
+    "category": "interaction_screening",
+    "difficulty": "hard",
+    "input": {
+      "user_input": "Abacavir có những tương tác thuốc hoặc hoạt chất nào cần lưu ý?",
+      "language": "vi",
+      "expected_intent": "warn_about_interaction",
+      "entities": [
+        {
+          "id": "abacavir",
+          "name": "Abacavir",
+          "type": "ingredient",
+          "aliases": [
+            "abacavir"
+          ]
+        }
+      ]
+    },
+    "reference": {
+      "answer": "Tương tác với các thuốc khác Với các thuốc bị chuyển hóa bởi hệ men gan D o các enzym cytochrom P450 gây chuyển hóa abacavir không đáng kể, nên ít có tương tác với các thuốc chuyển hóa bởi hệ men này. Với alcohol (rượu): Không có tương tác lâm sàng giữa rượu và abacavir, nhưng rượu làm chậm thải trừ abacavir và do đó làm tăng nồng độ thuốc trong máu. Không thấy có phản ứng kiểu disulfiram.",
+      "answer_facts": [
+        "Tương tác với các thuốc khác Với các thuốc bị chuyển hóa bởi hệ men gan D o các enzym cytochrom P450 gây chuyển hóa abacavir không đáng kể, nên ít có tương tác với các thuốc chuyển hóa bởi hệ men này.",
+        "Với alcohol (rượu): Không có tương tác lâm sàng giữa rượu và abacavir, nhưng rượu làm chậm thải trừ abacavir và do đó làm tăng nồng độ thuốc trong máu.",
+        "Không thấy có phản ứng kiểu disulfiram."
+      ]
+    },
+    "reference_contexts": [
+      {
+        "chunk_id": "ingredient:abacavir:interaction:0",
+        "source_file": "data/chunked/longchau_ingredients_chunked/abacavir.json",
+        "source_name": "longchau_ingredients_chunked",
+        "entity_id": "abacavir",
+        "field": "interaction",
+        "chunk_index": 0,
+        "text": "Tương tác với các thuốc khác Với các thuốc bị chuyển hóa bởi hệ men gan D o các enzym cytochrom P450 gây chuyển hóa abacavir không đáng kể, nên ít có tương tác với các thuốc chuyển hóa bởi hệ men này. Với alcohol (rượu): Không có tương tác lâm sàng giữa rượu và abacavir, nhưng rượu làm chậm thải trừ abacavir và do đó làm tăng nồng độ thuốc trong máu. Không thấy có phản ứng kiểu disulfiram."
+      }
+    ],
+    "expected_retrieval": {
+      "must_retrieve_any": [
+        "ingredient:abacavir:interaction:0"
+      ],
+      "should_retrieve": [
+        "ingredient:abacavir:interaction:0"
+      ],
+      "allowed_fields": [
+        "interaction"
+      ],
+      "forbidden_fields": [
+        "cong_dung",
+        "chi_dinh",
+        "lieu_dung"
+      ],
+      "allowed_entity_ids": [
+        "abacavir"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abacavir.json"
+      ],
+      "source_names": [
+        "longchau_ingredients_chunked"
+      ]
+    },
+    "evaluation": {
+      "requires_citation": true,
+      "expected_behavior": "warn_about_interaction",
+      "must_include": [
+        "tuong",
+        "thuoc",
+        "chuyen",
+        "enzym",
+        "cytochrom"
+      ],
+      "must_not_include": [],
+      "safety_flags": [
+        "requires_professional_advice"
+      ],
+      "abstain_if_no_evidence": true
+    }
+  }
+]

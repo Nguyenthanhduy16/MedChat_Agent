@@ -1,0 +1,121 @@
+[
+  {
+    "schema_version": "1.0",
+    "case_id": "S6-001",
+    "suite": "suite_6_drug_discovery_list_retrieval",
+    "task_type": "list_retrieval",
+    "category": "shared_category_list",
+    "difficulty": "medium",
+    "input": {
+      "user_input": "Liệt kê một số hoạt chất thuộc nhóm Dược chất LC trong dữ liệu.",
+      "language": "vi",
+      "expected_intent": "list_items",
+      "entities": [
+        {
+          "id": "abacavir",
+          "name": "Abacavir",
+          "type": "ingredient",
+          "aliases": [
+            "abacavir"
+          ]
+        }
+      ]
+    },
+    "reference": {
+      "answer": "Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi. Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác. Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng. Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng). Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin. Viêm khớp dạng thấp : Abatacept phối hợp với methotrexate điều trị viêm khớp dạng thấp mức độ trung bình đến nặng (RA) ở những bệnh nhân đáp ứng không đầy đủ với thuốc chống thấp khớp tác dụng chậm (DMARDs) bao gồm: methotrexate (MTX), thuốc ức chế hoại tử khối u alpha (TNF). Abatacept phối hợp với methotrexate điều trị bệnh tiến triển nhanh ở bệnh nhân bị viêm khớp dạng thấp chưa được điều trị bằng methotrexate trước đó. Viêm khớp vảy nến: Abatacept phối hợp với methotrexate điều trị viêm khớp vảy nến đang hoạt động (PsA) ở những bệnh nhân đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó. Viêm khớp tự phát thiếu niên: Abatacept phối hợp với methotrexate điều trị viêm khớp tự phát thiếu niên (pJIA) ở những bệnh nhi từ 2 tuổi trở lên đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó. Abciximab bổ trợ cho can thiệp mạch vành qua da (PCI) để phòng ngừa biến chứng thiếu máu cục bộ. Hỗ trợ điều trị chống đông máu (heparin không phân đoạn, heparin trọng lượng phân tử thấp), aspirin và thuốc đối kháng thụ thể P2Y12 của adenosine diphosphate (ADP) trên tiểu cầu (clopidogrel, prasugrel , ticagrelor) để ngăn ngừa cấp tính biến chứng thiếu máu cục bộ ở bệnh nhân đang trải qua PCI hoặc ở những bệnh nhân bị hội chứng mạch vành cấp không ST chênh lên (NSTE ACS). Bệnh nhân đau thắt ngực không ổn định không đáp ứng với điều trị nội khoa thông thường khi can thiệp mạch vành qua da được lên kế hoạch trong vòng 24 giờ. Abiraterone được chỉ định để điều trị ung thư tuyến tiền liệt di căn kháng cắt tinh hoàn (mCRPC) kết hợp với methylprednisolone hoặc prednisone. Ở châu Âu và Canada, thuốc này cũng được sử dụng cho người bệnh mCRPC không có triệu chứng hoặc có triệu chứng nhẹ sau khi thất bại với liệu pháp ức chế androgen và hóa trị chưa được chỉ định lâm sàng. Ở châu Âu, thuốc được dùng cho người bệnh có bệnh tiến triển trong hoặc sau phác đồ hóa trị dựa trên docetaxel. Ở Canada, thuốc được dùng cho người bệnh đã điều trị hóa trị chứa docetaxel trước đó sau khi thất bại với liệu pháp ức chế androgen. Thuốc Acamprosate được sử dụng để cai nghiện rượu. Thuốc nên được sử dụng theo phác đồ điều trị bao gồm cả tư vấn và hỗ trợ tâm lý.",
+      "answer_facts": [
+        "Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi.",
+        "Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác.",
+        "Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng.",
+        "Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng).",
+        "Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin."
+      ]
+    },
+    "reference_contexts": [
+      {
+        "chunk_id": "ingredient:abacavir:indication:0",
+        "source_file": "data/chunked/longchau_ingredients_chunked/abacavir.json",
+        "source_name": "longchau_ingredients_chunked",
+        "entity_id": "abacavir",
+        "field": "indication",
+        "chunk_index": 0,
+        "text": "Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi. Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác. Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng. Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng). Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin."
+      },
+      {
+        "chunk_id": "ingredient:abatacept:indication:0",
+        "source_file": "data/chunked/longchau_ingredients_chunked/abatacept.json",
+        "source_name": "longchau_ingredients_chunked",
+        "entity_id": "abatacept",
+        "field": "indication",
+        "chunk_index": 0,
+        "text": "Viêm khớp dạng thấp : Abatacept phối hợp với methotrexate điều trị viêm khớp dạng thấp mức độ trung bình đến nặng (RA) ở những bệnh nhân đáp ứng không đầy đủ với thuốc chống thấp khớp tác dụng chậm (DMARDs) bao gồm: methotrexate (MTX), thuốc ức chế hoại tử khối u alpha (TNF). Abatacept phối hợp với methotrexate điều trị bệnh tiến triển nhanh ở bệnh nhân bị viêm khớp dạng thấp chưa được điều trị bằng methotrexate trước đó. Viêm khớp vảy nến: Abatacept phối hợp với methotrexate điều trị viêm khớp vảy nến đang hoạt động (PsA) ở những bệnh nhân đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó. Viêm khớp tự phát thiếu niên: Abatacept phối hợp với methotrexate điều trị viêm khớp tự phát thiếu niên (pJIA) ở những bệnh nhi từ 2 tuổi trở lên đáp ứng không đầy đủ với các thuốc (DMARDs) trước đó."
+      },
+      {
+        "chunk_id": "ingredient:abciximab:indication:0",
+        "source_file": "data/chunked/longchau_ingredients_chunked/abciximab.json",
+        "source_name": "longchau_ingredients_chunked",
+        "entity_id": "abciximab",
+        "field": "indication",
+        "chunk_index": 0,
+        "text": "Abciximab bổ trợ cho can thiệp mạch vành qua da (PCI) để phòng ngừa biến chứng thiếu máu cục bộ. Hỗ trợ điều trị chống đông máu (heparin không phân đoạn, heparin trọng lượng phân tử thấp), aspirin và thuốc đối kháng thụ thể P2Y12 của adenosine diphosphate (ADP) trên tiểu cầu (clopidogrel, prasugrel , ticagrelor) để ngăn ngừa cấp tính biến chứng thiếu máu cục bộ ở bệnh nhân đang trải qua PCI hoặc ở những bệnh nhân bị hội chứng mạch vành cấp không ST chênh lên (NSTE ACS). Bệnh nhân đau thắt ngực không ổn định không đáp ứng với điều trị nội khoa thông thường khi can thiệp mạch vành qua da được lên kế hoạch trong vòng 24 giờ."
+      },
+      {
+        "chunk_id": "ingredient:abiraterone:indication:0",
+        "source_file": "data/chunked/longchau_ingredients_chunked/abiraterone.json",
+        "source_name": "longchau_ingredients_chunked",
+        "entity_id": "abiraterone",
+        "field": "indication",
+        "chunk_index": 0,
+        "text": "Abiraterone được chỉ định để điều trị ung thư tuyến tiền liệt di căn kháng cắt tinh hoàn (mCRPC) kết hợp với methylprednisolone hoặc prednisone. Ở châu Âu và Canada, thuốc này cũng được sử dụng cho người bệnh mCRPC không có triệu chứng hoặc có triệu chứng nhẹ sau khi thất bại với liệu pháp ức chế androgen và hóa trị chưa được chỉ định lâm sàng. Ở châu Âu, thuốc được dùng cho người bệnh có bệnh tiến triển trong hoặc sau phác đồ hóa trị dựa trên docetaxel. Ở Canada, thuốc được dùng cho người bệnh đã điều trị hóa trị chứa docetaxel trước đó sau khi thất bại với liệu pháp ức chế androgen."
+      }
+    ],
+    "expected_retrieval": {
+      "must_retrieve_any": [
+        "ingredient:abacavir:indication:0"
+      ],
+      "should_retrieve": [
+        "ingredient:abacavir:indication:0",
+        "ingredient:abatacept:indication:0",
+        "ingredient:abciximab:indication:0",
+        "ingredient:abiraterone:indication:0"
+      ],
+      "allowed_fields": [
+        "indication"
+      ],
+      "forbidden_fields": [
+        "cong_dung",
+        "chi_dinh",
+        "lieu_dung"
+      ],
+      "allowed_entity_ids": [
+        "abacavir",
+        "abatacept",
+        "abciximab",
+        "abiraterone"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abacavir.json",
+        "data/chunked/longchau_ingredients_chunked/abatacept.json",
+        "data/chunked/longchau_ingredients_chunked/abciximab.json",
+        "data/chunked/longchau_ingredients_chunked/abiraterone.json"
+      ],
+      "source_names": [
+        "longchau_ingredients_chunked"
+      ]
+    },
+    "evaluation": {
+      "requires_citation": true,
+      "expected_behavior": "list_items",
+      "must_include": [
+        "thuoc",
+        "abacavir",
+        "nhiem",
+        "nguoi",
+        "thanh"
+      ],
+      "must_not_include": [],
+      "safety_flags": [],
+      "abstain_if_no_evidence": true
+    }
+  }
+]

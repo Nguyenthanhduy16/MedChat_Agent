@@ -1,0 +1,85 @@
+[
+  {
+    "schema_version": "1.0",
+    "case_id": "S1-001",
+    "suite": "suite_1_drug_attribute",
+    "task_type": "single_field",
+    "category": "indication",
+    "difficulty": "easy",
+    "input": {
+      "user_input": "Abacavir được dùng để làm gì?",
+      "language": "vi",
+      "expected_intent": "drug_indication",
+      "entities": [
+        {
+          "id": "abacavir",
+          "name": "Abacavir",
+          "type": "ingredient",
+          "aliases": [
+            "abacavir"
+          ]
+        }
+      ]
+    },
+    "reference": {
+      "answer": "Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi. Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác. Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng. Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng). Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin.",
+      "answer_facts": [
+        "Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi.",
+        "Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác.",
+        "Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng.",
+        "Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng).",
+        "Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin."
+      ]
+    },
+    "reference_contexts": [
+      {
+        "chunk_id": "ingredient:abacavir:indication:0",
+        "source_file": "data/chunked/longchau_ingredients_chunked/abacavir.json",
+        "source_name": "longchau_ingredients_chunked",
+        "entity_id": "abacavir",
+        "field": "indication",
+        "chunk_index": 0,
+        "text": "Thuốc Abacavir được chỉ định để: Điều trị nhiễm HIV ở người lớn, trẻ vị thành niên và trẻ em trên 3 tháng tuổi. Phác đồ điều trị thường phải kết hợp với ít nhất 2 thuốc kháng virus khác. Phòng bệnh do phơi nhiễm: Trước đây, abacavir đã được dùng phối hợp với các thuốc kháng retrovirus khác để phòng nhiễm HIV cho những cán bộ y tế làm việc trong môi trường dễ lây nhiễm, nhưng nay ít dùng. Hiện nay phác đồ kết hợp abacavir với các thuốc kháng retrovirus khác vẫn còn được một số nơi sử dụng để phòng cho những người có nguy cơ phơi nhiễm với máu, mô, các dịch cơ thể của người đã biết có nhiễm HIV, có nhiều nguy cơ lây truyền virus mà không phải do nghề nghiệp (Việt Nam chưa áp dụng). Các thuốc retrovirus phối hợp có thể là efavirenz , lamivudin /emtricitabin."
+      }
+    ],
+    "expected_retrieval": {
+      "must_retrieve_any": [
+        "ingredient:abacavir:indication:0"
+      ],
+      "should_retrieve": [
+        "ingredient:abacavir:indication:0"
+      ],
+      "allowed_fields": [
+        "indication"
+      ],
+      "forbidden_fields": [
+        "cong_dung",
+        "chi_dinh",
+        "lieu_dung"
+      ],
+      "allowed_entity_ids": [
+        "abacavir"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abacavir.json"
+      ],
+      "source_names": [
+        "longchau_ingredients_chunked"
+      ]
+    },
+    "evaluation": {
+      "requires_citation": true,
+      "expected_behavior": "answer_with_citations",
+      "must_include": [
+        "thuoc",
+        "abacavir",
+        "nhiem",
+        "nguoi",
+        "thanh"
+      ],
+      "must_not_include": [],
+      "safety_flags": [],
+      "abstain_if_no_evidence": true
+    }
+  }
+]

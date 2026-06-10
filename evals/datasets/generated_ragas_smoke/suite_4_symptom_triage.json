@@ -1,0 +1,100 @@
+[
+  {
+    "schema_version": "1.0",
+    "case_id": "S4-001",
+    "suite": "suite_4_symptom_triage",
+    "task_type": "multi_field",
+    "category": "symptom_initial_guidance",
+    "difficulty": "medium",
+    "input": {
+      "user_input": "Khi có dấu hiệu liên quan đến Bàn chân khoèo là gì?, nên xử trí ban đầu thế nào và khi nào cần đi khám?",
+      "language": "vi",
+      "expected_intent": "triage_without_diagnosis",
+      "entities": [
+        {
+          "id": "bn-chn-khoo-l-g",
+          "name": "Bàn chân khoèo là gì?",
+          "type": "condition",
+          "aliases": [
+            "Bàn chân",
+            "Bàn chân khoèo",
+            "ban chan khoeo la gi"
+          ]
+        }
+      ]
+    },
+    "reference": {
+      "answer": "Triệu chứng Bàn chân khoèo có những triệu chứng rõ ràng mà các bậc cha mẹ có thể dễ dàng nhận biết ngay từ khi trẻ mới sinh ra. Các triệu chứng bao gồm: Bàn chân bị xoay vào trong: Bàn chân của trẻ sẽ quay vào trong và hướng xuống dưới, trông như bị bẻ cong. Gân Achilles bị căng: Gân này ở phía sau gót chân sẽ bị căng và co ngắn lại. Cổ chân biến dạng: Phần cổ chân của trẻ sẽ có hiện tượng bị biến dạng, không thẳng hàng với cẳng chân. Độ cứng của khớp cổ chân: Khớp cổ chân bị cứng, khó cử động hoặc không thể cử động theo hướng bình thường. Phòng ngừa bệnh Hiện tại, không có phương pháp phòng ngừa cụ thể nào cho bàn chân khoèo do nguyên nhân gây bệnh chưa được xác định rõ ràng. Tuy nhiên, các biện pháp sau có thể giúp giảm nguy cơ hoặc hỗ trợ phát hiện sớm: Khám thai định kỳ: Việc khám thai định kỳ giúp theo dõi sự phát triển của thai nhi và phát hiện sớm các dị tật nếu có. Duy trì sức khỏe mẹ bầu: Chế độ ăn uống lành mạnh, tránh tiếp xúc với các hóa chất độc hại và tuân thủ hướng dẫn của bác sĩ trong suốt thai kỳ là rất quan trọng. Không hút thuốc và tránh khói thuốc. Không uống rượu. Không dùng thuốc khi chưa có chỉ định của bác sĩ",
+      "answer_facts": [
+        "Triệu chứng Bàn chân khoèo có những triệu chứng rõ ràng mà các bậc cha mẹ có thể dễ dàng nhận biết ngay từ khi trẻ mới sinh ra.",
+        "Các triệu chứng bao gồm: Bàn chân bị xoay vào trong: Bàn chân của trẻ sẽ quay vào trong và hướng xuống dưới, trông như bị bẻ cong.",
+        "Gân Achilles bị căng: Gân này ở phía sau gót chân sẽ bị căng và co ngắn lại.",
+        "Cổ chân biến dạng: Phần cổ chân của trẻ sẽ có hiện tượng bị biến dạng, không thẳng hàng với cẳng chân.",
+        "Độ cứng của khớp cổ chân: Khớp cổ chân bị cứng, khó cử động hoặc không thể cử động theo hướng bình thường."
+      ]
+    },
+    "reference_contexts": [
+      {
+        "chunk_id": "condition:bn-chn-khoo-l-g:symptoms:0",
+        "source_file": "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/ban-chan-khoeo.json",
+        "source_name": "pharmacity_chunked",
+        "entity_id": "bn-chn-khoo-l-g",
+        "field": "symptoms",
+        "chunk_index": 0,
+        "text": "Triệu chứng Bàn chân khoèo có những triệu chứng rõ ràng mà các bậc cha mẹ có thể dễ dàng nhận biết ngay từ khi trẻ mới sinh ra. Các triệu chứng bao gồm: Bàn chân bị xoay vào trong: Bàn chân của trẻ sẽ quay vào trong và hướng xuống dưới, trông như bị bẻ cong. Gân Achilles bị căng: Gân này ở phía sau gót chân sẽ bị căng và co ngắn lại. Cổ chân biến dạng: Phần cổ chân của trẻ sẽ có hiện tượng bị biến dạng, không thẳng hàng với cẳng chân. Độ cứng của khớp cổ chân: Khớp cổ chân bị cứng, khó cử động hoặc không thể cử động theo hướng bình thường."
+      },
+      {
+        "chunk_id": "condition:bn-chn-khoo-l-g:prevention:0",
+        "source_file": "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/ban-chan-khoeo.json",
+        "source_name": "pharmacity_chunked",
+        "entity_id": "bn-chn-khoo-l-g",
+        "field": "prevention",
+        "chunk_index": 0,
+        "text": "Phòng ngừa bệnh Hiện tại, không có phương pháp phòng ngừa cụ thể nào cho bàn chân khoèo do nguyên nhân gây bệnh chưa được xác định rõ ràng. Tuy nhiên, các biện pháp sau có thể giúp giảm nguy cơ hoặc hỗ trợ phát hiện sớm: Khám thai định kỳ: Việc khám thai định kỳ giúp theo dõi sự phát triển của thai nhi và phát hiện sớm các dị tật nếu có. Duy trì sức khỏe mẹ bầu: Chế độ ăn uống lành mạnh, tránh tiếp xúc với các hóa chất độc hại và tuân thủ hướng dẫn của bác sĩ trong suốt thai kỳ là rất quan trọng. Không hút thuốc và tránh khói thuốc. Không uống rượu. Không dùng thuốc khi chưa có chỉ định của bác sĩ"
+      }
+    ],
+    "expected_retrieval": {
+      "must_retrieve_any": [
+        "condition:bn-chn-khoo-l-g:symptoms:0"
+      ],
+      "should_retrieve": [
+        "condition:bn-chn-khoo-l-g:symptoms:0",
+        "condition:bn-chn-khoo-l-g:prevention:0"
+      ],
+      "allowed_fields": [
+        "prevention",
+        "symptoms"
+      ],
+      "forbidden_fields": [
+        "cong_dung",
+        "chi_dinh",
+        "lieu_dung"
+      ],
+      "allowed_entity_ids": [
+        "bn-chn-khoo-l-g"
+      ],
+      "source_files": [
+        "data/chunked/pharmacity_chunked/data_benh_co_xuong_khop/ban-chan-khoeo.json"
+      ],
+      "source_names": [
+        "pharmacity_chunked"
+      ]
+    },
+    "evaluation": {
+      "requires_citation": true,
+      "expected_behavior": "triage_without_diagnosis",
+      "must_include": [
+        "trieu",
+        "chung",
+        "khoeo",
+        "nhung",
+        "trong"
+      ],
+      "must_not_include": [],
+      "safety_flags": [
+        "requires_professional_advice"
+      ],
+      "abstain_if_no_evidence": true
+    }
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "case_id": "DRG-001",
+  "suite": "suite_1_drug_attribute",
+  "task_type": "single_field",
+  "category": "contraindication",
+  "difficulty": "medium",
+
+  "input": {
+    "user_input": "Thuốc Dịch truyền Lipofundin MCT/LCT 10% B.Braun 500ml có chống chỉ định gì?",
+    "language": "vi",
+    "expected_intent": "drug_contraindication",
+    "entities": [
+      {
+        "name": "Dịch truyền Lipofundin MCT/LCT 10% B.Braun cung cấp năng lượng, chất béo (500ml)",
+        "type": "drug",
+        "aliases": [
+          "Lipofundin",
+          "Lipofundin 500ml",
+          "Lipofundin MCT/LCT 10%"
+        ]
+      }
+    ]
+  },
+
+  "reference": {
+    "answer": "Thuốc Lipofundin 500ml Braun chống chỉ định trong các trường hợp như quá mẫn với protein trứng hoặc đậu tương, tăng lipid máu nặng, suy gan nặng, suy thận nặng không có liệu pháp thay thế thận, và một số tình trạng khác...",
+    "answer_facts": [
+      "Chống chỉ định nếu quá mẫn với protein trứng hoặc đậu tương.",
+      "Chống chỉ định trong tăng lipid máu nặng.",
+      "Chống chỉ định trong suy gan nặng.",
+      "Chống chỉ định trong suy thận nặng nếu không có liệu pháp thay thế thận.",
+      "Chống chỉ định trong tình trạng tuần hoàn không ổn định hoặc điều kiện chuyển hóa không ổn định."
+    ]
+  },
+
+  "reference_contexts": [
+    {
+      "chunk_id": "drug:lipofundin-10-braun-500ml-17142:chong_chi_dinh:0",
+      "source_file": "longchau_drugs_chunked/lipofundin-10-braun-500ml-17142.json",
+      "source_name": "longchau",
+      "entity_id": "lipofundin-10-braun-500ml-17142",
+      "field": "chong_chi_dinh",
+      "chunk_index": 0,
+      "text": "Thuốc Lipofundin 500ml Braun chống chỉ định trong các trường hợp sau: Quá mẫn với protein trứng hoặc đậu tương..."
+    },
+    {
+      "chunk_id": "drug:lipofundin-10-braun-500ml-17142:chong_chi_dinh:1",
+      "source_file": "longchau_drugs_chunked/lipofundin-10-braun-500ml-17142.json",
+      "source_name": "longchau",
+      "entity_id": "lipofundin-10-braun-500ml-17142",
+      "field": "chong_chi_dinh",
+      "chunk_index": 1,
+      "text": "Giai đoạn cấp tính của nhồi máu cơ tim hoặc đột quỵ. Rối loạn cân bằng thể dịch..."
+    }
+  ],
+
+  "expected_retrieval": {
+    "must_retrieve_any": [
+      "drug:lipofundin-10-braun-500ml-17142:chong_chi_dinh:0"
+    ],
+    "should_retrieve": [
+      "drug:lipofundin-10-braun-500ml-17142:chong_chi_dinh:0",
+      "drug:lipofundin-10-braun-500ml-17142:chong_chi_dinh:1"
+    ],
+    "allowed_fields": [
+      "chong_chi_dinh"
+    ],
+    "forbidden_fields": [
+      "cong_dung",
+      "lieu_dung"
+    ],
+    "allowed_entity_ids": [
+      "lipofundin-10-braun-500ml-17142"
+    ]
+  },
+
+  "evaluation": {
+    "requires_citation": true,
+    "expected_behavior": "answer_with_citations",
+    "must_include": [
+      "quá mẫn",
+      "tăng lipid máu",
+      "suy gan nặng",
+      "suy thận nặng"
+    ],
+    "must_not_include": [
+      "viêm da tiếp xúc"
+    ],
+    "safety_flags": [],
+    "abstain_if_no_evidence": true
+  }
+}

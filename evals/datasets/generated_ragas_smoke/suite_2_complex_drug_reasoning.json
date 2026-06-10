@@ -1,0 +1,98 @@
+[
+  {
+    "schema_version": "1.0",
+    "case_id": "S2-001",
+    "suite": "suite_2_complex_drug_reasoning",
+    "task_type": "multi_field",
+    "category": "dose_safety_reasoning",
+    "difficulty": "hard",
+    "input": {
+      "user_input": "Người có bệnh nền muốn dùng Abacavir; cần cân nhắc liều dùng và lưu ý an toàn nào?",
+      "language": "vi",
+      "expected_intent": "synthesize_multiple_fields",
+      "entities": [
+        {
+          "id": "abacavir",
+          "name": "Abacavir",
+          "type": "ingredient",
+          "aliases": [
+            "abacavir"
+          ]
+        }
+      ]
+    },
+    "reference": {
+      "answer": "Người lớn Điều trị nhiễm HIV Liều Abacavir thường dùng là 600mg, dùng một lần mỗi ngày, hoặc 300mg/lần, hai lần mỗi ngày. Dự phòng sau khi phơi nhiễm (không phải do nghề nghiệp) Dùng 600mg abacavir một lần mỗi ngày, hoặc 300mg abacavir/lần, hai lần mỗi ngày, kết hợp với ít nhất 2 thuốc kháng retrovirus khác. Trẻ em Trẻ trên 3 tháng tuổi đến 12 tuổi: 8mg/kg/lần, 2 lần mỗi ngày cách nhau 12 giờ, tối đa là 600mg/ngày. Trẻ cân nặng ≥ 14kg - 21kg: Có thể dùng dạng viên nén, mỗi lần uống 150mg (nửa viên 300mg), 2 lần/ngày. Trẻ cân nặng > 21kg - dưới 30kg: Uống 150mg (nửa viên 300mg) vào buổi sáng và 300mg (1 viên) vào buổi tối. Với trẻ cân nặng ≥ 30kg: Uống 300mg/lần, 2 lần mỗi ngày. Trẻ > 16 tuổi có thể dùng liều như người lớn. Lưu ý chung Phải rất thận trọng khi dùng abacavir, nhất là trong 6 tuần đầu, vì nguy cơ phản ứng quá mẫn (4%), đôi khi gây tử vong. Phát hiện phản ứng quá mẫn thường rất khó vì dễ lẫn với một bệnh toàn thân. Phải ngừng ngay abacavir nếu có các triệu chứng quá mẫn và không bao giờ được dùng lại. Người bệnh phải được theo dõi cẩn thận trong 2 tháng đầu điều trị, vì phản ứng quá mẫn có thể xảy ra bất cứ lúc nào. Người bệnh bắt đầu điều trị lại sau khi ngừng thuốc cũng có nguy cơ, kể cả trước đó không có triệu chứng quá mẫn. Do đó, cần khuyên người bệnh phải uống thuốc đều, không được ngắt quãng.",
+      "answer_facts": [
+        "Người lớn Điều trị nhiễm HIV Liều Abacavir thường dùng là 600mg, dùng một lần mỗi ngày, hoặc 300mg/lần, hai lần mỗi ngày.",
+        "Dự phòng sau khi phơi nhiễm (không phải do nghề nghiệp) Dùng 600mg abacavir một lần mỗi ngày, hoặc 300mg abacavir/lần, hai lần mỗi ngày, kết hợp với ít nhất 2 thuốc kháng retrovirus khác.",
+        "Trẻ em Trẻ trên 3 tháng tuổi đến 12 tuổi: 8mg/kg/lần, 2 lần mỗi ngày cách nhau 12 giờ, tối đa là 600mg/ngày.",
+        "Trẻ cân nặng ≥ 14kg - 21kg: Có thể dùng dạng viên nén, mỗi lần uống 150mg (nửa viên 300mg), 2 lần/ngày.",
+        "Trẻ cân nặng > 21kg - dưới 30kg: Uống 150mg (nửa viên 300mg) vào buổi sáng và 300mg (1 viên) vào buổi tối."
+      ]
+    },
+    "reference_contexts": [
+      {
+        "chunk_id": "ingredient:abacavir:dosage:0",
+        "source_file": "data/chunked/longchau_ingredients_chunked/abacavir.json",
+        "source_name": "longchau_ingredients_chunked",
+        "entity_id": "abacavir",
+        "field": "dosage",
+        "chunk_index": 0,
+        "text": "Người lớn Điều trị nhiễm HIV Liều Abacavir thường dùng là 600mg, dùng một lần mỗi ngày, hoặc 300mg/lần, hai lần mỗi ngày. Dự phòng sau khi phơi nhiễm (không phải do nghề nghiệp) Dùng 600mg abacavir một lần mỗi ngày, hoặc 300mg abacavir/lần, hai lần mỗi ngày, kết hợp với ít nhất 2 thuốc kháng retrovirus khác. Trẻ em Trẻ trên 3 tháng tuổi đến 12 tuổi: 8mg/kg/lần, 2 lần mỗi ngày cách nhau 12 giờ, tối đa là 600mg/ngày. Trẻ cân nặng ≥ 14kg - 21kg: Có thể dùng dạng viên nén, mỗi lần uống 150mg (nửa viên 300mg), 2 lần/ngày. Trẻ cân nặng > 21kg - dưới 30kg: Uống 150mg (nửa viên 300mg) vào buổi sáng và 300mg (1 viên) vào buổi tối. Với trẻ cân nặng ≥ 30kg: Uống 300mg/lần, 2 lần mỗi ngày. Trẻ > 16 tuổi có thể dùng liều như người lớn."
+      },
+      {
+        "chunk_id": "ingredient:abacavir:careful:0",
+        "source_file": "data/chunked/longchau_ingredients_chunked/abacavir.json",
+        "source_name": "longchau_ingredients_chunked",
+        "entity_id": "abacavir",
+        "field": "careful",
+        "chunk_index": 0,
+        "text": "Lưu ý chung Phải rất thận trọng khi dùng abacavir, nhất là trong 6 tuần đầu, vì nguy cơ phản ứng quá mẫn (4%), đôi khi gây tử vong. Phát hiện phản ứng quá mẫn thường rất khó vì dễ lẫn với một bệnh toàn thân. Phải ngừng ngay abacavir nếu có các triệu chứng quá mẫn và không bao giờ được dùng lại. Người bệnh phải được theo dõi cẩn thận trong 2 tháng đầu điều trị, vì phản ứng quá mẫn có thể xảy ra bất cứ lúc nào. Người bệnh bắt đầu điều trị lại sau khi ngừng thuốc cũng có nguy cơ, kể cả trước đó không có triệu chứng quá mẫn. Do đó, cần khuyên người bệnh phải uống thuốc đều, không được ngắt quãng."
+      }
+    ],
+    "expected_retrieval": {
+      "must_retrieve_any": [
+        "ingredient:abacavir:dosage:0"
+      ],
+      "should_retrieve": [
+        "ingredient:abacavir:dosage:0",
+        "ingredient:abacavir:careful:0"
+      ],
+      "allowed_fields": [
+        "careful",
+        "dosage"
+      ],
+      "forbidden_fields": [
+        "cong_dung",
+        "chi_dinh",
+        "lieu_dung"
+      ],
+      "allowed_entity_ids": [
+        "abacavir"
+      ],
+      "source_files": [
+        "data/chunked/longchau_ingredients_chunked/abacavir.json"
+      ],
+      "source_names": [
+        "longchau_ingredients_chunked"
+      ]
+    },
+    "evaluation": {
+      "requires_citation": true,
+      "expected_behavior": "synthesize_multiple_fields",
+      "must_include": [
+        "nguoi",
+        "nhiem",
+        "abacavir",
+        "thuong",
+        "600mg"
+      ],
+      "must_not_include": [],
+      "safety_flags": [
+        "requires_professional_advice"
+      ],
+      "abstain_if_no_evidence": true
+    }
+  }
+]
