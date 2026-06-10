@@ -31,6 +31,8 @@ def create_app() -> FastAPI:
         allow_headers=["*"],
     )
     app.include_router(router)
+
+
     return app
 
 

@@ -32,16 +32,49 @@ export default function MessageBubble({ message, onRetry, onShowSources }) {
     } else {
       // Dọn dẹp hàng đợi trước khi đọc mới
       window.speechSynthesis.cancel();
-      
+
       const utterance = new SpeechSynthesisUtterance(message.content);
       utterance.lang = 'vi-VN';
-      utterance.rate = 1.0;
-      
-      utterance.onend = () => setIsSpeaking(false);
-      utterance.onerror = () => setIsSpeaking(false);
-      
-      setIsSpeaking(true);
-      window.speechSynthesis.speak(utterance);
+      utterance.rate = 0.95;   // Hơi chậm hơn mặc định cho dễ nghe
+      utterance.pitch = 1.05;  // Pitch tự nhiên, không quá robot
+      utterance.volume = 1.0;
+
+      // Ưu tiên giọng Google Tiếng Việt (chất lượng tốt nhất)
+      const pickVoice = () => {
+        const voices = window.speechSynthesis.getVoices();
+        const preferred = [
+          'Google tiếng Việt',
+          'Google Vietnamese',
+          'vi-VN-Wavenet',
+          'Microsoft HoaiMy Online',   // Edge
+          'Microsoft NamMinh Online',  // Edge
+        ];
+        for (const name of preferred) {
+          const found = voices.find(v => v.name.toLowerCase().includes(name.toLowerCase()));
+          if (found) return found;
+        }
+        // Fallback: bất kỳ giọng vi-VN nào
+        return voices.find(v => v.lang === 'vi-VN') || null;
+      };
+
+      const assignVoiceAndSpeak = () => {
+        const voice = pickVoice();
+        if (voice) utterance.voice = voice;
+        utterance.onend = () => setIsSpeaking(false);
+        utterance.onerror = () => setIsSpeaking(false);
+        setIsSpeaking(true);
+        window.speechSynthesis.speak(utterance);
+      };
+
+      // Danh sách giọng có thể chưa tải xong → chờ sự kiện voiceschanged
+      if (window.speechSynthesis.getVoices().length > 0) {
+        assignVoiceAndSpeak();
+      } else {
+        window.speechSynthesis.onvoiceschanged = () => {
+          window.speechSynthesis.onvoiceschanged = null;
+          assignVoiceAndSpeak();
+        };
+      }
     }
   };
 

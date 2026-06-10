@@ -21,6 +21,8 @@ class Settings(BaseSettings):
     reranker_top_k: int = 10
     reranker_timeout_seconds: float = 10.0
     reranker_use_fp16: bool = True
+    reranker_device: str = "auto"
+    reranker_batch_size: int = 16
     qdrant_url: str = "http://localhost:6333"
     qdrant_api_key: str | None = None
     qdrant_collection: str = "pharmacy_chunks"

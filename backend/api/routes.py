@@ -137,15 +137,15 @@ async def chat_stream_endpoint(request: ChatRequest):
                 ensure_ascii=False,
             )
             + "\n\n"
-        )
+        ).encode("utf-8")
         try:
             async for event in get_chat_service().chat_stream(request):
-                yield event
+                yield event.encode("utf-8")
         except Exception as exc:
             logger.error("Chat stream endpoint error:\n%s", traceback.format_exc())
-            yield f"data: {json.dumps({'type': 'error', 'message': str(exc)}, ensure_ascii=False)}\n\n"
+            yield f"data: {json.dumps({'type': 'error', 'message': str(exc)}, ensure_ascii=False)}\n\n".encode("utf-8")
 
-    return StreamingResponse(event_generator(), media_type="text/event-stream")
+    return StreamingResponse(event_generator(), media_type="text/event-stream; charset=utf-8")
 
 
 @router.post("/ingest", response_model=IngestResponse)

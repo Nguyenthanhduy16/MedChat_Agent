@@ -21,6 +21,9 @@ FIELD_ALIASES = {
     "pregnancy_lactation": ["pregnancy_lactation", "phu_nu_co_thai_va_cho_con_bu"],
     "indication": ["indication", "cong_dung", "chi_dinh"],
     "overdose": ["overdose", "qua_lieu_va_xu_tri"],
+    "treatment": ["indication", "cong_dung", "chi_dinh"],
+    "side_effects": ["side_effects", "tac_dung_phu", "tac_dung_khong_mong_muon"],
+    "general": [],
 }
 
 TRUST_WEIGHT = {

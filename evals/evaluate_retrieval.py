@@ -397,11 +397,11 @@ def _expected_fields(sample: dict[str, Any]) -> set[str]:
 def load_dataset(path: Path, suites: set[str] | None, limit: int | None, per_suite: int | None) -> list[dict[str, Any]]:
     samples = json.loads(path.read_text(encoding="utf-8"))
     if suites:
-        samples = [sample for sample in samples if sample["rubric"].get("suite") in suites]
+        samples = [sample for sample in samples if sample_metadata(sample)["suite"] in suites]
     if per_suite is not None:
         buckets: dict[str, list[dict[str, Any]]] = defaultdict(list)
         for sample in samples:
-            suite = str(sample["rubric"].get("suite", ""))
+            suite = str(sample_metadata(sample)["suite"])
             if len(buckets[suite]) < per_suite:
                 buckets[suite].append(sample)
         samples = [sample for suite in sorted(buckets) for sample in buckets[suite]]
@@ -431,6 +431,9 @@ async def evaluate_dense_run(
     samples: list[dict[str, Any]],
     dense_config: DenseRunConfig,
     reranker_models: list[str],
+    reranker_device: str,
+    reranker_use_fp16: bool,
+    reranker_batch_size: int,
     candidate_k: int,
     concurrency: int,
     verbose: bool,
@@ -445,7 +448,15 @@ async def evaluate_dense_run(
         check_compatibility=False,
     )
     rerankers = [
-        (model_name, FlagEmbeddingRerankerModel(model_name, use_fp16=settings.reranker_use_fp16))
+        (
+            model_name,
+            FlagEmbeddingRerankerModel(
+                model_name,
+                use_fp16=reranker_use_fp16,
+                device=reranker_device,
+                batch_size=reranker_batch_size,
+            ),
+        )
         for model_name in reranker_models
     ]
 
@@ -817,6 +828,13 @@ def build_arg_parser() -> argparse.ArgumentParser:
         help="Evaluate a dense model against a matching collection, formatted MODEL=COLLECTION. Repeat to compare dense models.",
     )
     parser.add_argument("--reranker-model", action="append", default=[], help="Optional reranker model. Repeat to compare rerankers.")
+    parser.add_argument(
+        "--reranker-device",
+        choices=("auto", "cuda", "cpu"),
+        help="Device for FlagEmbedding rerankers. Use cpu if CUDA model loading hangs.",
+    )
+    parser.add_argument("--reranker-batch-size", type=int, help="Batch size for FlagEmbedding reranker scoring.")
+    parser.add_argument("--no-reranker-fp16", action="store_true", help="Disable fp16 for reranker scoring.")
     parser.add_argument("--candidate-k", type=int, default=30)
     parser.add_argument("--concurrency", type=int, default=6)
     parser.add_argument("--output", help="Output JSON report path.")
@@ -830,6 +848,9 @@ async def async_main(args: argparse.Namespace) -> dict[str, Any]:
     settings = get_settings()
     dense_model = args.dense_model or settings.embedding_model
     collection = args.collection or settings.qdrant_collection
+    reranker_device = args.reranker_device or settings.reranker_device
+    reranker_batch_size = args.reranker_batch_size or settings.reranker_batch_size
+    reranker_use_fp16 = settings.reranker_use_fp16 and not args.no_reranker_fp16
     dense_configs = parse_dense_configs(args.dense_collection, dense_model, collection)
     samples = load_dataset(
         path=Path(args.dataset),
@@ -856,6 +877,9 @@ async def async_main(args: argparse.Namespace) -> dict[str, Any]:
             samples=samples,
             dense_config=dense_config,
             reranker_models=args.reranker_model,
+            reranker_device=reranker_device,
+            reranker_use_fp16=reranker_use_fp16,
+            reranker_batch_size=reranker_batch_size,
             candidate_k=args.candidate_k,
             concurrency=args.concurrency,
             verbose=args.verbose,

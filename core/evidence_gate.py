@@ -43,7 +43,7 @@ def assess_coverage(
             status=EvidenceStatus.INSUFFICIENT,
             per_facet_coverage={},
             gaps=["No relevant evidence found."],
-            warnings=["empty"],
+            warnings=[],
         )
 
     all_items = [item for items in facet_results.values() for item in items]

@@ -1,6 +1,7 @@
 import asyncio
 import logging
 import os
+import time
 from typing import Protocol
 
 logger = logging.getLogger(__name__)
@@ -74,18 +75,41 @@ class FakeEmbeddingModel:
 
 
 class FlagEmbeddingRerankerModel:
-    def __init__(self, model: str, use_fp16: bool = True) -> None:
+    def __init__(
+        self,
+        model: str,
+        use_fp16: bool = True,
+        device: str = "auto",
+        batch_size: int = 16,
+    ) -> None:
         import torch
         from FlagEmbedding import FlagReranker
 
-        device = "cuda" if torch.cuda.is_available() else "cpu"
-        logger.info("reranker.init model=%s device=%s fp16=%s", model, device, use_fp16)
+        resolved_device = device
+        if resolved_device == "auto":
+            resolved_device = "cuda" if torch.cuda.is_available() else "cpu"
+        effective_fp16 = bool(use_fp16 and resolved_device != "cpu")
+        start = time.perf_counter()
+        logger.info(
+            "reranker.init model=%s device=%s fp16=%s batch_size=%s",
+            model,
+            resolved_device,
+            effective_fp16,
+            batch_size,
+        )
         self.model = model
+        self._score_lock = asyncio.Lock()
         try:
-            self.reranker = FlagReranker(model, use_fp16=use_fp16, device=device)
+            self.reranker = FlagReranker(
+                model,
+                use_fp16=effective_fp16,
+                devices=resolved_device,
+                batch_size=batch_size,
+            )
         except TypeError:
-            self.reranker = FlagReranker(model, use_fp16=use_fp16)
+            self.reranker = FlagReranker(model, use_fp16=effective_fp16, batch_size=batch_size)
         ensure_prepare_for_model_compat(getattr(self.reranker, "tokenizer", None))
+        logger.info("reranker.ready model=%s elapsed_seconds=%.2f", model, time.perf_counter() - start)
 
     async def score(
         self,
@@ -94,10 +118,11 @@ class FlagEmbeddingRerankerModel:
         timeout_seconds: float,
     ) -> list[float]:
         pairs = [[query, passage] for passage in passages]
-        scores = await asyncio.wait_for(
-            asyncio.to_thread(self.reranker.compute_score, pairs, normalize=True),
-            timeout=timeout_seconds,
-        )
+        async with self._score_lock:
+            scores = await asyncio.wait_for(
+                asyncio.to_thread(self.reranker.compute_score, pairs, normalize=True),
+                timeout=timeout_seconds,
+            )
         return [float(score) for score in scores]
 
 
