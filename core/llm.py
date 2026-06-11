@@ -89,6 +89,11 @@ class FlagEmbeddingRerankerModel:
         if resolved_device == "auto":
             resolved_device = "cuda" if torch.cuda.is_available() else "cpu"
         effective_fp16 = bool(use_fp16 and resolved_device != "cpu")
+        # On Windows, passing devices=['cpu'] explicitly to FlagReranker triggers a
+        # native access violation in the underlying C++ runtime. When no GPU is present
+        # and the effective device is 'cpu', let FlagReranker auto-detect rather than
+        # forcing devices=['cpu']. We still track resolved_device for logging/warmup.
+        build_device = "auto" if resolved_device == "cpu" else resolved_device
         start = time.perf_counter()
         logger.info(
             "reranker.init model=%s device=%s fp16=%s batch_size=%s",
@@ -99,17 +104,108 @@ class FlagEmbeddingRerankerModel:
         )
         self.model = model
         self._score_lock = asyncio.Lock()
-        try:
-            self.reranker = FlagReranker(
-                model,
-                use_fp16=effective_fp16,
-                devices=resolved_device,
-                batch_size=batch_size,
-            )
-        except TypeError:
-            self.reranker = FlagReranker(model, use_fp16=effective_fp16, batch_size=batch_size)
+        self.reranker = self._build_reranker(
+            FlagReranker,
+            model=model,
+            use_fp16=effective_fp16,
+            device=build_device,
+            batch_size=batch_size,
+        )
+        self._patch_reranker_tqdm(self.reranker)
+        self._compute_score_kwargs = {}
         ensure_prepare_for_model_compat(getattr(self.reranker, "tokenizer", None))
-        logger.info("reranker.ready model=%s elapsed_seconds=%.2f", model, time.perf_counter() - start)
+        # Warmup: force model.to(device) on the main thread so that CUDA context
+        # is initialized before asyncio.to_thread calls. On Windows WDDM, CUDA
+        # context must be initialized on the thread that first uses it; a dummy
+        # score call achieves this and pre-JITs the CUDA kernels.
+        if resolved_device != "cpu" and hasattr(self.reranker, "model"):
+            self._warmup_on_device(resolved_device)
+        actual_device = self._actual_model_device()
+        logger.info(
+            "reranker.ready model=%s target_device=%s actual_device=%s fp16=%s elapsed_seconds=%.2f",
+            model,
+            resolved_device,
+            actual_device,
+            effective_fp16,
+            time.perf_counter() - start,
+        )
+
+    @staticmethod
+    def _build_reranker(FlagReranker, model: str, use_fp16: bool, device: str, batch_size: int):
+        # FlagReranker uses `devices` (plural) parameter to specify the target device.
+        # We pass device as a list so AbsReranker.get_target_devices() picks it up correctly.
+        devices_arg = [device] if device not in ("auto", None) else None
+        base_kwargs = {
+            "use_fp16": use_fp16,
+            "batch_size": batch_size,
+        }
+        attempts = (
+            {**base_kwargs, "devices": devices_arg},
+            {**base_kwargs, "device": device},
+            base_kwargs,
+        )
+        last_error: TypeError | None = None
+        for kwargs in attempts:
+            try:
+                return FlagReranker(model, **kwargs)
+            except TypeError as exc:
+                last_error = exc
+        if last_error is not None:
+            raise last_error
+        raise RuntimeError("Unable to initialize FlagEmbedding reranker")
+
+    def _actual_model_device(self) -> str:
+        model = getattr(self.reranker, "model", None)
+        if model is None or not hasattr(model, "parameters"):
+            return "unknown"
+        try:
+            return str(next(model.parameters()).device)
+        except (AttributeError, StopIteration, TypeError):
+            return "unknown"
+
+    def _warmup_on_device(self, device: str) -> None:
+        """Force model.to(device) on the calling (main) thread.
+
+        FlagEmbedding's compute_score_single_gpu lazily calls model.to(device)
+        at inference time. On Windows WDDM, calling model.to('cuda') from
+        asyncio.to_thread worker threads can silently fall back to CPU because
+        the CUDA context hasn't been initialized on that thread yet.
+        Running one dummy score here pins the model to GPU on the main thread
+        so subsequent calls from worker threads find it already on the device.
+        """
+        try:
+            self.reranker.compute_score(
+                [["warmup query", "warmup passage"]],
+                normalize=False,
+                **self._compute_score_kwargs,
+            )
+            actual = self._actual_model_device()
+            logger.info("reranker warmup complete: model pinned to device=%s", actual)
+        except (AssertionError, AttributeError, RuntimeError, TypeError) as exc:
+            logger.warning(
+                "reranker warmup failed for device=%s (%s); model will run on CPU. "
+                "Install a CUDA-enabled PyTorch: pip install torch --index-url https://download.pytorch.org/whl/cu124",
+                device, exc,
+            )
+
+    @staticmethod
+    def _patch_reranker_tqdm(reranker: object) -> None:
+        """Monkey-patch compute_score_single_gpu so FlagEmbedding's internal
+        tqdm/trange calls are silenced.  We replace the tqdm & trange names
+        inside the method's enclosing module with no-op stubs."""
+        try:
+            import FlagEmbedding.inference.reranker.encoder_only.base as _flag_base
+            from tqdm import tqdm as _real_tqdm
+
+            class _SilentTqdm(_real_tqdm):
+                def __init__(self, *args, **kwargs):
+                    kwargs["disable"] = True
+                    super().__init__(*args, **kwargs)
+
+            _flag_base.tqdm = _SilentTqdm
+            _flag_base.trange = lambda *a, **kw: _SilentTqdm(range(*a[:3]) if a else [], **kw)
+        except Exception:
+            pass
 
     async def score(
         self,
@@ -120,11 +216,15 @@ class FlagEmbeddingRerankerModel:
         pairs = [[query, passage] for passage in passages]
         async with self._score_lock:
             scores = await asyncio.wait_for(
-                asyncio.to_thread(self.reranker.compute_score, pairs, normalize=True),
+                asyncio.to_thread(
+                    self.reranker.compute_score,
+                    pairs,
+                    normalize=True,
+                    **self._compute_score_kwargs,
+                ),
                 timeout=timeout_seconds,
             )
         return [float(score) for score in scores]
-
 
 class FallbackChatModel:
     def __init__(self, primary: ChatModel, secondary: ChatModel) -> None:

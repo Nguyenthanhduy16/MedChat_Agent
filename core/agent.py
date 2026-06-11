@@ -35,6 +35,9 @@ KNOWN_CONDITIONS = {
 INTENT_ORDER = (
     "interaction",
     "contraindication",
+    "overdose",
+    "adverse_effect",
+    "careful",
     "dosage",
     "pregnancy_lactation",
     "symptom_triage",
@@ -226,6 +229,9 @@ def route_question(request: ChatRequest) -> RouterDecision:
     drugs = _extract_drugs(request.message)
     products = _extract_taxonomy_terms(request.message, KNOWN_PRODUCTS)
     drug_classes = _extract_taxonomy_terms(request.message, KNOWN_DRUG_CLASSES)
+    list_group = extract_list_group_term(request.message)
+    if list_group and list_group not in drug_classes:
+        drug_classes.append(list_group)
     known_conditions = _extract_taxonomy_terms(request.message, KNOWN_CONDITIONS)
     conditions = [
         condition
@@ -237,6 +243,7 @@ def route_question(request: ChatRequest) -> RouterDecision:
     symptoms = _extract_terms(folded, SYMPTOM_TERMS)
     body_parts = _extract_terms(folded, BODY_PART_TERMS)
     medication_entities = drugs + products + drug_classes
+    has_contraindication_request = any(term in folded for term in ("khong nen dung", "ai khong nen dung", "chong chi dinh"))
 
     if (
         any(term in folded for term in ("tuong tac", "uong chung", "dung chung", "dung them"))
@@ -245,10 +252,19 @@ def route_question(request: ChatRequest) -> RouterDecision:
     ):
         intents.extend(["interaction", "contraindication"])
         risk = RiskLevel.HIGH
-    if any(term in folded for term in ("lieu", "cach dung", "qua lieu", "quen lieu", "uong nhu the nao", "dung nhu the nao")):
+    if any(term in folded for term in ("qua lieu", "xu tri qua lieu")):
+        intents.append("overdose")
+        risk = RiskLevel.HIGH
+    if any(term in folded for term in ("tac dung khong mong muon", "tac dung phu", "phan ung phu", "adr")):
+        intents.append("adverse_effect")
+        risk = max_risk(risk, RiskLevel.MEDIUM)
+    if not has_contraindication_request and any(term in folded for term in ("luu y", "than trong", "canh bao", "an toan")):
+        intents.append("careful")
+        risk = max_risk(risk, RiskLevel.MEDIUM)
+    if "overdose" not in intents and _contains_dosage_request(folded):
         intents.append("dosage")
-        risk = RiskLevel.HIGH if "qua lieu" in folded else max_risk(risk, RiskLevel.MEDIUM)
-    if any(term in folded for term in ("khong nen dung", "ai khong nen dung", "chong chi dinh")):
+        risk = max_risk(risk, RiskLevel.MEDIUM)
+    if has_contraindication_request:
         intents.append("contraindication")
     if any(term in folded for term in ("mang thai", "cho con bu", "thai")):
         intents.append("pregnancy_lactation")
@@ -260,7 +276,7 @@ def route_question(request: ChatRequest) -> RouterDecision:
     if any(term in folded for term in ("tre em", "nguoi gia", "suy than")) or any("thang tuoi" in item for item in clinical_qualifiers):
         intents.append("pediatric_elderly" if "tre em" in folded or "nguoi gia" in folded or any("thang tuoi" in item for item in clinical_qualifiers) else "disease_context")
         risk = RiskLevel.HIGH
-    if _contains_indication_request(folded):
+    if _contains_indication_request(folded) or is_list_group_request(folded):
         intents.append("indication")
     if products and any(term in folded for term in ("co nen dung", "uong nhu the nao", "dung nhu the nao")):
         if "dosage" not in intents and any(term in folded for term in ("uong", "dung")):
@@ -307,6 +323,34 @@ def _is_health_scope(folded_message: str) -> bool:
         re.search(rf"(?<!\w){re.escape(term)}(?!\w)", folded_message)
         for term in HEALTH_SCOPE_TERMS
     )
+
+
+def is_list_group_request(folded_message: str) -> bool:
+    return (
+        "liet ke" in folded_message
+        and "nhom" in folded_message
+        and any(term in folded_message for term in ("thuoc", "hoat chat", "duoc chat"))
+    )
+
+
+def extract_list_group_term(message: str) -> str | None:
+    folded = accent_fold(message)
+    if not is_list_group_request(folded):
+        return None
+    match = re.search(r"\bnhom\s+(.+?)(?:\s+trong\s+du\s+lieu|\s+trong\s+data|[?.!,]|$)", folded)
+    if not match:
+        return None
+    group = match.group(1).strip(" ?.,")
+    return group or None
+
+
+def _contains_dosage_request(folded_message: str) -> bool:
+    if any(
+        term in folded_message
+        for term in ("cach dung", "quen lieu", "uong nhu the nao", "dung nhu the nao", "lieu dung", "lieu luong")
+    ):
+        return True
+    return re.search(r"(?<!du )\blieu\b", folded_message) is not None
 
 
 def _contains_indication_request(folded_message: str) -> bool:
@@ -372,6 +416,12 @@ def build_retrieval_plan(decision: RouterDecision) -> RetrievalPlan:
             fields.extend(["interaction", "warning"])
         elif intent == "contraindication":
             fields.extend(["contraindication", "warning", "careful"])
+        elif intent == "overdose":
+            fields.extend(["overdose", "xu_tri_qua_lieu", "qua_lieu_va_xu_tri"])
+        elif intent == "adverse_effect":
+            fields.extend(["adverse_effect", "side_effects", "tac_dung_phu"])
+        elif intent == "careful":
+            fields.extend(["careful", "warning", "than_trong", "canh_bao"])
         elif intent == "pregnancy_lactation":
             fields.extend(["pregnancy_lactation", "warning"])
         elif intent in {"dosage", "indication"}:

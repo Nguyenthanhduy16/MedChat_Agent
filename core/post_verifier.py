@@ -19,8 +19,8 @@ def verify_answer(
     failures: list[str] = []
     
     if citations:
-        if not re.search(r"\[S\d+\]", answer):
-            failures.append("Missing citations: The answer does not contain any [S#] markers.")
+        if not re.search(r"\[\d+\]", answer):
+            failures.append("Missing citations: The answer does not contain any [#] markers.")
             
     if coverage.status in {EvidenceStatus.WEAK_PARTIAL, EvidenceStatus.INSUFFICIENT}:
         hallucination_triggers = ["an toàn", "được dùng", "sử dụng được", "hoàn toàn", "liều"]

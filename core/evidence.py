@@ -5,6 +5,9 @@ from core.text import accent_fold
 INTENT_FIELD_COVERAGE = {
     "interaction": {"interaction", "tuong_tac_thuoc"},
     "contraindication": {"contraindication", "chong_chi_dinh", "warning", "canh_bao", "than_trong", "careful"},
+    "overdose": {"overdose", "xu_tri_qua_lieu", "qua_lieu_va_xu_tri"},
+    "adverse_effect": {"adverse_effect", "side_effects", "tac_dung_phu", "tac_dung_khong_mong_muon"},
+    "careful": {"careful", "than_trong", "warning", "canh_bao"},
     "dosage": {"dosage", "lieu_luong_va_cach_dung", "cach_dung"},
     "pregnancy_lactation": {"pregnancy_lactation", "phu_nu_co_thai_va_cho_con_bu", "careful"},
     "disease_context": {"disease_context", "overview", "describe", "cause", "causes", "symptom", "symptoms"},

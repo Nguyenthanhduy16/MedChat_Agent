@@ -5,6 +5,7 @@ import asyncio
 import json
 import os
 import re
+import logging
 import sys
 from collections import defaultdict
 from dataclasses import dataclass, field as dataclass_field
@@ -13,19 +14,33 @@ from pathlib import Path
 from statistics import mean
 from typing import Any, Iterable
 
+try:
+    import pyarrow
+except ImportError:
+    pass
+
 
 def configure_transformer_runtime() -> None:
     os.environ.setdefault("USE_TF", "0")
     os.environ.setdefault("TRANSFORMERS_NO_TF", "1")
     os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "3")
+    os.environ.setdefault("TRANSFORMERS_VERBOSITY", "error")
+    os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+    # Suppress HuggingFace fast-tokenizer advisory printed to stderr.
+    # PowerShell treats any stderr output as an error and aborts the script.
+    import warnings
+    warnings.filterwarnings("ignore", message=".*fast tokenizer.*")
+    warnings.filterwarnings("ignore", message=".*XLMRoberta.*")
 
 
 configure_transformer_runtime()
 
 from qdrant_client import AsyncQdrantClient
+from qdrant_client.http.exceptions import ResponseHandlingException
 from qdrant_client.http.models import Fusion, FusionQuery, Prefetch
 
 from backend.api.schemas import ChatRequest, RetrievalOptions
+from backend.api.routes import _build_chat_model
 from core.agent import route_question
 from core.chat_service import _build_hybrid_query, _enrich_decision_entities
 from core.config import get_settings
@@ -34,6 +49,7 @@ from core.llm import FlagEmbeddingRerankerModel, SentenceTransformerEmbeddingMod
 from core.models import EvidenceItem, RetrievalPlan
 from core.query_planner import plan_query_facets, retrieval_plan_for_facet
 from core.retrieval import _build_query_filter, _query_terms, rerank_evidence
+from core.router_classifier import LLMRouterClassifier
 from core.sparse_vectors import build_sparse_vector
 from core.text import accent_fold
 from core.input_normalizer import normalize_input
@@ -109,6 +125,7 @@ class ProgressBar:
         self.enabled = enabled and total > 0
         self.width = width
         self.last_length = 0
+        self.update(0)
 
     def update(self, current: int) -> None:
         if not self.enabled:
@@ -216,6 +233,7 @@ def candidate_reference_keys(candidate: RetrievedCandidate) -> set[str]:
         metadata.get("path"),
         metadata.get("local_path"),
         metadata.get("id"),
+        metadata.get("chunk_id"),
         metadata.get("content_hash"),
     ):
         if value:
@@ -223,14 +241,24 @@ def candidate_reference_keys(candidate: RetrievedCandidate) -> set[str]:
 
     path = normalize_path(str(metadata.get("path") or metadata.get("local_path") or candidate.path))
     slug = Path(path).stem if path else ""
+    id_val = str(metadata.get("id") or "")
     field_name = str(metadata.get("field") or candidate.field or "")
     chunk_index = metadata.get("chunk_index")
-    if slug and field_name and chunk_index is not None:
+    
+    if field_name and chunk_index is not None:
         for entity_type in ("drug", "condition", "supplement", "ingredient"):
-            keys.add(f"{entity_type}:{slug}:{field_name}:{chunk_index}")
+            if slug:
+                keys.add(f"{entity_type}:{slug}:{field_name}:{chunk_index}")
+            if id_val:
+                keys.add(f"{entity_type}:{id_val}:{field_name}:{chunk_index}")
+                
         type_slug = str(metadata.get("type_slug") or metadata.get("type") or "").strip()
         if type_slug:
-            keys.add(f"{type_slug}:{slug}:{field_name}:{chunk_index}")
+            if slug:
+                keys.add(f"{type_slug}:{slug}:{field_name}:{chunk_index}")
+            if id_val:
+                keys.add(f"{type_slug}:{id_val}:{field_name}:{chunk_index}")
+                
     return {key for key in keys if key}
 
 
@@ -343,6 +371,7 @@ def _group_by(rows: list[dict[str, Any]], key: str) -> dict[str, list[dict[str, 
 def diagnostic_metrics(sample: dict[str, Any], candidates: list[RetrievedCandidate], k: int) -> dict[str, Any]:
     top_k = candidates[:k]
     expected_fields = _expected_fields(sample)
+    expected_categories = _expected_categories(sample)
     got_fields = {candidate.field or "" for candidate in top_k}
     entities = sample_metadata(sample)["entities"]
     combined_text = " ".join(f"{candidate.title} {candidate.text}" for candidate in top_k)
@@ -353,6 +382,12 @@ def diagnostic_metrics(sample: dict[str, Any], candidates: list[RetrievedCandida
     )
     return {
         f"field_hit@{k}": bool(expected_fields & got_fields) if expected_fields else False,
+        f"category_hit@{k}": _has_category_hit(top_k, expected_categories) if expected_categories else False,
+        f"category_field_hit@{k}": (
+            _has_category_field_hit(top_k, expected_categories, expected_fields)
+            if expected_categories and expected_fields
+            else False
+        ),
         f"entity_hit_rate@{k}": entity_hits / max(1, len(entities)),
         f"context_overlap@{k}": max_context_overlap(top_k, sample.get("reference_contexts", [])),
         "retrieved_count": len(candidates),
@@ -392,6 +427,47 @@ def _expected_fields(sample: dict[str, Any]) -> set[str]:
     for field_name in sample_metadata(sample)["source_fields"]:
         fields.update(FIELD_ALIASES.get(field_name, {field_name}))
     return fields
+
+
+def _expected_categories(sample: dict[str, Any]) -> set[str]:
+    expected_retrieval = sample.get("expected_retrieval")
+    categories = set()
+    if isinstance(expected_retrieval, dict):
+        for source_file in expected_retrieval.get("source_files", []):
+            path = normalize_path(str(source_file))
+            if path:
+                categories.add(Path(path).parent.as_posix())
+    
+    if not categories:
+        for context in sample.get("reference_contexts", []):
+            source_file = context.get("source_file")
+            if source_file:
+                path = normalize_path(str(source_file))
+                if path:
+                    categories.add(Path(path).parent.as_posix())
+                    
+    return categories
+
+
+def _candidate_category(candidate: RetrievedCandidate) -> str:
+    path = normalize_path(str(candidate.metadata.get("path") or candidate.path))
+    return Path(path).parent.as_posix() if path else ""
+
+
+def _has_category_hit(candidates: list[RetrievedCandidate], expected_categories: set[str]) -> bool:
+    return any(_candidate_category(candidate) in expected_categories for candidate in candidates)
+
+
+def _has_category_field_hit(
+    candidates: list[RetrievedCandidate],
+    expected_categories: set[str],
+    expected_fields: set[str],
+) -> bool:
+    return any(
+        _candidate_category(candidate) in expected_categories
+        and (candidate.field or "") in expected_fields
+        for candidate in candidates
+    )
 
 
 def load_dataset(path: Path, suites: set[str] | None, limit: int | None, per_suite: int | None) -> list[dict[str, Any]]:
@@ -438,33 +514,55 @@ async def evaluate_dense_run(
     concurrency: int,
     verbose: bool,
     progress: bool,
+    router_classifier: LLMRouterClassifier | None = None,
+    router_timeout_seconds: float = 8.0,
 ) -> dict[str, Any]:
     settings = get_settings()
-    embedder = SentenceTransformerEmbeddingModel(dense_config.model)
     client = AsyncQdrantClient(
         url=settings.qdrant_url,
         api_key=settings.qdrant_api_key,
-        timeout=max(settings.qdrant_query_timeout_seconds, 10.0),
+        timeout=max(settings.qdrant_query_timeout_seconds, 60.0),
         check_compatibility=False,
     )
-    rerankers = [
-        (
-            model_name,
-            FlagEmbeddingRerankerModel(
+    rerankers = []
+    for model_name in reranker_models:
+        if verbose or progress:
+            print(f"Loading reranker model: {model_name}... (this may take a while to download)")
+        # core/llm.py sets TRANSFORMERS_OFFLINE=1 and HF_HUB_OFFLINE=1 at module level.
+        # FlagEmbedding crashes with an access violation when these are set during model init.
+        # Temporarily clear them so FlagReranker can load model weights, then restore.
+        _saved_offline = {
+            k: os.environ.pop(k, None)
+            for k in ("TRANSFORMERS_OFFLINE", "HF_HUB_OFFLINE")
+        }
+        try:
+            rerankers.append((
                 model_name,
-                use_fp16=reranker_use_fp16,
-                device=reranker_device,
-                batch_size=reranker_batch_size,
-            ),
-        )
-        for model_name in reranker_models
-    ]
+                FlagEmbeddingRerankerModel(
+                    model_name,
+                    use_fp16=reranker_use_fp16,
+                    device=reranker_device,
+                    batch_size=reranker_batch_size,
+                ),
+            ))
+        finally:
+            for k, v in _saved_offline.items():
+                if v is not None:
+                    os.environ[k] = v
+
+    embedder = SentenceTransformerEmbeddingModel(dense_config.model)
 
     try:
         case_inputs = []
         prepare_progress = ProgressBar(f"{dense_config.label} prepare", len(samples), progress)
         for index, sample in enumerate(samples, start=1):
-            case_inputs.append(await _prepare_case(sample))
+            case_inputs.append(
+                await _prepare_case(
+                    sample,
+                    router_classifier=router_classifier,
+                    router_timeout_seconds=router_timeout_seconds,
+                )
+            )
             prepare_progress.update(index)
         prepare_progress.close()
 
@@ -494,7 +592,6 @@ async def evaluate_dense_run(
                     collection=dense_config.collection,
                     case_input=case_input,
                     query_vectors=vectors,
-                    rerankers=rerankers,
                     candidate_k=candidate_k,
                     semaphore=semaphore,
                 )
@@ -506,6 +603,8 @@ async def evaluate_dense_run(
             progress=progress,
             verbose=verbose,
         )
+        await apply_rerankers_to_rows(rows, rerankers, progress=progress)
+        _strip_internal_candidates(rows)
 
         summary = aggregate_rows(rows)
         return {
@@ -546,14 +645,28 @@ async def collect_completed_rows(
         progress_bar.close()
 
 
-async def _prepare_case(sample: dict[str, Any]) -> dict[str, Any]:
+async def _prepare_case(
+    sample: dict[str, Any],
+    router_classifier=None,
+    router_timeout_seconds: float = 8.0,
+) -> dict[str, Any]:
     user_input = sample_user_input(sample)
     request = ChatRequest(
         message=user_input,
         retrieval_options=RetrievalOptions(allow_web=False, qdrant_search=True),
     )
     normalized = normalize_input(request.message)
-    decision = route_question(request)
+    fallback_decision = route_question(request)
+    if router_classifier is not None:
+        decision = await router_classifier.classify(
+            request,
+            normalized=normalized,
+            fallback_decision=fallback_decision,
+            timeout_seconds=router_timeout_seconds,
+        )
+    else:
+        decision = fallback_decision
+        decision.classification_uncertain = False
     resolved = await resolve_entities(decision.entities, message=request.message)
     _enrich_decision_entities(decision, resolved)
     query_plan = plan_query_facets(decision, normalized)
@@ -595,7 +708,6 @@ async def _evaluate_case(
     collection: str,
     case_input: dict[str, Any],
     query_vectors: list[list[float]],
-    rerankers: list[tuple[str, Any]],
     candidate_k: int,
     semaphore: asyncio.Semaphore,
 ) -> dict[str, Any]:
@@ -636,25 +748,56 @@ async def _evaluate_case(
                 **diagnostic_metrics(sample, baseline, max(DEFAULT_RECALL_KS)),
             },
             "top_baseline": [_candidate_summary(candidate) for candidate in baseline[: max(DEFAULT_RECALL_KS)]],
+            "_expected_references": expected_references,
+            "_sample": sample,
+            "_baseline_candidates": baseline,
         }
 
-        for index, (model_name, reranker) in enumerate(rerankers):
-            reranked = await rerank_candidates(
-                reranker=reranker,
-                query=sample_user_input(sample),
-                candidates=baseline,
-            )
-            key = f"reranked:{model_name}"
-            metrics = {
-                **compute_reference_metrics(reranked, expected_references),
-                **diagnostic_metrics(sample, reranked, max(DEFAULT_RECALL_KS)),
-            }
-            row[key] = metrics
-            if index == 0:
-                row["reranked"] = metrics
-                row["top_reranked"] = [_candidate_summary(candidate) for candidate in reranked[: max(DEFAULT_RECALL_KS)]]
-
         return row
+
+
+async def apply_rerankers_to_rows(
+    rows: list[dict[str, Any]],
+    rerankers: list[tuple[str, Any]],
+    progress: bool,
+) -> None:
+    if not rerankers:
+        return
+
+    for index, (model_name, reranker) in enumerate(rerankers):
+        total_pairs = sum(len(row.get("_baseline_candidates", [])) for row in rows)
+        progress_bar = ProgressBar(f"{model_name} rerank", total_pairs, progress)
+        completed_pairs = 0
+        try:
+            for row in rows:
+                candidates = list(row.get("_baseline_candidates", []))
+                reranked = await rerank_candidates(
+                    reranker=reranker,
+                    query=str(row["question"]),
+                    candidates=candidates,
+                )
+                metrics = {
+                    **compute_reference_metrics(reranked, set(row.get("_expected_references", set()))),
+                    **diagnostic_metrics(row["_sample"], reranked, max(DEFAULT_RECALL_KS)),
+                }
+                key = f"reranked:{model_name}"
+                row[key] = metrics
+                row[f"top_{key}"] = [_candidate_summary(candidate) for candidate in reranked[: max(DEFAULT_RECALL_KS)]]
+                if index == 0:
+                    row["reranked"] = metrics
+                    row["top_reranked"] = row[f"top_{key}"]
+
+                completed_pairs += len(candidates)
+                progress_bar.update(completed_pairs)
+        finally:
+            progress_bar.close()
+
+
+def _strip_internal_candidates(rows: list[dict[str, Any]]) -> None:
+    for row in rows:
+        row.pop("_expected_references", None)
+        row.pop("_sample", None)
+        row.pop("_baseline_candidates", None)
 
 
 async def retrieve_candidates(
@@ -666,32 +809,22 @@ async def retrieve_candidates(
 ) -> list[RetrievedCandidate]:
     query_filter = _build_query_filter(plan.metadata_filters)
     sparse_query = build_sparse_vector(" ".join(_query_terms(plan)))
+    query_kwargs = {
+        "collection_name": collection,
+        "prefetch": [
+            Prefetch(query=query_vector, using="dense", limit=candidate_k),
+            Prefetch(query=sparse_query, using="sparse", limit=candidate_k),
+        ],
+        "query": FusionQuery(fusion=Fusion.RRF),
+        "limit": candidate_k,
+        "with_payload": True,
+    }
     try:
-        response = await client.query_points(
-            collection_name=collection,
-            prefetch=[
-                Prefetch(query=query_vector, using="dense", limit=candidate_k),
-                Prefetch(query=sparse_query, using="sparse", limit=candidate_k),
-            ],
-            query=FusionQuery(fusion=Fusion.RRF),
-            query_filter=query_filter,
-            limit=candidate_k,
-            with_payload=True,
-        )
+        response = await _query_points_with_retry(client, {**query_kwargs, "query_filter": query_filter})
     except Exception as exc:
         if query_filter is None or "Index required" not in str(exc):
             raise
-        response = await client.query_points(
-            collection_name=collection,
-            prefetch=[
-                Prefetch(query=query_vector, using="dense", limit=candidate_k),
-                Prefetch(query=sparse_query, using="sparse", limit=candidate_k),
-            ],
-            query=FusionQuery(fusion=Fusion.RRF),
-            query_filter=None,
-            limit=candidate_k,
-            with_payload=True,
-        )
+        response = await _query_points_with_retry(client, {**query_kwargs, "query_filter": None})
 
     evidence_items = []
     for point in response.points:
@@ -718,6 +851,31 @@ async def retrieve_candidates(
         required_entities=plan.entities.get("drugs", []),
     )
     return [_candidate_from_evidence(item) for item in ranked[:candidate_k]]
+
+
+async def _query_points_with_retry(client: AsyncQdrantClient, kwargs: dict[str, Any], attempts: int = 3):
+    last_exc: ResponseHandlingException | None = None
+    for attempt in range(1, attempts + 1):
+        try:
+            return await client.query_points(**kwargs)
+        except ResponseHandlingException as exc:
+            last_exc = exc
+            if attempt == attempts or not _is_transient_qdrant_error(exc):
+                raise
+            await asyncio.sleep(0.25 * attempt)
+    if last_exc is not None:
+        raise last_exc
+    raise RuntimeError("Qdrant query retry exhausted without an exception")
+
+
+def _is_transient_qdrant_error(exc: ResponseHandlingException) -> bool:
+    text = str(exc).lower()
+    return (
+        "timeout" in text
+        or "timed out" in text
+        or "temporarily unavailable" in text
+        or "connection reset" in text
+    )
 
 
 def _sparse_score(text: str, terms: list[str]) -> float:
@@ -809,9 +967,35 @@ def _print_metric_table(label: str, summary: dict[str, dict[str, float]]) -> Non
     if not summary:
         return
     print(f"\n[{label}]")
-    for result_name, metrics in summary.items():
-        values = " ".join(f"{name}={value:.4f}" for name, value in metrics.items())
-        print(f"{result_name}: {values}")
+    metric_names: list[str] = []
+    for metrics in summary.values():
+        for name in metrics:
+            if name not in metric_names:
+                metric_names.append(name)
+
+    result_names = list(summary.keys())
+    headers = ["metric", *result_names]
+
+    col_widths = [len(h) for h in headers]
+    for name in metric_names:
+        col_widths[0] = max(col_widths[0], len(name))
+        for i, result_name in enumerate(result_names, start=1):
+            val_str = f"{summary[result_name][name]:.4f}" if name in summary[result_name] else ""
+            col_widths[i] = max(col_widths[i], len(val_str))
+
+    def format_row(row: list[str]) -> str:
+        formatted = [f"{row[0]:<{col_widths[0]}}"]
+        for i, val in enumerate(row[1:], start=1):
+            formatted.append(f"{val:>{col_widths[i]}}")
+        return "| " + " | ".join(formatted) + " |"
+
+    print(format_row(headers))
+    sep_row = ["-" * col_widths[0]] + ["-" * col_widths[i] for i in range(1, len(col_widths))]
+    print("| " + " | ".join(sep_row) + " |")
+
+    for name in metric_names:
+        values = [f"{summary[result_name][name]:.4f}" if name in summary[result_name] else "" for result_name in result_names]
+        print(format_row([name, *values]))
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
@@ -840,6 +1024,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output", help="Output JSON report path.")
     parser.add_argument("--no-write", action="store_true", help="Print metrics without writing a report file.")
     parser.add_argument("--no-progress", action="store_true", help="Disable terminal progress bars.")
+    parser.add_argument("--llm-router", action="store_true", help="Use the configured LLM router during query planning.")
     parser.add_argument("--verbose", action="store_true")
     return parser
 
@@ -851,6 +1036,7 @@ async def async_main(args: argparse.Namespace) -> dict[str, Any]:
     reranker_device = args.reranker_device or settings.reranker_device
     reranker_batch_size = args.reranker_batch_size or settings.reranker_batch_size
     reranker_use_fp16 = settings.reranker_use_fp16 and not args.no_reranker_fp16
+    router_classifier = build_eval_router_classifier(settings) if args.llm_router else None
     dense_configs = parse_dense_configs(args.dense_collection, dense_model, collection)
     samples = load_dataset(
         path=Path(args.dataset),
@@ -868,6 +1054,7 @@ async def async_main(args: argparse.Namespace) -> dict[str, Any]:
         "precision_ks": list(DEFAULT_PRECISION_KS),
         "recall_ks": list(DEFAULT_RECALL_KS),
         "reranker_models": args.reranker_model,
+        "router": "llm" if args.llm_router else "rule_based",
         "runs": {},
     }
     for dense_config in dense_configs:
@@ -884,8 +1071,18 @@ async def async_main(args: argparse.Namespace) -> dict[str, Any]:
             concurrency=args.concurrency,
             verbose=args.verbose,
             progress=not args.no_progress and sys.stdout.isatty(),
+            router_classifier=router_classifier,
+            router_timeout_seconds=settings.llm_router_timeout_seconds,
         )
     return report
+
+
+def build_eval_router_classifier(settings) -> LLMRouterClassifier:
+    router_model = _build_chat_model(settings, model_override=settings.router_model)
+    return LLMRouterClassifier(
+        router_model,
+        confidence_threshold=settings.llm_router_confidence_threshold,
+    )
 
 
 def default_output_path() -> Path:
@@ -894,6 +1091,8 @@ def default_output_path() -> Path:
 
 
 def main() -> None:
+    logging.getLogger("core.router_classifier").setLevel(logging.ERROR)
+    logging.getLogger("httpx").setLevel(logging.ERROR)
     parser = build_arg_parser()
     args = parser.parse_args()
     runtime_error = ensure_project_runtime()

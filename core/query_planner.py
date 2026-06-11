@@ -24,6 +24,9 @@ class QueryPlan:
 INTENT_FIELDS = {
     "interaction": ["interaction", "warning"],
     "contraindication": ["contraindication", "warning", "careful"],
+    "overdose": ["overdose", "xu_tri_qua_lieu", "qua_lieu_va_xu_tri"],
+    "adverse_effect": ["adverse_effect", "side_effects", "tac_dung_phu"],
+    "careful": ["careful", "warning", "than_trong", "canh_bao"],
     "dosage": ["dosage"],
     "pregnancy_lactation": ["pregnancy_lactation", "warning", "careful"],
     "symptom_triage": ["symptom_triage", "general_health", "overview", "describe", "symptoms"],
@@ -48,6 +51,18 @@ INTENT_EXPANSIONS: dict[str, list[str]] = {
         "chong chi dinh", "than trong", "khong dung",
         "contraindication", "avoid", "prohibited",
         "canh bao", "warning",
+    ],
+    "overdose": [
+        "qua lieu", "xu tri qua lieu", "qua lieu va xu tri",
+        "overdose", "overdosage", "poisoning",
+    ],
+    "adverse_effect": [
+        "tac dung khong mong muon", "tac dung phu", "phan ung phu",
+        "adverse effect", "side effect", "adr",
+    ],
+    "careful": [
+        "than trong", "luu y", "canh bao", "an toan",
+        "warning", "precaution", "caution", "safety",
     ],
     "interaction": [
         "tuong tac", "dung chung", "uong chung",
@@ -81,6 +96,9 @@ INTENT_EXPANSIONS: dict[str, list[str]] = {
 INTENT_PART_MARKERS: dict[str, tuple[str, ...]] = {
     "interaction": ("tuong tac", "dung chung", "uong chung", "ket hop", "phoi hop"),
     "contraindication": ("chong chi dinh", "khong nen", "khong dung", "co the dung", "ai khong nen"),
+    "overdose": ("qua lieu", "xu tri qua lieu", "overdose"),
+    "adverse_effect": ("tac dung khong mong muon", "tac dung phu", "phan ung phu", "adr", "side effect"),
+    "careful": ("luu y", "than trong", "canh bao", "an toan", "precaution", "warning"),
     "dosage": ("lieu", "lieu dung", "lieu luong", "dieu chinh", "cach dung", "uong nhu the nao", "dose"),
     "pregnancy_lactation": ("mang thai", "cho con bu", "thai", "breastfeeding", "pregnancy"),
     "disease_context": ("benh", "suy than", "suy gan", "clcr", "gfr", "tinh trang"),
@@ -166,7 +184,7 @@ def _required_entities_for_intent(intent: str, decision: RouterDecision) -> list
         + entities.get("drug_classes", [])
     )
     clinical_entities = entities.get("conditions", []) + entities.get("clinical_qualifiers", [])
-    if intent in {"dosage", "interaction", "contraindication", "pregnancy_lactation"}:
+    if intent in {"dosage", "interaction", "contraindication", "overdose", "adverse_effect", "careful", "pregnancy_lactation"}:
         return list(dict.fromkeys(medication_entities + clinical_entities))
     if intent in {"disease_context", "symptom_triage", "pediatric_elderly"}:
         return list(dict.fromkeys(clinical_entities + entities.get("symptoms", []) + entities.get("body_parts", [])))
@@ -205,7 +223,7 @@ def _entities_for_facet(
 
     if intent == "interaction":
         return list(dict.fromkeys(medications))
-    if intent in {"dosage", "contraindication", "pregnancy_lactation"}:
+    if intent in {"dosage", "contraindication", "overdose", "adverse_effect", "careful", "pregnancy_lactation"}:
         return list(dict.fromkeys(contextual_medications + clinical))
     if intent in {"disease_context", "symptom_triage", "pediatric_elderly"}:
         return list(

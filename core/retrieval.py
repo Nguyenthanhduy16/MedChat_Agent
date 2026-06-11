@@ -20,9 +20,10 @@ FIELD_ALIASES = {
     "dosage": ["dosage", "lieu_luong_va_cach_dung", "cach_dung"],
     "pregnancy_lactation": ["pregnancy_lactation", "phu_nu_co_thai_va_cho_con_bu"],
     "indication": ["indication", "cong_dung", "chi_dinh"],
-    "overdose": ["overdose", "qua_lieu_va_xu_tri"],
+    "overdose": ["overdose", "xu_tri_qua_lieu", "qua_lieu_va_xu_tri"],
     "treatment": ["indication", "cong_dung", "chi_dinh"],
-    "side_effects": ["side_effects", "tac_dung_phu", "tac_dung_khong_mong_muon"],
+    "adverse_effect": ["adverse_effect", "side_effects", "tac_dung_phu", "tac_dung_khong_mong_muon"],
+    "side_effects": ["side_effects", "adverse_effect", "tac_dung_phu", "tac_dung_khong_mong_muon"],
     "general": [],
 }
 

@@ -5,6 +5,7 @@ import logging
 from typing import Literal
 
 from backend.api.schemas import ChatRequest
+from core.agent import extract_list_group_term, is_list_group_request
 from core.models import RouterDecision, RiskLevel
 from core.input_normalizer import NormalizedInput
 from core.llm import ChatModel
@@ -17,6 +18,9 @@ AllowedIntent = Literal[
     "dosage",
     "interaction",
     "contraindication",
+    "overdose",
+    "adverse_effect",
+    "careful",
     "pregnancy_lactation",
     "disease_context",
     "symptom_triage",
@@ -80,7 +84,7 @@ class LLMRouterClassifier:
                 )
                 return self._fallback(fallback_decision)
             
-            return RouterDecision(
+            decision = RouterDecision(
                 intents=list(validated.intents),
                 risk_level=validated.risk_level,
                 audience=validated.audience,
@@ -88,6 +92,7 @@ class LLMRouterClassifier:
                 entities=validated.entities.model_dump(),
                 classification_uncertain=False,
             )
+            return self._normalize_decision(request, normalized, decision)
         except ValidationError as exc:
             logger.warning("router.llm fallback reason=schema_validation_failed errors=%s", exc.errors())
             return self._fallback(fallback_decision)
@@ -107,11 +112,30 @@ class LLMRouterClassifier:
             return text
         return text[start : end + 1]
 
+    def _normalize_decision(
+        self,
+        request: ChatRequest,
+        normalized: NormalizedInput,
+        decision: RouterDecision,
+    ) -> RouterDecision:
+        if not is_list_group_request(normalized.normalized):
+            return decision
+
+        decision.intents = ["indication"]
+        decision.risk_level = RiskLevel.LOW
+        decision.needs_context = False
+        group = extract_list_group_term(request.message)
+        if group:
+            classes = decision.entities.setdefault("drug_classes", [])
+            if group not in classes:
+                classes.append(group)
+        return decision
+
     def _build_router_prompt(self, request: ChatRequest, normalized: NormalizedInput) -> list[dict[str, str]]:
         system = (
             "You are a medical router. Analyze the user query and return ONLY a JSON object matching this schema:\n"
             "{\n"
-            "  \"intents\": [\"dosage\", \"interaction\", \"contraindication\", \"pregnancy_lactation\", \"disease_context\", \"symptom_triage\", \"pediatric_elderly\", \"indication\", \"drug_identity\", \"general_health\", \"unsupported\"],\n"
+            "  \"intents\": [\"dosage\", \"interaction\", \"contraindication\", \"overdose\", \"adverse_effect\", \"careful\", \"pregnancy_lactation\", \"disease_context\", \"symptom_triage\", \"pediatric_elderly\", \"indication\", \"drug_identity\", \"general_health\", \"unsupported\"],\n"
             "  \"risk_level\": \"low\" | \"medium\" | \"high\" | \"urgent\",\n"
             "  \"audience\": \"adult\" | \"pediatric\" | \"elderly\",\n"
             "  \"needs_context\": boolean,\n"
@@ -121,6 +145,7 @@ class LLMRouterClassifier:
             "IMPORTANT INSTRUCTIONS:\n"
             "1. Extract entities EXACTLY as they appear in the original user query. DO NOT translate them to English. Keep them in Vietnamese.\n"
             "2. If the query is completely unrelated to pharmacy, medicine, health, or diseases (e.g., math, programming, general chit-chat), you MUST return [\"unsupported\"] for intents.\n"
+            "3. For Vietnamese list/discovery queries like 'liệt kê một số thuốc/hoạt chất thuộc nhóm ...', use intent [\"indication\"] and put the group after 'nhóm' in entities.drug_classes.\n"
             "Be precise. Do not add explanations."
         )
         user = f"Question: {normalized.original}\nAudience preference: {request.preferences.audience}"
