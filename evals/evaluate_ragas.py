@@ -2,11 +2,14 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import copy
 import importlib
+import inspect
 import json
 import os
 import sys
 import types
+import warnings
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,7 +25,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from backend.api.schemas import ChatRequest, RetrievalOptions
 
-DEFAULT_DATASET = Path("evals/datasets/ragas_ground_truth.jsonl")
+DEFAULT_DATASET = Path("evals/datasets/generated/all_suites.json")
 DEFAULT_METRICS = (
     "faithfulness",
     "answer_relevancy",
@@ -205,41 +208,134 @@ async def build_ragas_rows(
 
 
 def run_ragas_evaluation(rows: list[dict[str, Any]], metric_names: list[str], show_progress: bool = True):
+    Dataset, evaluate, metric_classes = _load_ragas_dependencies()
+
+    metric_map = {
+        "faithfulness": metric_classes["Faithfulness"],
+        "answer_relevancy": metric_classes["AnswerRelevancy"],
+        "context_precision": metric_classes["ContextPrecision"],
+        "context_recall": metric_classes["ContextRecall"],
+        "answer_correctness": metric_classes["AnswerCorrectness"],
+    }
+    unknown = sorted(set(metric_names) - set(metric_map))
+    if unknown:
+        raise ValueError(f"Unsupported RAGAS metrics: {', '.join(unknown)}")
+    dataset = Dataset.from_list(rows)
+    try:
+        from ragas.run_config import RunConfig  # type: ignore
+        run_config = RunConfig(max_workers=7, timeout=180)
+        eval_kwargs = {"run_config": run_config}
+    except ImportError:
+        eval_kwargs = {} # fallback for very old ragas versions if any
+
+    return evaluate(
+        dataset,
+        metrics=[_build_ragas_metric(metric_map[name]) for name in metric_names],
+        show_progress=show_progress,
+        raise_exceptions=False,
+        **eval_kwargs,
+    )
+
+
+def _load_ragas_dependencies() -> tuple[Any, Any, dict[str, Any]]:
     try:
         prime_native_imports()
         _install_ragas_vertexai_import_shim()
-        from datasets import Dataset
-        from ragas import evaluate
-        from ragas.metrics.collections import (
-            answer_correctness,
-            answer_relevancy,
-            context_precision,
-            context_recall,
-            faithfulness,
-        )
+        datasets_module = importlib.import_module("datasets")
+        ragas_module = importlib.import_module("ragas")
+        metrics_modules = {
+            "AnswerCorrectness": importlib.import_module("ragas.metrics._answer_correctness"),
+            "AnswerRelevancy": importlib.import_module("ragas.metrics._answer_relevance"),
+            "ContextPrecision": importlib.import_module("ragas.metrics._context_precision"),
+            "ContextRecall": importlib.import_module("ragas.metrics._context_recall"),
+            "Faithfulness": importlib.import_module("ragas.metrics._faithfulness"),
+        }
     except Exception as exc:
         raise RuntimeError(
             "Unable to import RAGAS evaluation dependencies. "
             "Install/repair ragas and its langchain dependencies in the project .venv, then retry."
         ) from exc
 
-    metric_map = {
-        "faithfulness": faithfulness,
-        "answer_relevancy": answer_relevancy,
-        "context_precision": context_precision,
-        "context_recall": context_recall,
-        "answer_correctness": answer_correctness,
-    }
-    unknown = sorted(set(metric_names) - set(metric_map))
-    if unknown:
-        raise ValueError(f"Unsupported RAGAS metrics: {', '.join(unknown)}")
-    dataset = Dataset.from_list(rows)
-    return evaluate(
-        dataset,
-        metrics=[metric_map[name] for name in metric_names],
-        show_progress=show_progress,
-        raise_exceptions=False,
+    return (
+        datasets_module.Dataset,
+        ragas_module.evaluate,
+        {
+            "AnswerCorrectness": metrics_modules["AnswerCorrectness"].answer_correctness,
+            "AnswerRelevancy": metrics_modules["AnswerRelevancy"].answer_relevancy,
+            "ContextPrecision": metrics_modules["ContextPrecision"].context_precision,
+            "ContextRecall": metrics_modules["ContextRecall"].context_recall,
+            "Faithfulness": metrics_modules["Faithfulness"].faithfulness,
+        },
     )
+
+
+def _build_ragas_metric(metric: Any) -> Any:
+    if not callable(metric):
+        metric = copy.deepcopy(metric)
+        if hasattr(metric, "llm") and getattr(metric, "llm", None) is None:
+            metric.llm = _build_ragas_llm()
+        if hasattr(metric, "embeddings") and getattr(metric, "embeddings", None) is None:
+            metric.embeddings = _build_ragas_embeddings()
+        return metric
+
+    signature = inspect.signature(metric)
+    kwargs: dict[str, Any] = {}
+    if "llm" in signature.parameters:
+        kwargs["llm"] = _build_ragas_llm()
+    if "embeddings" in signature.parameters:
+        kwargs["embeddings"] = _build_ragas_embeddings()
+    return metric(**kwargs)
+
+
+def _build_ragas_llm() -> Any:
+    try:
+        ragas_llms = importlib.import_module("ragas.llms")
+    except Exception as exc:
+        raise RuntimeError(
+            "RAGAS metrics require an LLM judge. Install/repair ragas "
+            "or use a RAGAS version whose metrics do not require explicit llm injection."
+        ) from exc
+
+    model = (
+        os.getenv("RAGAS_LLM_MODEL")
+        or os.getenv("OPENAI_MODEL_NAME")
+        or os.getenv("OPENAI_MODEL")
+        or "gpt-4o-mini"
+    )
+    if hasattr(ragas_llms, "llm_factory"):
+        openai_module = importlib.import_module("openai")
+        return ragas_llms.llm_factory(
+            model,
+            client=openai_module.AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY")),
+            max_tokens=16384,
+        )
+
+    langchain_openai = importlib.import_module("langchain_openai")
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", DeprecationWarning)
+        return ragas_llms.LangchainLLMWrapper(langchain_openai.ChatOpenAI(model=model, max_tokens=16384))
+
+
+def _build_ragas_embeddings() -> Any:
+    try:
+        ragas_embeddings_base = importlib.import_module("ragas.embeddings.base")
+        langchain_openai = importlib.import_module("langchain_openai")
+    except Exception as exc:
+        raise RuntimeError(
+            "RAGAS metrics require embeddings. Install/repair ragas and langchain-openai "
+            "or select metrics that do not require explicit embeddings injection."
+        ) from exc
+
+    model = (
+        os.getenv("RAGAS_EMBEDDING_MODEL")
+        or os.getenv("OPENAI_EMBEDDING_MODEL")
+        or "text-embedding-3-small"
+    )
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", DeprecationWarning)
+        return ragas_embeddings_base.LangchainEmbeddingsWrapper(
+            langchain_openai.OpenAIEmbeddings(model=model)
+        )
 
 
 def _install_ragas_vertexai_import_shim() -> None:
@@ -247,7 +343,9 @@ def _install_ragas_vertexai_import_shim() -> None:
     if module_name in sys.modules:
         return
     try:
-        __import__(module_name)
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", DeprecationWarning)
+            __import__(module_name)
         return
     except ModuleNotFoundError:
         pass

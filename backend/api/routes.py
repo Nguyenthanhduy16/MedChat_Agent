@@ -47,6 +47,7 @@ def get_chat_service() -> ChatService:
         url=settings.qdrant_url,
         api_key=settings.qdrant_api_key,
         check_compatibility=False,
+        timeout=60.0,
     )
     reranker = (
         FlagEmbeddingRerankerModel(

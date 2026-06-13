@@ -57,6 +57,7 @@ from core.input_normalizer import normalize_input
 
 DEFAULT_PRECISION_KS = (3, 5, 7)
 DEFAULT_RECALL_KS = (5, 7, 9, 11)
+DIAGNOSTIC_K = 5
 
 FIELD_ALIASES = {
     "careful": {"careful", "than_trong", "warning", "canh_bao"},
@@ -745,9 +746,9 @@ async def _evaluate_case(
             "intents": case_input["decision"].intents,
             "baseline": {
                 **compute_reference_metrics(baseline, expected_references),
-                **diagnostic_metrics(sample, baseline, max(DEFAULT_RECALL_KS)),
+                **diagnostic_metrics(sample, baseline, DIAGNOSTIC_K),
             },
-            "top_baseline": [_candidate_summary(candidate) for candidate in baseline[: max(DEFAULT_RECALL_KS)]],
+            "top_baseline": [_candidate_summary(candidate) for candidate in baseline[: DIAGNOSTIC_K]],
             "_expected_references": expected_references,
             "_sample": sample,
             "_baseline_candidates": baseline,
@@ -778,11 +779,11 @@ async def apply_rerankers_to_rows(
                 )
                 metrics = {
                     **compute_reference_metrics(reranked, set(row.get("_expected_references", set()))),
-                    **diagnostic_metrics(row["_sample"], reranked, max(DEFAULT_RECALL_KS)),
+                    **diagnostic_metrics(row["_sample"], reranked, DIAGNOSTIC_K),
                 }
                 key = f"reranked:{model_name}"
                 row[key] = metrics
-                row[f"top_{key}"] = [_candidate_summary(candidate) for candidate in reranked[: max(DEFAULT_RECALL_KS)]]
+                row[f"top_{key}"] = [_candidate_summary(candidate) for candidate in reranked[: DIAGNOSTIC_K]]
                 if index == 0:
                     row["reranked"] = metrics
                     row["top_reranked"] = row[f"top_{key}"]
