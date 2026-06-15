@@ -16,7 +16,8 @@ from core.web_sources import WebFetchedSource
 from core.input_normalizer import normalize_input
 from core.entity_resolver import resolve_entities
 from core.entity_merger import merge_entities
-from core.evidence_gate import assess_coverage
+from core.evidence_gate import assess_coverage, filter_evidence_by_entities_and_fields
+from core.evidence_checker import LLMEvidenceChecker, apply_evidence_check
 from core.answer_synthesizer import build_prompt
 from core.post_verifier import verify_answer
 
@@ -161,6 +162,44 @@ class ChatService:
         all_local_items = [item for items in facet_results.values() for item in items]
         logger.info(f"chat.local_retrieval total_count={len(all_local_items)}")
 
+        # Build entity/field filter inputs (computed once, reused after web fallback)
+        _facet_preferred_fields = {f.intent: f.preferred_fields for f in query_plan.facets}
+        _required_entities = list(dict.fromkeys(
+            decision.entities.get("drugs", [])
+            + decision.entities.get("products", [])
+            + merged_entities.required
+        ))
+        facet_results = filter_evidence_by_entities_and_fields(
+            facet_results, _required_entities, _facet_preferred_fields
+        )
+        logger.info(
+            "chat.evidence_filter filtered_counts=%s",
+            {k: len(v) for k, v in facet_results.items()},
+        )
+
+        # LLM Evidence Checker (optional, enabled by LLM_EVIDENCE_CHECKER_ENABLED=true)
+        if self.settings.llm_evidence_checker_enabled and _required_entities:
+            _checker = LLMEvidenceChecker(
+                self.chat_model,
+                timeout_seconds=self.settings.llm_evidence_checker_timeout_seconds,
+            )
+            _main_entity = _required_entities[0] if _required_entities else ""
+            _req_fields = list({f for fields in _facet_preferred_fields.values() for f in fields})
+            _check_result = await _checker.check(
+                question=request.message,
+                main_entity=_main_entity,
+                intents=decision.intents,
+                required_fields=_req_fields,
+                facet_results=facet_results,
+            )
+            facet_results = apply_evidence_check(facet_results, _check_result)
+            logger.info(
+                "chat.evidence_checker status=%s kept_ids=%s missing=%s",
+                _check_result.evidence_status,
+                _check_result.kept_context_ids,
+                _check_result.missing_fields,
+            )
+
         # 7. Coverage Assessment (Gate)
         coverage = assess_coverage(
             facet_results,
@@ -176,7 +215,10 @@ class ChatService:
         )
 
         # 8. Web Fallback
-        should_try_web, web_reason = self._should_try_web(request, coverage)
+        should_try_web, web_reason = self._should_try_web(
+            request, coverage,
+            local_item_count=sum(len(v) for v in facet_results.values()),
+        )
         web_warnings: list[str] = []
         if should_try_web:
             logger.info("chat.web_retrieval start reason=%s", web_reason)
@@ -186,11 +228,12 @@ class ChatService:
                 facet_plans,
                 coverage,
                 force_web=request.retrieval_options.force_web,
+                web_reason=web_reason,
             ):
                 if request.retrieval_options.web_mode == "open" and open_search_done:
                     continue
                 try:
-                    query_text = request.message
+                    query_text = _build_hybrid_query(request.message, facet_plan)
                     web_sources = await self.web_client.retrieve(
                         facet_plan,
                         query_text=query_text,
@@ -214,6 +257,10 @@ class ChatService:
                     web_warnings.append(f"Web evidence retrieval failed for {facet.intent}: {exc}")
                     logger.warning("chat.web_retrieval failed facet=%s error=%s", facet.intent, exc)
 
+            # Re-apply filter after web evidence added to facet_results
+            facet_results = filter_evidence_by_entities_and_fields(
+                facet_results, _required_entities, _facet_preferred_fields
+            )
             coverage = assess_coverage(
                 facet_results,
                 merged_entities,
@@ -243,8 +290,11 @@ class ChatService:
             return self._insufficient_evidence_response(request, decision, coverage)
 
         # 10. Synthesize Answer
+        _main_entity = _required_entities[0] if _required_entities else "thuốc"
         messages = build_prompt(
             request.message,
+            _main_entity,
+            decision,
             query_plan.facets,
             facet_results,
             coverage,
@@ -255,6 +305,9 @@ class ChatService:
             messages,
             timeout_seconds=self.settings.llm_timeout_seconds,
         )
+        answer = _strip_incomplete_tail(answer)
+        if _is_empty_or_citation_only(answer):
+            answer = _fallback_answer_from_citations(citations, decision.risk_level)
         if citations and not has_required_citations(answer, citations):
             answer = f"{answer.rstrip()} [{citations[0]['id']}]"
 
@@ -382,6 +435,44 @@ class ChatService:
 
         all_local_items = [item for items in facet_results.values() for item in items]
 
+        # Build entity/field filter inputs (computed once, reused after web fallback)
+        _facet_preferred_fields = {f.intent: f.preferred_fields for f in query_plan.facets}
+        _required_entities = list(dict.fromkeys(
+            decision.entities.get("drugs", [])
+            + decision.entities.get("products", [])
+            + merged_entities.required
+        ))
+        facet_results = filter_evidence_by_entities_and_fields(
+            facet_results, _required_entities, _facet_preferred_fields
+        )
+        logger.info(
+            "chat_stream.evidence_filter filtered_counts=%s",
+            {k: len(v) for k, v in facet_results.items()},
+        )
+
+        # LLM Evidence Checker (optional, enabled by LLM_EVIDENCE_CHECKER_ENABLED=true)
+        if self.settings.llm_evidence_checker_enabled and _required_entities:
+            _checker = LLMEvidenceChecker(
+                self.chat_model,
+                timeout_seconds=self.settings.llm_evidence_checker_timeout_seconds,
+            )
+            _main_entity = _required_entities[0] if _required_entities else ""
+            _req_fields = list({f for fields in _facet_preferred_fields.values() for f in fields})
+            _check_result = await _checker.check(
+                question=request.message,
+                main_entity=_main_entity,
+                intents=decision.intents,
+                required_fields=_req_fields,
+                facet_results=facet_results,
+            )
+            facet_results = apply_evidence_check(facet_results, _check_result)
+            logger.info(
+                "chat_stream.evidence_checker status=%s kept_ids=%s missing=%s",
+                _check_result.evidence_status,
+                _check_result.kept_context_ids,
+                _check_result.missing_fields,
+            )
+
         coverage = assess_coverage(
             facet_results,
             merged_entities,
@@ -389,7 +480,10 @@ class ChatService:
             decision.classification_uncertain,
         )
 
-        should_try_web, web_reason = self._should_try_web(request, coverage)
+        should_try_web, web_reason = self._should_try_web(
+            request, coverage,
+            local_item_count=sum(len(v) for v in facet_results.values()),
+        )
         web_warnings: list[str] = []
         if should_try_web:
             yield yield_trace("web_retrieval", "Đang tìm kiếm thêm thông tin trên Web...")
@@ -399,11 +493,12 @@ class ChatService:
                 facet_plans,
                 coverage,
                 force_web=request.retrieval_options.force_web,
+                web_reason=web_reason,
             ):
                 if request.retrieval_options.web_mode == "open" and open_search_done:
                     continue
                 try:
-                    query_text = request.message
+                    query_text = _build_hybrid_query(request.message, facet_plan)
                     web_sources = await self.web_client.retrieve(
                         facet_plan,
                         query_text=query_text,
@@ -426,6 +521,10 @@ class ChatService:
                 except Exception as exc:
                     web_warnings.append(f"Web evidence retrieval failed for {facet.intent}: {exc}")
 
+            # Re-apply filter after web evidence added to facet_results
+            facet_results = filter_evidence_by_entities_and_fields(
+                facet_results, _required_entities, _facet_preferred_fields
+            )
             coverage = assess_coverage(
                 facet_results,
                 merged_entities,
@@ -455,8 +554,11 @@ class ChatService:
             return
 
         yield yield_trace("synthesis", "Đang tổng hợp câu trả lời...")
+        _main_entity = _required_entities[0] if _required_entities else "thuốc"
         messages = build_prompt(
             request.message,
+            _main_entity,
+            decision,
             query_plan.facets,
             facet_results,
             coverage,
@@ -470,7 +572,16 @@ class ChatService:
         ):
             full_answer += chunk
             yield event("token", text=chunk)
-            
+
+        if _is_empty_or_citation_only(full_answer):
+            fallback_answer = _fallback_answer_from_citations(citations, decision.risk_level)
+            full_answer = fallback_answer
+            yield event("token", text=fallback_answer)
+        else:
+            cleaned_answer = _strip_incomplete_tail(full_answer)
+            if cleaned_answer != full_answer:
+                full_answer = cleaned_answer
+
         if citations and not has_required_citations(full_answer, citations):
             missing_citation = f" [{citations[0]['id']}]"
             full_answer += missing_citation
@@ -541,7 +652,9 @@ class ChatService:
             requires_professional_advice=decision.risk_level in {RiskLevel.HIGH, RiskLevel.URGENT},
         )
 
-    def _should_try_web(self, request: ChatRequest, coverage) -> tuple[bool, str]:
+    def _should_try_web(
+        self, request: ChatRequest, coverage, local_item_count: int = 0
+    ) -> tuple[bool, str]:
         if not request.retrieval_options.allow_web:
             return False, "request_disallows_web"
         if self.web_client is None:
@@ -550,6 +663,9 @@ class ChatService:
             return True, "force_web"
         if coverage.status in {EvidenceStatus.WEAK_PARTIAL, EvidenceStatus.INSUFFICIENT, EvidenceStatus.USABLE_PARTIAL}:
             return True, f"evidence_status_{coverage.status.value}"
+        # Supplement with web when local sources are below the citation minimum
+        if local_item_count < self.settings.final_citations_min:
+            return True, "too_few_sources"
         return False, "local_evidence_sufficient"
 
 
@@ -569,7 +685,65 @@ def _build_prompt(question: str, evidence_items, citations) -> list[dict[str, st
     ]
 
 
-def _facets_for_web_fallback(facets, facet_plans, coverage, force_web: bool):
+def _is_empty_or_citation_only(answer: str) -> bool:
+    import re
+
+    compact = answer.strip()
+    if not compact:
+        return True
+    return not re.sub(r"\[\d+\]", "", compact).strip()
+
+
+def _strip_incomplete_tail(answer: str) -> str:
+    lines = answer.rstrip().splitlines()
+    if len(lines) < 2:
+        return answer.strip()
+
+    last = lines[-1].strip()
+    if not last:
+        return "\n".join(lines).rstrip()
+    if _looks_complete_sentence(last):
+        return "\n".join(lines).rstrip()
+    if _looks_like_structural_line(last):
+        return "\n".join(lines).rstrip()
+
+    return "\n".join(lines[:-1]).rstrip()
+
+
+def _looks_complete_sentence(text: str) -> bool:
+    import re
+
+    return bool(re.search(r"(\[\d+\]|[.!?。！？:;)\]\"'])$", text.strip()))
+
+
+def _looks_like_structural_line(text: str) -> bool:
+    stripped = text.strip()
+    if stripped.endswith(":"):
+        return True
+    return stripped.startswith(("#", "##", "###"))
+
+
+def _fallback_answer_from_citations(
+    citations: list[dict[str, str | None]],
+    risk_level: RiskLevel,
+) -> str:
+    if not citations:
+        return "Tôi chưa tạo được câu trả lời dựa trên tài liệu hiện có."
+
+    lines = ["Tôi chưa tạo được câu trả lời tổng hợp đầy đủ, nhưng có bằng chứng liên quan:"]
+    for citation in citations[:3]:
+        title = citation.get("title") or citation.get("source") or "Nguồn đã truy xuất"
+        text = (citation.get("text") or citation.get("snippet") or "").strip()
+        if len(text) > 220:
+            text = text[:217].rstrip() + "..."
+        lines.append(f"- {title}: {text} [{citation.get('id')}]")
+
+    if risk_level in {RiskLevel.MEDIUM, RiskLevel.HIGH, RiskLevel.URGENT}:
+        lines.append("Vui lòng trao đổi với bác sĩ hoặc dược sĩ trước khi quyết định sử dụng thuốc.")
+    return "\n".join(lines)
+
+
+def _facets_for_web_fallback(facets, facet_plans, coverage, force_web: bool, web_reason: str = ""):
     facet_pairs = list(zip(facets, facet_plans, strict=True))
     if force_web or not coverage.per_facet_coverage:
         return facet_pairs
@@ -589,6 +763,10 @@ def _facets_for_web_fallback(facets, facet_plans, coverage, force_web: bool):
         return partial
 
     if coverage.status in {EvidenceStatus.INSUFFICIENT, EvidenceStatus.WEAK_PARTIAL, EvidenceStatus.USABLE_PARTIAL}:
+        return facet_pairs
+
+    # Supplement mode: too few local sources even though coverage is complete
+    if web_reason == "too_few_sources":
         return facet_pairs
 
     return []

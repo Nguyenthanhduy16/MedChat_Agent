@@ -59,6 +59,7 @@ class Citation(BaseModel):
     source: str
     trust_tier: str
     snippet: str
+    text: str
 
 
 class ChatResponse(BaseModel):

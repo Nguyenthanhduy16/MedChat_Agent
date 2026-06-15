@@ -22,6 +22,7 @@ def format_citations(
                 "source": item.source,
                 "trust_tier": item.trust_tier,
                 "snippet": item.text[:300],
+                "text": item.text,
             }
         )
 

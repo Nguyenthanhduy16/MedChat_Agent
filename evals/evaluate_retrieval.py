@@ -145,6 +145,14 @@ def normalize_path(value: str | None) -> str:
     return str(value or "").replace("\\", "/")
 
 
+def normalize_eval_path(value: str | None) -> str:
+    path = normalize_path(value).strip("/")
+    for prefix in ("data/chunked/", "./data/chunked/"):
+        if path.startswith(prefix):
+            return path[len(prefix) :]
+    return path
+
+
 def sample_user_input(sample: dict[str, Any]) -> str:
     if isinstance(sample.get("user_input"), str):
         return sample["user_input"]
@@ -259,6 +267,10 @@ def candidate_reference_keys(candidate: RetrievedCandidate) -> set[str]:
                 keys.add(f"{type_slug}:{slug}:{field_name}:{chunk_index}")
             if id_val:
                 keys.add(f"{type_slug}:{id_val}:{field_name}:{chunk_index}")
+
+        normalized_parts = Path(normalize_eval_path(path)).parts
+        if len(normalized_parts) >= 3 and normalized_parts[0] == "pharmacity_chunked" and slug:
+            keys.add(f"pharmacity:{normalized_parts[1]}:{slug}:{field_name}:{chunk_index}")
                 
     return {key for key in keys if key}
 
@@ -435,23 +447,24 @@ def _expected_categories(sample: dict[str, Any]) -> set[str]:
     categories = set()
     if isinstance(expected_retrieval, dict):
         for source_file in expected_retrieval.get("source_files", []):
-            path = normalize_path(str(source_file))
+            path = normalize_eval_path(str(source_file))
             if path:
                 categories.add(Path(path).parent.as_posix())
     
     if not categories:
         for context in sample.get("reference_contexts", []):
-            source_file = context.get("source_file")
-            if source_file:
-                path = normalize_path(str(source_file))
-                if path:
-                    categories.add(Path(path).parent.as_posix())
+            if isinstance(context, dict):
+                source_file = context.get("source_file")
+                if source_file:
+                    path = normalize_eval_path(str(source_file))
+                    if path:
+                        categories.add(Path(path).parent.as_posix())
                     
     return categories
 
 
 def _candidate_category(candidate: RetrievedCandidate) -> str:
-    path = normalize_path(str(candidate.metadata.get("path") or candidate.path))
+    path = normalize_eval_path(str(candidate.metadata.get("path") or candidate.path))
     return Path(path).parent.as_posix() if path else ""
 
 

@@ -75,9 +75,20 @@ def get_chat_service() -> ChatService:
 
 def _build_chat_model(settings: Settings, model_override: str | None = None):
     target_model = model_override or settings.chat_model
+
+    # If DEEPSEEK_API_KEY is set AND no explicit override (i.e. this is the
+    # generation chat model, not the router), use DeepSeek directly.
+    if settings.deepseek_api_key and model_override is None:
+        return OpenAIChatModel(
+            api_key=settings.deepseek_api_key,
+            model=target_model,
+            base_url=settings.deepseek_base_url,
+        )
+
+    # Otherwise fall back to OpenAI-compatible (OpenRouter) + Gemini fallback.
     openai_model = (
         OpenAIChatModel(
-            api_key=settings.openai_api_key, 
+            api_key=settings.openai_api_key,
             model=target_model,
             base_url=settings.openai_base_url,
         )
@@ -95,7 +106,7 @@ def _build_chat_model(settings: Settings, model_override: str | None = None):
         return openai_model
     if gemini_model:
         return gemini_model
-    raise RuntimeError("OPENAI_API_KEY or GEMINI_API_KEY is required to use /chat with real providers.")
+    raise RuntimeError("OPENAI_API_KEY, DEEPSEEK_API_KEY or GEMINI_API_KEY is required.")
 
 
 def _build_search_provider(settings: Settings):
