@@ -32,13 +32,13 @@ def safety_precheck(message: str) -> SafetyResult:
         return SafetyResult(
             risk_level=RiskLevel.URGENT,
             should_short_circuit=True,
-            warnings=["Co dau hieu nguy cap. Can lien he cap cuu hoac co so y te ngay."],
+            warnings=["Có dấu hiệu nguy cấp. Cần liên hệ cấp cứu hoặc cơ sở y tế ngay lập tức."],
         )
     return SafetyResult(risk_level=RiskLevel.LOW, should_short_circuit=False, warnings=[])
 
 
 def urgent_response() -> tuple[str, str]:
     return (
-        "Neu co kho tho, dau nguc, co giat, mat y thuc, phan ve, ngo doc hoac qua lieu nang, hay goi cap cuu hoac den co so y te gan nhat ngay.",
-        "Day la thong tin an toan khan cap, khong thay the danh gia truc tiep cua nhan vien y te.",
+        "Nếu có khó thở, đau ngực, co giật, mất ý thức, phản vệ, ngộ độc hoặc quá liều nặng, hãy gọi cấp cứu hoặc đến cơ sở y tế gần nhất ngay lập tức.",
+        "Đây là thông tin an toàn khẩn cấp, không thay thế đánh giá trực tiếp của nhân viên y tế.",
     )

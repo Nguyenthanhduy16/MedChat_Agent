@@ -151,3 +151,73 @@ def _is_distinctive_entity_token(token: str) -> bool:
     if any(pattern.match(token) for pattern in ENTITY_TOKEN_STOP_PATTERNS):
         return False
     return True
+
+
+def filter_evidence_by_entities_and_fields(
+    facet_results: dict[str, list["EvidenceItem"]],
+    required_entities: list[str],
+    facet_preferred_fields: dict[str, list[str]],
+) -> dict[str, list["EvidenceItem"]]:
+    """Filter retrieved evidence to keep only items relevant to the correct entity and field.
+
+    For each facet:
+    - Entity filter: the item’s title/text must mention at least one required entity.
+    - Field filter (soft): if the facet has preferred fields, prefer items whose
+      ``metadata['field']`` is in that list; items without a matching field are
+      deprioritised but not discarded if filtering would leave the facet empty.
+
+    Fallback strategy (per facet):
+    1. entity + field match  → use
+    2. entity match only     → use if (1) is empty
+    3. original items        → use if (2) is empty (prevent total evidence loss)
+    """
+    if not required_entities and not facet_preferred_fields:
+        return facet_results
+
+    folded_entities = [
+        accent_fold(e).lower().strip()
+        for e in required_entities
+        if e and e.strip()
+    ]
+
+    filtered: dict[str, list["EvidenceItem"]] = {}
+
+    for facet_id, items in facet_results.items():
+        preferred_fields = set(facet_preferred_fields.get(facet_id, []))
+
+        entity_field_pass: list["EvidenceItem"] = []
+        entity_only_pass: list["EvidenceItem"] = []
+
+        for item in items:
+            search_text = accent_fold(_evidence_search_text(item)).lower()
+
+            # --- entity gate ---
+            if folded_entities:
+                entity_hit = any(ent in search_text for ent in folded_entities)
+            else:
+                entity_hit = True  # no entity constraint → always passes
+
+            if not entity_hit:
+                continue  # discard item that doesn’t mention any required entity
+
+            entity_only_pass.append(item)
+
+            # --- field gate (soft) ---
+            if preferred_fields:
+                item_field = item.metadata.get("field", "")
+                if item_field in preferred_fields:
+                    entity_field_pass.append(item)
+            else:
+                entity_field_pass.append(item)  # no field constraint
+
+        # Choose best non-empty tier
+        if entity_field_pass:
+            filtered[facet_id] = entity_field_pass
+        elif entity_only_pass:
+            filtered[facet_id] = entity_only_pass
+        else:
+            # All items were filtered out – fall back to original to avoid
+            # incorrectly blocking a facet when entity matching is too strict.
+            filtered[facet_id] = items
+
+    return filtered

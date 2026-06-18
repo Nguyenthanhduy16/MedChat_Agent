@@ -146,6 +146,7 @@ class LLMRouterClassifier:
             "1. Extract entities EXACTLY as they appear in the original user query. DO NOT translate them to English. Keep them in Vietnamese.\n"
             "2. If the query is completely unrelated to pharmacy, medicine, health, or diseases (e.g., math, programming, general chit-chat), you MUST return [\"unsupported\"] for intents.\n"
             "3. For Vietnamese list/discovery queries like 'liệt kê một số thuốc/hoạt chất thuộc nhóm ...', use intent [\"indication\"] and put the group after 'nhóm' in entities.drug_classes.\n"
+            "4. CRITICAL: You MUST strictly use the exact literal strings from the intents list provided. DO NOT invent or use any other strings. If unsure, use \"unsupported\".\n"
             "Be precise. Do not add explanations."
         )
         user = f"Question: {normalized.original}\nAudience preference: {request.preferences.audience}"
