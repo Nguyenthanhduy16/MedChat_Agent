@@ -1,272 +1,176 @@
 # MedChat Agent
 
-Chatbot tư vấn dược phẩm AI, kết hợp RAG pipeline từ kho kiến thức y tế với phân tích kho hàng qua SQL tự động, có giao diện web đầy đủ.
-
-AI薬事相談チャットボット。医療知識ベースのRAGパイプラインと、SQL自動生成による在庫分析機能を組み合わせた、フルスタックWebアプリケーションです。
+Chatbot tư vấn dược phẩm AI, kết hợp RAG pipeline từ kho kiến thức y tế với giao diện web đầy đủ, hỗ trợ tiếng Việt, có guardrails an toàn và trích dẫn nguồn.
 
 ---
 
-## Tính năng / 機能
+## Tính năng chính
 
-- **Tư vấn y tế** — Trả lời câu hỏi về thuốc, liều lượng, tương tác, chống chỉ định bằng tiếng Việt, có trích dẫn nguồn  
-  **医療相談** — 薬・用量・相互作用・禁忌に関するベトナム語での質問に、出典付きで回答
-
-- **Safety guardrails** — Phát hiện tình huống khẩn cấp, phân loại rủi ro, từ chối câu hỏi ngoài phạm vi y tế  
-  **安全ガード機能** — 緊急症状の検出、リスクレベル分類、医療範囲外の質問の拒否
-
-- **Hybrid retrieval** — Kết hợp dense vector search (Qdrant) và sparse keyword matching, reranking theo trust tier  
-  **ハイブリッド検索** — 密なベクトル検索（Qdrant）とスパースキーワードマッチングを組み合わせ、信頼度階層によるリランキング
-
-- **Web retrieval có kiểm soát** — Tìm kiếm bổ sung từ danh sách domain uy tín (FDA, WHO, PubMed, MOH VN...)  
-  **制御付きWeb検索** — FDA・WHO・PubMed・ベトナム保健省など信頼済みドメインからの補足情報取得
-
-- **Phân tích kho hàng** — Truy vấn dữ liệu tồn kho, giá cả, thống kê qua SQL tự動 sinh từ LLM  
-  **在庫分析** — LLMが自動生成するSQLで在庫・価格・統計データを照会
-
-- **Vẽ biểu đồ** — Sinh biểu đồ bar, line, pie, area từ kết quả truy vấn SQLite  
-  **グラフ描画** — SQLiteクエリ結果からbar・line・pie・areaチャートを自動生成
-
-- **Lịch sử chat** — Lưu và xem lại các cuộc trò chuyện theo session  
-  **チャット履歴** — セッション単位での会話保存と閲覧
-
-- **Multi-intent routing** — Phân loại câu hỏi thành nhiều intent và xây dựng retrieval plan tương ứng  
-  **マルチインテントルーティング** — 質問を複数インテントに分類し、対応する検索プランを構築
+| Tính năng | Mô tả |
+|---|---|
+| **Tư vấn y tế** | Trả lời câu hỏi về thuốc, liều dùng, tương tác, chống chỉ định bằng tiếng Việt với trích dẫn nguồn |
+| **Safety guardrails** | Phát hiện tình huống khẩn cấp, phân loại rủi ro (low / medium / high / urgent), từ chối câu hỏi ngoài phạm vi y tế |
+| **Hybrid retrieval** | Kết hợp dense vector search (Qdrant E5) và sparse keyword BM25, reranking theo trust tier |
+| **Evidence gating** | 5 trạng thái coverage (complete / usable_partial / weak_partial / insufficient / conflicting) |
+| **Web retrieval** | Tìm kiếm bổ sung từ danh sách domain y tế uy tín (FDA, WHO, MOH VN, Vinmec...) |
+| **Multi-intent routing** | Phân loại đồng thời nhiều intent, xây retrieval plan riêng cho từng intent |
+| **Streaming** | Trả kết quả từng token qua Server-Sent Events (`/chat/stream`) |
+| **Citation management** | Tự động dedup, gán trust tier, format trích dẫn theo nguồn |
 
 ---
 
 ## Tech Stack
 
-| Layer / レイヤー | Công nghệ / 技術 |
+| Layer | Công nghệ |
 |---|---|
-| Frontend / フロントエンド | React 19, Vite, TailwindCSS 4, Axios |
-| Backend API | FastAPI, Python 3.11+, Uvicorn |
-| LLM | OpenAI GPT-4o-mini (primary), Google Gemini 2.5 Flash (fallback) |
-| Embedding / 埋め込みモデル | `intfloat/multilingual-e5-base`（ローカル・オフライン） |
-| Vector DB / ベクトルDB | Qdrant（ローカルまたはCloud） |
-| Relational DB / リレーショナルDB | SQLite + SQLAlchemy |
-| Web Search / Web検索 | Whitelist HTTP/Tavily（医療相談）、DuckDuckGo + Playwright（在庫分析） |
-| Chart / グラフ | Matplotlib, Pillow |
-| Testing / テスト | pytest, pytest-asyncio, respx |
+| **Frontend** | React 19, Vite 8, TailwindCSS 4, Axios, react-markdown |
+| **Backend API** | FastAPI 0.111+, Uvicorn, Python 3.11+ |
+| **LLM** | OpenAI GPT-4o-mini (primary), Google Gemini 2.5 Flash (fallback), DeepSeek (optional) |
+| **Embedding** | `intfloat/multilingual-e5-base` — chạy local, offline sau lần tải đầu |
+| **Vector DB** | Qdrant — hybrid dense + sparse (RRF fusion) |
+| **Reranker** | FlagEmbedding (optional, GPU-optional) |
+| **Web Search** | Tavily API hoặc HTTP generic với whitelist domain |
+| **Testing** | pytest, pytest-asyncio, respx |
 
 ---
 
-## Cấu trúc dự án / プロジェクト構成
+## Cấu trúc dự án
 
 ```
 MedChat_Agent/
-├── backend/                        FastAPI app (nhánh core / コアバックエンド)
-│   ├── main.py                     Entry point
+├── backend/                        # FastAPI application
+│   ├── main.py                     # Entry point, CORS, lifespan
 │   └── api/
-│       ├── routes.py               /chat, /ingest, /sources/status, /health
-│       └── schemas.py              Pydantic request/response models
-├── core/                           Business logic / ビジネスロジック
-│   ├── agent.py                    Multi-label intent router + retrieval planner
-│   ├── chat_service.py             Orchestrator (safety → route → retrieve → generate)
-│   ├── citations.py                Citation formatting và dedup / 引用フォーマット・重複排除
-│   ├── cli.py                      CLI ingestion tool
-│   ├── config.py                   Settings từ .env / 設定管理
-│   ├── evidence.py                 Evidence sufficiency gate / 証拠十分性チェック
-│   ├── ingestion.py                JSON chunk pipeline → Qdrant
-│   ├── llm.py                      Provider-agnostic LLM & embedding adapters
-│   ├── models.py                   Domain models (EvidenceItem, RouterDecision...)
-│   ├── retrieval.py                Qdrant hybrid retrieval + reranking
-│   ├── safety.py                   Safety pre-check, urgent response / 安全チェック
-│   ├── text.py                     Encoding repair, accent fold, normalize / テキスト正規化
-│   └── web_sources.py              Whitelist web retrieval / ホワイトリストWeb検索
-├── WebChatBot-DS/                  Web demo (fullstack / フルスタックデモ)
-│   ├── frontend/                   React app (port 5173)
-│   │   └── src/
-│   │       ├── features/chat/      ChatThread, MessageBubble, Composer, hooks
-│   │       ├── pages/              LandingPage, ChatPage, AuthPage
-│   │       └── context/            Auth, Theme, Language, Toast
-│   └── backend/                    FastAPI app (port 8000)
-│       ├── main.py                 Entry point, CORS, lifespan
-│       ├── query/
-│       │   ├── router_pipeline.py  Orchestrator: medical RAG or store SQL
-│       │   ├── medical_query_pipeline.py  RAG + eval + retry + web fallback
-│       │   ├── store/store_pipeline.py    SQL generation + chart rendering
-│       │   ├── router/router.py    LLM router (medical vs store)
-│       │   ├── medical/            MedicalRAG, MedicalSearch, MedicalPipeline
-│       │   └── core/               LLM factory, embedding, data structures
-│       ├── api/                    Pydantic models, routes (chat, history, analytics)
-│       └── services/               ChatService, SessionService
-├── tests/                          Unit và integration tests / ユニット・統合テスト
-├── docs/superpowers/               Spec và implementation plans / 設計仕様書
+│       ├── routes.py               # /health /chat /chat/stream /ingest /sources/status
+│       └── schemas.py              # Pydantic request/response models
+│
+├── core/                           # Business logic & ML pipeline
+│   ├── chat_service.py             # Orchestrator chính (44KB)
+│   ├── agent.py                    # Multi-label intent router (rule-based)
+│   ├── router_classifier.py        # LLM-based intent classifier (optional)
+│   ├── safety.py                   # Emergency detection, risk classification
+│   ├── retrieval.py                # Qdrant hybrid search + reranking
+│   ├── web_sources.py              # Whitelist web retrieval
+│   ├── ingestion.py                # JSON chunk → Qdrant pipeline
+│   ├── query_planner.py            # Multi-facet retrieval planning
+│   ├── llm.py                      # LLM & embedding adapters (OpenAI/Gemini/DeepSeek)
+│   ├── evidence_gate.py            # Coverage assessment & entity filtering
+│   ├── evidence_checker.py         # LLM-based evidence validation
+│   ├── answer_synthesizer.py       # Dynamic prompt building
+│   ├── post_verifier.py            # Answer quality verification
+│   ├── input_normalizer.py         # Vietnamese text normalization
+│   ├── entity_resolver.py          # Drug/condition entity linking
+│   ├── entity_merger.py            # Merge resolved entities
+│   ├── citations.py                # Citation dedup & formatting
+│   ├── config.py                   # Settings (Pydantic + .env)
+│   ├── text.py                     # Mojibake repair, accent fold, normalize
+│   └── cli.py                      # CLI ingestion tool
+│
+├── frontend/                       # React SPA
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── features/chat/          # ChatThread, MessageBubble, Composer, hooks
+│   │   ├── components/             # UI primitives (Button, Card, Badge, Input...)
+│   │   ├── pages/                  # Page-level components
+│   │   └── context/               # Auth, Theme, Language, Toast
+│   ├── package.json
+│   └── vite.config.js
+│
+├── data/
+│   ├── chunked/
+│   │   ├── longchau_ingredients_chunked/   # 600+ hoạt chất dược
+│   │   ├── thuoc_long_chau_chunked/        # Sản phẩm thuốc Long Châu
+│   │   ├── tpcn_longchau_chunked/          # Thực phẩm chức năng
+│   │   └── pharmacity_chunked/             # Bệnh lý & sức khỏe tổng quát
+│   └── idf_weights.json                   # IDF weights cho sparse vector
+│
+├── evals/                          # RAGAS evaluation suite
+├── tests/                          # Unit & integration tests
+├── docs/superpowers/               # Architecture & design specs
 ├── requirements.txt
-└── pytest.ini
+└── SETUP.md                        # Hướng dẫn cài đặt chi tiết
 ```
 
 ---
 
-## Kiến trúc tổng thể / システムアーキテクチャ
-
-### Luồng tư vấn y tế / 医療相談フロー
+## Pipeline xử lý (16 bước)
 
 ```
-POST /chat
-  → Validate request           リクエスト検証
-  → Safety pre-check           安全チェック（緊急症状 → 即時応答）
-  → Multi-label intent router  マルチインテント分類
-  → Build retrieval plan       検索プラン構築
-  → Embed query (local E5)     クエリ埋め込み（ローカルモデル）
-  → Qdrant hybrid retrieval    ハイブリッド検索 + リランキング
-  → Evidence sufficiency gate  証拠十分性チェック
-  → Web retrieval (whitelist)  Web補足検索（ホワイトリスト）
-  → LLM generate answer        LLM回答生成
-  → Citation completeness      引用完全性チェック
-  → Structured JSON response   構造化JSONレスポンス
+POST /chat hoặc /chat/stream
+  ↓
+  1.  Validate request (Pydantic, max 16 000 ký tự)
+  2.  Safety pre-check  →  nếu khẩn cấp: trả ngay emergency response
+  3.  Input normalization (accent fold, mojibake repair)
+  4.  Multi-intent router  →  rule-based + LLM optional
+  5.  Entity resolution  (drug / condition linking, alias matching)
+  6.  Entity merging
+  7.  Query planning  (multi-facet, decompose intent → preferred fields)
+  8.  Embed query  (local E5, 768-dim)
+  9.  Qdrant hybrid retrieval  (dense + sparse RRF + trust-tier rerank)
+  10. Evidence gate  (coverage: complete / usable_partial / weak_partial / insufficient / conflicting)
+  11. Web retrieval  (whitelist-only, khi coverage < usable_partial)
+  12. Evidence filter  (entity + field matching)
+  13. Citation dedup & formatting
+  14. LLM answer synthesis  (dynamic prompt theo coverage status)
+  15. Post-verification  (hallucination check, high-risk advice check)
+  16. Final response  →  JSON hoặc SSE stream
 ```
 
-### Luồng phân tích kho hàng / 在庫分析フロー
+---
 
-```
-POST /api/chat (store_database route)
-  → LLM Router phân loại câu hỏi về kho  在庫関連質問の検出
-  → GPT sinh QueryPlan (SQL + chart config)  SQLと図設定の自動生成
-  → SQLAlchemy execute trên drug-warehouse.db  SQLite実行
-  → need_chart=true: Matplotlib render → base64 PNG  グラフ描画
-  → need_chart=false: GPT tổng hợp text answer  テキスト回答生成
-  → JSON response (answer + image)
-```
+## Intent labels
 
-### Intent labels / インテント一覧
-
-| Intent | Mô tả / 説明 | Risk / リスク |
+| Intent | Mô tả | Risk |
 |---|---|---|
-| `drug_identity` | Tên thuốc, hoạt chất / 薬名・有効成分 | LOW |
-| `indication` | Công dụng, chỉ định / 適応症・用途 | LOW |
-| `dosage` | Liều lượng, cách dùng / 用量・用法 | MEDIUM–HIGH |
-| `interaction` | Tương tác thuốc / 薬物相互作用 | HIGH |
-| `contraindication` | Chống chỉ định / 禁忌 | HIGH |
-| `pregnancy_lactation` | Mang thai, cho con bú / 妊娠・授乳 | HIGH |
-| `pediatric_elderly` | Trẻ em, người cao tuổi / 小児・高齢者 | HIGH |
-| `disease_context` | Bối cảnh bệnh lý / 病態背景 | MEDIUM |
-| `symptom_triage` | Phân loại triệu chứng / 症状トリアージ | MEDIUM |
-| `general_health` | Kiến thức y tế chung / 一般医療知識 | LOW |
-| `emergency` | Triệu chứng khẩn cấp / 緊急症状 | URGENT |
-| `unsupported` | Ngoài phạm vi y tế / 医療範囲外 | — |
+| `emergency` | Triệu chứng khẩn cấp | URGENT |
+| `interaction` | Tương tác thuốc | HIGH |
+| `contraindication` | Chống chỉ định | HIGH |
+| `pregnancy_lactation` | Mang thai, cho con bú | HIGH |
+| `overdose` | Quá liều & xử trí | HIGH |
+| `adverse_effect` | Tác dụng phụ | MEDIUM |
+| `careful` | Thận trọng khi dùng | MEDIUM |
+| `dosage` | Liều lượng & cách dùng | MEDIUM–HIGH |
+| `pediatric_elderly` | Trẻ em, người cao tuổi | HIGH |
+| `disease_context` | Bối cảnh bệnh lý | MEDIUM |
+| `symptom_triage` | Phân loại triệu chứng | MEDIUM |
+| `indication` | Công dụng, chỉ định | LOW |
+| `drug_identity` | Tên thuốc, hoạt chất | LOW |
+| `general_health` | Kiến thức y tế chung | LOW |
+| `unsupported` | Ngoài phạm vi y tế | — |
 
 ---
 
-## Cài đặt / セットアップ
+## API Reference
 
-### Yêu cầu / 前提条件
+### `POST /chat`
 
-- Python 3.11+
-- Node.js 18+
-- Qdrant đang chạy / Qdrant起動済み (`docker run -p 6333:6333 qdrant/qdrant`)
-- API key: OpenAI và/hoặc Google AI Studio / OpenAIまたはGoogle AI StudioのAPIキー
-
-### 1. Clone và cấu hình / クローンと設定
-
-```bash
-git clone <repo-url>
-cd MedChat_Agent
-```
-
-Tạo file `.env` ở thư mục gốc / ルートディレクトリに `.env` を作成:
-
-```dotenv
-# LLM
-OPENAI_API_KEY=sk-...
-GEMINI_API_KEY=AIza...          # tùy chọn / オプション（フォールバック用）
-
-# Embedding (local, không cần key / ローカル実行、APIキー不要)
-EMBEDDING_MODEL=intfloat/multilingual-e5-base
-
-# Qdrant
-QDRANT_URL=http://localhost:6333
-QDRANT_API_KEY=                 # để trống nếu dùng local / ローカル使用時は空白
-QDRANT_COLLECTION=pharmacy_chunks
-
-# Web search (tùy chọn / オプション)
-WEB_SEARCH_PROVIDER=tavily      # hoặc generic / またはgeneric
-WEB_SEARCH_ENDPOINT=https://api.tavily.com/search
-WEB_SEARCH_API_KEY=tvly-...
-```
-
-### 2. Cài backend core / コアバックエンドのインストール
-
-```bash
-pip install -r requirements.txt
-python -m playwright install chromium   # chỉ cần cho WebDemo / WebDemoのみ必要
-```
-
-### 3. Nạp dữ liệu vào Qdrant / データのQdrantへの投入
-
-```bash
-# Qua CLI / CLIから
-python -m core.cli --path data/chunks
-
-# Hoặc qua API / またはAPIから（サーバー起動後）
-curl -X POST http://localhost:8000/ingest
-```
-
-### 4. Cài frontend (WebDemo) / フロントエンドのインストール
-
-```bash
-cd WebChatBot-DS/frontend
-npm install
-```
-
----
-
-## Chạy / 起動方法
-
-### Core backend (port 8000)
-
-```bash
-uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
-```
-
-### WebDemo backend (port 8000)
-
-```bash
-cd WebChatBot-DS/backend
-python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-```
-
-Chờ log / 起動完了ログ: `RouterPipeline đã sẵn sàng.`
-
-### Frontend (port 5173)
-
-```bash
-cd WebChatBot-DS/frontend
-npm run dev
-```
-
-Mở trình duyệt / ブラウザで開く: [http://localhost:5173](http://localhost:5173)
-
----
-
-## API Endpoints
-
-### Core backend
-
-| Method | Endpoint | Mô tả / 説明 |
-|---|---|---|
-| GET | `/health` | Health check / ヘルスチェック |
-| POST | `/chat` | Tư vấn y tế / 医療相談（回答＋引用＋リスク） |
-| POST | `/ingest` | Nạp JSON chunks vào Qdrant / データ投入 |
-| GET | `/sources/status` | Trạng thái collection / コレクション状態確認 |
-
-**Request `POST /chat`:**
+**Request**
 ```json
 {
   "message": "Tôi đang uống warfarin, có dùng ibuprofen được không?",
+  "conversation_id": null,
   "user_context": {
     "age": 67,
+    "sex": "male",
     "pregnancy_status": "not_pregnant",
-    "conditions": ["rung nhĩ"]
+    "conditions": ["rung nhĩ"],
+    "current_medications": ["warfarin"],
+    "allergies": []
+  },
+  "preferences": {
+    "language": "vi",
+    "audience": "general",
+    "include_technical_detail": false
   },
   "retrieval_options": {
     "allow_web": true,
-    "qdrant_search": true
+    "qdrant_search": true,
+    "max_sources": 8
   }
 }
 ```
 
-**Response `POST /chat`:**
+**Response**
 ```json
 {
   "answer": "Warfarin và ibuprofen có tương tác nguy hiểm...",
@@ -283,43 +187,48 @@ Mở trình duyệt / ブラウザで開く: [http://localhost:5173](http://loca
   ],
   "intents": ["interaction", "contraindication"],
   "risk_level": "high",
-  "evidence_status": "sufficient",
+  "evidence_status": "complete",
   "warnings": [],
-  "confidence": "medium",
+  "confidence": "high",
   "requires_professional_advice": true
 }
 ```
 
-### WebDemo backend
+### `POST /chat/stream`
 
-| Method | Endpoint | Mô tả / 説明 |
+Cùng request schema với `/chat`. Response là Server-Sent Events:
+
+```
+data: {"token": "Warfarin"}
+data: {"token": " và"}
+...
+data: {"done": true, "metadata": {...}}
+```
+
+### Các endpoint khác
+
+| Method | Endpoint | Mô tả |
 |---|---|---|
-| GET | `/health` | Health check / ヘルスチェック |
-| POST | `/api/chat` | Gửi tin nhắn (y tế hoặc kho hàng) / メッセージ送信（医療または在庫） |
-| GET | `/api/chat/history/{sessionId}` | Lịch sử chat / チャット履歴取得 |
-| GET | `/api/chat/sessions` | Danh sách sessions / セッション一覧 |
-| DELETE | `/api/chat/sessions/{sessionId}` | Xóa session / セッション削除 |
-
-**Request `POST /api/chat`:**
-```json
-{ "session_id": "uuid-string", "message": "Vẽ biểu đồ top 5 thuốc bán chạy nhất" }
-```
-
-**Response khi có biểu đồ / グラフあり時のレスポンス:**
-```json
-{
-  "answer": "**Top 5 thuốc bán chạy nhất**\n\n| Thuốc | Doanh thu |...",
-  "sources": ["Database"],
-  "is_image": true,
-  "image": "data:image/png;base64,..."
-}
-```
+| GET | `/health` | Health check |
+| POST | `/ingest` | Nạp JSON chunks vào Qdrant |
+| GET | `/sources/status` | Trạng thái collection Qdrant |
 
 ---
 
-## Format dữ liệu chunk (Ingestion) / チャンクデータ形式
+## Trust tiers
 
-`data/chunks/` 以下の各JSONファイルは、チャンクオブジェクトの配列を含みます:
+| Tier | Ví dụ nguồn | Mức ưu tiên |
+|---|---|---|
+| `regulatory` | FDA, DailyMed, EMA, Bộ Y tế VN | Cao nhất |
+| `clinical_reference` | WHO, PubMed, medicines.org.uk | Cao |
+| `local_curated` | Long Châu, Pharmacity corpus | Trung bình |
+| `web_whitelisted` | Domain y tế trong whitelist | Thấp |
+
+---
+
+## Format dữ liệu ingestion
+
+Mỗi file JSON trong `data/chunked/*/` là mảng chunk:
 
 ```json
 [
@@ -329,39 +238,28 @@ Mở trình duyệt / ブラウザで開く: [http://localhost:5173](http://loca
       "name": "Abacavir",
       "id": "abacavir",
       "url": "https://nhathuoclongchau.com.vn/thanh-phan/abacavir",
-      "category": "Dược chất LC",
-      "type": "Dược chất",
       "source": "Dược chất Long Châu",
       "field": "indication",
+      "trust_tier": "local_curated",
+      "source_family": "longchau_ingredients",
       "chunk_index": 0
     }
   }
 ]
 ```
 
-Các thư mục corpus được hỗ trợ / サポートされているコーパスディレクトリ:
+**Các corpus được hỗ trợ:**
 
-| Thư mục / ディレクトリ | Nội dung / 内容 |
+| Thư mục | Nội dung |
 |---|---|
-| `longchau_ingredients_chunked` | Hoạt chất và dược chất / 有効成分・薬物成分 |
-| `thuoc_long_chau_chunked` | Sản phẩm thuốc Long Châu / Long Châu薬品製品 |
-| `tpcn_longchau_chunked` | Thực phẩm chức năng / 機能性食品 |
-| `pharmacity_chunked` | Bệnh lý và chủ đề sức khỏe / 疾患・健康トピック |
+| `longchau_ingredients_chunked` | Hoạt chất & dược chất (600+) |
+| `thuoc_long_chau_chunked` | Sản phẩm thuốc Long Châu |
+| `tpcn_longchau_chunked` | Thực phẩm chức năng |
+| `pharmacity_chunked` | Bệnh lý & chủ đề sức khỏe |
 
 ---
 
-## Trust tiers / 信頼度階層
-
-| Tier | Nguồn / 信頼元 | Ví dụ / 例 |
-|---|---|---|
-| `regulatory` | Cơ quan quản lý dược / 規制当局 | FDA, DailyMed, EMA, MOH VN |
-| `clinical_reference` | Tài liệu lâm sàng / 臨床参考文献 | WHO, PubMed, medicines.org.uk |
-| `local_curated` | Corpus JSON cục bộ / ローカルコーパス | Long Châu, Pharmacity |
-| `web_whitelisted` | Web nguồn uy tín khác / その他承認済みWeb | ホワイトリスト内ドメイン |
-
----
-
-## Chạy tests / テスト実行
+## Chạy tests
 
 ```bash
 pytest tests/ -v
@@ -369,22 +267,14 @@ pytest tests/ -v
 
 ---
 
-## Lưu ý / 注意事項
+## Lưu ý vận hành
 
-- Session history trong WebDemo lưu **in-memory** — mất khi restart server  
-  WebDemoのセッション履歴は**メモリ上**に保存されます — サーバー再起動時に消去されます
+- Mô hình embedding chạy **local** sau lần tải đầu tiên, không cần API key ngoài.
+- CORS mặc định chỉ cho phép `localhost:5173` — cần cập nhật khi deploy production.
+- Ingestion tự động **skip chunk trùng lặp** (kiểm tra ID trước khi embed).
+- Chunk bị lỗi encoding không thể sửa sẽ bị bỏ qua và ghi vào ingestion report.
+- Cần cập nhật `WHITELIST_DOMAINS` trong `.env` để thêm/bớt domain web search.
 
-- Mô hình embedding chạy **local** (offline sau lần tải đầu tiên), không cần gọi API ngoài  
-  埋め込みモデルは**ローカル実行**（初回ダウンロード後はオフライン対応）、外部API呼び出し不要
+---
 
-- CORS trong WebDemo chỉ cho phép `localhost:5173`, cần cập nhật khi deploy  
-  WebDemoのCORSは`localhost:5173`のみ許可 — デプロイ時は設定変更が必要
-
-- Để đổi backend URL cho frontend: tạo `WebChatBot-DS/frontend/.env.local` với `VITE_API_URL=http://...`  
-  フロントエンドのバックエンドURL変更: `WebChatBot-DS/frontend/.env.local` に `VITE_API_URL=http://...` を追加
-
-- Ingestion tự động skip chunk trùng lặp (kiểm tra ID trước khi embed)  
-  データ投入時、重複チャンクは自動スキップ（埋め込み前にID照合）
-
-- Chunk bị lỗi encoding không thể sửa sẽ bị bỏ qua và ghi vào ingestion report  
-  修復不可能なエンコーディングエラーのチャンクはスキップし、投入レポートに記録
+> Xem hướng dẫn cài đặt chi tiết tại **[Setup_and_run.md](Setup_and_run.md)**.
